@@ -75,3 +75,12 @@ VVPSD	|	ADJD
 VVPSS	|	NN
 
 For punctuation symbols ($\_), the appropriate STTS tag $., $, or $( is determined based on the surface form of the token. In all other cases, the replacement is independent of the particular words and contexts. There is no original POS annotation available for 36 tokens from 3 sentences, hence, the correct STTS tags for these tokens were added manually.
+
+## DTA Example
+
+Example sentence from the Early New High German theological text *Pia Desideria* by Philipp Jacob Spener from 1676 with topological field annotations:
+
+![Complex DTA Example Sentence](/img/DTA_sent.png)
+
+*`So it is the question whether it would not be adequate at this time that - in absence of that meeting - Christian preachers themselves faithfully reflect on these important things and about what would be beneficial to the Church of God by writing to each other as well as through public printing, so that these thoughts become known to those who are concerned.'*
+
