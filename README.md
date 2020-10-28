@@ -1,1 +1,1 @@
-# latech2020
+# Automatic Topological Field Identification in (Historical) German Texts
