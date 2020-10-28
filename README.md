@@ -76,6 +76,50 @@ VVPSS	|	NN
 
 For punctuation symbols ($\_), the appropriate STTS tag $., $, or $( is determined based on the surface form of the token. In all other cases, the replacement is independent of the particular words and contexts. There is no original POS annotation available for 36 tokens from 3 sentences, hence, the correct STTS tags for these tokens were added manually.
 
+## Training Data Preparation
+
+The Berkeley parser (Petrov et al., 2006) requires the training data to be in a standard treebank format, which is not fulfilled by the topological field data, when the POS tags are taken as input text and word forms are removed. Therefore, the Tüba-D/Z training data in the paper is automatically modified to match the input format of the parser. For example:
+
+*Freudenthal wollte gestern nichts dazu sagen, ob bei ihren Prüfungen ihr etwas aufgefallen sei.*
+
+`Freudenthal did not want to say anything yesterday about whether she had noticed anything during her examinations.'
+
+*Original:*
+```
+(VF NE)
+(LK VMFIN)
+(MF ADV PIS PAV)
+(VC VVINF)
+COMMA
+(NF
+  (C KOUS)
+  (MF APPR PPOSAT NN PPER PIS)
+  (VC VVPP VAFIN))
+PUNCT
+```
+
+*Modified:*
+```
+(S
+  (VF (OTH NE))
+  (LK VMFIN)
+  (MF (OTH ADV) (OTH PIS) (OTH PAV))
+  (VC VVINF)
+  (OTH COMMA)
+  (NF
+    (C KOUS)
+    (MF
+       (OTH APPR)
+       (OTH PPOSAT)
+       (OTH NN)
+       (OTH PPER)
+       (OTH PIS))
+    (VC (VC VVPP) (VC VAFIN)))
+  (OTH PUNCT))
+```
+
+At the top of the tree, a sentence node S is added, which also spans over non-annotated tokens like punctuation or fragments. In addition, intermediate pre-terminal nodes are inserted to ensure that each pre-terminal corresponds to exactly one terminal symbol as it would be the case with word forms and POS tags in a standard syntax tree. While for sentence brackets the bracket label (here: LK, C or VC) is repeated if necessary, for the other fields the artificial label OTH is introduced. Since originally most topological fields do not exhibit any internal structure, the insertion of intermediate nodes, as a side effect, reduces the amount of rules the parser has to learn, which could improve grammar coverage as observed by Becker and Frank (2002).
+
 ## DTA Example
 
 Example sentence from the Early New High German theological text *Pia Desideria* by Philipp Jacob Spener from 1676 with topological field annotations:
