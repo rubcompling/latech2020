@@ -84,3 +84,8 @@ Example sentence from the Early New High German theological text *Pia Desideria*
 
 *`So it is the question whether it would not be adequate at this time that - in absence of that meeting - Christian preachers themselves faithfully reflect on these important things and about what would be beneficial to the Church of God by writing to each other as well as through public printing, so that these thoughts become known to those who are concerned.'*
 
+## DTA Development over Time
+
+Evaluation results for the different genres in the DTA sample over time:
+
+![Evaluation results for the DTA over time](/img/dta_fscore_time.png)
