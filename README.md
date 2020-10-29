@@ -93,7 +93,7 @@ For punctuation symbols ($\_), the appropriate STTS tag $., $, or $( is determin
 
 ### Training Data Preparation
 
-The Berkeley parser (Petrov et al., 2006) requires the training data to be in a standard treebank format, which is not fulfilled by the topological field data, when the POS tags are taken as input text and word forms are removed. Therefore, the Tüba-D/Z training data in the paper is automatically modified to match the input format of the parser. For example:
+The Berkeley parser (Petrov et al., 2006) requires the training data to be in a standard treebank format, which is not fulfilled by the topological field data, when the POS tags are taken as input text and word forms are removed. Therefore,  in the paper the Tüba-D/Z training data (Telljohann et al., 2015) is automatically modified to match the input format of the parser. For example:
 
 *Freudenthal wollte gestern nichts dazu sagen, ob bei ihren Prüfungen ihr etwas aufgefallen sei.*
 
@@ -148,3 +148,19 @@ Example sentence from the Early New High German theological text *Pia Desideria*
 Evaluation results for the different genres in the DTA sample over time:
 
 ![Evaluation results for the DTA over time](/img/dta_fscore_time.png)
+
+## References
+
+BBAW. 2019. Deutsches Textarchiv. Grundlage für ein Referenzkorpus der neuhochdeutschen Sprache. Berlin-Brandenburgische Akademie der Wissenschaften; http://www.deutschestextarchiv.de/.
+
+Markus Becker and Anette Frank. 2002. A stochastic topological parser for German. In *COLING 2002: The 19th International Conference on Computational Linguistics.*
+
+Marco Coniglio, Karin Donhauser, and Eva Schlachter. 2014. HIPKON: Historisches Predigtenkorpus zum Nachfeld (Version 1.0). Humboldt-Universität zu Berlin. SFB 632 Teilprojekt B4.
+
+Katrin Ortmann, Adam Roussel, and Stefanie Dipper. 2019. Evaluating Off-the-Shelf NLP Tools for German. In *Proceedings of the Conference on Natural Language Processing (KONVENS)*, pages212–222.
+
+Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein. 2006. Learning accurate, compact, and interpretable tree annotation. In *Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics*, pages433–440.
+
+Anne Schiller, Simone Teufel, Christine Stöckert, and Christine Thielen. 1999. *Guidelines für das Tagging deutscher Textcorpora mit STTS (Kleines und großes Tagset)*. Retrieved from http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf.
+
+Heike Telljohann, Erhard W. Hinrichs, Sandra Kübler, Heike Zinsmeister, and Kathrin Beck. 2015. *Stylebook for the Tübingen Treebank of Written German (TüBa-D/Z)*. Seminar für Sprachwissenschaft, Universität Tübingen, Tübingen, Germany.
