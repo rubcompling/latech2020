@@ -1,7 +1,22 @@
 # Automatic Topological Field Identification in (Historical) German Texts
 
+This repository contains the manually annotated data sets and additional material for the paper:
 
-## HIPKON POS to STTS mapping
+Katrin Ortmann (to appear). Automatic Topological Field Identification in (Historical) German Texts.
+
+## Gold data
+
+The manually annotated data sets can be found in the `/data/gold/` folder. Included are:
+
+- 462 sentences from five written modern registers from [Ortmann et al. (2019)](https://github.com/rubcompling/konvens2019),
+- 342 sentences from the HIPKON corpus [(Coniglio et al., 2014)](https://doi.org/10.34644/laudatio-dev-yiTKCnMB7CArCQ9CxLhJ)
+- and 414 sentences from the DTA [(German Text Archive; BBAW, 2019)](http://www.deutschestextarchiv.de/).
+
+The data is available in [CoNLL-U Plus](https://universaldependencies.org/ext-format.html) format. The topological field annotations are located in the `TopF` column.
+
+## Additional material
+
+### HIPKON POS to STTS mapping
 
 The following mapping rules are used to derive STTS tags (Schiller et al., 1999) from the customized POS tagset of the HIPKON corpus. 
 
@@ -76,7 +91,7 @@ VVPSS	|	NN
 
 For punctuation symbols ($\_), the appropriate STTS tag $., $, or $( is determined based on the surface form of the token. In all other cases, the replacement is independent of the particular words and contexts. There is no original POS annotation available for 36 tokens from 3 sentences, hence, the correct STTS tags for these tokens were added manually.
 
-## Training Data Preparation
+### Training Data Preparation
 
 The Berkeley parser (Petrov et al., 2006) requires the training data to be in a standard treebank format, which is not fulfilled by the topological field data, when the POS tags are taken as input text and word forms are removed. Therefore, the Tüba-D/Z training data in the paper is automatically modified to match the input format of the parser. For example:
 
@@ -120,15 +135,15 @@ PUNCT
 
 At the top of the tree, a sentence node S is added, which also spans over non-annotated tokens like punctuation or fragments. In addition, intermediate pre-terminal nodes are inserted to ensure that each pre-terminal corresponds to exactly one terminal symbol as it would be the case with word forms and POS tags in a standard syntax tree. While for sentence brackets the bracket label (here: LK, C or VC) is repeated if necessary, for the other fields the artificial label OTH is introduced. Since originally most topological fields do not exhibit any internal structure, the insertion of intermediate nodes, as a side effect, reduces the amount of rules the parser has to learn, which could improve grammar coverage as observed by Becker and Frank (2002).
 
-## DTA Example
+### DTA Example
 
 Example sentence from the Early New High German theological text *Pia Desideria* by Philipp Jacob Spener from 1676 with topological field annotations:
 
 ![Complex DTA Example Sentence](/img/DTA_sent.png)
 
-*`So it is the question whether it would not be adequate at this time that - in absence of that meeting - Christian preachers themselves faithfully reflect on these important things and about what would be beneficial to the Church of God by writing to each other as well as through public printing, so that these thoughts become known to those who are concerned.'*
+*'So it is the question whether it would not be adequate at this time that - in absence of that meeting - Christian preachers themselves faithfully reflect on these important things and about what would be beneficial to the Church of God by writing to each other as well as through public printing, so that these thoughts become known to those who are concerned.'*
 
-## DTA Development over Time
+### DTA Development over Time
 
 Evaluation results for the different genres in the DTA sample over time:
 
