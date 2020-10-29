@@ -1,0 +1,54 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Die gotiſ rîter werdint gebirieft an deme buͦche der lebintigen.
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	41,07	_	SUBJ	_	DDA	_	MAINDECL	_	VF	36v,10; ge-	_	_
+2	gotiſ	_	_	NN	_	_	_	_	_	NP	gotiſ	41,07	_	SUBJ	_	NA	_	MAINDECL	_	VF	36v,10; ge-	_	_
+3	rîter	_	_	NN	_	_	_	_	_	NP	rîter	41,07	_	SUBJ	_	NA	_	MAINDECL	_	VF	36v,10; ge-	_	_
+4	werdint	_	_	VAFIN	_	_	_	_	_	VP	werdint	41,07	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	36v,10; ge-	_	_
+5	gebirieft	_	_	VVPP	_	_	_	_	_	VP	gebirieft	41,07	_	INF	_	VVPP	RE	MAINDECL	RK	RK	36v,10; ge-	_	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	41,08; bi-	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	36v,11; -birieft	UNLINK	KOREF1
+7	deme	_	_	ART	_	_	_	_	_	PP	deme	41,08; bi-	NF	PP-ADV	NEW_	DDA	_	MAINDECL	_	NF	36v,11; -birieft	UNLINK	KOREF1
+8	buͦche	_	_	NN	_	_	_	_	_	PP	buͦche	41,08; bi-	NF	PP-ADV	NEW_	NA	_	MAINDECL	_	NF	36v,11; -birieft	UNLINK	KOREF1
+9	der	_	_	ART	_	_	_	_	_	NP	der	41,08; bi-	NF	ATTR	_NEW	DDA	_	MAINDECL	_	NF	36v,11; -birieft	UNLINK	KOREF1
+10	lebintigen	_	_	NN	_	_	_	_	_	NP	lebintigen	41,08; bi-	NF	ATTR	_NEW	NA	_	MAINDECL	_	NF	36v,11; -birieft	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	41,08; bi-	_	_	_	$_	_	MAINDECL	_	_	36v,11; -birieft	_	_
+
+# sent_id = 2
+# text = die ſchâlche deſ tiefilſ. werdent bigrabin zvͦ den helle wartin.
+1	die	_	_	ART	_	_	_	_	_	NP	die	41,08; bi-	_	SUBJ	_	DDA	_	MAINDECL	_	VF	36v,11; -birieft	_	_
+2	ſchâlche	_	_	NN	_	_	_	_	_	NP	ſchâlche	41,08; bi-	_	SUBJ	_	NA	_	MAINDECL	_	VF	36v,12	_	_
+3	deſ	_	_	ART	_	_	_	_	_	NP	deſ	41,08; bi-	_	ATTR	_	DDA	_	MAINDECL	_	VF	36v,12	_	_
+4	tiefilſ	_	_	NN	_	_	_	_	_	NP	tiefilſ	41,08; bi-	_	ATTR	_	NA	_	MAINDECL	_	VF	36v,12	_	_
+5	.	_	_	$.	_	_	_	_	_	_	.	41,08; bi-	_	_	_	$_	_	MAINDECL	_	_	36v,12	_	_
+6	werdent	_	_	VAFIN	_	_	_	_	_	VP	werdent	41,08; bi-	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	36v,12	_	_
+7	bigrabin	_	_	VVPP	_	_	_	_	_	VP	bigrabin	41,08; bi-	_	INF	_	VVPP	RE	MAINDECL	RK	RK	36v,12	_	_
+8	zvͦ	_	_	APPR	_	_	_	_	_	PP	zvͦ	41,09; -grabin	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	36v,12	UNLINK	_
+9	den	_	_	ART	_	_	_	_	_	PP	den	41,09; -grabin	NF	PP-ADV	GIV-INACTIVE	DDA	_	MAINDECL	_	NF	36v,12	UNLINK	_
+10	helle	_	_	NN	_	_	_	_	_	PP	helle	41,09; -grabin	NF	PP-ADV	GIV-INACTIVE	NA	_	MAINDECL	_	NF	36v,13	UNLINK	_
+11	wartin	_	_	NN	_	_	_	_	_	PP	wartin	41,09; -grabin	NF	PP-ADV	GIV-INACTIVE	NA	_	MAINDECL	_	NF	36v,13	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	41,09; -grabin	_	_	_	$_	_	MAINDECL	_	_	36v,13	_	_
+
+# sent_id = 3
+# text = uon div ſint unſ nu ûz genomin dîſe uierzich tage. in den wir dem leidigem uiant verre wider ſtên ſchulin.
+1	uon	_	_	APPR	_	_	_	_	_	ADVP	uon 	42,08	_	ADVB	_	APPR	_	MAINDECL	_	VF	37v,13	_	_
+2	div	_	_	PDAT	_	_	_	_	_	ADVP	div	42,08	_	ADVB	_	DD	_	MAINDECL	_	VF	37v,13	_	_
+3	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	42,08	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	37v,13	_	_
+4	unſ	_	_	PPER	_	_	_	_	_	NP	unſ	42,08	_	IO-DAT	_	PPER	_	MAINDECL	_	MF	37v,13	_	_
+5	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	42,08	_	ADVB	_	ADV	_	MAINDECL	_	MF	37v,13	_	_
+6	ûz	_	_	APPR	_	_	_	_	_	VP	ûz	42,08	_	VZ_PTK	_	APPR	_	MAINDECL	RK	RK	37v,13	_	_
+7	genomin	_	_	VVPP	_	_	_	_	_	VP	genomin	42,08	_	INF	_	VVPP	RE	MAINDECL	RK	RK	37v,13	_	_
+8	dîſe	_	_	PDAT	_	_	_	_	_	NP	dîſe	42,08	NF	SUBJ	ACC-ABSTR-UNUSED	DD	_	MAINDECL	_	NF	37v,13	UNLINK	KOREF1-REL
+9	uierzich	_	_	ADJA	_	_	_	_	_	NP	uierzich	42,08	NF	SUBJ	ACC-ABSTR-UNUSED	ADJO	_	MAINDECL	_	NF	37v,14	UNLINK	KOREF1-REL
+10	tage	_	_	NN	_	_	_	_	_	NP	tage	42,08	NF	SUBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	37v,14	UNLINK	KOREF1-REL
+11	.	_	_	$.	_	_	_	_	_	_	.	42,08	NF	_	_	$_	_	MAINDECL	_	NF	37v,14	UNLINK	_
+12	in	_	_	APPR	_	_	_	_	_	CP	in	42,08	NF	ATTR	_	APPR	_	MAINDECL	LK	NF-LK	37v,14	UNLINK	KOREF2-REL
+13	den	_	_	PRELS	_	_	_	_	_	CP	den	42,08	NF	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	37v,14	UNLINK	KOREF2-REL
+14	wir	_	_	PPER	_	_	_	_	_	CP	wir	42,08	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	37v,14	UNLINK	_
+15	dem	_	_	ART	_	_	_	_	_	CP	dem	42,08	NF	ATTR	_	DDA	_	MAINDECL	_	NF-MF	37v,14	UNLINK	_
+16	leidigem	_	_	ADJA	_	_	_	_	_	CP	leidigem	_	NF	ATTR	_	ADJ	_	MAINDECL	_	NF-MF	37v,14	UNLINK	_
+17	uiant	_	_	NN	_	_	_	_	_	CP	uiant	_	NF	ATTR	_	NA	_	MAINDECL	_	NF-MF	37v,14	UNLINK	_
+18	verre	_	_	ADV	_	_	_	_	_	CP	verre	_	NF	ATTR	_	ADV	_	MAINDECL	_	NF-MF	_	UNLINK	_
+19	wider	_	_	APPR	_	_	_	_	_	CP	wider	_	NF	ATTR	_	APPR	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+20	ſtên	_	_	VVINF	_	_	_	_	_	CP	ſtên	_	NF	ATTR	_	VVINF	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+21	ſchulin	_	_	VMFIN	_	_	_	_	_	CP	ſchulin	_	NF	ATTR	_	VMFIN	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+22	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	_	_	_

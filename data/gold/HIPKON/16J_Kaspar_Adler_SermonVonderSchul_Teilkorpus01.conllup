@@ -1,0 +1,24 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ain ande-rer hat gewallet zuͦn hailigē /
+1	ain	_	_	ART	_	_	_	_	_	NP	ain	_	SUBJ	_	DIA	_	MAINDECL	_	VF	07,05; ande-	_	_
+2	ande-rer	_	_	ADJA	_	_	_	_	_	NP	anderer	_	SUBJ	_	ADJS	_	MAINDECL	_	VF	07,05; ande-	_	_
+3	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	07,06; -rer	_	_
+4	gewallet	_	_	VVPP	_	_	_	_	_	VP	gewallet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	07,06; -rer	_	_
+5	zuͦn	_	_	APPRART	_	_	_	_	_	PP	zuͦn	NF	PP-ADV	_	APPRART	_	MAINDECL	_	NF	07,06; -rer	UNLINK	_
+6	hailigē	_	_	NN	_	_	_	_	_	PP	hailigē	NF	PP-ADV	NEW	NA	_	MAINDECL	_	NF	07,06; -rer	UNLINK	KOREF1
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	07,06; -rer	_	_
+
+# sent_id = 2
+# text = in jnen iſt ſchon abgeſtorben alles / was ſie geluſtet /
+1	in	_	_	APPR	_	_	_	_	_	PP	in	_	PP-ADV	_	APPR	_	MAINDECL	_	VF	09,07; -$enhait	_	_
+2	jnen	_	_	PPER	_	_	_	_	_	PP	jnen	_	PP-ADV	_	PPER	_	MAINDECL	_	VF	09,07; -$enhait	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	09,07; -$enhait	_	_
+4	ſchon	_	_	ADV	_	_	_	_	_	ADVP	ſchon	_	ADVB	_	ADV	_	MAINDECL	_	MF	09,07; -$enhait	_	_
+5	abgeſtorben	_	_	VVPP	_	_	_	_	_	VP	abgeſtorben	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	09,07; -$enhait	_	_
+6	alles	_	_	PIS	_	_	_	_	_	NP	alles	NF	SUBJ	NA	DIS	_	MAINDECL	_	NF	09,07; -$enhait	UNLINK	KOREF1-REL
+7	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	$_	_	MAINDECL	_	NF	09,07; -$enhait	UNLINK	_
+8	was	_	_	PRELS	_	_	_	_	_	CP	was	NF	ATTR	_	PWREL	_	MAINDECL	LK	NF-LK	09,07; -$enhait	UNLINK	KOREF2-REL
+9	ſie	_	_	PPER	_	_	_	_	_	CP	ſie	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	09,07; -$enhait	UNLINK	_
+10	geluſtet	_	_	VVFIN	_	_	_	_	_	CP	geluſtet	NF	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	09,08	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	NF	09,08	_	_

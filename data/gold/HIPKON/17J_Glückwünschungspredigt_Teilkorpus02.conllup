@@ -1,0 +1,164 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = vnd ich will meine luſt ſehen an meinen Feinden.
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL	_	KOORD	16,14	_	_
+2	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	PPER	_	MAINDECL	_	VF	16,14	_	_
+3	will	_	_	VAFIN	_	_	_	_	_	VP	will	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	16,14	_	_
+4	meine	_	_	PPOSAT	_	_	_	_	_	NP	meine	_	DO	_	DPOS	_	MAINDECL	_	MF	16,14	_	_
+5	luſt	_	_	NN	_	_	_	_	_	NP	luſt	_	DO	_	NA	_	MAINDECL	_	MF	16,14	_	_
+6	ſehen	_	_	VVINF	_	_	_	_	_	VP	ſehen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	16,14	_	_
+7	an	_	_	APPR	_	_	_	_	_	PP	an	BGR	PP-DIR	_	APPR	_	MAINDECL	_	NF	16,14	UNLINK	_
+8	meinen	_	_	PPOSAT	_	_	_	_	_	PP	meinen	BGR	PP-DIR	ACC-SIT_	DPOS	_	MAINDECL	_	NF	16,14	UNLINK	_
+9	Feinden	_	_	NN	_	_	_	_	_	PP	Feinden	BGR	PP-DIR	_GIV-INACTIVE	NA	_	MAINDECL	_	NF	16,14	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	16,14	_	_
+
+# sent_id = 2
+# text = Denn alſo hat GOTT ſeine hilff vom Himmel geſendet dem Moſe /
+1	Denn	_	_	KON	_	_	_	_	_	_	Denn	_	_	_	KON	_	MAINDECL	_	KOORD	16,27	_	_
+2	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	16,27	_	_
+3	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	16,28	_	_
+4	GOTT	_	_	NE	_	_	_	_	_	NP	GOTT	_	SUBJ	_	NE	_	MAINDECL	_	MF	16,28	_	_
+5	ſeine	_	_	PPOSAT	_	_	_	_	_	NP	ſeine	_	DO	_	DPOS	_	MAINDECL	_	MF	16,28	_	_
+6	hilff	_	_	NN	_	_	_	_	_	NP	hilff	_	DO	_	NA	_	MAINDECL	_	MF	16,28	_	_
+7	vom	_	_	APPR	_	_	_	_	_	PP	vom	_	PP-ADV	_	APPR	_	MAINDECL	_	MF	16,28	_	_
+8	Himmel	_	_	NN	_	_	_	_	_	PP	Himmel	_	PP-ADV	_	NA	_	MAINDECL	_	MF	16,28	_	_
+9	geſendet	_	_	VVPP	_	_	_	_	_	VP	geſendet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	16,28	_	_
+10	dem	_	_	ART	_	_	_	_	_	NP	dem	NF	IO-DAT	ACC-UNI-USED-X	DDA	_	MAINDECL	_	NF	16,28	UNLINK	KOREF1
+11	Moſe	_	_	NE	_	_	_	_	_	NP	Moſe	NF	IO-DAT	ACC-UNI-USED-X	NE	_	MAINDECL	_	NF	16,28	UNLINK	KOREF1
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	16,28	_	_
+
+# sent_id = 3
+# text = oder wirdt ſich ſehen laſſen zu Sion.
+1	oder	_	_	KON	_	_	_	_	_	_	oder	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	17,29	_	_
+2	wirdt	_	_	VAFIN	_	_	_	_	_	VP	wirdt	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	17,29	_	_
+3	ſich	_	_	PRF	_	_	_	_	_	NP	ſich	_	VZ_RFL	_	PRF	_	MAINDECL-ELLI	_	MF	17,29	_	_
+4	ſehen	_	_	VVINF	_	_	_	_	_	VP	ſehen	NF	INF	_	VVINF	_	MAINDECL-ELLI	RK	RK	17,29	_	_
+5	laſſen	_	_	VMINF	_	_	_	_	_	VP	laſſen	NF	INF	_	VMINF	RE	MAINDECL-ELLI	RK	RK	17,29	_	_
+6	zu	_	_	APPR	_	_	_	_	_	PP	zu	NF	PP-SIT	_	APPR	_	MAINDECL-ELLI	_	NF	17,29	UNLINK	_
+7	Sion	_	_	NN	_	_	_	_	_	PP	Sion	NF	PP-SIT	NEW	NA	_	MAINDECL-ELLI	_	NF	17,29	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	17,29	_	_
+
+# sent_id = 4
+# text = Jm alten Teſtament iſt der fürnembſte Gottesdienſt beſtanden in den Opfferen / welche GOTT die Ertzvaͤtter ge-lehret /
+1	Jm	_	_	APPR	_	_	_	_	_	PP	Jm	_	PP-SIT	_	APPR	_	MAINDECL	_	VF	18,02	_	_
+2	alten	_	_	ADJA	_	_	_	_	_	PP	alten	_	PP-SIT	_	ADJ	_	MAINDECL	_	VF	18,02	_	_
+3	Teſtament	_	_	NN	_	_	_	_	_	PP	Teſtament	_	PP-SIT	_	NA	_	MAINDECL	_	VF	18,02	_	_
+4	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,02	_	_
+5	der	_	_	ART	_	_	_	_	_	NP	der	_	SUBJ	_	DDA	_	MAINDECL	_	MF	18,02	_	_
+6	fürnembſte	_	_	ADJA	_	_	_	_	_	NP	fürnembſte	_	SUBJ	_	ADJ	_	MAINDECL	_	MF	18,02	_	_
+7	Gottesdienſt	_	_	NN	_	_	_	_	_	NP	Gottesdienſt	_	SUBJ	_	NA	_	MAINDECL	_	MF	18,02	_	_
+8	beſtanden	_	_	VVPP	_	_	_	_	_	VP	beſtanden	_	INF	_	VVPP	RE	MAINDECL	RK	RK	18,03; ge-	_	_
+9	in	_	_	APPR	_	_	_	_	_	PP	in	CF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	18,03; ge-	UNLINK	KOREF1-REL
+10	den	_	_	ART	_	_	_	_	_	PP	den	CF	PP-OBJ	_	DDA	_	MAINDECL	_	NF	18,03; ge-	UNLINK	KOREF1-REL
+11	Opfferen	_	_	NN	_	_	_	_	_	PP	Opfferen	CF	PP-OBJ	GIV-ACTIVE	NA	_	MAINDECL	_	NF	18,03; ge-	UNLINK	KOREF1-REL
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	NF	18,03; ge-	UNLINK	_
+13	welche	_	_	PRELS	_	_	_	_	_	CP	welche	_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	18,03; ge-	UNLINK	KOREF2-REL
+14	GOTT	_	_	NE	_	_	_	_	_	CP	GOTT	_	ATTR	_	NE	_	MAINDECL	_	NF-MF	18,03; ge-	UNLINK	_
+15	die	_	_	ART	_	_	_	_	_	CP	die	_	ATTR	_	DDA	_	MAINDECL	_	NF-MF	18,03; ge-	UNLINK	_
+16	Ertzvaͤtter	_	_	NN	_	_	_	_	_	CP	Ertzvaͤtter	_	ATTR	_	NA	_	MAINDECL	_	NF-MF	18,03; ge-	UNLINK	_
+17	ge-lehret	_	_	VVPP	_	_	_	_	_	CP	gelehret	_	ATTR	_	VVPP	_	MAINDECL	RK	NF-RK	18,03; ge-	UNLINK	_
+18	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 5
+# text = vnd vnder jhm muͤſſen ſich beugen die ſtoltzen Herren.
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL	_	KOORD	20,17; -nen	_	_
+2	vnder	_	_	APPR	_	_	_	_	_	PP	vnder	NF	PP-SIT	_	APPR	_	MAINDECL	_	VF	20,18	_	_
+3	jhm	_	_	PPER	_	_	_	_	_	PP	jhm	NF	PP-SIT	_	PPER	_	MAINDECL	_	VF	20,18	_	_
+4	muͤſſen	_	_	VMFIN	_	_	_	_	_	VP	muͤſſen	NF	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	20,18	_	_
+5	ſich	_	_	PRF	_	_	_	_	_	NP	ſich	NF	VZ_RFL	_	PRF	_	MAINDECL	_	MF	20,18	_	_
+6	beugen	_	_	VVINF	_	_	_	_	_	VP	beugen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	20,18	_	_
+7	die	_	_	ART	_	_	_	_	_	NP	die	NF	SUBJ	_	DDA	_	MAINDECL	_	NF	20,18	UNLINK	_
+8	ſtoltzen	_	_	ADJA	_	_	_	_	_	NP	ſtoltzen	NF	SUBJ	GIV-INACTIVE	ADJ	_	MAINDECL	_	NF	20,18	UNLINK	_
+9	Herren	_	_	NN	_	_	_	_	_	NP	Herren	NF	SUBJ	GIV-INACTIVE	NA	_	MAINDECL	_	NF	20,18	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	20,18	_	_
+
+# sent_id = 6
+# text = Sollen ſich nicht verlaſſen auff jhre eigen ſtercke / ge-walt vnd macht /
+1	Sollen	_	_	VMFIN	_	_	_	_	_	VP	Sollen	_	VFIN	_	VMFIN	_	MAINDECL-ELLI	LK	LK	20,30; ge-	_	_
+2	ſich	_	_	PRF	_	_	_	_	_	NP	ſich	_	VZ_RFL	_	PRF	LI	MAINDECL-ELLI	_	MF	20,30; ge-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	NF	_	_	PTKNEG	_	MAINDECL-ELLI	_	MF	20,30; ge-	_	_
+4	verlaſſen	_	_	VVINF	_	_	_	_	_	VP	verlaſſen	NF	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	20,30; ge-	_	_
+5	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	_
+6	jhre	_	_	PPOSAT	_	_	_	_	_	PP	jhre	NF	PP-OBJ	_	DPOS	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	_
+7	eigen	_	_	ADJA	_	_	_	_	_	PP	eigen	NF	PP-OBJ	_	ADJ	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	_
+8	ſtercke	_	_	NN	_	_	_	_	_	PP	ſtercke	NF	PP-OBJ	ACC-ABSTR-USED-X_	NA	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	KOREF1
+9	/	_	_	$,	_	_	_	_	_	PP	/	NF	PP-OBJ	_	$_	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	_
+10	ge-walt	_	_	NN	_	_	_	_	_	PP	gewalt	NF	PP-OBJ	_ACC-ABSTR-USED-X_	NA	_	MAINDECL-ELLI	_	NF	20,30; ge-	UNLINK	_
+11	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PP-OBJ	_	KON	_	MAINDECL-ELLI	_	NF	20,31; -walt	UNLINK	_
+12	macht	_	_	NN	_	_	_	_	_	PP	macht	NF	PP-OBJ	_ACC-ABSTR-USED-X	NA	_	MAINDECL-ELLI	_	NF	20,31; -walt	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	NF	20,31; -walt	_	_
+
+# sent_id = 7
+# text = Du HERR kanſt wol Sieg geben / ohn alle men-ge /
+1	Du	_	_	PPER	_	_	_	_	_	NP	Du	_	SUBJ	_	PPER	_	MAINDECL	_	VF	21,01	_	_
+2	HERR	_	_	NN	_	_	_	_	_	NP	HERR	_	APPOS	_	NA	_	MAINDECL	_	VF	21,01	_	_
+3	kanſt	_	_	VMFIN	_	_	_	_	_	VP	kanſt	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	21,01	_	_
+4	wol	_	_	ADV	_	_	_	_	_	ADVP	wol	_	ADVB	_	ADV	_	MAINDECL	_	MF	21,01	_	_
+5	Sieg	_	_	NN	_	_	_	_	_	NP	Sieg	_	DO	_	NA	_	MAINDECL	_	MF	21,01	_	_
+6	geben	_	_	VVINF	_	_	_	_	_	VP	geben	_	INF	_	VVINF	RE	MAINDECL	RK	RK	21,01	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	21,01	_	_
+8	ohn	_	_	APPR	_	_	_	_	_	PP	ohn	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	21,01	UNLINK	_
+9	alle	_	_	PIAT	_	_	_	_	_	PP	alle	NF	PP-ADV	ACC-ABSTR-UNUSED	DI	_	MAINDECL	_	NF	21,01	UNLINK	_
+10	men-ge	_	_	NN	_	_	_	_	_	PP	menge	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	21,01	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	21,02	_	_
+
+# sent_id = 8
+# text = ein Riſe wirdt nicht errettet durch ſeine groſſe krafft:
+1	ein	_	_	ART	_	_	_	_	_	NP	ein	_	SUBJ	_	DIA	_	MAINDECL	_	VF	21,04	_	_
+2	Riſe	_	_	NN	_	_	_	_	_	NP	Riſe	_	SUBJ	_	NA	_	MAINDECL	_	VF	21,04	_	_
+3	wirdt	_	_	VAFIN	_	_	_	_	_	VP	wirdt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	21,04	_	_
+4	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINDECL	_	MF	21,04	_	_
+5	errettet	_	_	VVPP	_	_	_	_	_	VP	errettet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	21,04	_	_
+6	durch	_	_	APPR	_	_	_	_	_	PP	durch	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	21,04	UNLINK	_
+7	ſeine	_	_	PPOSAT	_	_	_	_	_	PP	ſeine	NF	PP-ADV	ACC-INF_	DPOS	_	MAINDECL	_	NF	21,04	UNLINK	_
+8	groſſe	_	_	ADJA	_	_	_	_	_	PP	groſſe	NF	PP-ADV	_ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	21,04	UNLINK	_
+9	krafft	_	_	NN	_	_	_	_	_	PP	krafft	NF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	21,04	UNLINK	_
+10	:	_	_	$.	_	_	_	_	_	_	:	_	_	_	$_	_	MAINDECL	_	_	21,04	_	_
+
+# sent_id = 9
+# text = vnd Gott hat vns geſchutzet wider die Feind /
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL	_	KOORD	21,10	_	_
+2	Gott	_	_	NE	_	_	_	_	_	NP	Gott	_	SUBJ	_	NE	_	MAINDECL	_	VF	21,10	_	_
+3	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	21,10	_	_
+4	vns	_	_	PPER	_	_	_	_	_	NP	vns	_	DO	_	PPER	_	MAINDECL	_	MF	21,10	_	_
+5	geſchutzet	_	_	VVPP	_	_	_	_	_	VP	geſchutzet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	21,10	_	_
+6	wider	_	_	APPR	_	_	_	_	_	PP	wider	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	21,10	UNLINK	_
+7	die	_	_	ART	_	_	_	_	_	PP	die	NF	PP-ADV	NEW	DDA	_	MAINDECL	_	NF	21,10	UNLINK	KOREF1
+8	Feind	_	_	NN	_	_	_	_	_	PP	Feind	NF	PP-ADV	NEW	NA	_	MAINDECL	_	NF	21,10	UNLINK	KOREF1
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	21,10	_	_
+
+# sent_id = 10
+# text = Darzu werden ſie von S. Paulo vermahnet im 1. Timoth. am 2. da er spricht:
+1	Darzu	_	_	ADV	_	_	_	_	_	ADVP	Darzu	_	ADVB	_	ADV	_	MAINDECL	_	VF	22,01	_	_
+2	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	22,01	_	_
+3	ſie	_	_	PPER	_	_	_	_	_	NP	ſie	_	SUBJ	_	PPER	_	MAINDECL	_	MF	22,01	_	_
+4	von	_	_	APPR	_	_	_	_	_	PP	von	_	PP-AGENS	_	APPR	_	MAINDECL	_	MF	22,01	_	_
+5	S	_	_	NE	_	_	_	_	_	PP	S	_	PP-AGENS	_	NE	_	MAINDECL	_	MF	22,01	_	_
+6	.	_	_	$.	_	_	_	_	_	PP	.	_	PP-AGENS	_	$_	_	MAINDECL	_	MF	22,01	_	_
+7	Paulo	_	_	NE	_	_	_	_	_	PP	Paulo	_	PP-AGENS	_	NE	_	MAINDECL	_	MF	22,01	_	_
+8	vermahnet	_	_	VVPP	_	_	_	_	_	VP	vermahnet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	22,01	_	_
+9	im	_	_	APPR	_	_	_	_	_	PP	im	BGR	PP-SIT	_	APPR	_	MAINDECL	_	NF	22,01	UNLINK	_
+10	1	_	_	ADJA	_	_	_	_	_	PP	1	BGR	PP-SIT	ACC-UNI-UNUSED	ADJO	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+11	.	_	_	ADJA	_	_	_	_	_	PP	.	BGR	PP-SIT	ACC-UNI-UNUSED	ADJO	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+12	Timoth	_	_	NE	_	_	_	_	_	PP	Timoth	BGR	PP-SIT	ACC-UNI-UNUSED	NE	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+13	.	_	_	$.	_	_	_	_	_	PP	.	BGR	PP-SIT	ACC-UNI-UNUSED	$_	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+14	am	_	_	APPR	_	_	_	_	_	PP	am	BGR	PP-SIT	ACC-UNI-UNUSED	APPR	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+15	2	_	_	ADJA	_	_	_	_	_	PP	2	BGR	PP-SIT	ACC-UNI-UNUSED	ADJO	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+16	.	_	_	ADJA	_	_	_	_	_	PP	.	BGR	PP-SIT	ACC-UNI-UNUSED	ADJO	_	MAINDECL	_	NF	22,02	UNLINK	KOREF1-REL
+17	da	_	_	ADV	_	_	_	_	_	CP	da	_	ATTR	_	PTKREL	_	MAINDECL	LK	NF-LK	22,02	_	KOREF2-REL
+18	er	_	_	PPER	_	_	_	_	_	CP	er	_	ATTR	_	PPER	_	MAINDECL	_	NF-MF	22,02	_	_
+19	spricht	_	_	VVFIN	_	_	_	_	_	CP	spricht	_	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	22,02	_	_
+20	:	_	_	$.	_	_	_	_	_	_	:	_	_	_	$_	_	MAINDECL	_	_	22,02	_	_
+
+# sent_id = 11
+# text = vnd werden leben vnter dem ſchatten Belſatzer ſeines Sons /
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	22,21	_	_
+2	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	22,21	_	_
+3	leben	_	_	VVINF	_	_	_	_	_	VP	leben	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	22,21	_	_
+4	vnter	_	_	APPR	_	_	_	_	_	PP	vnter	BGR	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	_
+5	dem	_	_	ART	_	_	_	_	_	PP	dem	BGR	PP-ADV	_	DDA	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	_
+6	ſchatten	_	_	NN	_	_	_	_	_	PP	ſchatten	BGR	PP-ADV	_	NA	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	_
+7	Belſatzer	_	_	NE	_	_	_	_	_	PP	Belſatzer	BGR	PP-ADV	ACC-UNI-USED-X_	NE	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	KOREF1
+8	ſeines	_	_	PPOSAT	_	_	_	_	_	PP	ſeines	BGR	APPOS	_ACC-INF_	DPOS	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	_
+9	Sons	_	_	NN	_	_	_	_	_	PP	Sons	BGR	APPOS	_GIV-INACTIVE	NA	_	MAINDECL-ELLI	_	NF	22,21	UNLINK	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	22,21	_	_

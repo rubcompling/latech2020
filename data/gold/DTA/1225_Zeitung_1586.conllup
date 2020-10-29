@@ -1,0 +1,421 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 2
+# text = Wie es da selbst ein gantz greuͤlichs vnd Erschroͤcklichs / vngewiter entstanden des gleichen vormals nie erhoͤrt wordn ist /
+1	Wie	wie	_	PWAV	_	_	_	_	_	LK	LK
+2	es	es	_	PPER	_	_	_	_	_	_	MF
+3	da	da	_	ADV	_	_	_	_	_	_	MF
+4	selbst	selbst	_	ADV	_	_	_	_	_	_	MF
+5	ein	eine	_	ART	_	_	_	_	_	_	MF
+6	gantz	ganz	_	ADV	_	_	_	_	_	_	MF
+7	greuͤlichs	greulich	_	ADJA	_	_	_	_	_	_	MF
+8	vnd	und	_	KON	_	_	_	_	_	_	MF
+9	Erschroͤcklichs	erschröcklich	_	ADJA	_	_	_	_	_	_	MF
+10	/	/	_	$(	_	_	_	_	_	_	MF
+11	vngewiter	Ungewitter	_	NN	_	_	_	_	_	_	MF
+12	entstanden	entstehen	_	VVPP	_	_	_	_	_	RK	RK
+13	des	d	_	ART	_	_	_	_	_	_	NF-MF
+14	gleichen	gleich	_	NN	_	_	_	_	_	_	NF-MF
+15	vormals	vormals	_	ADV	_	_	_	_	_	_	NF-MF
+16	nie	nie	_	ADV	_	_	_	_	_	_	NF-MF
+17	erhoͤrt	erhören	_	VVPP	_	_	_	_	_	RK	NF-RK
+18	wordn	werden	_	VAPP	_	_	_	_	_	RK	NF-RK
+19	ist	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+20	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = geschehen Anno 1586. den 18. Augustij .
+1	geschehen	geschehen	_	VVPP	_	_	_	_	_	RK	RK
+2	Anno	Anno	_	NN	_	_	_	_	_	_	NF
+3	1586.	1586.	_	CARD	_	_	_	_	_	_	NF
+4	den	d	_	ART	_	_	_	_	_	_	NF
+5	18.	18.	_	ADJA	_	_	_	_	_	_	NF
+6	Augustij	Augustij	_	NN	_	_	_	_	_	_	NF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = SEhr khleglich in der zeit gemelt /
+1	SEhr	sehr	_	ADV	_	_	_	_	_	_	MF
+2	khleglich	kläglich	_	ADJD	_	_	_	_	_	_	MF
+3	in	in	_	APPR	_	_	_	_	_	_	MF
+4	der	d	_	ART	_	_	_	_	_	_	MF
+5	zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+6	gemelt	melden	_	VVPP	_	_	_	_	_	RK	RK
+7	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 3
+# text = Da hat sich der Himmel gestele .
+1	Da	da	_	ADV	_	_	_	_	_	_	VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	sich	sich	_	PRF	_	_	_	_	_	_	MF
+4	der	d	_	ART	_	_	_	_	_	_	MF
+5	Himmel	Himmel	_	NN	_	_	_	_	_	_	MF
+6	gestele	Gestell	_	VVPP	_	_	_	_	_	RK	RK
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 4
+# text = Schroͤcklich / die Windt theten auch web
+1	Schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	_	LV
+2	/	/	_	$(	_	_	_	_	_	_	_
+3	die	d	_	ART	_	_	_	_	_	_	VF
+4	Windt	Wind	_	NN	_	_	_	_	_	_	VF
+5	theten	tun	_	VVFIN	_	_	_	_	_	LK	LK
+6	auch	auch	_	ADV	_	_	_	_	_	_	MF
+7	web	Web	_	PTKVZ	_	_	_	_	_	RK	RK
+
+# sent_id = 6
+# sent_id(TSV) = 4
+# text = Zu dem sach man in lüften / Schweben / Vnter aim vngewiter groß . Sichtbarlichen den Satan Bloß /
+1	Zu	zu	_	APPR	_	_	_	_	_	_	KOORD
+2	dem	d	_	ART	_	_	_	_	_	_	KOORD
+3	sach	Sache	_	VVFIN	_	_	_	_	_	LK	LK
+4	man	man	_	PIS	_	_	_	_	_	_	MF
+5	in	in	_	APPR	_	_	_	_	_	_	MF
+6	lüften	lüften	_	NN	_	_	_	_	_	_	MF
+7	/	/	_	$(	_	_	_	_	_	_	_
+8	Schweben	Schwebe	_	VVINF	_	_	_	_	_	RK	RK
+9	/	/	_	$(	_	_	_	_	_	_	_
+10	Vnter	unter	_	APPR	_	_	_	_	_	_	NF
+11	aim	Aim	_	ART	_	_	_	_	_	_	NF
+12	vngewiter	Ungewitter	_	NN	_	_	_	_	_	_	NF
+13	groß	groß	_	ADJD	_	_	_	_	_	_	NF
+14	.	.	_	$.	_	_	_	_	_	_	NF
+15	Sichtbarlichen	Sichtbarliche	_	ADJD	_	_	_	_	_	_	NF
+16	den	d	_	ART	_	_	_	_	_	_	NF
+17	Satan	Satan	_	NN	_	_	_	_	_	_	NF
+18	Bloß	bloß	_	ADV	_	_	_	_	_	_	NF
+19	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 5
+# text = Auch wie er sich thete befleisen . Villerley schaden zu beweisen / Des manichen Mann hat geschmirtzt .
+1	Auch	auch	_	ADV	_	_	_	_	_	_	LV
+2	wie	wie	_	PWAV	_	_	_	_	_	LK	LK
+3	er	er	_	PPER	_	_	_	_	_	_	MF
+4	sich	sich	_	PRF	_	_	_	_	_	_	MF
+5	thete	tun	_	VVFIN	_	_	_	_	_	RK	RK
+6	befleisen	befleißen	_	VVINF	_	_	_	_	_	RK	RK
+7	.	.	_	$.	_	_	_	_	_	RK	RK
+8	Villerley	vielerlei	_	PIAT	_	_	_	_	_	_	NF
+9	schaden	schaden	_	NN	_	_	_	_	_	_	NF
+10	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+11	beweisen	beweisen	_	VVINF	_	_	_	_	_	RK	NF-RK
+12	/	/	_	$(	_	_	_	_	_	_	NF
+13	Des	d	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+14	manichen	Maniechen	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+15	Mann	Mann	_	NN	_	_	_	_	_	_	NF-NF-MF
+16	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+17	geschmirtzt	geschmiert	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 7
+# text = Er hat vil Heüser vmb gesturtzt Jn der Stat Ghendt / Nache vnd feren .
+1	Er	er	_	PPER	_	_	_	_	_	_	VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	vil	viel	_	ADV	_	_	_	_	_	_	MF
+4	Heüser	heiser	_	NN	_	_	_	_	_	_	MF
+5	vmb	um	_	PTKVZ	_	_	_	_	_	RK	RK
+6	gesturtzt	stürzen	_	VVPP	_	_	_	_	_	RK	RK
+7	Jn	in	_	APPR	_	_	_	_	_	_	NF
+8	der	d	_	ART	_	_	_	_	_	_	NF
+9	Stat	Staat	_	NN	_	_	_	_	_	_	NF
+10	Ghendt	Ghendt	_	NE	_	_	_	_	_	_	NF
+11	/	/	_	$(	_	_	_	_	_	_	NF
+12	Nache	nagen	_	ADJD	_	_	_	_	_	_	NF
+13	vnd	und	_	KON	_	_	_	_	_	_	NF
+14	feren	Feren	_	ADJD	_	_	_	_	_	_	NF
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 8
+# text = Nach sollichem ließ Er sich hoͤrren / Jn aim Castel /
+1	Nach	nach	_	APPR	_	_	_	_	_	_	VF
+2	sollichem	solelich	_	NN	_	_	_	_	_	_	VF
+3	ließ	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+4	Er	er	_	PPER	_	_	_	_	_	_	MF
+5	sich	sich	_	PRF	_	_	_	_	_	_	MF
+6	hoͤrren	hören	_	VVINF	_	_	_	_	_	RK	RK
+7	/	/	_	$(	_	_	_	_	_	_	_
+8	Jn	in	_	APPR	_	_	_	_	_	_	NF
+9	aim	Aim	_	ART	_	_	_	_	_	_	NF
+10	Castel	Castel	_	NN	_	_	_	_	_	_	NF
+11	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 8
+# text = da griff Er ann. Gar schroͤcklich ainen Edelman /
+1	da	da	_	ADV	_	_	_	_	_	_	VF
+2	griff	greifen	_	VVFIN	_	_	_	_	_	LK	LK
+3	Er	er	_	PPER	_	_	_	_	_	_	MF
+4	ann.	Ann.	_	PTKVZ	_	_	_	_	_	RK	RK
+5	Gar	gar	_	ADV	_	_	_	_	_	_	NF
+6	schroͤcklich	schrecklich	_	ADJD	_	_	_	_	_	_	NF
+7	ainen	eine	_	ART	_	_	_	_	_	_	NF
+8	Edelman	Edelmann	_	NN	_	_	_	_	_	_	NF
+9	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 8
+# text = Auß seinem Leib / vil stückh Er Riß .
+1	Auß	aus	_	APPR	_	_	_	_	_	_	MF
+2	seinem	seine	_	PPOSAT	_	_	_	_	_	_	MF
+3	Leib	Leib	_	NN	_	_	_	_	_	_	MF
+4	/	/	_	$(	_	_	_	_	_	_	MF
+5	vil	viel	_	PIAT	_	_	_	_	_	_	MF
+6	stückh	Stück	_	NN	_	_	_	_	_	_	MF
+7	Er	er	_	PPER	_	_	_	_	_	_	MF
+8	Riß	Riß	_	VVFIN	_	_	_	_	_	RK	RK
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 9
+# text = Wunderlich ists / doch gleichwol gwiß / Das er ain klaines Heuͤßlein fein . Deß aines Schuchmachers thet sein / Hinweckh trueg / mit sein macht enteckht .
+1	Wunderlich	wunderlich	_	ADJD	_	_	_	_	_	_	VF
+2	ists	sein\_es	_	VAFIN	_	_	_	_	_	LK	LK
+3	/	/	_	$(	_	_	_	_	_	_	_
+4	doch	doch	_	ADV	_	_	_	_	_	_	MF
+5	gleichwol	gleichwohl	_	ADV	_	_	_	_	_	_	MF
+6	gwiß	gewiß	_	ADV	_	_	_	_	_	_	MF
+7	/	/	_	$(	_	_	_	_	_	_	_
+8	Das	d	_	KOUS	_	_	_	_	_	LK	NF-LK
+9	er	er	_	PPER	_	_	_	_	_	_	NF-MF
+10	ain	eine	_	ART	_	_	_	_	_	_	NF-MF
+11	klaines	klein	_	ADJA	_	_	_	_	_	_	NF-MF
+12	Heuͤßlein	Heüßlein	_	NN	_	_	_	_	_	_	NF-MF
+13	fein	fein	_	ADJD	_	_	_	_	_	_	NF-MF
+14	.	.	_	$.	_	_	_	_	_	_	NF-MF
+15	Deß	d	_	PRELS	_	_	_	_	_	LK	NF-MF-LK
+16	aines	eine	_	ART	_	_	_	_	_	_	NF-MF-MF
+17	Schuchmachers	Schachmacher	_	NN	_	_	_	_	_	_	NF-MF-MF
+18	thet	tun	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+19	sein	sein	_	VAINF	_	_	_	_	_	RK	NF-MF-RK
+20	/	/	_	$(	_	_	_	_	_	_	NF-MF
+21	Hinweckh	hinweg	_	PTKVZ	_	_	_	_	_	_	NF-MF
+22	trueg	trügen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+23	/	/	_	$(	_	_	_	_	_	_	NF
+24	mit	mit	_	APPR	_	_	_	_	_	_	NF-NF-MF
+25	sein	sein	_	PPOSAT	_	_	_	_	_	_	NF-NF-MF
+26	macht	machen	_	NN	_	_	_	_	_	_	NF-NF-MF
+27	enteckht	entdecken	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+28	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 11
+# text = Ein Alte Fraw darmit erschreckt / Das man sie hat fir Thot vmbzogen .
+1	Ein	eine	_	ART	_	_	_	_	_	_	MF
+2	Alte	alt	_	ADJA	_	_	_	_	_	_	MF
+3	Fraw	Frau	_	NN	_	_	_	_	_	_	MF
+4	darmit	damit	_	PAV	_	_	_	_	_	_	MF
+5	erschreckt	erschrecken	_	VVPP	_	_	_	_	_	RK	RK
+6	/	/	_	$(	_	_	_	_	_	_	_
+7	Das	die	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	man	man	_	PIS	_	_	_	_	_	_	NF-MF
+9	sie	sie	_	PPER	_	_	_	_	_	_	NF-MF
+10	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+11	fir	für	_	APPR	_	_	_	_	_	_	NF-MF
+12	Thot	Tod	_	NN	_	_	_	_	_	_	NF-MF
+13	vmbzogen	umziehen	_	VVPP	_	_	_	_	_	RK	NF-RK
+14	.	.	_	$.	_	_	_	_	_	RK	RK
+
+# sent_id = 14
+# sent_id(TSV) = 12
+# text = Ferner ist der Boͤß Geist geflogen / Mit lautem Getuͤmel ohn trawren / Auff S. Peters Kirch
+1	Ferner	ferner	_	ADV	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	der	d	_	ART	_	_	_	_	_	_	MF
+4	Boͤß	böse	_	ADJA	_	_	_	_	_	_	MF
+5	Geist	Geist	_	NN	_	_	_	_	_	_	MF
+6	geflogen	fliegen	_	VVPP	_	_	_	_	_	RK	RK
+7	/	/	_	$(	_	_	_	_	_	_	_
+8	Mit	mit	_	APPR	_	_	_	_	_	_	NF
+9	lautem	laut	_	ADJA	_	_	_	_	_	_	NF
+10	Getuͤmel	Getümmel	_	NN	_	_	_	_	_	_	NF
+11	ohn	ohne	_	APPR	_	_	_	_	_	_	NF
+12	trawren	Trauern	_	NN	_	_	_	_	_	_	NF
+13	/	/	_	$(	_	_	_	_	_	_	NF
+14	Auff	auf	_	APPR	_	_	_	_	_	_	NF
+15	S.	S.	_	NN	_	_	_	_	_	_	NF
+16	Peters	Peters	_	NE	_	_	_	_	_	_	NF
+17	Kirch	Kirche	_	NN	_	_	_	_	_	_	NF
+
+# sent_id = 15
+# sent_id(TSV) = 12
+# text = von den Maurẽ . Stücker Riß / vnd Rab geworffen hat /
+1	von	von	_	APPR	_	_	_	_	_	_	MF
+2	den	d	_	ART	_	_	_	_	_	_	MF
+3	Maurẽ	Maure	_	NN	_	_	_	_	_	_	MF
+4	.	.	_	$.	_	_	_	_	_	_	MF
+5	Stücker	Stücker	_	NN	_	_	_	_	_	_	MF
+6	Riß	Riß	_	VVFIN	_	_	_	_	_	RK	RK
+7	/	/	_	$(	_	_	_	_	_	_	_
+8	vnd	und	_	KON	_	_	_	_	_	_	KOORD
+9	Rab	herab	_	PTKVZ	_	_	_	_	_	RK	RK
+10	geworffen	werfen	_	VVPP	_	_	_	_	_	RK	RK
+11	hat	haben	_	VAFIN	_	_	_	_	_	RK	RK
+12	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 13
+# text = Er fandt auch beim Waser am gstat Einen guten frumen man Alt .
+1	Er	er	_	PPER	_	_	_	_	_	_	VF
+2	fandt	finden	_	VVFIN	_	_	_	_	_	LK	LK
+3	auch	auch	_	ADV	_	_	_	_	_	_	MF
+4	beim	beim	_	APPRART	_	_	_	_	_	_	MF
+5	Waser	Wasser	_	NN	_	_	_	_	_	_	MF
+6	am	am	_	APPRART	_	_	_	_	_	_	MF
+7	gstat	Gstat	_	NN	_	_	_	_	_	_	MF
+8	Einen	eine	_	ART	_	_	_	_	_	_	MF
+9	guten	gut	_	ADJA	_	_	_	_	_	_	MF
+10	frumen	Frumen	_	ADJA	_	_	_	_	_	_	MF
+11	man	man	_	NN	_	_	_	_	_	_	MF
+12	Alt	alt	_	ADJD	_	_	_	_	_	_	MF
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 14
+# text = Den nam er / vngitiger gstalt / Bein schultern / fürt jn in die lüft .
+1	Den	D	_	PDS	_	_	_	_	_	_	VF
+2	nam	nehmen	_	VVFIN	_	_	_	_	_	LK	LK
+3	er	er	_	PPER	_	_	_	_	_	_	MF
+4	/	/	_	$(	_	_	_	_	_	_	MF
+5	vngitiger	ungütig	_	ADJA	_	_	_	_	_	_	MF
+6	gstalt	Gestalt	_	NN	_	_	_	_	_	_	MF
+7	/	/	_	$(	_	_	_	_	_	_	MF
+8	Bein	Bein	_	APPRART	_	_	_	_	_	_	MF
+9	schultern	schultern	_	NN	_	_	_	_	_	_	MF
+10	/	/	_	$(	_	_	_	_	_	_	_
+11	fürt	führen	_	VVFIN	_	_	_	_	_	LK	LK
+12	jn	er	_	PPER	_	_	_	_	_	_	MF
+13	in	in	_	APPR	_	_	_	_	_	_	MF
+14	die	d	_	ART	_	_	_	_	_	_	MF
+15	lüft	lüften	_	NN	_	_	_	_	_	_	MF
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 15
+# text = Groses Hertzenleidt er jm stifft /
+1	Groses	groß	_	ADJA	_	_	_	_	_	_	MF
+2	Hertzenleidt	Herzeleid	_	NN	_	_	_	_	_	_	MF
+3	er	er	_	PPER	_	_	_	_	_	_	MF
+4	jm	er	_	PPER	_	_	_	_	_	_	MF
+5	stifft	Stift	_	VVPP	_	_	_	_	_	RK	RK
+6	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 19
+# sent_id(TSV) = 15
+# text = Gleich woll thet er in jn den dingen . Ohn schaden widerumb herbringen /
+1	Gleich	gleich	_	ADV	_	_	_	_	_	_	VF
+2	woll	wohl	_	ADV	_	_	_	_	_	_	VF
+3	thet	tun	_	VVFIN	_	_	_	_	_	LK	LK
+4	er	er	_	PPER	_	_	_	_	_	_	MF
+5	in	in	_	PPER	_	_	_	_	_	_	MF
+6	jn	er	_	APPR	_	_	_	_	_	_	MF
+7	den	d	_	ART	_	_	_	_	_	_	MF
+8	dingen	Ding	_	NN	_	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	MF
+10	Ohn	ohne	_	APPR	_	_	_	_	_	_	MF
+11	schaden	schaden	_	NN	_	_	_	_	_	_	MF
+12	widerumb	wiederum	_	ADV	_	_	_	_	_	_	MF
+13	herbringen	herbringen	_	VVINF	_	_	_	_	_	RK	RK
+14	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 20
+# sent_id(TSV) = 16
+# text = Jttem er thet sich auch erregen . Mit sehr grawsamen Donerschlaͤgen / Auch Hellen Blitzen vngehewr . Die scheinen thetten wie das Fewr /
+1	Jttem	Item	_	ADV	_	_	_	_	_	_	KOORD
+2	er	er	_	PPER	_	_	_	_	_	_	VF
+3	thet	tun	_	VVFIN	_	_	_	_	_	LK	LK
+4	sich	sich	_	PRF	_	_	_	_	_	_	MF
+5	auch	auch	_	ADV	_	_	_	_	_	_	MF
+6	erregen	erregen	_	VVINF	_	_	_	_	_	RK	RK
+7	.	.	_	$.	_	_	_	_	_	_	_
+8	Mit	mit	_	APPR	_	_	_	_	_	_	NF
+9	sehr	sehr	_	ADV	_	_	_	_	_	_	NF
+10	grawsamen	grausam	_	ADJA	_	_	_	_	_	_	NF
+11	Donerschlaͤgen	Donnerschlag	_	NN	_	_	_	_	_	_	NF
+12	/	/	_	$(	_	_	_	_	_	_	NF
+13	Auch	auch	_	ADV	_	_	_	_	_	_	NF
+14	Hellen	hell	_	ADJA	_	_	_	_	_	_	NF
+15	Blitzen	Blitz	_	NN	_	_	_	_	_	_	NF
+16	vngehewr	Vngehewr	_	ADJD	_	_	_	_	_	_	NF
+17	.	.	_	$.	_	_	_	_	_	_	NF
+18	Die	die	_	PDS	_	_	_	_	_	LK	NF-LK
+19	scheinen	scheinen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+20	thetten	tun	_	VVINF	_	_	_	_	_	RK	NF-RK
+21	wie	wie	_	KOKOM	_	_	_	_	_	_	NF-NF
+22	das	d	_	ART	_	_	_	_	_	_	NF-NF
+23	Fewr	Feuer	_	NN	_	_	_	_	_	_	NF-NF
+24	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 21
+# sent_id(TSV) = 18
+# text = Zu Gott Ruften die lieben Frumen .
+1	Zu	zu	_	APPR	_	_	_	_	_	_	VF
+2	Gott	Gott	_	NN	_	_	_	_	_	_	VF
+3	Ruften	Ruften	_	VVFIN	_	_	_	_	_	LK	LK
+4	die	d	_	ART	_	_	_	_	_	_	MF
+5	lieben	lieb	_	ADJA	_	_	_	_	_	_	MF
+6	Frumen	Frumen	_	NN	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 22
+# sent_id(TSV) = 19
+# text = Sie meintẽ der Jüngst Tag würt kumẽ /
+1	Sie	sie	_	PPER	_	_	_	_	_	_	VF
+2	meintẽ	meinen	_	VVFIN	_	_	_	_	_	LK	LK
+3	der	d	_	ART	_	_	_	_	_	_	MF
+4	Jüngst	jüngst	_	ADV	_	_	_	_	_	_	MF
+5	Tag	Tag	_	NN	_	_	_	_	_	_	MF
+6	würt	werden	_	VAFIN	_	_	_	_	_	RK	RK
+7	kumẽ	Kumen	_	VVINF	_	_	_	_	_	RK	RK
+8	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 23
+# sent_id(TSV) = 19
+# text = Das wert vber drey gantze Stundt .
+1	Das	die	_	PDS	_	_	_	_	_	_	VF
+2	wert	wert	_	VVFIN	_	_	_	_	_	LK	LK
+3	vber	über	_	APPR	_	_	_	_	_	_	MF
+4	drey	drei	_	CARD	_	_	_	_	_	_	MF
+5	gantze	ganz	_	ADJA	_	_	_	_	_	_	MF
+6	Stundt	Stand	_	NN	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 24
+# sent_id(TSV) = 20
+# text = Vnd ist oftermals thue ich Kundt / Der Himmel Finster worden Schnel . Als seis Nacht / vnd dan wider Hell / Sach gleich als wan es Brinnen thet .
+1	Vnd	und	_	KON	_	_	_	_	_	_	KOORD
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	oftermals	oftmals	_	ADV	_	_	_	_	_	_	MF
+4	thue	tun	_	VVFIN	_	_	_	_	_	LK	MF-LK
+5	ich	ich	_	PPER	_	_	_	_	_	_	MF-MF
+6	Kundt	kund	_	PTKVZ	_	_	_	_	_	RK	MF-RK
+7	/	/	_	$(	_	_	_	_	_	_	MF
+8	Der	d	_	ART	_	_	_	_	_	_	MF
+9	Himmel	Himmel	_	NN	_	_	_	_	_	_	MF
+10	Finster	finster	_	ADJD	_	_	_	_	_	_	MF
+11	worden	werden	_	VAPP	_	_	_	_	_	RK	RK
+12	Schnel	schnell	_	ADJD	_	_	_	_	_	_	NF
+13	.	.	_	$.	_	_	_	_	_	_	NF
+14	Als	als	_	KOKOM	_	_	_	_	_	LK	NF-LK
+15	seis	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+16	Nacht	Nacht	_	NN	_	_	_	_	_	_	NF-NF
+17	/	/	_	$(	_	_	_	_	_	_	NF-NF
+18	vnd	und	_	KON	_	_	_	_	_	_	NF-NF
+19	dan	dann	_	ADV	_	_	_	_	_	_	NF-NF
+20	wider	wider	_	APPR	_	_	_	_	_	_	NF-NF
+21	Hell	Hell	_	NE	_	_	_	_	_	_	NF-NF
+22	/	/	_	$(	_	_	_	_	_	_	NF-NF
+23	Sach	Sache	_	NN	_	_	_	_	_	_	NF-NF
+24	gleich	gleich	_	ADV	_	_	_	_	_	_	NF-NF
+25	als	als	_	KOKOM	_	_	_	_	_	LK	NF-NF-LK
+26	wan	wann	_	PWAV	_	_	_	_	_	LK	NF-NF-LK
+27	es	es	_	PPER	_	_	_	_	_	_	NF-NF-MF
+28	Brinnen	Brennen	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+29	thet	tun	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+30	.	.	_	$.	_	_	_	_	_	_	_

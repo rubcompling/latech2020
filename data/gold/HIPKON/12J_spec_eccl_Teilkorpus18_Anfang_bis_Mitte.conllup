@@ -1,0 +1,77 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ir ſult mazelicher ezzin un̄ trinchen den ze anderin zîten
+1	ir	_	_	PPER	_	_	_	_	_	NP	ir	45,23	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	41r,09	_	_
+2	ſult	_	_	VMFIN	_	_	_	_	_	VP	ſult	45,23	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	41r,09	_	_
+3	mazelicher	_	_	ADV	_	_	_	_	_	ADVP	mazelicher	45,23	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	41r,09	_	_
+4	ezzin	_	_	VVINF	_	_	_	_	_	VP	ezzin	45,23	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	41r,09	_	_
+5	un̄	_	_	KON	_	_	_	_	_	_	un̄	45,23	_	_	_	_	KON	_	MAINDECL	RK	RK	41r,09	_	_
+6	trinchen	_	_	VVINF	_	_	_	_	_	VP	trinchen	45,23	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	41r,09	_	_
+7	den	_	_	ADV	_	_	_	_	_	ADVP	den	45,23	_	VGL	_	_	ADV	_	MAINDECL	_	NF	41r,10	LINK_ASSYM	_
+8	ze	_	_	APPR	_	_	_	_	_	PP	ze	45,23	BGR	VGL	ACC-ABSTR-USED-X	_	APPR	_	MAINDECL	_	NF	41r,10	LINK_ASSYM	KOREF1
+9	anderin	_	_	PIAT	_	_	_	_	_	PP	anderin	45,23	BGR	VGL	ACC-ABSTR-USED-X	_	DI	_	MAINDECL	_	NF	41r,10	LINK_ASSYM	KOREF1
+10	zîten	_	_	NN	_	_	_	_	_	PP	zîten	45,23	BGR	VGL	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	41r,10	LINK_ASSYM	KOREF1
+
+# sent_id = 2
+# text = ſult kûſlicher lêbin. danne ze andern zîten.
+1	ſult	_	_	VMIMP	_	_	_	_	_	VP	ſult	45,24	_	VFIN	_	Topic Drop	VMIMP	LI	MAINDECL-ELLI	LK	LK	41r,11	_	_
+2	kûſlicher	_	_	ADV	_	_	_	_	_	ADVP	kûſlicher	45,24	_	PRD	_	_	ADV	_	MAINDECL-ELLI	_	MF	41r,11	_	_
+3	lêbin	_	_	VVINF	_	_	_	_	_	VP	lêbin	45,24	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	41r,12; al- 	_	_
+4	.	_	_	$.	_	_	_	_	_	_	.	45,24	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	41r,12; al- 	_	_
+5	danne	_	_	ADV	_	_	_	_	_	ADVP	danne	45,25	_	VGL	_	_	ADV	_	MAINDECL-ELLI	_	NF	41r,12; al- 	LINK_ASSYM	_
+6	ze	_	_	APPR	_	_	_	_	_	PP	ze	45,25	BGR	VGL	ACC-ABSTR-USED-1	_	APPR	_	MAINDECL-ELLI	_	NF	41r,12; al- 	LINK_ASSYM	KOREF2
+7	andern	_	_	PIAT	_	_	_	_	_	PP	andern	45,25	BGR	VGL	ACC-ABSTR-USED-1	_	DI	_	MAINDECL-ELLI	_	NF	41r,12; al- 	LINK_ASSYM	KOREF2
+8	zîten	_	_	NN	_	_	_	_	_	PP	zîten	45,25	BGR	VGL	ACC-ABSTR-USED-1	_	NA	_	MAINDECL-ELLI	_	NF	41r,12; al- 	LINK_ASSYM	KOREF2
+9	.	_	_	$.	_	_	_	_	_	_	.	45,25	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	41r,12; al- 	_	_
+
+# sent_id = 3
+# text = ſult ime helfin deſ gewantiſ âl nach ivvern ſtâtin.
+1	ſult	_	_	VMIMP	_	_	_	_	_	VP	ſult	45,27	_	VFIN	_	Topic Drop	VMIMP	LI	MAINDECL-ELLI	LK	LK	41r,15; -chen | iv- 	_	_
+2	ime	_	_	PPER	_	_	_	_	_	NP	ime	45,27	_	IO-DAT	_	_	PPER	_	MAINDECL-ELLI	_	MF	41r,15; -chen | iv- 	_	_
+3	helfin	_	_	VVINF	_	_	_	_	_	VP	helfin	45,27	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	41r,15; -chen | iv- 	_	_
+4	deſ	_	_	ART	_	_	_	_	_	NP	deſ	45,27	NF_	IO-GEN	NEW	_	DDA	_	MAINDECL-ELLI	_	NF	41r,15; -chen | iv- 	UNLINK1	_
+5	gewantiſ	_	_	NN	_	_	_	_	_	NP	gewantiſ	45,27	NF_	IO-GEN	NEW	_	NA	_	MAINDECL-ELLI	_	NF	41r,15; -chen | iv- 	UNLINK1	_
+6	âl	_	_	ADV	_	_	_	_	_	ADVP	âl	45,27	_	ADVB	NA	_	ADV	_	MAINDECL-ELLI	_	NF	41r,15; -chen | iv- 	UNLINK2	_
+7	nach	_	_	APPR	_	_	_	_	_	PP	nach	45,27	NF_	PP-ADV	_	nach euren Möglichkeiten	APPR	_	MAINDECL-ELLI	_	NF	41r,15; -chen | iv- 	UNLINK2	_
+8	ivvern	_	_	PPOSAT	_	_	_	_	_	PP	ivvern	45,27	NF_	PP-ADV	ACC-SIT_	_	DPOS	_	MAINDECL-ELLI	_	NF	41r,15; -chen | iv- 	UNLINK2	_
+9	ſtâtin	_	_	NN	_	_	_	_	_	PP	ſtâtin	45,27	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL-ELLI	_	NF	41r,16; -vern | ruͦ- 	UNLINK2	_
+10	.	_	_	$.	_	_	_	_	_	_	.	45,27	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	41r,16; -vern | ruͦ- 	_	_
+
+# sent_id = 4
+# text = ſult ivch ruͦgin mineme trehtine unde ze iwermer brieſtir.
+1	ſult	_	_	VMFIN	_	_	_	_	_	VP	ſult	45,28	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	41r,16; -vern | ruͦ- 	_	_
+2	ivch	_	_	PRF	_	_	_	_	_	NP	ivch	45,28	NF	DO	_	_	PRF	_	MAINDECL-ELLI	_	MF	41r,16; -vern | ruͦ- 	_	_
+3	ruͦgin	_	_	VVINF	_	_	_	_	_	VP	ruͦgin	45,28	NF	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	41r,16; -vern | ruͦ- 	_	_
+4	mineme	_	_	PPOSAT	_	_	_	_	_	NP	mineme	45,28	NF	IO-DAT	ACC-SIT_	_	DPOS	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	UNLINK1	_
+5	trehtine	_	_	NN	_	_	_	_	_	NP	trehtine	45,28	NF	IO-DAT	_ACC-UNI-UNUSED	_	NA	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	UNLINK1	_
+6	unde	_	_	KON	_	_	_	_	_	_	unde	45,28	_	_	_	_	KON	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	_	_
+7	ze	_	_	APPR	_	_	_	_	_	PP	ze	45,28	NF_	PP-OBJ	_	_	APPR	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	UNLINK2	_
+8	iwermer	_	_	ADJA	_	_	_	_	_	PP	iwermer	45,28	NF_	PP-OBJ	ACC-SIT_	_	ADJ	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	UNLINK2	_
+9	brieſtir	_	_	NN	_	_	_	_	_	PP	brieſtir	45,28	NF_	PP-OBJ	_NEW	_	NA	_	MAINDECL-ELLI	_	NF	41r,17; -gin | brie- 	UNLINK2	_
+10	.	_	_	$.	_	_	_	_	_	_	.	45,28	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	41r,18; -ſtir	_	_
+
+# sent_id = 5
+# text = Ir ſult buͦzze nemin alliſ deſ ir îe ze ûbili getâtit.
+1	Ir	_	_	PPER	_	_	_	_	_	NP	Ir	45,28	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	41r,18; -ſtir	_	_
+2	ſult	_	_	VMFIN	_	_	_	_	_	VP	ſult	45,28	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	41r,18; -ſtir	_	_
+3	buͦzze	_	_	NN	_	_	_	_	_	NP	buͦzze	45,29	_	DO	_	_	NA	_	MAINDECL	_	MF	41r,18; -ſtir	_	_
+4	nemin	_	_	VVINF	_	_	_	_	_	VP	nemin	45,29	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	41r,18; -ſtir	_	_
+5	alliſ	_	_	PIAT	_	_	_	_	_	NP	alliſ	45,29	NF	IO-GEN	NEW	_	DI	_	MAINDECL	_	NF	41r,18; -ſtir	UNLINK	KOREF1
+6	deſ	_	_	PDS	_	_	_	_	_	CP	deſ	45,29	NF	ATTR	_	_	DDS	_	MAINDECL	LK	NF-LK	41r,18; -ſtir	UNLINK	KOREF2-SATZ
+7	ir	_	_	PPER	_	_	_	_	_	CP	ir	45,29	NF	ATTR	_	_	PPER	_	MAINDECL	_	NF-MF	41r,18; -ſtir	UNLINK	KOREF2-SATZ
+8	îe	_	_	ADV	_	_	_	_	_	CP	îe	45,29	NF	ATTR	_	_	ADV	_	MAINDECL	_	NF-MF	41r,18; -ſtir	UNLINK	KOREF2-SATZ
+9	ze	_	_	APPR	_	_	_	_	_	CP	ze	45,29	NF	ATTR	_	_	APPR	_	MAINDECL	_	NF-MF	41r,18; -ſtir	UNLINK	KOREF2-SATZ
+10	ûbili	_	_	ADJA	_	_	_	_	_	CP	ûbili	45,29	NF	ATTR	_	_	ADJ	_	MAINDECL	_	NF-MF	41r,18; -ſtir	UNLINK	KOREF2-SATZ
+11	getâtit	_	_	VVPP	_	_	_	_	_	CP	getâtit	45,29	NF	ATTR	_	_	VVPP	_	MAINDECL	RK	NF-RK	41r,19	UNLINK	KOREF2-SATZ
+12	.	_	_	$.	_	_	_	_	_	_	.	45,29	_	_	_	_	$_	_	MAINDECL	_	_	41r,19	_	_
+
+# sent_id = 6
+# text = un̄ ſult ivch bechennin alliſ iwereſ unrehtiſ.
+1	un̄	_	_	KON	_	_	_	_	_	_	un̄	45,29	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	41r,19	_	_
+2	ſult	_	_	VMFIN	_	_	_	_	_	VP	ſult	45,29	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	41r,19	_	_
+3	ivch	_	_	PRF	_	_	_	_	_	NP	ivch	45,29	_	VZ_RFL	_	_	PRF	_	MAINDECL-ELLI	_	MF	41r,19	_	_
+4	bechennin	_	_	VVINF	_	_	_	_	_	VP	bechennin	45,29	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	41r,19	_	_
+5	alliſ	_	_	PIAT	_	_	_	_	_	NP	alliſ	45,29	NF	IO-GEN	ACC-SIT_	_	DI	_	MAINDECL-ELLI	_	NF	41r,19	UNLINK	_
+6	iwereſ	_	_	PPOSAT	_	_	_	_	_	NP	iwereſ	45,30	NF	IO-GEN	ACC-SIT_	_	DPOS	_	MAINDECL-ELLI	_	NF	41r,19	UNLINK	_
+7	unrehtiſ	_	_	NN	_	_	_	_	_	NP	unrehtiſ	45,30	NF	IO-GEN	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL-ELLI	_	NF	41r,20	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	45,30	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	41r,20	_	_

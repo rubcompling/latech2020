@@ -1,0 +1,32 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ſo wer=dn̄ jr eüch verwūderen der groſſen gnad gotes
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	14,01; wer=	_	_
+2	wer=dn̄	_	_	VAFIN	_	_	_	_	_	VP	werdn̄	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	14,01; wer=	_	_
+3	jr	_	_	PPER	_	_	_	_	_	NP	jr	_	SUBJ	_	PPER	_	MAINDECL	_	MF	14,02; =dn̄	_	_
+4	eüch	_	_	PRF	_	_	_	_	_	NP	eüch	_	VZ_RFL	_	PRF	_	MAINDECL	_	MF	14,02; =dn̄	_	_
+5	verwūderen	_	_	VVINF	_	_	_	_	_	VP	verwūderen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	14,02; =dn̄	_	_
+6	der	_	_	ART	_	_	_	_	_	NP	der	NF	IO-GEN	ACC-ABSTR-UNUSED_	DDA	_	MAINDECL	_	NF	14,02; =dn̄	UNLINK	_
+7	groſſen	_	_	ADJA	_	_	_	_	_	NP	groſſen	NF	IO-GEN	ACC-ABSTR-UNUSED_	ADJ	_	MAINDECL	_	NF	14,02; =dn̄	UNLINK	_
+8	gnad	_	_	NN	_	_	_	_	_	NP	gnad	NF	IO-GEN	ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	14,02; =dn̄	UNLINK	_
+9	gotes	_	_	NN	_	_	_	_	_	NP	gotes	NF	ATTR	_ACC-UNI-UNUSED	NA	_	MAINDECL	_	NF	14,02; =dn̄	UNLINK	KOREF1
+
+# sent_id = 2
+# text = warlich wir derf=fen vnß nit wūderen / der erſchrocklichē Plag. die got zuͦ vnß ſchicket /
+1	warlich	_	_	ADV	_	_	_	_	_	ADVP	warlich	_	VOVF	_	ADV	_	MAINDECL	_	LV	14,07; derf-	_	_
+2	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	PPER	_	MAINDECL	_	VF	14,07; derf-	_	_
+3	derf=fen	_	_	VMFIN	_	_	_	_	_	VP	derffen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	14,07; derf-	_	_
+4	vnß	_	_	PPER	_	_	_	_	_	NP	vnß	_	VZ_RFL	_	PPER	_	MAINDECL	_	MF	14,08; -fen	_	_
+5	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	PTKNEG	_	MAINDECL	_	MF	14,08; -fen	_	_
+6	wūderen	_	_	VVINF	_	_	_	_	_	VP	wūderen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	14,08; -fen	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	$_	_	MAINDECL	_	_	14,08; -fen	_	_
+8	der	_	_	ART	_	_	_	_	_	NP	der	NF	IO-GEN	_	DDA	_	MAINDECL	_	NF	14,08; -fen	UNLINK	_
+9	erſchrocklichē	_	_	ADJA	_	_	_	_	_	NP	erſchrocklichē	NF	IO-GEN	_	ADJ	_	MAINDECL	_	NF	14,08; -fen	UNLINK	_
+10	Plag	_	_	NN	_	_	_	_	_	NP	Plag	NF	IO-GEN	NEW	NA	_	MAINDECL	_	NF	14,08; -fen	UNLINK	KOREF1-REL
+11	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	NF	14,08; -fen	UNLINK	_
+12	die	_	_	PRELS	_	_	_	_	_	CP	die	_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	14,08; -fen	UNLINK	KOREF2-REL
+13	got	_	_	NE	_	_	_	_	_	CP	got	_	ATTR	_	NE	_	MAINDECL	_	NF-MF	14,08; -fen	UNLINK	_
+14	zuͦ	_	_	APPR	_	_	_	_	_	CP	zuͦ	_	ATTR	_	APPR	_	MAINDECL	_	NF-MF	14,08; -fen	UNLINK	_
+15	vnß	_	_	PPER	_	_	_	_	_	CP	vnß	_	ATTR	_	PPER	_	MAINDECL	_	NF-MF	14,09	UNLINK	_
+16	ſchicket	_	_	VVFIN	_	_	_	_	_	CP	ſchicket	_	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	14,09	UNLINK	_
+17	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	14,09	_	_

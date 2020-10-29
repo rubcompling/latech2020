@@ -1,0 +1,117 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Jch will mich ſelbs rechtfertigen / vnnd buͦß thuͦn im ſtaub vn̄ aͤſchen.
+1	Jch	_	_	PPER	_	_	_	_	_	NP	Jch	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	12,02	_	_
+2	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	12,02	_	_
+3	mich	_	_	PTKVZ	_	_	_	_	_	NP	mich	_	VZ_PTK	_	_	PTKVZ	_	MAINDECL	_	MF	12,02	_	_
+4	ſelbs	_	_	ADJD	_	_	_	_	_	NP	ſelbs	_	VZ_PTK	_	_	ADJD	_	MAINDECL	_	MF	12,02	_	_
+5	rechtfertigen	_	_	VVINF	_	_	_	_	_	VP	rechtfertigen	_	INF	_	_	VVINF	_	MAINDECL	RK	RK	12,02	_	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	12,02	_	_
+7	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	_	KON	_	MAINDECL	_	KOORD	12,02	_	_
+8	buͦß	_	_	NN	_	_	_	_	_	NP	buͦß	NF	DO	_	_	NA	_	MAINDECL	_	MF	12,03	_	_
+9	thuͦn	_	_	VVINF	_	_	_	_	_	VP	thuͦn	NF	INF	_	_	VVINF	RE	MAINDECL	RK	RK	12,03	_	_
+10	im	_	_	APPR	_	_	_	_	_	PP	im	NF	PP-SIT	_	_	APPR	_	MAINDECL	_	NF	12,03	UNLINK	_
+11	ſtaub	_	_	NN	_	_	_	_	_	PP	ſtaub	NF	PP-SIT	NEW_	_	NA	_	MAINDECL	_	NF	12,03	UNLINK	_
+12	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	NF	PP-SIT	_	_	KON	_	MAINDECL	_	NF	12,03	UNLINK	_
+13	aͤſchen	_	_	NN	_	_	_	_	_	PP	aͤſchen	NF	PP-SIT	_NEW	_	NA	_	MAINDECL	_	NF	12,03	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	12,03	_	_
+
+# sent_id = 2
+# text = der wirt |s erhalten zuͦm ewigen leben /
+1	der	_	_	PDAT	_	_	_	_	_	NP	der	_	SUBJ	_	_	DD	_	MAINDECL	_	VF	12,24	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	12,24	_	_
+3	|s	_	_	PPER	_	_	_	_	_	NP	s	_	VFIN	_	_	PPER	LI	MAINDECL	_	MF	12,24	_	_
+4	erhalten	_	_	VVINF	_	_	_	_	_	VP	erhalten	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	12,24	_	_
+5	zuͦm	_	_	APPRART	_	_	_	_	_	PP	zuͦm	CF	PP-ADV	_	Konstrast mit "auff diser welt"?	APPRART	_	MAINDECL	_	NF	12,24	UNLINK	_
+6	ewigen	_	_	ADJA	_	_	_	_	_	PP	ewigen	CF	PP-ADV	ACC-ABSTR-USED-1	Konstrast mit "auff diser welt"?	ADJ	_	MAINDECL	_	NF	12,24	UNLINK	_
+7	leben	_	_	NN	_	_	_	_	_	PP	leben	CF	PP-ADV	ACC-ABSTR-USED-1	Konstrast mit "auff diser welt"?	NA	_	MAINDECL	_	NF	12,24	UNLINK	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	12,24	_	_
+
+# sent_id = 3
+# text = Er hat ain exempel gebē ſeines creütz /
+1	Er	_	_	PPER	_	_	_	_	_	NP	Er	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	13,02; =erſteeung	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	13,02; =erſteeung	_	_
+3	ain	_	_	ART	_	_	_	_	_	NP	ain	_	DO	_	_	DIA	_	MAINDECL	_	MF	13,02; =erſteeung	_	_
+4	exempel	_	_	NN	_	_	_	_	_	NP	exempel	_	DO	_	_	NA	_	MAINDECL	_	MF	13,02; =erſteeung	_	_
+5	gebē	_	_	VVINF	_	_	_	_	_	VP	gebē	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	13,02; =erſteeung	_	_
+6	ſeines	_	_	PPOSAT	_	_	_	_	_	NP	ſeines	NF	IO-GEN	ACC-INF_	im Sinne von 'Leiden'	DPOS	_	MAINDECL	_	NF	13,02; =erſteeung	LINK_SYM	KOREF1
+7	creütz	_	_	NN	_	_	_	_	_	NP	creütz	NF	IO-GEN	_ACC-ABSTR-USED-X	im Sinne von 'Leiden'	NA	_	MAINDECL	_	NF	13,02; =erſteeung	LINK_SYM	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	13,02; =erſteeung	_	_
+
+# sent_id = 4
+# text = er wirt mir |s wol wider geben / wie dan̄ Job.
+1	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	15,13; -ſen	_	_
+2	wirt	_	_	VMFIN	_	_	_	_	_	VP	wirt	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	15,13; -ſen	_	_
+3	mir	_	_	PPER	_	_	_	_	_	NP	mir	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	15,13; -ſen	_	_
+4	|s	_	_	PPER	_	_	_	_	_	NP	s	_	DO	_	_	PPER	_	MAINDECL	_	MF	15,13; -ſen	_	_
+5	wol	_	_	ADV	_	_	_	_	_	ADVP	wol	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	15,13; -ſen	_	_
+6	wider	_	_	PTKVZ	_	_	_	_	_	VP	wider	_	INF	_	_	PTKVZ	_	MAINDECL	RK	RK	15,13; -ſen	_	_
+7	geben	_	_	VVINF	_	_	_	_	_	VP	geben	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	15,13; -ſen	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	15,13; -ſen	_	_
+9	wie	_	_	KOKOM	_	_	_	_	_	ADVP	wie	_	VGL	_	_	KOKOM	_	MAINDECL	_	NF	15,14	LINK_ASSYM	_
+10	dan̄	_	_	ADV	_	_	_	_	_	ADVP	dan̄	_	VGL	_	_	ADV	_	MAINDECL	_	NF	15,14	LINK_ASSYM	_
+11	Job	_	_	NN	_	_	_	_	_	ADVP	Job	_	VGL	ACC-UNI-USED-X	_	NA	_	MAINDECL	_	NF	15,14	LINK_ASSYM	_
+12	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	15,14	_	_
+
+# sent_id = 5
+# text = O wie würd er ietz donnerē über vnſer vn=chriſtlich zaͤnkiſch gericht.
+1	O	_	_	ITJ	_	_	_	_	_	_	O	_	_	_	_	ITJ	_	MAINDECL	_	LV	16,16; vn-	_	_
+2	wie	_	_	PWAV	_	_	_	_	_	NP	wie	_	_	_	_	PWAV	_	MAINDECL	_	VF	16,16; vn-	_	_
+3	würd	_	_	VMFIN	_	_	_	_	_	VP	würd	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	16,16; vn-	_	_
+4	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	16,16; vn-	_	_
+5	ietz	_	_	ADV	_	_	_	_	_	ADVP	ietz	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	16,16; vn-	_	_
+6	donnerē	_	_	VVINF	_	_	_	_	_	VP	donnerē	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	16,16; vn-	_	_
+7	über	_	_	APPR	_	_	_	_	_	PP	über	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	16,16; vn-	UNLINK	_
+8	vnſer	_	_	PPOSAT	_	_	_	_	_	PP	vnſer	NF	PP-OBJ	_	_	DPOS	_	MAINDECL	_	NF	16,16; vn-	UNLINK	_
+9	vn=chriſtlich	_	_	ADJA	_	_	_	_	_	PP	vnchriſtlich	NF	PP-OBJ	_	_	ADJ	_	MAINDECL	_	NF	16,16; vn-	UNLINK	_
+10	zaͤnkiſch	_	_	ADJA	_	_	_	_	_	PP	zaͤnkiſch	NF	PP-OBJ	_	_	ADJ	_	MAINDECL	_	NF	16,17; -chriſtlich	UNLINK	_
+11	gericht	_	_	NN	_	_	_	_	_	PP	gericht	NF	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	16,17; -chriſtlich	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	16,17; -chriſtlich	_	_
+
+# sent_id = 6
+# text = Jch wil hie nit verwerffē oberkait / die dz übel ſtraffē muͤſſen /
+1	Jch	_	_	PPER	_	_	_	_	_	NP	Jch	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	16,17; -chriſtlich	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	16,17; -chriſtlich	_	_
+3	hie	_	_	ADV	_	_	_	_	_	ADVP	hie	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	16,17; -chriſtlich	_	_
+4	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	_	PTKNEG	_	MAINDECL	_	MF	16,17; -chriſtlich	_	_
+5	verwerffē	_	_	VVINF	_	_	_	_	_	VP	verwerffē	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	16,17; -chriſtlich	_	_
+6	oberkait	_	_	NN	_	_	_	_	_	NP	oberkait	NF	DO	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	16,18	UNLINK	KOREF1-REL
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	16,18	UNLINK	_
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	16,18	UNLINK	KOREF2-REL
+9	dz	_	_	PDS	_	_	_	_	_	CP	dz	_	ATTR	_	_	DDS	_	MAINDECL	_	NF-MF	16,18	UNLINK	_
+10	übel	_	_	ADV	_	_	_	_	_	CP	übel	_	ATTR	_	_	ADV	_	MAINDECL	_	NF-MF	16,18	UNLINK	_
+11	ſtraffē	_	_	VVINF	_	_	_	_	_	CP	ſtraffē	_	ATTR	_	_	VVINF	_	MAINDECL	RK	NF-RK	16,18	UNLINK	_
+12	muͤſſen	_	_	VMFIN	_	_	_	_	_	CP	muͤſſen	_	ATTR	_	_	VMFIN	_	MAINDECL	RK	NF-RK	16,18	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	16,18	_	_
+
+# sent_id = 7
+# text = Darūb moͤgen ſollich diener got etwa als wol gefallen / als ain Chartheüſer / der niemandts nutzlich iſt.
+1	Darūb	_	_	ADV	_	_	_	_	_	ADVP	Darūb	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	16,23	_	_
+2	moͤgen	_	_	VMFIN	_	_	_	_	_	VP	moͤgen	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	16,23	_	_
+3	ſollich	_	_	ADJA	_	_	_	_	_	NP	ſollich	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	16,23	_	_
+4	diener	_	_	NN	_	_	_	_	_	NP	diener	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	16,23	_	_
+5	got	_	_	NE	_	_	_	_	_	NP	got	_	IO-DAT	_	_	NE	_	MAINDECL	_	MF	16,23	_	_
+6	etwa	_	_	ADV	_	_	_	_	_	ADVP	etwa	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	16,23	_	_
+7	als	_	_	KOUS	_	_	_	_	_	AP	als	_	PRD	_	_	KOUS	_	MAINDECL	_	MF	16,23	_	_
+8	wol	_	_	ADJD	_	_	_	_	_	AP	wol	_	PRD	_	_	ADJD	_	MAINDECL	_	MF	16,24	_	_
+9	gefallen	_	_	VVINF	_	_	_	_	_	VP	gefallen	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	16,24	_	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	16,24	_	_
+11	als	_	_	KOKOM	_	_	_	_	_	_	als	NF	VGL	_	_	KOKOM	_	MAINDECL	_	NF	16,24	LINK_ASSYM	_
+12	ain	_	_	ART	_	_	_	_	_	NP	ain	NF	VGL	_	_	DIA	_	MAINDECL	_	NF	16,24	LINK_ASSYM	_
+13	Chartheüſer	_	_	NE	_	_	_	_	_	NP	Chartheüſer	NF	VGL	ACC-UNI-UNUSED	_	NE	_	MAINDECL	_	NF	16,24	LINK_ASSYM	KOREF1-REL
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	16,24	_	_
+15	der	_	_	PRELS	_	_	_	_	_	CP	der	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	16,24	_	KOREF2-REL
+16	niemandts	_	_	PIS	_	_	_	_	_	CP	niemandts	_	ATTR	_	_	PINEG	_	MAINDECL	_	NF-MF	16,24	_	_
+17	nutzlich	_	_	ADV	_	_	_	_	_	CP	nutzlich	_	ATTR	_	_	ADV	_	MAINDECL	_	NF-MF	16,25; die-	_	_
+18	iſt	_	_	VVFIN	_	_	_	_	_	CP	iſt	_	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	16,25; die-	_	_
+19	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	16,25; die-	_	_
+
+# sent_id = 8
+# text = Die ſenfften werden erer-ben das erdtrich /
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	NF	SUBJ	_	_	DDA	_	MAINDECL	_	VF	17,09; erer-	_	_
+2	ſenfften	_	_	ADJA	_	_	_	_	_	NP	ſenfften	NF	SUBJ	_	_	ADJS	_	MAINDECL	_	VF	17,09; erer-	_	_
+3	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	NF	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	17,09; erer-	_	_
+4	erer-ben	_	_	VVINF	_	_	_	_	_	VP	ererben	NF	INF	_	_	VVINF	RE	MAINDECL	RK	RK	17,09; erer-	_	_
+5	das	_	_	ART	_	_	_	_	_	NP	das	NF	DO	GIV-INACTIVE	_	DDA	_	MAINDECL	_	NF	17,10; -ben	UNLINK	KOREF1
+6	erdtrich	_	_	NN	_	_	_	_	_	NP	erdtrich	NF	DO	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	17,10; -ben	UNLINK	KOREF1
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	17,10; -ben	_	_

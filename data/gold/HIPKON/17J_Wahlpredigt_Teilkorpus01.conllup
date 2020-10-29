@@ -1,0 +1,62 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = laßt vns Oſtern halten / nicht im alten ſauerteig / auch nicht im Saur=teig der Boßheit / vnnd Schalckheit / ſondern im Suͤſteig der Lauterkeit vnd Warheit.
+1	laßt	_	_	VMFIN	_	_	_	_	_	VP	laßt	_	VFIN	_	VMFIN	LI	MAINIMPER	LK	LK	08,07	_	_
+2	vns	_	_	PRF	_	_	_	_	_	VP	vns	_	VZ_RFL	_	PRF	_	MAINIMPER	_	MF	08,07	_	_
+3	Oſtern	_	_	NE	_	_	_	_	_	NP	Oſtern	_	DO	_	NE	_	MAINIMPER	_	MF	08,08 ſauer=	_	_
+4	halten	_	_	VVINF	_	_	_	_	_	VP	halten	_	INF	_	VVINF	RE	MAINIMPER	RK	RK	08,08 ſauer=	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINIMPER	_	_	08,08 ſauer=	_	_
+6	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK1	_
+7	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	APPRART	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK1	_
+8	alten	_	_	ADJA	_	_	_	_	_	PP	alten	CF_	PP-ADV	_	ADJ	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK1	_
+9	ſauerteig	_	_	NN	_	_	_	_	_	PP	ſauerteig	CF_	PP-ADV	GIV-ACTIVE	NA	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK1	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINIMPER	_	NF	08,08 ſauer=	_	_
+11	auch	_	_	KON	_	_	_	_	_	_	auch	_	_	_	KON	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK2	_
+12	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK2	_
+13	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	APPRART	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK2	_
+14	Saur=teig	_	_	NN	_	_	_	_	_	PP	Saurteig	CF_	PP-ADV	GIV-ACTIVE_	NA	_	MAINIMPER	_	NF	08,08 ſauer=	UNLINK2	_
+15	der	_	_	ART	_	_	_	_	_	PP	der	CF_	ATTR	_	DDA	_	MAINIMPER	_	NF	08,09 =teig	UNLINK2	_
+16	Boßheit	_	_	NN	_	_	_	_	_	PP	Boßheit	CF_	ATTR	_ACC-ABSTR-UNUSED_	NA	_	MAINIMPER	_	NF	08,09 =teig	UNLINK2	_
+17	/	_	_	$,	_	_	_	_	_	PP	/	CF_	ATTR	_	$_	_	MAINIMPER	_	NF	08,09 =teig	UNLINK2	_
+18	vnnd	_	_	KON	_	_	_	_	_	PP	vnnd	CF_	ATTR	_	KON	_	MAINIMPER	_	NF	08,09 =teig	UNLINK2	_
+19	Schalckheit	_	_	NN	_	_	_	_	_	PP	Schalckheit	CF_	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINIMPER	_	NF	08,09 =teig	UNLINK2	_
+20	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINIMPER	_	NF	08,09 =teig	_	_
+21	ſondern	_	_	KON	_	_	_	_	_	_	ſondern	_	_	_	KON	_	MAINIMPER	_	NF	08,09 =teig	UNLINK3	_
+22	im	_	_	APPRART	_	_	_	_	_	PP	im	CF_	PP-ADV	_	APPRART	_	MAINIMPER	_	NF	08,09 =teig	UNLINK3	_
+23	Suͤſteig	_	_	NN	_	_	_	_	_	PP	Suͤſteig	CF_	PP-ADV	GIV-ACTIVE_	NA	_	MAINIMPER	_	NF	08,09 =teig	UNLINK3	_
+24	der	_	_	ART	_	_	_	_	_	PP	der	CF_	ATTR	_	DDA	_	MAINIMPER	_	NF	08,09 =teig	UNLINK3	_
+25	Lauterkeit	_	_	NN	_	_	_	_	_	PP	Lauterkeit	CF_	ATTR	_ACC-ABSTR-UNUSED_	NA	_	MAINIMPER	_	NF	08,10	UNLINK3	_
+26	vnd	_	_	KON	_	_	_	_	_	PP	vnd	CF_	ATTR	_	KON	_	MAINIMPER	_	NF	08,10	UNLINK3	_
+27	Warheit	_	_	NN	_	_	_	_	_	PP	Warheit	CF_	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINIMPER	_	NF	08,10	UNLINK3	_
+28	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINIMPER	_	_	_	_	_
+
+# sent_id = 2
+# text = Richter vnd Ampt=Leuth ſolt du dir ſetzen / in allen deinen Thoren /
+1	Richter	_	_	NN	_	_	_	_	_	NP	Richter	_	DO	_	NA	_	MAINDECL	_	VF	09,02 =chen	_	_
+2	vnd	_	_	KON	_	_	_	_	_	NP	vnd	_	DO	_	KON	_	MAINDECL	_	VF	09,02 =chen	_	_
+3	Ampt=Leuth	_	_	NN	_	_	_	_	_	NP	AmptLeuth	_	DO	_	NA	_	MAINDECL	_	VF	09,02 =chen	_	_
+4	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	09,03 =Leuch	_	_
+5	du	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	PPER	_	MAINDECL	_	MF	09,03 =Leuch	_	_
+6	dir	_	_	PRF	_	_	_	_	_	VP	dir	_	VZ_RFL	_	PRF	_	MAINDECL	_	MF	09,03 =Leuch	_	_
+7	ſetzen	_	_	VVINF	_	_	_	_	_	VP	ſetzen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	09,03 =Leuch	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	09,03 =Leuch	_	_
+9	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	APPR	_	MAINDECL	_	NF	09,03 =Leuch	UNLINK	KOREF1-REL
+10	allen	_	_	PIS	_	_	_	_	_	PP	allen	NF	PP-SIT	_	DIS	_	MAINDECL	_	NF	09,03 =Leuch	UNLINK	KOREF1-REL
+11	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF	PP-SIT	ACC-SIT_	DPOS	_	MAINDECL	_	NF	09,03 =Leuch	UNLINK	KOREF1-REL
+12	Thoren	_	_	NN	_	_	_	_	_	PP	Thoren	NF	PP-SIT	_NEW	NA	_	MAINDECL	_	NF	09,03 =Leuch	UNLINK	KOREF1-REL
+13	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	$_	_	MAINDECL	_	_	09,03 =Leuch	_	_
+
+# sent_id = 3
+# text = Richter vnd Amptleuth ſoltu dir ſetzen / in allen deinen Thoren /
+1	Richter	_	_	NN	_	_	_	_	_	NP	Richter	_	DO	_	NA	_	MAINDECL	_	VF	10,02 =ten	_	_
+2	vnd	_	_	KON	_	_	_	_	_	NP	vnd	_	DO	_	KON	_	MAINDECL	_	VF	10,02 =ten	_	_
+3	Amptleuth	_	_	NN	_	_	_	_	_	NP	Amptleuth	_	DO	_	NA	_	MAINDECL	_	VF	10,02 =ten	_	_
+4	ſoltu	_	_	VMFIN	_	_	_	_	_	VP	ſoltu	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	10,02 =ten	_	_
+5	dir	_	_	PRF	_	_	_	_	_	VP	dir	_	VZ_RFL	_	PRF	_	MAINDECL	_	MF	10,02 =ten	_	_
+6	ſetzen	_	_	VVFIN	_	_	_	_	_	VP	ſetzen	_	INF	_	VVFIN	RE	MAINDECL	RK	RK	10,03	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL	_	_	10,03	_	_
+8	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	APPR	_	MAINDECL	_	NF	10,03	UNLINK	KOREF1-REL
+9	allen	_	_	PIS	_	_	_	_	_	PP	allen	NF	PP-SIT	_	DIS	_	MAINDECL	_	NF	10,03	UNLINK	KOREF1-REL
+10	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF	PP-SIT	ACC-SIT_	DPOS	_	MAINDECL	_	NF	10,03	UNLINK	KOREF1-REL
+11	Thoren	_	_	NN	_	_	_	_	_	PP	Thoren	NF	PP-SIT	_GIV-INACTIVE	NA	_	MAINDECL	_	NF	10,03	UNLINK	KOREF1-REL
+12	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	_	_	MAINDECL	_	_	10,03	_	_

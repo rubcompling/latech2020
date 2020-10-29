@@ -1,0 +1,185 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Auf gleiche Weiß seynd beschaffen untreue Beambte,
+1	Auf	_	_	APPR	_	_	_	_	_	PP	Auf	_	PP-ADV	_	APPR	_	MAINDECL	_	VF	11,30	_	_
+2	gleiche	_	_	ADJA	_	_	_	_	_	PP	gleiche	_	PP-ADV	_	ADJ	_	MAINDECL	_	VF	11,30	_	_
+3	Weiß	_	_	NN	_	_	_	_	_	PP	Weiß	_	PP-ADV	_	NA	_	MAINDECL	_	VF	11,30	_	_
+4	seynd	_	_	VAFIN	_	_	_	_	_	VP	seynd	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	11,31	_	_
+5	beschaffen	_	_	VVINF	_	_	_	_	_	VP	beschaffen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	11,31	_	_
+6	untreue	_	_	ADJA	_	_	_	_	_	NP	untreue	NF	SUBJ	GIV-INACTIVE	ADJ	_	MAINDECL	_	NF	11,31	UNLINK	KOREF1
+7	Beambte	_	_	NN	_	_	_	_	_	NP	Beambte	NF	SUBJ	GIV-INACTIVE	NA	_	MAINDECL	_	NF	11,31	UNLINK	KOREF1
+8	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	11,31	_	_
+
+# sent_id = 2
+# text = Das Weib iſt aufgezogen wie ein Dam
+1	Das	_	_	ART	_	_	_	_	_	NP	Das	_	SUBJ	_	DDA	_	MAINDECL	_	VF	12,16	_	_
+2	Weib	_	_	NN	_	_	_	_	_	NP	Weib	_	SUBJ	_	NA	_	MAINDECL	_	VF	12,16	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	12,16	_	_
+4	aufgezogen	_	_	VVPP	_	_	_	_	_	VP	aufgezogen	_	INF	_	VVPP	RE	MAINDECL	RK	RK	12,16	_	_
+5	wie	_	_	KON	_	_	_	_	_	_	wie	NF	VGL	_	KON	_	MAINDECL	_	NF	12,16	UNLINK	_
+6	ein	_	_	ART	_	_	_	_	_	NP	ein	NF	VGL	NEW	DIA	_	MAINDECL	_	NF	12,16	UNLINK	_
+7	Dam	_	_	NN	_	_	_	_	_	NP	Dam	NF	VGL	NEW	NA	_	MAINDECL	_	NF	12,16	UNLINK	_
+
+# sent_id = 3
+# text = die Gutſchen wollte nit gehen ohne Pferd;
+1	die	_	_	ART	_	_	_	_	_	NA	die	_	SUBJ	_	DDA	_	MAINDECL	_	VF	12,19	_	_
+2	Gutſchen	_	_	NN	_	_	_	_	_	NA	Gutſchen	_	SUBJ	_	NA	_	MAINDECL	_	VF	12,19	_	_
+3	wollte	_	_	VMFIN	_	_	_	_	_	VP	wollte	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	12,19	_	_
+4	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	PTKNEG	_	MAINDECL	_	MF	12,19	_	_
+5	gehen	_	_	VVINF	_	_	_	_	_	VP	gehen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	12,19	_	_
+6	ohne	_	_	APPR	_	_	_	_	_	PP	ohne	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	12,19	UNLINK	KOREF1
+7	Pferd	_	_	NN	_	_	_	_	_	PP	Pferd	NF	PP-OBJ	NEW	NA	_	MAINDECL	_	NF	12,19	UNLINK	KOREF1
+8	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	_	12,19	_	_
+
+# sent_id = 4
+# text = die Pferd wolten nit ziehen ohne Haber und Heu, und Bedienten,
+1	die	_	_	ART	_	_	_	_	_	NP	die	_	SUBJ	_	DDA	_	MAINDECL	_	VF	12,19	_	KOREF2
+2	Pferd	_	_	NN	_	_	_	_	_	NP	Pferd	_	SUBJ	_	NA	_	MAINDECL	_	VF	12,20e	_	KOREF2
+3	wolten	_	_	VMFIN	_	_	_	_	_	VP	wolten	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	12,20e	_	_
+4	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	PTKNEG	_	MAINDECL	_	MF	12,20e	_	_
+5	ziehen	_	_	VVINF	_	_	_	_	_	VP	ziehen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	12,20e	_	_
+6	ohne	_	_	APPR	_	_	_	_	_	PP	ohne	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	12,20e	UNLINK	_
+7	Haber	_	_	NN	_	_	_	_	_	PP	Haber	NF	PP-ADV	NEW	NA	_	MAINDECL	_	NF	12,20e	UNLINK	_
+8	und	_	_	KON	_	_	_	_	_	PP	und	NF	PP-ADV	_	KON	_	MAINDECL	_	NF	12,20e	UNLINK	_
+9	Heu	_	_	NN	_	_	_	_	_	PP	Heu	NF	PP-ADV	NEW	NA	_	MAINDECL	_	NF	12,20e	UNLINK	_
+10	,	_	_	$,	_	_	_	_	_	PP	,	NF	PP-ADV	_	$_	_	MAINDECL	_	NF	12,20e	UNLINK	_
+11	und	_	_	KON	_	_	_	_	_	PP	und	NF	PP-ADV	_	KON	_	MAINDECL	_	NF	12,20e	UNLINK	_
+12	Bedienten	_	_	NN	_	_	_	_	_	PP	Bedienten	NF	PP-ADV	NEW	NA	_	MAINDECL	_	NF	12,20e	UNLINK	_
+13	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	12,20e	_	_
+
+# sent_id = 5
+# text = Endlich hat Joannes geſehen Heuſchrecken, welche mit ihren Fluͤglen ein Geraͤuſch machten wie das Raßlen der Wagen,
+1	Endlich	_	_	ADV	_	_	_	_	_	ADVP	Endlich	_	ADVB	_	ADV	_	MAINDECL	_	VF	13,14	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	13,14	_	_
+3	Joannes	_	_	NE	_	_	_	_	_	NP	Joannes	_	SUBJ	_	NE	_	MAINDECL	_	MF	13,14	_	_
+4	geſehen	_	_	VVPP	_	_	_	_	_	VP	geſehen	_	INF	_	VVPP	RE	MAINDECL	RK	RK	13,14	_	_
+5	Heuſchrecken	_	_	NN	_	_	_	_	_	NP	Heuſchrecken	NF	DO	GIV-INACTIVE	NA	_	MAINDECL	_	NF	13,14	UNLINK	KOREF1-REL
+6	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	NF	13,14	_	_
+7	welche	_	_	PRELS	_	_	_	_	_	CP	welche	_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	13,14	_	KOREF2-REL
+8	mit	_	_	APPR	_	_	_	_	_	CP	mit	_	ATTR	_	_	_	MAINDECL	_	NF-MF	13,14	_	_
+9	ihren	_	_	PPOSAT	_	_	_	_	_	CP	ihren	_	ATTR	_	_	_	MAINDECL	_	NF-MF	13,14	_	_
+10	Fluͤglen	_	_	NN	_	_	_	_	_	CP	Fluͤglen	_	ATTR	_	_	_	MAINDECL	_	NF-MF	_	_	_
+11	ein	_	_	ART	_	_	_	_	_	CP	ein	_	ATTR	_	_	_	MAINDECL	_	NF-MF	_	_	_
+12	Geraͤuſch	_	_	NN	_	_	_	_	_	CP	Geraͤuſch	_	ATTR	_	_	_	MAINDECL	_	NF-MF	_	_	_
+13	machten	_	_	VVFIN	_	_	_	_	_	CP	machten	_	ATTR	_	_	_	MAINDECL	RK	NF-RK	_	_	_
+14	wie	_	_	KOKOM	_	_	_	_	_	CP	wie	_	ATTR	_	_	_	MAINDECL	_	NF-NF	_	_	_
+15	das	_	_	ART	_	_	_	_	_	CP	das	_	ATTR	_	_	_	MAINDECL	_	NF-NF	_	_	_
+16	Raßlen	_	_	NN	_	_	_	_	_	CP	Raßlen	_	ATTR	_	_	_	MAINDECL	_	NF-NF	_	_	_
+17	der	_	_	ART	_	_	_	_	_	CP	der	_	ATTR	_	_	_	MAINDECL	_	NF-NF	_	_	_
+18	Wagen	_	_	NN	_	_	_	_	_	CP	Wagen	_	ATTR	_	_	_	MAINDECL	_	NF-NF	_	_	_
+19	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 6
+# text = habt ihr niemahl was geleſen von denen Heuſchrecken in den Buch Exo-di?
+1	habt	_	_	VAFIN	_	_	_	_	_	VP	habt	_	VFIN	_	VAFIN	LI	MAINIMPER	LK	LK	15,36	_	_
+2	ihr	_	_	PPER	_	_	_	_	_	NP	ihr	_	SUBJ	_	PPER	_	MAINIMPER	_	MF	15,37	_	_
+3	niemahl	_	_	ADV	_	_	_	_	_	ADVP	niemahl	_	ADVB	_	ADVNEG	_	MAINIMPER	_	MF	15,37	_	_
+4	was	_	_	PIS	_	_	_	_	_	NP	was	_	DO	_	PI	_	MAINIMPER	_	MF	15,37	_	_
+5	geleſen	_	_	VVPP	_	_	_	_	_	VP	geleſen	_	INF	_	VVPP	RE	MAINIMPER	RK	RK	15,37	_	_
+6	von	_	_	APPR	_	_	_	_	_	PP	von	NF	PP-ADV	_	APPR	_	MAINIMPER	_	NF	15,37	UNLINK1	_
+7	denen	_	_	ART	_	_	_	_	_	PP	denen	NF	PP-ADV	_	DDA	_	MAINIMPER	_	NF	15,37	UNLINK1	_
+8	Heuſchrecken	_	_	NN	_	_	_	_	_	PP	Heuſchrecken	NF	PP-ADV	GIV-INACTIVE	NA	_	MAINIMPER	_	NF	15,37	UNLINK1	KOREF1
+9	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-ADV	_	APPR	_	MAINIMPER	_	NF	15,37	UNLINK2	KOREF1
+10	den	_	_	ART	_	_	_	_	_	PP	den	NF	PP-ADV	_	DDA	_	MAINIMPER	_	NF	15,37	UNLINK2	KOREF1
+11	Buch	_	_	NN	_	_	_	_	_	PP	Buch	NF	PP-ADV	NEW	NA	_	MAINIMPER	_	NF	15,37	UNLINK2	KOREF1
+12	Exo-di	_	_	NE	_	_	_	_	_	PP	Exodi	NF	PP-ADV	NEW	NE	_	MAINIMPER	_	NF	15,37	UNLINK2	KOREF1
+13	?	_	_	$.	_	_	_	_	_	_	?	_	_	_	$_	_	MAINIMPER	_	_	15,38 befoh=	_	_
+
+# sent_id = 7
+# text = er ſolle die Haͤnd ausſtrecken um die Heuſchrecken,
+1	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	PPER	_	MAINDECL	_	VF	15,39 =len	_	_
+2	ſolle	_	_	VMFIN	_	_	_	_	_	VP	ſolle	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	15,39 =len	_	_
+3	die	_	_	ART	_	_	_	_	_	NP	die	NF	DO	_	DDA	_	MAINDECL	_	MF	15,39 =len	_	_
+4	Haͤnd	_	_	NN	_	_	_	_	_	NP	Haͤnd	NF	DO	_	NA	_	MAINDECL	_	MF	15,39 =len	_	_
+5	ausſtrecken	_	_	VVINF	_	_	_	_	_	VP	ausſtrecken	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	15,39 =len	_	_
+6	um	_	_	APPR	_	_	_	_	_	PP	um	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	15,39 =len	UNLINK	_
+7	die	_	_	ART	_	_	_	_	_	PP	die	NF	PP-ADV	_	DDA	_	MAINDECL	_	NF	15,39 =len	UNLINK	_
+8	Heuſchrecken	_	_	NE	_	_	_	_	_	PP	Heuſchrecken	NF	PP-ADV	GIV-ACTIVE	NE	_	MAINDECL	_	NF	15,39 =len	UNLINK	KOREF2/1
+9	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	15,39 =len	_	_
+
+# sent_id = 8
+# text = Ich kunte noch vil ſagen von diſen allgemeinen Laſter; welches bey GOtt uͤberaus verhaſt iſt,
+1	Ich	_	_	PPER	_	_	_	_	_	NP	Ich	_	SUBJ	_	PPER	_	MAINDECL	_	VF	17,35	_	_
+2	kunte	_	_	VMFIN	_	_	_	_	_	VP	kunte	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	17,36	_	_
+3	noch	_	_	ADV	_	_	_	_	_	ADVP	noch	_	ADVB	_	ADV	_	MAINDECL	_	MF	17,36	_	_
+4	vil	_	_	ADV	_	_	_	_	_	ADVP	vil	_	ADVB	_	ADV	_	MAINDECL	_	MF	17,36	_	_
+5	ſagen	_	_	VVINF	_	_	_	_	_	VP	ſagen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	17,36	_	_
+6	von	_	_	APPR	_	_	_	_	_	PP	von	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	17,36	UNLINK	_
+7	diſen	_	_	PDS	_	_	_	_	_	PP	diſen	BGR	PP-ADV	_	DDS	_	MAINDECL	_	NF	17,36	UNLINK	_
+8	allgemeinen	_	_	ADJA	_	_	_	_	_	PP	allgemeinen	BGR	PP-ADV	_	ADJ	_	MAINDECL	_	NF	17,36	UNLINK	_
+9	Laſter	_	_	NN	_	_	_	_	_	PP	Laſter	BGR	PP-ADV	ACC-AGGR	NA	_	MAINDECL	_	NF	17,36	UNLINK	KOREF1-REL
+10	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	NF	17,36	_	_
+11	welches	_	_	PRELS	_	_	_	_	_	CP	welches	_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	17,36	_	KOREF2-REL
+12	bey	_	_	APPR	_	_	_	_	_	CP	bey	_	ATTR	_	_	_	MAINDECL	_	NF-MF	17,36	_	_
+13	GOtt	_	_	NN	_	_	_	_	_	CP	GOtt	_	ATTR	_	_	_	MAINDECL	_	NF-MF	17,36	_	_
+14	uͤberaus	_	_	ADV	_	_	_	_	_	CP	uͤberaus	_	ATTR	_	_	_	MAINDECL	_	NF-MF	_	_	_
+15	verhaſt	_	_	ADJD	_	_	_	_	_	CP	verhaſt	_	ATTR	_	_	_	MAINDECL	_	NF-MF	_	_	_
+16	iſt	_	_	VAFIN	_	_	_	_	_	CP	iſt	_	ATTR	_	_	_	MAINDECL	RK	NF-RK	_	_	_
+17	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 9
+# text = faſt die gantze Welt iſt entzuͤndet mit unreinen Venus Feuer;
+1	faſt	_	_	ADV	_	_	_	_	_	ADVP	faſt	_	ADVB	_	ADV	_	MAINDECL	_	VF	18,22	_	_
+2	die	_	_	ART	_	_	_	_	_	NP	die	_	SUBJ	_	DDA	_	MAINDECL	_	VF	18,22	_	_
+3	gantze	_	_	ADJA	_	_	_	_	_	NP	gantze	_	SUBJ	_	ADJ	_	MAINDECL	_	VF	18,22	_	_
+4	Welt	_	_	NN	_	_	_	_	_	NP	Welt	_	SUBJ	_	NA	_	MAINDECL	_	VF	18,22	_	_
+5	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,22	_	_
+6	entzuͤndet	_	_	VVPP	_	_	_	_	_	VP	entzuͤndet	_	INF	_	VVPP	RE	MAINDECL	RK	RK	18,22	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit	_	PP-ADV	_	APPR	_	MAINDECL	_	NF	18,22	UNLINK	_
+8	unreinen	_	_	ADJA	_	_	_	_	_	PP	unreinen	_	PP-ADV	_	ADJ	_	MAINDECL	_	NF	18,22	UNLINK	_
+9	Venus	_	_	NE	_	_	_	_	_	PP	Venus	_	PP-ADV	ACC-UNI-UNUSED_	NE	_	MAINDECL	_	NF	18,22	UNLINK	_
+10	Feuer	_	_	NN	_	_	_	_	_	PP	Feuer	_	PP-ADV	_NEW	NA	_	MAINDECL	_	NF	18,22	UNLINK	_
+11	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	_	18,22	_	_
+
+# sent_id = 10
+# text = der Menſch wird gebohren zur Arbeit.
+1	der	_	_	ART	_	_	_	_	_	NP	der	_	SUBJ	_	DDA	_	MAINDECL	_	VF	19,16	_	_
+2	Menſch	_	_	NN	_	_	_	_	_	NP	Menſch	_	SUBJ	_	NA	_	MAINDECL	_	VF	19,16	_	_
+3	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	19,16	_	_
+4	gebohren	_	_	VVPP	_	_	_	_	_	VP	gebohren	_	INF	_	VVPP	RE	MAINDECL	RK	RK	19,17 reple=	_	_
+5	zur	_	_	APPRART	_	_	_	_	_	PP	zur	NF	PP-ADV	_	APPRART	_	MAINDECL	_	NF	19,17 reple=	UNLINK	_
+6	Arbeit	_	_	NN	_	_	_	_	_	PP	Arbeit	NF	PP-ADV	GIV-INACTIVE	NA	_	MAINDECL	_	NF	19,17 reple=	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	19,17 reple=	_	_
+
+# sent_id = 11
+# text = und muß ſeyn das Verlangen und Abſehen eines Predigers.
+1	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	22,03	_	_
+2	muß	_	_	VMFIN	_	_	_	_	_	VP	muß	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	22,03	_	_
+3	ſeyn	_	_	VVINF	_	_	_	_	_	VP	ſeyn	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	22,03	_	_
+4	das	_	_	ART	_	_	_	_	_	NP	das	_	PRD	_	DDA	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+5	Verlangen	_	_	NN	_	_	_	_	_	NP	Verlangen	_	PRD	ACC-ABSTR-USED-X	NA	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+6	und	_	_	KON	_	_	_	_	_	_	und	_	PRD	_	KON	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+7	Abſehen	_	_	NN	_	_	_	_	_	NP	Abſehen	_	PRD	ACC-ABSTR-USED-X	NA	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+8	eines	_	_	ART	_	_	_	_	_	NP	eines	_	ATTR	_	DIA	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+9	Predigers	_	_	NN	_	_	_	_	_	NP	Predigers	_	ATTR	_	NA	_	MAINDECL-ELLI	_	NF	22,03	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	22,03		_
+
+# sent_id = 12
+# text = End=lichen drittens werden die Heuſchrecken vertriben durch einen groſ=ſen Schall oder Klang;
+1	End=lichen	_	_	ADV	_	_	_	_	_	ADVP	Endlichen	_	ADVB	_	ADV	_	MAINDECL	_	LV	22,17 End=	_	_
+2	drittens	_	_	NN	_	_	_	_	_	ADVP	drittens	_	ADVB	_	ADJOS	_	MAINDECL	_	VF	22,18 =lichen; groſ=	_	_
+3	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	22,18 =lichen; groſ=	_	_
+4	die	_	_	ART	_	_	_	_	_	NP	die	_	DO	_	DDA	_	MAINDECL	_	MF	22,18 =lichen; groſ=	_	_
+5	Heuſchrecken	_	_	NE	_	_	_	_	_	NP	Heuſchrecken	_	DO	_	NE	_	MAINDECL	_	MF	22,18 =lichen; groſ=	_	_
+6	vertriben	_	_	VVPP	_	_	_	_	_	VP	vertriben	_	INF	_	VVPP	RE	MAINDECL	RK	RK	22,18 =lichen; groſ=	_	_
+7	durch	_	_	APPR	_	_	_	_	_	PP	durch	NF	PP-AGENS	_	APPR	_	MAINDECL	_	NF	22,18 =lichen; groſ=	UNLINK	_
+8	einen	_	_	ART	_	_	_	_	_	PP	einen	NF	PP-AGENS	_	DIA	_	MAINDECL	_	NF	22,18 =lichen; groſ=	UNLINK	_
+9	groſ=ſen	_	_	ADJA	_	_	_	_	_	PP	groſſen	NF	PP-AGENS	_	ADJ	_	MAINDECL	_	NF	22,18 =lichen; groſ=	UNLINK	_
+10	Schall	_	_	NN	_	_	_	_	_	PP	Schall	NF	PP-AGENS	NEW	NA	_	MAINDECL	_	NF	22,19 =ſen	UNLINK	KOREF1
+11	oder	_	_	KON	_	_	_	_	_	PP	oder	NF	PP-AGENS	_	KON	_	MAINDECL	_	NF	22,19 =ſen	UNLINK	KOREF1
+12	Klang	_	_	NN	_	_	_	_	_	PP	Klang	NF	PP-AGENS	NEW	NA	_	MAINDECL	_	NF	22,19 =ſen	UNLINK	KOREF1
+13	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	_	22,19 =ſen	_	_
+
+# sent_id = 13
+# text = alſo ſolle die Suͤnd vertriben werden durch jenen Schroͤck=vollen Poſaunen=Schall,
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	_	VGL	_	ADV	_	MAINDECL	_	VF	22,19 =ſen	_	_
+2	ſolle	_	_	VMFIN	_	_	_	_	_	VP	ſolle	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	22,19 =ſen	_	_
+3	die	_	_	ART	_	_	_	_	_	NP	die	_	DO	_	DDA	_	MAINDECL	_	MF	22,19 =ſen	_	_
+4	Suͤnd	_	_	NN	_	_	_	_	_	NP	Suͤnd	_	DO	_	NA	_	MAINDECL	_	MF	22,19 =ſen	_	_
+5	vertriben	_	_	VVPP	_	_	_	_	_	VP	vertriben	_	INF	_	VVPP	_	MAINDECL	RK	RK	22,19 =ſen	_	_
+6	werden	_	_	VAINF	_	_	_	_	_	VP	werden	_	INF	_	VAINF	RE	MAINDECL	RK	RK	22,19 =ſen	_	_
+7	durch	_	_	APPR	_	_	_	_	_	PP	durch	NF	PP-AGENS	_	APPR	_	MAINDECL	_	NF	22,19 =ſen	UNLINK	_
+8	jenen	_	_	PDAT	_	_	_	_	_	PP	jenen	NF	PP-AGENS	_	DD	_	MAINDECL	_	NF	22,20	UNLINK	_
+9	Schroͤck=vollen	_	_	ADJA	_	_	_	_	_	PP	Schroͤckvollen	NF	PP-AGENS	_	ADJ	_	MAINDECL	_	NF	22,20	UNLINK	_
+10	Poſaunen=Schall	_	_	NN	_	_	_	_	_	PP	PoſaunenSchall	NF	PP-AGENS	GIV-INACTIVE	NA	_	MAINDECL	_	NF	22,20	UNLINK	KOREF2
+11	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	22,20	_	_

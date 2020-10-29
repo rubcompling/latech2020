@@ -1,0 +1,670 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 3
+# text = Folgende empfehlungswerthe Werke haben ſo eben bei F. G. Franckh in München die Preſſe verlaſſen :
+1	Folgende	folgend	_	ADJA	_	_	_	_	_	_	VF
+2	empfehlungswerthe	empfehlungswert	_	ADJA	_	_	_	_	_	_	VF
+3	Werke	Werk	_	NN	_	_	_	_	_	_	VF
+4	haben	haben	_	VAFIN	_	_	_	_	_	LK	LK
+5	ſo	so	_	ADV	_	_	_	_	_	_	MF
+6	eben	eben	_	ADV	_	_	_	_	_	_	MF
+7	bei	bei	_	APPR	_	_	_	_	_	_	MF
+8	F.	F.	_	NE	_	_	_	_	_	_	MF
+9	G.	G.	_	NE	_	_	_	_	_	_	MF
+10	Franckh	Franckh	_	NE	_	_	_	_	_	_	MF
+11	in	in	_	APPR	_	_	_	_	_	_	MF
+12	München	München	_	NE	_	_	_	_	_	_	MF
+13	die	d	_	ART	_	_	_	_	_	_	MF
+14	Preſſe	Presse	_	NN	_	_	_	_	_	_	MF
+15	verlaſſen	verlassen	_	VVINF	_	_	_	_	_	RK	RK
+16	:	:	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 19
+# text = Wer Samiel eigentlich war .
+1	Wer	wer	_	PWS	_	_	_	_	_	LK	LK
+2	Samiel	Samiel	_	NE	_	_	_	_	_	_	MF
+3	eigentlich	eigentlich	_	ADV	_	_	_	_	_	_	MF
+4	war	sein	_	VAFIN	_	_	_	_	_	RK	RK
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 377
+# text = War es alſo der Teufel oder nicht ? fragſt Du .
+1	War	sein	_	VAFIN	_	_	_	_	_	LK	VF-LK
+2	es	es	_	PPER	_	_	_	_	_	_	VF-MF
+3	alſo	also	_	ADV	_	_	_	_	_	_	VF-MF
+4	der	d	_	ART	_	_	_	_	_	_	VF-MF
+5	Teufel	Teufel	_	NN	_	_	_	_	_	_	VF-MF
+6	oder	oder	_	KON	_	_	_	_	_	_	VF-MF
+7	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	VF-MF
+8	?	?	_	$.	_	_	_	_	_	_	VF
+9	fragſt	fragen	_	VVFIN	_	_	_	_	_	LK	LK
+10	Du	du	_	PPER	_	_	_	_	_	_	MF
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 379
+# text = Jedenfalls hatte er in dem erwähnten Augenblick eine ſehr recommendable , wenn gleich gefährliche , Geſtalt erwählt , nämlich die eines hübſchen Mädchens , die in ihrem dunkelblauen , vom Regen noch ſchwärzer gemachten , langen Man-<lb/>tel eingehüllt , und der rothen Mütze von Kerry auf dem Kopfe , barfuß , und vor Kälte ſchauernd , bei mir vorbeigehen wollte , als ich ſie anhielt , und frug , warum ſie hinke , und wie ſie in dieſem Wetter hier ſo allein umher irre ?
+1	Jedenfalls	jedenfalls	_	ADV	_	_	_	_	_	_	VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	er	er	_	PPER	_	_	_	_	_	_	MF
+4	in	in	_	APPR	_	_	_	_	_	_	MF
+5	dem	d	_	ART	_	_	_	_	_	_	MF
+6	erwähnten	erwähnt	_	ADJA	_	_	_	_	_	_	MF
+7	Augenblick	Augenblick	_	NN	_	_	_	_	_	_	MF
+8	eine	eine	_	ART	_	_	_	_	_	_	MF
+9	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+10	recommendable	Recommendable	_	ADJA	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	MF
+12	wenn	wenn	_	KOUS	_	_	_	_	_	_	MF
+13	gleich	gleich	_	ADV	_	_	_	_	_	_	MF
+14	gefährliche	gefährlich	_	ADJA	_	_	_	_	_	_	MF
+15	,	,	_	$,	_	_	_	_	_	_	MF
+16	Geſtalt	Gestalt	_	NN	_	_	_	_	_	_	MF
+17	erwählt	erwählen	_	VVPP	_	_	_	_	_	RK	RK
+18	,	,	_	$,	_	_	_	_	_	_	_
+19	nämlich	nämlich	_	ADV	_	_	_	_	_	_	NF
+20	die	d	_	PDS	_	_	_	_	_	_	NF
+21	eines	eine	_	ART	_	_	_	_	_	_	NF
+22	hübſchen	hübsch	_	ADJA	_	_	_	_	_	_	NF
+23	Mädchens	Mädchen	_	NN	_	_	_	_	_	_	NF
+24	,	,	_	$,	_	_	_	_	_	_	NF
+25	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+26	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+27	ihrem	ihr	_	PPOSAT	_	_	_	_	_	_	NF-MF
+28	dunkelblauen	dunkelblau	_	ADJA	_	_	_	_	_	_	NF-MF
+29	,	,	_	$,	_	_	_	_	_	_	NF-MF
+30	vom	vom	_	APPRART	_	_	_	_	_	_	NF-MF
+31	Regen	Regen	_	NN	_	_	_	_	_	_	NF-MF
+32	noch	noch	_	ADV	_	_	_	_	_	_	NF-MF
+33	ſchwärzer	schwarz	_	ADJD	_	_	_	_	_	_	NF-MF
+34	gemachten	gemacht	_	ADJA	_	_	_	_	_	_	NF-MF
+35	,	,	_	$,	_	_	_	_	_	_	NF-MF
+36	langen	lang	_	ADJA	_	_	_	_	_	_	NF-MF
+37	Man-<lb/>tel	Mantel	_	NN	_	_	_	_	_	_	NF-MF
+38	eingehüllt	einhüllen	_	VVPP	_	_	_	_	_	_	NF-MF
+39	,	,	_	$,	_	_	_	_	_	_	NF-MF
+40	und	und	_	KON	_	_	_	_	_	_	NF-MF
+41	der	d	_	ART	_	_	_	_	_	_	NF-MF
+42	rothen	rot	_	ADJA	_	_	_	_	_	_	NF-MF
+43	Mütze	Mütze	_	NN	_	_	_	_	_	_	NF-MF
+44	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+45	Kerry	Kerry	_	NE	_	_	_	_	_	_	NF-MF
+46	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+47	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+48	Kopfe	Kopf	_	NN	_	_	_	_	_	_	NF-MF
+49	,	,	_	$,	_	_	_	_	_	_	NF-MF
+50	barfuß	barfuß	_	ADV	_	_	_	_	_	_	NF-MF
+51	,	,	_	$,	_	_	_	_	_	_	NF-MF
+52	und	und	_	KON	_	_	_	_	_	_	NF-MF
+53	vor	vor	_	APPR	_	_	_	_	_	_	NF-MF
+54	Kälte	Kälte	_	NN	_	_	_	_	_	_	NF-MF
+55	ſchauernd	schauern	_	VVPP	_	_	_	_	_	_	NF-MF
+56	,	,	_	$,	_	_	_	_	_	_	NF-MF
+57	bei	bei	_	APPR	_	_	_	_	_	_	NF-MF
+58	mir	ich	_	PPER	_	_	_	_	_	_	NF-MF
+59	vorbeigehen	vorbeigehen	_	VVINF	_	_	_	_	_	RK	NF-RK
+60	wollte	wollen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+61	,	,	_	$,	_	_	_	_	_	_	NF
+62	als	als	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+63	ich	ich	_	PPER	_	_	_	_	_	_	NF-NF-MF
+64	ſie	sie	_	PPER	_	_	_	_	_	_	NF-NF-MF
+65	anhielt	anhalten	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+66	,	,	_	$,	_	_	_	_	_	_	NF-NF
+67	und	und	_	KON	_	_	_	_	_	_	NF-NF-KOORD
+68	frug	fragen	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+69	,	,	_	$,	_	_	_	_	_	_	NF-NF
+70	warum	warum	_	PWAV	_	_	_	_	_	LK	NF-NF-NF-LK
+71	ſie	sie	_	PPER	_	_	_	_	_	_	NF-NF-NF-MF
+72	hinke	hinken	_	VVFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+73	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF
+74	und	und	_	KON	_	_	_	_	_	_	NF-NF-NF-KOORD
+75	wie	wie	_	PWAV	_	_	_	_	_	LK	NF-NF-NF-LK
+76	ſie	sie	_	PPER	_	_	_	_	_	_	NF-NF-NF-MF
+77	in	in	_	APPR	_	_	_	_	_	_	NF-NF-NF-MF
+78	dieſem	diese	_	PDAT	_	_	_	_	_	_	NF-NF-NF-MF
+79	Wetter	Wetter	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+80	hier	hier	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+81	ſo	so	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+82	allein	allein	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+83	umher	umher	_	PTKVZ	_	_	_	_	_	_	NF-NF-NF-MF
+84	irre	irre	_	VVFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+85	?	?	_	$.	_	_	_	_	_	_	NF
+
+# sent_id = 5
+# sent_id(TSV) = 380
+# text = Ach , rief ſie , in halb verſtänd-<lb/>lichem patois , auf ihren verbundenen Fuß zeigend ich gehe blos nach dem nächſten Dorfe , habe mich verſpätet , bin bei dem abſcheulichen Wetter gefallen , und habe mir recht wehe gethan !
+1	Ach	ach	_	ITJ	_	_	_	_	_	_	VF
+2	,	,	_	$,	_	_	_	_	_	_	_
+3	rief	rufen	_	VVFIN	_	_	_	_	_	LK	LK
+4	ſie	sie	_	PPER	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	MF
+6	in	in	_	APPR	_	_	_	_	_	_	MF
+7	halb	halb	_	ADJD	_	_	_	_	_	_	MF
+8	verſtänd-<lb/>lichem	verständlich	_	ADJA	_	_	_	_	_	_	MF
+9	patois	Patois	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	MF
+11	auf	auf	_	APPR	_	_	_	_	_	_	MF
+12	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+13	verbundenen	verbinden	_	ADJA	_	_	_	_	_	_	MF
+14	Fuß	Fuß	_	NN	_	_	_	_	_	_	MF
+15	zeigend	zeigen	_	VVPP	_	_	_	_	_	_	MF
+16	ich	ich	_	PPER	_	_	_	_	_	_	NF-VF
+17	gehe	gehen	_	VVFIN	_	_	_	_	_	LK	NF-LK
+18	blos	bloß	_	ADV	_	_	_	_	_	_	NF-MF
+19	nach	nach	_	APPR	_	_	_	_	_	_	NF-MF
+20	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+21	nächſten	nächst	_	ADJA	_	_	_	_	_	_	NF-MF
+22	Dorfe	Dorf	_	NN	_	_	_	_	_	_	NF-MF
+23	,	,	_	$,	_	_	_	_	_	_	NF
+24	habe	haben	_	VAFIN	_	_	_	_	_	LK	NF-LK
+25	mich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+26	verſpätet	verspätet	_	VVPP	_	_	_	_	_	RK	NF-RK
+27	,	,	_	$,	_	_	_	_	_	_	NF
+28	bin	sein	_	VAFIN	_	_	_	_	_	LK	NF-LK
+29	bei	bei	_	APPR	_	_	_	_	_	_	NF-MF
+30	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+31	abſcheulichen	abscheulich	_	ADJA	_	_	_	_	_	_	NF-MF
+32	Wetter	Wetter	_	NN	_	_	_	_	_	_	NF-MF
+33	gefallen	gefallen	_	VVPP	_	_	_	_	_	RK	NF-RK
+34	,	,	_	$,	_	_	_	_	_	_	NF
+35	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+36	habe	haben	_	VAFIN	_	_	_	_	_	LK	NF-LK
+37	mir	ich	_	PPER	_	_	_	_	_	_	NF-MF
+38	recht	recht	_	ADV	_	_	_	_	_	_	NF-MF
+39	wehe	weh	_	PTKVZ	_	_	_	_	_	RK	NF-RK
+40	gethan	tun	_	VVPP	_	_	_	_	_	RK	NF-RK
+41	!	!	_	$.	_	_	_	_	_	_	NF
+
+# sent_id = 6
+# sent_id(TSV) = 381
+# text = Hierbei ſah ſie ganz ſchalkhaft und loſe aus ( am Ende war doch etwas nicht ganz Geheures dabei ) und zeigte ſo viel von dem ſchön gerundeten , verwundeten Bein , daß meine Laune abermals wechſelte , et je crois que le diable n’y perdit rien . —
+1	Hierbei	hierbei	_	PAV	_	_	_	_	_	_	VF
+2	ſah	sehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	ſie	sie	_	PPER	_	_	_	_	_	_	MF
+4	ganz	ganz	_	ADV	_	_	_	_	_	_	MF
+5	ſchalkhaft	schalkhaft	_	ADJD	_	_	_	_	_	_	MF
+6	und	und	_	KON	_	_	_	_	_	_	MF
+7	loſe	lose	_	ADJA	_	_	_	_	_	_	MF
+8	aus	aus	_	PTKVZ	_	_	_	_	_	RK	RK
+9	(	(	_	$(	_	_	_	_	_	_	NF
+10	am	am	_	APPRART	_	_	_	_	_	_	NF-VF
+11	Ende	Ende	_	NN	_	_	_	_	_	_	NF-VF
+12	war	sein	_	VAFIN	_	_	_	_	_	LK	NF-LK
+13	doch	doch	_	ADV	_	_	_	_	_	_	NF-MF
+14	etwas	etwas	_	ADV	_	_	_	_	_	_	NF-MF
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+16	ganz	ganz	_	ADV	_	_	_	_	_	_	NF-MF
+17	Geheures	Geheur	_	NN	_	_	_	_	_	_	NF-MF
+18	dabei	dabei	_	PAV	_	_	_	_	_	RK	NF-RK
+19	)	)	_	$(	_	_	_	_	_	_	NF
+20	und	und	_	KON	_	_	_	_	_	_	KOORD
+21	zeigte	zeigen	_	VVFIN	_	_	_	_	_	LK	LK
+22	ſo	so	_	ADV	_	_	_	_	_	_	MF
+23	viel	viel	_	PIS	_	_	_	_	_	_	MF
+24	von	von	_	APPR	_	_	_	_	_	_	MF
+25	dem	d	_	ART	_	_	_	_	_	_	MF
+26	ſchön	schön	_	ADJD	_	_	_	_	_	_	MF
+27	gerundeten	gerundet	_	ADJA	_	_	_	_	_	_	MF
+28	,	,	_	$,	_	_	_	_	_	_	MF
+29	verwundeten	verwundet	_	ADJA	_	_	_	_	_	_	MF
+30	Bein	Bein	_	NN	_	_	_	_	_	_	MF
+31	,	,	_	$,	_	_	_	_	_	_	MF
+32	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+33	meine	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+34	Laune	Laune	_	NN	_	_	_	_	_	_	NF-MF
+35	abermals	abermals	_	ADV	_	_	_	_	_	_	NF-MF
+36	wechſelte	wechseln	_	VVFIN	_	_	_	_	_	RK	NF-RK
+37	,	,	_	$,	_	_	_	_	_	_	NF
+38	et	Et	_	FM	_	_	_	_	_	_	NF
+39	je	je	_	FM	_	_	_	_	_	_	NF
+40	crois	crois	_	FM	_	_	_	_	_	_	NF
+41	que	que	_	FM	_	_	_	_	_	_	NF
+42	le	le	_	FM	_	_	_	_	_	_	NF
+43	diable	diable	_	FM	_	_	_	_	_	_	NF
+44	n’y	n'y	_	FM	_	_	_	_	_	_	NF
+45	perdit	perdit	_	FM	_	_	_	_	_	_	NF
+46	rien	rien	_	FM	_	_	_	_	_	_	NF
+47	.	.	_	$.	_	_	_	_	_	_	NF
+48	—	--	_	$(	_	_	_	_	_	_	NF
+
+# sent_id = 7
+# sent_id(TSV) = 382
+# text = Wir theilten von nun an die Beſchwerden des Wegs , halfen uns gegenſei-<lb/>tig , und fanden endlich im Thal , zuerſt beſſeres Wetter , dann ein erholendes Obdach , und endlich einen labenden Trunk friſcher Milch .
+1	Wir	wir	_	PPER	_	_	_	_	_	_	VF
+2	theilten	teilen	_	VVFIN	_	_	_	_	_	LK	LK
+3	von	von	_	APPR	_	_	_	_	_	_	MF
+4	nun	nun	_	ADV	_	_	_	_	_	_	MF
+5	an	an	_	APPR	_	_	_	_	_	_	MF
+6	die	d	_	ART	_	_	_	_	_	_	MF
+7	Beſchwerden	Beschwerde	_	NN	_	_	_	_	_	_	MF
+8	des	d	_	ART	_	_	_	_	_	_	MF
+9	Wegs	Weg	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	halfen	helfen	_	VVFIN	_	_	_	_	_	LK	LK
+12	uns	wir	_	PPER	_	_	_	_	_	_	MF
+13	gegenſei-<lb/>tig	gegenseitig	_	ADJD	_	_	_	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	und	und	_	KON	_	_	_	_	_	_	KOORD
+16	fanden	finden	_	VVFIN	_	_	_	_	_	LK	LK
+17	endlich	endlich	_	ADV	_	_	_	_	_	_	MF
+18	im	im	_	APPRART	_	_	_	_	_	_	MF
+19	Thal	Tal	_	NN	_	_	_	_	_	_	MF
+20	,	,	_	$,	_	_	_	_	_	_	MF
+21	zuerſt	zuerst	_	ADV	_	_	_	_	_	_	MF
+22	beſſeres	gut	_	ADJA	_	_	_	_	_	_	MF
+23	Wetter	Wetter	_	NN	_	_	_	_	_	_	MF
+24	,	,	_	$,	_	_	_	_	_	_	MF
+25	dann	dann	_	ADV	_	_	_	_	_	_	MF
+26	ein	eine	_	ART	_	_	_	_	_	_	MF
+27	erholendes	erholend	_	ADJA	_	_	_	_	_	_	MF
+28	Obdach	Obdach	_	NN	_	_	_	_	_	_	MF
+29	,	,	_	$,	_	_	_	_	_	_	MF
+30	und	und	_	KON	_	_	_	_	_	_	MF
+31	endlich	endlich	_	ADV	_	_	_	_	_	_	MF
+32	einen	eine	_	ART	_	_	_	_	_	_	MF
+33	labenden	labend	_	ADJA	_	_	_	_	_	_	MF
+34	Trunk	Trunk	_	NN	_	_	_	_	_	_	MF
+35	friſcher	frisch	_	ADJA	_	_	_	_	_	_	MF
+36	Milch	Milch	_	NN	_	_	_	_	_	_	MF
+37	.	.	_	$.	_	_	_	_	_	_	MF
+
+# sent_id = 8
+# sent_id(TSV) = 383
+# text = Neu geſtärkt wanderte ich in der Nacht weiter , und als ich in Kenmare anlangte , hatte ich die vier deutſchen Meilen in etwas über 6 Stunden zurückge-<lb/>legt .
+1	Neu	neu	_	ADJD	_	_	_	_	_	_	VF
+2	geſtärkt	stärken	_	ADJD	_	_	_	_	_	_	VF
+3	wanderte	wandern	_	VVFIN	_	_	_	_	_	LK	LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	MF
+5	in	in	_	APPR	_	_	_	_	_	_	MF
+6	der	d	_	ART	_	_	_	_	_	_	MF
+7	Nacht	Nacht	_	NN	_	_	_	_	_	_	MF
+8	weiter	weiter	_	ADV	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	und	und	_	KON	_	_	_	_	_	_	KOORD
+11	als	als	_	KOUS	_	_	_	_	_	LK	VF-LK
+12	ich	ich	_	PPER	_	_	_	_	_	_	VF-MF
+13	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+14	Kenmare	Kenmare	_	NE	_	_	_	_	_	_	VF-MF
+15	anlangte	anlangen	_	VVFIN	_	_	_	_	_	RK	VF-RK
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+18	ich	ich	_	PPER	_	_	_	_	_	_	MF
+19	die	d	_	ART	_	_	_	_	_	_	MF
+20	vier	vier	_	CARD	_	_	_	_	_	_	MF
+21	deutſchen	deutsch	_	ADJA	_	_	_	_	_	_	MF
+22	Meilen	Meile	_	NN	_	_	_	_	_	_	MF
+23	in	in	_	APPR	_	_	_	_	_	_	MF
+24	etwas	etwas	_	PIS	_	_	_	_	_	_	MF
+25	über	über	_	APPR	_	_	_	_	_	_	MF
+26	6	6	_	CARD	_	_	_	_	_	_	MF
+27	Stunden	Stunde	_	NN	_	_	_	_	_	_	MF
+28	zurückge-<lb/>legt	zurücklegen	_	VVPP	_	_	_	_	_	RK	RK
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 384
+# text = Aber ich war auch herzlich müde , und ſobald ich in mein Schlafzimmer trat , ſprach ich mit Pathos , und Wallenſtein : Ich denke einen langen Schlaf zu thun !
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	ich	ich	_	PPER	_	_	_	_	_	_	VF
+3	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	auch	auch	_	ADV	_	_	_	_	_	_	MF
+5	herzlich	herzlich	_	ADJD	_	_	_	_	_	_	MF
+6	müde	müde	_	ADJD	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	und	und	_	KON	_	_	_	_	_	_	KOORD
+9	ſobald	sobald	_	KOUS	_	_	_	_	_	LK	VF-LK
+10	ich	ich	_	PPER	_	_	_	_	_	_	VF-MF
+11	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+12	mein	mein	_	PPOSAT	_	_	_	_	_	_	VF-MF
+13	Schlafzimmer	Schlafzimmer	_	NN	_	_	_	_	_	_	VF-MF
+14	trat	treten	_	VVFIN	_	_	_	_	_	RK	VF-RK
+15	,	,	_	$,	_	_	_	_	_	_	_
+16	ſprach	sprechen	_	VVFIN	_	_	_	_	_	LK	LK
+17	ich	ich	_	PPER	_	_	_	_	_	_	MF
+18	mit	mit	_	APPR	_	_	_	_	_	_	MF
+19	Pathos	Pathos	_	NN	_	_	_	_	_	_	MF
+20	,	,	_	$,	_	_	_	_	_	_	MF
+21	und	und	_	KON	_	_	_	_	_	_	MF
+22	Wallenſtein	Wallenstein	_	NN	_	_	_	_	_	_	MF
+23	:	:	_	$.	_	_	_	_	_	_	_
+24	Ich	ich	_	PPER	_	_	_	_	_	_	NF-VF
+25	denke	denken	_	VVFIN	_	_	_	_	_	LK	NF-LK
+26	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+27	langen	lang	_	ADJA	_	_	_	_	_	_	NF-MF
+28	Schlaf	Schlaf	_	NN	_	_	_	_	_	_	NF-MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+30	thun	tun	_	VVINF	_	_	_	_	_	RK	NF-RK
+31	!	!	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 387
+# text = Dies geſchah denn auch , und ich hatte Zeit dazu , denn das Wetter war ſo abſcheulich , daß ich bis 3 Uhr Nachmittags auf beſſeres wartete , aber leider vergebens .
+1	Dies	diese	_	PDS	_	_	_	_	_	_	VF
+2	geſchah	geschehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	denn	denn	_	ADV	_	_	_	_	_	_	MF
+4	auch	auch	_	ADV	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	und	und	_	KON	_	_	_	_	_	_	KOORD
+7	ich	ich	_	PPER	_	_	_	_	_	_	VF
+8	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+9	Zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+10	dazu	dazu	_	PAV	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	denn	denn	_	KON	_	_	_	_	_	_	KOORD
+13	das	d	_	ART	_	_	_	_	_	_	VF
+14	Wetter	Wetter	_	NN	_	_	_	_	_	_	VF
+15	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+16	ſo	so	_	ADV	_	_	_	_	_	_	MF
+17	abſcheulich	abscheulich	_	ADJD	_	_	_	_	_	_	MF
+18	,	,	_	$,	_	_	_	_	_	_	_
+19	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+20	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+21	bis	bis	_	APPR	_	_	_	_	_	_	NF-MF
+22	3	3	_	CARD	_	_	_	_	_	_	NF-MF
+23	Uhr	Uhr	_	NN	_	_	_	_	_	_	NF-MF
+24	Nachmittags	nachmittags	_	ADV	_	_	_	_	_	_	NF-MF
+25	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+26	beſſeres	gut	_	ADJA	_	_	_	_	_	_	NF-MF
+27	wartete	warten	_	VVFIN	_	_	_	_	_	RK	NF-RK
+28	,	,	_	$,	_	_	_	_	_	_	NF
+29	aber	aber	_	KON	_	_	_	_	_	_	NF-NF
+30	leider	leider	_	ADV	_	_	_	_	_	_	NF-NF
+31	vergebens	vergebens	_	ADV	_	_	_	_	_	_	NF-NF
+32	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 388
+# text = Ich hatte , den Abend vorher den zu Herrn O’ Connel abgeſchickten , und unbeſonnener Weiſe , vorausbezahlten Boten , ohne Antwort und mit zerbrochenem Schlüſſelbein im Gaſthof wieder vorgefunden , denn da er Geld in ſeiner Taſche ge-<lb/>fühlt , ſo hatte er auch dem Whiskey nicht länger widerſtehen können , in Folge deſſen er mit ſeinem Pferde in der Nacht einen Felſen herabgeſtürzt war !
+1	Ich	ich	_	PPER	_	_	_	_	_	_	VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	den	d	_	ART	_	_	_	_	_	_	MF
+5	Abend	Abend	_	NN	_	_	_	_	_	_	MF
+6	vorher	vorher	_	ADV	_	_	_	_	_	_	MF
+7	den	d	_	ART	_	_	_	_	_	_	MF
+8	zu	zu	_	APPR	_	_	_	_	_	_	MF
+9	Herrn	Herr	_	NN	_	_	_	_	_	_	MF
+10	O’	O'	_	NE	_	_	_	_	_	_	MF
+11	Connel	Connel	_	NE	_	_	_	_	_	_	MF
+12	abgeſchickten	abgeschickt	_	ADJA	_	_	_	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	und	und	_	KON	_	_	_	_	_	_	MF
+15	unbeſonnener	unbesinnen	_	ADJA	_	_	_	_	_	_	MF
+16	Weiſe	Weise	_	NN	_	_	_	_	_	_	MF
+17	,	,	_	$,	_	_	_	_	_	_	MF
+18	vorausbezahlten	vorausbezahlt	_	ADJA	_	_	_	_	_	_	MF
+19	Boten	Bote	_	NN	_	_	_	_	_	_	MF
+20	,	,	_	$,	_	_	_	_	_	_	MF
+21	ohne	ohne	_	APPR	_	_	_	_	_	_	MF
+22	Antwort	Antwort	_	NN	_	_	_	_	_	_	MF
+23	und	und	_	KON	_	_	_	_	_	_	MF
+24	mit	mit	_	APPR	_	_	_	_	_	_	MF
+25	zerbrochenem	zerbrechen	_	ADJA	_	_	_	_	_	_	MF
+26	Schlüſſelbein	Schlüsselbein	_	NN	_	_	_	_	_	_	MF
+27	im	im	_	APPRART	_	_	_	_	_	_	MF
+28	Gaſthof	Gasthof	_	NN	_	_	_	_	_	_	MF
+29	wieder	wieder	_	ADV	_	_	_	_	_	_	MF
+30	vorgefunden	vorfinden	_	VVPP	_	_	_	_	_	RK	RK
+31	,	,	_	$,	_	_	_	_	_	_	_
+32	denn	denn	_	KON	_	_	_	_	_	_	KOORD
+33	da	da	_	KOUS	_	_	_	_	_	LK	LV-LK
+34	er	er	_	PPER	_	_	_	_	_	_	LV-MF
+35	Geld	Geld	_	NN	_	_	_	_	_	_	LV-MF
+36	in	in	_	APPR	_	_	_	_	_	_	LV-MF
+37	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	LV-MF
+38	Taſche	Tasche	_	NN	_	_	_	_	_	_	LV-MF
+39	ge-<lb/>fühlt	fühlen	_	VVPP	_	_	_	_	_	RK	LV-RK
+40	,	,	_	$,	_	_	_	_	_	_	_
+41	ſo	so	_	ADV	_	_	_	_	_	_	VF
+42	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+43	er	er	_	PPER	_	_	_	_	_	_	MF
+44	auch	auch	_	ADV	_	_	_	_	_	_	MF
+45	dem	d	_	ART	_	_	_	_	_	_	MF
+46	Whiskey	Whiskey	_	NN	_	_	_	_	_	_	MF
+47	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+48	länger	lang	_	ADJD	_	_	_	_	_	_	MF
+49	widerſtehen	widerstehen	_	VVINF	_	_	_	_	_	RK	RK
+50	können	können	_	VMINF	_	_	_	_	_	RK	RK
+51	,	,	_	$,	_	_	_	_	_	_	_
+52	in	in	_	APPR	_	_	_	_	_	LK	NF-LK
+53	Folge	Folge	_	NN	_	_	_	_	_	LK	NF-LK
+54	deſſen	die	_	PDS	_	_	_	_	_	LK	NF-LK
+55	er	er	_	PPER	_	_	_	_	_	_	NF-MF
+56	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF
+57	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+58	Pferde	Pferd	_	NN	_	_	_	_	_	_	NF-MF
+59	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+60	der	d	_	ART	_	_	_	_	_	_	NF-MF
+61	Nacht	Nacht	_	NN	_	_	_	_	_	_	NF-MF
+62	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+63	Felſen	Felsen	_	NN	_	_	_	_	_	_	NF-MF
+64	herabgeſtürzt	herabstürzen	_	VVPP	_	_	_	_	_	RK	NF-RK
+65	war	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+66	!	!	_	$.	_	_	_	_	_	_	NF
+
+# sent_id = 12
+# sent_id(TSV) = 389
+# text = Er hatte indeß doch den verſtändigen Einfall gehabt , einen guten Freund unterwegs weiter zu expediren , und bei meinem Erwachen , fand ich daher eine ſehr artige Einladung des großen Agitator’s glücklich vor .
+1	Er	er	_	PPER	_	_	_	_	_	_	VF
+2	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	indeß	indes	_	ADV	_	_	_	_	_	_	MF
+4	doch	doch	_	ADV	_	_	_	_	_	_	MF
+5	den	d	_	ART	_	_	_	_	_	_	MF
+6	verſtändigen	verständigen	_	ADJA	_	_	_	_	_	_	MF
+7	Einfall	Einfall	_	NN	_	_	_	_	_	_	MF
+8	gehabt	haben	_	VAPP	_	_	_	_	_	RK	RK
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+11	guten	gut	_	ADJA	_	_	_	_	_	_	NF-MF
+12	Freund	Freund	_	NN	_	_	_	_	_	_	NF-MF
+13	unterwegs	unterwegs	_	ADV	_	_	_	_	_	_	NF-MF
+14	weiter	weiter	_	ADV	_	_	_	_	_	_	NF-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+16	expediren	expedieren	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	und	und	_	KON	_	_	_	_	_	_	KOORD
+19	bei	bei	_	APPR	_	_	_	_	_	_	VF
+20	meinem	meine	_	PPOSAT	_	_	_	_	_	_	VF
+21	Erwachen	Erwachen	_	NN	_	_	_	_	_	_	VF
+22	,	,	_	$,	_	_	_	_	_	_	_
+23	fand	finden	_	VVFIN	_	_	_	_	_	LK	LK
+24	ich	ich	_	PPER	_	_	_	_	_	_	MF
+25	daher	daher	_	PAV	_	_	_	_	_	_	MF
+26	eine	eine	_	ART	_	_	_	_	_	_	MF
+27	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+28	artige	artig	_	ADJA	_	_	_	_	_	_	MF
+29	Einladung	Einladung	_	NN	_	_	_	_	_	_	MF
+30	des	d	_	ART	_	_	_	_	_	_	MF
+31	großen	groß	_	ADJA	_	_	_	_	_	_	MF
+32	Agitator’s	Agitator	_	NN	_	_	_	_	_	_	MF
+33	glücklich	glücklich	_	ADJD	_	_	_	_	_	_	MF
+34	vor	vor	_	PTKVZ	_	_	_	_	_	RK	RK
+35	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 390
+# text = Ich habe bereits geſagt , daß ich mich erſt um drei Uhr auf den Weg machte , und obgleich ich ſieben Stunden lang im heftigſten Regen , mit dem Winde im Geſicht , reiten mußte , und in dieſer Wüſte , wo nicht einmal das Obdach eines Baumes anzutreffen iſt , nach der erſten halben Stunden ſchon kein Faden meiner Kleidung mehr trocken war — ſo möchte ich doch um vieles nicht den heutigen , ſo beſchwerlichen Tag , in meinem Lebensbuche miſſen .
+1	Ich	ich	_	PPER	_	_	_	_	_	_	VF
+2	habe	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	bereits	bereits	_	ADV	_	_	_	_	_	_	MF
+4	geſagt	sagen	_	VVPP	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+8	mich	mich	_	PRF	_	_	_	_	_	_	NF-MF
+9	erſt	erst	_	ADV	_	_	_	_	_	_	NF-MF
+10	um	um	_	APPR	_	_	_	_	_	_	NF-MF
+11	drei	drei	_	CARD	_	_	_	_	_	_	NF-MF
+12	Uhr	Uhr	_	NN	_	_	_	_	_	_	NF-MF
+13	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+14	den	d	_	ART	_	_	_	_	_	_	NF-MF
+15	Weg	Weg	_	NN	_	_	_	_	_	_	NF-MF
+16	machte	machen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	und	und	_	KON	_	_	_	_	_	_	KOORD
+19	obgleich	obgleich	_	KOUS	_	_	_	_	_	LK	LV-LK
+20	ich	ich	_	PPER	_	_	_	_	_	_	LV-MF
+21	ſieben	sieben	_	CARD	_	_	_	_	_	_	LV-MF
+22	Stunden	Stunde	_	NN	_	_	_	_	_	_	LV-MF
+23	lang	lang	_	ADJD	_	_	_	_	_	_	LV-MF
+24	im	im	_	APPRART	_	_	_	_	_	_	LV-MF
+25	heftigſten	heftig	_	ADJA	_	_	_	_	_	_	LV-MF
+26	Regen	Regen	_	NN	_	_	_	_	_	_	LV-MF
+27	,	,	_	$,	_	_	_	_	_	_	LV-MF
+28	mit	mit	_	APPR	_	_	_	_	_	_	LV-MF
+29	dem	d	_	ART	_	_	_	_	_	_	LV-MF
+30	Winde	Winde	_	NN	_	_	_	_	_	_	LV-MF
+31	im	im	_	APPRART	_	_	_	_	_	_	LV-MF
+32	Geſicht	Gesicht	_	NN	_	_	_	_	_	_	LV-MF
+33	,	,	_	$,	_	_	_	_	_	_	LV
+34	reiten	reiten	_	VVINF	_	_	_	_	_	RK	LV-RK
+35	mußte	müssen	_	VMFIN	_	_	_	_	_	RK	LV-RK
+36	,	,	_	$,	_	_	_	_	_	_	LV
+37	und	und	_	KON	_	_	_	_	_	_	LV-KOORD
+38	in	in	_	APPR	_	_	_	_	_	_	LV-MF
+39	dieſer	diese	_	PDAT	_	_	_	_	_	_	LV-MF
+40	Wüſte	Wüste	_	NN	_	_	_	_	_	_	LV-MF
+41	,	,	_	$,	_	_	_	_	_	_	LV-MF
+42	wo	wo	_	PWAV	_	_	_	_	_	LK	LV-MF-LK
+43	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	LV-MF-MF
+44	einmal	einmal	_	ADV	_	_	_	_	_	_	LV-MF-MF
+45	das	d	_	ART	_	_	_	_	_	_	LV-MF-MF
+46	Obdach	Obdach	_	NN	_	_	_	_	_	_	LV-MF-MF
+47	eines	eine	_	ART	_	_	_	_	_	_	LV-MF-MF
+48	Baumes	Baum	_	NN	_	_	_	_	_	_	LV-MF-MF
+49	anzutreffen	antreffen	_	VVIZU	_	_	_	_	_	RK	LV-MF-RK
+50	iſt	sein	_	VAFIN	_	_	_	_	_	RK	LV-MF-RK
+51	,	,	_	$,	_	_	_	_	_	_	LV-MF
+52	nach	nach	_	APPR	_	_	_	_	_	_	LV-MF
+53	der	d	_	ART	_	_	_	_	_	_	LV-MF
+54	erſten	erst	_	ADJA	_	_	_	_	_	_	LV-MF
+55	halben	halb	_	ADJA	_	_	_	_	_	_	LV-MF
+56	Stunden	Stunde	_	NN	_	_	_	_	_	_	LV-MF
+57	ſchon	schon	_	ADV	_	_	_	_	_	_	LV-MF
+58	kein	keine	_	PIAT	_	_	_	_	_	_	LV-MF
+59	Faden	Faden	_	NN	_	_	_	_	_	_	LV-MF
+60	meiner	meine	_	PPOSAT	_	_	_	_	_	_	LV-MF
+61	Kleidung	Kleidung	_	NN	_	_	_	_	_	_	LV-MF
+62	mehr	mehr	_	ADV	_	_	_	_	_	_	LV-MF
+63	trocken	trocken	_	ADJD	_	_	_	_	_	_	LV-MF
+64	war	sein	_	VAFIN	_	_	_	_	_	RK	LV-RK
+65	—	--	_	$(	_	_	_	_	_	_	_
+66	ſo	so	_	ADV	_	_	_	_	_	_	VF
+67	möchte	mögen	_	VMFIN	_	_	_	_	_	LK	LK
+68	ich	ich	_	PPER	_	_	_	_	_	_	MF
+69	doch	doch	_	ADV	_	_	_	_	_	_	MF
+70	um	um	_	APPR	_	_	_	_	_	_	MF
+71	vieles	vieles	_	PIS	_	_	_	_	_	_	MF
+72	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+73	den	d	_	ART	_	_	_	_	_	_	MF
+74	heutigen	heutig	_	ADJA	_	_	_	_	_	_	MF
+75	,	,	_	$,	_	_	_	_	_	_	MF
+76	ſo	so	_	ADV	_	_	_	_	_	_	MF
+77	beſchwerlichen	beschwerlich	_	ADJA	_	_	_	_	_	_	MF
+78	Tag	Tag	_	NN	_	_	_	_	_	_	MF
+79	,	,	_	$,	_	_	_	_	_	_	MF
+80	in	in	_	APPR	_	_	_	_	_	_	MF
+81	meinem	meine	_	PPOSAT	_	_	_	_	_	_	MF
+82	Lebensbuche	Lebensbuche	_	NN	_	_	_	_	_	_	MF
+83	miſſen	missen	_	VVINF	_	_	_	_	_	RK	RK
+84	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 391
+# text = Der Anfang war allerdings ſchwer .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Anfang	Anfang	_	NN	_	_	_	_	_	_	VF
+3	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	allerdings	allerdings	_	ADV	_	_	_	_	_	_	MF
+5	ſchwer	schwer	_	ADJD	_	_	_	_	_	_	MF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 392
+# text = Zuerſt konnte ich lange keine Pferde bekommen , denn das nach Glengariff gebrauchte , hatte ſich den Fuß verſtaucht .
+1	Zuerſt	zuerst	_	ADV	_	_	_	_	_	_	VF
+2	konnte	können	_	VMFIN	_	_	_	_	_	LK	LK
+3	ich	ich	_	PPER	_	_	_	_	_	_	MF
+4	lange	lange	_	ADV	_	_	_	_	_	_	MF
+5	keine	keine	_	PIAT	_	_	_	_	_	_	MF
+6	Pferde	Pferd	_	NN	_	_	_	_	_	_	MF
+7	bekommen	bekommen	_	VVINF	_	_	_	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	denn	denn	_	KON	_	_	_	_	_	_	KOORD
+10	das	die	_	ART	_	_	_	_	_	_	VF
+11	nach	nach	_	APPR	_	_	_	_	_	_	VF
+12	Glengariff	Glengariff	_	NE	_	_	_	_	_	_	VF
+13	gebrauchte	gebrauchen	_	ADJD	_	_	_	_	_	_	VF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	hatte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+16	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+17	den	d	_	ART	_	_	_	_	_	_	MF
+18	Fuß	Fuß	_	NN	_	_	_	_	_	_	MF
+19	verſtaucht	verstauchen	_	VVPP	_	_	_	_	_	RK	RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 393
+# text = Endlich erſchien ein alter ſchwarzer Karrengaul , der für mich beſtimmt war , und ein Katzenartiges Thier-<lb/>chen , das der Führer beſtieg .
+1	Endlich	endlich	_	ADV	_	_	_	_	_	_	VF
+2	erſchien	erscheinen	_	VVFIN	_	_	_	_	_	LK	LK
+3	ein	eine	_	ART	_	_	_	_	_	_	MF
+4	alter	alt	_	ADJA	_	_	_	_	_	_	MF
+5	ſchwarzer	schwarz	_	ADJA	_	_	_	_	_	_	MF
+6	Karrengaul	Karrengaul	_	NN	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	MF
+8	der	die	_	PRELS	_	_	_	_	_	LK	MF-LK
+9	für	für	_	APPR	_	_	_	_	_	_	MF-MF
+10	mich	ich	_	PPER	_	_	_	_	_	_	MF-MF
+11	beſtimmt	bestimmen	_	VVPP	_	_	_	_	_	RK	MF-RK
+12	war	sein	_	VAFIN	_	_	_	_	_	RK	MF-RK
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	und	und	_	KON	_	_	_	_	_	_	MF-KOORD
+15	ein	eine	_	ART	_	_	_	_	_	_	MF-MF
+16	Katzenartiges	katzenartig	_	ADJA	_	_	_	_	_	_	MF-MF
+17	Thier-<lb/>chen	Tierchen	_	NN	_	_	_	_	_	_	MF-MF
+18	,	,	_	$,	_	_	_	_	_	_	MF
+19	das	die	_	PRELS	_	_	_	_	_	LK	MF-LK
+20	der	d	_	ART	_	_	_	_	_	_	MF-MF
+21	Führer	Führer	_	NN	_	_	_	_	_	_	MF-MF
+22	beſtieg	besteigen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 394
+# text = Auch mit meiner Toi-<lb/>lette war ich brouillirt .
+1	Auch	auch	_	ADV	_	_	_	_	_	_	VF
+2	mit	mit	_	APPR	_	_	_	_	_	_	VF
+3	meiner	meine	_	PPOSAT	_	_	_	_	_	_	VF
+4	Toi-<lb/>lette	Toilette	_	NN	_	_	_	_	_	_	VF
+5	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+6	ich	ich	_	PPER	_	_	_	_	_	_	MF
+7	brouillirt	brouillieren	_	VVPP	_	_	_	_	_	RK	RK
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 395
+# text = Die entwichene Galloſche war nicht wieder gefunden worden , und der Regen-<lb/>ſchirm ſchon auf dem Hexenberge aus ſeinen Fugen gewichen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	entwichene	entweichen	_	ADJA	_	_	_	_	_	_	VF
+3	Galloſche	Galosche	_	NN	_	_	_	_	_	_	VF
+4	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+6	wieder	wieder	_	ADV	_	_	_	_	_	_	MF
+7	gefunden	finden	_	VVPP	_	_	_	_	_	RK	RK
+8	worden	werden	_	VAPP	_	_	_	_	_	RK	RK
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	und	und	_	KON	_	_	_	_	_	_	KOORD
+11	der	d	_	ART	_	_	_	_	_	_	MF
+12	Regen-<lb/>ſchirm	Regenschirm	_	NN	_	_	_	_	_	_	MF
+13	ſchon	schon	_	ADV	_	_	_	_	_	_	MF
+14	auf	auf	_	APPR	_	_	_	_	_	_	MF
+15	dem	d	_	ART	_	_	_	_	_	_	MF
+16	Hexenberge	Hexenberg	_	NN	_	_	_	_	_	_	MF
+17	aus	aus	_	APPR	_	_	_	_	_	_	MF
+18	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	MF
+19	Fugen	Fuge	_	NN	_	_	_	_	_	_	MF
+20	gewichen	weichen	_	VVPP	_	_	_	_	_	RK	RK
+21	.	.	_	$.	_	_	_	_	_	_	_

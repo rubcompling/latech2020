@@ -1,0 +1,372 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 9
+# text = Unter allen Erſcheinungen , welche die pneumatiſche Che-<lb/>mie darbietet , giebt es wenige , welche ſo viel Aufmerkſam-<lb/>keit verdienten , als die dreyfachen Verbindungen der Stoffe .
+1	Unter	unter	_	APPR	_	_	_	_	_	_	VF
+2	allen	alle	_	PIAT	_	_	_	_	_	_	VF
+3	Erſcheinungen	Erscheinung	_	NN	_	_	_	_	_	_	VF
+4	,	,	_	$,	_	_	_	_	_	_	VF
+5	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+6	die	d	_	ART	_	_	_	_	_	_	VF-MF
+7	pneumatiſche	pneumatisch	_	ADJA	_	_	_	_	_	_	VF-MF
+8	Che-<lb/>mie	Chemie	_	NN	_	_	_	_	_	_	VF-MF
+9	darbietet	darbieten	_	VVFIN	_	_	_	_	_	RK	VF-RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	giebt	geben	_	VVFIN	_	_	_	_	_	LK	LK
+12	es	es	_	PPER	_	_	_	_	_	_	MF
+13	wenige	wenige	_	PIS	_	_	_	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	welche	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+16	ſo	so	_	ADV	_	_	_	_	_	_	NF-MF
+17	viel	viel	_	PIAT	_	_	_	_	_	_	NF-MF
+18	Aufmerkſam-<lb/>keit	Aufmerksamkeit	_	NN	_	_	_	_	_	_	NF-MF
+19	verdienten	verdienen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+20	,	,	_	$,	_	_	_	_	_	_	NF
+21	als	als	_	KOKOM	_	_	_	_	_	_	NF-NF
+22	die	d	_	ART	_	_	_	_	_	_	NF-NF
+23	dreyfachen	dreifach	_	ADJA	_	_	_	_	_	_	NF-NF
+24	Verbindungen	Verbindung	_	NN	_	_	_	_	_	_	NF-NF
+25	der	d	_	ART	_	_	_	_	_	_	NF-NF
+26	Stoffe	Stoff	_	NN	_	_	_	_	_	_	NF-NF
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 10
+# text = Wenn es bey der Zerlegung thieriſcher und vegetabiliſcher Koͤrper ſchwer iſt , die Grundlagen , welche die Saͤuren , die Gallerten , den Eyweißſtoff oder die Schleime zuſam-<lb/>menſetzen , ſo nimmt dieſe Schwierigkeit noch zu , wenn dieſe drey- oder vierfachen Verbindungen nur im gasar-<lb/>tigen Zuſtande vorkommen .
+1	Wenn	wenn	_	KOUS	_	_	_	_	_	LK	LV-LK
+2	es	es	_	PPER	_	_	_	_	_	_	LV-MF
+3	bey	bei	_	APPR	_	_	_	_	_	_	LV-MF
+4	der	d	_	ART	_	_	_	_	_	_	LV-MF
+5	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	_	LV-MF
+6	thieriſcher	tierisch	_	ADJA	_	_	_	_	_	_	LV-MF
+7	und	und	_	KON	_	_	_	_	_	_	LV-MF
+8	vegetabiliſcher	vegetabilisch	_	ADJA	_	_	_	_	_	_	LV-MF
+9	Koͤrper	Körper	_	NN	_	_	_	_	_	_	LV-MF
+10	ſchwer	schwer	_	ADJD	_	_	_	_	_	_	LV-MF
+11	iſt	sein	_	VAFIN	_	_	_	_	_	RK	LV-RK
+12	,	,	_	$,	_	_	_	_	_	_	LV
+13	die	d	_	ART	_	_	_	_	_	_	LV-NF
+14	Grundlagen	Grundlage	_	NN	_	_	_	_	_	_	LV-NF
+15	,	,	_	$,	_	_	_	_	_	_	LV-NF
+16	welche	welche	_	PRELS	_	_	_	_	_	LK	LV-NF-LK
+17	die	d	_	ART	_	_	_	_	_	_	LV-NF-MF
+18	Saͤuren	Säure	_	NN	_	_	_	_	_	_	LV-NF-MF
+19	,	,	_	$,	_	_	_	_	_	_	LV-NF-MF
+20	die	d	_	ART	_	_	_	_	_	_	LV-NF-MF
+21	Gallerten	Gallerte	_	NN	_	_	_	_	_	_	LV-NF-MF
+22	,	,	_	$,	_	_	_	_	_	_	LV-NF-MF
+23	den	d	_	ART	_	_	_	_	_	_	LV-NF-MF
+24	Eyweißſtoff	Eiweißstoff	_	NN	_	_	_	_	_	_	LV-NF-MF
+25	oder	oder	_	KON	_	_	_	_	_	_	LV-NF-MF
+26	die	d	_	ART	_	_	_	_	_	_	LV-NF-MF
+27	Schleime	Schleim	_	NN	_	_	_	_	_	_	LV-NF-MF
+28	zuſam-<lb/>menſetzen	zusammensetzen	_	VVINF	_	_	_	_	_	RK	LV-NF-RK
+29	,	,	_	$,	_	_	_	_	_	_	_
+30	ſo	so	_	ADV	_	_	_	_	_	_	VF
+31	nimmt	nehmen	_	VVFIN	_	_	_	_	_	LK	LK
+32	dieſe	diese	_	PDAT	_	_	_	_	_	_	MF
+33	Schwierigkeit	Schwierigkeit	_	NN	_	_	_	_	_	_	MF
+34	noch	noch	_	ADV	_	_	_	_	_	_	MF
+35	zu	zu	_	PTKVZ	_	_	_	_	_	RK	RK
+36	,	,	_	$,	_	_	_	_	_	_	_
+37	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+38	dieſe	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+39	drey-	drey-	_	TRUNC	_	_	_	_	_	_	NF-MF
+40	oder	oder	_	KON	_	_	_	_	_	_	NF-MF
+41	vierfachen	vierfach	_	ADJA	_	_	_	_	_	_	NF-MF
+42	Verbindungen	Verbindung	_	NN	_	_	_	_	_	_	NF-MF
+43	nur	nur	_	ADV	_	_	_	_	_	_	NF-MF
+44	im	im	_	APPRART	_	_	_	_	_	_	NF-MF
+45	gasar-<lb/>tigen	gasartig	_	ADJA	_	_	_	_	_	_	NF-MF
+46	Zuſtande	Zustand	_	NN	_	_	_	_	_	_	NF-MF
+47	vorkommen	vorkommen	_	VVINF	_	_	_	_	_	RK	NF-RK
+48	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 11
+# text = Der Schwefel , die Kohle und der Arſenikkalk loͤſen ſich in dem Waſſerſtoffgas auf .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	die	d	_	ART	_	_	_	_	_	_	VF
+5	Kohle	Kohle	_	NN	_	_	_	_	_	_	VF
+6	und	und	_	KON	_	_	_	_	_	_	VF
+7	der	d	_	ART	_	_	_	_	_	_	VF
+8	Arſenikkalk	Arsenikkalk	_	NN	_	_	_	_	_	_	VF
+9	loͤſen	lösen	_	VVFIN	_	_	_	_	_	LK	LK
+10	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+11	in	in	_	APPR	_	_	_	_	_	_	MF
+12	dem	d	_	ART	_	_	_	_	_	_	MF
+13	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	_	MF
+14	auf	auf	_	PTKVZ	_	_	_	_	_	RK	RK
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 12
+# text = Es ſcheint , daß der Schwefel in dem Stickſtoffgas auf-<lb/>loͤslich ſey .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	ſcheint	scheinen	_	VVFIN	_	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+5	der	d	_	ART	_	_	_	_	_	_	NF-MF
+6	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	NF-MF
+7	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+8	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+9	Stickſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	_	NF-MF
+10	auf-<lb/>loͤslich	auflöslich	_	ADJD	_	_	_	_	_	_	NF-MF
+11	ſey	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 13
+# text = Als ich vielen Schwefel ſehr langſam in einer atmoſphaͤriſchen Luft , welche nur 0,16 Sauerſtoff enthielt , verbrannt hatte , fand ich den Ruͤckſtand zwey Tage lang durchſichtig ; am dritten , wo die Temperatur des Zimmers bis auf — 5 ° des hundertgradigten Thermometers fiel , uͤberzogen ſich die Waͤnde der Glocke , welche das Stick-<lb/>ſtoffgas enthielt , mit einem gelben Staub ; es war ſehr reiner Schwefel , der ſich aus ſeiner gasartigen Aufloͤſung niederſchlug .
+1	Als	als	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	VF
+3	vielen	viel	_	PIAT	_	_	_	_	_	_	VF-MF
+4	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	VF-MF
+5	ſehr	sehr	_	ADV	_	_	_	_	_	_	VF-MF
+6	langſam	langsam	_	ADJD	_	_	_	_	_	_	VF-MF
+7	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+8	einer	eine	_	ART	_	_	_	_	_	_	VF-MF
+9	atmoſphaͤriſchen	atmosphärisch	_	ADJA	_	_	_	_	_	_	VF-MF
+10	Luft	Luft	_	NN	_	_	_	_	_	_	VF-MF
+11	,	,	_	$,	_	_	_	_	_	_	VF-MF
+12	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-MF-LK
+13	nur	nur	_	ADV	_	_	_	_	_	_	VF-MF-MF
+14	0,16	0,16	_	CARD	_	_	_	_	_	_	VF-MF-MF
+15	Sauerſtoff	Sauerstoff	_	NN	_	_	_	_	_	_	VF-MF-MF
+16	enthielt	enthalten	_	VVFIN	_	_	_	_	_	RK	VF-MF-RK
+17	,	,	_	$,	_	_	_	_	_	_	VF
+18	verbrannt	verbrennen	_	VVPP	_	_	_	_	_	RK	VF-RK
+19	hatte	haben	_	VAFIN	_	_	_	_	_	RK	VF-RK
+20	,	,	_	$,	_	_	_	_	_	_	_
+21	fand	finden	_	VVFIN	_	_	_	_	_	LK	LK
+22	ich	ich	_	PPER	_	_	_	_	_	_	MF
+23	den	d	_	ART	_	_	_	_	_	_	MF
+24	Ruͤckſtand	Rückstand	_	NN	_	_	_	_	_	_	MF
+25	zwey	zwei	_	CARD	_	_	_	_	_	_	MF
+26	Tage	Tag	_	NN	_	_	_	_	_	_	MF
+27	lang	lang	_	ADJD	_	_	_	_	_	_	MF
+28	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	_	MF
+29	;	\;	_	$.	_	_	_	_	_	_	_
+30	am	am	_	APPRART	_	_	_	_	_	_	VF
+31	dritten	dritt	_	ADJA	_	_	_	_	_	_	VF
+32	,	,	_	$,	_	_	_	_	_	_	VF
+33	wo	wo	_	PWAV	_	_	_	_	_	LK	VF-LK
+34	die	d	_	ART	_	_	_	_	_	_	VF-MF
+35	Temperatur	Temperatur	_	NN	_	_	_	_	_	_	VF-MF
+36	des	d	_	ART	_	_	_	_	_	_	VF-MF
+37	Zimmers	Zimmer	_	NN	_	_	_	_	_	_	VF-MF
+38	bis	bis	_	APPR	_	_	_	_	_	_	VF-MF
+39	auf	auf	_	APPR	_	_	_	_	_	_	VF-MF
+40	—	--	_	$(	_	_	_	_	_	_	VF-MF
+41	5	5	_	CARD	_	_	_	_	_	_	VF-MF
+42	°	°	_	XY	_	_	_	_	_	_	VF-MF
+43	des	d	_	ART	_	_	_	_	_	_	VF-MF
+44	hundertgradigten	hundertgradigten	_	ADJA	_	_	_	_	_	_	VF-MF
+45	Thermometers	Thermometer	_	NN	_	_	_	_	_	_	VF-MF
+46	fiel	fallen	_	VVFIN	_	_	_	_	_	RK	VF-RK
+47	,	,	_	$,	_	_	_	_	_	_	_
+48	uͤberzogen	überziehen	_	ADJD	_	_	_	_	_	LK	LK
+49	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+50	die	d	_	ART	_	_	_	_	_	_	MF
+51	Waͤnde	Wand	_	NN	_	_	_	_	_	_	MF
+52	der	d	_	ART	_	_	_	_	_	_	MF
+53	Glocke	Glocke	_	NN	_	_	_	_	_	_	MF
+54	,	,	_	$,	_	_	_	_	_	_	MF
+55	welche	welche	_	PRELS	_	_	_	_	_	LK	MF-LK
+56	das	d	_	ART	_	_	_	_	_	_	MF-MF
+57	Stick-<lb/>ſtoffgas	Stickstoffgas	_	NN	_	_	_	_	_	_	MF-MF
+58	enthielt	enthalten	_	VVFIN	_	_	_	_	_	RK	MF-RK
+59	,	,	_	$,	_	_	_	_	_	_	MF
+60	mit	mit	_	APPR	_	_	_	_	_	_	MF
+61	einem	eine	_	ART	_	_	_	_	_	_	MF
+62	gelben	gelb	_	ADJA	_	_	_	_	_	_	MF
+63	Staub	Staub	_	NN	_	_	_	_	_	_	MF
+64	;	\;	_	$.	_	_	_	_	_	_	_
+65	es	es	_	PPER	_	_	_	_	_	_	VF
+66	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+67	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+68	reiner	rein	_	ADJA	_	_	_	_	_	_	MF
+69	Schwefel	Schwefel	_	NN	_	_	_	_	_	_	MF
+70	,	,	_	$,	_	_	_	_	_	_	_
+71	der	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+72	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+73	aus	aus	_	APPR	_	_	_	_	_	_	NF-MF
+74	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+75	gasartigen	gasartig	_	ADJA	_	_	_	_	_	_	NF-MF
+76	Aufloͤſung	Auflösung	_	NN	_	_	_	_	_	_	NF-MF
+77	niederſchlug	niederschlagen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+78	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 14
+# text = Als ich mich mit der Zerlegung der Berg-<lb/>ſchwaden beſchaͤftigte , ſammelte ich in den Ritzen eines Eiſenganges eine Miſchung von Waſſerſtoff-Stickſtoff- und Kohlenſtoffſaurem Gas .
+1	Als	als	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	VF-MF
+3	mich	mich	_	PRF	_	_	_	_	_	_	VF-MF
+4	mit	mit	_	APPR	_	_	_	_	_	_	VF-MF
+5	der	d	_	ART	_	_	_	_	_	_	VF-MF
+6	Zerlegung	Zerlegung	_	NN	_	_	_	_	_	_	VF-MF
+7	der	d	_	ART	_	_	_	_	_	_	VF-MF
+8	Berg-<lb/>ſchwaden	Bergschwaden	_	NN	_	_	_	_	_	_	VF-MF
+9	beſchaͤftigte	beschäftigen	_	VVFIN	_	_	_	_	_	RK	VF-RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	ſammelte	sammeln	_	VVFIN	_	_	_	_	_	LK	LK
+12	ich	ich	_	PPER	_	_	_	_	_	_	MF
+13	in	in	_	APPR	_	_	_	_	_	_	MF
+14	den	d	_	ART	_	_	_	_	_	_	MF
+15	Ritzen	Ritze	_	NN	_	_	_	_	_	_	MF
+16	eines	eine	_	ART	_	_	_	_	_	_	MF
+17	Eiſenganges	Eisengang	_	NN	_	_	_	_	_	_	MF
+18	eine	eine	_	ART	_	_	_	_	_	_	MF
+19	Miſchung	Mischung	_	NN	_	_	_	_	_	_	MF
+20	von	von	_	APPR	_	_	_	_	_	_	MF
+21	Waſſerſtoff-Stickſtoff-	wasserstoff-stickstoff-	_	TRUNC	_	_	_	_	_	_	MF
+22	und	und	_	KON	_	_	_	_	_	_	MF
+23	Kohlenſtoffſaurem	kohlenstoffsauer	_	ADJA	_	_	_	_	_	_	MF
+24	Gas	Gas	_	NN	_	_	_	_	_	_	MF
+25	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 15
+# text = Die Flaſche , welche dieſe Miſchung enthielt , war klar und durchſichtig ; in Schnee geſtellt , uͤberzog ſie ſich inwendig mit einem gelben Eiſen-<lb/>kalk : dieſer Schwaden hielt alſo Metall aufgeloͤſt .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Flaſche	Flasche	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+5	dieſe	diese	_	PDAT	_	_	_	_	_	_	VF-MF
+6	Miſchung	Mischung	_	NN	_	_	_	_	_	_	VF-MF
+7	enthielt	enthalten	_	VVFIN	_	_	_	_	_	RK	VF-RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+10	klar	klar	_	ADJD	_	_	_	_	_	_	MF
+11	und	und	_	KON	_	_	_	_	_	_	MF
+12	durchſichtig	durchsichtig	_	ADJD	_	_	_	_	_	_	MF
+13	;	\;	_	$.	_	_	_	_	_	_	_
+14	in	in	_	APPR	_	_	_	_	_	_	VF
+15	Schnee	Schnee	_	NN	_	_	_	_	_	_	VF
+16	geſtellt	stellen	_	VVPP	_	_	_	_	_	RK	VF-RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	uͤberzog	überziehen	_	VVFIN	_	_	_	_	_	LK	LK
+19	ſie	sie	_	PPER	_	_	_	_	_	_	MF
+20	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+21	inwendig	inwendig	_	ADJD	_	_	_	_	_	_	MF
+22	mit	mit	_	APPR	_	_	_	_	_	_	MF
+23	einem	eine	_	ART	_	_	_	_	_	_	MF
+24	gelben	gelb	_	ADJA	_	_	_	_	_	_	MF
+25	Eiſen-<lb/>kalk	Eisenkalk	_	NN	_	_	_	_	_	_	MF
+26	:	:	_	$.	_	_	_	_	_	_	_
+27	dieſer	diese	_	PDAT	_	_	_	_	_	_	VF
+28	Schwaden	Schwaden	_	NN	_	_	_	_	_	_	VF
+29	hielt	halten	_	VVFIN	_	_	_	_	_	LK	LK
+30	alſo	also	_	ADV	_	_	_	_	_	_	MF
+31	Metall	Metall	_	NN	_	_	_	_	_	_	MF
+32	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	_	MF
+33	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 16
+# text = Metalle in Gasarten aufgeloͤſt , ſind ein fuͤr die Meteorologie und Mineralogie aͤußerſt intereſſanter Gegenſtand .
+1	Metalle	Metall	_	NN	_	_	_	_	_	_	VF
+2	in	in	_	APPR	_	_	_	_	_	_	VF
+3	Gasarten	Gasart	_	NN	_	_	_	_	_	_	VF
+4	aufgeloͤſt	auflösen	_	ADJD	_	_	_	_	_	_	VF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	ſind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+7	ein	eine	_	ART	_	_	_	_	_	_	MF
+8	fuͤr	für	_	APPR	_	_	_	_	_	_	MF
+9	die	d	_	ART	_	_	_	_	_	_	MF
+10	Meteorologie	Meteorologie	_	NN	_	_	_	_	_	_	MF
+11	und	und	_	KON	_	_	_	_	_	_	MF
+12	Mineralogie	Mineralogie	_	NN	_	_	_	_	_	_	MF
+13	aͤußerſt	äußerst	_	ADV	_	_	_	_	_	_	MF
+14	intereſſanter	interessant	_	ADJA	_	_	_	_	_	_	MF
+15	Gegenſtand	Gegenstand	_	NN	_	_	_	_	_	_	MF
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 17
+# text = Es iſt eine ſehr erwieſene Thatſache , daß die Feuerkugeln oft Stuͤcken halb-<lb/>verſchlacktes Eiſen fallen laſſen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	eine	eine	_	ART	_	_	_	_	_	_	MF
+4	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+5	erwieſene	erweisen	_	ADJA	_	_	_	_	_	_	MF
+6	Thatſache	Tatsache	_	NN	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+9	die	d	_	ART	_	_	_	_	_	_	NF-MF
+10	Feuerkugeln	Feuerkugel	_	NN	_	_	_	_	_	_	NF-MF
+11	oft	oft	_	ADV	_	_	_	_	_	_	NF-MF
+12	Stuͤcken	Stück	_	NN	_	_	_	_	_	_	NF-MF
+13	halb-<lb/>verſchlacktes	halbverschlackt	_	ADJA	_	_	_	_	_	_	NF-MF
+14	Eiſen	Eisen	_	NN	_	_	_	_	_	_	NF-MF
+15	fallen	fallen	_	VVINF	_	_	_	_	_	RK	NF-RK
+16	laſſen	lassen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+17	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 18
+# text = Befindet ſich wohl dieſes Eiſen in den hoͤchſten Schichten der Atmoſphaͤre im gasartigen Zu-<lb/>ſtand ?
+1	Befindet	befinden	_	VVFIN	_	_	_	_	_	LK	LK
+2	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+3	wohl	wohl	_	ADV	_	_	_	_	_	_	MF
+4	dieſes	diese	_	PDAT	_	_	_	_	_	_	MF
+5	Eiſen	Eisen	_	NN	_	_	_	_	_	_	MF
+6	in	in	_	APPR	_	_	_	_	_	_	MF
+7	den	d	_	ART	_	_	_	_	_	_	MF
+8	hoͤchſten	hoch	_	ADJA	_	_	_	_	_	_	MF
+9	Schichten	Schichte	_	NN	_	_	_	_	_	_	MF
+10	der	d	_	ART	_	_	_	_	_	_	MF
+11	Atmoſphaͤre	Atmosphäre	_	NN	_	_	_	_	_	_	MF
+12	im	im	_	APPRART	_	_	_	_	_	_	MF
+13	gasartigen	gasartig	_	ADJA	_	_	_	_	_	_	MF
+14	Zu-<lb/>ſtand	Zustand	_	NN	_	_	_	_	_	_	MF
+15	?	?	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 19
+# text = Erhebt es ſich mit dem Waſſerſtoffgas , welches die Moraͤſte in Ueberfluß ausdunſten ? —
+1	Erhebt	erheben	_	VVFIN	_	_	_	_	_	LK	LK
+2	es	es	_	PPER	_	_	_	_	_	_	MF
+3	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+4	mit	mit	_	APPR	_	_	_	_	_	_	MF
+5	dem	d	_	ART	_	_	_	_	_	_	MF
+6	Waſſerſtoffgas	Wasserstoffgas	_	NN	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	welches	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+9	die	d	_	ART	_	_	_	_	_	_	NF-MF
+10	Moraͤſte	Morast	_	NN	_	_	_	_	_	_	NF-MF
+11	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+12	Ueberfluß	Überfluß	_	NN	_	_	_	_	_	_	NF-MF
+13	ausdunſten	ausdunsten	_	VVINF	_	_	_	_	_	RK	NF-RK
+14	?	?	_	$.	_	_	_	_	_	_	_
+15	—	--	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 20
+# text = Die Mineralogen ken-<lb/>nen die ſchoͤnen Gruppen von Bergkryſtall oder Kalkſpath , die blos auf einer Seite mit Kieß oder Bleyglanz uͤberzogen ſind .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Mineralogen	Mineraloge	_	NN	_	_	_	_	_	_	VF
+3	ken-<lb/>nen	kennen	_	VVFIN	_	_	_	_	_	LK	LK
+4	die	d	_	ART	_	_	_	_	_	_	MF
+5	ſchoͤnen	schön	_	ADJA	_	_	_	_	_	_	MF
+6	Gruppen	Gruppe	_	NN	_	_	_	_	_	_	MF
+7	von	von	_	APPR	_	_	_	_	_	_	MF
+8	Bergkryſtall	Bergkristall	_	NN	_	_	_	_	_	_	MF
+9	oder	oder	_	KON	_	_	_	_	_	_	MF
+10	Kalkſpath	Kalkspath	_	NN	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+13	blos	bloß	_	ADV	_	_	_	_	_	_	NF-MF
+14	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+15	einer	eine	_	ART	_	_	_	_	_	_	NF-MF
+16	Seite	Seite	_	NN	_	_	_	_	_	_	NF-MF
+17	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF
+18	Kieß	Kies	_	NN	_	_	_	_	_	_	NF-MF
+19	oder	oder	_	KON	_	_	_	_	_	_	NF-MF
+20	Bleyglanz	Bleiglanz	_	NN	_	_	_	_	_	_	NF-MF
+21	uͤberzogen	überziehen	_	ADJD	_	_	_	_	_	_	NF-MF
+22	ſind	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+23	.	.	_	$.	_	_	_	_	_	_	_

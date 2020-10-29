@@ -1,0 +1,481 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 5
+# text = DAß ein neu-angehender Leh-<lb/>rer , zumahl auf Univerſi-<lb/>taͤten , alſobald bey ſeinem Antritt ſich die erſte Sorge muͤſſe ſeyn laſſen , Fleiß und Danck , nach aͤuſſer-<lb/>ſtem Vermoͤgen an Tage zu legen , iſt aus vielen Urſachen , ſo noͤthig , als kluͤglich ge-<lb/>handelt .
+1	DAß	daß	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	ein	eine	_	ART	_	_	_	_	_	_	VF-MF
+3	neu-angehender	neu-angehend	_	ADJA	_	_	_	_	_	_	VF-MF
+4	Leh-<lb/>rer	Lehrer	_	NN	_	_	_	_	_	_	VF-MF
+5	,	,	_	$,	_	_	_	_	_	_	VF-MF
+6	zumahl	zumal	_	KOUS	_	_	_	_	_	_	VF-MF
+7	auf	auf	_	APPR	_	_	_	_	_	_	VF-MF
+8	Univerſi-<lb/>taͤten	Universität	_	NN	_	_	_	_	_	_	VF-MF
+9	,	,	_	$,	_	_	_	_	_	_	VF-MF
+10	alſobald	alsobald	_	ADV	_	_	_	_	_	_	VF-MF
+11	bey	bei	_	APPR	_	_	_	_	_	_	VF-MF
+12	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	VF-MF
+13	Antritt	Antritt	_	NN	_	_	_	_	_	_	VF-MF
+14	ſich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+15	die	d	_	ART	_	_	_	_	_	_	VF-MF
+16	erſte	erst	_	ADJA	_	_	_	_	_	_	VF-MF
+17	Sorge	Sorge	_	NN	_	_	_	_	_	_	VF-MF
+18	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	RK	VF-RK
+19	ſeyn	sein	_	VAINF	_	_	_	_	_	RK	VF-RK
+20	laſſen	lassen	_	VVINF	_	_	_	_	_	RK	VF-RK
+21	,	,	_	$,	_	_	_	_	_	_	VF
+22	Fleiß	Fleiß	_	NN	_	_	_	_	_	_	VF-NF-MF
+23	und	und	_	KON	_	_	_	_	_	_	VF-NF-MF
+24	Danck	Dank	_	NN	_	_	_	_	_	_	VF-NF-MF
+25	,	,	_	$,	_	_	_	_	_	_	VF-NF-MF
+26	nach	nach	_	APPR	_	_	_	_	_	_	VF-NF-MF
+27	aͤuſſer-<lb/>ſtem	äußerst	_	ADJA	_	_	_	_	_	_	VF-NF-MF
+28	Vermoͤgen	Vermögen	_	NN	_	_	_	_	_	_	VF-NF-MF
+29	an	an	_	APPR	_	_	_	_	_	_	VF-NF-MF
+30	Tage	Tag	_	NN	_	_	_	_	_	_	VF-NF-MF
+31	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-NF-RK
+32	legen	legen	_	VVINF	_	_	_	_	_	RK	VF-NF-RK
+33	,	,	_	$,	_	_	_	_	_	_	_
+34	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+35	aus	aus	_	APPR	_	_	_	_	_	_	MF
+36	vielen	viel	_	PIAT	_	_	_	_	_	_	MF
+37	Urſachen	Ursache	_	NN	_	_	_	_	_	_	MF
+38	,	,	_	$,	_	_	_	_	_	_	MF
+39	ſo	so	_	ADV	_	_	_	_	_	_	MF
+40	noͤthig	nötig	_	ADJD	_	_	_	_	_	_	MF
+41	,	,	_	$,	_	_	_	_	_	_	MF
+42	als	als	_	KOKOM	_	_	_	_	_	_	MF
+43	kluͤglich	klüglich	_	ADJD	_	_	_	_	_	_	MF
+44	ge-<lb/>handelt	handeln	_	VVPP	_	_	_	_	_	RK	RK
+45	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 6
+# text = Der Zweck , daß er in ſolche Be-<lb/>dienung geſetzet worden , iſt , nach Maaß-<lb/>gebung ſeines Beruffs , der obliegenden Pflicht ein Gnuͤgen zu leiſten .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Zweck	Zweck	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	daß	daß	_	KOUS	_	_	_	_	_	LK	VF-LK
+5	er	er	_	PPER	_	_	_	_	_	_	VF-MF
+6	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+7	ſolche	solch	_	PIAT	_	_	_	_	_	_	VF-MF
+8	Be-<lb/>dienung	Bedienung	_	NN	_	_	_	_	_	_	VF-MF
+9	geſetzet	setzen	_	VVPP	_	_	_	_	_	RK	VF-RK
+10	worden	werden	_	VAPP	_	_	_	_	_	RK	VF-RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+13	,	,	_	$,	_	_	_	_	_	_	_
+14	nach	nach	_	APPR	_	_	_	_	_	_	MF
+15	Maaß-<lb/>gebung	Maaßgebung	_	NN	_	_	_	_	_	_	MF
+16	ſeines	seine	_	PPOSAT	_	_	_	_	_	_	MF
+17	Beruffs	Beruf	_	NN	_	_	_	_	_	_	MF
+18	,	,	_	$,	_	_	_	_	_	_	_
+19	der	d	_	ART	_	_	_	_	_	_	NF-MF
+20	obliegenden	obliegend	_	ADJA	_	_	_	_	_	_	NF-MF
+21	Pflicht	Pflicht	_	NN	_	_	_	_	_	_	NF-MF
+22	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+23	Gnuͤgen	Genügen	_	NN	_	_	_	_	_	_	NF-MF
+24	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+25	leiſten	leisten	_	VVINF	_	_	_	_	_	RK	NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 7
+# text = Mithin iſt das erſte , er ſoll fleißig ſeyn .
+1	Mithin	mithin	_	ADV	_	_	_	_	_	_	VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	das	d	_	ART	_	_	_	_	_	_	MF
+4	erſte	erst	_	NN	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	er	er	_	PPER	_	_	_	_	_	_	NF-VF
+7	ſoll	sollen	_	VMFIN	_	_	_	_	_	LK	NF-LK
+8	fleißig	fleißig	_	ADJD	_	_	_	_	_	_	NF-MF
+9	ſeyn	sein	_	VAINF	_	_	_	_	_	RK	NF-RK
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 8
+# text = Der Fleiß hat unter ſolchen Verrichtungen ſeinen Platz , welche in die aͤuſſerlichen Sinne fal-<lb/>len , und durch Proben , andern muͤſſen be-<lb/>kannt werden .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Fleiß	Fleiß	_	NN	_	_	_	_	_	_	VF
+3	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+4	unter	unter	_	APPR	_	_	_	_	_	_	MF
+5	ſolchen	solch	_	PIAT	_	_	_	_	_	_	MF
+6	Verrichtungen	Verrichtung	_	NN	_	_	_	_	_	_	MF
+7	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	MF
+8	Platz	Platz	_	NN	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	welche	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+11	in	in	_	APPR	_	_	_	_	_	_	NF
+12	die	d	_	ART	_	_	_	_	_	_	NF-MF
+13	aͤuſſerlichen	äußerlich	_	ADJA	_	_	_	_	_	_	NF-MF
+14	Sinne	Sinn	_	NN	_	_	_	_	_	_	NF-MF
+15	fal-<lb/>len	fallen	_	VVINF	_	_	_	_	_	RK	NF-RK
+16	,	,	_	$,	_	_	_	_	_	_	NF
+17	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+18	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+19	Proben	Probe	_	NN	_	_	_	_	_	_	NF-MF
+20	,	,	_	$,	_	_	_	_	_	_	NF-MF
+21	andern	andere	_	PIS	_	_	_	_	_	_	NF-MF
+22	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+23	be-<lb/>kannt	bekennen	_	VVPP	_	_	_	_	_	RK	NF-RK
+24	werden	werden	_	VAINF	_	_	_	_	_	RK	NF-RK
+25	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 9
+# text = Daraus folget , daß er auf Mittel und Wege ſinnen muͤſſe , dadurch diejenigen denen ſolches zu wiſſen noͤthig , von ſeiner Bemuͤhung koͤnnen uͤberzeu-<lb/>get werden .
+1	Daraus	daraus	_	PAV	_	_	_	_	_	_	VF
+2	folget	folgen	_	VVFIN	_	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+5	er	er	_	PPER	_	_	_	_	_	_	NF-MF
+6	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+7	Mittel	Mittel	_	NN	_	_	_	_	_	_	NF-MF
+8	und	und	_	KON	_	_	_	_	_	_	NF-MF
+9	Wege	Weg	_	NN	_	_	_	_	_	_	NF-MF
+10	ſinnen	sinnen	_	VVINF	_	_	_	_	_	RK	NF-RK
+11	muͤſſe	müssen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+12	,	,	_	$,	_	_	_	_	_	_	NF
+13	dadurch	dadurch	_	PAV	_	_	_	_	_	LK	NF-NF-LK
+14	diejenigen	diejenige	_	PDS	_	_	_	_	_	_	NF-NF-MF
+15	denen	die	_	PRELS	_	_	_	_	_	LK	NF-NF-MF-LK
+16	ſolches	solch	_	PIS	_	_	_	_	_	_	NF-NF-MF-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-NF-MF-RK
+18	wiſſen	wissen	_	VVINF	_	_	_	_	_	RK	NF-NF-MF-RK
+19	noͤthig	nötig	_	ADJD	_	_	_	_	_	_	NF-NF-MF-MF
+20	,	,	_	$,	_	_	_	_	_	_	NF-NF-MF
+21	von	von	_	APPR	_	_	_	_	_	_	NF-NF-MF
+22	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	NF-NF-MF
+23	Bemuͤhung	Bemühung	_	NN	_	_	_	_	_	_	NF-NF-MF
+24	koͤnnen	können	_	VMFIN	_	_	_	_	_	RK	NF-NF-RK
+25	uͤberzeu-<lb/>get	überzeugen	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+26	werden	werden	_	VAINF	_	_	_	_	_	RK	NF-NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 10
+# text = Dieſe nun ſind entweder gegenwaͤrtig oder abweſend .
+1	Dieſe	diese	_	PDS	_	_	_	_	_	_	VF
+2	nun	nun	_	ADV	_	_	_	_	_	_	FRAG
+3	ſind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	entweder	entweder	_	ADV	_	_	_	_	_	_	MF
+5	gegenwaͤrtig	gegenwärtig	_	ADJD	_	_	_	_	_	_	MF
+6	oder	oder	_	KON	_	_	_	_	_	_	MF
+7	abweſend	abwesend	_	ADJD	_	_	_	_	_	_	MF
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 11
+# text = Die um und neben ihn ſich befinden , faͤllt leicht , durch die Erfahrung zu ſagen was ſie taͤg-<lb/>lich ſehen und hoͤren .
+1	Die	d	_	PDS	_	_	_	_	_	LK	VF-LK
+2	um	um	_	APPR	_	_	_	_	_	_	VF-MF
+3	und	und	_	KON	_	_	_	_	_	_	VF-MF
+4	neben	neben	_	APPR	_	_	_	_	_	_	VF-MF
+5	ihn	er	_	PPER	_	_	_	_	_	_	VF-MF
+6	ſich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+7	befinden	befinden	_	VVFIN	_	_	_	_	_	RK	VF-RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	faͤllt	fällen	_	VVFIN	_	_	_	_	_	LK	LK
+10	leicht	leicht	_	ADJD	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+13	die	d	_	ART	_	_	_	_	_	_	NF-MF
+14	Erfahrung	Erfahrung	_	NN	_	_	_	_	_	_	NF-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+16	ſagen	sagen	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	was	was	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+18	ſie	sie	_	PPER	_	_	_	_	_	_	NF-NF-MF
+19	taͤg-<lb/>lich	täglich	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+20	ſehen	sehen	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+21	und	und	_	KON	_	_	_	_	_	RK	NF-NF-RK
+22	hoͤren	hören	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 12
+# text = Aber wie ſtehet es mit den Abweſenden .
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	wie	wie	_	PWAV	_	_	_	_	_	_	VF
+3	ſtehet	stehen	_	VVFIN	_	_	_	_	_	LK	LK
+4	es	es	_	PPER	_	_	_	_	_	_	MF
+5	mit	mit	_	APPR	_	_	_	_	_	_	MF
+6	den	d	_	ART	_	_	_	_	_	_	MF
+7	Abweſenden	Abwesende	_	NN	_	_	_	_	_	_	MF
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 13
+# text = Dieſe haben , be-<lb/>wandten Umſtaͤnden nach , oͤffters mehr Urſache , von ſeiner Emſigkeit Proben zu wiſſen , als die Anweſenden .
+1	Dieſe	diese	_	PDS	_	_	_	_	_	_	VF
+2	haben	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	be-<lb/>wandten	bewandt	_	ADJA	_	_	_	_	_	_	MF
+5	Umſtaͤnden	Umstand	_	NN	_	_	_	_	_	_	MF
+6	nach	nach	_	APPR	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	MF
+8	oͤffters	öfters	_	ADV	_	_	_	_	_	_	MF
+9	mehr	mehr	_	PIAT	_	_	_	_	_	_	MF
+10	Urſache	Ursache	_	NN	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+13	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+14	Emſigkeit	Emsigkeit	_	NN	_	_	_	_	_	_	NF-MF
+15	Proben	Probe	_	NN	_	_	_	_	_	_	NF-MF
+16	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+17	wiſſen	wissen	_	VVINF	_	_	_	_	_	RK	NF-RK
+18	,	,	_	$,	_	_	_	_	_	_	NF
+19	als	als	_	KOKOM	_	_	_	_	_	_	NF-NF
+20	die	d	_	ART	_	_	_	_	_	_	NF-NF
+21	Anweſenden	Anwesende	_	NN	_	_	_	_	_	_	NF-NF
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 14
+# text = Es laſſen aber auch ihre Umſtaͤnde und Verrich-<lb/>tungen nicht allezeit zu , ins Werck zu rich-<lb/>ten , was dort geſchrieben ſtehet : komm her , und ſiehe es .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	laſſen	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+3	aber	aber	_	ADV	_	_	_	_	_	_	MF
+4	auch	auch	_	ADV	_	_	_	_	_	_	MF
+5	ihre	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+6	Umſtaͤnde	Umstand	_	NN	_	_	_	_	_	_	MF
+7	und	und	_	KON	_	_	_	_	_	_	MF
+8	Verrich-<lb/>tungen	Verrichtung	_	NN	_	_	_	_	_	_	MF
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+10	allezeit	allezeit	_	ADV	_	_	_	_	_	_	MF
+11	zu	zu	_	PTKVZ	_	_	_	_	_	RK	RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	ins	ins	_	APPRART	_	_	_	_	_	_	NF-MF
+14	Werck	Werk	_	NN	_	_	_	_	_	_	NF-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+16	rich-<lb/>ten	richten	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	,	,	_	$,	_	_	_	_	_	_	NF
+18	was	was	_	PWS	_	_	_	_	_	LK	NF-NF-LK
+19	dort	dort	_	ADV	_	_	_	_	_	_	NF-NF-MF
+20	geſchrieben	schreiben	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+21	ſtehet	stehen	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+22	:	:	_	$.	_	_	_	_	_	_	_
+23	komm	kommen	_	VVIMP	_	_	_	_	_	LK	LK
+24	her	her	_	PTKVZ	_	_	_	_	_	RK	RK
+25	,	,	_	$,	_	_	_	_	_	_	_
+26	und	und	_	KON	_	_	_	_	_	_	KOORD
+27	ſiehe	sehen	_	VVIMP	_	_	_	_	_	LK	LK
+28	es	es	_	PPER	_	_	_	_	_	_	MF
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 15
+# text = Der Ruf thut man-<lb/>chemahl wohl etwas , allein , es heißt auch dabey zum oͤfftern : fama quandoque fallax .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Ruf	Ruf	_	NN	_	_	_	_	_	_	VF
+3	thut	tun	_	VVFIN	_	_	_	_	_	LK	LK
+4	man-<lb/>chemahl	manchmal	_	ADV	_	_	_	_	_	_	MF
+5	wohl	wohl	_	ADV	_	_	_	_	_	_	MF
+6	etwas	etwas	_	PIS	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	MF
+8	allein	allein	_	ADV	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	es	es	_	PPER	_	_	_	_	_	_	VF
+11	heißt	heißen	_	VVFIN	_	_	_	_	_	LK	LK
+12	auch	auch	_	ADV	_	_	_	_	_	_	MF
+13	dabey	dabei	_	PAV	_	_	_	_	_	_	MF
+14	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+15	oͤfftern	oft	_	NN	_	_	_	_	_	_	MF
+16	:	:	_	$.	_	_	_	_	_	_	_
+17	fama	fama	_	FM.la	_	_	_	_	_	_	NF
+18	quandoque	quandoque	_	FM.la	_	_	_	_	_	_	NF
+19	fallax	fallax	_	FM.la	_	_	_	_	_	_	NF
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 17
+# text = Folgentlich muͤſſen dieſe auf an-<lb/>dere Arten in dieſem Stuͤcke unterrichtet werden .
+1	Folgentlich	folgeentelich	_	ADV	_	_	_	_	_	_	VF
+2	muͤſſen	müssen	_	VMFIN	_	_	_	_	_	LK	LK
+3	dieſe	diese	_	PDS	_	_	_	_	_	_	MF
+4	auf	auf	_	APPR	_	_	_	_	_	_	MF
+5	an-<lb/>dere	ander	_	ADJA	_	_	_	_	_	_	MF
+6	Arten	Art	_	NN	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	dieſem	diese	_	PDAT	_	_	_	_	_	_	MF
+9	Stuͤcke	Stück	_	NN	_	_	_	_	_	_	MF
+10	unterrichtet	unterrichten	_	VVPP	_	_	_	_	_	RK	RK
+11	werden	werden	_	VAINF	_	_	_	_	_	RK	RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 18
+# text = Und da iſt nun auſſer Streit wohl die allerbeſte , wenn ein ſolcher Leh-<lb/>rer , in dieſem und jenem Theil der Gelehr-<lb/>heit , und darinnen er inſonderheit einige Geſchicklichkeit beſitzet , dem Publico gnugſame Proben vorleget ; denn hier-<lb/>aus iſt ſodann gar leicht auf das uͤbrige , und ſonderlich aufs zukuͤnfftige ein Schluß zu machen .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	da	da	_	ADV	_	_	_	_	_	_	VF
+3	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	nun	nun	_	ADV	_	_	_	_	_	_	MF
+5	auſſer	außer	_	APPR	_	_	_	_	_	_	MF
+6	Streit	Streit	_	NN	_	_	_	_	_	_	MF
+7	wohl	wohl	_	ADV	_	_	_	_	_	_	MF
+8	die	d	_	ART	_	_	_	_	_	_	MF
+9	allerbeſte	allerbest	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+12	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+13	ſolcher	solch	_	PIAT	_	_	_	_	_	_	NF-MF
+14	Leh-<lb/>rer	Lehrer	_	NN	_	_	_	_	_	_	NF-MF
+15	,	,	_	$,	_	_	_	_	_	_	NF-MF
+16	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+17	dieſem	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+18	und	und	_	KON	_	_	_	_	_	_	NF-MF
+19	jenem	jen	_	PDAT	_	_	_	_	_	_	NF-MF
+20	Theil	Teil	_	NN	_	_	_	_	_	_	NF-MF
+21	der	d	_	ART	_	_	_	_	_	_	NF-MF
+22	Gelehr-<lb/>heit	Gelehrtheit	_	NN	_	_	_	_	_	_	NF-MF
+23	,	,	_	$,	_	_	_	_	_	_	NF-MF
+24	und	und	_	KON	_	_	_	_	_	_	NF-MF
+25	darinnen	darinnen	_	ADV	_	_	_	_	_	LK	NF-MF-LK
+26	er	er	_	PPER	_	_	_	_	_	_	NF-MF-MF
+27	inſonderheit	insonderheit	_	ADV	_	_	_	_	_	_	NF-MF-MF
+28	einige	einige	_	PIAT	_	_	_	_	_	_	NF-MF-MF
+29	Geſchicklichkeit	Geschicklichkeit	_	NN	_	_	_	_	_	_	NF-MF-MF
+30	beſitzet	besitzen	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+31	,	,	_	$,	_	_	_	_	_	_	NF-MF
+32	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+33	Publico	Publikum	_	NN	_	_	_	_	_	_	NF-MF
+34	gnugſame	genugsam	_	ADJA	_	_	_	_	_	_	NF-MF
+35	Proben	Probe	_	NN	_	_	_	_	_	_	NF-MF
+36	vorleget	vorlegen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+37	;	\;	_	$.	_	_	_	_	_	_	_
+38	denn	denn	_	KON	_	_	_	_	_	_	KOORD
+39	hier-<lb/>aus	hieraus	_	PAV	_	_	_	_	_	_	VF
+40	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+41	ſodann	sodann	_	ADV	_	_	_	_	_	_	MF
+42	gar	gar	_	ADV	_	_	_	_	_	_	MF
+43	leicht	leicht	_	ADJD	_	_	_	_	_	_	MF
+44	auf	auf	_	APPR	_	_	_	_	_	_	MF
+45	das	d	_	ART	_	_	_	_	_	_	MF
+46	uͤbrige	übrig	_	NN	_	_	_	_	_	_	MF
+47	,	,	_	$,	_	_	_	_	_	_	MF
+48	und	und	_	KON	_	_	_	_	_	_	MF
+49	ſonderlich	sonderlich	_	ADJD	_	_	_	_	_	_	MF
+50	aufs	aufs	_	APPRART	_	_	_	_	_	_	MF
+51	zukuͤnfftige	zukünftig	_	NN	_	_	_	_	_	_	MF
+52	ein	eine	_	ART	_	_	_	_	_	_	MF
+53	Schluß	Schluß	_	NN	_	_	_	_	_	_	MF
+54	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+55	machen	machen	_	VVINF	_	_	_	_	_	RK	RK
+56	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 19
+# text = Hat es mit dieſem erſten Punct ſeine Richtigkeit .
+1	Hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+2	es	es	_	PPER	_	_	_	_	_	_	MF
+3	mit	mit	_	APPR	_	_	_	_	_	_	MF
+4	dieſem	diese	_	PDAT	_	_	_	_	_	_	MF
+5	erſten	erst	_	ADJA	_	_	_	_	_	_	MF
+6	Punct	Punkt	_	NN	_	_	_	_	_	_	MF
+7	ſeine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+8	Richtigkeit	Richtigkeit	_	NN	_	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 20
+# text = Hat er den erſten Schritt wohl gemacht , und durch gnugſame Pro-<lb/>ben ſeinen Fleiß erwieſen , und alſo , zu fer-<lb/>nerer guten Hoffnung von ihm , einen ſi-<lb/>chern Grund geleget ſo erfordern alsdenn die Regeln der Klugheit und Erkaͤnntlich-<lb/>keit weiter , auch an die Danckbarkeit und an diejenigen zu gedencken , denen er ſeinen Beruf und davon abhangendes Gluͤcke , nechſt GOtt , zu dancken und zuzuſchrei-<lb/>ben habe .
+1	Hat	haben	_	VAFIN	_	_	_	_	_	LK	LV-LK
+2	er	er	_	PPER	_	_	_	_	_	_	LV-MF
+3	den	d	_	ART	_	_	_	_	_	_	LV-MF
+4	erſten	erst	_	ADJA	_	_	_	_	_	_	LV-MF
+5	Schritt	Schritt	_	NN	_	_	_	_	_	_	LV-MF
+6	wohl	wohl	_	ADV	_	_	_	_	_	_	LV-MF
+7	gemacht	machen	_	VVPP	_	_	_	_	_	RK	LV-RK
+8	,	,	_	$,	_	_	_	_	_	_	LV
+9	und	und	_	KON	_	_	_	_	_	_	LV-KOORD
+10	durch	durch	_	APPR	_	_	_	_	_	_	LV-MF
+11	gnugſame	genugsam	_	ADJA	_	_	_	_	_	_	LV-MF
+12	Pro-<lb/>ben	Probe	_	NN	_	_	_	_	_	_	LV-MF
+13	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	LV-MF
+14	Fleiß	Fleiß	_	NN	_	_	_	_	_	_	LV-MF
+15	erwieſen	erweisen	_	VVPP	_	_	_	_	_	RK	LV-RK
+16	,	,	_	$,	_	_	_	_	_	_	LV
+17	und	und	_	KON	_	_	_	_	_	_	LV-KOORD
+18	alſo	also	_	ADV	_	_	_	_	_	_	LV-MF
+19	,	,	_	$,	_	_	_	_	_	_	LV-MF
+20	zu	zu	_	APPR	_	_	_	_	_	_	LV-MF
+21	fer-<lb/>nerer	fern	_	ADJA	_	_	_	_	_	_	LV-MF
+22	guten	gut	_	ADJA	_	_	_	_	_	_	LV-MF
+23	Hoffnung	Hoffnung	_	NN	_	_	_	_	_	_	LV-MF
+24	von	von	_	APPR	_	_	_	_	_	_	LV-MF
+25	ihm	er	_	PPER	_	_	_	_	_	_	LV-MF
+26	,	,	_	$,	_	_	_	_	_	_	LV-MF
+27	einen	eine	_	ART	_	_	_	_	_	_	LV-MF
+28	ſi-<lb/>chern	sicher	_	ADJA	_	_	_	_	_	_	LV-MF
+29	Grund	Grund	_	NN	_	_	_	_	_	_	LV-MF
+30	geleget	legen	_	VVPP	_	_	_	_	_	RK	LV-RK
+31	ſo	so	_	ADV	_	_	_	_	_	_	VF
+32	erfordern	erfordern	_	VVFIN	_	_	_	_	_	LK	LK
+33	alsdenn	alsdann	_	ADV	_	_	_	_	_	_	MF
+34	die	d	_	ART	_	_	_	_	_	_	MF
+35	Regeln	Regel	_	NN	_	_	_	_	_	_	MF
+36	der	d	_	ART	_	_	_	_	_	_	MF
+37	Klugheit	Klugheit	_	NN	_	_	_	_	_	_	MF
+38	und	und	_	KON	_	_	_	_	_	_	MF
+39	Erkaͤnntlich-<lb/>keit	Erkenntlichkeit	_	NN	_	_	_	_	_	_	MF
+40	weiter	weiter	_	ADV	_	_	_	_	_	_	MF
+41	,	,	_	$,	_	_	_	_	_	_	_
+42	auch	auch	_	ADV	_	_	_	_	_	_	NF-MF
+43	an	an	_	APPR	_	_	_	_	_	_	NF-MF
+44	die	d	_	ART	_	_	_	_	_	_	NF-MF
+45	Danckbarkeit	Dankbarkeit	_	NN	_	_	_	_	_	_	NF-MF
+46	und	und	_	KON	_	_	_	_	_	_	NF-MF
+47	an	an	_	APPR	_	_	_	_	_	_	NF-MF
+48	diejenigen	diejenige	_	PDS	_	_	_	_	_	_	NF-MF
+49	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+50	gedencken	gedenken	_	VVINF	_	_	_	_	_	RK	NF-RK
+51	,	,	_	$,	_	_	_	_	_	_	NF
+52	denen	die	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+53	er	er	_	PPER	_	_	_	_	_	_	NF-NF-MF
+54	ſeinen	seine	_	PPOSAT	_	_	_	_	_	_	NF-NF-MF
+55	Beruf	Beruf	_	NN	_	_	_	_	_	_	NF-NF-MF
+56	und	und	_	KON	_	_	_	_	_	_	NF-NF-MF
+57	davon	davon	_	PAV	_	_	_	_	_	_	NF-NF-MF
+58	abhangendes	abhangend	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+59	Gluͤcke	Glück	_	NN	_	_	_	_	_	_	NF-NF-MF
+60	,	,	_	$,	_	_	_	_	_	_	NF-NF-MF
+61	nechſt	nächst	_	APPR	_	_	_	_	_	_	NF-NF-MF
+62	GOtt	Gott	_	NN	_	_	_	_	_	_	NF-NF-MF
+63	,	,	_	$,	_	_	_	_	_	_	NF-NF
+64	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-NF-RK
+65	dancken	danken	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+66	und	und	_	KON	_	_	_	_	_	RK	NF-NF-RK
+67	zuzuſchrei-<lb/>ben	zuschreiben	_	VVIZU	_	_	_	_	_	RK	NF-NF-RK
+68	habe	haben	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+69	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 21
+# text = Schon die klugen alten Heyden haben geglaubet , daß ein Menſch , durch keine Tugend , den Goͤttern ſo nahe kom-<lb/>men koͤnne , als durch die Danckbahrkeit .
+1	Schon	schon	_	ADV	_	_	_	_	_	_	VF
+2	die	d	_	ART	_	_	_	_	_	_	VF
+3	klugen	klug	_	ADJA	_	_	_	_	_	_	VF
+4	alten	alt	_	ADJA	_	_	_	_	_	_	VF
+5	Heyden	Heide	_	NN	_	_	_	_	_	_	VF
+6	haben	haben	_	VAFIN	_	_	_	_	_	LK	LK
+7	geglaubet	glauben	_	VVPP	_	_	_	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+10	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+11	Menſch	Mensch	_	NN	_	_	_	_	_	_	NF-MF
+12	,	,	_	$,	_	_	_	_	_	_	NF-MF
+13	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+14	keine	keine	_	PIAT	_	_	_	_	_	_	NF-MF
+15	Tugend	Tugend	_	NN	_	_	_	_	_	_	NF-MF
+16	,	,	_	$,	_	_	_	_	_	_	NF-MF
+17	den	d	_	ART	_	_	_	_	_	_	NF-MF
+18	Goͤttern	Gott	_	NN	_	_	_	_	_	_	NF-MF
+19	ſo	so	_	ADV	_	_	_	_	_	_	NF-MF
+20	nahe	nahe	_	ADJD	_	_	_	_	_	_	NF-MF
+21	kom-<lb/>men	kommen	_	VVINF	_	_	_	_	_	RK	NF-RK
+22	koͤnne	können	_	VMFIN	_	_	_	_	_	RK	NF-RK
+23	,	,	_	$,	_	_	_	_	_	_	NF
+24	als	als	_	KOKOM	_	_	_	_	_	_	NF-NF
+25	durch	durch	_	APPR	_	_	_	_	_	_	NF-NF
+26	die	d	_	ART	_	_	_	_	_	_	NF-NF
+27	Danckbahrkeit	Dankbarkeit	_	NN	_	_	_	_	_	_	NF-NF
+28	.	.	_	$.	_	_	_	_	_	_	_

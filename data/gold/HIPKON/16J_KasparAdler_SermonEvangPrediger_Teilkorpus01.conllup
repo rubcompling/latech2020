@@ -1,0 +1,9 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = woͤlt ſy ſchycken den ewren /
+1	woͤlt	_	_	VMFIN	_	_	_	_	_	VP	woͤlt	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	03,26	_
+2	ſy	_	_	PPER	_	_	_	_	_	NP	ſy	_	DO	_	PPER	_	MAINDECL-ELLI	_	MF	03,26	_
+3	ſchycken	_	_	VVINF	_	_	_	_	_	VP	ſchycken	NF	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	03,26	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	NF	IO-DAT	ACC-SIT	DDA	_	MAINDECL-ELLI	_	NF	03,26	UNLINK
+5	ewren	_	_	PPOSS	_	_	_	_	_	NP	ewren	NF	IO-DAT	ACC-SIT	DPOSS	_	MAINDECL-ELLI	_	NF	03,26	UNLINK
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL-ELLI	_	_	03,26	_

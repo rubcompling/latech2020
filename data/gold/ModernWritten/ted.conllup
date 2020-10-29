@@ -1,0 +1,1910 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Als nächstes also , die wissenschaftliche Methodik ein Grundsatz der Physik , aller Wissenschaften — sagt , daß man eine Hypothese nicht durch Beobachtung beweisen kann .
+1	Als	als	_	KOKOM	_	_	_	_	_	_	LV
+2	nächstes	nächster	_	ADJD	degree=pos	_	_	_	_	_	LV
+3	also	also	_	ADV	_	_	_	_	_	_	LV
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+6	wissenschaftliche	wissenschaftlich	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	VF
+7	Methodik	Methodik	_	NN	number=sg|case=nom|gender=fem	16	subj	_	_	_	VF
+8	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	VF
+9	Grundsatz	Grundsatz	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	_	VF
+10	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	_	VF
+11	Physik	Physik	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	_	VF
+12	,	,	_	$,	_	_	_	_	_	_	VF
+13	aller	aller	_	PIAT	number=pl|case=gen|gender=fem	_	_	_	_	_	VF
+14	Wissenschaften	Wissenschaft	_	NN	number=pl|case=gen|gender=fem	_	_	_	_	_	VF
+15	—	-	_	$(	_	_	_	_	_	_	_
+16	sagt	sagen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	daß	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+19	man	man	_	PIS	number=sg|case=nom|gender=*	25	subj	_	_	_	NF-MF
+20	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+21	Hypothese	Hypothese	_	NN	number=sg|case=acc|gender=fem	25	obj	_	_	_	NF-MF
+22	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+23	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+24	Beobachtung	Beobachtung	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	_	NF-MF
+25	beweisen	beweisen	_	VVINF	_	16	vobj	_	_	RK	NF-RK
+26	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	25	aux	_	_	RK	NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 2
+# text = Man kann sie nur widerlegen .
+1	Man	man	_	PIS	number=sg|case=nom|gender=*	5	subj	_	_	_	VF
+2	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	LK	LK
+3	sie	sie	_	PPER	number=sg|person=3|case=acc|gender=fem	5	obj	_	_	_	MF
+4	nur	nur	_	ADV	_	_	_	_	_	_	MF
+5	widerlegen	widerlegen	_	VVINF	_	_	_	_	_	RK	RK
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Das heißt , daß man mehr und mehr Information um eine Hypothese oder einen Standpunkt sammeln kann die sie bestärkt , aber nicht endgültig beweist .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	_	VF
+2	heißt	heißen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	daß	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+5	man	man	_	PIS	number=sg|case=nom|gender=*	16	subj	_	_	_	NF-MF
+6	mehr	mehr	_	ADV	_	_	_	_	_	_	NF-MF
+7	und	und	_	KON	_	_	_	_	_	_	NF-MF
+8	mehr	mehr	_	ADV	_	_	_	_	_	_	NF-MF
+9	Information	Information	_	NN	number=sg|case=acc|gender=fem	16	obj	_	_	_	NF-MF
+10	um	um	_	APPR	_	_	_	_	_	_	NF-MF
+11	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+12	Hypothese	Hypothese	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+13	oder	oder	_	KON	_	_	_	_	_	_	NF-MF
+14	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-MF
+15	Standpunkt	Standpunkt	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-MF
+16	sammeln	sammeln	_	VVINF	_	2	vobj	_	_	RK	NF-RK
+17	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	16	aux	_	_	RK	NF-RK
+18	die	der	_	PRELS	number=sg|case=nom|gender=fem	20	subj	_	_	LK	NF-NF-LK
+19	sie	sie	_	PPER	number=sg|person=3|case=acc|gender=fem	20	obj	_	_	_	NF-NF-MF
+20	bestärkt	bestärken	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-NF-RK
+21	,	,	_	$,	_	_	_	_	_	_	NF-NF
+22	aber	aber	_	KON	_	_	_	_	_	_	NF-NF-KOORD
+23	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-NF-MF
+24	endgültig	endgültig	_	ADJD	degree=pos	_	_	_	_	_	NF-NF-MF
+25	beweist	beweisen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 4
+# text = Und nur eine einzige gegenteilige Information kann die ganze Theorie kippen .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	nur	nur	_	ADV	_	_	_	_	_	_	VF
+3	eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+4	einzige	einziger	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	VF
+5	gegenteilige	gegenteilig	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	VF
+6	Information	Information	_	NN	number=sg|case=nom|gender=fem	11	subj	_	_	_	VF
+7	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	11	aux	_	_	LK	LK
+8	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+9	ganze	ganz	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+10	Theorie	Theorie	_	NN	number=sg|case=acc|gender=fem	11	obj	_	_	_	MF
+11	kippen	kippen	_	VVINF	_	_	_	_	_	RK	RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 5
+# text = Das klingt vielleicht zu simpel , um Verhalten zu beeinflussen , aber in einer Studie fanden wir heraus , dass Achtsamkeitstraining Menschen doppelt so gut hilft das Rauchen aufzugeben wie die beste Standardtherapie .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	_	VF
+2	klingt	klingen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	MF
+4	zu	zu	_	PTKA	_	_	_	_	_	_	MF
+5	simpel	simpel	_	ADJD	degree=pos	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+8	Verhalten	Verhalten	_	NN	number=sg|case=acc|gender=neut	10	obj	_	_	_	NF-MF
+9	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+10	beeinflussen	beeinflussen	_	VVINF	_	_	_	_	_	RK	NF-RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	aber	aber	_	KON	_	_	_	_	_	_	KOORD
+13	in	in	_	APPR	_	_	_	_	_	_	VF
+14	einer	ein	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+15	Studie	Studie	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+16	fanden	finden	_	VVFIN	number=pl|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+17	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	16	subj	_	_	_	MF
+18	heraus	heraus	_	PTKVZ	_	_	_	_	_	RK	RK
+19	,	,	_	$,	_	_	_	_	_	_	_
+20	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+21	Achtsamkeitstraining	Achtsamkeitstraining	_	NN	number=sg|case=nom|gender=neut	26	subj	_	_	_	NF-MF
+22	Menschen	Mensch	_	NN	number=pl|case=dat|gender=masc	26	iobj	_	_	_	NF-MF
+23	doppelt	doppelt	_	ADJD	degree=pos	_	_	_	_	_	NF-MF
+24	so	so	_	ADV	_	_	_	_	_	_	NF-MF
+25	gut	gut	_	ADJD	degree=pos	_	_	_	_	_	NF-MF
+26	hilft	helfen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	16	vobj	_	_	RK	NF-RK
+27	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-NF-MF
+28	Rauchen	Rauchen	_	NN	number=sg|case=acc|gender=neut	29	obj	_	_	_	NF-NF-MF
+29	aufzugeben	aufgeben	_	VVIZU	_	26	vobj	_	_	RK	NF-NF-RK
+30	wie	wie	_	KOKOM	_	_	_	_	_	_	NF-NF
+31	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-NF
+32	beste	gut	_	ADJA	number=sg|degree=sup|case=nom|gender=fem	_	_	_	_	_	NF-NF
+33	Standardtherapie	Standardtherapie	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-NF
+34	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 6
+# text = Es funktioniert also .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	subj	_	_	_	VF
+2	funktioniert	funktionieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	also	also	_	ADV	_	_	_	_	_	_	MF
+4	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 7
+# text = Als wir die Gehirne geübter Meditierender untersuchten , erkannten wir , Teile der neuronalen Netze selbstreferenzieller Verarbeitung , Bewusstseinsnetzwerk genannt , spielten hier eine Rolle .
+1	Als	als	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	7	subj	_	_	_	VF-MF
+3	die	der	_	ART	number=pl|case=acc|gender=neut	_	_	_	_	_	VF-MF
+4	Gehirne	Gehirn	_	NN	number=pl|case=acc|gender=neut	7	obj	_	_	_	VF-MF
+5	geübter	geübt	_	ADJA	number=pl|degree=pos|case=gen|gender=*	_	_	_	_	_	VF-MF
+6	Meditierender	Meditierende	_	NN	number=pl|case=gen|gender=*	_	_	_	_	_	VF-MF
+7	untersuchten	untersuchen	_	VVFIN	number=pl|person=1|mood=ind|tense=past	_	_	_	_	RK	VF-RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	erkannten	erkennen	_	VVFIN	number=pl|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+10	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	9	subj	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	Teile	Teil	_	NN	number=pl|case=nom|gender=masc	22	subj	_	_	_	NF-VF
+13	der	der	_	ART	number=pl|case=gen|gender=neut	_	_	_	_	_	NF-VF
+14	neuronalen	neuronal	_	ADJA	number=pl|degree=pos|case=gen|gender=neut	_	_	_	_	_	NF-VF
+15	Netze	Netz	_	NN	number=pl|case=gen|gender=neut	_	_	_	_	_	NF-VF
+16	selbstreferenzieller	selbstreferenziell	_	ADJA	number=sg|degree=pos|case=gen|gender=fem	_	_	_	_	_	NF-VF
+17	Verarbeitung	Verarbeitung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	_	NF-VF
+18	,	,	_	$,	_	_	_	_	_	_	NF-VF
+19	Bewusstseinsnetzwerk	Bewusstseinsnetzwerk	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	NF-VF-MF
+20	genannt	nennen	_	VVPP	_	_	_	_	_	RK	NF-VF-RK
+21	,	,	_	$,	_	_	_	_	_	_	NF
+22	spielten	spielen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	9	vobj	_	_	LK	NF-LK
+23	hier	hier	_	ADV	_	_	_	_	_	_	NF-MF
+24	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+25	Rolle	Rolle	_	NN	number=sg|case=acc|gender=fem	22	obj	_	_	_	NF-MF
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 8
+# text = Eine aktuelle Hypothese sagt , dass eine Region dieses Netzes , namens posteriorer Gyrus cinguli , nicht unbedingt durch das Verlangen selbst aktiviert wird , sondern wenn wir davon gefangen sind , hineingesaugt werden , und es uns hereinlegt .
+1	Eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+2	aktuelle	aktuell	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	VF
+3	Hypothese	Hypothese	_	NN	number=sg|case=nom|gender=fem	4	subj	_	_	_	VF
+4	sagt	sagen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-MF
+8	Region	Region	_	NN	number=sg|case=nom|gender=fem	23	subj	_	_	_	NF-MF
+9	dieses	dieser	_	PDAT	number=sg|case=gen|gender=neut	_	_	_	_	_	NF-MF
+10	Netzes	Netz	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	_	NF-MF
+11	,	,	_	$,	_	_	_	_	_	_	NF-MF
+12	namens	namens	_	ADV	_	_	_	_	_	_	NF-MF
+13	posteriorer	posteriorer	_	FM	_	_	_	_	_	_	NF-MF
+14	Gyrus	Gyrus	_	FM	_	_	_	_	_	_	NF-MF
+15	cinguli	cinguli	_	FM	_	_	_	_	_	_	NF-MF
+16	,	,	_	$,	_	_	_	_	_	_	NF-MF
+17	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+18	unbedingt	unbedingt	_	ADV	_	_	_	_	_	_	NF-MF
+19	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+20	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+21	Verlangen	Verlangen	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+22	selbst	selbst	_	ADV	_	_	_	_	_	_	NF-MF
+23	aktiviert	aktivieren	_	VVPP	_	4	vobj	_	_	RK	NF-RK
+24	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	23	aux	_	_	RK	NF-RK
+25	,	,	_	$,	_	_	_	_	_	_	NF
+26	sondern	sondern	_	KON	_	_	_	_	_	_	NF-KOORD
+27	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+28	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	30	subj	_	_	_	NF-MF
+29	davon	davon	_	PAV	_	_	_	_	_	_	NF-MF
+30	gefangen	fangen	_	VVPP	_	_	_	_	_	RK	NF-RK
+31	sind	sein	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	30	aux	_	_	RK	NF-RK
+32	,	,	_	$,	_	_	_	_	_	_	NF
+33	hineingesaugt	hineinsaugen	_	VVPP	_	_	_	_	_	RK	NF-RK
+34	werden	werden	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	33	aux	_	_	RK	NF-RK
+35	,	,	_	$,	_	_	_	_	_	_	NF
+36	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+37	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	39	subj	_	_	_	NF-MF
+38	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	39	obj	_	_	_	NF-MF
+39	hereinlegt	hereinlegen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+40	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 9
+# text = Um darauf zu achten , was am besten für sie ist , oder was sie für das beste für sich halten , haben Menschen Werte — diese identifizieren , was sie wollen und was sie nicht wollen .
+1	Um	um	_	KOUI	_	_	_	_	_	LK	VF-LK
+2	darauf	darauf	_	PAV	_	4	pobj	_	_	_	VF-MF
+3	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-RK
+4	achten	achten	_	VVINF	_	_	_	_	_	RK	VF-RK
+5	,	,	_	$,	_	_	_	_	_	_	VF
+6	was	was	_	PWS	number=sg|case=nom|gender=neut	11	subj	_	_	LK	VF-NF-LK
+7	am	am	_	PTKA	_	8	pcase-det	_	_	_	VF-NF-MF
+8	besten	gut	_	ADJD	degree=sup	11	pred	_	_	_	VF-NF-MF
+9	für	für	_	APPR	_	_	_	_	_	_	VF-NF-MF
+10	sie	sie	_	PPER	number=pl|person=3|case=acc|gender=*	_	_	_	_	_	VF-NF-MF
+11	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	VF-NF-RK
+12	,	,	_	$,	_	_	_	_	_	_	VF-NF
+13	oder	oder	_	KON	_	_	_	_	_	_	VF-NF-KOORD
+14	was	was	_	PWS	number=sg|case=acc|gender=neut	21	obj	_	_	LK	VF-NF-LK
+15	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	21	subj	_	_	_	VF-NF-MF
+16	für	für	_	APPR	_	18	pcase	_	_	_	VF-NF-MF
+17	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	VF-NF-MF
+18	beste	Beste	_	NN	number=sg|case=acc|gender=neut	21	pobj	_	_	_	VF-NF-MF
+19	für	für	_	APPR	_	_	_	_	_	_	VF-NF-MF
+20	sich	sich	_	PRF	number=pl|person=3|case=acc	_	_	_	_	_	VF-NF-MF
+21	halten	halten	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	VF-NF-RK
+22	,	,	_	$,	_	_	_	_	_	_	_
+23	haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+24	Menschen	Mensch	_	NN	number=pl|case=nom|gender=masc	23	subj	_	_	_	MF
+25	Werte	Wert	_	NN	number=pl|case=acc|gender=masc	23	obj	_	_	_	MF
+26	—	-	_	$(	_	_	_	_	_	_	_
+27	diese	dieser	_	PDS	number=pl|case=nom|gender=masc	28	subj	_	_	_	VF
+28	identifizieren	identifizieren	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+29	,	,	_	$,	_	_	_	_	_	_	_
+30	was	was	_	PWS	number=sg|case=acc|gender=neut	32	obj	_	_	LK	NF-LK
+31	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	32	subj	_	_	_	NF-MF
+32	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	28	vobj	_	_	RK	NF-RK
+33	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+34	was	was	_	PWS	number=sg|case=acc|gender=neut	37	obj	_	_	LK	NF-LK
+35	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	37	subj	_	_	_	NF-MF
+36	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+37	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+38	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 10
+# text = Und sie glauben zu wissen , was andere Leute wollen , und was andere Leute nicht wollen , wie viel Macht andere Leute haben , wie sehr jene Leute dem im Weg stehen könnten , was sie selbst wollen .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	_	VF
+3	glauben	glauben	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+5	wissen	wissen	_	VVINF	_	3	vobj	_	_	RK	RK
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	was	was	_	PWS	number=sg|case=acc|gender=neut	10	obj	_	_	LK	NF-LK
+8	andere	anderer	_	ADJA	number=pl|degree=pos|case=nom|gender=*	_	_	_	_	_	NF-MF
+9	Leute	Leute	_	NN	number=pl|case=nom|gender=*	10	subj	_	_	_	NF-MF
+10	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	5	vobj	_	_	RK	NF-RK
+11	,	,	_	$,	_	_	_	_	_	_	NF
+12	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+13	was	was	_	PWS	number=sg|case=acc|gender=neut	17	obj	_	_	LK	NF-LK
+14	andere	anderer	_	ADJA	number=pl|degree=pos|case=nom|gender=*	_	_	_	_	_	NF-MF
+15	Leute	Leute	_	NN	number=pl|case=nom|gender=*	17	subj	_	_	_	NF-MF
+16	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+17	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+18	,	,	_	$,	_	_	_	_	_	_	NF
+19	wie	wie	_	PWAV	_	_	_	_	_	LK	NF-LK
+20	viel	viel	_	PIAT	number=sg|case=acc|gender=fem	_	_	_	_	LK	NF-LK
+21	Macht	Macht	_	NN	number=sg|case=acc|gender=fem	24	obj	_	_	LK	NF-LK
+22	andere	anderer	_	ADJA	number=pl|degree=pos|case=nom|gender=*	_	_	_	_	_	NF-MF
+23	Leute	Leute	_	NN	number=pl|case=nom|gender=*	24	subj	_	_	_	NF-MF
+24	haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+25	,	,	_	$,	_	_	_	_	_	_	NF
+26	wie	wie	_	PWAV	_	_	_	_	_	LK	NF-LK
+27	sehr	sehr	_	ADV	_	_	_	_	_	LK	NF-LK
+28	jene	jener	_	PDAT	number=pl|case=nom|gender=*	_	_	_	_	_	NF-MF
+29	Leute	Leute	_	NN	number=pl|case=nom|gender=*	33	subj	_	_	_	NF-MF
+30	dem	der	_	PDS	number=sg|case=dat|gender=neut	33	iobj	_	_	_	NF-MF
+31	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	_	NF-MF
+32	Weg	Weg	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	NF-MF
+33	stehen	stehen	_	VVINF	_	_	_	_	_	RK	NF-RK
+34	könnten	können	_	VMFIN	number=pl|person=3|mood=subj|tense=pres	33	aux	_	_	RK	NF-RK
+35	,	,	_	$,	_	_	_	_	_	_	NF
+36	was	was	_	PWS	number=sg|case=acc|gender=neut	39	obj	_	_	LK	NF-NF-LK
+37	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	39	subj	_	_	_	NF-NF-MF
+38	selbst	selbst	_	ADV	_	_	_	_	_	_	NF-NF-MF
+39	wollen	wollen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-NF-RK
+40	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 11
+# text = Im verschneiten Nordamerika waren unsere Rituale aus dem globalen Süden .
+1	Im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	_	VF
+2	verschneiten	verschneit	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	_	VF
+3	Nordamerika	Nordamerika	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+4	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+5	unsere	unser	_	PPOSAT	number=pl|case=nom|gender=neut	_	_	_	_	_	MF
+6	Rituale	Ritual	_	NN	number=pl|case=nom|gender=neut	4	subj	_	_	_	MF
+7	aus	aus	_	APPR	_	_	_	_	_	_	MF
+8	dem	der	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	_	MF
+9	globalen	global	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	_	MF
+10	Süden	Süden	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	MF
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 12
+# text = Bei meinem ersten Besuch in Delhi oder in Süditalien war ich schockiert , wie sehr ich mich zu Hause fühlte .
+1	Bei	bei	_	APPR	_	_	_	_	_	_	VF
+2	meinem	mein	_	PPOSAT	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+3	ersten	erster	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	_	VF
+4	Besuch	Besuch	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+5	in	in	_	APPR	_	_	_	_	_	_	VF
+6	Delhi	Delhi	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+7	oder	oder	_	KON	_	_	_	_	_	_	VF
+8	in	in	_	APPR	_	_	_	_	_	_	VF
+9	Süditalien	Süditalien	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+10	war	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+11	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	10	subj	_	_	_	MF
+12	schockiert	schockiert	_	ADJD	degree=pos	10	pred	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	_
+14	wie	wie	_	PWAV	_	_	_	_	_	LK	NF-LK
+15	sehr	sehr	_	ADV	_	_	_	_	_	LK	NF-LK
+16	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	20	subj	_	_	_	NF-MF
+17	mich	ich	_	PRF	number=sg|person=1|case=acc	20	obj	_	_	_	NF-MF
+18	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+19	Hause	Haus	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	NF-MF
+20	fühlte	fühlen	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	RK	NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 13
+# text = Die Rituale waren vertraut .
+1	Die	der	_	ART	number=pl|case=nom|gender=neut	_	_	_	_	_	VF
+2	Rituale	Ritual	_	NN	number=pl|case=nom|gender=neut	3	subj	_	_	_	VF
+3	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+4	vertraut	vertraut	_	ADJD	degree=pos	3	pred	_	_	_	MF
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 14
+# text = " R " Nummer eins : Rituale .
+1	"	"	_	$(	_	_	_	_	_	_	FRAG
+2	R	R	_	XY	_	_	_	_	_	_	FRAG
+3	"	"	_	$(	_	_	_	_	_	_	FRAG
+4	Nummer	Nummer	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	_	FRAG
+5	eins	eins	_	CARD	_	_	_	_	_	_	FRAG
+6	:	:	_	$.	_	_	_	_	_	_	FRAG
+7	Rituale	Ritual	_	NN	number=pl|case=nom|gender=neut	_	_	_	_	_	FRAG
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 15
+# text = Denken Sie jetzt an Beziehungen ... Menschen , die Ihren Alltag bestimmen .
+1	Denken	denken	_	VVIMP	number=pl	_	_	_	_	LK	LK
+2	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	1	subj	_	_	_	MF
+3	jetzt	jetzt	_	ADV	_	_	_	_	_	_	MF
+4	an	an	_	APPR	_	5	pcase	_	_	_	MF
+5	Beziehungen	Beziehung	_	NN	number=pl|case=acc|gender=fem	1	pobj	_	_	_	MF
+6	...	...	_	$(	_	_	_	_	_	_	MF
+7	Menschen	Mensch	_	NN	number=pl|case=acc|gender=masc	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	die	der	_	PRELS	number=pl|case=nom|gender=*	12	subj	_	_	LK	NF-LK
+10	Ihren	Ihr	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-MF
+11	Alltag	Alltag	_	NN	number=sg|case=acc|gender=masc	12	obj	_	_	_	NF-MF
+12	bestimmen	bestimmen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 16
+# text = Mit wem sprechen Sie mindestens einmal pro Woche , entweder persönlich oder über FaceTime ?
+1	Mit	mit	_	APPR	_	_	_	_	_	_	VF
+2	wem	wem	_	PWS	number=sg|case=dat|gender=*	_	_	_	_	_	VF
+3	sprechen	sprechen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	_	MF
+5	mindestens	mindestens	_	ADV	_	_	_	_	_	_	MF
+6	einmal	einmal	_	ADV	_	_	_	_	_	_	MF
+7	pro	pro	_	APPR	_	_	_	_	_	_	MF
+8	Woche	Woche	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	entweder	entweder	_	KON	_	_	_	_	_	_	NF
+11	persönlich	persönlich	_	ADJD	degree=pos	_	_	_	_	_	NF
+12	oder	oder	_	KON	_	_	_	_	_	_	NF
+13	über	über	_	APPR	_	_	_	_	_	_	NF
+14	FaceTime	FaceTime	_	NE	number=sg|case=acc|gender=*	_	_	_	_	_	NF
+15	?	?	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 17
+# text = Schätzen Sie es realistisch ein ; ich spreche nicht von Facebook-Freunden .
+1	Schätzen	schätzen	_	VVIMP	number=pl	_	_	_	_	LK	LK
+2	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	1	subj	_	_	_	MF
+3	es	es	_	PPER	number=sg|person=3|case=acc|gender=neut	1	obj	_	_	_	MF
+4	realistisch	realistisch	_	ADJD	degree=pos	_	_	_	_	_	MF
+5	ein	ein	_	PTKVZ	_	_	_	_	_	RK	RK
+6	;	\;	_	$.	_	_	_	_	_	_	_
+7	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	8	subj	_	_	_	VF
+8	spreche	sprechen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+10	von	von	_	APPR	_	11	pcase	_	_	_	MF
+11	Facebook-Freunden	Facebook-Freund	_	NN	number=pl|case=dat|gender=masc	8	pobj	_	_	_	MF
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 18
+# text = Ich spreche von Leuten , die Ihr wöchentliches emotionales Erleben formen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	spreche	sprechen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	von	von	_	APPR	_	4	pcase	_	_	_	MF
+4	Leuten	Leute	_	NN	number=pl|case=dat|gender=*	2	pobj	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	die	der	_	PRELS	number=pl|case=nom|gender=*	11	subj	_	_	LK	NF-LK
+7	Ihr	Ihr	_	PPOSAT	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+8	wöchentliches	wöchentlich	_	ADJA	number=sg|degree=pos|case=acc|gender=neut	_	_	_	_	_	NF-MF
+9	emotionales	emotional	_	ADJA	number=sg|degree=pos|case=acc|gender=neut	_	_	_	_	_	NF-MF
+10	Erleben	Erleben	_	NN	number=sg|case=acc|gender=neut	11	obj	_	_	_	NF-MF
+11	formen	formen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 19
+# sent_id(TSV) = 19
+# text = Der Bildungsminister im Süden von London bezeichnete sich selber als « grossen Fan » .
+1	Der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	VF
+2	Bildungsminister	Bildungsminister	_	NN	number=sg|case=nom|gender=masc	7	subj	_	_	_	VF
+3	im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	_	VF
+4	Süden	Süden	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+5	von	von	_	APPR	_	_	_	_	_	_	VF
+6	London	London	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+7	bezeichnete	bezeichnen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+8	sich	sich	_	PRF	number=sg|person=3|case=acc	7	obj	_	_	_	MF
+9	selber	selber	_	ADV	_	_	_	_	_	_	MF
+10	als	als	_	KOKOM	_	_	_	_	_	_	MF
+11	«	«	_	$(	_	_	_	_	_	_	MF
+12	grossen	groß	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	_	MF
+13	Fan	Fan	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+14	»	»	_	$(	_	_	_	_	_	_	MF
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 20
+# sent_id(TSV) = 20
+# text = Und die Geschäftsorganisationen dachten , wir seien auf der richtigen Spur , indem wir einen Weg gefunden hatten , die Kinder viel besser auf das reale Arbeitsleben vorzubereiten .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	_	VF
+3	Geschäftsorganisationen	Geschäftsorganisation	_	NN	number=pl|case=nom|gender=fem	4	subj	_	_	_	VF
+4	dachten	denken	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	7	subj	_	_	_	NF-VF
+7	seien	sein	_	VAFIN	number=pl|person=1|mood=subj|tense=pres	4	vobj	_	_	LK	NF-LK
+8	auf	auf	_	APPR	_	11	pcase	_	_	_	NF-MF
+9	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+10	richtigen	richtig	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	_	NF-MF
+11	Spur	Spur	_	NN	number=sg|case=dat|gender=fem	7	pred	_	_	_	NF-MF
+12	,	,	_	$,	_	_	_	_	_	_	NF
+13	indem	indem	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+14	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	17	subj	_	_	_	NF-NF-MF
+15	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-NF-MF
+16	Weg	Weg	_	NN	number=sg|case=acc|gender=masc	17	obj	_	_	_	NF-NF-MF
+17	gefunden	finden	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+18	hatten	haben	_	VAFIN	number=pl|person=1|mood=ind|tense=past	17	aux	_	_	RK	NF-NF-RK
+19	,	,	_	$,	_	_	_	_	_	_	NF-NF
+20	die	der	_	ART	number=pl|case=acc|gender=neut	_	_	_	_	_	NF-NF-NF-MF
+21	Kinder	Kind	_	NN	number=pl|case=acc|gender=neut	28	obj	_	_	_	NF-NF-NF-MF
+22	viel	viel	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+23	besser	gut	_	ADJD	degree=comp	_	_	_	_	_	NF-NF-NF-MF
+24	auf	auf	_	APPR	_	27	pcase	_	_	_	NF-NF-NF-MF
+25	das	der	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-NF-NF-MF
+26	reale	real	_	ADJA	number=sg|degree=pos|case=acc|gender=neut	_	_	_	_	_	NF-NF-NF-MF
+27	Arbeitsleben	Arbeitsleben	_	NN	number=sg|case=acc|gender=neut	28	pobj	_	_	_	NF-NF-NF-MF
+28	vorzubereiten	vorbereiten	_	VVIZU	_	_	_	_	_	RK	NF-NF-NF-RK
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 21
+# sent_id(TSV) = 21
+# text = Tatsächlich ist der Vorsitzender der Handelskammer heute der Vorstand der Stiftung für Studio-Schulen und hilft tatkräftig mit , nicht nur mit grossen Firmen sondern Kleinunternehmen im ganzen Land .
+1	Tatsächlich	tatsächlich	_	ADV	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+4	Vorsitzender	Vorsitzende	_	NN	number=sg|case=nom|gender=masc	2	subj	_	_	_	MF
+5	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	_	MF
+6	Handelskammer	Handelskammer	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	_	MF
+7	heute	heute	_	ADV	_	_	_	_	_	_	MF
+8	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+9	Vorstand	Vorstand	_	NN	number=sg|case=nom|gender=masc	2	pred	_	_	_	MF
+10	der	der	_	ART	number=sg|case=gen|gender=fem	_	_	_	_	_	MF
+11	Stiftung	Stiftung	_	NN	number=sg|case=gen|gender=fem	_	_	_	_	_	MF
+12	für	für	_	APPR	_	_	_	_	_	_	MF
+13	Studio-Schulen	Studio-Schule	_	NN	number=pl|case=acc|gender=fem	_	_	_	_	_	MF
+14	und	und	_	KON	_	_	_	_	_	_	KOORD
+15	hilft	helfen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+16	tatkräftig	tatkräftig	_	ADJD	degree=pos	_	_	_	_	_	MF
+17	mit	mit	_	PTKVZ	_	_	_	_	_	RK	RK
+18	,	,	_	$,	_	_	_	_	_	_	_
+19	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF
+20	nur	nur	_	ADV	_	_	_	_	_	_	NF
+21	mit	mit	_	APPR	_	_	_	_	_	_	NF
+22	grossen	groß	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	_	NF
+23	Firmen	Firma	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	NF
+24	sondern	sondern	_	KON	_	_	_	_	_	_	NF
+25	Kleinunternehmen	Kleinunternehmen	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	NF
+26	im	in	_	APPRART	case=dat|gender=neut	_	_	_	_	_	NF
+27	ganzen	ganz	_	ADJA	number=sg|degree=pos|case=dat|gender=neut	_	_	_	_	_	NF
+28	Land	Land	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	NF
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 22
+# sent_id(TSV) = 22
+# text = Wir begannen mit zwei Schulen .
+1	Wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	2	subj	_	_	_	VF
+2	begannen	beginnen	_	VVFIN	number=pl|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	mit	mit	_	APPR	_	5	pcase	_	_	_	MF
+4	zwei	zwei	_	CARD	_	_	_	_	_	_	MF
+5	Schulen	Schule	_	NN	number=pl|case=dat|gender=fem	2	pobj	_	_	_	MF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 23
+# sent_id(TSV) = 23
+# text = Diese Zahl ist dieses Jahr auf etwa 10 angewachsen .
+1	Diese	dieser	_	PDAT	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+2	Zahl	Zahl	_	NN	number=sg|case=nom|gender=fem	9	subj	_	_	_	VF
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	9	aux	_	_	LK	LK
+4	dieses	dieser	_	PDAT	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+5	Jahr	Jahr	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+6	auf	auf	_	APPR	_	_	_	_	_	_	MF
+7	etwa	etwa	_	ADV	_	_	_	_	_	_	MF
+8	10	10	_	CARD	_	_	_	_	_	_	MF
+9	angewachsen	anwachsen	_	VVPP	_	_	_	_	_	RK	RK
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 24
+# sent_id(TSV) = 24
+# text = Und das sollte alles verändern .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	das	der	_	PDS	number=sg|case=nom|gender=neut	5	subj	_	_	_	VF
+3	sollte	sollen	_	VMFIN	number=sg|person=3|mood=ind|tense=past	5	aux	_	_	LK	LK
+4	alles	alle	_	PIS	number=sg|case=acc|gender=neut	5	obj	_	_	_	MF
+5	verändern	verändern	_	VVINF	_	_	_	_	_	RK	RK
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 25
+# sent_id(TSV) = 25
+# text = Ich wurde das genaue Gegenteil von dem , was ich gedacht hatte zu sein .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	wurde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+4	genaue	genau	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	_	MF
+5	Gegenteil	Gegenteil	_	NN	number=sg|case=nom|gender=neut	2	pred	_	_	_	MF
+6	von	von	_	APPR	_	_	_	_	_	_	MF
+7	dem	der	_	PDS	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	was	was	_	PWS	number=sg|case=acc|gender=neut	14	pred	_	_	LK	NF-LK
+10	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	11	subj	_	_	_	NF-MF
+11	gedacht	denken	_	VVPP	_	_	_	_	_	RK	NF-RK
+12	hatte	haben	_	VAFIN	number=sg|person=1|mood=ind|tense=past	11	aux	_	_	RK	NF-RK
+13	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+14	sein	sein	_	VAINF	_	11	vobj	_	_	RK	NF-RK
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 26
+# sent_id(TSV) = 26
+# text = Ich blieb zuhause , anstatt raus zu gehen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	blieb	bleiben	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	zuhause	zuhause	_	ADV	_	_	_	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	anstatt	anstatt	_	KOUI	_	_	_	_	_	LK	NF-LK
+6	raus	raus	_	ADV	_	_	_	_	_	_	NF-MF
+7	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+8	gehen	gehen	_	VVINF	_	_	_	_	_	RK	NF-RK
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 27
+# sent_id(TSV) = 27
+# text = Ich hörte auf , mich in Vereinen und Gruppen zu engagieren .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	hörte	hören	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	auf	auf	_	PTKVZ	_	_	_	_	_	RK	RK
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	mich	ich	_	PRF	number=sg|person=1|case=acc	11	obj	_	_	_	NF-MF
+6	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+7	Vereinen	Verein	_	NN	number=pl|case=dat|gender=masc	_	_	_	_	_	NF-MF
+8	und	und	_	KON	_	_	_	_	_	_	NF-MF
+9	Gruppen	Gruppe	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	NF-MF
+10	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+11	engagieren	engagieren	_	VVINF	_	_	_	_	_	RK	NF-RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 28
+# sent_id(TSV) = 28
+# text = Ich wollte nicht mehr auffallen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	5	subj	_	_	_	VF
+2	wollte	wollen	_	VMFIN	number=sg|person=1|mood=ind|tense=past	5	aux	_	_	LK	LK
+3	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+4	mehr	mehr	_	ADV	_	_	_	_	_	_	MF
+5	auffallen	auffallen	_	VVINF	_	_	_	_	_	RK	RK
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 29
+# sent_id(TSV) = 29
+# text = Ich sagte mir , ich würde älter und erwachsener werden , und nicht plötzlich nach Bestätigung suchen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	sagte	sagen	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	mir	ich	_	PRF	number=sg|person=1|case=dat	2	iobj	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	10	subj	_	_	_	NF-VF
+6	würde	werden	_	VAFIN	number=sg|person=1|mood=subj|tense=past	10	aux	_	_	LK	NF-LK
+7	älter	alt	_	ADJD	degree=comp	10	pred	_	_	_	NF-MF
+8	und	und	_	KON	_	_	_	_	_	_	NF-MF
+9	erwachsener	erwachsen	_	ADJD	degree=comp	_	_	_	_	_	NF-MF
+10	werden	werden	_	VAINF	_	2	vobj	_	_	RK	NF-RK
+11	,	,	_	$,	_	_	_	_	_	_	NF
+12	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+13	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+14	plötzlich	plötzlich	_	ADV	_	_	_	_	_	_	NF-MF
+15	nach	nach	_	APPR	_	16	pcase	_	_	_	NF-MF
+16	Bestätigung	Bestätigung	_	NN	number=sg|case=dat|gender=fem	17	pobj	_	_	_	NF-MF
+17	suchen	suchen	_	VVINF	_	_	_	_	_	RK	NF-RK
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 30
+# sent_id(TSV) = 30
+# text = Ich dachte nämlich immer , das bräuchte ich nicht .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	dachte	denken	_	VVFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	nämlich	nämlich	_	ADV	_	_	_	_	_	_	MF
+4	immer	immer	_	ADV	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	das	der	_	PDS	number=sg|case=acc|gender=neut	7	obj	_	_	_	NF-VF
+7	bräuchte	brauchen	_	VVFIN	number=sg|person=1|mood=subj|tense=past	2	vobj	_	_	LK	NF-LK
+8	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	7	subj	_	_	_	NF-MF
+9	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 31
+# sent_id(TSV) = 31
+# text = Ich war ja immer etwas unkonventionell .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	war	sein	_	VAFIN	number=sg|person=1|mood=ind|tense=past	_	_	_	_	LK	LK
+3	ja	ja	_	ADV	_	_	_	_	_	_	MF
+4	immer	immer	_	ADV	_	_	_	_	_	_	MF
+5	etwas	etwas	_	ADV	_	_	_	_	_	_	MF
+6	unkonventionell	unkonventionell	_	ADJD	degree=pos	2	pred	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 32
+# sent_id(TSV) = 32
+# text = Aber das müssen sie auch nicht .
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	das	der	_	PDS	number=sg|case=acc|gender=neut	3	obj	_	_	_	VF
+3	müssen	müssen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	_	MF
+5	auch	auch	_	ADV	_	_	_	_	_	_	MF
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 33
+# sent_id(TSV) = 33
+# text = Ich erkläre Ihnen , warum .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	VF
+2	erkläre	erklären	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Ihnen	Sie	_	PPER	number=pl|person=3|case=dat|gender=*	2	iobj	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	warum	warum	_	PWAV	_	_	_	_	_	_	NF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 34
+# sent_id(TSV) = 34
+# text = Stellen Sie sich vor : Eine Bevölkerung hat drei verschiedene Präferenzen : Grün , Orange und Rot .
+1	Stellen	stellen	_	VVIMP	number=pl	_	_	_	_	LK	LK
+2	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	1	subj	_	_	_	MF
+3	sich	sich	_	PRF	number=pl|person=3|case=dat	1	iobj	_	_	_	MF
+4	vor	vor	_	PTKVZ	_	_	_	_	_	RK	RK
+5	:	:	_	$.	_	_	_	_	_	_	_
+6	Eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-VF
+7	Bevölkerung	Bevölkerung	_	NN	number=sg|case=nom|gender=fem	8	subj	_	_	_	NF-VF
+8	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	1	vobj	_	_	LK	NF-LK
+9	drei	drei	_	CARD	_	_	_	_	_	_	NF-MF
+10	verschiedene	verschieden	_	ADJA	number=pl|degree=pos|case=acc|gender=fem	_	_	_	_	_	NF-MF
+11	Präferenzen	Präferenz	_	NN	number=pl|case=acc|gender=fem	8	obj	_	_	_	NF-MF
+12	:	:	_	$.	_	_	_	_	_	_	NF-MF
+13	Grün	Grün	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	NF-MF
+14	,	,	_	$,	_	_	_	_	_	_	NF-MF
+15	Orange	Orange	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	NF-MF
+16	und	und	_	KON	_	_	_	_	_	_	NF-MF
+17	Rot	Rot	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	NF-MF
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 35
+# sent_id(TSV) = 35
+# text = Aus deren Perspekive sagen diese Vorlieben nichts über Gesundheit aus ; es gefällt eben , was gefällt .
+1	Aus	aus	_	APPR	_	_	_	_	_	_	VF
+2	deren	der	_	PDAT	number=pl|case=gen|gender=*	_	_	_	_	_	VF
+3	Perspekive	Perspektive	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+4	sagen	sagen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+5	diese	dieser	_	PDAT	number=pl|case=nom|gender=fem	_	_	_	_	_	MF
+6	Vorlieben	Vorliebe	_	NN	number=pl|case=nom|gender=fem	4	subj	_	_	_	MF
+7	nichts	nichts	_	PIS	number=*|case=*|gender=neut	4	obj	_	_	_	MF
+8	über	über	_	APPR	_	9	pcase	_	_	_	MF
+9	Gesundheit	Gesundheit	_	NN	number=sg|case=acc|gender=fem	4	pobj	_	_	_	MF
+10	aus	aus	_	PTKVZ	_	_	_	_	_	RK	RK
+11	;	\;	_	$.	_	_	_	_	_	_	_
+12	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	13	expl	_	_	_	VF
+13	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+14	eben	eben	_	ADV	_	_	_	_	_	_	MF
+15	,	,	_	$,	_	_	_	_	_	_	_
+16	was	was	_	PWS	number=sg|case=nom|gender=neut	17	subj	_	_	LK	NF-LK
+17	gefällt	gefallen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	13	vsubj	_	_	RK	NF-RK
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 36
+# sent_id(TSV) = 36
+# text = Aber wenn es ebenso der Fall wäre , dass diese Vorlieben einhergehen mit verschiedenen Wahrscheinlichkeiten , Nachkommen zu zeugen — sagen wir in einem Verhältnis 3:2:1 — dann wäre die erste Generation 3 x Grün zu 2 x Orange zu 1 x Rot .
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	wenn	wenn	_	KOUS	_	_	_	_	_	LK	LV-LK
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	7	expl	_	_	_	LV-MF
+4	ebenso	ebenso	_	ADV	_	_	_	_	_	_	LV-MF
+5	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	LV-MF
+6	Fall	Fall	_	NN	number=sg|case=nom|gender=masc	7	subj	_	_	_	LV-MF
+7	wäre	sein	_	VAFIN	number=sg|person=3|mood=subj|tense=past	_	_	_	_	RK	LV-RK
+8	,	,	_	$,	_	_	_	_	_	_	LV
+9	dass	dass	_	KOUS	_	_	_	_	_	LK	LV-LK
+10	diese	dieser	_	PDAT	number=pl|case=nom|gender=fem	_	_	_	_	_	LV-MF
+11	Vorlieben	Vorliebe	_	NN	number=pl|case=nom|gender=fem	12	subj	_	_	_	LV-MF
+12	einhergehen	einhergehen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	7	vsubj	_	_	RK	LV-RK
+13	mit	mit	_	APPR	_	15	pcase	_	_	_	LV-NF
+14	verschiedenen	verschieden	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	_	LV-NF
+15	Wahrscheinlichkeiten	Wahrscheinlichkeit	_	NN	number=pl|case=dat|gender=fem	12	pobj	_	_	_	LV-NF
+16	,	,	_	$,	_	_	_	_	_	_	LV-NF
+17	Nachkommen	Nachkomme	_	NN	number=pl|case=acc|gender=masc	19	obj	_	_	_	LV-NF-MF
+18	zu	zu	_	PTKZU	_	_	_	_	_	RK	LV-NF-RK
+19	zeugen	zeugen	_	VVINF	_	_	_	_	_	RK	LV-NF-RK
+20	—	-	_	$(	_	_	_	_	_	_	LV-NF
+21	sagen	sagen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	LK	LV-NF-LK
+22	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	21	subj	_	_	_	LV-NF-MF
+23	in	in	_	APPR	_	_	_	_	_	_	LV-NF-MF
+24	einem	ein	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	_	LV-NF-MF
+25	Verhältnis	Verhältnis	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	LV-NF-MF
+26	3:2:1	3:2:1	_	CARD	_	_	_	_	_	_	LV-NF-MF
+27	—	-	_	$(	_	_	_	_	_	_	_
+28	dann	dann	_	ADV	_	_	_	_	_	_	VF
+29	wäre	sein	_	VAFIN	number=sg|person=3|mood=subj|tense=past	_	_	_	_	LK	LK
+30	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+31	erste	erster	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	MF
+32	Generation	Generation	_	NN	number=sg|case=nom|gender=fem	29	subj	_	_	_	MF
+33	3	3	_	CARD	_	29	pred	_	_	_	MF
+34	x	x	_	XY	_	_	_	_	_	_	MF
+35	Grün	Grün	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+36	zu	zu	_	APPR	_	_	_	_	_	_	MF
+37	2	2	_	CARD	_	_	_	_	_	_	MF
+38	x	x	_	XY	_	_	_	_	_	_	MF
+39	Orange	Orange	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+40	zu	zu	_	APPR	_	_	_	_	_	_	MF
+41	1	1	_	CARD	_	_	_	_	_	_	MF
+42	x	x	_	XY	_	_	_	_	_	_	MF
+43	Rot	Rot	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+44	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 37
+# sent_id(TSV) = 37
+# text = Und zu einem gewissen Grad hoffen wir auch , dass uns die Geschichte recht geben wird .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	zu	zu	_	APPR	_	_	_	_	_	_	VF
+3	einem	ein	_	ART	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+4	gewissen	gewiss	_	ADJA	number=sg|degree=pos|case=dat|gender=masc	_	_	_	_	_	VF
+5	Grad	Grad	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+6	hoffen	hoffen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+7	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	6	subj	_	_	_	MF
+8	auch	auch	_	ADV	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+11	uns	wir	_	PPER	number=pl|person=1|case=dat|gender=*	15	iobj	_	_	_	NF-MF
+12	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-MF
+13	Geschichte	Geschichte	_	NN	number=sg|case=nom|gender=fem	15	subj	_	_	_	NF-MF
+14	recht	Recht	_	NN	number=sg|case=acc|gender=neut	15	obj	_	_	_	NF-MF
+15	geben	geben	_	VVINF	_	6	vobj	_	_	RK	NF-RK
+16	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	15	aux	_	_	RK	NF-RK
+17	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 38
+# sent_id(TSV) = 38
+# text = Das ist Segway .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	pred	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Segway	Segway	_	NE	number=sg|case=nom|gender=masc	2	subj	_	_	_	MF
+4	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 39
+# sent_id(TSV) = 39
+# text = Dies ist ein Stirling-Prozess-Motor ; dieser hat uns eine Menge Nerven gekostet .
+1	Dies	dieser	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	ein	ein	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+4	Stirling-Prozess-Motor	Stirling-Prozess-Motor	_	NN	number=sg|case=nom|gender=masc	2	pred	_	_	_	MF
+5	;	\;	_	$.	_	_	_	_	_	_	_
+6	dieser	dieser	_	PDS	number=sg|case=nom|gender=masc	12	subj	_	_	_	VF
+7	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	12	aux	_	_	LK	LK
+8	uns	wir	_	PPER	number=pl|person=1|case=acc|gender=*	12	obj	_	_	_	MF
+9	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+10	Menge	Menge	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+11	Nerven	Nerv	_	NN	number=pl|case=acc|gender=masc	12	obj	_	_	_	MF
+12	gekostet	kosten	_	VVPP	_	_	_	_	_	RK	RK
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 40
+# sent_id(TSV) = 40
+# text = Dieses kleine Biest , genau jetzt , produziert ein paar hundert Watt Strom .
+1	Dieses	dieser	_	PDAT	number=sg|case=nom|gender=neut	_	_	_	_	_	VF
+2	kleine	klein	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	_	VF
+3	Biest	Biest	_	NN	number=sg|case=nom|gender=neut	8	subj	_	_	_	VF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	genau	genau	_	ADV	_	_	_	_	_	_	FRAG
+6	jetzt	jetzt	_	ADV	_	_	_	_	_	_	FRAG
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	produziert	produzieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+9	ein	ein	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	MF
+10	paar	paar	_	PIDAT	number=*|case=*|gender=*	_	_	_	_	_	MF
+11	hundert	hundert	_	CARD	_	_	_	_	_	_	MF
+12	Watt	Watt	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	_	MF
+13	Strom	Strom	_	NN	number=sg|case=acc|gender=masc	8	obj	_	_	_	MF
+14	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 41
+# sent_id(TSV) = 41
+# text = Ja , es könnte hier befestigt werden , und ja , mit einem Kilogramm Propan , könnten sie von New York nach Boston fahren , wenn Sie dies möchten .
+1	Ja	ja	_	PTKANT	_	_	_	_	_	_	LV
+2	,	,	_	$,	_	_	_	_	_	_	_
+3	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	6	subj	_	_	_	VF
+4	könnte	können	_	VMFIN	number=sg|person=3|mood=subj|tense=past	6	aux	_	_	LK	LK
+5	hier	hier	_	ADV	_	_	_	_	_	_	MF
+6	befestigt	befestigen	_	VVPP	_	_	_	_	_	RK	RK
+7	werden	werden	_	VAINF	_	6	aux	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	und	und	_	KON	_	_	_	_	_	_	KOORD
+10	ja	ja	_	PTKANT	_	_	_	_	_	_	LV
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	mit	mit	_	APPR	_	_	_	_	_	_	VF
+13	einem	ein	_	ART	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+14	Kilogramm	Kilogramm	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+15	Propan	Propan	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	VF
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	könnten	können	_	VMFIN	number=pl|person=3|mood=subj|tense=past	24	aux	_	_	LK	LK
+18	sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	24	subj	_	_	_	MF
+19	von	von	_	APPR	_	_	_	_	_	_	MF
+20	New	New	_	NE	number=*|case=*|gender=*	_	_	_	_	_	MF
+21	York	York	_	NE	number=sg|case=acc|gender=neut	_	_	_	_	_	MF
+22	nach	nach	_	APPR	_	_	_	_	_	_	MF
+23	Boston	Boston	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+24	fahren	fahren	_	VVINF	_	_	_	_	_	RK	RK
+25	,	,	_	$,	_	_	_	_	_	_	_
+26	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+27	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	29	subj	_	_	_	NF-MF
+28	dies	dieser	_	PDS	number=sg|case=acc|gender=neut	29	obj	_	_	_	NF-MF
+29	möchten	mögen	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 42
+# sent_id(TSV) = 42
+# text = Sie waren gütig , lustig , geduldig , sie besaßen die unendliche Geduld , die Eltern von 11 Kindern einfach brauchen .
+1	Sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	2	subj	_	_	_	VF
+2	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+3	gütig	gütig	_	ADJD	degree=pos	2	pred	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	MF
+5	lustig	lustig	_	ADJD	degree=pos	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	MF
+7	geduldig	geduldig	_	ADJD	degree=pos	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	10	subj	_	_	_	VF
+10	besaßen	besitzen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+11	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+12	unendliche	unendlich	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+13	Geduld	Geduld	_	NN	number=sg|case=acc|gender=fem	10	obj	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	die	der	_	PRELS	number=sg|case=acc|gender=fem	21	obj	_	_	LK	NF-LK
+16	Eltern	Eltern	_	NN	number=pl|case=nom|gender=*	21	subj	_	_	_	NF-MF
+17	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+18	11	11	_	CARD	_	_	_	_	_	_	NF-MF
+19	Kindern	Kind	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	NF-MF
+20	einfach	einfach	_	ADV	_	_	_	_	_	_	NF-MF
+21	brauchen	brauchen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 43
+# sent_id(TSV) = 43
+# text = Und sie waren gerecht .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	_	VF
+3	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+4	gerecht	gerecht	_	ADJD	degree=pos	3	pred	_	_	_	MF
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 44
+# sent_id(TSV) = 44
+# text = Sie haben mir die Religion nie durch einen kulturellen Filter vermittelt .
+1	Sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	11	subj	_	_	_	VF
+2	haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	11	aux	_	_	LK	LK
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=fem	11	iobj	_	_	_	MF
+4	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+5	Religion	Religion	_	NN	number=sg|case=acc|gender=fem	11	obj	_	_	_	MF
+6	nie	nie	_	ADV	_	_	_	_	_	_	MF
+7	durch	durch	_	APPR	_	_	_	_	_	_	MF
+8	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+9	kulturellen	kulturell	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	_	MF
+10	Filter	Filter	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+11	vermittelt	vermitteln	_	VVPP	_	_	_	_	_	RK	RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 45
+# sent_id(TSV) = 45
+# text = Ich wurde gleich behandelt , von mir wurde das Gleiche erwartet .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	4	subj	_	_	_	VF
+2	wurde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=past	4	aux	_	_	LK	LK
+3	gleich	gleich	_	ADJD	degree=pos	_	_	_	_	_	MF
+4	behandelt	behandeln	_	VVPP	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	von	von	_	APPR	_	7	pcase	_	_	_	VF
+7	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=fem	11	pobj	_	_	_	VF
+8	wurde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=past	11	aux	_	_	LK	LK
+9	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+10	Gleiche	Gleiche	_	NN	number=sg|case=nom|gender=neut	11	subj	_	_	_	MF
+11	erwartet	erwarten	_	VVPP	_	_	_	_	_	RK	RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 46
+# sent_id(TSV) = 46
+# text = Mir wurde nie gesagt , dass Gott nach Geschlecht urteilt .
+1	Mir	ich	_	PPER	number=sg|person=1|case=dat|gender=fem	4	iobj	_	_	_	VF
+2	wurde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=past	4	aux	_	_	LK	LK
+3	nie	nie	_	ADV	_	_	_	_	_	_	MF
+4	gesagt	sagen	_	VVPP	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	Gott	Gott	_	NN	number=sg|case=nom|gender=masc	10	subj	_	_	_	NF-MF
+8	nach	nach	_	APPR	_	9	pcase	_	_	_	NF-MF
+9	Geschlecht	Geschlecht	_	NN	number=sg|case=dat|gender=neut	10	pobj	_	_	_	NF-MF
+10	urteilt	urteilen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	4	vsubj	_	_	RK	NF-RK
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 47
+# sent_id(TSV) = 47
+# text = Meine Eltern sahen in Gott einen Freund und Fürsorger , barmherzig und gnädig , und formten damit mein Weltbild .
+1	Meine	mein	_	PPOSAT	number=pl|case=nom|gender=*	_	_	_	_	_	VF
+2	Eltern	Eltern	_	NN	number=pl|case=nom|gender=*	3	subj	_	_	_	VF
+3	sahen	sehen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+4	in	in	_	APPR	_	_	_	_	_	_	MF
+5	Gott	Gott	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	MF
+6	einen	ein	_	ART	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+7	Freund	Freund	_	NN	number=sg|case=acc|gender=masc	3	obj	_	_	_	MF
+8	und	und	_	KON	_	_	_	_	_	_	MF
+9	Fürsorger	Fürsorger	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	barmherzig	barmherzig	_	ADJD	degree=pos	_	_	_	_	_	NF
+12	und	und	_	KON	_	_	_	_	_	_	NF
+13	gnädig	gnädig	_	ADJD	degree=pos	_	_	_	_	_	NF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	und	und	_	KON	_	_	_	_	_	_	KOORD
+16	formten	formen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+17	damit	damit	_	PAV	_	_	_	_	_	_	MF
+18	mein	mein	_	PPOSAT	number=sg|case=acc|gender=neut	_	_	_	_	_	MF
+19	Weltbild	Weltbild	_	NN	number=sg|case=acc|gender=neut	16	obj	_	_	_	MF
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 48
+# sent_id(TSV) = 48
+# text = Meine Erziehung hatte weitere Vorteile .
+1	Meine	mein	_	PPOSAT	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+2	Erziehung	Erziehung	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	_	VF
+3	hatte	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+4	weitere	weit	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	_	MF
+5	Vorteile	Vorteil	_	NN	number=pl|case=acc|gender=masc	3	obj	_	_	_	MF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 49
+# sent_id(TSV) = 49
+# text = Eins von 11 Kindern zu sein , lehrt einem diplomatisches Geschick .
+1	Eins	einer	_	PIS	number=sg|case=nom|gender=neut	6	pred	_	_	_	VF-MF
+2	von	von	_	APPR	_	_	_	_	_	_	VF-MF
+3	11	11	_	CARD	_	_	_	_	_	_	VF-MF
+4	Kindern	Kind	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	VF-MF
+5	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-RK
+6	sein	sein	_	VAINF	_	8	vsubj	_	_	RK	VF-RK
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	lehrt	lehren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+9	einem	einer	_	PIS	number=sg|case=dat|gender=*	8	iobj	_	_	_	MF
+10	diplomatisches	diplomatisch	_	ADJA	number=sg|degree=pos|case=acc|gender=neut	_	_	_	_	_	MF
+11	Geschick	Geschick	_	NN	number=sg|case=acc|gender=neut	8	obj	_	_	_	MF
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 50
+# sent_id(TSV) = 50
+# text = ( Lachen )
+1	(	(	_	$(	_	_	_	_	_	_	_
+2	Lachen	Lachen	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	FRAG
+3	)	)	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 51
+# sent_id(TSV) = 51
+# text = Noch heute werde ich nach meiner Ausbildung gefragt : " Haben Sie die Politikschule in Harvard besucht ? "
+1	Noch	noch	_	ADV	_	_	_	_	_	_	VF
+2	heute	heute	_	ADV	_	_	_	_	_	_	VF
+3	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	8	aux	_	_	LK	LK
+4	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	8	subj	_	_	_	MF
+5	nach	nach	_	APPR	_	7	pcase	_	_	_	MF
+6	meiner	mein	_	PPOSAT	number=sg|case=dat|gender=fem	_	_	_	_	_	MF
+7	Ausbildung	Ausbildung	_	NN	number=sg|case=dat|gender=fem	8	pobj	_	_	_	MF
+8	gefragt	fragen	_	VVPP	_	_	_	_	_	RK	RK
+9	:	:	_	$.	_	_	_	_	_	_	_
+10	"	"	_	$(	_	_	_	_	_	_	_
+11	Haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	17	aux	_	_	LK	NF-LK
+12	Sie	Sie	_	PPER	number=sg|person=3|case=nom|gender=*	17	subj	_	_	_	NF-MF
+13	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+14	Politikschule	Politikschule	_	NN	number=sg|case=acc|gender=fem	17	obj	_	_	_	NF-MF
+15	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+16	Harvard	Harvard	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	NF-MF
+17	besucht	besuchen	_	VVPP	_	8	vobj	_	_	RK	NF-RK
+18	?	?	_	$.	_	_	_	_	_	_	_
+19	"	"	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 52
+# sent_id(TSV) = 52
+# text = Den Kuratoren war aufgefallen , dass ein Wort durchweg ausgekratzt und überschrieben war .
+1	Den	der	_	ART	number=pl|case=dat|gender=masc	_	_	_	_	_	VF
+2	Kuratoren	Kurator	_	NN	number=pl|case=dat|gender=masc	4	iobj	_	_	_	VF
+3	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	4	aux	_	_	LK	LK
+4	aufgefallen	auffallen	_	VVPP	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	ein	ein	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	_	NF-MF
+8	Wort	Wort	_	NN	number=sg|case=nom|gender=neut	10	subj	_	_	_	NF-MF
+9	durchweg	durchweg	_	ADV	_	_	_	_	_	_	NF-MF
+10	ausgekratzt	auskratzen	_	VVPP	_	4	vsubj	_	_	RK	NF-RK
+11	und	und	_	KON	_	_	_	_	_	RK	NF-RK
+12	überschrieben	überschreiben	_	VVPP	_	_	_	_	_	RK	NF-RK
+13	war	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=past	10	aux	_	_	RK	NF-RK
+14	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 53
+# sent_id(TSV) = 53
+# text = Das darüber geschriebene Wort lautet " Bürger " .
+1	Das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	_	VF
+2	darüber	darüber	_	PAV	_	_	_	_	_	_	VF
+3	geschriebene	geschrieben	_	ADJA	number=sg|degree=pos|case=nom|gender=neut	_	_	_	_	_	VF
+4	Wort	Wort	_	NN	number=sg|case=nom|gender=neut	5	subj	_	_	_	VF
+5	lautet	lauten	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+6	"	"	_	$(	_	_	_	_	_	_	_
+7	Bürger	Bürger	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+8	"	"	_	$(	_	_	_	_	_	_	_
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 54
+# sent_id(TSV) = 54
+# text = Vielleicht erraten Sie , was darunter stand .
+1	Vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	VF
+2	erraten	erraten	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	2	subj	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	was	was	_	PWS	number=sg|case=nom|gender=neut	7	subj	_	_	LK	NF-LK
+6	darunter	darunter	_	PAV	_	_	_	_	_	_	NF-MF
+7	stand	stehen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	2	vobj	_	_	RK	NF-RK
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 55
+# sent_id(TSV) = 55
+# text = " Untertanen " .
+1	"	"	_	$(	_	_	_	_	_	_	_
+2	Untertanen	Untertan	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	_	FRAG
+3	"	"	_	$(	_	_	_	_	_	_	_
+4	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 56
+# sent_id(TSV) = 56
+# text = Hier sehen Sie , wie die amerikanische Demokratie sich in der Handschrift Thomas Jeffersons entwickelt hat .
+1	Hier	hier	_	ADV	_	_	_	_	_	_	VF
+2	sehen	sehen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	2	subj	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	wie	wie	_	KOUS	_	_	_	_	_	LK	NF-LK
+6	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-MF
+7	amerikanische	amerikanisch	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	NF-MF
+8	Demokratie	Demokratie	_	NN	number=sg|case=nom|gender=fem	15	subj	_	_	_	NF-MF
+9	sich	sich	_	PRF	number=sg|person=3|case=acc	15	obj	_	_	_	NF-MF
+10	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+11	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+12	Handschrift	Handschrift	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+13	Thomas	Thomas	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	_	NF-MF
+14	Jeffersons	Jefferson	_	NE	number=sg|case=gen|gender=masc	_	_	_	_	_	NF-MF
+15	entwickelt	entwickeln	_	VVPP	_	2	vobj	_	_	RK	NF-RK
+16	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	15	aux	_	_	RK	NF-RK
+17	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 57
+# sent_id(TSV) = 57
+# text = Oder denken Sie an die Martellus-Karte von 1491 — von uns in der Beinecke Library in Yale abgebildet .
+1	Oder	oder	_	KON	_	_	_	_	_	_	KOORD
+2	denken	denken	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	2	subj	_	_	_	MF
+4	an	an	_	APPR	_	6	pcase	_	_	_	MF
+5	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+6	Martellus-Karte	Martellus-Karte	_	NN	number=sg|case=acc|gender=fem	2	pobj	_	_	_	MF
+7	von	von	_	APPR	_	_	_	_	_	_	MF
+8	1491	1491	_	CARD	_	_	_	_	_	_	MF
+9	—	-	_	$(	_	_	_	_	_	_	_
+10	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+11	uns	wir	_	PPER	number=pl|person=1|case=dat|gender=*	_	_	_	_	_	NF-MF
+12	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+13	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+14	Beinecke	Beinecke	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+15	Library	Library	_	NE	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+16	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+17	Yale	Yale	_	NE	number=sg|case=dat|gender=*	_	_	_	_	_	NF-MF
+18	abgebildet	abbilden	_	VVPP	_	_	_	_	_	RK	NF-RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 58
+# sent_id(TSV) = 58
+# text = Kolumbus hat sie vermutlich zu Rate gezogen , bevor er in die Neue Welt reiste .
+1	Kolumbus	Kolumbus	_	NE	number=sg|case=nom|gender=masc	7	subj	_	_	_	VF
+2	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	7	aux	_	_	LK	LK
+3	sie	sie	_	PPER	number=sg|person=3|case=acc|gender=fem	7	obj	_	_	_	MF
+4	vermutlich	vermutlich	_	ADV	_	_	_	_	_	_	MF
+5	zu	zu	_	APPR	_	_	_	_	_	_	MF
+6	Rate	Rat	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	MF
+7	gezogen	ziehen	_	VVPP	_	_	_	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	bevor	bevor	_	KOUS	_	_	_	_	_	LK	NF-LK
+10	er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	15	subj	_	_	_	NF-MF
+11	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+12	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+13	Neue	neu	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	NF-MF
+14	Welt	Welt	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+15	reiste	reisen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	RK	NF-RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 59
+# sent_id(TSV) = 59
+# text = ( Lachen )
+1	(	(	_	$(	_	_	_	_	_	_	_
+2	Lachen	Lachen	_	NN	number=sg|case=nom|gender=neut	_	_	_	_	_	FRAG
+3	)	)	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 60
+# sent_id(TSV) = 60
+# text = ( Applaus )
+1	(	(	_	$(	_	_	_	_	_	_	_
+2	Applaus	Applaus	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	_	FRAG
+3	)	)	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 61
+# sent_id(TSV) = 61
+# text = In Rot kann man die potentielle Arbeitsbevölkerung sehen , also Menschen zwischen 15 und 65 .
+1	In	in	_	APPR	_	_	_	_	_	_	VF
+2	Rot	Rot	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+3	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	8	aux	_	_	LK	LK
+4	man	man	_	PIS	number=sg|case=nom|gender=*	8	subj	_	_	_	MF
+5	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+6	potentielle	potentiell	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+7	Arbeitsbevölkerung	Arbeitsbevölkerung	_	NN	number=sg|case=acc|gender=fem	8	obj	_	_	_	MF
+8	sehen	sehen	_	VVINF	_	_	_	_	_	RK	RK
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	also	also	_	ADV	_	_	_	_	_	_	NF
+11	Menschen	Mensch	_	NN	number=pl|case=acc|gender=masc	_	_	_	_	_	NF
+12	zwischen	zwischen	_	APPR	_	_	_	_	_	_	NF
+13	15	15	_	CARD	_	_	_	_	_	_	NF
+14	und	und	_	KON	_	_	_	_	_	_	NF
+15	65	65	_	CARD	_	_	_	_	_	_	NF
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 62
+# sent_id(TSV) = 62
+# text = Mich interessiert nur die rote Fläche .
+1	Mich	ich	_	PPER	number=sg|person=1|case=acc|gender=fem	2	obj	_	_	_	VF
+2	interessiert	interessieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	nur	nur	_	ADV	_	_	_	_	_	_	MF
+4	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+5	rote	rot	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	MF
+6	Fläche	Fläche	_	NN	number=sg|case=nom|gender=fem	2	subj	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 63
+# sent_id(TSV) = 63
+# text = Jetzt machen wir eine einfache Simulation , um zu sehen , wie sich diese Altersstruktur in den nächsten Jahren entwickeln wird .
+1	Jetzt	jetzt	_	ADV	_	_	_	_	_	_	VF
+2	machen	machen	_	VVFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	2	subj	_	_	_	MF
+4	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+5	einfache	einfach	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+6	Simulation	Simulation	_	NN	number=sg|case=acc|gender=fem	2	obj	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+9	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+10	sehen	sehen	_	VVINF	_	_	_	_	_	RK	NF-RK
+11	,	,	_	$,	_	_	_	_	_	_	NF
+12	wie	wie	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+13	sich	sich	_	PRF	number=sg|person=3|case=acc	20	obj	_	_	_	NF-NF-MF
+14	diese	dieser	_	PDAT	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-NF-MF
+15	Altersstruktur	Altersstruktur	_	NN	number=sg|case=nom|gender=fem	20	subj	_	_	_	NF-NF-MF
+16	in	in	_	APPR	_	_	_	_	_	_	NF-NF-MF
+17	den	der	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	_	NF-NF-MF
+18	nächsten	nächster	_	ADJA	number=pl|degree=pos|case=dat|gender=neut	_	_	_	_	_	NF-NF-MF
+19	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	NF-NF-MF
+20	entwickeln	entwickeln	_	VVINF	_	10	vobj	_	_	RK	NF-NF-RK
+21	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	20	aux	_	_	RK	NF-NF-RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 64
+# sent_id(TSV) = 64
+# text = Wie Sie sehen können , bewegt sich die Spitze nach rechts , und ich werde wie viele andere Babyboomer 2030 in Rente gehen .
+1	Wie	wie	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	3	subj	_	_	_	VF-MF
+3	sehen	sehen	_	VVINF	_	_	_	_	_	RK	VF-RK
+4	können	können	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	3	aux	_	_	RK	VF-RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	bewegt	bewegen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	3	vobj	_	_	LK	LK
+7	sich	sich	_	PRF	number=sg|person=3|case=acc	6	obj	_	_	_	MF
+8	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+9	Spitze	Spitze	_	NN	number=sg|case=nom|gender=fem	6	subj	_	_	_	MF
+10	nach	nach	_	APPR	_	_	_	_	_	_	MF
+11	rechts	rechts	_	ADV	_	_	_	_	_	_	MF
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	und	und	_	KON	_	_	_	_	_	_	KOORD
+14	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	23	subj	_	_	_	VF
+15	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	23	aux	_	_	LK	LK
+16	wie	wie	_	KOKOM	_	_	_	_	_	_	MF
+17	viele	vieler	_	PIAT	number=pl|case=nom|gender=masc	_	_	_	_	_	MF
+18	andere	anderer	_	ADJA	number=pl|degree=pos|case=nom|gender=masc	_	_	_	_	_	MF
+19	Babyboomer	Babyboomer	_	NN	number=pl|case=nom|gender=masc	_	_	_	_	_	MF
+20	2030	2030	_	CARD	_	_	_	_	_	_	MF
+21	in	in	_	APPR	_	_	_	_	_	_	MF
+22	Rente	Rente	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+23	gehen	gehen	_	VVINF	_	_	_	_	_	RK	RK
+24	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 65
+# sent_id(TSV) = 65
+# text = Übrigens brauche ich keine Prognosen von Geburtenraten um die rote Fläche vorherzusagen .
+1	Übrigens	übrigens	_	ADV	_	_	_	_	_	_	VF
+2	brauche	brauchen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	2	subj	_	_	_	MF
+4	keine	kein	_	PIAT	number=pl|case=acc|gender=fem	_	_	_	_	_	MF
+5	Prognosen	Prognose	_	NN	number=pl|case=acc|gender=fem	2	obj	_	_	_	MF
+6	von	von	_	APPR	_	_	_	_	_	_	MF
+7	Geburtenraten	Geburtenrate	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+8	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+9	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+10	rote	rot	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	NF-MF
+11	Fläche	Fläche	_	NN	number=sg|case=acc|gender=fem	12	obj	_	_	_	NF-MF
+12	vorherzusagen	vorhersagen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 66
+# sent_id(TSV) = 66
+# text = Menschen in einer Auszeit können an ihren Fähigkeiten zweifeln , wieder ins Berufsleben einzusteigen , besonders , wenn sie schon lange nicht mehr gearbeitet haben .
+1	Menschen	Mensch	_	NN	number=pl|case=nom|gender=masc	9	subj	_	_	_	VF
+2	in	in	_	APPR	_	_	_	_	_	_	VF
+3	einer	ein	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+4	Auszeit	Auszeit	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+5	können	können	_	VMFIN	number=pl|person=3|mood=ind|tense=pres	9	aux	_	_	LK	LK
+6	an	an	_	APPR	_	8	pcase	_	_	_	MF
+7	ihren	ihr	_	PPOSAT	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+8	Fähigkeiten	Fähigkeit	_	NN	number=pl|case=dat|gender=fem	9	pobj	_	_	_	MF
+9	zweifeln	zweifeln	_	VVINF	_	_	_	_	_	RK	RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	wieder	wieder	_	ADV	_	_	_	_	_	_	NF-MF
+12	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	_	NF-MF
+13	Berufsleben	Berufsleben	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+14	einzusteigen	einsteigen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+15	,	,	_	$,	_	_	_	_	_	_	NF
+16	besonders	besonders	_	ADV	_	_	_	_	_	_	NF
+17	,	,	_	$,	_	_	_	_	_	_	NF
+18	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+19	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=masc	24	subj	_	_	_	NF-MF
+20	schon	schon	_	ADV	_	_	_	_	_	_	NF-MF
+21	lange	lange	_	ADV	_	_	_	_	_	_	NF-MF
+22	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+23	mehr	mehr	_	ADV	_	_	_	_	_	_	NF-MF
+24	gearbeitet	arbeiten	_	VVPP	_	_	_	_	_	RK	NF-RK
+25	haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	24	aux	_	_	RK	NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 67
+# sent_id(TSV) = 67
+# text = Ich möchte mithelfen , diese Diskrepanz aufzulösen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	3	subj	_	_	_	VF
+2	möchte	mögen	_	VMFIN	number=sg|person=1|mood=ind|tense=pres	3	aux	_	_	LK	LK
+3	mithelfen	mithelfen	_	VVINF	_	_	_	_	_	RK	RK
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	diese	dieser	_	PDAT	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+6	Diskrepanz	Diskrepanz	_	NN	number=sg|case=acc|gender=fem	7	obj	_	_	_	NF-MF
+7	aufzulösen	auflösen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+8	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 68
+# sent_id(TSV) = 68
+# text = Erfolgreiche Wiedereinsteiger gibt es überall und in jedem Berufsumfeld .
+1	Erfolgreiche	erfolgreich	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	_	VF
+2	Wiedereinsteiger	Wiedereinsteiger	_	NN	number=pl|case=acc|gender=masc	3	obj	_	_	_	VF
+3	gibt	geben	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	expl	_	_	_	MF
+5	überall	überall	_	ADV	_	_	_	_	_	_	MF
+6	und	und	_	KON	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	jedem	jeder	_	PIAT	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+9	Berufsumfeld	Berufsumfeld	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 69
+# sent_id(TSV) = 69
+# text = Das ist Sami Kafala .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	pred	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Sami	Sami	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+4	Kafala	Kafala	_	NE	number=sg|case=nom|gender=masc	2	subj	_	_	_	MF
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 70
+# sent_id(TSV) = 70
+# text = Er ist Kernphysiker in England .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Kernphysiker	Kernphysiker	_	NN	number=sg|case=nom|gender=masc	2	pred	_	_	_	MF
+4	in	in	_	APPR	_	_	_	_	_	_	MF
+5	England	England	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 71
+# sent_id(TSV) = 71
+# text = Er nahm eine Auszeit von fünf Jahren , um sich um seine fünf Kinder zu kümmern .
+1	Er	er	_	PPER	number=sg|person=3|case=nom|gender=masc	2	subj	_	_	_	VF
+2	nahm	nehmen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+3	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+4	Auszeit	Auszeit	_	NN	number=sg|case=acc|gender=fem	2	obj	_	_	_	MF
+5	von	von	_	APPR	_	_	_	_	_	_	MF
+6	fünf	fünf	_	CARD	_	_	_	_	_	_	MF
+7	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+10	sich	sich	_	PRF	number=sg|person=3|case=acc	16	obj	_	_	_	NF-MF
+11	um	um	_	APPR	_	14	pcase	_	_	_	NF-MF
+12	seine	sein	_	PPOSAT	number=pl|case=acc|gender=neut	_	_	_	_	_	NF-MF
+13	fünf	fünf	_	CARD	_	_	_	_	_	_	NF-MF
+14	Kinder	Kind	_	NN	number=pl|case=acc|gender=neut	16	pobj	_	_	_	NF-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+16	kümmern	kümmern	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 72
+# sent_id(TSV) = 72
+# text = Die Presse in Singapur berichtete kürzlich über Krankenschwestern , die nach langer Auszeit wieder in ihren Beruf zurückkehren .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+2	Presse	Presse	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	_	VF
+3	in	in	_	APPR	_	_	_	_	_	_	VF
+4	Singapur	Singapur	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	VF
+5	berichtete	berichten	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+6	kürzlich	kürzlich	_	ADV	_	_	_	_	_	_	MF
+7	über	über	_	APPR	_	8	pcase	_	_	_	MF
+8	Krankenschwestern	Krankenschwester	_	NN	number=pl|case=acc|gender=fem	5	pobj	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	die	der	_	PRELS	number=pl|case=nom|gender=fem	18	subj	_	_	LK	NF-LK
+11	nach	nach	_	APPR	_	_	_	_	_	_	NF-MF
+12	langer	lang	_	ADJA	number=sg|degree=pos|case=dat|gender=fem	_	_	_	_	_	NF-MF
+13	Auszeit	Auszeit	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+14	wieder	wieder	_	ADV	_	_	_	_	_	_	NF-MF
+15	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+16	ihren	ihr	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-MF
+17	Beruf	Beruf	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	NF-MF
+18	zurückkehren	zurückkehren	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 73
+# sent_id(TSV) = 73
+# text = Wo wir gerade bei langen beruflichen Auszeiten sind : Das hier ist Mimi Kahn .
+1	Wo	wo	_	PWAV	_	_	_	_	_	LK	LV-LK
+2	wir	wir	_	PPER	number=pl|person=1|case=nom|gender=*	8	subj	_	_	_	LV-MF
+3	gerade	gerade	_	ADV	_	_	_	_	_	_	LV-MF
+4	bei	bei	_	APPR	_	7	pcase	_	_	_	LV-MF
+5	langen	lang	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	_	LV-MF
+6	beruflichen	beruflich	_	ADJA	number=pl|degree=pos|case=dat|gender=fem	_	_	_	_	_	LV-MF
+7	Auszeiten	Auszeit	_	NN	number=pl|case=dat|gender=fem	8	pred	_	_	_	LV-MF
+8	sind	sein	_	VAFIN	number=pl|person=1|mood=ind|tense=pres	_	_	_	_	RK	LV-RK
+9	:	:	_	$.	_	_	_	_	_	_	_
+10	Das	der	_	PDS	number=sg|case=nom|gender=fem	12	pred	_	_	_	VF
+11	hier	hier	_	ADV	_	_	_	_	_	_	VF
+12	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+13	Mimi	Mimi	_	NE	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+14	Kahn	Kahn	_	NE	number=sg|case=nom|gender=fem	12	subj	_	_	_	MF
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 74
+# sent_id(TSV) = 74
+# text = Sie ist Sozialarbeiterin in Orange County , Kalifornien .
+1	Sie	sie	_	PPER	number=sg|person=3|case=nom|gender=fem	2	subj	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	Sozialarbeiterin	Sozialarbeiter	_	NN	number=sg|case=nom|gender=fem	2	pred	_	_	_	MF
+4	in	in	_	APPR	_	_	_	_	_	_	MF
+5	Orange	Orange	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+6	County	County	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	MF
+8	Kalifornien	Kalifornien	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 75
+# sent_id(TSV) = 75
+# text = Ich werde die Geschichte des Multiversums in drei Teile gliedern .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	10	subj	_	_	_	VF
+2	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	10	aux	_	_	LK	LK
+3	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+4	Geschichte	Geschichte	_	NN	number=sg|case=acc|gender=fem	10	obj	_	_	_	MF
+5	des	der	_	ART	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+6	Multiversums	Multiversum	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	drei	drei	_	CARD	_	_	_	_	_	_	MF
+9	Teile	Teil	_	NN	number=pl|case=acc|gender=neut	_	_	_	_	_	MF
+10	gliedern	gliedern	_	VVINF	_	_	_	_	_	RK	RK
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 76
+# sent_id(TSV) = 76
+# text = In Teil eins werde ich diese Nobelpreis-gewinnenden Ergebnisse beschreiben , und ein tiefliegendes Mysterium hervorheben , das diese Ergebnisse enthüllten .
+1	In	in	_	APPR	_	_	_	_	_	_	VF
+2	Teil	Teil	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+3	eins	eins	_	CARD	_	_	_	_	_	_	VF
+4	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	9	aux	_	_	LK	LK
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	9	subj	_	_	_	MF
+6	diese	dieser	_	PDAT	number=pl|case=acc|gender=fem	_	_	_	_	_	MF
+7	Nobelpreis-gewinnenden	nobelpreis-gewinnend	_	ADJA	number=pl|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+8	Ergebnisse	Ergebnis	_	NN	number=pl|case=acc|gender=fem	9	obj	_	_	_	MF
+9	beschreiben	beschreiben	_	VVINF	_	_	_	_	_	RK	RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	und	und	_	KON	_	_	_	_	_	_	KOORD
+12	ein	ein	_	ART	number=sg|case=acc|gender=neut	_	_	_	_	_	MF
+13	tiefliegendes	tiefliegend	_	ADJA	number=sg|degree=pos|case=acc|gender=neut	_	_	_	_	_	MF
+14	Mysterium	Mysterium	_	NN	number=sg|case=acc|gender=neut	15	obj	_	_	_	MF
+15	hervorheben	hervorheben	_	VVINF	_	_	_	_	_	RK	RK
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	das	der	_	PRELS	number=sg|case=acc|gender=neut	20	obj	_	_	LK	NF-LK
+18	diese	dieser	_	PDAT	number=pl|case=nom|gender=fem	_	_	_	_	_	NF-MF
+19	Ergebnisse	Ergebnis	_	NN	number=pl|case=nom|gender=fem	20	subj	_	_	_	NF-MF
+20	enthüllten	enthüllen	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	RK	NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 77
+# sent_id(TSV) = 77
+# text = In Teil zwei werde ich eine Lösung dieses Mysteriums anbieten .
+1	In	in	_	APPR	_	_	_	_	_	_	VF
+2	Teil	Teil	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+3	zwei	zwei	_	CARD	_	_	_	_	_	_	VF
+4	werde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	10	aux	_	_	LK	LK
+5	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	10	subj	_	_	_	MF
+6	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+7	Lösung	Lösung	_	NN	number=sg|case=acc|gender=fem	10	obj	_	_	_	MF
+8	dieses	dieser	_	PDAT	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+9	Mysteriums	Mysterium	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+10	anbieten	anbieten	_	VVINF	_	_	_	_	_	RK	RK
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 78
+# sent_id(TSV) = 78
+# text = Es basiert auf einer Sichtweise , die Stringtheorie genannt wird , und das ist der Punkt , an dem die Idee des Multiversums ins Spiel kommt .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	subj	_	_	_	VF
+2	basiert	basieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	auf	auf	_	APPR	_	5	pcase	_	_	_	MF
+4	einer	ein	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	MF
+5	Sichtweise	Sichtweise	_	NN	number=sg|case=dat|gender=fem	2	pobj	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	die	der	_	PRELS	number=sg|case=nom|gender=fem	9	subj	_	_	LK	NF-LK
+8	Stringtheorie	Stringtheorie	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+9	genannt	nennen	_	VVPP	_	_	_	_	_	RK	NF-RK
+10	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	9	aux	_	_	RK	NF-RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	und	und	_	KON	_	_	_	_	_	_	KOORD
+13	das	der	_	PDS	number=sg|case=nom|gender=neut	14	pred	_	_	_	VF
+14	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+15	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+16	Punkt	Punkt	_	NN	number=sg|case=nom|gender=masc	14	subj	_	_	_	MF
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	an	an	_	APPR	_	_	_	_	_	LK	NF-LK
+19	dem	der	_	PRELS	number=sg|case=dat|gender=masc	_	_	_	_	LK	NF-LK
+20	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	NF-MF
+21	Idee	Idee	_	NN	number=sg|case=nom|gender=fem	26	subj	_	_	_	NF-MF
+22	des	der	_	ART	number=sg|case=gen|gender=neut	_	_	_	_	_	NF-MF
+23	Multiversums	Multiversum	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	_	NF-MF
+24	ins	in	_	APPRART	case=acc|gender=neut	_	_	_	_	_	NF-MF
+25	Spiel	Spiel	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+26	kommt	kommen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 79
+# sent_id(TSV) = 79
+# text = Damals hauptsächlich , um den Catadores eine Stimme zu geben .
+1	Damals	damals	_	ADV	_	_	_	_	_	_	FRAG
+2	hauptsächlich	hauptsächlich	_	ADV	_	_	_	_	_	_	FRAG
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	um	um	_	KOUI	_	_	_	_	_	LK	LK
+5	den	der	_	ART	number=pl|case=dat|gender=*	_	_	_	_	_	MF
+6	Catadores	Catadores	_	FM	_	10	iobj	_	_	_	MF
+7	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+8	Stimme	Stimme	_	NN	number=sg|case=acc|gender=fem	10	obj	_	_	_	MF
+9	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+10	geben	geben	_	VVINF	_	_	_	_	_	RK	RK
+11	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 80
+# sent_id(TSV) = 80
+# text = Mit Kunst und Humor wird die Sache ansprechender .
+1	Mit	mit	_	APPR	_	_	_	_	_	_	VF
+2	Kunst	Kunst	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+3	und	und	_	KON	_	_	_	_	_	_	VF
+4	Humor	Humor	_	NN	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+5	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+6	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+7	Sache	Sache	_	NN	number=sg|case=nom|gender=fem	5	subj	_	_	_	MF
+8	ansprechender	ansprechend	_	ADJD	degree=comp	5	pred	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 81
+# sent_id(TSV) = 81
+# text = Das half den Catadores , Aufmerksamkeit zu bekommen und ihr Selbstbewusstsein zu stärken .
+1	Das	der	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	_	VF
+2	half	helfen	_	VVFIN	number=sg|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+3	den	der	_	ART	number=pl|case=dat|gender=*	_	_	_	_	_	MF
+4	Catadores	Catadores	_	FM	_	2	iobj	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	Aufmerksamkeit	Aufmerksamkeit	_	NN	number=sg|case=acc|gender=fem	8	obj	_	_	_	NF-MF
+7	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+8	bekommen	bekommen	_	VVINF	_	_	_	_	_	RK	NF-RK
+9	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+10	ihr	ihr	_	PPOSAT	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+11	Selbstbewusstsein	Selbstbewusstsein	_	NN	number=sg|case=acc|gender=neut	13	obj	_	_	_	NF-MF
+12	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+13	stärken	stärken	_	VVINF	_	_	_	_	_	RK	NF-RK
+14	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 82
+# sent_id(TSV) = 82
+# text = Sie sind jetzt berühmt auf den Straßen , in den Sozialen- und Massenmedien .
+1	Sie	sie	_	PPER	number=pl|person=3|case=nom|gender=*	2	subj	_	_	_	VF
+2	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	jetzt	jetzt	_	ADV	_	_	_	_	_	_	MF
+4	berühmt	berühmt	_	ADJD	degree=pos	2	pred	_	_	_	MF
+5	auf	auf	_	APPR	_	_	_	_	_	_	MF
+6	den	der	_	ART	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+7	Straßen	Straße	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	MF
+9	in	in	_	APPR	_	_	_	_	_	_	MF
+10	den	der	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	_	MF
+11	Sozialen-	Sozialen	_	TRUNC	_	_	_	_	_	_	MF
+12	und	und	_	KON	_	_	_	_	_	_	MF
+13	Massenmedien	Massenmedium	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	MF
+14	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 83
+# sent_id(TSV) = 83
+# text = Die Sache ist die , dass ich mich in dieses Universum stürzte und mit meiner Arbeit nie aufgehört habe .
+1	Die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+2	Sache	Sache	_	NN	number=sg|case=nom|gender=fem	3	subj	_	_	_	VF
+3	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	die	der	_	PDS	number=sg|case=nom|gender=fem	3	pred	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	12	subj	_	_	_	NF-MF
+8	mich	ich	_	PRF	number=sg|person=1|case=acc	12	obj	_	_	_	NF-MF
+9	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+10	dieses	dieser	_	PDAT	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+11	Universum	Universum	_	NN	number=sg|case=acc|gender=neut	_	_	_	_	_	NF-MF
+12	stürzte	stürzen	_	VVFIN	number=sg|person=1|mood=ind|tense=past	3	vsubj	_	_	RK	NF-RK
+13	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+14	mit	mit	_	APPR	_	16	pcase	_	_	_	NF-MF
+15	meiner	mein	_	PPOSAT	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+16	Arbeit	Arbeit	_	NN	number=sg|case=dat|gender=fem	18	pobj	_	_	_	NF-MF
+17	nie	nie	_	ADV	_	_	_	_	_	_	NF-MF
+18	aufgehört	aufhören	_	VVPP	_	_	_	_	_	RK	NF-RK
+19	habe	haben	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	18	aux	_	_	RK	NF-RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 84
+# sent_id(TSV) = 84
+# text = Ich habe über 200 Carroças in vielen Städten bemalt und wurde weltweit zu Ausstellungen eingeladen .
+1	Ich	ich	_	PPER	number=sg|person=1|case=nom|gender=fem	9	subj	_	_	_	VF
+2	habe	haben	_	VAFIN	number=sg|person=1|mood=ind|tense=pres	9	aux	_	_	LK	LK
+3	über	über	_	APPR	_	_	_	_	_	_	MF
+4	200	200	_	CARD	_	_	_	_	_	_	MF
+5	Carroças	Carroças	_	FM	_	9	obj	_	_	_	MF
+6	in	in	_	APPR	_	_	_	_	_	_	MF
+7	vielen	vieler	_	PIAT	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+8	Städten	Stadt	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+9	bemalt	bemalen	_	VVPP	_	_	_	_	_	RK	RK
+10	und	und	_	KON	_	_	_	_	_	_	KOORD
+11	wurde	werden	_	VAFIN	number=sg|person=1|mood=ind|tense=past	15	aux	_	_	LK	LK
+12	weltweit	weltweit	_	ADV	_	_	_	_	_	_	MF
+13	zu	zu	_	APPR	_	_	_	_	_	_	MF
+14	Ausstellungen	Ausstellung	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	MF
+15	eingeladen	einladen	_	VVPP	_	_	_	_	_	RK	RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 85
+# sent_id(TSV) = 85
+# text = Dann ist mir klar geworden , dass die Catadores nicht nur in Brasilien unsichtbar sind .
+1	Dann	dann	_	ADV	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	5	aux	_	_	LK	LK
+3	mir	ich	_	PPER	number=sg|person=1|case=dat|gender=fem	5	iobj	_	_	_	MF
+4	klar	klar	_	ADJD	degree=pos	5	pred	_	_	_	MF
+5	geworden	werden	_	VAPP	_	_	_	_	_	RK	RK
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	die	der	_	ART	number=pl|case=nom|gender=*	_	_	_	_	_	NF-MF
+9	Catadores	Catadores	_	FM	_	15	subj	_	_	_	NF-MF
+10	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+11	nur	nur	_	ADV	_	_	_	_	_	_	NF-MF
+12	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+13	Brasilien	Brasilien	_	NE	number=sg|case=dat|gender=neut	_	_	_	_	_	NF-MF
+14	unsichtbar	unsichtbar	_	ADJD	degree=pos	15	pred	_	_	_	NF-MF
+15	sind	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	5	vsubj	_	_	RK	NF-RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 86
+# sent_id(TSV) = 86
+# text = Letzten Monat meldeten Forscher , dass der gesamte Kontinent nun eine negative Eisbilanz hat .
+1	Letzten	letzter	_	ADJA	number=sg|degree=pos|case=acc|gender=masc	_	_	_	_	_	VF
+2	Monat	Monat	_	NN	number=sg|case=acc|gender=masc	_	_	_	_	_	VF
+3	meldeten	melden	_	VVFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	LK	LK
+4	Forscher	Forscher	_	NN	number=pl|case=nom|gender=masc	3	subj	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	NF-MF
+8	gesamte	gesamt	_	ADJA	number=sg|degree=pos|case=nom|gender=masc	_	_	_	_	_	NF-MF
+9	Kontinent	Kontinent	_	NN	number=sg|case=nom|gender=masc	14	subj	_	_	_	NF-MF
+10	nun	nun	_	ADV	_	_	_	_	_	_	NF-MF
+11	eine	ein	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	NF-MF
+12	negative	negativ	_	ADJA	number=sg|degree=pos|case=acc|gender=fem	_	_	_	_	_	NF-MF
+13	Eisbilanz	Eisbilanz	_	NN	number=sg|case=acc|gender=fem	14	obj	_	_	_	NF-MF
+14	hat	haben	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	3	vobj	_	_	RK	NF-RK
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 87
+# sent_id(TSV) = 87
+# text = Und die Westantarktis , die über ein paar Unterwasserinseln aufgetaucht ist , ist besonders stark im Schmelzen .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	VF
+3	Westantarktis	Westantarktis	_	NE	number=sg|case=nom|gender=fem	13	subj	_	_	_	VF
+4	,	,	_	$,	_	_	_	_	_	_	VF
+5	die	der	_	PRELS	number=sg|case=nom|gender=fem	10	subj	_	_	LK	VF-LK
+6	über	über	_	APPR	_	_	_	_	_	_	VF-MF
+7	ein	ein	_	ART	number=pl|case=dat|gender=fem	_	_	_	_	_	VF-MF
+8	paar	paar	_	PIDAT	number=*|case=*|gender=*	_	_	_	_	_	VF-MF
+9	Unterwasserinseln	Unterwasserinsel	_	NN	number=pl|case=dat|gender=fem	_	_	_	_	_	VF-MF
+10	aufgetaucht	auftauchen	_	VVPP	_	_	_	_	_	RK	VF-RK
+11	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	10	aux	_	_	RK	VF-RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+14	besonders	besonders	_	ADV	_	_	_	_	_	_	MF
+15	stark	stark	_	ADJD	degree=pos	_	_	_	_	_	MF
+16	im	in	_	APPRART	case=dat|gender=neut	17	pcase-det	_	_	_	MF
+17	Schmelzen	Schmelzen	_	NN	number=sg|case=dat|gender=neut	13	pred	_	_	_	MF
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 88
+# sent_id(TSV) = 88
+# text = Dies entspricht 20 Fuß Meereshöhe , so wie Grönland .
+1	Dies	dieser	_	PDS	number=sg|case=nom|gender=neut	2	subj	_	_	_	VF
+2	entspricht	entsprechen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	20	20	_	CARD	_	_	_	_	_	_	MF
+4	Fuß	Fuß	_	NN	number=*|case=*|gender=masc	_	_	_	_	_	MF
+5	Meereshöhe	Meereshöhe	_	NN	number=sg|case=nom|gender=fem	2	iobj	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	so	so	_	ADV	_	_	_	_	_	_	NF
+8	wie	wie	_	KOKOM	_	_	_	_	_	_	NF
+9	Grönland	Grönland	_	NE	number=sg|case=nom|gender=neut	_	_	_	_	_	NF
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 89
+# sent_id(TSV) = 89
+# text = Im Himalaya , der drittgrössten Eismasse , sehen Sie oben neue Seen , die vor ein paar Jahren Gletscher waren .
+1	Im	in	_	APPRART	case=dat|gender=masc	_	_	_	_	_	VF
+2	Himalaya	Himalaya	_	NE	number=sg|case=dat|gender=masc	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+5	drittgrössten	drittgrößter	_	ADJA	number=sg|degree=sup|case=dat|gender=fem	_	_	_	_	_	VF
+6	Eismasse	Eismasse	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	sehen	sehen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+9	Sie	Sie	_	PPER	number=pl|person=3|case=nom|gender=*	8	subj	_	_	_	MF
+10	oben	oben	_	ADV	_	_	_	_	_	_	MF
+11	neue	neu	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	_	MF
+12	Seen	See	_	NN	number=pl|case=acc|gender=masc	8	obj	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	_
+14	die	der	_	PRELS	number=pl|case=nom|gender=masc	20	subj	_	_	LK	NF-LK
+15	vor	vor	_	APPR	_	_	_	_	_	_	NF-MF
+16	ein	ein	_	ART	number=pl|case=dat|gender=neut	_	_	_	_	_	NF-MF
+17	paar	paar	_	PIDAT	number=*|case=*|gender=*	_	_	_	_	_	NF-MF
+18	Jahren	Jahr	_	NN	number=pl|case=dat|gender=neut	_	_	_	_	_	NF-MF
+19	Gletscher	Gletscher	_	NN	number=pl|case=nom|gender=masc	20	pred	_	_	_	NF-MF
+20	waren	sein	_	VAFIN	number=pl|person=3|mood=ind|tense=past	_	_	_	_	RK	NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 90
+# sent_id(TSV) = 90
+# text = 40 Prozent aller Menschen auf der Welt bekommen die Hälfte ihres Trinkwassers aus diesem Schmelzwasser .
+1	40	40	_	CARD	_	_	_	_	_	_	VF
+2	Prozent	Prozent	_	NN	number=sg|case=nom|gender=neut	8	subj	_	_	_	VF
+3	aller	aller	_	PIAT	number=pl|case=gen|gender=masc	_	_	_	_	_	VF
+4	Menschen	Mensch	_	NN	number=pl|case=gen|gender=masc	_	_	_	_	_	VF
+5	auf	auf	_	APPR	_	_	_	_	_	_	VF
+6	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+7	Welt	Welt	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	VF
+8	bekommen	bekommen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+9	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+10	Hälfte	Hälfte	_	NN	number=sg|case=acc|gender=fem	8	obj	_	_	_	MF
+11	ihres	ihr	_	PPOSAT	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+12	Trinkwassers	Trinkwasser	_	NN	number=sg|case=gen|gender=neut	_	_	_	_	_	MF
+13	aus	aus	_	APPR	_	_	_	_	_	_	MF
+14	diesem	dieser	_	PDAT	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+15	Schmelzwasser	Schmelzwasser	_	NN	number=sg|case=dat|gender=neut	_	_	_	_	_	MF
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 91
+# sent_id(TSV) = 91
+# text = In den Anden ist dieser Gletscher die Trinkwasserquelle für diese Stadt .
+1	In	in	_	APPR	_	_	_	_	_	_	VF
+2	den	der	_	ART	number=pl|case=dat|gender=*	_	_	_	_	_	VF
+3	Anden	Anden	_	NE	number=pl|case=dat|gender=*	_	_	_	_	_	VF
+4	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+5	dieser	dieser	_	PDAT	number=sg|case=nom|gender=masc	_	_	_	_	_	MF
+6	Gletscher	Gletscher	_	NN	number=sg|case=nom|gender=masc	4	subj	_	_	_	MF
+7	die	der	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+8	Trinkwasserquelle	Trinkwasserquelle	_	NN	number=sg|case=nom|gender=fem	4	pred	_	_	_	MF
+9	für	für	_	APPR	_	_	_	_	_	_	MF
+10	diese	dieser	_	PDAT	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+11	Stadt	Stadt	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 92
+# sent_id(TSV) = 92
+# text = Die Wassermengen haben sich vergrössert .
+1	Die	der	_	ART	number=pl|case=nom|gender=fem	_	_	_	_	_	VF
+2	Wassermengen	Wassermenge	_	NN	number=pl|case=nom|gender=fem	5	subj	_	_	_	VF
+3	haben	haben	_	VAFIN	number=pl|person=3|mood=ind|tense=pres	5	aux	_	_	LK	LK
+4	sich	sich	_	PRF	number=pl|person=3|case=acc	5	obj	_	_	_	MF
+5	vergrössert	vergrößern	_	VVPP	_	_	_	_	_	RK	RK
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 93
+# sent_id(TSV) = 93
+# text = Aber wenn sie versiegen , wird auch das meiste Trinkwasser wegfallen .
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	wenn	wenn	_	KOUS	_	_	_	_	_	LK	VF-LK
+3	sie	sie	_	PPER	number=pl|person=3|case=nom|gender=fem	4	subj	_	_	_	VF-MF
+4	versiegen	versiegen	_	VVFIN	number=pl|person=3|mood=ind|tense=pres	_	_	_	_	RK	VF-RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	wird	werden	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	11	aux	_	_	LK	LK
+7	auch	auch	_	ADV	_	_	_	_	_	_	MF
+8	das	der	_	ART	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+9	meiste	meister	_	PIDAT	number=sg|case=nom|gender=neut	_	_	_	_	_	MF
+10	Trinkwasser	Trinkwasser	_	NN	number=sg|case=nom|gender=neut	11	subj	_	_	_	MF
+11	wegfallen	wegfallen	_	VVINF	_	_	_	_	_	RK	RK
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 94
+# sent_id(TSV) = 94
+# text = Und man schließt das .
+1	Und	und	_	KON	_	_	_	_	_	_	KOORD
+2	man	man	_	PIS	number=sg|case=nom|gender=*	3	subj	_	_	_	VF
+3	schließt	schließen	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	das	der	_	PDS	number=sg|case=acc|gender=neut	3	obj	_	_	_	MF
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 95
+# sent_id(TSV) = 95
+# text = ( Musik )
+1	(	(	_	$(	_	_	_	_	_	_	_
+2	Musik	Musik	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	_	FRAG
+3	)	)	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 96
+# sent_id(TSV) = 96
+# text = ( Applaus )
+1	(	(	_	$(	_	_	_	_	_	_	_
+2	Applaus	Applaus	_	NN	number=sg|case=nom|gender=masc	_	_	_	_	_	FRAG
+3	)	)	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 97
+# sent_id(TSV) = 97
+# text = Kid David : Es ist so dass ich , ehrlich gesagt , oftmals gar nicht so richtig weiß , was passiert , wenn ich tanze .
+1	Kid	Kid	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	_	FRAG
+2	David	David	_	NE	number=sg|case=nom|gender=masc	_	_	_	_	_	FRAG
+3	:	:	_	$.	_	_	_	_	_	_	_
+4	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	5	expl	_	_	_	VF
+5	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+6	so	so	_	ADV	_	5	pred	_	_	_	MF
+7	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=masc	18	subj	_	_	_	NF-MF
+9	,	,	_	$,	_	_	_	_	_	_	NF-MF
+10	ehrlich	ehrlich	_	ADV	_	_	_	_	_	_	NF-MF-MF
+11	gesagt	sagen	_	VVPP	_	_	_	_	_	RK	NF-MF-RK
+12	,	,	_	$,	_	_	_	_	_	_	NF-MF
+13	oftmals	oftmals	_	ADV	_	_	_	_	_	_	NF-MF
+14	gar	gar	_	ADV	_	_	_	_	_	_	NF-MF
+15	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+16	so	so	_	ADV	_	_	_	_	_	_	NF-MF
+17	richtig	richtig	_	ADJD	degree=pos	_	_	_	_	_	NF-MF
+18	weiß	wissen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	5	vsubj	_	_	RK	NF-RK
+19	,	,	_	$,	_	_	_	_	_	_	NF
+20	was	was	_	PWS	number=sg|case=nom|gender=neut	21	subj	_	_	LK	NF-NF-LK
+21	passiert	passieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	18	vobj	_	_	RK	NF-NF-RK
+22	,	,	_	$,	_	_	_	_	_	_	NF-NF
+23	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-NF-NF-LK
+24	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=masc	25	subj	_	_	_	NF-NF-NF-MF
+25	tanze	tanzen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	RK	NF-NF-NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 98
+# sent_id(TSV) = 98
+# text = Denn dann gibt es eigentlich nur noch meinen Körper und die Musik .
+1	Denn	denn	_	KON	_	_	_	_	_	_	KOORD
+2	dann	dann	_	ADV	_	_	_	_	_	_	VF
+3	gibt	geben	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+4	es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	3	expl	_	_	_	MF
+5	eigentlich	eigentlich	_	ADV	_	_	_	_	_	_	MF
+6	nur	nur	_	ADV	_	_	_	_	_	_	MF
+7	noch	noch	_	ADV	_	_	_	_	_	_	MF
+8	meinen	mein	_	PPOSAT	number=sg|case=acc|gender=masc	_	_	_	_	_	MF
+9	Körper	Körper	_	NN	number=sg|case=acc|gender=masc	3	obj	_	_	_	MF
+10	und	und	_	KON	_	_	_	_	_	_	MF
+11	die	der	_	ART	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+12	Musik	Musik	_	NN	number=sg|case=acc|gender=fem	_	_	_	_	_	MF
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 99
+# sent_id(TSV) = 99
+# text = Es gibt keine bewussten Entscheidungen wie " Erst mache ich dies , dann mache ich das . "
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	expl	_	_	_	VF
+2	gibt	geben	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	keine	kein	_	PIAT	number=pl|case=acc|gender=fem	_	_	_	_	_	MF
+4	bewussten	bewusst	_	ADJA	number=pl|degree=pos|case=acc|gender=fem	_	_	_	_	_	MF
+5	Entscheidungen	Entscheidung	_	NN	number=pl|case=acc|gender=fem	2	obj	_	_	_	MF
+6	wie	wie	_	KOKOM	_	_	_	_	_	_	MF
+7	"	"	_	$(	_	_	_	_	_	_	MF
+8	Erst	erst	_	ADV	_	_	_	_	_	_	MF-VF
+9	mache	machen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	MF-LK
+10	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=masc	9	subj	_	_	_	MF-MF
+11	dies	dieser	_	PDS	number=sg|case=acc|gender=neut	9	obj	_	_	_	MF-MF
+12	,	,	_	$,	_	_	_	_	_	_	MF
+13	dann	dann	_	ADV	_	_	_	_	_	_	MF-VF
+14	mache	machen	_	VVFIN	number=sg|person=1|mood=ind|tense=pres	_	_	_	_	LK	MF-LK
+15	ich	ich	_	PPER	number=sg|person=1|case=nom|gender=masc	14	subj	_	_	_	MF-MF
+16	das	der	_	PDS	number=sg|case=acc|gender=neut	14	obj	_	_	_	MF-MF
+17	.	.	_	$.	_	_	_	_	_	_	_
+18	"	"	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 100
+# sent_id(TSV) = 100
+# text = Es ist so eine Art ganz andere Ebene auf der man keine Entscheidungen mehr treffen kann , sondern lediglich der Körper auf bestimmte Töne in der Musik reagiert .
+1	Es	es	_	PPER	number=sg|person=3|case=nom|gender=neut	2	pred	_	_	_	VF
+2	ist	sein	_	VAFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	LK	LK
+3	so	so	_	ADV	_	_	_	_	_	_	MF
+4	eine	ein	_	ART	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+5	Art	Art	_	NN	number=sg|case=nom|gender=fem	_	_	_	_	_	MF
+6	ganz	ganz	_	ADV	_	_	_	_	_	_	MF
+7	andere	anderer	_	ADJA	number=sg|degree=pos|case=nom|gender=fem	_	_	_	_	_	MF
+8	Ebene	Ebene	_	NN	number=sg|case=nom|gender=fem	2	subj	_	_	_	MF
+9	auf	auf	_	APPR	_	_	_	_	_	LK	NF-LK
+10	der	der	_	PRELS	number=sg|case=dat|gender=fem	_	_	_	_	LK	NF-LK
+11	man	man	_	PIS	number=sg|case=nom|gender=*	15	subj	_	_	_	NF-MF
+12	keine	kein	_	PIAT	number=pl|case=acc|gender=fem	_	_	_	_	_	NF-MF
+13	Entscheidungen	Entscheidung	_	NN	number=pl|case=acc|gender=fem	15	obj	_	_	_	NF-MF
+14	mehr	mehr	_	ADV	_	_	_	_	_	_	NF-MF
+15	treffen	treffen	_	VVINF	_	_	_	_	_	RK	NF-RK
+16	kann	können	_	VMFIN	number=sg|person=3|mood=ind|tense=pres	15	aux	_	_	RK	NF-RK
+17	,	,	_	$,	_	_	_	_	_	_	NF
+18	sondern	sondern	_	KON	_	_	_	_	_	_	NF-KOORD
+19	lediglich	lediglich	_	ADV	_	_	_	_	_	_	NF-MF
+20	der	der	_	ART	number=sg|case=nom|gender=masc	_	_	_	_	_	NF-MF
+21	Körper	Körper	_	NN	number=sg|case=nom|gender=masc	28	subj	_	_	_	NF-MF
+22	auf	auf	_	APPR	_	24	pcase	_	_	_	NF-MF
+23	bestimmte	bestimmt	_	ADJA	number=pl|degree=pos|case=acc|gender=masc	_	_	_	_	_	NF-MF
+24	Töne	Ton	_	NN	number=pl|case=acc|gender=masc	28	pobj	_	_	_	NF-MF
+25	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+26	der	der	_	ART	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+27	Musik	Musik	_	NN	number=sg|case=dat|gender=fem	_	_	_	_	_	NF-MF
+28	reagiert	reagieren	_	VVFIN	number=sg|person=3|mood=ind|tense=pres	_	_	_	_	RK	NF-RK
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 101
+# sent_id(TSV) = 101
+# text = Dieses Rauschen ist so stark , dass die Gesellschaft eine große Prämie ausschreibt für jene , die die Konsequenzen dieses Rauschens reduzieren können .
+1	Dieses	dieser	_	PDAT	case=nom|gender=neut|number=sg	_	_	_	_	_	VF
+2	Rauschen	Rauschen	_	NN	case=nom|gender=neut|number=sg	3	subj	_	_	_	VF
+3	ist	sein	_	VAFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	LK	LK
+4	so	so	_	ADV	_	_	_	_	_	_	MF
+5	stark	stark	_	ADJD	degree=pos	3	pred	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	die	der	_	ART	case=nom|gender=fem|number=sg	_	_	_	_	_	NF-MF
+9	Gesellschaft	Gesellschaft	_	NN	case=nom|gender=fem|number=sg	13	subj	_	_	_	NF-MF
+10	eine	ein	_	ART	case=acc|gender=fem|number=sg	_	_	_	_	_	NF-MF
+11	große	groß	_	ADJA	degree=pos|case=acc|number=sg|gender=fem	_	_	_	_	_	NF-MF
+12	Prämie	Prämie	_	NN	case=acc|gender=fem|number=sg	13	obj	_	_	_	NF-MF
+13	ausschreibt	ausschreiben	_	VVFIN	person=3|tense=pres|number=sg|mood=ind	_	_	_	_	RK	NF-RK
+14	für	für	_	APPR	_	_	_	_	_	_	NF-NF
+15	jene	jener	_	PDS	case=acc|gender=*|number=pl	_	_	_	_	_	NF-NF
+16	,	,	_	$,	_	_	_	_	_	_	NF-NF
+17	die	der	_	PRELS	case=nom|gender=*|number=pl	22	subj	_	_	LK	NF-NF-LK
+18	die	der	_	ART	case=nom|gender=fem|number=pl	_	_	_	_	_	NF-NF-MF
+19	Konsequenzen	Konsequenz	_	NN	case=nom|gender=fem|number=pl	22	obj	_	_	_	NF-NF-MF
+20	dieses	dieser	_	PDAT	case=gen|gender=neut|number=sg	_	_	_	_	_	NF-NF-MF
+21	Rauschens	Rauschen	_	NN	case=gen|gender=neut|number=sg	_	_	_	_	_	NF-NF-MF
+22	reduzieren	reduzieren	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+23	können	können	_	VMFIN	person=3|tense=pres|number=pl|mood=ind	22	aux	_	_	RK	NF-NF-RK
+24	.	.	_	$.	_	_	_	_	_	_	_

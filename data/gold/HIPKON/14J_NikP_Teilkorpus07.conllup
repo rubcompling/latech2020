@@ -1,0 +1,29 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = nv wil er den ſchaden beſſeren dien luͥtē den er den ſchadē hat getan.
+1	nv	_	_	ADV	_	_	_	_	_	ADVP	nv	281,37	_	ADVB	_	ADV	_	MAINDECL	_	VF	60ra,16	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	281,37	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	60ra,17	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er	281,37	_	SUBJ	_	PPER	_	MAINDECL	_	MF	60ra,17	_	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	281,37	_	DO	_	DDA	_	MAINDECL	_	MF	60ra,17	_	_
+5	ſchaden	_	_	NN	_	_	_	_	_	NP	ſchaden	281,37	_	DO	_	NA	_	MAINDECL	_	MF	60ra,17	_	_
+6	beſſeren	_	_	VVINF	_	_	_	_	_	VP	beſſeren	281,37	_	INF	_	VVINF	RE	MAINDECL	RK	RK	60ra,17	_	_
+7	dien	_	_	PDAT	_	_	_	_	_	NP	dien	281,38	NF	IO-DAT	NEW	DD	_	MAINDECL	_	NF	60ra,18	UNLINK	KOREF1-REL
+8	luͥtē	_	_	NN	_	_	_	_	_	NP	luͥtē	281,38	NF	IO-DAT	NEW	NA	_	MAINDECL	_	NF	60ra,18	UNLINK	KOREF1-REL
+9	den	_	_	PRELS	_	_	_	_	_	CP	den	281,38	NF	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	60ra,18	UNLINK	KOREF2-REL
+10	er	_	_	PPER	_	_	_	_	_	CP	er	281,38	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	60ra,18	UNLINK	_
+11	den	_	_	ART	_	_	_	_	_	CP	den	281,38	NF	ATTR	_	DDA	_	MAINDECL	_	NF-MF	60ra,18	UNLINK	_
+12	ſchadē	_	_	NN	_	_	_	_	_	CP	ſchadē	281,38	NF	ATTR	_	NA	_	MAINDECL	_	NF-MF	60ra,18	UNLINK	_
+13	hat	_	_	VAFIN	_	_	_	_	_	CP	hat	281,38	NF	ATTR	_	VAFIN	_	MAINDECL	RK	NF-RK	60ra,19	UNLINK	_
+14	getan	_	_	VVPP	_	_	_	_	_	CP	getan	281,38	NF	ATTR	_	VVPP	_	MAINDECL	RK	NF-RK	60ra,19	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	CP	.	281,38	_	ATTR	_	$_	_	MAINDECL	_	_	60ra,19	UNLINK	_
+
+# sent_id = 2
+# text = vn̄ koͤnden wír wiſlich gri(=)fen in diſen ſchatz
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	282, 10	_	_	_	KON	_	MAINDECL	_	KOORD	60va,04	_	_
+2	koͤnden	_	_	VMFIN	_	_	_	_	_	VP	koͤnden	282, 10	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	60va,05; gri(=)-	_	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	282, 10	_	SUBJ	_	PPER	_	MAINDECL	_	MF	60va,05; gri(=)-	_	_
+4	wiſlich	_	_	ADV	_	_	_	_	_	ADVP	wiſlich	282, 10	_	ADVB	_	ADV	_	MAINDECL	_	MF	60va,05; gri(=)-	_	_
+5	gri(=)fen	_	_	VVINF	_	_	_	_	_	VP	grifen	282, 10	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	60va,05; gri(=)-	_	_
+6	in	_	_	APPR	_	_	_	_	_	PP	in	282, 11	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	60va,06; -fen	UNLINK	_
+7	diſen	_	_	PDS	_	_	_	_	_	PP	diſen	282, 11	NF	PP-ADV	GIV-ACTIVE	DDS	_	MAINDECL	_	NF	60va,06; -fen	UNLINK	_
+8	ſchatz	_	_	NN	_	_	_	_	_	PP	ſchatz	282, 11	NF	PP-ADV	GIV-ACTIVE	NA	_	MAINDECL	_	NF	60va,06; -fen	UNLINK	_

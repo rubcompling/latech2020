@@ -1,0 +1,137 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Wir gangen vf ze ieruſalem.
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	261,03; -gern | Jêru-	_	SUBJ	_	PPER	_	MAINDECL	_	VF	37ra,08	_	_
+2	gangen	_	_	VVFIN	_	_	_	_	_	VP	gangen	261,03; -gern | Jêru-	_	VFIN	_	VVFIN	LI	MAINDECL	LK	LK	37ra,08	_	_
+3	vf	_	_	PTKVZ	_	_	_	_	_	VP	vf	261,03; -gern | Jêru-	_	VZ_PTK	_	PTKVZ	RE	MAINDECL	RK	RK	37ra,08	_	_
+4	ze	_	_	APPR	_	_	_	_	_	PP	ze	261,03; -gern | Jêru-	NF	PP-DIR	_	APPR	_	MAINDECL	_	NF	37ra,08	UNLINK	_
+5	ieruſalem	_	_	NE	_	_	_	_	_	PP	ieruſalem	261,03; -gern | Jêru-	NF	PP-DIR	ACC-UNI-UNUSED	NE	_	MAINDECL	_	NF	37ra,09; men-	UNLINK	KOREF1
+6	.	_	_	$.	_	_	_	_	_	_	.	261,04; -salêm | ge-	_	_	_	$_	_	MAINDECL	_	_	37ra,09; men-	_	_
+
+# sent_id = 2
+# text = da ſol des men(=)ſchen kint gegeben werden in |d' iuden gewalt.
+1	da	_	_	ADV	_	_	_	_	_	ADVP	da	261,04; -salêm | ge-	_	ADVB	_	ADV	_	MAINDECL	_	VF	37ra,09; men-	_	KOREF2
+2	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol	261,04; -salêm | ge-	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	37ra,09; men-	_	_
+3	des	_	_	ART	_	_	_	_	_	NP	des	261,04; -salêm | ge-	_	SUBJ	_	DDA	_	MAINDECL	_	MF	37ra,09; men-	_	_
+4	men(=)ſchen	_	_	NN	_	_	_	_	_	NP	menſchen	261,04; -salêm | ge-	_	SUBJ	_	NA	_	MAINDECL	_	MF	37ra,09; men-	_	_
+5	kint	_	_	NN	_	_	_	_	_	NP	kint	261,04; -salêm | ge-	_	SUBJ	_	NA	_	MAINDECL	_	MF	37ra,10; -ſchen	_	_
+6	gegeben	_	_	VVPP	_	_	_	_	_	VP	gegeben	261,04; -salêm | ge-	_	INF	_	VVPP	_	MAINDECL	RK	RK	37ra,10; -ſchen	_	_
+7	werden	_	_	VAINF	_	_	_	_	_	VP	werden	261,04; -salêm | ge-	_	INF	_	VAINF	RE	MAINDECL	RK	RK	37ra,10; -ſchen	_	_
+8	in	_	_	APPR	_	_	_	_	_	PP	in	261,04; -salêm | ge-	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	37ra,11; wer-	UNLINK	_
+9	|d'	_	_	ART	_	_	_	_	_	PP	d'	261,04; -salêm | ge-	NF	PP-OBJ	ACC-UNI-UNUSED_	DDA	_	MAINDECL	_	NF	37ra,11; wer-	UNLINK	_
+10	iuden	_	_	NE	_	_	_	_	_	PP	iuden	261,04; -salêm | ge-	NF	PP-OBJ	ACC-UNI-UNUSED_	NE	_	MAINDECL	_	NF	37ra,11; wer-	UNLINK	KOREF1
+11	gewalt	_	_	NN	_	_	_	_	_	PP	gewalt	261,04; -salêm | ge-	NF	PP-OBJ	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	37ra,11; wer-	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	261,05; -walt | kroe-	_	_	_	$_	_	MAINDECL	_	_	37ra,11; wer-	_	_
+
+# sent_id = 3
+# text = vn̄ an |dem drit(=)ten tage wirt er vfſtande vō dem toͮde.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	261,06; -nende	_	_	_	KON	_	MAINDECL	_	KOORD	37ra,16; drit-	_	_
+2	an	_	_	APPR	_	_	_	_	_	PP	an	261,07	_	PP-ADV	_	APPR	_	MAINDECL	_	VF	37ra,16; drit-	_	_
+3	|dem	_	_	ART	_	_	_	_	_	PP	dem	261,07	_	PP-ADV	_	DDA	_	MAINDECL	_	VF	37ra,16; drit-	_	_
+4	drit(=)ten	_	_	ADJA	_	_	_	_	_	PP	dritten	261,07	_	PP-ADV	_	ADJO	_	MAINDECL	_	VF	37ra,16; drit-	_	_
+5	tage	_	_	NN	_	_	_	_	_	PP	tage	261,07	_	PP-ADV	_	NA	_	MAINDECL	_	VF	37ra,17; -ten	_	_
+6	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	261,07	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	37ra,17; -ten	_	_
+7	er	_	_	PPER	_	_	_	_	_	NP	er	261,07	_	SUBJ	_	PPER	_	MAINDECL	_	MF	37ra,17; -ten	_	_
+8	vfſtande	_	_	VVINF	_	_	_	_	_	VP	vfſtande	261,07	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	37ra,17; -ten	_	_
+9	vō	_	_	APPR	_	_	_	_	_	PP	vō	261,07	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	37ra,18; ze-	UNLINK	_
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	261,07	NF	PP-OBJ	ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	NF	37ra,18; ze-	UNLINK	_
+11	toͮde	_	_	NN	_	_	_	_	_	PP	toͮde	261,07	NF	PP-OBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	37ra,18; ze-	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	261,07	_	_	_	$_	_	MAINDECL	_	_	37ra,18; ze-	_	_
+
+# sent_id = 4
+# text = ſo ſuͥlen wír in fuͥrhtē an allen ſtetten.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	262,10	_	ADVB	_	ADV	_	MAINDECL	_	VF	38ra,02	_	_
+2	ſuͥlen	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlen	262,10	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	38ra,02	_	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	262,10	_	SUBJ	_	PPER	_	MAINDECL	_	MF	38ra,02	_	_
+4	in	_	_	PPER	_	_	_	_	_	NP	in	262,10	_	DO	_	PPER	_	MAINDECL	_	MF	38ra,02	_	_
+5	fuͥrhtē	_	_	VVINF	_	_	_	_	_	VP	fuͥrhtē	262,10	_	INF	_	VVINF	RE	MAINDECL	RK	RK	38ra,02	_	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	262,10	BGR	PP-SIT	_	APPR	_	MAINDECL	_	NF	38ra,03	UNLINK	_
+7	allen	_	_	ADJA	_	_	_	_	_	PP	allen	262,10	BGR	PP-SIT	GIV-ACTIVE	ADJ	_	MAINDECL	_	NF	38ra,03	UNLINK	_
+8	ſtetten	_	_	NN	_	_	_	_	_	PP	ſtetten	262,10	BGR	PP-SIT	GIV-ACTIVE	NA	_	MAINDECL	_	NF	38ra,03	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	262,10	_	_	_	$_	_	MAINDECL	_	_	38ra,03	_	_
+
+# sent_id = 5
+# text = vn̄ ſuͥlen vͥns ſchamē etlicher zimlich' díngē duͥ%. nít verbottē ſínt/ vn̄ dc mā wol tete.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	262,11; et-	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	38ra,05	_	_
+2	ſuͥlen	_	_	VAFIN	_	_	_	_	_	VP	ſuͥlen	262,11; et-	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	38ra,05	_	_
+3	vͥns	_	_	PRF	_	_	_	_	_	VP	vͥns	262,11; et-	_	VZ_RFL	_	PRF	_	MAINDECL-ELLI	_	MF	38ra,05	_	_
+4	ſchamē	_	_	VVINF	_	_	_	_	_	VP	ſchamē	262,11; et-	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	38ra,05	_	_
+5	etlicher	_	_	ADJA	_	_	_	_	_	NP	etlicher	262,11; et-	NF	IO-GEN	NEW	ADJ	_	MAINDECL-ELLI	_	NF	38ra,06	UNLINK	_
+6	zimlich'	_	_	ADJA	_	_	_	_	_	NP	zimlich'	262,12; -lîcher	NF	IO-GEN	NEW	ADJ	_	MAINDECL-ELLI	_	NF	38ra,06	UNLINK	_
+7	díngē	_	_	NN	_	_	_	_	_	NP	díngē	262,12; -lîcher	NF	IO-GEN	NEW	NA	_	MAINDECL-ELLI	_	NF	38ra,06	UNLINK	KOREF1-REL
+8	duͥ%	_	_	PRELS	_	_	_	_	_	CP	duͥ%	262,12; -lîcher	NF	ATTR	_	DDSREL	_	MAINDECL-ELLI	LK	NF-LK	38ra,06	UNLINK	KOREF2-REL
+9	.	_	_	$.	_	_	_	_	_	CP	.	262,12; -lîcher	NF	ATTR	_	$_	_	MAINDECL-ELLI	_	NF	38ra,06	UNLINK	_
+10	nít	_	_	PTKNEG	_	_	_	_	_	CP	nít	262,12; -lîcher	NF	ATTR	_	PTKNEG	_	MAINDECL-ELLI	_	NF-MF	38ra,07	UNLINK	_
+11	verbottē	_	_	VVPP	_	_	_	_	_	CP	verbottē	262,12; -lîcher	NF	ATTR	_	VVPP	_	MAINDECL-ELLI	RK	NF-RK	38ra,07	UNLINK	_
+12	ſínt/	_	_	VAFIN	_	_	_	_	_	CP	ſínt/	262,12; -lîcher	NF	ATTR	_	VAFIN	_	MAINDECL-ELLI	RK	NF-RK	38ra,07	UNLINK	_
+13	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	262,12; -lîcher	NF	ATTR	_	KON	_	MAINDECL-ELLI	_	NF-KOORD	38ra,07	UNLINK	_
+14	dc	_	_	PRELS	_	_	_	_	_	CP	dc	262,12; -lîcher	NF	ATTR	_	DDSREL	_	MAINDECL-ELLI	LK	NF-LK	38ra,07	UNLINK	KOREF2-REL
+15	mā	_	_	PIS	_	_	_	_	_	CP	mā	262,12; -lîcher	NF	ATTR	_	PI	_	MAINDECL-ELLI	_	NF-MF	38ra,07	UNLINK	_
+16	wol	_	_	ADV	_	_	_	_	_	CP	wol	262,12; -lîcher	NF	ATTR	_	ADV	_	MAINDECL-ELLI	_	NF-MF	38ra,08	UNLINK	_
+17	tete	_	_	VAFIN	_	_	_	_	_	CP	tete	_	NF	ATTR	_	VAFIN	_	MAINDECL-ELLI	RK	NF-RK	38ra,08	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	38ra,08	_	_
+
+# sent_id = 6
+# text = *(a*)lſo ſuͥlen wír vͥns ſchamen vor vͥnſerm h'ren gotte noch denne d' díngē die vͥns wol erloͮbet w'ín ín worten vn̄ ín werken.
+1	*(a*)lſo	_	_	ADV	_	_	_	_	_	ADVP	*(a*)lſo	262,15	_	ADVB	_	ADV	_	MAINDECL	_	VF	38ra,14; -urft	_	_
+2	ſuͥlen	_	_	VAFIN	_	_	_	_	_	VP	ſuͥlen	262,15	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	38ra,14; -urft	_	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	262,15	_	SUBJ	_	PPER	_	MAINDECL	_	MF	38ra,14; -urft	_	_
+4	vͥns	_	_	PRF	_	_	_	_	_	NP	vͥns	262,15	_	VZ_RFL	_	PRF	_	MAINDECL	_	MF	38ra,14; -urft	_	_
+5	ſchamen	_	_	VVINF	_	_	_	_	_	VP	ſchamen	262,15	_	INF	_	VVINF	RE	MAINDECL	RK	RK	38ra,15	_	_
+6	vor	_	_	APPR	_	_	_	_	_	PP	vor	262,15	BGR_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	38ra,15	UNLINK1	_
+7	vͥnſerm	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſerm	262,16	BGR_	PP-OBJ	ACC-SIT_	DPOS	_	MAINDECL	_	NF	38ra,15	UNLINK1	_
+8	h'ren	_	_	NN	_	_	_	_	_	PP	h'ren	262,16	BGR_	PP-OBJ	_ACC-UNI-USED-X	NA	_	MAINDECL	_	NF	38ra,15	UNLINK1	_
+9	gotte	_	_	NN	_	_	_	_	_	PP	gotte	262,16	BGR_	PP-OBJ	_ACC-UNI-USED-X	NA	_	MAINDECL	_	NF	38ra,16	UNLINK1	_
+10	noch	_	_	KON	_	_	_	_	_	ADVP	noch	262,16	_	ADVB	NA	KON	_	MAINDECL	_	NF	38ra,16	_	_
+11	denne	_	_	ADV	_	_	_	_	_	ADVP	denne	262,16	_	ADVB	NA	ADV	_	MAINDECL	_	NF	38ra,16	UNLINK2	_
+12	d'	_	_	ART	_	_	_	_	_	NP	d'	262,16	NF_	IO-GEN	NEW	DDA	_	MAINDECL	_	NF	38ra,16	UNLINK2	_
+13	díngē	_	_	NN	_	_	_	_	_	NP	díngē	262,16	NF_	IO-GEN	NEW	NA	_	MAINDECL	_	NF	38ra,16	UNLINK2	KOREF1-REL
+14	die	_	_	PRELS	_	_	_	_	_	CP	die	262,16	NF_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	38ra,17	UNLINK2	KOREF2-REL
+15	vͥns	_	_	PPER	_	_	_	_	_	CP	vͥns	262,16	NF_	ATTR	_	PPER	_	MAINDECL	_	NF-MF	38ra,17	UNLINK2	_
+16	wol	_	_	ADV	_	_	_	_	_	CP	wol	262,16	NF_	ATTR	_	ADV	_	MAINDECL	_	NF-MF	38ra,17	UNLINK2	_
+17	erloͮbet	_	_	VVPP	_	_	_	_	_	CP	erloͮbet	262,16	NF_	ATTR	_	VVPP	_	MAINDECL	RK	NF-RK	38ra,17	UNLINK2	_
+18	w'ín	_	_	VAFIN	_	_	_	_	_	CP	w'ín	262,17	NF_	ATTR	_	VAFIN	_	MAINDECL	RK	NF-RK	38ra,17	UNLINK2	_
+19	ín	_	_	APPR	_	_	_	_	_	CP	ín	262,17	NF_	ATTR	_	APPR	_	MAINDECL	_	NF-NF	38ra,18	UNLINK2	_
+20	worten	_	_	NN	_	_	_	_	_	CP	worten	262,17	NF_	ATTR	_	NA	_	MAINDECL	_	NF-NF	38ra,18	UNLINK2	_
+21	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	262,17	NF_	ATTR	_	KON	_	MAINDECL	_	NF-NF	38ra,18	UNLINK2	_
+22	ín	_	_	APPR	_	_	_	_	_	CP	ín	262,17	NF_	ATTR	_	APPR	_	MAINDECL	_	NF-NF	38ra,18	UNLINK2	_
+23	werken	_	_	NN	_	_	_	_	_	CP	werken	262,17	NF_	ATTR	_	NA	_	MAINDECL	_	NF-NF	38ra,18	UNLINK2	_
+24	.	_	_	$.	_	_	_	_	_	_	.	262,17	_	_	_	$_	_	MAINDECL	_	_	38ra,18	_	_
+
+# sent_id = 7
+# text = Wír ſuͥlen oͮch vͥnſer begirde vn̄ vͥnſer mínne twingen dar zuͦ. das wir ín minnende werdē von allem herzen.
+1	Wír	_	_	PPER	_	_	_	_	_	NP	Wír	262,19	_	SUBJ	_	PPER	_	MAINDECL	_	VF	38ra,22	_	_
+2	ſuͥlen	_	_	VAFIN	_	_	_	_	_	VP	ſuͥlen	262,19	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	38ra,22	_	_
+3	oͮch	_	_	KON	_	_	_	_	_	_	oͮch	262,19	_	_	_	KON	_	MAINDECL	_	MF	38ra,22	_	_
+4	vͥnſer	_	_	PPOSAT	_	_	_	_	_	NP	vͥnſer	262,19	_	DO	_	DPOS	_	MAINDECL	_	MF	38ra,22	_	_
+5	begirde	_	_	NN	_	_	_	_	_	NP	begirde	262,19	_	DO	_	NA	_	MAINDECL	_	MF	38ra,23	_	_
+6	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	262,19	_	_	_	KON	_	MAINDECL	_	MF	38ra,23	_	_
+7	vͥnſer	_	_	PPOSAT	_	_	_	_	_	NP	vͥnſer	262,19	_	DO	_	DPOS	_	MAINDECL	_	MF	38ra,23	_	_
+8	mínne	_	_	NN	_	_	_	_	_	NP	mínne	262,19	_	DO	_	NA	_	MAINDECL	_	MF	38ra,23	_	_
+9	twingen	_	_	VVINF	_	_	_	_	_	VP	twingen	262,19	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	38ra,24	_	_
+10	dar	_	_	ADV	_	_	_	_	_	ADVP	dar	262,19	NF	ADVB	NA	ADV	_	MAINDECL	_	NF	38ra,24	UNLINK	KOREF1
+11	zuͦ	_	_	APPR	_	_	_	_	_	ADVP	zuͦ	262,19	NF	ADVB	NA	APPR	_	MAINDECL	_	NF	38ra,24	UNLINK	KOREF1
+12	.	_	_	$.	_	_	_	_	_	_	.	262,19	NF	ADVB	_	$_	_	MAINDECL	_	NF	38ra,24	UNLINK	_
+13	das	_	_	KOUS	_	_	_	_	_	CP	das	262,20	NF	ADVB	_	KOUS	_	MAINDECL	LK	NF-LK	38ra,24	UNLINK	KOREF2-SATZ
+14	wir	_	_	PPER	_	_	_	_	_	CP	wir	262,20	NF	ADVB	_	PPER	_	MAINDECL	_	NF-MF	38ra,24	UNLINK	KOREF2-SATZ
+15	ín	_	_	PPER	_	_	_	_	_	CP	ín	262,20	NF	ADVB	_	PPER	_	MAINDECL	_	NF-MF	38ra,25	UNLINK	KOREF2-SATZ
+16	minnende	_	_	VVPP	_	_	_	_	_	CP	minnende	262,20	NF	ADVB	_	VVPS	_	MAINDECL	RK	NF-RK	38ra,25	UNLINK	KOREF2-SATZ
+17	werdē	_	_	VAFIN	_	_	_	_	_	CP	werdē	262,20	NF	ADVB	_	VAFIN	_	MAINDECL	RK	NF-RK	38ra,25	UNLINK	KOREF2-SATZ
+18	von	_	_	APPR	_	_	_	_	_	CP	von	262,20	NF	ADVB	_	APPR	_	MAINDECL	_	NF-NF	38ra,25	UNLINK	KOREF2-SATZ
+19	allem	_	_	ADJA	_	_	_	_	_	CP	allem	262,20	NF	ADVB	_	ADJ	_	MAINDECL	_	NF-NF	38ra,26	UNLINK	KOREF2-SATZ
+20	herzen	_	_	NN	_	_	_	_	_	CP	herzen	262,20	NF	ADVB	_	NA	_	MAINDECL	_	NF-NF	38ra,26	UNLINK	KOREF2-SATZ
+21	.	_	_	$.	_	_	_	_	_	_	.	262,20	NF	_	_	$_	_	MAINDECL	_	_	38ra,26	_	_
+
+# sent_id = 8
+# text = Dar vmb iſt er al(=)leín zuͦ dír komen ane ſíne herſchaft
+1	Dar	_	_	ADV	_	_	_	_	_	ADVP	Dar	262,37; her-	_	ADVB	_	ADV	_	MAINDECL	_	VF	38va,16; -deſt | al-	_	_
+2	vmb	_	_	APPR	_	_	_	_	_	ADVP	vmb	262,37; her-	_	ADVB	_	APPR	_	MAINDECL	_	VF	38va,16; -deſt | al-	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	262,37; her-	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	38va,16; -deſt | al-	_	_
+4	er	_	_	PPER	_	_	_	_	_	NP	er	262,37; her-	_	SUBJ	_	PPER	_	MAINDECL	_	MF	38va,16; -deſt | al-	_	_
+5	al(=)leín	_	_	ADJD	_	_	_	_	_	AP	al(=)leín	262,37; her-	_	ADVB	_	ADJD	_	MAINDECL	_	MF	38va,16; -deſt | al-	_	_
+6	zuͦ	_	_	APPR	_	_	_	_	_	PP	zuͦ	262,37; her-	_	PP-DIR	_	APPR	_	MAINDECL	_	MF	38va,17; -leín	_	_
+7	dír	_	_	PPER	_	_	_	_	_	PP	dír	262,37; her-	_	PP-DIR	_	PPER	_	MAINDECL	_	MF	38va,17; -leín	_	_
+8	komen	_	_	VVINF	_	_	_	_	_	VP	komen	262,37; her-	_	INF	_	VVINF	RE	MAINDECL	RK	RK	38va,17; -leín	_	_
+9	ane	_	_	APPR	_	_	_	_	_	PP	ane	262,37; her-	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	38va,17; -leín	UNLINK	_
+10	ſíne	_	_	PPOSAT	_	_	_	_	_	PP	ſíne	262,37; her-	NF	PP-ADV	ACC-INF	DPOS	_	MAINDECL	_	NF	38va,18	UNLINK	KOREF1
+11	herſchaft	_	_	NN	_	_	_	_	_	PP	herſchaft	262,37; her-	NF	PP-ADV	GIV-INACTIVE	NA	_	MAINDECL	_	NF	38va,18	UNLINK	_

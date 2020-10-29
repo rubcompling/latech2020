@@ -1,0 +1,95 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Ich habe dich ge(=)klaͤret vf d' erde/
+1	Ich	_	_	PPER	_	_	_	_	_	NP	Ich	285, 17	_	SUBJ	_	PPER	_	MAINDECL	_	VF	63vb,16 ge-	_	_
+2	habe	_	_	VAFIN	_	_	_	_	_	VP	habe	285, 17	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	63vb,16 ge-	_	_
+3	dich	_	_	PRF	_	_	_	_	_	NP	dich	285, 17	_	DO	_	PRF	_	MAINDECL	_	MF	63vb,16 ge-	_	_
+4	ge(=)klaͤret	_	_	VVPP	_	_	_	_	_	VP	geklaͤret	285, 17	_	INF	_	VVPP	RE	MAINDECL	RK	RK	63vb,17	_	_
+5	vf	_	_	APPR	_	_	_	_	_	PP	vf	285, 17	NF	PP-SIT	_	APPR	_	MAINDECL	_	NF	63vb,17	UNLINK	_
+6	d'	_	_	ART	_	_	_	_	_	PP	d'	285, 17	NF	PP-SIT	ACC-UNI-UNUSED	DDA	_	MAINDECL	_	NF	63vb,17	UNLINK	_
+7	erde/	_	_	NN	_	_	_	_	_	PP	erde/	285, 17	NF	PP-SIT	ACC-UNI-UNUSED	NA	_	MAINDECL	_	NF	63vb,17	UNLINK	_
+
+# sent_id = 2
+# text = *(H*)erre wie mochtē ſuͥ mere tuͦn dēne (Christus)?
+1	*(H*)erre	_	_	NN	_	_	_	_	_	NP	Herre	285, 22  dent	_	VOVF	_	NA	_	MAININTERR	_	LV	64ra,04	_	_
+2	wie	_	_	PWS	_	_	_	_	_	ADVP	wie	285, 22  dent	_	ADVB	_	PW	_	MAININTERR	_	VF	64ra,05	_	_
+3	mochtē	_	_	VMFIN	_	_	_	_	_	VP	mochtē	285, 22  dent	_	VFIN	_	VMFIN	LI	MAININTERR	LK	LK	64ra,05	_	_
+4	ſuͥ	_	_	PPER	_	_	_	_	_	NP	ſuͥ	285, 23	_	SUBJ	_	PPER	_	MAININTERR	_	MF	64ra,05	_	_
+5	mere	_	_	ADV	_	_	_	_	_	ADVP	mere	285, 23	_	ADVB	_	ADV	_	MAININTERR	_	MF	64ra,05	_	_
+6	tuͦn	_	_	VVINF	_	_	_	_	_	VP	tuͦn	285, 23	_	INF	_	VVINF	RE	MAININTERR	RK	RK	64ra,05	_	_
+7	dēne	_	_	KOKOM	_	_	_	_	_	NP	dēne	285, 23	_	VGL	_	KOKOM	_	MAININTERR	_	NF	64ra,06	UNLINK	_
+8	(Christus)	_	_	NE	_	_	_	_	_	NP	Christus	285, 23	BGR	VGL	ACC-UNI-USED-X	NE	_	MAININTERR	_	NF	64ra,06	UNLINK	KOREF1
+9	?	_	_	$.	_	_	_	_	_	_	?	285, 23	_	_	_	$_	_	MAININTERR	_	_	64ra,06	_	_
+
+# sent_id = 3
+# text = Ich han gephlegē d'o die du mir gegebē haſt
+1	Ich	_	_	PPER	_	_	_	_	_	NP	Ich	285, 35	_	SUBJ	_	PPER	_	MAINDECL	_	VF	64rb,11	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	VP	han	285, 35	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	64rb,11	_	_
+3	gephlegē	_	_	VVPP	_	_	_	_	_	VP	gephlegē	285, 35	_	INF	_	VVPP	RE	MAINDECL	RK	RK	64rb,11	_	_
+4	d'o	_	_	PPER	_	_	_	_	_	NP	d'o	285, 35	NF	IO-GEN	NEW	PPER	_	MAINDECL	_	NF	64rb,11	UNLINK	KOREF1-REL
+5	die	_	_	PRELS	_	_	_	_	_	CP	die	285, 35	NF	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	64rb,12	UNLINK	KOREF2-REL
+6	du	_	_	PPER	_	_	_	_	_	CP	du	285, 35	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	64rb,12	UNLINK	_
+7	mir	_	_	PPER	_	_	_	_	_	CP	mir	285, 35	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	64rb,12	UNLINK	_
+8	gegebē	_	_	VVPP	_	_	_	_	_	CP	gegebē	285, 35	NF	ATTR	_	VVPP	_	MAINDECL	RK	NF-RK	64rb,12	UNLINK	_
+9	haſt	_	_	VAFIN	_	_	_	_	_	CP	haſt	286, 1	NF	ATTR	_	VAFIN	_	MAINDECL	RK	NF-RK	64rb,12	UNLINK	_
+
+# sent_id = 4
+# text = vn̄ iſt níemā verlorn dēn d' ſun d' v'luſt.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	286, 1	_	_	_	KON	_	MAINDECL	_	KOORD	64rb,13	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	286, 1	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	64rb,13	_	_
+3	níemā	_	_	PIS	_	_	_	_	_	NP	níemā	286, 1	_	SUBJ	_	PINEG	_	MAINDECL	_	MF	64rb,13	_	_
+4	verlorn	_	_	VVPP	_	_	_	_	_	VP	verlorn	286, 1	_	INF	_	VVPP	RE	MAINDECL	RK	RK	64rb,13	_	_
+5	dēn	_	_	KOKOM	_	_	_	_	_	_	dēn	286, 1	_	VGL	_	KOKOM	_	MAINDECL	_	NF	64rb,14	LINK_ASSYM	_
+6	d'	_	_	ART	_	_	_	_	_	NP	d'	286, 1	NF	VGL	_	DDA	_	MAINDECL	_	NF	64rb,14	LINK_ASSYM	_
+7	ſun	_	_	NN	_	_	_	_	_	NP	ſun	286, 1	NF	VGL	NEW_	NA	_	MAINDECL	_	NF	64rb,14	LINK_ASSYM	_
+8	d'	_	_	ART	_	_	_	_	_	NP	d'	286, 1	NF	ATTR	_ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	NF	64rb,14	LINK_ASSYM	_
+9	v'luſt	_	_	NN	_	_	_	_	_	NP	v'luſt	286, 1	NF	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	64rb,14	LINK_ASSYM	_
+10	.	_	_	$.	_	_	_	_	_	_	.	286, 1	_	_	_	$_	_	MAINDECL	_	_	64rb,14	_	_
+
+# sent_id = 5
+# text = So mugēt [ir] [wol] gelten mit froͤmd' koſte
+1	So	_	_	ADV	_	_	_	_	_	ADVP	So	287, 18	_	ADVB	_	ADV	_	MAINDECL	_	VF	65vb,14	_	_
+2	mugēt	_	_	VMFIN	_	_	_	_	_	VP	mugēt	287, 18	_	INF	_	VMFIN	LI	MAINDECL	LK	LK	65vb,14	_	_
+3	[ir]	_	_	PPER	_	_	_	_	_	NP	ir	287, 18	_	SUBJ	_	PPER	_	MAINDECL	_	MF	65vb,14	_	_
+4	[wol]	_	_	ADV	_	_	_	_	_	ADVP	wol	287, 18	_	ADVB	_	ADV	_	MAINDECL	_	MF	65vb,14	_	_
+5	gelten	_	_	VVPP	_	_	_	_	_	VP	gelten	287, 18	_	INF	_	VVPP	RE	MAINDECL	RK	RK	65vb,14	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	287, 18	CF	PP-ADV	_	APPR	_	MAINDECL	_	NF	65vb,15; bedur-	UNLINK	_
+7	froͤmd'	_	_	ADJA	_	_	_	_	_	PP	froͤmd'	287, 18	CF	PP-ADV	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	65vb,15; bedur-	UNLINK	_
+8	koſte	_	_	NN	_	_	_	_	_	PP	koſte	287, 18	CF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	65vb,15; bedur-	UNLINK	KOREF1
+
+# sent_id = 6
+# text = Ir bedur(=)fent níem' gelten mít uͥw'r eígener koſte /
+1	Ir	_	_	PPER	_	_	_	_	_	NP	Ir	287, 18	_	SUBJ	_	PPER	_	MAINDECL	_	VF	65vb,15; bedur-	_	_
+2	bedur(=)fent	_	_	VVFIN	_	_	_	_	_	VP	bedurfent	287, 18	_	INF	_	VVFIN	LI	MAINDECL	LK	LK	65vb,16; -fent	_	_
+3	níem'	_	_	PIS	_	_	_	_	_	ADVP	níem'	287, 19	_	ADVB	_	PINEG	_	MAINDECL	_	MF	65vb,16; -fent	_	_
+4	gelten	_	_	VVPP	_	_	_	_	_	VP	gelten	287, 19	_	INF	_	VVPP	RE	MAINDECL	RK	RK	65vb,16; -fent	_	_
+5	mít	_	_	APPR	_	_	_	_	_	PP	mít	287, 19	CF	PP-ADV	_	APPR	_	MAINDECL	_	NF	65vb,16; -fent	UNLINK	_
+6	uͥw'r	_	_	PPOSAT	_	_	_	_	_	PP	uͥw'r	287, 19	CF	PP-ADV	ACC-SIT_	DPOS	_	MAINDECL	_	NF	65vb,16; -fent	UNLINK	_
+7	eígener	_	_	ADJA	_	_	_	_	_	PP	eígener	287, 19	CF	PP-ADV	_ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	65vb,17	UNLINK	_
+8	koſte	_	_	NN	_	_	_	_	_	PP	koſte	287, 19	CF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	65vb,17	UNLINK	KOREF2
+9	/	_	_	$,	_	_	_	_	_	_	/	287, 19	_	_	_	$_	_	MAINDECL	_	_	65vb,17	_	_
+
+# sent_id = 7
+# text = er wirt oͮch geríchet dar vō.
+1	er	_	_	PPER	_	_	_	_	_	NP	er	288,5	_	SUBJ	_	PPER	_	MAINDECL	_	VF	66va,12	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	288,5	_	INF	_	VAFIN	LI	MAINDECL	LK	LK	66va,13  	_	_
+3	oͮch	_	_	ADV	_	_	_	_	_	ADVP	oͮch	288,5	_	ADVB	_	ADV	_	MAINDECL	_	MF	66va,13  	_	_
+4	geríchet	_	_	VVPP	_	_	_	_	_	VP	geríchet	288, 6	_	INF	_	VVPP	RE	MAINDECL	RK	RK	66va,13  	_	_
+5	dar	_	_	ADV	_	_	_	_	_	ADVP	dar	288, 6	BGR	PP-ADV	NA	ADV	_	MAINDECL	_	NF	66va,13  	UNLINK	_
+6	vō	_	_	APPO	_	_	_	_	_	ADVP	vō	288, 6	BGR	PP-ADV	NA	APPO	_	MAINDECL	_	NF	66va,14	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	288, 6	_	_	_	$_	_	MAINDECL	_	_	66va,14	_	_
+
+# sent_id = 8
+# text = er wirt oͮch ge(=)ríchet dur vō an ínrlich' mī́ne vn̄ gnade.
+1	er	_	_	PPER	_	_	_	_	_	NP	er	288, 22	_	SUBJ	_	PPER	_	MAINDECL	_	VF	67ra,08; ge-	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	288, 22	_	INF	_	VAFIN	LI	MAINDECL	LK	LK	67ra,08; ge-	_	_
+3	oͮch	_	_	ADV	_	_	_	_	_	ADVP	oͮch	288, 22	_	ADVB	_	ADV	_	MAINDECL	_	MF	67ra,08; ge-	_	_
+4	ge(=)ríchet	_	_	VVPP	_	_	_	_	_	VP	geríchet	288, 22	_	INF	_	VVPP	RE	MAINDECL	RK	RK	67ra,09; -ríchet	_	_
+5	dur	_	_	ADV	_	_	_	_	_	PP	dur	288, 22	BGR_	PP-ADV	NA	ADV	_	MAINDECL	_	NF	67ra,09; -ríchet	UNLINK	_
+6	vō	_	_	APPO	_	_	_	_	_	PP	vō	288, 22	BGR_	PP-ADV	NA	APPO	_	MAINDECL	_	NF	67ra,09; -ríchet	UNLINK	_
+7	an	_	_	APPR	_	_	_	_	_	PP	an	288, 22	NF_	PP-ADV	_	APPR	_	MAINDECL	_	NF	67ra,09; -ríchet	UNLINK	_
+8	ínrlich'	_	_	ADJA	_	_	_	_	_	PP	ínrlich'	288,23	NF_	PP-ADV	ACC-ABSTR-USED-1_	ADJ	_	MAINDECL	_	NF	67ra,09; -ríchet	UNLINK	_
+9	mī́ne	_	_	NN	_	_	_	_	_	PP	mī́ne	288,23	NF_	PP-ADV	ACC-ABSTR-USED-1_	NA	_	MAINDECL	_	NF	67ra,10	UNLINK	_
+10	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	288,23	_	PP-ADV	_	KON	_	MAINDECL	_	NF	67ra,10	UNLINK	_
+11	gnade	_	_	NN	_	_	_	_	_	PP	gnade	288,23	NF_	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	67ra,10	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	PP	.	288,23	_	PP-ADV	_	$_	_	MAINDECL	_	_	67ra,10	UNLINK	_

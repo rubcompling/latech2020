@@ -1,0 +1,33 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS Rekonstruktion SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = hivte iſt ze#ſtorit div vanchnuſſe deſ menniſchlichin geſlahtiſ.
+1	hivte	_	_	ADV	_	_	_	_	_	ADVP	hivte	67,19; men-	_	ADVB	_	ADV	_	_	MAINDECL	_	_	VF	62r,20; -rin	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	67,19; men-	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	_	LK	62r,20; -rin	_
+3	ze#ſtorit	_	_	ADJD	_	_	_	_	_	VP	zeſtorit	67,19; men-	NF	INF	_	VVPSD	_	RE	MAINDECL	RK	_	RK	62r,20; -rin	_
+4	div	_	_	ART	_	_	_	_	_	NP	div	67,19; men-	NF	SUBJ	NEW_	DDA	_	_	MAINDECL	_	_	NF	62r,20; -rin	UNLINK
+5	vanchnuſſe	_	_	NN	_	_	_	_	_	NP	vanchnuſſe	67,19; men-	NF	SUBJ	NEW_	NA	_	_	MAINDECL	_	_	NF	62r,20; -rin	UNLINK
+6	deſ	_	_	ART	_	_	_	_	_	NP	deſ	67,19; men-	NF	ATTR	_ACC-UNI-UNUSED	DDA	_	_	MAINDECL	_	_	NF	62r,21	UNLINK
+7	menniſchlichin	_	_	ADJA	_	_	_	_	_	NP	menniſchlichin	67,19; men-	NF	ATTR	_ACC-UNI-UNUSED	ADJ	_	_	MAINDECL	_	_	NF	62r,21	UNLINK
+8	geſlahtiſ	_	_	NN	_	_	_	_	_	NP	geſlahtiſ	67,20; -niſchlichin 	NF	ATTR	_ACC-UNI-UNUSED	NA	_	_	MAINDECL	_	_	NF	62r,21	UNLINK
+9	.	_	_	$.	_	_	_	_	_	_	.	67,20; -niſchlichin 	_	_	_	$_	_	_	MAINDECL	_	_	_	62r,21	_
+
+# sent_id = 2
+# text = Alſo iſt geſchribin an dem heiligim ewang(e)lio. Vbi e(ſt) theſaur(uſ) tuuſ ibi e(ſt) et cor tuu(m).
+1	Alſo	_	_	ADV	_	_	_	_	_	ADVP	Alſo	67,21	_	ADVB	_	ADV	_	_	MAINDECL	_	_	VF	62v,01; geſchri-	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	67,21	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	_	LK	62v,01; geſchri-	_
+3	geſchribin	_	_	VVPP	_	_	_	_	_	VP	geſchribin	67,21	_	INF	_	VVPP	_	RE	MAINDECL	RK	_	RK	62v,01; geſchri-	_
+4	an	_	_	APPR	_	_	_	_	_	PP	an	67,22	BGR	PP-ADV	ACC-UNI-UNUSED	APPR	_	_	MAINDECL	_	_	NF	62v,02; -bin	UNLINK
+5	dem	_	_	ART	_	_	_	_	_	PP	dem	67,22	BGR	PP-ADV	ACC-UNI-UNUSED	DDA	_	_	MAINDECL	_	_	NF	62v,02; -bin	UNLINK
+6	heiligim	_	_	ADJA	_	_	_	_	_	PP	heiligim	67,22	BGR	PP-ADV	ACC-UNI-UNUSED	ADJ	_	_	MAINDECL	_	_	NF	62v,02; -bin	UNLINK
+7	ewang(e)lio	_	_	NN	_	_	_	_	_	PP	ewang(e)lio	67,22	BGR	PP-ADV	ACC-UNI-UNUSED	NA	(e)	_	MAINDECL	_	_	NF	62v,02; -bin	UNLINK
+8	.	_	_	$.	_	_	_	_	_	_	.	67,22	_	_	_	$_	_	_	MAINDECL	_	_	NF	62v,02; -bin	_
+9	Vbi	_	_	FM	_	_	_	_	_	_	Vbi	67,22	_	SUBJ-SATZ	_	FM	_	_	MAINDECL	_	Latein	NF	62v,02; -bin	_
+10	e(ſt)	_	_	FM	_	_	_	_	_	_	e(ſt)	67,22	_	SUBJ-SATZ	_	FM	(ſt)	_	MAINDECL	_	Latein	NF	62v,02; -bin	_
+11	theſaur(uſ)	_	_	FM	_	_	_	_	_	_	theſaur(uſ)	67,22	_	SUBJ-SATZ	_	FM	(uſ)	_	MAINDECL	_	Latein	NF	62v,02; -bin	_
+12	tuuſ	_	_	FM	_	_	_	_	_	_	tuuſ	67,22	_	SUBJ-SATZ	_	FM	_	_	MAINDECL	_	Latein	NF	_	_
+13	ibi	_	_	FM	_	_	_	_	_	_	ibi	67,22	_	SUBJ-SATZ	_	FM	_	_	MAINDECL	_	Latein	NF	_	_
+14	e(ſt)	_	_	FM	_	_	_	_	_	_	e(ſt)	67,23	_	SUBJ-SATZ	_	FM	(ſt)	_	MAINDECL	_	Latein	NF	_	_
+15	et	_	_	FM	_	_	_	_	_	_	et	67,23	_	SUBJ-SATZ	_	FM	_	_	MAINDECL	_	Latein	NF	_	_
+16	cor	_	_	FM	_	_	_	_	_	_	cor	67,23	_	SUBJ-SATZ	_	FM	_	_	MAINDECL	_	Latein	NF	_	_
+17	tuu(m)	_	_	FM	_	_	_	_	_	_	tuu(m)	67,23	_	SUBJ-SATZ	_	FM	(m)	_	MAINDECL	_	Latein	NF	_	_
+18	.	_	_	FM	_	_	_	_	_	_	.	67,23	_	_	_	FM	_	_	MAINDECL	_	Latein	_	_	_

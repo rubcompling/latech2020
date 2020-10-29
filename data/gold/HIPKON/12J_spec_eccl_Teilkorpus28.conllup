@@ -1,0 +1,19 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Unſ iſt geheizzin daz himilriche.
+1	Unſ	_	_	PPER	_	_	_	_	_	NP	Unſ	71,3	_	IO-DAT	_	PPER	_	MAINDECL	_	VF	65v,12; himil-	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	71,3	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	65v,12; himil-	_	_
+3	geheizzin	_	_	VVPP	_	_	_	_	_	VP	geheizzin	71,3	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	65v,12; himil-	_	_
+4	daz	_	_	ART	_	_	_	_	_	NP	daz	71,3	NF	SUBJ	ACC-UNI-USED-X	DDA	_	MAINDECL	_	NF	65v,12; himil-	UNLINK	KOREF1
+5	himilriche	_	_	NN	_	_	_	_	_	NP	himilriche	71,3	NF	SUBJ	ACC-UNI-USED-X	NA	_	MAINDECL	_	NF	65v,12; himil-	UNLINK	KOREF1
+6	.	_	_	$.	_	_	_	_	_	_	.	71,3	_	_	_	$_	_	MAINDECL	_	_	65v,13; -riche	_	_
+
+# sent_id = 2
+# text = Unſ iſt geheizzen div ewige vroͮde.
+1	Unſ	_	_	PPER	_	_	_	_	_	NP	Unſ	71,3	_	IO-DAT	_	PPER	_	MAINDECL	_	VF	65v,13; -riche	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	71,4	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	65v,13; -riche	_	_
+3	geheizzen	_	_	VVPP	_	_	_	_	_	VP	geheizzen	71,4	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	65v,13; -riche	_	_
+4	div	_	_	ART	_	_	_	_	_	NP	div	71,4	NF	SUBJ	ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	NF	65v,13; -riche	UNLINK	KOREF1
+5	ewige	_	_	ADJA	_	_	_	_	_	NP	ewige	71,4	NF	SUBJ	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	65v,13; -riche	UNLINK	KOREF1
+6	vroͮde	_	_	NN	_	_	_	_	_	NP	vroͮde	71,4	NF	SUBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	65v,13; -riche	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	71,4	_	_	_	$_	_	MAINDECL	_	_	65v,13; -riche	_	_

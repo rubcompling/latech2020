@@ -1,0 +1,40 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = guͦt luͥte muͦſſen ſí vmb vͥn(=)ſern h'rē erwerben die ſelbē gnade.
+1	guͦt	_	_	ADJA	_	_	_	_	_	NP	guͦt	276,24	_	SUBJ	_	_	ADJ	_	MAINDECL	_	VF	54rb,08	_
+2	luͥte	_	_	NN	_	_	_	_	_	NP	luͥte	276,24	_	SUBJ	_	_	NA	_	MAINDECL	_	VF	54rb,09; vͥn-	_
+3	muͦſſen	_	_	VMFIN	_	_	_	_	_	VP	muͦſſen	276,24	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	54rb,09; vͥn-	_
+4	ſí	_	_	PPER	_	_	_	_	_	NP	ſí	276,24	_	DO	_	_	PPER	_	MAINDECL	_	MF	54rb,09; vͥn-	_
+5	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	276,24	_	PP-ADV	_	CF	APPR	_	MAINDECL	_	MF	54rb,09; vͥn-	_
+6	vͥn(=)ſern	_	_	PPOSAT	_	_	_	_	_	PP	vͥnſern	276,24	_	PP-ADV	_	CF	DPOS	_	MAINDECL	_	MF	54rb,09; vͥn-	_
+7	h'rē	_	_	NN	_	_	_	_	_	PP	h'rē	276,25	_	PP-ADV	_	CF	NA	_	MAINDECL	_	MF	54rb,10; -ſern	_
+8	erwerben	_	_	VVINF	_	_	_	_	_	VP	erwerben	276,25	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	54rb,10; -ſern	_
+9	die	_	_	ART	_	_	_	_	_	NP	die	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	DDA	_	MAINDECL	_	NF	54rb,10; -ſern	LINK_APPOS
+10	ſelbē	_	_	ADJA	_	_	_	_	_	NP	ſelbē	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	ADJ	_	MAINDECL	_	NF	54rb,11	LINK_APPOS
+11	gnade	_	_	NN	_	_	_	_	_	NP	gnade	276,25	BGR	APPOS	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	54rb,11	LINK_APPOS
+12	.	_	_	$.	_	_	_	_	_	_	.	276,25	_	_	_	_	$_	_	MAINDECL	_	_	54rb,11	_
+
+# sent_id = 2
+# text = ſo ſolt du doch gan an alle die ſtette
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	277,16	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	55ra,17	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	277,16	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	55ra,17	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	277,16	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	55ra,17	_
+4	doch	_	_	ADV	_	_	_	_	_	ADVP	doch	277,16	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	55ra,17	_
+5	gan	_	_	VVINF	_	_	_	_	_	VP	gan	277,16	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	55ra,17	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	277,16	NF	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	55ra,17	UNLINK
+7	alle	_	_	ADJA	_	_	_	_	_	PP	alle	277,16	NF	PP-DIR	_	_	ADJ	_	MAINDECL	_	NF	55ra,17	UNLINK
+8	die	_	_	ART	_	_	_	_	_	PP	die	277,16	NF	PP-DIR	_	_	DDA	_	MAINDECL	_	NF	55ra,18	UNLINK
+9	ſtette	_	_	NN	_	_	_	_	_	PP	ſtette	277,16	NF	PP-DIR	NEW	_	NA	_	MAINDECL	_	NF	55ra,18	UNLINK
+
+# sent_id = 3
+# text = es muͦz v'golten werden vnz vf daz iungſte ort.
+1	es	_	_	PPER	_	_	_	_	_	NP	es	278,02; ver-	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	55vb,18	_
+2	muͦz	_	_	VMFIN	_	_	_	_	_	VP	muͦz	278,02; ver-	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	55vb,18	_
+3	v'golten	_	_	VVPP	_	_	_	_	_	VP	v'golten	278,02; ver-	_	INF	_	_	VVPP	_	MAINDECL	RK	RK	55vb,18	_
+4	werden	_	_	VAINF	_	_	_	_	_	VP	werden	278,03; -golten	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	55vb,18	_
+5	vnz	_	_	APPR	_	_	_	_	_	PP	vnz	278,03; -golten	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	55vb,19	UNLINK
+6	vf	_	_	APPR	_	_	_	_	_	PP	vf	278,03; -golten	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	55vb,19	UNLINK
+7	daz	_	_	ART	_	_	_	_	_	PP	daz	278,03; -golten	NF	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	55vb,19	UNLINK
+8	iungſte	_	_	ADJA	_	_	_	_	_	PP	iungſte	278,03; -golten	NF	PP-ADV	NA	_	ADJ	_	MAINDECL	_	NF	55vb,19	UNLINK
+9	ort	_	_	NN	_	_	_	_	_	PP	ort	278,03; -golten	NF	PP-ADV	NA	_	NA	_	MAINDECL	_	NF	55vb,19	UNLINK
+10	.	_	_	$.	_	_	_	_	_	_	.	278,03; -golten	_	_	_	_	$_	_	MAINDECL	_	_	55vb,19	_

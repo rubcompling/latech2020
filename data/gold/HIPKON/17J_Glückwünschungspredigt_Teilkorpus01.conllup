@@ -1,0 +1,30 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = es muͤſſe wol gehen denen / die dich lieben /
+1	es	_	_	PPER	_	_	_	_	_	NP	es	_	EXPL	_	PPER	_	MAINDECL	_	VF	10,15	_	_
+2	muͤſſe	_	_	VMFIN	_	_	_	_	_	VP	muͤſſe	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	10,16	_	_
+3	wol	_	_	ADJD	_	_	_	_	_	ADVP	wol	_	ADVB	_	ADJD	_	MAINDECL	_	MF	10,16	_	_
+4	gehen	_	_	VVINF	_	_	_	_	_	VP	gehen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	10,16	_	_
+5	denen	_	_	PDS	_	_	_	_	_	NP	denen	NF	IO-DAT	NEW	DDS	_	MAINDECL	_	NF	10,16	UNLINK	KOREF1-REL
+6	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	$_	_	MAINDECL	_	NF	10,16	UNLINK	_
+7	die	_	_	PRELS	_	_	_	_	_	CP	die	NF	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	10,16	UNLINK	KOREF2-REL
+8	dich	_	_	PPER	_	_	_	_	_	CP	dich	NF	ATTR	_	PPER	_	MAINDECL	_	NF-MF	10,16	UNLINK	_
+9	lieben	_	_	VVFIN	_	_	_	_	_	CP	lieben	NF	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	10,16	UNLINK	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	10,16	_	_
+
+# sent_id = 2
+# text = es muͤſſe fried ſein in̄-wendig deinen Mauren / vnd glück inn deinen Pallaͤſten /
+1	es	_	_	PPER	_	_	_	_	_	NP	es	_	EXPL	_	PPER	_	MAINDECL	_	VF	10,16	_	_
+2	muͤſſe	_	_	VMFIN	_	_	_	_	_	VP	muͤſſe	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	10,16	_	_
+3	fried	_	_	NN	_	_	_	_	_	NP	fried	_	SUBJ	_	NA	_	MAINDECL	_	MF	10,16	_	_
+4	ſein	_	_	VAINF	_	_	_	_	_	VP	ſein	_	INF	_	VAINF	RE	MAINDECL	RK	RK	10,16	_	_
+5	in̄-wendig	_	_	ADV	_	_	_	_	_	PP	in̄wendig	NF_	PP-ADV	_	ADV	_	MAINDECL	_	NF	10,16	UNLINK	_
+6	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF_	PP-ADV	NEW	DPOS	_	MAINDECL	_	NF	10,17	UNLINK	KOREF1
+7	Mauren	_	_	NN	_	_	_	_	_	PP	Mauren	NF_	PP-ADV	NEW	NA	_	MAINDECL	_	NF	10,17	UNLINK	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	NF	10,17	_	_
+9	vnd	_	_	KON	_	_	_	_	_	_	vnd	BGR_	_	_	KON	_	MAINDECL	_	NF	10,17	LINK_SYM	_
+10	glück	_	_	NN	_	_	_	_	_	NP	glück	BGR_	SUBJ	ACC-ABSTR-USED-1_	NA	_	MAINDECL	_	NF	10,17	LINK_SYM	_
+11	inn	_	_	APPR	_	_	_	_	_	PP	inn	NF_	PP-ADV	_	APPR	_	MAINDECL	_	NF	10,17	LINK_SYM	_
+12	deinen	_	_	PPOSAT	_	_	_	_	_	PP	deinen	NF_	PP-ADV	_NEW	DPOS	_	MAINDECL	_	NF	10,17	LINK_SYM	KOREF1
+13	Pallaͤſten	_	_	NN	_	_	_	_	_	PP	Pallaͤſten	NF_	PP-ADV	_NEW	NA	_	MAINDECL	_	NF	10,17	LINK_SYM	KOREF1
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	10,17	_	_

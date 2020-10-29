@@ -1,0 +1,601 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 8
+# text = Inſerute werden in der Verwaltung der „ Reichspoſt “ VIII. Strozzigaſſe 42 , I. Schulerſtraße 21 , ſowie in allen Annoncenbureaus des In- und Auslandes angenommen .
+1	Inſerute	Inserat	_	NN	_	_	_	_	_	_	VF
+2	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+3	in	in	_	APPR	_	_	_	_	_	_	MF
+4	der	d	_	ART	_	_	_	_	_	_	MF
+5	Verwaltung	Verwaltung	_	NN	_	_	_	_	_	_	MF
+6	der	d	_	ART	_	_	_	_	_	_	MF
+7	„	"	_	$(	_	_	_	_	_	_	MF
+8	Reichspoſt	Reichspost	_	NN	_	_	_	_	_	_	MF
+9	“	"	_	$(	_	_	_	_	_	_	MF
+10	VIII.	Viii.	_	CARD	_	_	_	_	_	_	MF
+11	Strozzigaſſe	Strozzigasse	_	NE	_	_	_	_	_	_	MF
+12	42	42	_	CARD	_	_	_	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	I.	i.	_	CARD	_	_	_	_	_	_	MF
+15	Schulerſtraße	Schulerstraße	_	NN	_	_	_	_	_	_	MF
+16	21	21	_	CARD	_	_	_	_	_	_	MF
+17	,	,	_	$,	_	_	_	_	_	_	MF
+18	ſowie	sowie	_	KON	_	_	_	_	_	_	MF
+19	in	in	_	APPR	_	_	_	_	_	_	MF
+20	allen	alle	_	PIAT	_	_	_	_	_	_	MF
+21	Annoncenbureaus	Annoncenbureaus	_	NN	_	_	_	_	_	_	MF
+22	des	d	_	ART	_	_	_	_	_	_	MF
+23	In-	in-	_	TRUNC	_	_	_	_	_	_	MF
+24	und	und	_	KON	_	_	_	_	_	_	MF
+25	Auslandes	Ausland	_	NN	_	_	_	_	_	_	MF
+26	angenommen	annehmen	_	VVPP	_	_	_	_	_	RK	RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 21
+# text = Dr. Weiskirchner mit 129 Stimmen gewählt .
+1	Dr.	Dr.	_	NN	_	_	_	_	_	_	MF
+2	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	_	MF
+3	mit	mit	_	APPR	_	_	_	_	_	_	MF
+4	129	129	_	CARD	_	_	_	_	_	_	MF
+5	Stimmen	Stimme	_	NN	_	_	_	_	_	_	MF
+6	gewählt	wählen	_	VVPP	_	_	_	_	_	RK	RK
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 22
+# text = Die Stadt Wien hat heute vormittag nach nicht einmal einer Woche während dem Interregnum ein neues Oberhaupt erhalten .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Stadt	Stadt	_	NN	_	_	_	_	_	_	VF
+3	Wien	Wien	_	NE	_	_	_	_	_	_	VF
+4	hat	haben	_	VAFIN	_	_	_	_	_	RK	RK
+5	heute	heute	_	ADV	_	_	_	_	_	_	MF
+6	vormittag	vormittag	_	ADV	_	_	_	_	_	_	MF
+7	nach	nach	_	APPR	_	_	_	_	_	_	MF
+8	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+9	einmal	einmal	_	ADV	_	_	_	_	_	_	MF
+10	einer	eine	_	ART	_	_	_	_	_	_	MF
+11	Woche	Woche	_	NN	_	_	_	_	_	_	MF
+12	während	während	_	APPR	_	_	_	_	_	_	MF
+13	dem	d	_	ART	_	_	_	_	_	_	MF
+14	Interregnum	Interregnum	_	NN	_	_	_	_	_	_	MF
+15	ein	eine	_	ART	_	_	_	_	_	_	MF
+16	neues	neu	_	ADJA	_	_	_	_	_	_	MF
+17	Oberhaupt	Oberhaupt	_	NN	_	_	_	_	_	_	MF
+18	erhalten	erhalten	_	VVPP	_	_	_	_	_	RK	RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 23
+# text = Dr. Richard Weiskirchner , von Dr. Lueger zu ſeinem Nachfolger und für die Voll-<lb/>endung der von Lueger begonnenen Werke beſtimmt , wurde von der geſamten Majorität einſtimmig zum Bürgermeiſter gewählt .
+1	Dr.	Dr.	_	NN	_	_	_	_	_	_	VF
+2	Richard	Richard	_	NE	_	_	_	_	_	_	VF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	_	VF
+4	,	,	_	$,	_	_	_	_	_	_	VF
+5	von	von	_	APPR	_	_	_	_	_	_	VF-MF
+6	Dr.	Dr.	_	NN	_	_	_	_	_	_	VF-MF
+7	Lueger	Lüger	_	NE	_	_	_	_	_	_	VF-MF
+8	zu	zu	_	APPR	_	_	_	_	_	_	VF-MF
+9	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	VF-MF
+10	Nachfolger	Nachfolger	_	NN	_	_	_	_	_	_	VF-MF
+11	und	und	_	KON	_	_	_	_	_	_	VF-MF
+12	für	für	_	APPR	_	_	_	_	_	_	VF-MF
+13	die	d	_	ART	_	_	_	_	_	_	VF-MF
+14	Voll-<lb/>endung	Vollendung	_	NN	_	_	_	_	_	_	VF-MF
+15	der	d	_	ART	_	_	_	_	_	_	VF-MF
+16	von	von	_	APPR	_	_	_	_	_	_	VF-MF
+17	Lueger	Lüger	_	NN	_	_	_	_	_	_	VF-MF
+18	begonnenen	beginnen	_	ADJA	_	_	_	_	_	_	VF-MF
+19	Werke	Werk	_	NN	_	_	_	_	_	_	VF-MF
+20	beſtimmt	bestimmen	_	VVPP	_	_	_	_	_	RK	VF-RK
+21	,	,	_	$,	_	_	_	_	_	_	_
+22	wurde	werden	_	VAFIN	_	_	_	_	_	LK	LK
+23	von	von	_	APPR	_	_	_	_	_	_	MF
+24	der	d	_	ART	_	_	_	_	_	_	MF
+25	geſamten	gesamt	_	ADJA	_	_	_	_	_	_	MF
+26	Majorität	Majorität	_	NN	_	_	_	_	_	_	MF
+27	einſtimmig	einstimmig	_	ADJD	_	_	_	_	_	_	MF
+28	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+29	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	_	MF
+30	gewählt	wählen	_	VVPP	_	_	_	_	_	RK	RK
+31	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 24
+# text = Den Vorſchriften des Statuts gehorchend waren alle Gemeinderäte zur Wahl gekommen , die nicht Krank-<lb/>heit oder vorher bewilligter Urlaub entſchuldigt hatten .
+1	Den	d	_	ART	_	_	_	_	_	_	VF
+2	Vorſchriften	Vorschrift	_	NN	_	_	_	_	_	_	VF
+3	des	d	_	ART	_	_	_	_	_	_	VF
+4	Statuts	Statut	_	NN	_	_	_	_	_	_	VF
+5	gehorchend	gehorchen	_	VVPP	_	_	_	_	_	RK	VF-RK
+6	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+7	alle	alle	_	PIAT	_	_	_	_	_	_	MF
+8	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	_	MF
+9	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+10	Wahl	Wahl	_	NN	_	_	_	_	_	_	MF
+11	gekommen	kommen	_	VVPP	_	_	_	_	_	RK	RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+14	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-MF
+15	Krank-<lb/>heit	Krankheit	_	NN	_	_	_	_	_	_	NF-MF
+16	oder	oder	_	KON	_	_	_	_	_	_	NF-MF
+17	vorher	vorher	_	ADV	_	_	_	_	_	_	NF-MF
+18	bewilligter	bewilligt	_	ADJA	_	_	_	_	_	_	NF-MF
+19	Urlaub	Urlaub	_	NN	_	_	_	_	_	_	NF-MF
+20	entſchuldigt	entschuldigen	_	VVPP	_	_	_	_	_	RK	NF-RK
+21	hatten	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 25
+# text = Das Statut verlangt bekanntlich auch , daß die Ge-<lb/>meinderäte während der Dauer der Wahl im Saale verbleiben und ſieht den Mandatsverluſt als Strafe für die Verletzung dieſer Beſtimmungen vor .
+1	Das	d	_	ART	_	_	_	_	_	_	VF
+2	Statut	Statut	_	NN	_	_	_	_	_	_	VF
+3	verlangt	verlangen	_	VVFIN	_	_	_	_	_	LK	LK
+4	bekanntlich	bekanntlich	_	ADV	_	_	_	_	_	_	MF
+5	auch	auch	_	ADV	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	die	d	_	ART	_	_	_	_	_	_	NF-MF
+9	Ge-<lb/>meinderäte	Gemeinderat	_	NN	_	_	_	_	_	_	NF-MF
+10	während	während	_	APPR	_	_	_	_	_	_	NF-MF
+11	der	d	_	ART	_	_	_	_	_	_	NF-MF
+12	Dauer	Dauer	_	NN	_	_	_	_	_	_	NF-MF
+13	der	d	_	ART	_	_	_	_	_	_	NF-MF
+14	Wahl	Wahl	_	NN	_	_	_	_	_	_	NF-MF
+15	im	im	_	APPRART	_	_	_	_	_	_	NF-MF
+16	Saale	Saal	_	NN	_	_	_	_	_	_	NF-MF
+17	verbleiben	verbleiben	_	VVINF	_	_	_	_	_	RK	NF-RK
+18	und	und	_	KON	_	_	_	_	_	_	KOORD
+19	ſieht	sehen	_	VVFIN	_	_	_	_	_	LK	LK
+20	den	d	_	ART	_	_	_	_	_	_	MF
+21	Mandatsverluſt	Mandatsverlust	_	NN	_	_	_	_	_	_	MF
+22	als	als	_	KOKOM	_	_	_	_	_	_	MF
+23	Strafe	Strafe	_	NN	_	_	_	_	_	_	MF
+24	für	für	_	APPR	_	_	_	_	_	_	MF
+25	die	d	_	ART	_	_	_	_	_	_	MF
+26	Verletzung	Verletzung	_	NN	_	_	_	_	_	_	MF
+27	dieſer	diese	_	PDAT	_	_	_	_	_	_	MF
+28	Beſtimmungen	Bestimmung	_	NN	_	_	_	_	_	_	MF
+29	vor	vor	_	PTKVZ	_	_	_	_	_	RK	RK
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 26
+# text = Es waren denn auch faſt alle Gemeinderäte zur Wahl erſchienen , die Chriſtlichſozialen im Feſtkleid und mit der weißen Nelke geſchmückt .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	denn	denn	_	ADV	_	_	_	_	_	_	MF
+4	auch	auch	_	ADV	_	_	_	_	_	_	MF
+5	faſt	fast	_	ADV	_	_	_	_	_	_	MF
+6	alle	alle	_	PIAT	_	_	_	_	_	_	MF
+7	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	_	MF
+8	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+9	Wahl	Wahl	_	NN	_	_	_	_	_	_	MF
+10	erſchienen	erscheinen	_	VVPP	_	_	_	_	_	RK	RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	die	d	_	ART	_	_	_	_	_	_	NF
+13	Chriſtlichſozialen	Christlichsoziale	_	NN	_	_	_	_	_	_	NF
+14	im	im	_	APPRART	_	_	_	_	_	_	NF
+15	Feſtkleid	Festkleid	_	NN	_	_	_	_	_	_	NF
+16	und	und	_	KON	_	_	_	_	_	_	NF
+17	mit	mit	_	APPR	_	_	_	_	_	_	NF
+18	der	d	_	ART	_	_	_	_	_	_	NF
+19	weißen	weiß	_	ADJA	_	_	_	_	_	_	NF
+20	Nelke	Nelke	_	NN	_	_	_	_	_	_	NF
+21	geſchmückt	schmücken	_	VVPP	_	_	_	_	_	RK	NF-RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 27
+# text = Die Galerien waren bis auf das letzte Plätzchen gefüllt .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Galerien	Galerie	_	NN	_	_	_	_	_	_	VF
+3	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	bis	bis	_	ADV	_	_	_	_	_	_	MF
+5	auf	auf	_	APPR	_	_	_	_	_	_	MF
+6	das	d	_	ART	_	_	_	_	_	_	MF
+7	letzte	letzte	_	ADJA	_	_	_	_	_	_	MF
+8	Plätzchen	Plätzchen	_	NN	_	_	_	_	_	_	MF
+9	gefüllt	füllen	_	VVPP	_	_	_	_	_	RK	RK
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 28
+# text = Im Saale waren auch die Bezirksvorſteher und die Direktoren der ſtädtiſchen Unternehmungen und die Beamten des Präſidialbureaus anweſend .
+1	Im	im	_	APPRART	_	_	_	_	_	_	VF
+2	Saale	Saal	_	NN	_	_	_	_	_	_	VF
+3	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	auch	auch	_	ADV	_	_	_	_	_	_	MF
+5	die	d	_	ART	_	_	_	_	_	_	MF
+6	Bezirksvorſteher	Bezirksvorsteher	_	NN	_	_	_	_	_	_	MF
+7	und	und	_	KON	_	_	_	_	_	_	MF
+8	die	d	_	ART	_	_	_	_	_	_	MF
+9	Direktoren	Direktor	_	NN	_	_	_	_	_	_	MF
+10	der	d	_	ART	_	_	_	_	_	_	MF
+11	ſtädtiſchen	städtisch	_	ADJA	_	_	_	_	_	_	MF
+12	Unternehmungen	Unternehmung	_	NN	_	_	_	_	_	_	MF
+13	und	und	_	KON	_	_	_	_	_	_	MF
+14	die	d	_	ART	_	_	_	_	_	_	MF
+15	Beamten	Beamte	_	NN	_	_	_	_	_	_	MF
+16	des	d	_	ART	_	_	_	_	_	_	MF
+17	Präſidialbureaus	Präsidialbureaus	_	NN	_	_	_	_	_	_	MF
+18	anweſend	anwesend	_	ADJD	_	_	_	_	_	_	MF
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 29
+# text = Um ¼11 Uhr eröffnete der erſte Vizebürgermeiſter Dr. Porzer die denkwürdige Sitzung .
+1	Um	um	_	APPR	_	_	_	_	_	_	VF
+2	¼11	1/411	_	CARD	_	_	_	_	_	_	VF
+3	Uhr	Uhr	_	NN	_	_	_	_	_	_	VF
+4	eröffnete	eröffnen	_	VVFIN	_	_	_	_	_	LK	LK
+5	der	d	_	ART	_	_	_	_	_	_	MF
+6	erſte	erst	_	ADJA	_	_	_	_	_	_	MF
+7	Vizebürgermeiſter	Vizebürgermeister	_	NN	_	_	_	_	_	_	MF
+8	Dr.	Dr.	_	NN	_	_	_	_	_	_	MF
+9	Porzer	Porzer	_	NE	_	_	_	_	_	_	MF
+10	die	d	_	ART	_	_	_	_	_	_	MF
+11	denkwürdige	denkwürdig	_	ADJA	_	_	_	_	_	_	MF
+12	Sitzung	Sitzung	_	NN	_	_	_	_	_	_	MF
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 30
+# text = Der Wahlakt , eine ſchriftliche Abſtimmung , an der ſich auch die Oppoſition beteiligte , verlief in vollſter Ruhe .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Wahlakt	Wahlakt	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	eine	eine	_	ART	_	_	_	_	_	_	VF
+5	ſchriftliche	schriftlich	_	ADJA	_	_	_	_	_	_	VF
+6	Abſtimmung	Abstimmung	_	NN	_	_	_	_	_	_	VF
+7	,	,	_	$,	_	_	_	_	_	_	VF
+8	an	an	_	APPR	_	_	_	_	_	LK	VF-LK
+9	der	die	_	PRELS	_	_	_	_	_	LK	VF-LK
+10	ſich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+11	auch	auch	_	ADV	_	_	_	_	_	_	VF-MF
+12	die	d	_	ART	_	_	_	_	_	_	VF-MF
+13	Oppoſition	Opposition	_	NN	_	_	_	_	_	_	VF-MF
+14	beteiligte	beteiligen	_	VVFIN	_	_	_	_	_	RK	VF-RK
+15	,	,	_	$,	_	_	_	_	_	_	_
+16	verlief	verlaufen	_	VVFIN	_	_	_	_	_	LK	LK
+17	in	in	_	APPR	_	_	_	_	_	_	MF
+18	vollſter	voll	_	ADJA	_	_	_	_	_	_	MF
+19	Ruhe	Ruhe	_	NN	_	_	_	_	_	_	MF
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 31
+# text = Die Sozialdemokraten und Liberalen beteiligten ſich an der Wahl , die erſteren gaben ihrem Klubobmann Reumann die Stimme , die Liberalen bemerkens-<lb/>werterweiſe ihrem früheren Klubobmann Dr. Ritter v. Dorn .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Sozialdemokraten	Sozialdemokrat	_	NN	_	_	_	_	_	_	VF
+3	und	und	_	KON	_	_	_	_	_	_	VF
+4	Liberalen	Liberale	_	NN	_	_	_	_	_	_	VF
+5	beteiligten	beteiligen	_	VVFIN	_	_	_	_	_	LK	LK
+6	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+7	an	an	_	APPR	_	_	_	_	_	_	MF
+8	der	d	_	ART	_	_	_	_	_	_	MF
+9	Wahl	Wahl	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	die	d	_	ART	_	_	_	_	_	_	VF
+12	erſteren	erstere	_	NN	_	_	_	_	_	_	VF
+13	gaben	geben	_	VVFIN	_	_	_	_	_	LK	LK
+14	ihrem	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+15	Klubobmann	Klubobmann	_	NN	_	_	_	_	_	_	MF
+16	Reumann	Reumann	_	NE	_	_	_	_	_	_	MF
+17	die	d	_	ART	_	_	_	_	_	_	MF
+18	Stimme	Stimme	_	NN	_	_	_	_	_	_	MF
+19	,	,	_	$,	_	_	_	_	_	_	_
+20	die	d	_	ART	_	_	_	_	_	_	VF
+21	Liberalen	Liberale	_	NN	_	_	_	_	_	_	VF
+22	bemerkens-<lb/>werterweiſe	bemerkenswerterweise	_	ADV	_	_	_	_	_	_	MF
+23	ihrem	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+24	früheren	früh	_	ADJA	_	_	_	_	_	_	MF
+25	Klubobmann	Klubobmann	_	NN	_	_	_	_	_	_	MF
+26	Dr.	Dr.	_	NN	_	_	_	_	_	_	MF
+27	Ritter	Ritter	_	NE	_	_	_	_	_	_	MF
+28	v.	v.	_	APPR	_	_	_	_	_	_	MF
+29	Dorn	Dorn	_	NE	_	_	_	_	_	_	MF
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 32
+# text = Als Dr. Weiskirchner , der auf ſeinem Platz in der erſten Reihe ſaß , die 80. Stimme erhalten und damit die qualifizierte Mehrheit erreicht hatte , ertönte lebhafter Beifall im Saale , der ſich bei der Abgabe der 100. Stimme für Dr. Weis-<lb/>kirchner erneuerte und ſich dann zu ſtürmiſchen Ovationen für den neuen Bürgermeiſter verſtärkte als das Wahlergebnis verkündet wurde .
+1	Als	als	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	Dr.	Dr.	_	NN	_	_	_	_	_	_	VF-MF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	_	VF-MF
+4	,	,	_	$,	_	_	_	_	_	_	VF-MF
+5	der	die	_	PRELS	_	_	_	_	_	LK	VF-MF-LK
+6	auf	auf	_	APPR	_	_	_	_	_	_	VF-MF-MF
+7	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	VF-MF-MF
+8	Platz	Platz	_	NN	_	_	_	_	_	_	VF-MF-MF
+9	in	in	_	APPR	_	_	_	_	_	_	VF-MF-MF
+10	der	d	_	ART	_	_	_	_	_	_	VF-MF-MF
+11	erſten	erst	_	ADJA	_	_	_	_	_	_	VF-MF-MF
+12	Reihe	Reihe	_	NN	_	_	_	_	_	_	VF-MF-MF
+13	ſaß	sitzen	_	VVFIN	_	_	_	_	_	RK	VF-MF-RK
+14	,	,	_	$,	_	_	_	_	_	_	VF-MF
+15	die	d	_	ART	_	_	_	_	_	_	VF-MF
+16	80.	80.	_	ADJA	_	_	_	_	_	_	VF-MF
+17	Stimme	Stimme	_	NN	_	_	_	_	_	_	VF-MF
+18	erhalten	erhalten	_	VVINF	_	_	_	_	_	RK	VF-RK
+19	und	und	_	KON	_	_	_	_	_	_	VF-KOORD
+20	damit	damit	_	PAV	_	_	_	_	_	_	VF-MF
+21	die	d	_	ART	_	_	_	_	_	_	VF-MF
+22	qualifizierte	qualifiziert	_	ADJA	_	_	_	_	_	_	VF-MF
+23	Mehrheit	Mehrheit	_	NN	_	_	_	_	_	_	VF-MF
+24	erreicht	erreichen	_	VVPP	_	_	_	_	_	RK	VF-RK
+25	hatte	haben	_	VAFIN	_	_	_	_	_	RK	VF-RK
+26	,	,	_	$,	_	_	_	_	_	_	_
+27	ertönte	ertönen	_	VVFIN	_	_	_	_	_	LK	LK
+28	lebhafter	lebhaft	_	ADJD	_	_	_	_	_	_	MF
+29	Beifall	Beifall	_	NN	_	_	_	_	_	_	MF
+30	im	im	_	APPRART	_	_	_	_	_	_	MF
+31	Saale	Saal	_	NN	_	_	_	_	_	_	MF
+32	,	,	_	$,	_	_	_	_	_	_	_
+33	der	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+34	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+35	bei	bei	_	APPR	_	_	_	_	_	_	NF-MF
+36	der	d	_	ART	_	_	_	_	_	_	NF-MF
+37	Abgabe	Abgabe	_	NN	_	_	_	_	_	_	NF-MF
+38	der	d	_	ART	_	_	_	_	_	_	NF-MF
+39	100.	100.	_	ADJA	_	_	_	_	_	_	NF-MF
+40	Stimme	Stimme	_	NN	_	_	_	_	_	_	NF-MF
+41	für	für	_	APPR	_	_	_	_	_	_	NF-MF
+42	Dr.	Dr.	_	NN	_	_	_	_	_	_	NF-MF
+43	Weis-<lb/>kirchner	Weiskirchner	_	NE	_	_	_	_	_	_	NF-MF
+44	erneuerte	erneuern	_	VVFIN	_	_	_	_	_	RK	NF-RK
+45	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+46	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+47	dann	dann	_	ADV	_	_	_	_	_	_	NF-MF
+48	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+49	ſtürmiſchen	stürmisch	_	ADJA	_	_	_	_	_	_	NF-MF
+50	Ovationen	Ovation	_	NN	_	_	_	_	_	_	NF-MF
+51	für	für	_	APPR	_	_	_	_	_	_	NF-MF
+52	den	d	_	ART	_	_	_	_	_	_	NF-MF
+53	neuen	neu	_	ADJA	_	_	_	_	_	_	NF-MF
+54	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	_	NF-MF
+55	verſtärkte	verstärkt	_	VVFIN	_	_	_	_	_	RK	NF-RK
+56	als	als	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+57	das	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+58	Wahlergebnis	Wahlergebnis	_	NN	_	_	_	_	_	_	NF-NF-MF
+59	verkündet	verkünden	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+60	wurde	werden	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+61	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 33
+# text = Die Oppoſition verkieß den Saal und der neugewählte Bürgermeiſter hielt dann ſeine Antrittsrede , die den ſtärkſten Eindruck hatte .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Oppoſition	Opposition	_	NN	_	_	_	_	_	_	VF
+3	verkieß	kiesen	_	VVFIN	_	_	_	_	_	LK	LK
+4	den	d	_	ART	_	_	_	_	_	_	MF
+5	Saal	Saal	_	NN	_	_	_	_	_	_	MF
+6	und	und	_	KON	_	_	_	_	_	_	KOORD
+7	der	d	_	ART	_	_	_	_	_	_	VF
+8	neugewählte	neugewählt	_	ADJA	_	_	_	_	_	_	VF
+9	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	_	VF
+10	hielt	halten	_	VVFIN	_	_	_	_	_	LK	LK
+11	dann	dann	_	ADV	_	_	_	_	_	_	MF
+12	ſeine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+13	Antrittsrede	Antrittsrede	_	NN	_	_	_	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+16	den	d	_	ART	_	_	_	_	_	_	NF-MF
+17	ſtärkſten	stark	_	ADJA	_	_	_	_	_	_	NF-MF
+18	Eindruck	Eindruck	_	NN	_	_	_	_	_	_	NF-MF
+19	hatte	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 34
+# text = Bürgermeiſter Dr. Weiskirchner ſchloß ſeine Rede mit einem pietätvollen und dankbaren Gedenken an Dr. Lueger : „ Möge aus weiten Himmelsfernen Luegers Geiſt ſegnend auf mich herniederſchauen ! “
+1	Bürgermeiſter	Bürgermeister	_	NN	_	_	_	_	_	_	VF
+2	Dr.	Dr.	_	NN	_	_	_	_	_	_	VF
+3	Weiskirchner	Weiskirchner	_	NE	_	_	_	_	_	_	VF
+4	ſchloß	schließen	_	VVFIN	_	_	_	_	_	LK	LK
+5	ſeine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+6	Rede	Rede	_	NN	_	_	_	_	_	_	MF
+7	mit	mit	_	APPR	_	_	_	_	_	_	MF
+8	einem	eine	_	ART	_	_	_	_	_	_	MF
+9	pietätvollen	pietätvoll	_	ADJA	_	_	_	_	_	_	MF
+10	und	und	_	KON	_	_	_	_	_	_	MF
+11	dankbaren	dankbar	_	ADJA	_	_	_	_	_	_	MF
+12	Gedenken	Gedenken	_	NN	_	_	_	_	_	_	MF
+13	an	an	_	APPR	_	_	_	_	_	_	MF
+14	Dr.	Dr.	_	NN	_	_	_	_	_	_	MF
+15	Lueger	Lüger	_	NE	_	_	_	_	_	_	MF
+16	:	:	_	$.	_	_	_	_	_	_	_
+17	„	"	_	$(	_	_	_	_	_	_	NF
+18	Möge	mögen	_	VMFIN	_	_	_	_	_	LK	NF-LK
+19	aus	aus	_	APPR	_	_	_	_	_	_	NF-MF
+20	weiten	weit	_	ADJA	_	_	_	_	_	_	NF-MF
+21	Himmelsfernen	himmelsfern	_	NN	_	_	_	_	_	_	NF-MF
+22	Luegers	Lüger	_	NE	_	_	_	_	_	_	NF-MF
+23	Geiſt	Geist	_	NN	_	_	_	_	_	_	NF-MF
+24	ſegnend	segnen	_	ADJD	_	_	_	_	_	_	NF-MF
+25	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+26	mich	mich	_	PRF	_	_	_	_	_	_	NF-MF
+27	herniederſchauen	herniederschauen	_	VVINF	_	_	_	_	_	RK	NF-RK
+28	!	!	_	$.	_	_	_	_	_	_	NF
+29	“	"	_	$(	_	_	_	_	_	_	NF
+
+# sent_id = 16
+# sent_id(TSV) = 36
+# text = Es war ein ergreifender Moment , als nach dieſem Worte ſofort alle Gemeinderäte zu Dr. Weis-<lb/>kirchner eilten und wie zum Treueſchwur ihm die Hände reichten .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	war	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	ein	eine	_	ART	_	_	_	_	_	_	MF
+4	ergreifender	ergreifend	_	ADJA	_	_	_	_	_	_	MF
+5	Moment	Moment	_	NN	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	als	als	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	nach	nach	_	APPR	_	_	_	_	_	_	NF-MF
+9	dieſem	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+10	Worte	Wort	_	NN	_	_	_	_	_	_	NF-MF
+11	ſofort	sofort	_	ADV	_	_	_	_	_	_	NF-MF
+12	alle	alle	_	PIAT	_	_	_	_	_	_	NF-MF
+13	Gemeinderäte	Gemeinderat	_	NN	_	_	_	_	_	_	NF-MF
+14	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+15	Dr.	Dr.	_	NN	_	_	_	_	_	_	NF-MF
+16	Weis-<lb/>kirchner	Weiskirchner	_	NE	_	_	_	_	_	_	NF-MF
+17	eilten	eilen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+18	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+19	wie	wie	_	KOKOM	_	_	_	_	_	_	NF-MF
+20	zum	zum	_	APPRART	_	_	_	_	_	_	NF-MF
+21	Treueſchwur	Treueschwur	_	NN	_	_	_	_	_	_	NF-MF
+22	ihm	er	_	PPER	_	_	_	_	_	_	NF-MF
+23	die	d	_	ART	_	_	_	_	_	_	NF-MF
+24	Hände	Hand	_	NN	_	_	_	_	_	_	NF-MF
+25	reichten	reichen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 37
+# text = Luegers Geiſt ſchwebte im Saale , der Geiſt der Stärke und Einigkeit , der Luegers Nachfolger und Freunde vereint zu unermüdlicher Arbeit .
+1	Luegers	Lüger	_	NE	_	_	_	_	_	_	VF
+2	Geiſt	Geist	_	NN	_	_	_	_	_	_	VF
+3	ſchwebte	schweben	_	VVFIN	_	_	_	_	_	LK	LK
+4	im	im	_	APPRART	_	_	_	_	_	_	MF
+5	Saale	Saal	_	NN	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	der	d	_	ART	_	_	_	_	_	_	NF
+8	Geiſt	Geist	_	NN	_	_	_	_	_	_	NF
+9	der	d	_	ART	_	_	_	_	_	_	NF
+10	Stärke	Stärke	_	NN	_	_	_	_	_	_	NF
+11	und	und	_	KON	_	_	_	_	_	_	NF
+12	Einigkeit	Einigkeit	_	NN	_	_	_	_	_	_	NF
+13	,	,	_	$,	_	_	_	_	_	_	NF
+14	der	d	_	ART	_	_	_	_	_	LK	NF-LK
+15	Luegers	Lüger	_	NN	_	_	_	_	_	_	NF-MF
+16	Nachfolger	Nachfolger	_	NN	_	_	_	_	_	_	NF-MF
+17	und	und	_	KON	_	_	_	_	_	_	NF-MF
+18	Freunde	Freund	_	NN	_	_	_	_	_	_	NF-MF
+19	vereint	vereinen	_	VVPP	_	_	_	_	_	RK	NF-RK
+20	zu	zu	_	PTKZU	_	_	_	_	_	_	NF-NF
+21	unermüdlicher	unermüdlich	_	ADJA	_	_	_	_	_	_	NF-NF
+22	Arbeit	Arbeit	_	NN	_	_	_	_	_	_	NF-NF
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 38
+# text = An der Spitze ſteht der beſte Kenner der Verwaltung der Stadt Wien , den eine langjährige Tätigkeit in allen Zweigen der Kommunalverwaltung und ſein „ Be-<lb/>fähigungsnachweis “ im Parlament , auf den er heute ſelbſt in ſeiner Rede anſpielte , als den Berufenſten er-<lb/>ſcheinen laſſen , Luegers Lebenswerk weiterzubauen zu Ehren der Stadt Wien und zum Nutzen des Wiener chriſtlichen Volkes .
+1	An	an	_	APPR	_	_	_	_	_	_	VF
+2	der	d	_	ART	_	_	_	_	_	_	VF
+3	Spitze	Spitze	_	NN	_	_	_	_	_	_	VF
+4	ſteht	stehen	_	VVFIN	_	_	_	_	_	LK	LK
+5	der	d	_	ART	_	_	_	_	_	_	MF
+6	beſte	gut	_	ADJA	_	_	_	_	_	_	MF
+7	Kenner	Kenner	_	NN	_	_	_	_	_	_	MF
+8	der	d	_	ART	_	_	_	_	_	_	MF
+9	Verwaltung	Verwaltung	_	NN	_	_	_	_	_	_	MF
+10	der	d	_	ART	_	_	_	_	_	_	MF
+11	Stadt	Stadt	_	NN	_	_	_	_	_	_	MF
+12	Wien	Wien	_	NE	_	_	_	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	_
+14	den	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+15	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+16	langjährige	langjährig	_	ADJA	_	_	_	_	_	_	NF-MF
+17	Tätigkeit	Tätigkeit	_	NN	_	_	_	_	_	_	NF-MF
+18	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+19	allen	alle	_	PIAT	_	_	_	_	_	_	NF-MF
+20	Zweigen	Zweig	_	NN	_	_	_	_	_	_	NF-MF
+21	der	d	_	ART	_	_	_	_	_	_	NF-MF
+22	Kommunalverwaltung	Kommunalverwaltung	_	NN	_	_	_	_	_	_	NF-MF
+23	und	und	_	KON	_	_	_	_	_	_	NF-MF
+24	ſein	sein	_	PPOSAT	_	_	_	_	_	_	NF-MF
+25	„	"	_	$(	_	_	_	_	_	_	NF-MF
+26	Be-<lb/>fähigungsnachweis	Befähigungsnachweis	_	NN	_	_	_	_	_	_	NF-MF
+27	“	"	_	$(	_	_	_	_	_	_	NF-MF
+28	im	im	_	APPRART	_	_	_	_	_	_	NF-MF
+29	Parlament	Parlament	_	NN	_	_	_	_	_	_	NF-MF
+30	,	,	_	$,	_	_	_	_	_	_	NF-MF
+31	auf	auf	_	APPR	_	_	_	_	_	LK	NF-MF-LK
+32	den	die	_	PRELS	_	_	_	_	_	LK	NF-MF-LK
+33	er	er	_	PPER	_	_	_	_	_	_	NF-MF-MF
+34	heute	heute	_	ADV	_	_	_	_	_	_	NF-MF-MF
+35	ſelbſt	selbst	_	ADV	_	_	_	_	_	_	NF-MF-MF
+36	in	in	_	APPR	_	_	_	_	_	_	NF-MF-MF
+37	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	NF-MF-MF
+38	Rede	Rede	_	NN	_	_	_	_	_	_	NF-MF-MF
+39	anſpielte	anspielen	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+40	,	,	_	$,	_	_	_	_	_	_	NF-MF
+41	als	als	_	KOKOM	_	_	_	_	_	_	NF-MF
+42	den	d	_	ART	_	_	_	_	_	_	NF-MF
+43	Berufenſten	berufen	_	NN	_	_	_	_	_	_	NF-MF
+44	er-<lb/>ſcheinen	erscheinen	_	VVINF	_	_	_	_	_	RK	NF-RK
+45	laſſen	lassen	_	VVINF	_	_	_	_	_	RK	NF-RK
+46	,	,	_	$,	_	_	_	_	_	_	NF
+47	Luegers	Lüger	_	NE	_	_	_	_	_	_	NF-NF-MF
+48	Lebenswerk	Lebenswerk	_	NN	_	_	_	_	_	_	NF-NF-MF
+49	weiterzubauen	weiterbauen	_	VVIZU	_	_	_	_	_	RK	NF-NF-RK
+50	zu	zu	_	APPR	_	_	_	_	_	_	NF-NF-NF
+51	Ehren	Ehre	_	NN	_	_	_	_	_	_	NF-NF-NF
+52	der	d	_	ART	_	_	_	_	_	_	NF-NF-NF
+53	Stadt	Stadt	_	NN	_	_	_	_	_	_	NF-NF-NF
+54	Wien	Wien	_	NE	_	_	_	_	_	_	NF-NF-NF
+55	und	und	_	KON	_	_	_	_	_	_	NF-NF-NF
+56	zum	zum	_	APPRART	_	_	_	_	_	_	NF-NF-NF
+57	Nutzen	Nutzen	_	NN	_	_	_	_	_	_	NF-NF-NF
+58	des	d	_	ART	_	_	_	_	_	_	NF-NF-NF
+59	Wiener	Wiener	_	ADJA	_	_	_	_	_	_	NF-NF-NF
+60	chriſtlichen	christlich	_	ADJA	_	_	_	_	_	_	NF-NF-NF
+61	Volkes	Volk	_	NN	_	_	_	_	_	_	NF-NF-NF
+62	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 19
+# sent_id(TSV) = 40
+# text = Kurz nach 10 Uhr erklärte der Vorſitzende Vizebürgermeiſter Dr. Porzer die Sitzung eröffnet , konſtatierte die Anweſenheit von mehr als 100 Mitgliedern des Gemeinderates und gab bekannt , daß Gemeinderat Rauer , welcher ſchon ſeit Monaten an einer ſchweren Krankheit leidet , infolgedeſſen ſich verpflichtet gefühlt habe , ſein Mandat als Gemeinderat zurückzulegen .
+1	Kurz	kurz	_	ADJD	_	_	_	_	_	_	VF
+2	nach	nach	_	APPR	_	_	_	_	_	_	VF
+3	10	10	_	CARD	_	_	_	_	_	_	VF
+4	Uhr	Uhr	_	NN	_	_	_	_	_	_	VF
+5	erklärte	erklären	_	VVFIN	_	_	_	_	_	LK	LK
+6	der	d	_	ART	_	_	_	_	_	_	MF
+7	Vorſitzende	vorsitzend	_	ADJA	_	_	_	_	_	_	MF
+8	Vizebürgermeiſter	Vizebürgermeister	_	NN	_	_	_	_	_	_	MF
+9	Dr.	Dr.	_	NN	_	_	_	_	_	_	MF
+10	Porzer	Porzer	_	NE	_	_	_	_	_	_	MF
+11	die	d	_	ART	_	_	_	_	_	_	MF
+12	Sitzung	Sitzung	_	NN	_	_	_	_	_	_	MF
+13	eröffnet	eröffnen	_	VVPP	_	_	_	_	_	RK	RK
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	konſtatierte	konstatieren	_	VVFIN	_	_	_	_	_	LK	LK
+16	die	d	_	ART	_	_	_	_	_	_	MF
+17	Anweſenheit	Anwesenheit	_	NN	_	_	_	_	_	_	MF
+18	von	von	_	APPR	_	_	_	_	_	_	MF
+19	mehr	mehr	_	PIAT	_	_	_	_	_	_	MF
+20	als	als	_	KOKOM	_	_	_	_	_	_	MF
+21	100	100	_	CARD	_	_	_	_	_	_	MF
+22	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	_	MF
+23	des	d	_	ART	_	_	_	_	_	_	MF
+24	Gemeinderates	Gemeinderat	_	NN	_	_	_	_	_	_	MF
+25	und	und	_	KON	_	_	_	_	_	_	KOORD
+26	gab	geben	_	VVFIN	_	_	_	_	_	LK	LK
+27	bekannt	bekannt	_	PTKVZ	_	_	_	_	_	RK	RK
+28	,	,	_	$,	_	_	_	_	_	_	_
+29	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+30	Gemeinderat	Gemeinderat	_	NN	_	_	_	_	_	_	NF-MF
+31	Rauer	Rauer	_	NE	_	_	_	_	_	_	NF-MF
+32	,	,	_	$,	_	_	_	_	_	_	NF-MF
+33	welcher	welche	_	PRELS	_	_	_	_	_	LK	NF-MF-LK
+34	ſchon	schon	_	ADV	_	_	_	_	_	_	NF-MF-MF
+35	ſeit	seit	_	APPR	_	_	_	_	_	_	NF-MF-MF
+36	Monaten	Monat	_	NN	_	_	_	_	_	_	NF-MF-MF
+37	an	an	_	APPR	_	_	_	_	_	_	NF-MF-MF
+38	einer	eine	_	ART	_	_	_	_	_	_	NF-MF-MF
+39	ſchweren	schwer	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+40	Krankheit	Krankheit	_	NN	_	_	_	_	_	_	NF-MF-MF
+41	leidet	leiden	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+42	,	,	_	$,	_	_	_	_	_	_	NF-MF
+43	infolgedeſſen	infolgedessen	_	PAV	_	_	_	_	_	_	NF-MF
+44	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+45	verpflichtet	verpflichten	_	ADJD	_	_	_	_	_	_	NF-MF
+46	gefühlt	fühlen	_	VVPP	_	_	_	_	_	RK	NF-RK
+47	habe	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+48	,	,	_	$,	_	_	_	_	_	_	NF
+49	ſein	sein	_	PPOSAT	_	_	_	_	_	_	NF-NF-MF
+50	Mandat	Mandat	_	NN	_	_	_	_	_	_	NF-NF-MF
+51	als	als	_	KOKOM	_	_	_	_	_	_	NF-NF-MF
+52	Gemeinderat	Gemeinderat	_	NN	_	_	_	_	_	_	NF-NF-MF
+53	zurückzulegen	zurücklegen	_	VVIZU	_	_	_	_	_	RK	NF-NF-RK
+54	.	.	_	$.	_	_	_	_	_	_	_

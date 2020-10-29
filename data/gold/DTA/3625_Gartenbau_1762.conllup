@@ -1,0 +1,760 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 10
+# text = Obgleich bey jeden Theile des Land- und Garten-Schatzes ein hinlaͤnglich Regiſter ge-<lb/>druckt worden , ſo ſind doch von vielen Liebhabern die ſchriftli-<lb/>chen Erinnerungen geſchehen , daß der Verleger ein Haupt-Regiſter uͤber dieſe Sechs Theile zum Druck befoͤr-<lb/>dern moͤchte , indem nicht einen jeden bekannt , in welchen dieſe oder jene Materie enthalten , weil das lange Nachſuchen allerdings etwas Ver-<lb/>driesliches iſt ;
+1	Obgleich	obgleich	_	KOUS	_	_	_	_	_	LK	LV-LK
+2	bey	bei	_	APPR	_	_	_	_	_	_	LV-MF
+3	jeden	jede	_	PIAT	_	_	_	_	_	_	LV-MF
+4	Theile	Teil	_	NN	_	_	_	_	_	_	LV-MF
+5	des	d	_	ART	_	_	_	_	_	_	LV-MF
+6	Land-	land-	_	TRUNC	_	_	_	_	_	_	LV-MF
+7	und	und	_	KON	_	_	_	_	_	_	LV-MF
+8	Garten-Schatzes	Garten-Schatz	_	NN	_	_	_	_	_	_	LV-MF
+9	ein	eine	_	ART	_	_	_	_	_	_	LV-MF
+10	hinlaͤnglich	hinlänglich	_	ADJD	_	_	_	_	_	_	LV-MF
+11	Regiſter	Register	_	NN	_	_	_	_	_	_	LV-MF
+12	ge-<lb/>druckt	drucken	_	VVPP	_	_	_	_	_	RK	LV-RK
+13	worden	werden	_	VAPP	_	_	_	_	_	RK	LV-RK
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	ſo	so	_	ADV	_	_	_	_	_	_	VF
+16	ſind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+17	doch	doch	_	ADV	_	_	_	_	_	_	MF
+18	von	von	_	APPR	_	_	_	_	_	_	MF
+19	vielen	viel	_	PIAT	_	_	_	_	_	_	MF
+20	Liebhabern	Liebhaber	_	NN	_	_	_	_	_	_	MF
+21	die	d	_	ART	_	_	_	_	_	_	MF
+22	ſchriftli-<lb/>chen	schriftlich	_	ADJA	_	_	_	_	_	_	MF
+23	Erinnerungen	Erinnerung	_	NN	_	_	_	_	_	_	MF
+24	geſchehen	geschehen	_	VVPP	_	_	_	_	_	RK	RK
+25	,	,	_	$,	_	_	_	_	_	_	_
+26	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+27	der	d	_	ART	_	_	_	_	_	_	NF-MF
+28	Verleger	Verleger	_	NN	_	_	_	_	_	_	NF-MF
+29	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+30	Haupt-Regiſter	Haupt-Register	_	NN	_	_	_	_	_	_	NF-MF
+31	uͤber	über	_	APPR	_	_	_	_	_	_	NF-MF
+32	dieſe	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+33	Sechs	sechs	_	CARD	_	_	_	_	_	_	NF-MF
+34	Theile	Teil	_	NN	_	_	_	_	_	_	NF-MF
+35	zum	zum	_	APPRART	_	_	_	_	_	_	NF-MF
+36	Druck	Druck	_	NN	_	_	_	_	_	_	NF-MF
+37	befoͤr-<lb/>dern	befördern	_	VVINF	_	_	_	_	_	RK	NF-RK
+38	moͤchte	mögen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+39	,	,	_	$,	_	_	_	_	_	_	NF
+40	indem	indem	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF-NF-MF
+42	einen	eine	_	ART	_	_	_	_	_	_	NF-NF-MF
+43	jeden	jede	_	PIS	_	_	_	_	_	_	NF-NF-MF
+44	bekannt	bekannt	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+45	,	,	_	$,	_	_	_	_	_	_	NF-NF
+46	in	in	_	APPR	_	_	_	_	_	LK	NF-NF-NF-LK
+47	welchen	welchen	_	PRELS	_	_	_	_	_	LK	NF-NF-NF-LK
+48	dieſe	diese	_	PDAT	_	_	_	_	_	_	NF-NF-NF-MF
+49	oder	oder	_	KON	_	_	_	_	_	_	NF-NF-NF-MF
+50	jene	jen	_	PDAT	_	_	_	_	_	_	NF-NF-NF-MF
+51	Materie	Materie	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+52	enthalten	enthalten	_	VVPP	_	_	_	_	_	RK	NF-NF-NF-RK
+53	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF
+54	weil	weil	_	KOUS	_	_	_	_	_	LK	NF-NF-NF-LK
+55	das	d	_	ART	_	_	_	_	_	_	NF-NF-NF-MF
+56	lange	lang	_	ADJA	_	_	_	_	_	_	NF-NF-NF-MF
+57	Nachſuchen	Nachsuche	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+58	allerdings	allerdings	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+59	etwas	etwas	_	PIAT	_	_	_	_	_	_	NF-NF-NF-MF
+60	Ver-<lb/>driesliches	verdrießlich	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+61	iſt	sein	_	VAFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+62	;	\;	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 10
+# text = daher hat man ſich nicht entbrechen koͤnnen , den Wunſch vieler Beſitzer ſolches Werks ein Ge-<lb/>nuͤge zu leiſten , und ein Univerſal-Re-<lb/>giſter zu obbenannten Sechs Theilen zum Druck zu befoͤrdern .
+1	daher	daher	_	PAV	_	_	_	_	_	_	VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	man	man	_	PIS	_	_	_	_	_	_	MF
+4	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+6	entbrechen	entbrechen	_	VVINF	_	_	_	_	_	RK	RK
+7	koͤnnen	können	_	VMINF	_	_	_	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	den	d	_	ART	_	_	_	_	_	_	NF-MF
+10	Wunſch	Wunsch	_	NN	_	_	_	_	_	_	NF-MF
+11	vieler	viel	_	PIAT	_	_	_	_	_	_	NF-MF
+12	Beſitzer	Besitzer	_	NN	_	_	_	_	_	_	NF-MF
+13	ſolches	solch	_	PIAT	_	_	_	_	_	_	NF-MF
+14	Werks	Werk	_	NN	_	_	_	_	_	_	NF-MF
+15	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+16	Ge-<lb/>nuͤge	Genüge	_	NN	_	_	_	_	_	_	NF-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+18	leiſten	leisten	_	VVINF	_	_	_	_	_	RK	NF-RK
+19	,	,	_	$,	_	_	_	_	_	_	NF
+20	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+21	ein	eine	_	ART	_	_	_	_	_	_	NF-MF
+22	Univerſal-Re-<lb/>giſter	Universal-Register	_	NN	_	_	_	_	_	_	NF-MF
+23	zu	zu	_	PTKZU	_	_	_	_	_	_	NF-MF
+24	obbenannten	obbenennt	_	ADJA	_	_	_	_	_	_	NF-MF
+25	Sechs	sechs	_	CARD	_	_	_	_	_	_	NF-MF
+26	Theilen	Teil	_	NN	_	_	_	_	_	_	NF-MF
+27	zum	zum	_	APPRART	_	_	_	_	_	_	NF-MF
+28	Druck	Druck	_	NN	_	_	_	_	_	_	NF-MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+30	befoͤrdern	befördern	_	VVINF	_	_	_	_	_	RK	NF-RK
+31	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 12
+# text = Die Weisheit des Schoͤpfers , welche in allen ihren Werken eine Manch-<lb/>faltigkeit erforderte , die alle menſchliche Begriffe weit uͤberſteiget , hat dieſe faſt unendliche Verſchiedenheit , welche in allen Reichen der Natur herrſchet , auch unter den Blumen und Kraͤutern hervorbli-<lb/>cken laſſen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Weisheit	Weisheit	_	NN	_	_	_	_	_	_	VF
+3	des	d	_	ART	_	_	_	_	_	_	VF
+4	Schoͤpfers	Schöpfer	_	NN	_	_	_	_	_	_	VF
+5	,	,	_	$,	_	_	_	_	_	_	VF
+6	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+7	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+8	allen	alle	_	PIAT	_	_	_	_	_	_	VF-MF
+9	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	VF-MF
+10	Werken	Werken	_	NN	_	_	_	_	_	_	VF-MF
+11	eine	eine	_	ART	_	_	_	_	_	_	VF-MF
+12	Manch-<lb/>faltigkeit	Mannigfaltigkeit	_	NN	_	_	_	_	_	_	VF-MF
+13	erforderte	erfordern	_	VVFIN	_	_	_	_	_	RK	VF-RK
+14	,	,	_	$,	_	_	_	_	_	_	VF
+15	die	die	_	PRELS	_	_	_	_	_	LK	VF-NF-LK
+16	alle	alle	_	PIAT	_	_	_	_	_	_	VF-NF-MF
+17	menſchliche	menschlich	_	ADJA	_	_	_	_	_	_	VF-NF-MF
+18	Begriffe	Begriff	_	NN	_	_	_	_	_	_	VF-NF-MF
+19	weit	weit	_	ADJD	_	_	_	_	_	_	VF-NF-MF
+20	uͤberſteiget	übersteigen	_	VVFIN	_	_	_	_	_	RK	VF-NF-RK
+21	,	,	_	$,	_	_	_	_	_	_	_
+22	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+23	dieſe	diese	_	PDS	_	_	_	_	_	_	MF
+24	faſt	fast	_	ADV	_	_	_	_	_	_	MF
+25	unendliche	unendlich	_	ADJA	_	_	_	_	_	_	MF
+26	Verſchiedenheit	Verschiedenheit	_	NN	_	_	_	_	_	_	MF
+27	,	,	_	$,	_	_	_	_	_	_	MF
+28	welche	welche	_	PRELS	_	_	_	_	_	LK	MF-LK
+29	in	in	_	APPR	_	_	_	_	_	_	MF-MF
+30	allen	alle	_	PIAT	_	_	_	_	_	_	MF-MF
+31	Reichen	Reiche	_	NN	_	_	_	_	_	_	MF-MF
+32	der	d	_	ART	_	_	_	_	_	_	MF-MF
+33	Natur	Natur	_	NN	_	_	_	_	_	_	MF-MF
+34	herrſchet	herrschen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+35	,	,	_	$,	_	_	_	_	_	_	MF
+36	auch	auch	_	ADV	_	_	_	_	_	_	MF
+37	unter	unter	_	APPR	_	_	_	_	_	_	MF
+38	den	d	_	ART	_	_	_	_	_	_	MF
+39	Blumen	Blume	_	NN	_	_	_	_	_	_	MF
+40	und	und	_	KON	_	_	_	_	_	_	MF
+41	Kraͤutern	Kraut	_	NN	_	_	_	_	_	_	MF
+42	hervorbli-<lb/>cken	hervorblicken	_	VVINF	_	_	_	_	_	RK	RK
+43	laſſen	lassen	_	VVINF	_	_	_	_	_	RK	RK
+44	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 13
+# text = Wir moͤgen uns den Anfang und die Veraͤnderungen unſers Erdbodens aus einem Geſichtspunkte vorſtellen , aus welchen wir wollen : ſo bleibt allemal ausge-<lb/>macht , daß dieſe groſſe Manchfaltigkeit von Blumen anfaͤnglich in einer ſchoͤnen Unord-<lb/>nung und ohne Unterſchied gewachſen , und daß dem Menſchen der Begrif eines Gar-<lb/>tens urſpruͤnglich unbekannt geweſen .
+1	Wir	wir	_	PPER	_	_	_	_	_	_	LV-VF
+2	moͤgen	mögen	_	VMFIN	_	_	_	_	_	LK	LV-LK
+3	uns	uns	_	PRF	_	_	_	_	_	_	LV-MF
+4	den	d	_	ART	_	_	_	_	_	_	LV-MF
+5	Anfang	Anfang	_	NN	_	_	_	_	_	_	LV-MF
+6	und	und	_	KON	_	_	_	_	_	_	LV-MF
+7	die	d	_	ART	_	_	_	_	_	_	LV-MF
+8	Veraͤnderungen	Veränderung	_	NN	_	_	_	_	_	_	LV-MF
+9	unſers	unsere	_	PPOSAT	_	_	_	_	_	_	LV-MF
+10	Erdbodens	Erdboden	_	NN	_	_	_	_	_	_	LV-MF
+11	aus	aus	_	APPR	_	_	_	_	_	_	LV-MF
+12	einem	eine	_	ART	_	_	_	_	_	_	LV-MF
+13	Geſichtspunkte	Gesichtspunkt	_	NN	_	_	_	_	_	_	LV-MF
+14	vorſtellen	vorstellen	_	VVINF	_	_	_	_	_	RK	LV-RK
+15	,	,	_	$,	_	_	_	_	_	_	LV
+16	aus	aus	_	APPR	_	_	_	_	_	LK	LV-NF-LK
+17	welchen	welchen	_	PRELS	_	_	_	_	_	LK	LV-NF-LK
+18	wir	wir	_	PPER	_	_	_	_	_	_	LV-NF-MF
+19	wollen	wollen	_	VMFIN	_	_	_	_	_	RK	LV-NF-RK
+20	:	:	_	$.	_	_	_	_	_	_	_
+21	ſo	so	_	ADV	_	_	_	_	_	_	VF
+22	bleibt	bleiben	_	VVFIN	_	_	_	_	_	LK	LK
+23	allemal	allemal	_	ADV	_	_	_	_	_	_	MF
+24	ausge-<lb/>macht	ausmachen	_	VVPP	_	_	_	_	_	RK	RK
+25	,	,	_	$,	_	_	_	_	_	_	_
+26	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+27	dieſe	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+28	groſſe	groß	_	ADJA	_	_	_	_	_	_	NF-MF
+29	Manchfaltigkeit	Mannigfaltigkeit	_	NN	_	_	_	_	_	_	NF-MF
+30	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+31	Blumen	Blume	_	NN	_	_	_	_	_	_	NF-MF
+32	anfaͤnglich	anfänglich	_	ADJD	_	_	_	_	_	_	NF-MF
+33	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+34	einer	eine	_	ART	_	_	_	_	_	_	NF-MF
+35	ſchoͤnen	schön	_	ADJA	_	_	_	_	_	_	NF-MF
+36	Unord-<lb/>nung	Unordnung	_	NN	_	_	_	_	_	_	NF-MF
+37	und	und	_	KON	_	_	_	_	_	_	NF-MF
+38	ohne	ohne	_	APPR	_	_	_	_	_	_	NF-MF
+39	Unterſchied	Unterschied	_	NN	_	_	_	_	_	_	NF-MF
+40	gewachſen	wachsen	_	VVPP	_	_	_	_	_	RK	NF-RK
+41	,	,	_	$,	_	_	_	_	_	_	NF
+42	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+43	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+44	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+45	Menſchen	Mensch	_	NN	_	_	_	_	_	_	NF-MF
+46	der	d	_	ART	_	_	_	_	_	_	NF-MF
+47	Begrif	Begriff	_	NN	_	_	_	_	_	_	NF-MF
+48	eines	eine	_	ART	_	_	_	_	_	_	NF-MF
+49	Gar-<lb/>tens	Garten	_	NN	_	_	_	_	_	_	NF-MF
+50	urſpruͤnglich	ursprünglich	_	ADJD	_	_	_	_	_	_	NF-MF
+51	unbekannt	unbekannt	_	ADJD	_	_	_	_	_	_	NF-MF
+52	geweſen	sein	_	VAPP	_	_	_	_	_	RK	NF-RK
+53	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 15
+# text = So ſehr auch dieſe ſcheinbare Nachlaͤßig-<lb/>keit der Natur den weiſen Abſichten eines un-<lb/>endlichen Weſens gemaͤs iſt ; ſo fiel es doch den eingeſchraͤnkten Kraͤften endlicher Weſen ſehr ſchwer , wo nicht gar unmoͤglich , bey die-<lb/>ſer unzaͤhligen Menge das Brauchbare von den Unnuͤtzen , das Schoͤne von dem weniger Schoͤnen und Schlechten abzuſondern .
+1	So	so	_	ADV	_	_	_	_	_	_	LV-MF
+2	ſehr	sehr	_	ADV	_	_	_	_	_	_	LV-MF
+3	auch	auch	_	ADV	_	_	_	_	_	_	LV-MF
+4	dieſe	diese	_	PDAT	_	_	_	_	_	_	LV-MF
+5	ſcheinbare	scheinbar	_	ADJA	_	_	_	_	_	_	LV-MF
+6	Nachlaͤßig-<lb/>keit	Nachlässigkeit	_	NN	_	_	_	_	_	_	LV-MF
+7	der	d	_	ART	_	_	_	_	_	_	LV-MF
+8	Natur	Natur	_	NN	_	_	_	_	_	_	LV-MF
+9	den	d	_	ART	_	_	_	_	_	_	LV-MF
+10	weiſen	weise	_	ADJA	_	_	_	_	_	_	LV-MF
+11	Abſichten	Absicht	_	NN	_	_	_	_	_	_	LV-MF
+12	eines	eine	_	ART	_	_	_	_	_	_	LV-MF
+13	un-<lb/>endlichen	unendlich	_	ADJA	_	_	_	_	_	_	LV-MF
+14	Weſens	Wesen	_	NN	_	_	_	_	_	_	LV-MF
+15	gemaͤs	gemäß	_	ADJD	_	_	_	_	_	_	LV-MF
+16	iſt	sein	_	VAFIN	_	_	_	_	_	RK	LV-RK
+17	;	\;	_	$.	_	_	_	_	_	_	_
+18	ſo	so	_	ADV	_	_	_	_	_	_	VF
+19	fiel	fallen	_	VVFIN	_	_	_	_	_	LK	LK
+20	es	es	_	PPER	_	_	_	_	_	_	MF
+21	doch	doch	_	ADV	_	_	_	_	_	_	MF
+22	den	d	_	ART	_	_	_	_	_	_	MF
+23	eingeſchraͤnkten	eingeschränkt	_	ADJA	_	_	_	_	_	_	MF
+24	Kraͤften	Kraft	_	NN	_	_	_	_	_	_	MF
+25	endlicher	endlich	_	ADJA	_	_	_	_	_	_	MF
+26	Weſen	Wesen	_	NN	_	_	_	_	_	_	MF
+27	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+28	ſchwer	schwer	_	ADJD	_	_	_	_	_	_	MF
+29	,	,	_	$,	_	_	_	_	_	_	MF
+30	wo	wo	_	PWAV	_	_	_	_	_	_	MF
+31	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+32	gar	gar	_	ADV	_	_	_	_	_	_	MF
+33	unmoͤglich	unmöglich	_	ADJD	_	_	_	_	_	_	MF
+34	,	,	_	$,	_	_	_	_	_	_	_
+35	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF
+36	die-<lb/>ſer	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+37	unzaͤhligen	unzählig	_	ADJA	_	_	_	_	_	_	NF-MF
+38	Menge	Menge	_	NN	_	_	_	_	_	_	NF-MF
+39	das	d	_	ART	_	_	_	_	_	_	NF-MF
+40	Brauchbare	Brauchbare	_	NN	_	_	_	_	_	_	NF-MF
+41	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+42	den	d	_	ART	_	_	_	_	_	_	NF-MF
+43	Unnuͤtzen	Unnütze	_	NN	_	_	_	_	_	_	NF-MF
+44	,	,	_	$,	_	_	_	_	_	_	NF-MF
+45	das	d	_	ART	_	_	_	_	_	_	NF-MF
+46	Schoͤne	Schöne	_	NN	_	_	_	_	_	_	NF-MF
+47	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+48	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+49	weniger	wenige	_	PIAT	_	_	_	_	_	_	NF-MF
+50	Schoͤnen	Schöne	_	NN	_	_	_	_	_	_	NF-MF
+51	und	und	_	KON	_	_	_	_	_	_	NF-MF
+52	Schlechten	Schlechte	_	NN	_	_	_	_	_	_	NF-MF
+53	abzuſondern	absondern	_	VVIZU	_	_	_	_	_	RK	NF-RK
+54	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 16
+# text = Es werden ſchon ſehr geuͤbte Kraͤfte des Verſtan-<lb/>des erfordert , wenn man bey einer groſſen Anzahl verſchiedener eiuzeler Dinge , die durch keine in die Augen fallende Ordnung und Ver-<lb/>haͤltniſſe mit einander verbunden werden , ſich fuͤr eine Verwirrung der Begriffe zu huͤten .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+3	ſchon	schon	_	ADV	_	_	_	_	_	_	MF
+4	ſehr	sehr	_	ADV	_	_	_	_	_	_	MF
+5	geuͤbte	geübt	_	ADJA	_	_	_	_	_	_	MF
+6	Kraͤfte	Kraft	_	NN	_	_	_	_	_	_	MF
+7	des	d	_	ART	_	_	_	_	_	_	MF
+8	Verſtan-<lb/>des	Verstand	_	NN	_	_	_	_	_	_	MF
+9	erfordert	erfordern	_	VVFIN	_	_	_	_	_	RK	RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+12	man	man	_	PIS	_	_	_	_	_	_	NF-MF
+13	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF
+14	einer	eine	_	ART	_	_	_	_	_	_	NF-MF
+15	groſſen	groß	_	ADJA	_	_	_	_	_	_	NF-MF
+16	Anzahl	Anzahl	_	NN	_	_	_	_	_	_	NF-MF
+17	verſchiedener	verschieden	_	ADJA	_	_	_	_	_	_	NF-MF
+18	eiuzeler	eiuzeler	_	ADJA	_	_	_	_	_	_	NF-MF
+19	Dinge	Ding	_	NN	_	_	_	_	_	_	NF-MF
+20	,	,	_	$,	_	_	_	_	_	_	NF-MF
+21	die	die	_	PRELS	_	_	_	_	_	LK	NF-MF-LK
+22	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF-MF
+23	keine	keine	_	PIAT	_	_	_	_	_	_	NF-MF-MF
+24	in	in	_	APPR	_	_	_	_	_	_	NF-MF-MF
+25	die	d	_	ART	_	_	_	_	_	_	NF-MF-MF
+26	Augen	Auge	_	NN	_	_	_	_	_	_	NF-MF-MF
+27	fallende	fallend	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+28	Ordnung	Ordnung	_	NN	_	_	_	_	_	_	NF-MF-MF
+29	und	und	_	KON	_	_	_	_	_	_	NF-MF-MF
+30	Ver-<lb/>haͤltniſſe	Verhältnis	_	NN	_	_	_	_	_	_	NF-MF-MF
+31	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF-MF
+32	einander	einander	_	ADV	_	_	_	_	_	_	NF-MF-MF
+33	verbunden	verbinden	_	VVPP	_	_	_	_	_	RK	NF-MF-RK
+34	werden	werden	_	VAINF	_	_	_	_	_	RK	NF-MF-RK
+35	,	,	_	$,	_	_	_	_	_	_	NF-MF
+36	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+37	fuͤr	für	_	APPR	_	_	_	_	_	_	NF-MF
+38	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+39	Verwirrung	Verwirrung	_	NN	_	_	_	_	_	_	NF-MF
+40	der	d	_	ART	_	_	_	_	_	_	NF-MF
+41	Begriffe	Begriff	_	NN	_	_	_	_	_	_	NF-MF
+42	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+43	huͤten	hüten	_	VVINF	_	_	_	_	_	RK	NF-RK
+44	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 17
+# text = Die Beduͤrfniſſe des Menſchen , welche die Veranlaſſung zu allen Kuͤnſten und Wiſſen-<lb/>ſchaften geweſen ſind , fuͤhreten ihn alſo nach und nach auf den Entwurf gewiſſe Kraͤuter und Blumen von andern abzuſondern , und unter der groſſen Menge derſelben eine noͤthi-<lb/>ge Wahl zu halten : das heiſt ſich Gaͤrten an-<lb/>zulegen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Beduͤrfniſſe	Bedürfnis	_	NN	_	_	_	_	_	_	VF
+3	des	d	_	ART	_	_	_	_	_	_	VF
+4	Menſchen	Mensch	_	NN	_	_	_	_	_	_	VF
+5	,	,	_	$,	_	_	_	_	_	_	VF
+6	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+7	die	d	_	ART	_	_	_	_	_	_	VF-MF
+8	Veranlaſſung	Veranlaßung	_	NN	_	_	_	_	_	_	VF-MF
+9	zu	zu	_	APPR	_	_	_	_	_	_	VF-MF
+10	allen	alle	_	PIAT	_	_	_	_	_	_	VF-MF
+11	Kuͤnſten	Kunst	_	NN	_	_	_	_	_	_	VF-MF
+12	und	und	_	KON	_	_	_	_	_	_	VF-MF
+13	Wiſſen-<lb/>ſchaften	Wissenschaft	_	NN	_	_	_	_	_	_	VF-MF
+14	geweſen	sein	_	VAPP	_	_	_	_	_	RK	VF-RK
+15	ſind	sein	_	VAFIN	_	_	_	_	_	RK	VF-RK
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	fuͤhreten	führen	_	VVFIN	_	_	_	_	_	LK	LK
+18	ihn	er	_	PPER	_	_	_	_	_	_	MF
+19	alſo	also	_	ADV	_	_	_	_	_	_	MF
+20	nach	nach	_	ADV	_	_	_	_	_	_	MF
+21	und	und	_	KON	_	_	_	_	_	_	MF
+22	nach	nach	_	ADV	_	_	_	_	_	_	MF
+23	auf	auf	_	APPR	_	_	_	_	_	_	MF
+24	den	d	_	ART	_	_	_	_	_	_	MF
+25	Entwurf	Entwurf	_	NN	_	_	_	_	_	_	MF
+26	gewiſſe	gewiß	_	ADJA	_	_	_	_	_	_	NF-MF
+27	Kraͤuter	Kraut	_	NN	_	_	_	_	_	_	NF-MF
+28	und	und	_	KON	_	_	_	_	_	_	NF-MF
+29	Blumen	Blume	_	NN	_	_	_	_	_	_	NF-MF
+30	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+31	andern	andere	_	PIS	_	_	_	_	_	_	NF-MF
+32	abzuſondern	absondern	_	VVIZU	_	_	_	_	_	RK	NF-RK
+33	,	,	_	$,	_	_	_	_	_	_	NF
+34	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+35	unter	unter	_	APPR	_	_	_	_	_	_	NF-MF
+36	der	d	_	ART	_	_	_	_	_	_	NF-MF
+37	groſſen	groß	_	ADJA	_	_	_	_	_	_	NF-MF
+38	Menge	Menge	_	NN	_	_	_	_	_	_	NF-MF
+39	derſelben	dieselbe	_	PDS	_	_	_	_	_	_	NF-MF
+40	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+41	noͤthi-<lb/>ge	nötig	_	ADJA	_	_	_	_	_	_	NF-MF
+42	Wahl	Wahl	_	NN	_	_	_	_	_	_	NF-MF
+43	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+44	halten	halten	_	VVINF	_	_	_	_	_	RK	NF-RK
+45	:	:	_	$.	_	_	_	_	_	_	NF
+46	das	die	_	PDS	_	_	_	_	_	_	NF-VF
+47	heiſt	heissen	_	VVFIN	_	_	_	_	_	LK	NF-LK
+48	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+49	Gaͤrten	Garten	_	NN	_	_	_	_	_	_	NF-MF
+50	an-<lb/>zulegen	anlegen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+51	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 19
+# text = Man ſiehet leicht , daß dieſe von ſo vielfa-<lb/>cher Art ſeyn muſten , als vielfach die Abſich-<lb/>ten desjenigen ſeyn konnten , der den Entwurf bildete , gewiſſe Kraͤuter von andern abzuſon-<lb/>dern , und ſie durch dieſe Abſonderung zu ſei-<lb/>nem Gebrauche bequemer zu machen .
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	ſiehet	sehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	leicht	leicht	_	ADJD	_	_	_	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+6	dieſe	diese	_	PDS	_	_	_	_	_	_	NF-MF
+7	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+8	ſo	so	_	ADV	_	_	_	_	_	_	NF-MF
+9	vielfa-<lb/>cher	vielfach	_	ADJA	_	_	_	_	_	_	NF-MF
+10	Art	Art	_	NN	_	_	_	_	_	_	NF-MF
+11	ſeyn	sein	_	VAINF	_	_	_	_	_	RK	NF-RK
+12	muſten	müssen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+13	,	,	_	$,	_	_	_	_	_	_	NF
+14	als	als	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+15	vielfach	vielfach	_	ADV	_	_	_	_	_	_	NF-NF-MF
+16	die	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+17	Abſich-<lb/>ten	Absicht	_	NN	_	_	_	_	_	_	NF-NF-MF
+18	desjenigen	desjenig	_	PDAT	_	_	_	_	_	_	NF-NF-MF
+19	ſeyn	sein	_	VAINF	_	_	_	_	_	RK	NF-NF-RK
+20	konnten	können	_	VMFIN	_	_	_	_	_	RK	NF-NF-RK
+21	,	,	_	$,	_	_	_	_	_	_	NF-NF
+22	der	die	_	PRELS	_	_	_	_	_	LK	NF-NF-NF-LK
+23	den	d	_	ART	_	_	_	_	_	_	NF-NF-NF-MF
+24	Entwurf	Entwurf	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+25	bildete	bilden	_	VVFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+26	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF
+27	gewiſſe	gewiß	_	ADJA	_	_	_	_	_	_	NF-NF-NF-NF-MF
+28	Kraͤuter	Kraut	_	NN	_	_	_	_	_	_	NF-NF-NF-NF-MF
+29	von	von	_	APPR	_	_	_	_	_	_	NF-NF-NF-NF-MF
+30	andern	andere	_	PIS	_	_	_	_	_	_	NF-NF-NF-NF-MF
+31	abzuſon-<lb/>dern	absondern	_	VVIZU	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+32	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF-NF
+33	und	und	_	KON	_	_	_	_	_	_	NF-NF-NF-NF-KOORD
+34	ſie	sie	_	PPER	_	_	_	_	_	_	NF-NF-NF-NF-MF
+35	durch	durch	_	APPR	_	_	_	_	_	_	NF-NF-NF-NF-MF
+36	dieſe	diese	_	PDAT	_	_	_	_	_	_	NF-NF-NF-NF-MF
+37	Abſonderung	Absonderung	_	NN	_	_	_	_	_	_	NF-NF-NF-NF-MF
+38	zu	zu	_	APPR	_	_	_	_	_	_	NF-NF-NF-NF-MF
+39	ſei-<lb/>nem	seine	_	PPOSAT	_	_	_	_	_	_	NF-NF-NF-NF-MF
+40	Gebrauche	Gebrauch	_	NN	_	_	_	_	_	_	NF-NF-NF-NF-MF
+41	bequemer	bequem	_	ADJD	_	_	_	_	_	_	NF-NF-NF-NF-MF
+42	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+43	machen	machen	_	VVINF	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+44	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 20
+# text = Ehe ich noch die verſchiedenen beſonderen Arten dieſer Abſichten anfuͤhre , ſo will ich nur zuvor zwey allgemeine Ausſichten eroͤfnen , die uns nach und nach zu mehrern beſondern leiten werden .
+1	Ehe	ehe	_	KOUS	_	_	_	_	_	LK	LV-LK
+2	ich	ich	_	PPER	_	_	_	_	_	_	LV-MF
+3	noch	noch	_	ADV	_	_	_	_	_	_	LV-MF
+4	die	d	_	ART	_	_	_	_	_	_	LV-MF
+5	verſchiedenen	verschieden	_	ADJA	_	_	_	_	_	_	LV-MF
+6	beſonderen	besondere	_	ADJA	_	_	_	_	_	_	LV-MF
+7	Arten	Art	_	NN	_	_	_	_	_	_	LV-MF
+8	dieſer	diese	_	PDAT	_	_	_	_	_	_	LV-MF
+9	Abſichten	Absicht	_	NN	_	_	_	_	_	_	LV-MF
+10	anfuͤhre	anführen	_	VVFIN	_	_	_	_	_	RK	LV-RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	ſo	so	_	ADV	_	_	_	_	_	_	VF
+13	will	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+14	ich	ich	_	PPER	_	_	_	_	_	_	MF
+15	nur	nur	_	ADV	_	_	_	_	_	_	MF
+16	zuvor	zuvor	_	ADV	_	_	_	_	_	_	MF
+17	zwey	zwei	_	CARD	_	_	_	_	_	_	MF
+18	allgemeine	allgemein	_	ADJA	_	_	_	_	_	_	MF
+19	Ausſichten	Aussicht	_	NN	_	_	_	_	_	_	MF
+20	eroͤfnen	eröffnen	_	VVINF	_	_	_	_	_	RK	RK
+21	,	,	_	$,	_	_	_	_	_	_	_
+22	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+23	uns	wir	_	PPER	_	_	_	_	_	_	NF-MF
+24	nach	nach	_	ADV	_	_	_	_	_	_	NF-MF
+25	und	und	_	KON	_	_	_	_	_	_	NF-MF
+26	nach	nach	_	ADV	_	_	_	_	_	_	NF-MF
+27	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+28	mehrern	mehrere	_	PIAT	_	_	_	_	_	_	NF-MF
+29	beſondern	besondere	_	ADJA	_	_	_	_	_	_	NF-MF
+30	leiten	leiten	_	VVINF	_	_	_	_	_	RK	NF-RK
+31	werden	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+32	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 21
+# text = Alle Handwerke , Kuͤnſte und Wiſſenſchaf-<lb/>ten , und mit einem Worte , alle Arten der Beſchaͤftigungen der Menſchen , ſie moͤgen nun vermittelſt der Gliedmaſſen ſeines Koͤr-<lb/>pers , oder durch die Kraͤfte ſeiner Seele ver-<lb/>richtet werden , laſſen ſich in Abſicht ihres Endzwecks in zwey Hauptarten eintheilen .
+1	Alle	alle	_	PIAT	_	_	_	_	_	_	LV
+2	Handwerke	Handwerk	_	NN	_	_	_	_	_	_	LV
+3	,	,	_	$,	_	_	_	_	_	_	LV
+4	Kuͤnſte	Kunst	_	NN	_	_	_	_	_	_	LV
+5	und	und	_	KON	_	_	_	_	_	_	LV
+6	Wiſſenſchaf-<lb/>ten	Wissenschaft	_	NN	_	_	_	_	_	_	LV
+7	,	,	_	$,	_	_	_	_	_	_	LV
+8	und	und	_	KON	_	_	_	_	_	_	LV
+9	mit	mit	_	APPR	_	_	_	_	_	_	LV
+10	einem	eine	_	ART	_	_	_	_	_	_	LV
+11	Worte	Wort	_	NN	_	_	_	_	_	_	LV
+12	,	,	_	$,	_	_	_	_	_	_	LV
+13	alle	alle	_	PIAT	_	_	_	_	_	_	LV
+14	Arten	Art	_	NN	_	_	_	_	_	_	LV
+15	der	d	_	ART	_	_	_	_	_	_	LV
+16	Beſchaͤftigungen	Beschäftigung	_	NN	_	_	_	_	_	_	LV
+17	der	d	_	ART	_	_	_	_	_	_	LV
+18	Menſchen	Mensch	_	NN	_	_	_	_	_	_	LV
+19	,	,	_	$,	_	_	_	_	_	_	_
+20	ſie	sie	_	PPER	_	_	_	_	_	_	VF
+21	moͤgen	mögen	_	VMFIN	_	_	_	_	_	LK	LK
+22	nun	nun	_	ADV	_	_	_	_	_	_	MF
+23	vermittelſt	vermittels	_	APPR	_	_	_	_	_	_	MF
+24	der	d	_	ART	_	_	_	_	_	_	MF
+25	Gliedmaſſen	Gliedmaße	_	NN	_	_	_	_	_	_	MF
+26	ſeines	seine	_	PPOSAT	_	_	_	_	_	_	MF
+27	Koͤr-<lb/>pers	Körper	_	NN	_	_	_	_	_	_	MF
+28	,	,	_	$,	_	_	_	_	_	_	MF
+29	oder	oder	_	KON	_	_	_	_	_	_	MF
+30	durch	durch	_	APPR	_	_	_	_	_	_	MF
+31	die	d	_	ART	_	_	_	_	_	_	MF
+32	Kraͤfte	Kraft	_	NN	_	_	_	_	_	_	MF
+33	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	MF
+34	Seele	Seele	_	NN	_	_	_	_	_	_	MF
+35	ver-<lb/>richtet	verrichten	_	VVPP	_	_	_	_	_	RK	RK
+36	werden	werden	_	VAINF	_	_	_	_	_	RK	RK
+37	,	,	_	$,	_	_	_	_	_	_	_
+38	laſſen	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+39	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+40	in	in	_	APPR	_	_	_	_	_	_	MF
+41	Abſicht	Absicht	_	NN	_	_	_	_	_	_	MF
+42	ihres	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+43	Endzwecks	Endezweck	_	NN	_	_	_	_	_	_	MF
+44	in	in	_	APPR	_	_	_	_	_	_	MF
+45	zwey	zwei	_	CARD	_	_	_	_	_	_	MF
+46	Hauptarten	Hauptart	_	NN	_	_	_	_	_	_	MF
+47	eintheilen	einteilen	_	VVINF	_	_	_	_	_	RK	RK
+48	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 22
+# text = Einige haben allein die Befriedigung unſrer nothwendigen Beduͤrfniſſe zum Gegenſtand ; andere hingegen zielen auf die Erweckung und Erhaltung unſers Vergnuͤgens ab .
+1	Einige	einige	_	PIS	_	_	_	_	_	_	VF
+2	haben	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	allein	allein	_	ADV	_	_	_	_	_	_	MF
+4	die	d	_	ART	_	_	_	_	_	_	MF
+5	Befriedigung	Befriedigung	_	NN	_	_	_	_	_	_	MF
+6	unſrer	unsere	_	PPOSAT	_	_	_	_	_	_	MF
+7	nothwendigen	notwendig	_	ADJA	_	_	_	_	_	_	MF
+8	Beduͤrfniſſe	Bedürfnis	_	NN	_	_	_	_	_	_	MF
+9	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+10	Gegenſtand	Gegenstand	_	NN	_	_	_	_	_	_	MF
+11	;	\;	_	$.	_	_	_	_	_	_	_
+12	andere	andere	_	PIS	_	_	_	_	_	_	VF
+13	hingegen	hingegen	_	ADV	_	_	_	_	_	_	VF
+14	zielen	zielen	_	VVFIN	_	_	_	_	_	LK	LK
+15	auf	auf	_	APPR	_	_	_	_	_	_	MF
+16	die	d	_	ART	_	_	_	_	_	_	MF
+17	Erweckung	Erweckung	_	NN	_	_	_	_	_	_	MF
+18	und	und	_	KON	_	_	_	_	_	_	MF
+19	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	_	MF
+20	unſers	unsere	_	PPOSAT	_	_	_	_	_	_	MF
+21	Vergnuͤgens	Vergnügen	_	NN	_	_	_	_	_	_	MF
+22	ab	ab	_	PTKVZ	_	_	_	_	_	RK	RK
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 23
+# text = Man koͤnn-<lb/>te noch eine dritte Art hinzufuͤgen , welche bey-<lb/>de Endzwecke mit einander verbindet ; aber das thut hier nichts zur Sache .
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	koͤnn-<lb/>te	können	_	VMFIN	_	_	_	_	_	LK	LK
+3	noch	noch	_	ADV	_	_	_	_	_	_	MF
+4	eine	eine	_	ART	_	_	_	_	_	_	MF
+5	dritte	dritt	_	ADJA	_	_	_	_	_	_	MF
+6	Art	Art	_	NN	_	_	_	_	_	_	MF
+7	hinzufuͤgen	hinzufügen	_	VVINF	_	_	_	_	_	RK	RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	welche	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+10	bey-<lb/>de	beide	_	PIAT	_	_	_	_	_	_	NF-MF
+11	Endzwecke	Endezwecke	_	NN	_	_	_	_	_	_	NF-MF
+12	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF
+13	einander	einander	_	PRF	_	_	_	_	_	_	NF-MF
+14	verbindet	verbinden	_	VVFIN	_	_	_	_	_	RK	NF-RK
+15	;	\;	_	$.	_	_	_	_	_	_	_
+16	aber	aber	_	KON	_	_	_	_	_	_	KOORD
+17	das	die	_	PDS	_	_	_	_	_	_	VF
+18	thut	tun	_	VVFIN	_	_	_	_	_	LK	LK
+19	hier	hier	_	ADV	_	_	_	_	_	_	MF
+20	nichts	nichts	_	PIS	_	_	_	_	_	_	MF
+21	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+22	Sache	Sache	_	NN	_	_	_	_	_	_	MF
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 24
+# text = Die erſte Art iſt der Zeit nach aͤlter ; die zweyte konnte nicht ehe , als eine geraume Zeit , die oft Jahr-<lb/>hunderte in ſich enthielt , nach der erſten ent-<lb/>ſtehen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	erſte	erst	_	ADJA	_	_	_	_	_	_	VF
+3	Art	Art	_	NN	_	_	_	_	_	_	VF
+4	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	der	d	_	ART	_	_	_	_	_	_	MF
+6	Zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+7	nach	nach	_	APPO	_	_	_	_	_	_	MF
+8	aͤlter	alt	_	ADJD	_	_	_	_	_	_	MF
+9	;	\;	_	$.	_	_	_	_	_	_	_
+10	die	d	_	ART	_	_	_	_	_	_	VF
+11	zweyte	zweit	_	ADJA	_	_	_	_	_	_	VF
+12	konnte	können	_	VMFIN	_	_	_	_	_	LK	LK
+13	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+14	ehe	ehe	_	ADV	_	_	_	_	_	_	MF
+15	,	,	_	$,	_	_	_	_	_	_	MF
+16	als	als	_	KOKOM	_	_	_	_	_	_	MF
+17	eine	eine	_	ART	_	_	_	_	_	_	MF
+18	geraume	geraum	_	ADJA	_	_	_	_	_	_	MF
+19	Zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+20	,	,	_	$,	_	_	_	_	_	_	MF
+21	die	die	_	PRELS	_	_	_	_	_	LK	MF-LK
+22	oft	oft	_	ADV	_	_	_	_	_	_	MF-MF
+23	Jahr-<lb/>hunderte	Jahrhundert	_	NN	_	_	_	_	_	_	MF-MF
+24	in	in	_	APPR	_	_	_	_	_	_	MF-MF
+25	ſich	sich	_	PRF	_	_	_	_	_	_	MF-MF
+26	enthielt	enthalten	_	VVFIN	_	_	_	_	_	RK	MF-RK
+27	,	,	_	$,	_	_	_	_	_	_	MF
+28	nach	nach	_	APPR	_	_	_	_	_	_	MF
+29	der	d	_	ART	_	_	_	_	_	_	MF
+30	erſten	erst	_	ADJA	_	_	_	_	_	_	MF
+31	ent-<lb/>ſtehen	entstehen	_	VVINF	_	_	_	_	_	RK	RK
+32	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 25
+# text = Der Menſch , welcher nackt , huͤlflos und ohne Mittel den Erdball betritt , ſahe ſich gar bald in die Nothwendigkeit geſetzt , ſeinem Koͤrper die noͤthigen Nahrungs-Mittel zu er-<lb/>theilen , ſich fuͤr die Wuth der Elemente zu ſichern und den wilden Thieren Widerſtand zu leiſten .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Menſch	Mensch	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	welcher	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+5	nackt	nackt	_	ADJD	_	_	_	_	_	_	VF-MF
+6	,	,	_	$,	_	_	_	_	_	_	VF-MF
+7	huͤlflos	hülfelos	_	ADJD	_	_	_	_	_	_	VF-MF
+8	und	und	_	KON	_	_	_	_	_	_	VF-MF
+9	ohne	ohne	_	APPR	_	_	_	_	_	_	VF-MF
+10	Mittel	Mittel	_	NN	_	_	_	_	_	_	VF-MF
+11	den	d	_	ART	_	_	_	_	_	_	VF-MF
+12	Erdball	Erdball	_	NN	_	_	_	_	_	_	VF-MF
+13	betritt	betreten	_	VVFIN	_	_	_	_	_	RK	VF-RK
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	ſahe	sehen	_	VVFIN	_	_	_	_	_	LK	LK
+16	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+17	gar	gar	_	ADV	_	_	_	_	_	_	MF
+18	bald	bald	_	ADV	_	_	_	_	_	_	MF
+19	in	in	_	APPR	_	_	_	_	_	_	MF
+20	die	d	_	ART	_	_	_	_	_	_	MF
+21	Nothwendigkeit	Notwendigkeit	_	NN	_	_	_	_	_	_	MF
+22	geſetzt	setzen	_	VVPP	_	_	_	_	_	RK	RK
+23	,	,	_	$,	_	_	_	_	_	_	_
+24	ſeinem	seine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+25	Koͤrper	Körper	_	NN	_	_	_	_	_	_	NF-MF
+26	die	d	_	ART	_	_	_	_	_	_	NF-MF
+27	noͤthigen	nötig	_	ADJA	_	_	_	_	_	_	NF-MF
+28	Nahrungs-Mittel	Nahrungs-Mittel	_	NN	_	_	_	_	_	_	NF-MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+30	er-<lb/>theilen	erteilen	_	VVINF	_	_	_	_	_	RK	NF-RK
+31	,	,	_	$,	_	_	_	_	_	_	NF
+32	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+33	fuͤr	für	_	APPR	_	_	_	_	_	_	NF-MF
+34	die	d	_	ART	_	_	_	_	_	_	NF-MF
+35	Wuth	Wut	_	NN	_	_	_	_	_	_	NF-MF
+36	der	d	_	ART	_	_	_	_	_	_	NF-MF
+37	Elemente	Element	_	NN	_	_	_	_	_	_	NF-MF
+38	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+39	ſichern	sicher	_	VVINF	_	_	_	_	_	RK	NF-RK
+40	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+41	den	d	_	ART	_	_	_	_	_	_	NF-MF
+42	wilden	wild	_	ADJA	_	_	_	_	_	_	NF-MF
+43	Thieren	Tier	_	NN	_	_	_	_	_	_	NF-MF
+44	Widerſtand	Widerstand	_	NN	_	_	_	_	_	_	NF-MF
+45	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+46	leiſten	leisten	_	VVINF	_	_	_	_	_	RK	NF-RK
+47	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 26
+# text = Die Noth iſt ſinnreich .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Noth	Not	_	NN	_	_	_	_	_	_	VF
+3	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	ſinnreich	sinnreich	_	ADJD	_	_	_	_	_	_	MF
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 27
+# text = Aber die er-<lb/>ſten Verſuche waren grob und ungebildet .
+1	Aber	aber	_	KON	_	_	_	_	_	_	KOORD
+2	die	d	_	ART	_	_	_	_	_	_	VF
+3	er-<lb/>ſten	erst	_	ADJA	_	_	_	_	_	_	VF
+4	Verſuche	Versuch	_	NN	_	_	_	_	_	_	VF
+5	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+6	grob	grob	_	ADJD	_	_	_	_	_	_	MF
+7	und	und	_	KON	_	_	_	_	_	_	MF
+8	ungebildet	ungebildet	_	ADJD	_	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 28
+# text = Die erſten Kleider waren Felle der Thiere oder wohl gar Blaͤtter und Zweige der Baͤume ; die erſten Wohnungen , Hoͤhlen oder Kluͤfte der Felſen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	erſten	erst	_	ADJA	_	_	_	_	_	_	VF
+3	Kleider	Kleid	_	NN	_	_	_	_	_	_	VF
+4	waren	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	Felle	Fell	_	NN	_	_	_	_	_	_	MF
+6	der	d	_	ART	_	_	_	_	_	_	MF
+7	Thiere	Tier	_	NN	_	_	_	_	_	_	MF
+8	oder	oder	_	KON	_	_	_	_	_	_	MF
+9	wohl	wohl	_	ADV	_	_	_	_	_	_	MF
+10	gar	gar	_	ADV	_	_	_	_	_	_	MF
+11	Blaͤtter	Blatt	_	NN	_	_	_	_	_	_	MF
+12	und	und	_	KON	_	_	_	_	_	_	MF
+13	Zweige	Zweig	_	NN	_	_	_	_	_	_	MF
+14	der	d	_	ART	_	_	_	_	_	_	MF
+15	Baͤume	Baum	_	NN	_	_	_	_	_	_	MF
+16	;	\;	_	$.	_	_	_	_	_	_	_
+17	die	d	_	ART	_	_	_	_	_	_	VF
+18	erſten	erst	_	ADJA	_	_	_	_	_	_	VF
+19	Wohnungen	Wohnung	_	NN	_	_	_	_	_	_	VF
+20	,	,	_	$,	_	_	_	_	_	_	_
+21	Hoͤhlen	Höhle	_	NN	_	_	_	_	_	_	MF
+22	oder	oder	_	KON	_	_	_	_	_	_	MF
+23	Kluͤfte	Kluft	_	NN	_	_	_	_	_	_	MF
+24	der	d	_	ART	_	_	_	_	_	_	MF
+25	Felſen	Felsen	_	NN	_	_	_	_	_	_	MF
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 29
+# text = Nach und nach fieng man an , das Nothwendige , das Nuͤtzliche mit dem An-<lb/>genehmen zu verbinden .
+1	Nach	nach	_	ADV	_	_	_	_	_	_	VF
+2	und	und	_	KON	_	_	_	_	_	_	VF
+3	nach	nach	_	ADV	_	_	_	_	_	_	VF
+4	fieng	fangen	_	VVFIN	_	_	_	_	_	LK	LK
+5	man	man	_	PIS	_	_	_	_	_	_	MF
+6	an	an	_	PTKVZ	_	_	_	_	_	RK	RK
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	das	d	_	ART	_	_	_	_	_	_	NF-MF
+9	Nothwendige	Notwendige	_	NN	_	_	_	_	_	_	NF-MF
+10	,	,	_	$,	_	_	_	_	_	_	NF-MF
+11	das	d	_	ART	_	_	_	_	_	_	NF-MF
+12	Nuͤtzliche	Nützliche	_	NN	_	_	_	_	_	_	NF-MF
+13	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF
+14	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+15	An-<lb/>genehmen	Angenehme	_	NN	_	_	_	_	_	_	NF-MF
+16	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+17	verbinden	verbinden	_	VVINF	_	_	_	_	_	RK	NF-RK
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 19
+# sent_id(TSV) = 30
+# text = Wie viele Jahr-<lb/>hunderte wurden nicht erfordert , ehe ſich die Baukunſt von den Hoͤhlen und unfoͤrmlichen Huͤtten , den erſten Wohnungen des menſch-<lb/>lichen Geſchlechts , bis zur praͤchtigen Faßade eines auf corinthiſchen Saͤulen ruhenden Pallaſts zu ſchwingen !
+1	Wie	wie	_	PWAV	_	_	_	_	_	_	VF
+2	viele	viel	_	PIAT	_	_	_	_	_	_	VF
+3	Jahr-<lb/>hunderte	Jahrhundert	_	NN	_	_	_	_	_	_	VF
+4	wurden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+6	erfordert	erfordern	_	VVPP	_	_	_	_	_	RK	RK
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	ehe	ehe	_	KOUS	_	_	_	_	_	LK	NF-LK
+9	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+10	die	d	_	ART	_	_	_	_	_	_	NF-MF
+11	Baukunſt	Baukunst	_	NN	_	_	_	_	_	_	NF-MF
+12	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+13	den	d	_	ART	_	_	_	_	_	_	NF-MF
+14	Hoͤhlen	Höhle	_	NN	_	_	_	_	_	_	NF-MF
+15	und	und	_	KON	_	_	_	_	_	_	NF-MF
+16	unfoͤrmlichen	unförmlich	_	ADJA	_	_	_	_	_	_	NF-MF
+17	Huͤtten	Hütte	_	NN	_	_	_	_	_	_	NF-MF
+18	,	,	_	$,	_	_	_	_	_	_	NF-MF
+19	den	d	_	ART	_	_	_	_	_	_	NF-MF
+20	erſten	erst	_	ADJA	_	_	_	_	_	_	NF-MF
+21	Wohnungen	Wohnung	_	NN	_	_	_	_	_	_	NF-MF
+22	des	d	_	ART	_	_	_	_	_	_	NF-MF
+23	menſch-<lb/>lichen	menschlich	_	ADJA	_	_	_	_	_	_	NF-MF
+24	Geſchlechts	Geschlecht	_	NN	_	_	_	_	_	_	NF-MF
+25	,	,	_	$,	_	_	_	_	_	_	NF-MF
+26	bis	bis	_	KOUS	_	_	_	_	_	_	NF-MF
+27	zur	zur	_	APPRART	_	_	_	_	_	_	NF-MF
+28	praͤchtigen	prächtig	_	ADJA	_	_	_	_	_	_	NF-MF
+29	Faßade	Faßade	_	NN	_	_	_	_	_	_	NF-MF
+30	eines	eine	_	ART	_	_	_	_	_	_	NF-MF
+31	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+32	corinthiſchen	korinthisch	_	ADJA	_	_	_	_	_	_	NF-MF
+33	Saͤulen	Säule	_	NN	_	_	_	_	_	_	NF-MF
+34	ruhenden	ruhend	_	ADJA	_	_	_	_	_	_	NF-MF
+35	Pallaſts	Palast	_	NN	_	_	_	_	_	_	NF-MF
+36	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+37	ſchwingen	schwingen	_	VVINF	_	_	_	_	_	RK	NF-RK
+38	!	!	_	$.	_	_	_	_	_	_	_

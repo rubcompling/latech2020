@@ -1,0 +1,442 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 5
+# text = ☞ Montags erscheint nur ein Blatt .
+1	☞	☞	_	ADJA	_	_	_	_	_	_	_
+2	Montags	Montag	_	ADV	_	_	_	_	_	_	VF
+3	erscheint	erscheinen	_	VVFIN	_	_	_	_	_	LK	LK
+4	nur	nur	_	ADV	_	_	_	_	_	_	MF
+5	ein	eine	_	ART	_	_	_	_	_	_	MF
+6	Blatt	Blatt	_	NN	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 30
+# text = Die Auf-<lb/>stellung der Armee während der nächsten Occupationsphase ist derart ge-<lb/>ordnet , daß von der untern Seine , wo die erste Armee verbleibt , sich die übrigen Armeen ununterbrochen aneinanderschließen bis Dijon hin , wo die Linie durch die Südarmee geschlossen wird .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Auf-<lb/>stellung	Aufstellung	_	NN	_	_	_	_	_	_	VF
+3	der	d	_	ART	_	_	_	_	_	_	VF
+4	Armee	Armee	_	NN	_	_	_	_	_	_	VF
+5	während	während	_	APPR	_	_	_	_	_	_	VF
+6	der	d	_	ART	_	_	_	_	_	_	VF
+7	nächsten	nächst	_	ADJA	_	_	_	_	_	_	VF
+8	Occupationsphase	Okkupationsphase	_	NN	_	_	_	_	_	_	VF
+9	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+10	derart	derart	_	ADV	_	_	_	_	_	_	MF
+11	ge-<lb/>ordnet	ordnen	_	VVPP	_	_	_	_	_	RK	RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+14	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	untern	unter	_	ADJA	_	_	_	_	_	_	NF-MF
+17	Seine	Seine	_	NE	_	_	_	_	_	_	NF-MF
+18	,	,	_	$,	_	_	_	_	_	_	NF-MF
+19	wo	wo	_	PWAV	_	_	_	_	_	LK	NF-MF-LK
+20	die	d	_	ART	_	_	_	_	_	_	NF-MF-MF
+21	erste	erst	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+22	Armee	Armee	_	NN	_	_	_	_	_	_	NF-MF-MF
+23	verbleibt	verbleiben	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+24	,	,	_	$,	_	_	_	_	_	_	NF-MF
+25	sich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+26	die	d	_	ART	_	_	_	_	_	_	NF-MF
+27	übrigen	übrig	_	ADJA	_	_	_	_	_	_	NF-MF
+28	Armeen	Armee	_	NN	_	_	_	_	_	_	NF-MF
+29	ununterbrochen	ununterbrechen	_	ADJD	_	_	_	_	_	_	NF-MF
+30	aneinanderschließen	aneinanderschließen	_	VVINF	_	_	_	_	_	RK	NF-RK
+31	bis	bis	_	APPR	_	_	_	_	_	_	NF-NF
+32	Dijon	Dijon	_	NE	_	_	_	_	_	_	NF-NF
+33	hin	hin	_	APZR	_	_	_	_	_	_	NF-NF
+34	,	,	_	$,	_	_	_	_	_	_	NF-NF
+35	wo	wo	_	PWAV	_	_	_	_	_	LK	NF-NF-LK
+36	die	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+37	Linie	Linie	_	NN	_	_	_	_	_	_	NF-NF-MF
+38	durch	durch	_	APPR	_	_	_	_	_	_	NF-NF-MF
+39	die	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+40	Südarmee	Südenarmee	_	NN	_	_	_	_	_	_	NF-NF-MF
+41	geschlossen	schließen	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+42	wird	werden	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+43	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 31
+# text = Das zur Südarmee ge-<lb/>hörige vierzehnte Armeecorps wird nächstens aufgelöst , und dafür das fünfte Armeecorps der Südarmee beigegeben .
+1	Das	die	_	PDS	_	_	_	_	_	_	VF
+2	zur	zur	_	APPRART	_	_	_	_	_	_	VF
+3	Südarmee	Südenarmee	_	NN	_	_	_	_	_	_	VF
+4	ge-<lb/>hörige	gehörig	_	ADJA	_	_	_	_	_	_	VF
+5	vierzehnte	vierzehnt	_	ADJA	_	_	_	_	_	_	VF
+6	Armeecorps	Armeecorps	_	NN	_	_	_	_	_	_	VF
+7	wird	werden	_	VAFIN	_	_	_	_	_	LK	LK
+8	nächstens	nächstens	_	ADV	_	_	_	_	_	_	MF
+9	aufgelöst	auflösen	_	VVPP	_	_	_	_	_	RK	RK
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	und	und	_	KON	_	_	_	_	_	_	KOORD
+12	dafür	dafür	_	PAV	_	_	_	_	_	_	MF
+13	das	d	_	ART	_	_	_	_	_	_	MF
+14	fünfte	fünft	_	ADJA	_	_	_	_	_	_	MF
+15	Armeecorps	Armeecorps	_	NN	_	_	_	_	_	_	MF
+16	der	d	_	ART	_	_	_	_	_	_	MF
+17	Südarmee	Südenarmee	_	NN	_	_	_	_	_	_	MF
+18	beigegeben	beigeben	_	VVPP	_	_	_	_	_	RK	RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 32
+# text = Das Centrum der Auf-<lb/>stellung bilden die Maasarmee , die dritte Armee , woran sich etwa beim Einfluß der Aube in die Seine die zweite Armee anschließt .
+1	Das	d	_	ART	_	_	_	_	_	_	VF
+2	Centrum	Zentrum	_	NN	_	_	_	_	_	_	VF
+3	der	d	_	ART	_	_	_	_	_	_	VF
+4	Auf-<lb/>stellung	Aufstellung	_	NN	_	_	_	_	_	_	VF
+5	bilden	bilden	_	VVFIN	_	_	_	_	_	LK	LK
+6	die	d	_	ART	_	_	_	_	_	_	MF
+7	Maasarmee	Maasarmee	_	NN	_	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	MF
+9	die	d	_	ART	_	_	_	_	_	_	MF
+10	dritte	dritt	_	ADJA	_	_	_	_	_	_	MF
+11	Armee	Armee	_	NN	_	_	_	_	_	_	MF
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	woran	woran	_	PWAV	_	_	_	_	_	LK	NF-LK
+14	sich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+15	etwa	etwa	_	ADV	_	_	_	_	_	_	NF-MF
+16	beim	beim	_	APPRART	_	_	_	_	_	_	NF-MF
+17	Einfluß	Einfluß	_	NN	_	_	_	_	_	_	NF-MF
+18	der	d	_	ART	_	_	_	_	_	_	NF-MF
+19	Aube	Aube	_	NE	_	_	_	_	_	_	NF-MF
+20	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+21	die	d	_	ART	_	_	_	_	_	_	NF-MF
+22	Seine	seine	_	NE	_	_	_	_	_	_	NF-MF
+23	die	d	_	ART	_	_	_	_	_	_	NF-MF
+24	zweite	zweit	_	ADJA	_	_	_	_	_	_	NF-MF
+25	Armee	Armee	_	NN	_	_	_	_	_	_	NF-MF
+26	anschließt	anschließen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 33
+# text = Es ist bereits Befehl ertheilt die Landwehren sowohl aus dem Corpsverband als aus den Garnisonen unverzüglich in die Heimath zu entlassen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	bereits	bereits	_	ADV	_	_	_	_	_	_	MF
+4	Befehl	Befehl	_	NN	_	_	_	_	_	_	MF
+5	ertheilt	erteilen	_	VVPP	_	_	_	_	_	RK	RK
+6	die	d	_	ART	_	_	_	_	_	_	NF-MF
+7	Landwehren	Landwehr	_	NN	_	_	_	_	_	_	NF-MF
+8	sowohl	sowohl	_	KON	_	_	_	_	_	_	NF-MF
+9	aus	aus	_	APPR	_	_	_	_	_	_	NF-MF
+10	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+11	Corpsverband	Corpsverband	_	NN	_	_	_	_	_	_	NF-MF
+12	als	als	_	KOKOM	_	_	_	_	_	_	NF-MF
+13	aus	aus	_	APPR	_	_	_	_	_	_	NF-MF
+14	den	d	_	ART	_	_	_	_	_	_	NF-MF
+15	Garnisonen	Garnison	_	NN	_	_	_	_	_	_	NF-MF
+16	unverzüglich	unverzüglich	_	ADJD	_	_	_	_	_	_	NF-MF
+17	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+18	die	d	_	ART	_	_	_	_	_	_	NF-MF
+19	Heimath	Heimat	_	NN	_	_	_	_	_	_	NF-MF
+20	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+21	entlassen	entlassen	_	VVINF	_	_	_	_	_	RK	NF-RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 34
+# text = Die den an Deutschland abgetretenen Landestheilen angehörenden Kriegsgefangenen , welche im bisherigen Jnternirungsort zu verbleiben wün-<lb/>schen , werden sofort in Freiheit gesetzt ; diejenigen welche sich in die Hei-<lb/>math begeben wollen , sollen so behandelt werden wie auf Revers entlassene Officiere .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	den	d	_	ART	_	_	_	_	_	_	VF
+3	an	an	_	APPR	_	_	_	_	_	_	VF
+4	Deutschland	Deutschland	_	NE	_	_	_	_	_	_	VF
+5	abgetretenen	abgetreten	_	ADJA	_	_	_	_	_	_	VF
+6	Landestheilen	Landesteil	_	NN	_	_	_	_	_	_	VF
+7	angehörenden	angehörend	_	ADJA	_	_	_	_	_	_	VF
+8	Kriegsgefangenen	Kriegsgefangene	_	NN	_	_	_	_	_	_	VF
+9	,	,	_	$,	_	_	_	_	_	_	VF
+10	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+11	im	im	_	APPRART	_	_	_	_	_	_	VF-MF
+12	bisherigen	bisherig	_	ADJA	_	_	_	_	_	_	VF-MF
+13	Jnternirungsort	Internierungsort	_	NN	_	_	_	_	_	_	VF-MF
+14	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-RK
+15	verbleiben	verbleiben	_	VVINF	_	_	_	_	_	RK	VF-RK
+16	wün-<lb/>schen	wünschen	_	VVFIN	_	_	_	_	_	RK	VF-RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+19	sofort	sofort	_	ADV	_	_	_	_	_	_	MF
+20	in	in	_	APPR	_	_	_	_	_	_	MF
+21	Freiheit	Freiheit	_	NN	_	_	_	_	_	_	MF
+22	gesetzt	setzen	_	VVPP	_	_	_	_	_	RK	RK
+23	;	\;	_	$.	_	_	_	_	_	_	_
+24	diejenigen	diejenige	_	PDS	_	_	_	_	_	_	VF
+25	welche	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+26	sich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+27	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+28	die	d	_	ART	_	_	_	_	_	_	VF-MF
+29	Hei-<lb/>math	Heimat	_	NN	_	_	_	_	_	_	VF-MF
+30	begeben	begeben	_	VVINF	_	_	_	_	_	RK	VF-RK
+31	wollen	wollen	_	VMFIN	_	_	_	_	_	RK	VF-RK
+32	,	,	_	$,	_	_	_	_	_	_	_
+33	sollen	sollen	_	VMFIN	_	_	_	_	_	LK	LK
+34	so	so	_	ADV	_	_	_	_	_	_	MF
+35	behandelt	behandeln	_	VVPP	_	_	_	_	_	RK	RK
+36	werden	werden	_	VAINF	_	_	_	_	_	RK	RK
+37	wie	wie	_	KOKOM	_	_	_	_	_	_	NF
+38	auf	auf	_	APPR	_	_	_	_	_	_	NF
+39	Revers	Revers	_	NN	_	_	_	_	_	_	NF
+40	entlassene	entlaßen	_	ADJA	_	_	_	_	_	_	NF
+41	Officiere	Offizier	_	NN	_	_	_	_	_	_	NF
+42	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 35
+# text = Diejenigen die in französischen Kriegsdiensten verbleiben wollen , werden wie andere Kriegsgefangene lediglich nach Maßgabe des Friedens-<lb/>vertrags behandelt .
+1	Diejenigen	diejenige	_	PDS	_	_	_	_	_	_	VF
+2	die	d	_	PRELS	_	_	_	_	_	LK	VF-LK
+3	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+4	französischen	französisch	_	ADJA	_	_	_	_	_	_	VF-MF
+5	Kriegsdiensten	Kriegsdienst	_	NN	_	_	_	_	_	_	VF-MF
+6	verbleiben	verbleiben	_	VVINF	_	_	_	_	_	RK	VF-RK
+7	wollen	wollen	_	VMFIN	_	_	_	_	_	RK	VF-RK
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+10	wie	wie	_	KOKOM	_	_	_	_	_	_	MF
+11	andere	ander	_	ADJA	_	_	_	_	_	_	MF
+12	Kriegsgefangene	Kriegsgefangene	_	NN	_	_	_	_	_	_	MF
+13	lediglich	lediglich	_	ADV	_	_	_	_	_	_	MF
+14	nach	nach	_	APPR	_	_	_	_	_	_	MF
+15	Maßgabe	Maßgabe	_	NN	_	_	_	_	_	_	MF
+16	des	d	_	ART	_	_	_	_	_	_	MF
+17	Friedens-<lb/>vertrags	Friedensvertrag	_	NN	_	_	_	_	_	_	MF
+18	behandelt	behandeln	_	VVPP	_	_	_	_	_	RK	RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 37
+# text = Dem Vernehmen nach ist die Demobili-<lb/>sirung der Garnisonsbataillone und interimistischen Besatzungstruppen , sowie die Desarmirung der Festungen und Küstenbefestigungen bereits an-<lb/>geordnet .
+1	Dem	d	_	ART	_	_	_	_	_	_	VF
+2	Vernehmen	Vernehmen	_	NN	_	_	_	_	_	_	VF
+3	nach	nach	_	APPO	_	_	_	_	_	_	VF
+4	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	die	d	_	ART	_	_	_	_	_	_	MF
+6	Demobili-<lb/>sirung	Demobilisierung	_	NN	_	_	_	_	_	_	MF
+7	der	d	_	ART	_	_	_	_	_	_	MF
+8	Garnisonsbataillone	Garnisonsbataillon	_	NN	_	_	_	_	_	_	MF
+9	und	und	_	KON	_	_	_	_	_	_	MF
+10	interimistischen	interimistisch	_	ADJA	_	_	_	_	_	_	MF
+11	Besatzungstruppen	Besatzungstruppe	_	NN	_	_	_	_	_	_	MF
+12	,	,	_	$,	_	_	_	_	_	_	MF
+13	sowie	sowie	_	KON	_	_	_	_	_	_	MF
+14	die	d	_	ART	_	_	_	_	_	_	MF
+15	Desarmirung	Desarmierung	_	NN	_	_	_	_	_	_	MF
+16	der	d	_	ART	_	_	_	_	_	_	MF
+17	Festungen	Festung	_	NN	_	_	_	_	_	_	MF
+18	und	und	_	KON	_	_	_	_	_	_	MF
+19	Küstenbefestigungen	Küstenbefestigung	_	NN	_	_	_	_	_	_	MF
+20	bereits	bereits	_	ADV	_	_	_	_	_	_	MF
+21	an-<lb/>geordnet	anordnen	_	VVPP	_	_	_	_	_	RK	RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 38
+# text = Es heißt : nach Durchführung der Demobilisirung der gesamm-<lb/>ten Armee werde beabsichtigt die ältesten Jahrgänge der Landwehr zum Landsturm überzuführen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	heißt	heißen	_	VVFIN	_	_	_	_	_	LK	LK
+3	:	:	_	$.	_	_	_	_	_	_	_
+4	nach	nach	_	APPR	_	_	_	_	_	_	NF-VF
+5	Durchführung	Durchführung	_	NN	_	_	_	_	_	_	NF-VF
+6	der	d	_	ART	_	_	_	_	_	_	NF-VF
+7	Demobilisirung	Demobilisierung	_	NN	_	_	_	_	_	_	NF-VF
+8	der	d	_	ART	_	_	_	_	_	_	NF-VF
+9	gesamm-<lb/>ten	gesamt	_	ADJA	_	_	_	_	_	_	NF-VF
+10	Armee	Armee	_	NN	_	_	_	_	_	_	NF-VF
+11	werde	werden	_	VAFIN	_	_	_	_	_	LK	NF-LK
+12	beabsichtigt	beabsichtigen	_	VVPP	_	_	_	_	_	RK	NF-RK
+13	die	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+14	ältesten	alt	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+15	Jahrgänge	Jahrgang	_	NN	_	_	_	_	_	_	NF-NF-MF
+16	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+17	Landwehr	Landwehr	_	NN	_	_	_	_	_	_	NF-NF-MF
+18	zum	zum	_	APPRART	_	_	_	_	_	_	NF-NF-MF
+19	Landsturm	Landsturm	_	NN	_	_	_	_	_	_	NF-NF-MF
+20	überzuführen	überführen	_	VVIZU	_	_	_	_	_	RK	NF-NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 40
+# text = Die Arbeitseinstellung hat zugenommen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Arbeitseinstellung	Arbeitseinstellung	_	NN	_	_	_	_	_	_	VF
+3	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+4	zugenommen	zunehmen	_	VVPP	_	_	_	_	_	RK	RK
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 41
+# text = Jm Arbeiterviertel finden Zusammenrottungen statt .
+1	Jm	im	_	APPRART	_	_	_	_	_	_	VF
+2	Arbeiterviertel	Arbeiterviertel	_	NN	_	_	_	_	_	_	VF
+3	finden	finden	_	VVFIN	_	_	_	_	_	LK	LK
+4	Zusammenrottungen	Zusammenrottung	_	NN	_	_	_	_	_	_	MF
+5	statt	statt	_	PTKVZ	_	_	_	_	_	RK	RK
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 42
+# text = Der Generalprocu-<lb/>rator ist angekommen .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Generalprocu-<lb/>rator	Generalprokurator	_	NN	_	_	_	_	_	_	VF
+3	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	angekommen	ankommen	_	VVPP	_	_	_	_	_	RK	RK
+5	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 43
+# text = Mehrere Personen sind gerichtlich verurtheilt wor-<lb/>den .
+1	Mehrere	mehrere	_	PIAT	_	_	_	_	_	_	VF
+2	Personen	Person	_	NN	_	_	_	_	_	_	VF
+3	sind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	gerichtlich	gerichtlich	_	ADJD	_	_	_	_	_	_	MF
+5	verurtheilt	verurteilen	_	VVPP	_	_	_	_	_	RK	RK
+6	wor-<lb/>den	werden	_	VAPP	_	_	_	_	_	RK	RK
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 44
+# text = Man befürchtet Unruhen .
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	befürchtet	befürchten	_	VVFIN	_	_	_	_	_	LK	LK
+3	Unruhen	Unruhen	_	NN	_	_	_	_	_	_	MF
+4	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 45
+# text = Weitere Telegramme siehe fünfte Seite .
+1	Weitere	weit	_	ADJA	_	_	_	_	_	_	VF
+2	Telegramme	Telegramm	_	NN	_	_	_	_	_	_	VF
+3	siehe	sehen	_	VVIMP	_	_	_	_	_	LK	LK
+4	fünfte	fünft	_	ADJA	_	_	_	_	_	_	MF
+5	Seite	Seite	_	NN	_	_	_	_	_	_	MF
+6	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 48
+# text = Von der „ moralischen Rückeroberung des Elsaßes ist jetzt in der deutschen Presse so vielfach die Rede , daß es vielleicht von Jnteresse sein dürfte über diesen sehr wichtigen Gegenstand eine Stimme aus dem Elsaß selbst zu vernehmen .
+1	Von	von	_	APPR	_	_	_	_	_	_	VF
+2	der	d	_	ART	_	_	_	_	_	_	VF
+3	„	"	_	$(	_	_	_	_	_	_	VF
+4	moralischen	moralisch	_	ADJA	_	_	_	_	_	_	VF
+5	Rückeroberung	Rückeroberung	_	NN	_	_	_	_	_	_	VF
+6	des	d	_	ART	_	_	_	_	_	_	VF
+7	Elsaßes	Elsaßes	_	NE	_	_	_	_	_	_	VF
+8	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+9	jetzt	jetzt	_	ADV	_	_	_	_	_	_	MF
+10	in	in	_	APPR	_	_	_	_	_	_	MF
+11	der	d	_	ART	_	_	_	_	_	_	MF
+12	deutschen	deutsch	_	ADJA	_	_	_	_	_	_	MF
+13	Presse	Presse	_	NN	_	_	_	_	_	_	MF
+14	so	so	_	ADV	_	_	_	_	_	_	MF
+15	vielfach	vielfach	_	ADV	_	_	_	_	_	_	MF
+16	die	d	_	ART	_	_	_	_	_	_	MF
+17	Rede	Rede	_	NN	_	_	_	_	_	_	MF
+18	,	,	_	$,	_	_	_	_	_	_	_
+19	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+20	es	es	_	PPER	_	_	_	_	_	_	NF-MF
+21	vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	NF-MF
+22	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+23	Jnteresse	Interesse	_	NN	_	_	_	_	_	_	NF-MF
+24	sein	sein	_	VAINF	_	_	_	_	_	RK	NF-RK
+25	dürfte	dürfen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+26	über	über	_	APPR	_	_	_	_	_	_	NF-NF-MF
+27	diesen	diese	_	PDAT	_	_	_	_	_	_	NF-NF-MF
+28	sehr	sehr	_	ADV	_	_	_	_	_	_	NF-NF-MF
+29	wichtigen	wichtig	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+30	Gegenstand	Gegenstand	_	NN	_	_	_	_	_	_	NF-NF-MF
+31	eine	eine	_	ART	_	_	_	_	_	_	NF-NF-MF
+32	Stimme	Stimme	_	NN	_	_	_	_	_	_	NF-NF-MF
+33	aus	aus	_	APPR	_	_	_	_	_	_	NF-NF-MF
+34	dem	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+35	Elsaß	Elsaß	_	NE	_	_	_	_	_	_	NF-NF-MF
+36	selbst	selbst	_	ADV	_	_	_	_	_	_	NF-NF-MF
+37	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-NF-RK
+38	vernehmen	vernehmen	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+39	.	.	_	$.	_	_	_	_	_	_	NF
+
+# sent_id = 17
+# sent_id(TSV) = 49
+# text = Vorausschicken müssen wir hiebei daß wir zu denjenigen Elsäßern gehören die sich von Herzen darüber freuen daß Elsaß nun wiederum zu seiner ursprünglichen Stam-<lb/>mesart zurückkehrt und seinen deutschen Charakter wieder gewinnen soll , welchen es sich durch eine mehr denn zweihundertjährige französische Herr-<lb/>schaft hindurch großentheils zu wahren gewußt hat .
+1	Vorausschicken	Vorausschicken	_	VVINF	_	_	_	_	_	RK	LV-RK
+2	müssen	müssen	_	VMFIN	_	_	_	_	_	LK	LK
+3	wir	wir	_	PPER	_	_	_	_	_	_	MF
+4	hiebei	hierbei	_	ADV	_	_	_	_	_	_	MF
+5	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+6	wir	wir	_	PPER	_	_	_	_	_	_	NF-MF
+7	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+8	denjenigen	denjenig	_	PDAT	_	_	_	_	_	_	NF-MF
+9	Elsäßern	Elsässer	_	NN	_	_	_	_	_	_	NF-MF
+10	gehören	gehören	_	VVFIN	_	_	_	_	_	RK	NF-RK
+11	die	d	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+12	sich	sich	_	PRF	_	_	_	_	_	_	NF-NF-MF
+13	von	von	_	APPR	_	_	_	_	_	_	NF-NF-MF
+14	Herzen	Herz	_	NN	_	_	_	_	_	_	NF-NF-MF
+15	darüber	darüber	_	PAV	_	_	_	_	_	_	NF-NF-MF
+16	freuen	freuen	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+17	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-NF-NF-LK
+18	Elsaß	Elsaß	_	NE	_	_	_	_	_	_	NF-NF-NF-MF
+19	nun	nun	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+20	wiederum	wiederum	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+21	zu	zu	_	APPR	_	_	_	_	_	_	NF-NF-NF-MF
+22	seiner	seine	_	PPOSAT	_	_	_	_	_	_	NF-NF-NF-MF
+23	ursprünglichen	ursprünglich	_	ADJA	_	_	_	_	_	_	NF-NF-NF-MF
+24	Stam-<lb/>mesart	Stammesart	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+25	zurückkehrt	zurückkehren	_	VVFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+26	und	und	_	KON	_	_	_	_	_	_	NF-NF-NF-KOORD
+27	seinen	seine	_	PPOSAT	_	_	_	_	_	_	NF-NF-NF-MF
+28	deutschen	deutsch	_	ADJA	_	_	_	_	_	_	NF-NF-NF-MF
+29	Charakter	Charakter	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+30	wieder	wieder	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+31	gewinnen	gewinnen	_	VVINF	_	_	_	_	_	RK	NF-NF-NF-RK
+32	soll	sollen	_	VMFIN	_	_	_	_	_	RK	NF-NF-NF-RK
+33	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF
+34	welchen	welchen	_	PRELS	_	_	_	_	_	LK	NF-NF-NF-NF-LK
+35	es	es	_	PPER	_	_	_	_	_	_	NF-NF-NF-NF-MF
+36	sich	sich	_	PRF	_	_	_	_	_	_	NF-NF-NF-NF-MF
+37	durch	durch	_	APPR	_	_	_	_	_	_	NF-NF-NF-NF-MF
+38	eine	eine	_	ART	_	_	_	_	_	_	NF-NF-NF-NF-MF
+39	mehr	mehr	_	PIS	_	_	_	_	_	_	NF-NF-NF-NF-MF
+40	denn	denn	_	KOKOM	_	_	_	_	_	_	NF-NF-NF-NF-MF
+41	zweihundertjährige	zweihundertjahrig	_	ADJA	_	_	_	_	_	_	NF-NF-NF-NF-MF
+42	französische	französisch	_	ADJA	_	_	_	_	_	_	NF-NF-NF-NF-MF
+43	Herr-<lb/>schaft	Herrschaft	_	NN	_	_	_	_	_	_	NF-NF-NF-NF-MF
+44	hindurch	hindurch	_	ADV	_	_	_	_	_	_	NF-NF-NF-NF-MF
+45	großentheils	großenteils	_	ADV	_	_	_	_	_	_	NF-NF-NF-NF-MF
+46	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+47	wahren	wahren	_	VVINF	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+48	gewußt	wissen	_	VVPP	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+49	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-NF-NF-NF-RK
+50	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 18
+# sent_id(TSV) = 50
+# text = Diese Erklärung möge uns zugleich zur Entschuldigung dienen wenn wir in folgendem vielleicht manches werden sagen müssen was Fernstehenden auffallend oder zu scharf erscheinen möchte .
+1	Diese	diese	_	PDAT	_	_	_	_	_	_	VF
+2	Erklärung	Erklärung	_	NN	_	_	_	_	_	_	VF
+3	möge	mögen	_	VMFIN	_	_	_	_	_	LK	LK
+4	uns	wir	_	PPER	_	_	_	_	_	_	MF
+5	zugleich	zugleich	_	ADV	_	_	_	_	_	_	MF
+6	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+7	Entschuldigung	Entschuldigung	_	NN	_	_	_	_	_	_	MF
+8	dienen	dienen	_	VVINF	_	_	_	_	_	RK	RK
+9	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+10	wir	wir	_	PPER	_	_	_	_	_	_	NF-MF
+11	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+12	folgendem	folgend	_	NN	_	_	_	_	_	_	NF-MF
+13	vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	NF-MF
+14	manches	manche	_	PIS	_	_	_	_	_	_	NF-MF
+15	werden	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+16	sagen	sagen	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	müssen	müssen	_	VMINF	_	_	_	_	_	RK	NF-RK
+18	was	was	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+19	Fernstehenden	Fernstehende	_	NN	_	_	_	_	_	_	NF-NF-MF
+20	auffallend	auffallend	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+21	oder	oder	_	KON	_	_	_	_	_	_	NF-NF-MF
+22	zu	zu	_	PTKA	_	_	_	_	_	_	NF-NF-MF
+23	scharf	scharf	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+24	erscheinen	erscheinen	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+25	möchte	mögen	_	VMFIN	_	_	_	_	_	RK	NF-NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_

@@ -1,0 +1,16 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = dc macht du liden mit ſolich' gnade vn̄ gedult vn̄ mit ſolich' mīne
+1	dc	_	_	PDAT	_	_	_	_	_	NP	dc	285,04	_	DO	_	DD	_	MAINDECL	_	VF	63va,11	_
+2	macht	_	_	VMFIN	_	_	_	_	_	VP	macht	285,04	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	63va,11	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	285,04	_	SUBJ	_	PPER	_	MAINDECL	_	MF	63va,11	_
+4	liden	_	_	VVINF	_	_	_	_	_	VP	liden	285,05	_	INF	_	VVINF	RE	MAINDECL	RK	RK	63va,11	_
+5	mit	_	_	APPR	_	_	_	_	_	PP	mit	285,05	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	63va,11	UNLINK1
+6	ſolich'	_	_	ADJA	_	_	_	_	_	PP	ſolich'	285,05	NF	PP-ADV	_	ADJ	_	MAINDECL	_	NF	63va,12	UNLINK1
+7	gnade	_	_	NN	_	_	_	_	_	PP	gnade	285,05	NF	PP-ADV	ACC-ABSTR-USED-X_	NA	_	MAINDECL	_	NF	63va,12	UNLINK1
+8	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	285,05	NF	PP-ADV	_	KON	_	MAINDECL	_	NF	63va,12	UNLINK1
+9	gedult	_	_	NN	_	_	_	_	_	PP	gedult	285,05	NF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	63va,12	UNLINK1
+10	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	285,05	NF	_	_	KON	_	MAINDECL	_	NF	63va,13	_
+11	mit	_	_	APPR	_	_	_	_	_	PP	mit	285,05	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	63va,13	UNLINK2
+12	ſolich'	_	_	ADJA	_	_	_	_	_	PP	ſolich'	285,05	NF	PP-ADV	_	ADJ	_	MAINDECL	_	NF	63va,13	UNLINK2
+13	mīne	_	_	NN	_	_	_	_	_	PP	mīne	285,05	NF	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	63va,13	UNLINK2

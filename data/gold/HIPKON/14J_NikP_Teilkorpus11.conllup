@@ -1,0 +1,56 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = Davō ſont ir eime als groz ere bíe(=)ten als dem and'n gelich.
+1	Davō	_	_	PAV	_	_	_	_	_	ADVP	Davō	294,27	_	ADVB	_	PAV	_	MAINDECL	_	VF	73va,14	_
+2	ſont	_	_	VMFIN	_	_	_	_	_	VP	ſont	294,27	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	73va,14	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	294,27	_	SUBJ	_	PPER	_	MAINDECL	_	MF	73va,15 bie=	_
+4	eime	_	_	ART	_	_	_	_	_	NP	eime	294,27	_	IO-DAT	_	DIA	_	MAINDECL	_	MF	73va,15 bie=	_
+5	als	_	_	KOKOM	_	_	_	_	_	PP	als	294,27	_	PP-OBJ	_	KOKOM	_	MAINDECL	_	MF	73va,15 bie=	_
+6	groz	_	_	ADJA	_	_	_	_	_	PP	groz	294,27	_	PP-OBJ	_	ADJ	_	MAINDECL	_	MF	73va,15 bie=	_
+7	ere	_	_	NN	_	_	_	_	_	PP	ere	294,27	_	PP-OBJ	_	NA	_	MAINDECL	_	MF	73va,15 bie=	_
+8	bíe(=)ten	_	_	VVINF	_	_	_	_	_	VP	bíeten	294,27	_	INF	_	VVINF	RE	MAINDECL	RK	RK	73va,15 bie=	_
+9	als	_	_	KOKOM	_	_	_	_	_	PP	als	294,27	CF	VGL	NA	KOKOM	_	MAINDECL	_	NF	73va,16	LINK_ASSYM
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	294,27	CF	VGL	NA	DDA	_	MAINDECL	_	NF	73va,16	LINK_ASSYM
+11	and'n	_	_	ADJA	_	_	_	_	_	PP	and'n	294,27	CF	VGL	NA	ADJS	_	MAINDECL	_	NF	73va,16	LINK_ASSYM
+12	gelich	_	_	ADV	_	_	_	_	_	PP	gelich	294,28	CF	VGL	NA	ADV	_	MAINDECL	_	NF	73va,16	LINK_ASSYM
+13	.	_	_	$.	_	_	_	_	_	_	.	294,28	_	_	_	$_	_	MAINDECL	_	_	73va,16	_
+
+# sent_id = 2
+# text = da mugē wír ſín oͮch nuͥt geſehē wā ín dem liechte des gloͮbē.
+1	da	_	_	PAV	_	_	_	_	_	ADVP	da	296,30	_	ADVB	_	PAV	_	MAINDECL	_	VF	75vb,05	_
+2	mugē	_	_	VMFIN	_	_	_	_	_	VP	mugē	296,30	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	75vb,05	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	296,30	_	SUBJ	_	PPER	_	MAINDECL	_	MF	75vb,05	_
+4	ſín	_	_	PPOSAT	_	_	_	_	_	NP	ſín	296,30	_	IO-GEN	_	DPOS	_	MAINDECL	_	MF	75vb,05	_
+5	oͮch	_	_	ADV	_	_	_	_	_	ADVP	oͮch	296,30	_	ADVB	_	ADV	_	MAINDECL	_	MF	75vb,05	_
+6	nuͥt	_	_	PTKNEG	_	_	_	_	_	_	nuͥt	296,30	_	_	_	PTKNEG	_	MAINDECL	_	MF	75vb,05	_
+7	geſehē	_	_	VVINF	_	_	_	_	_	VP	geſehē	296,30	_	INF	_	VVINF	RE	MAINDECL	RK	RK	75vb,06	_
+8	wā	_	_	KOKOM	_	_	_	_	_	PP	wā	296,30	NF	PP-ADV	_	KOKOM	_	MAINDECL	_	NF	75vb,06	UNLINK
+9	ín	_	_	APPR	_	_	_	_	_	PP	ín	296,30	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	75vb,06	UNLINK
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	296,30	NF	PP-ADV	_	DDA	_	MAINDECL	_	NF	75vb,06	UNLINK
+11	liechte	_	_	NN	_	_	_	_	_	PP	liechte	296,31	NF	PP-ADV	ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	75vb,06	UNLINK
+12	des	_	_	ART	_	_	_	_	_	PP	des	296,31	NF	PP-ADV	_	DDA	_	MAINDECL	_	NF	75vb,07	UNLINK
+13	gloͮbē	_	_	NN	_	_	_	_	_	PP	gloͮbē	296,31	NF	PP-ADV	_ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	75vb,07	UNLINK
+14	.	_	_	$.	_	_	_	_	_	_	.	296,31	_	_	_	$_	_	MAINDECL	_	_	75vb,07	_
+
+# sent_id = 3
+# text = vn̄ ſuͥlē niem' erwíndē mít mī́ne vn̄ be(=)gírde/
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	296,33	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	75vb,13	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlē	296,33	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	75vb,13	_
+3	niem'	_	_	ADV	_	_	_	_	_	ADVP	niem'	296,33	_	ADVB	_	ADVNEG	_	MAINDECL-ELLI	_	MF	75vb,13	_
+4	erwíndē	_	_	VVINF	_	_	_	_	_	VP	erwíndē	296,34	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	75vb,14; be-	_
+5	mít	_	_	APPR	_	_	_	_	_	PP	mít	296,34	NF	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	75vb,14; be-	UNLINK
+6	mī́ne	_	_	NN	_	_	_	_	_	PP	mī́ne	296,34	NF	PP-ADV	ACC-ABSTR-USED-X_	NA	_	MAINDECL-ELLI	_	NF	75vb,14; be-	UNLINK
+7	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	296,34	NF	PP-ADV	_	KON	_	MAINDECL-ELLI	_	NF	75vb,14; be-	UNLINK
+8	be(=)gírde/	_	_	NN	_	_	_	_	_	PP	begírde/	296,34	NF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	NF	75vb,14; be-	UNLINK
+
+# sent_id = 4
+# text = So ſuͥlē wir dēne ſprechen mit grozer begirde.
+1	So	_	_	ADV	_	_	_	_	_	ADVP	So	296,38; be-	_	ADVB	_	ADV	_	MAINDECL	_	VF	76ra,01	_
+2	ſuͥlē	_	_	VMFIN	_	_	_	_	_	VP	ſuͥlē	296,38; be-	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	76ra,01	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	296,38; be-	_	SUBJ	_	PPER	_	MAINDECL	_	MF	76ra,01	_
+4	dēne	_	_	ADV	_	_	_	_	_	ADVP	dēne	296,38; be-	_	ADVB	_	ADV	_	MAINDECL	_	MF	76ra,01	_
+5	ſprechen	_	_	VVINF	_	_	_	_	_	VP	ſprechen	296,38; be-	_	INF	_	VVINF	RE	MAINDECL	RK	RK	76ra,01	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	296,38; be-	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	76ra,02	UNLINK
+7	grozer	_	_	ADJA	_	_	_	_	_	PP	grozer	296,38; be-	NF	PP-ADV	_	ADJ	_	MAINDECL	_	NF	76ra,02	UNLINK
+8	begirde	_	_	NN	_	_	_	_	_	PP	begirde	296,38; be-	NF	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	76ra,02	UNLINK
+9	.	_	_	$.	_	_	_	_	_	_	.	296.,39; -girde	_	_	_	$_	_	MAINDECL	_	_	76ra,02	_

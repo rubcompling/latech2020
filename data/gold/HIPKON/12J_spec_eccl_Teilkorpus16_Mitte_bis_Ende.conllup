@@ -1,0 +1,141 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION Ergaenzung FOKUS GF IS POS Rekonstruktion SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = mich habent begriffent div lêit deſ ubeln tôdiſ.
+1	mich	_	_	PPER	_	_	_	_	_	NP	mich	38,13; -ferni	_	_	DO	_	PPER	_	_	MAINDECL	_	VF	34r,02	_	_
+2	habent	_	_	VAFIN	_	_	_	_	_	VP	habent	38,13; -ferni	_	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	LK	34r,02	_	_
+3	begriffent	_	_	VVPP	_	_	_	_	_	VP	begriffent	38,13; -ferni	begriffent: l. begriffen M. 	_	INF	_	VVPP	_	RE	MAINDECL	RK	RK	34r,02	_	_
+4	div	_	_	ART	_	_	_	_	_	NP	div	38,14	_	NF	SUBJ	ACC-ABSTR-UNUSED_	DDA	_	_	MAINDECL	_	NF	34r,02	UNLINK	_
+5	lêit	_	_	NN	_	_	_	_	_	NP	lêit	38,14	_	NF	SUBJ	ACC-ABSTR-UNUSED_	NA	_	_	MAINDECL	_	NF	34r,02	UNLINK	_
+6	deſ	_	_	ART	_	_	_	_	_	NP	deſ	38,14	_	NF	ATTR	_ACC-ABSTR-UNUSED	DDA	_	_	MAINDECL	_	NF	34r,03	UNLINK	_
+7	ubeln	_	_	ADJA	_	_	_	_	_	NP	ubeln	38,14	_	NF	ATTR	_ACC-ABSTR-UNUSED	ADJ	_	_	MAINDECL	_	NF	34r,03	UNLINK	_
+8	tôdiſ	_	_	NN	_	_	_	_	_	NP	tôdiſ	38,14	_	NF	ATTR	_ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF	34r,03	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	38,14	_	_	_	_	$_	_	_	MAINDECL	_	_	34r,03	_	_
+
+# sent_id = 2
+# text = Die ſibintzic tâge da wir nu inne ſin. die ſint unſ bezeichent. mit ſibintzic iaren. dei die iuden in uanchnuſſe wârn.
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	38,15; be-	_	_	VOVF	_	DDA	_	_	MAINDECL	_	LV	34r,04	_	_
+2	ſibintzic	_	_	ADJA	_	_	_	_	_	NP	ſibintzic	38,15; be-	_	_	VOVF	_	ADJO	_	_	MAINDECL	_	LV	34r,04	_	_
+3	tâge	_	_	NN	_	_	_	_	_	NP	tâge	38,15; be-	_	_	VOVF	_	NA	_	_	MAINDECL	_	LV	34r,04	_	_
+4	da	_	_	ADV	_	_	_	_	_	CP	da	38,15; be-	_	_	ADVB	_	ADVREL	_	_	MAINDECL	LK	LV-LK	34r,05	_	_
+5	wir	_	_	PPER	_	_	_	_	_	CP	wir	38,15; be-	_	_	ADVB	_	PPER	_	_	MAINDECL	_	LV-MF	34r,05	_	_
+6	nu	_	_	ADV	_	_	_	_	_	CP	nu	38,15; be-	_	_	ADVB	_	ADV	_	_	MAINDECL	_	LV-MF	34r,05	_	_
+7	inne	_	_	APPR	_	_	_	_	_	CP	inne	38,15; be-	_	_	ADVB	_	APPR	_	_	MAINDECL	_	LV-MF	34r,05	_	_
+8	ſin	_	_	VAFIN	_	_	_	_	_	CP	ſin	38,15; be-	_	_	ADVB	_	VAFIN	_	_	MAINDECL	RK	LV-RK	34r,05	_	_
+9	.	_	_	$.	_	_	_	_	_	_	.	38,15; be-	_	_	_	_	$_	_	_	MAINDECL	_	_	34r,05	_	_
+10	die	_	_	PDS	_	_	_	_	_	NP	die	38,15; be-	_	_	SUBJ	_	DDS	_	_	MAINDECL	_	VF	34r,05	_	_
+11	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	38,15; be-	_	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	LK	34r,05	_	_
+12	unſ	_	_	PPER	_	_	_	_	_	NP	unſ	38,15; be-	_	_	IO-DAT	_	PPER	_	_	MAINDECL	_	MF	34r,05	_	_
+13	bezeichent	_	_	VVPP	_	_	_	_	_	VP	bezeichent	38,15; be-	_	_	INF	_	VVPP	_	RE	MAINDECL	RK	RK	34r,05	_	_
+14	.	_	_	$.	_	_	_	_	_	_	.	38,16; -zeichent	_	_	_	_	$_	_	_	MAINDECL	_	_	34r,05	_	_
+15	mit	_	_	APPR	_	_	_	_	_	PP	mit	38,16; -zeichent	_	_	PP-OBJ	_	APPR	_	_	MAINDECL	_	NF-NF	34r,06	UNLINK	KOREF1-REL
+16	ſibintzic	_	_	ADJA	_	_	_	_	_	PP	ſibintzic	38,16; -zeichent	_	NF	PP-OBJ	ACC-ABSTR-UNUSED	ADJO	_	_	MAINDECL	_	NF-NF	34r,06	UNLINK	KOREF1-REL
+17	iaren	_	_	NN	_	_	_	_	_	PP	iaren	38,16; -zeichent	_	NF	PP-OBJ	ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF-NF	34r,06	UNLINK	KOREF1-REL
+18	.	_	_	$.	_	_	_	_	_	_	.	38,16; -zeichent	_	_	_	_	$_	_	_	MAINDECL	_	NF	34r,06	UNLINK	_
+19	dei	_	_	PRELS	_	_	_	_	_	CP	dei	38,16; -zeichent	_	_	ATTR	_	DDSREL	_	_	MAINDECL	LK	NF-LK	34r,06	UNLINK	KOREF2-REL
+20	die	_	_	ART	_	_	_	_	_	CP	die	38,16; -zeichent	_	_	ATTR	_	DDA	_	_	MAINDECL	_	NF-MF	34r,06	UNLINK	_
+21	iuden	_	_	NE	_	_	_	_	_	CP	iuden	38,16; -zeichent	_	_	ATTR	_	NE	_	_	MAINDECL	_	NF-MF	34r,06	UNLINK	_
+22	in	_	_	APPR	_	_	_	_	_	CP	in	38,16; -zeichent	_	_	ATTR	_	APPR	_	_	MAINDECL	_	NF-MF	34r,06	UNLINK	_
+23	uanchnuſſe	_	_	NN	_	_	_	_	_	CP	uanchnuſſe	38,16; -zeichent	_	_	ATTR	_	NA	_	_	MAINDECL	_	NF-MF	34r,06	UNLINK	_
+24	wârn	_	_	VAFIN	_	_	_	_	_	CP	wârn	38,16; -zeichent	_	_	ATTR	_	VAFIN	_	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+25	.	_	_	$.	_	_	_	_	_	_	.	38,16; -zeichent	_	_	_	_	$_	_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 3
+# text = Sam ſchuln wir mit vaſtene. mit arbeiti. unde mit kirch gengin wartin der gotiſ urſtende. un̄ der erloſunge unſerre armin ſele.
+1	Sam	_	_	ADV	_	_	_	_	_	ADVP	Sam	39,22	_	_	ADVB	_	ADV	_	_	MAINDECL	_	VF	35r,14	_	_
+2	ſchuln	_	_	VMFIN	_	_	_	_	_	VP	ſchuln	39,22	_	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	35r,14	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	39,22	_	_	SUBJ	_	PPER	_	_	MAINDECL	_	MF	35r,15	_	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	39,22	_	_	PP-ADV	_	APPR	_	_	MAINDECL	_	MF	35r,15	_	_
+5	vaſtene	_	_	NN	_	_	_	_	_	PP	vaſtene	39,23	_	_	PP-ADV	_	VVPSS	_	_	MAINDECL	_	MF	35r,15	_	_
+6	.	_	_	$.	_	_	_	_	_	_	.	39,23	_	_	_	_	$_	_	_	MAINDECL	_	MF	35r,15	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit	39,23	_	_	PP-ADV	_	APPR	_	_	MAINDECL	_	MF	35r,15	_	_
+8	arbeiti	_	_	NN	_	_	_	_	_	PP	arbeiti	39,23	_	_	PP-ADV	_	NA	_	_	MAINDECL	_	MF	35r,15	_	_
+9	.	_	_	$.	_	_	_	_	_	_	.	39,23	_	_	_	_	$_	_	_	MAINDECL	_	MF	35r,15	_	_
+10	unde	_	_	KON	_	_	_	_	_	_	unde	39,23	_	_	_	_	KON	_	_	MAINDECL	_	MF	35r,15	_	_
+11	mit	_	_	APPR	_	_	_	_	_	PP	mit	39,23	_	_	PP-ADV	_	APPR	_	_	MAINDECL	_	MF	35r,15	_	_
+12	kirch	_	_	NN	_	_	_	_	_	PP	kirch	39,23	_	_	PP-ADV	_	NA	_	_	MAINDECL	_	MF	35r,15	_	_
+13	gengin	_	_	VVINF	_	_	_	_	_	PP	gengin	39,23	_	_	PP-ADV	_	VVINF	_	_	MAINDECL	_	MF	35r,16; er-	_	_
+14	wartin	_	_	VVINF	_	_	_	_	_	VP	wartin	39,23	_	_	INF	_	VVINF	_	RE	MAINDECL	RK	RK	35r,16; er-	_	_
+15	der	_	_	ART	_	_	_	_	_	NP	der	39,23	_	NF_	IO-GEN	ACC-UNI-USED-1_	DDA	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+16	gotiſ	_	_	NN	_	_	_	_	_	NP	gotiſ	39,23	_	NF_	IO-GEN	ACC-UNI-USED-1_	NA	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+17	urſtende	_	_	NN	_	_	_	_	_	NP	urſtende	39,23	_	NF_	IO-GEN	_ACC-ABSTR-UNUSED_	NA	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	39,23	_	_	_	_	$_	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+19	un̄	_	_	KON	_	_	_	_	_	_	un̄	39,24	_	_	_	_	KON	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+20	der	_	_	ART	_	_	_	_	_	NP	der	39,24	_	NF_	IO-GEN	_ACC-ABSTR-UNUSED_	DDA	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+21	erloſunge	_	_	NN	_	_	_	_	_	NP	erloſunge	39,24	_	_	IO-GEN	_ACC-ABSTR-UNUSED_	NA	_	_	MAINDECL	_	NF	35r,16; er-	UNLINK	_
+22	unſerre	_	_	PPOSAT	_	_	_	_	_	NP	unſerre	39,24	_	_	ATTR	_ACC-SIT_	DPOS	_	_	MAINDECL	_	NF	35r,17; -loſunge | iu-	UNLINK	_
+23	armin	_	_	ADJA	_	_	_	_	_	NP	armin	39,24	_	_	ATTR	_ACC-ABSTR-UNUSED	ADJ	_	_	MAINDECL	_	NF	35r,17; -loſunge | iu-	UNLINK	_
+24	ſele	_	_	NN	_	_	_	_	_	NP	ſele	39,24	_	_	ATTR	_ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF	35r,17; -loſunge | iu-	UNLINK	_
+25	.	_	_	$.	_	_	_	_	_	_	.	39,24	_	_	_	_	$_	_	_	MAINDECL	_	_	35r,17; -loſunge | iu-	_	_
+
+# sent_id = 4
+# text = ſam muͦzzin wir ze tâl ſîgen zuo dem tôde.
+1	ſam	_	_	ADV	_	_	_	_	_	ADVP	ſam	40,03	_	_	ADVB	_	ADV	_	_	MAINDECL	_	VF	35v,10; ſî-	_	_
+2	muͦzzin	_	_	VMFIN	_	_	_	_	_	VP	muͦzzin	40,03	_	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	35v,10; ſî-	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	40,03	_	_	SUBJ	_	PPER	_	_	MAINDECL	_	MF	35v,10; ſî-	_	_
+4	ze	_	_	APPR	_	_	_	_	_	PP	ze	40,03	_	NF	PP-DIR	_	APPR	_	_	MAINDECL	_	MF	35v,10; ſî-	_	_
+5	tâl	_	_	NN	_	_	_	_	_	PP	tâl	40,03	_	NF	PP-DIR	_	NA	_	_	MAINDECL	_	MF	35v,10; ſî-	_	_
+6	ſîgen	_	_	VVINF	_	_	_	_	_	VP	ſîgen	40,03	_	NF	INF	_	VVINF	_	RE	MAINDECL	RK	RK	35v,10; ſî-	_	_
+7	zuo	_	_	APPR	_	_	_	_	_	PP	zuo	40,03	_	NF	APPOS	_	APPR	_	_	MAINDECL	_	NF	35v,11; -gen	LINK_APPOS	_
+8	dem	_	_	ART	_	_	_	_	_	PP	dem	40,04	_	NF	APPOS	ACC-ABSTR-USED-X	DDA	_	_	MAINDECL	_	NF	35v,11; -gen	LINK_APPOS	_
+9	tôde	_	_	NN	_	_	_	_	_	PP	tôde	40,04	_	NF	APPOS	ACC-ABSTR-USED-X	NA	_	_	MAINDECL	_	NF	35v,11; -gen	LINK_APPOS	_
+10	.	_	_	$.	_	_	_	_	_	_	.	40,04	_	_	_	_	$_	_	_	MAINDECL	_	_	35v,11; -gen	_	_
+
+# sent_id = 5
+# text = uon ſo getanir ſêite wirt gevangen ein ieclîche chriſten. uon nabuzardan. uon huͦre. unde uon huͦrſ geluſte.
+1	uon	_	_	APPR	_	_	_	_	_	PP	uon	40,11	_	_	PP-ADV	_	APPR	_	_	MAINDECL	_	VF	35v,21; ge-	_	_
+2	ſo	_	_	ADV	_	_	_	_	_	PP	ſo	40,11	_	_	PP-ADV	_	ADV	_	_	MAINDECL	_	VF	35v,21; ge-	_	_
+3	getanir	_	_	ADJA	_	_	_	_	_	PP	getanir	40,11	_	_	PP-ADV	_	VVPPA	_	_	MAINDECL	_	VF	35v,21; ge-	_	_
+4	ſêite	_	_	NN	_	_	_	_	_	PP	ſêite	40,11	_	_	PP-ADV	_	NA	_	_	MAINDECL	_	VF	35v,21; ge-	_	_
+5	wirt	_	_	VMFIN	_	_	_	_	_	VP	wirt	40,11	_	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	35v,21; ge-	_	_
+6	gevangen	_	_	VVPP	_	_	_	_	_	VP	gevangen	40,11	_	_	INF	_	VVPP	_	RE	MAINDECL	RK	RK	35v,21; ge-	_	_
+7	ein	_	_	ART	_	_	_	_	_	NP	ein	40,11	_	NF_	SUBJ	GIV-INACTIVE_	DIA	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK1	_
+8	ieclîche	_	_	PIAT	_	_	_	_	_	NP	ieclîche	40,11	_	NF_	SUBJ	GIV-INACTIVE_	DI	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK1	_
+9	chriſten	_	_	NN	_	_	_	_	_	NP	chriſten	40,11	_	NF_	SUBJ	GIV-INACTIVE_	NA	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK1	_
+10	.	_	_	$.	_	_	_	_	_	_	.	40,11	_	_	_	_	$_	_	_	MAINDECL	_	NF	35v,22; -vangen	_	_
+11	uon	_	_	APPR	_	_	_	_	_	PP	uon	40,12	_	NF_	PP-AGENS	_	APPR	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK2	_
+12	nabuzardan	_	_	NE	_	_	_	_	_	PP	nabuzardan	40,12	_	NF_	PP-AGENS	_GIV-INACTIVE_	NE	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK2	_
+13	.	_	_	$.	_	_	_	_	_	_	.	40,12	_	_	_	_	$_	_	_	MAINDECL	_	NF	35v,22; -vangen	UNLINK2	_
+14	uon	_	_	APPR	_	_	_	_	_	PP	uon	40,12	_	NF_	PP-AGENS	_	APPR	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+15	huͦre	_	_	NN	_	_	_	_	_	PP	huͦre	40,12	_	NF_	PP-AGENS	_ACC-ABSTR-UNUSED_	NA	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+16	.	_	_	$.	_	_	_	_	_	_	.	40,12	_	_	_	_	$_	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+17	unde	_	_	KON	_	_	_	_	_	_	unde	40,12	_	_	_	_	KON	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+18	uon	_	_	APPR	_	_	_	_	_	PP	uon	40,12	_	NF_	PP-AGENS	_	APPR	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+19	huͦrſ	_	_	NN	_	_	_	_	_	PP	huͦrſ	40,12	_	NF_	PP-AGENS	_ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+20	geluſte	_	_	NN	_	_	_	_	_	PP	geluſte	40,12	_	NF_	PP-AGENS	_ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF	35v,23	UNLINK2	_
+21	.	_	_	$.	_	_	_	_	_	_	.	40,12	_	_	_	_	$_	_	_	MAINDECL	_	_	35v,23	_	_
+
+# sent_id = 6
+# text = (Jerusalem) iſt gantfriſtet êin geſûne des urideſ.
+1	(Jerusalem)	_	_	NE	_	_	_	_	_	NP	(Jerusalem)	40,16	_	_	SUBJ	_	NE	(Jerusalem)	_	MAINDECL	_	VF	36r,05; -ger	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	40,16	_	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	LK	36r,05; -ger	_	_
+3	gantfriſtet	_	_	VVPP	_	_	_	_	_	VP	gantfriſtet	40,16	_	_	INF	_	VVPP	_	RE	MAINDECL	RK	RK	36r,05; -ger	_	_
+4	êin	_	_	ART	_	_	_	_	_	NP	êin	40,16	_	NF	PRD	ACC-ABSTR-UNUSED_	DIA	_	_	MAINDECL	_	NF	36r,06	UNLINK	_
+5	geſûne	_	_	NN	_	_	_	_	_	NP	geſûne	40,16	_	NF	PRD	ACC-ABSTR-UNUSED_	NA	_	_	MAINDECL	_	NF	36r,06	UNLINK	_
+6	des	_	_	ART	_	_	_	_	_	NP	des	40,16	_	NF	ATTR	_ACC-ABSTR-UNUSED	DDA	_	_	MAINDECL	_	NF	36r,06	UNLINK	_
+7	urideſ	_	_	NN	_	_	_	_	_	NP	urideſ	40,16	_	NF	ATTR	_ACC-ABSTR-UNUSED	NA	_	_	MAINDECL	_	NF	36r,06	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	40,16	_	_	_	_	$_	_	_	MAINDECL	_	_	36r,06	_	_
+
+# sent_id = 7
+# text = Nu habit ir uernômin uon der heiligen ſchrift. wannin div gew%onheit ſich huͦb. diſe ſibintzic tâge mit arbeite lêbin.
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu	40,19	_	_	ADVB	_	ADV	_	_	MAINDECL	_	VF	36r,09; ha-	_	_
+2	habit	_	_	VAFIN	_	_	_	_	_	VP	habit	40,19	_	_	VFIN	_	VAFIN	_	LI	MAINDECL	LK	LK	36r,09; ha-	_	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	40,19	_	_	SUBJ	_	PPER	_	_	MAINDECL	_	MF	36r,10; -bit | wan-	_	_
+4	uernômin	_	_	VVPP	_	_	_	_	_	VP	uernômin	40,19	_	_	INF	_	VVPP	_	RE	MAINDECL	RK	RK	36r,10; -bit | wan-	_	_
+5	uon	_	_	APPR	_	_	_	_	_	PP	uon	40,19	_	BGR	PP-ADV	_	APPR	_	_	MAINDECL	_	NF	36r,10; -bit | wan-	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	PP	der	40,19	_	BGR	PP-ADV	ACC-UNI-UNUSED	DDA	_	_	MAINDECL	_	NF	36r,10; -bit | wan-	UNLINK	_
+7	heiligen	_	_	ADJA	_	_	_	_	_	PP	heiligen	40,19	_	BGR	PP-ADV	ACC-UNI-UNUSED	ADJ	_	_	MAINDECL	_	NF	36r,10; -bit | wan-	UNLINK	_
+8	ſchrift	_	_	NN	_	_	_	_	_	PP	ſchrift	40,19	_	BGR	PP-ADV	ACC-UNI-UNUSED	NA	_	_	MAINDECL	_	NF	36r,10; -bit | wan-	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	40,19	_	_	_	_	$_	_	_	MAINDECL	_	NF	36r,10; -bit | wan-	_	_
+10	wannin	_	_	PWAV	_	_	_	_	_	CP	wannin	40,19	_	_	ADVB	GIV-INACTIVE	PWAVREL	_	_	MAINDECL	LK	NF-LK	36r,10; -bit | wan-	_	_
+11	div	_	_	ART	_	_	_	_	_	CP	div	40,20	_	_	ADVB	GIV-INACTIVE	DDA	_	_	MAINDECL	_	NF-MF	36r,11; -nin | tâ-	_	_
+12	gew%onheit	_	_	NN	_	_	_	_	_	CP	gew%onheit	40,20	_	_	ADVB	GIV-INACTIVE	NA	_	_	MAINDECL	_	NF-MF	36r,11; -nin | tâ-	_	_
+13	ſich	_	_	PRF	_	_	_	_	_	CP	ſich	40,20	_	_	ADVB	GIV-INACTIVE	PRF	_	_	MAINDECL	_	NF-MF	36r,11; -nin | tâ-	_	_
+14	huͦb	_	_	VVFIN	_	_	_	_	_	CP	huͦb	40,20	_	_	ADVB	GIV-INACTIVE	VVFIN	_	_	MAINDECL	RK	NF-RK	36r,11; -nin | tâ-	_	_
+15	.	_	_	$.	_	_	_	_	_	CP	.	40,20	_	_	ADVB	GIV-INACTIVE	$_	_	_	MAINDECL	_	NF	36r,11; -nin | tâ-	_	_
+16	diſe	_	_	PDAT	_	_	_	_	_	CP	diſe	40,20	_	_	ADVB	GIV-INACTIVE	DD	_	_	MAINDECL	_	NF-NF-MF	36r,11; -nin | tâ-	_	_
+17	ſibintzic	_	_	ADJA	_	_	_	_	_	CP	ſibintzic	40,20	_	_	ADVB	GIV-INACTIVE	ADJO	_	_	MAINDECL	_	NF-NF-MF	36r,11; -nin | tâ-	_	_
+18	tâge	_	_	NN	_	_	_	_	_	CP	tâge	40,20	_	_	ADVB	GIV-INACTIVE	NA	_	_	MAINDECL	_	NF-NF-MF	36r,11; -nin | tâ-	_	_
+19	mit	_	_	APPR	_	_	_	_	_	CP	mit	40,20	_	_	ADVB	GIV-INACTIVE	APPR	_	_	MAINDECL	_	NF-NF-MF	36r,12; -ge	_	_
+20	arbeite	_	_	NN	_	_	_	_	_	CP	arbeite	40,20	_	_	ADVB	GIV-INACTIVE	NA	_	_	MAINDECL	_	NF-NF-MF	36r,12; -ge	_	_
+21	lêbin	_	_	VVINF	_	_	_	_	_	CP	lêbin	40,20	_	_	ADVB	GIV-INACTIVE	VVINF	_	_	MAINDECL	RK	NF-NF-RK	36r,12; -ge	_	_
+22	.	_	_	$.	_	_	_	_	_	_	.	40,20	_	_	_	_	$_	_	_	MAINDECL	_	_	36r,12; -ge	_	_

@@ -1,0 +1,159 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Wir ſollen jhm dancken für die groſſe Wolthat /
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	_	SUBJ	_	PPER	_	MAINDECL	_	_	VF	28,23	_	_
+2	ſollen	_	_	VMFIN	_	_	_	_	_	VP	ſollen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	_	LK	28,24	_	_
+3	jhm	_	_	PPER	_	_	_	_	_	NP	jhm	_	IO-DAT	_	PPER	_	MAINDECL	_	_	MF	28,24	_	_
+4	dancken	_	_	VVINF	_	_	_	_	_	VP	dancken	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	28,24	_	_
+5	für	_	_	APPR	_	_	_	_	_	PP	für	NF	PP-ADV	_	APPR	_	MAINDECL	_	_	NF	28,24	UNLINK	KOREF1
+6	die	_	_	ART	_	_	_	_	_	PP	die	NF	PP-ADV	ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	_	NF	28,24	UNLINK	KOREF1
+7	groſſe	_	_	ADJA	_	_	_	_	_	PP	groſſe	NF	PP-ADV	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	_	NF	28,24	UNLINK	KOREF1
+8	Wolthat	_	_	NN	_	_	_	_	_	PP	Wolthat	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	_	NF	28,24	UNLINK	KOREF1
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	28,24	_	_
+
+# sent_id = 2
+# text = vnnd ich will dich auch erretten auß der Hand der Boͤſen /
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	KON	_	MAINDECL	_	_	KOORD	30,02	_	_
+2	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	PPER	_	MAINDECL	_	_	VF	30,02	_	_
+3	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	VMFIN	LI	MAINDECL	LK	_	LK	30,02	_	_
+4	dich	_	_	PPER	_	_	_	_	_	NP	dich	_	DO	_	PPER	_	MAINDECL	_	_	MF	30,03	_	_
+5	auch	_	_	ADV	_	_	_	_	_	ADVP	auch	_	ADVB	_	ADV	_	MAINDECL	_	_	MF	30,03	_	_
+6	erretten	_	_	VVINF	_	_	_	_	_	VP	erretten	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	30,03	_	_
+7	auß	_	_	APPR	_	_	_	_	_	PP	auß	_	PP-SIT	_	APPR	_	MAINDECL	_	_	NF	30,03	UNLINK	_
+8	der	_	_	ART	_	_	_	_	_	PP	der	CF	PP-SIT	_	DDA	_	MAINDECL	_	_	NF	30,03	UNLINK	_
+9	Hand	_	_	NN	_	_	_	_	_	PP	Hand	CF	PP-SIT	GIV-INACTIVE_	NA	_	MAINDECL	_	_	NF	30,03	UNLINK	_
+10	der	_	_	ART	_	_	_	_	_	PP	der	CF	ATTR	_ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	_	NF	30,03	UNLINK	_
+11	Boͤſen	_	_	NN	_	_	_	_	_	PP	Boͤſen	CF	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	_	NF	30,03	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	30,03	_	_
+
+# sent_id = 3
+# text = vnnd erloͤſen auß der hand der Tyrannen.
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	KON	_	MAINDECL-ELLI	_	_	KOORD	30,03	_	_
+2	erloͤſen	_	_	VVINF	_	_	_	_	_	VP	erloͤſen	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	_	RK	30,03	_	_
+3	auß	_	_	APPR	_	_	_	_	_	PP	auß	_	PP-SIT	_	APPR	_	MAINDECL-ELLI	_	_	NF	30,03	UNLINK	_
+4	der	_	_	ART	_	_	_	_	_	PP	der	CF	PP-SIT	_	DDA	_	MAINDECL-ELLI	_	_	NF	30,04	UNLINK	_
+5	hand	_	_	NN	_	_	_	_	_	PP	hand	CF	PP-SIT	GIV-ACTIVE_	NA	_	MAINDECL-ELLI	_	_	NF	30,04	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	PP	der	CF	ATTR	_NEW	DDA	_	MAINDECL-ELLI	_	_	NF	30,04	UNLINK	_
+7	Tyrannen	_	_	NN	_	_	_	_	_	PP	Tyrannen	CF	ATTR	_NEW	NA	_	MAINDECL-ELLI	_	_	NF	30,04	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	_	30,04	_	_
+
+# sent_id = 4
+# text = Jr ſol-let nicht vnrecht handeln am Gericht /
+1	Jr	_	_	PPER	_	_	_	_	_	NP	Jr	_	SUBJ	_	PPER	_	MAINDECL	_	_	VF	34,20; sol-	_	_
+2	ſol-let	_	_	VMFIN	_	_	_	_	_	VP	ſollet	_	VFIN	_	VMFIN	LI	MAINDECL	LK	_	LK	34,20; sol-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINDECL	_	_	MF	34,21; -let zie-	_	_
+4	vnrecht	_	_	ADJD	_	_	_	_	_	ADVP	vnrecht	_	ADVB	_	ADJD	_	MAINDECL	_	_	MF	34,21; -let zie-	_	_
+5	handeln	_	_	VVINF	_	_	_	_	_	VP	handeln	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	34,21; -let zie-	_	_
+6	am	_	_	APPR	_	_	_	_	_	PP	am	_	PP-OBJ	_	APPR	_	MAINDECL	_	_	NF	34,21; -let zie-	UNLINK	_
+7	Gericht	_	_	NN	_	_	_	_	_	PP	Gericht	_	PP-OBJ	GIV-ACTIVE	NA	_	MAINDECL	_	_	NF	34,21; -let zie-	UNLINK	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	34,21; -let zie-	_	_
+
+# sent_id = 5
+# text = vnnd ſolt nicht für zie-hen den Geringen /
+1	vnnd	_	_	KON	_	_	_	_	_	_	vnnd	_	_	_	KON	_	MAINDECL-ELLI	_	_	KOORD	34,21; -let zie-	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	_	LK	34,21; -let zie-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINDECL-ELLI	_	_	MF	34,21; -let zie-	_	_
+4	für	_	_	PTKVZ	_	_	_	_	_	VP	für	_	VZ_PTK	_	PTKVZ	_	MAINDECL-ELLI	RK	_	RK	34,21; -let zie-	_	_
+5	zie-hen	_	_	VVINF	_	_	_	_	_	VP	ziehen	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	_	RK	34,21; -let zie-	_	_
+6	den	_	_	ART	_	_	_	_	_	NP	den	_	DO	NEW	DDA	_	MAINDECL-ELLI	_	_	NF	34,22; -hen	UNLINK	_
+7	Geringen	_	_	ADJA	_	_	_	_	_	NP	Geringen	_	DO	NEW	ADJ	_	MAINDECL-ELLI	_	_	NF	34,22; -hen	UNLINK	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	_	34,22; -hen	_	_
+
+# sent_id = 6
+# text = Da ſoll man den Leüten gleiches Recht widerfahren laſſen / dem Armen wie dem Reichen / dem Ge-ringſten wie dem Hoͤchſten.
+1	Da	_	_	KON	_	_	_	_	_	_	Da	_	_	_	KON	_	MAINDECL	_	_	KOORD	35,01	_	_
+2	ſoll	_	_	VMFIN	_	_	_	_	_	VP	ſoll	_	VFIN	_	VMFIN	LI	MAINDECL	LK	_	LK	35,01	_	_
+3	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	PI	_	MAINDECL	_	_	MF	35,01	_	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	_	IO-DAT	_	DDA	_	MAINDECL	_	_	MF	35,01	_	_
+5	Leüten	_	_	NN	_	_	_	_	_	NP	Leüten	_	IO-DAT	_	NA	_	MAINDECL	_	_	MF	35,01	_	_
+6	gleiches	_	_	ADJA	_	_	_	_	_	NP	gleiches	_	DO	_	ADJ	_	MAINDECL	_	_	MF	35,01	_	_
+7	Recht	_	_	NN	_	_	_	_	_	NP	Recht	_	DO	_	NA	_	MAINDECL	_	_	MF	35,01	_	_
+8	widerfahren	_	_	VVINF	_	_	_	_	_	VP	widerfahren	_	INF	_	VVINF	_	MAINDECL	RK	_	RK	35,02	_	_
+9	laſſen	_	_	VMINF	_	_	_	_	_	VP	laſſen	_	INF	_	VMINF	RE	MAINDECL	RK	_	RK	35,02	_	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	35,02	_	_
+11	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	IO-DAT	NEW_	DDA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+12	Armen	_	_	NN	_	_	_	_	_	NP	Armen	CF_	IO-DAT	NEW_	NA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+13	wie	_	_	KOKOM	_	_	_	_	_	_	wie	_	VGL	_	KOKOM	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+14	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	VGL	_NEW	DDA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+15	Reichen	_	_	NN	_	_	_	_	_	NP	Reichen	CF_	VGL	_NEW	NA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+16	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL	_	_	NF	35,02	_	_
+17	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	IO-DAT	GIV-INACTIVE_	DDA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+18	Ge-ringſten	_	_	NN	_	_	_	_	_	NP	Geringſten	CF_	IO-DAT	GIV-INACTIVE_	NA	_	MAINDECL	_	_	NF	35,02	LINK_APPOS	_
+19	wie	_	_	KOKOM	_	_	_	_	_	_	wie	_	VGL	_	KOKOM	_	MAINDECL	_	_	NF	35,03	LINK_APPOS	_
+20	dem	_	_	ART	_	_	_	_	_	NP	dem	CF_	VGL	_NEW	DDA	_	MAINDECL	_	_	NF	35,03	LINK_APPOS	_
+21	Hoͤchſten	_	_	NN	_	_	_	_	_	NP	Hoͤchſten	CF_	VGL	_NEW	NA	_	MAINDECL	_	_	NF	35,03	LINK_APPOS	_
+22	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	_	35,03	_	_
+
+# sent_id = 7
+# text = Jn die Steürſtuben wiſſen wir zu diſem mal nichts beſſers zu |uerehren als die Zinßmüntz /
+1	Jn	_	_	APPR	_	_	_	_	_	PP	Jn	_	PP-ADV	_	APPR	_	MAINDECL	_	_	VF	35,04	_	_
+2	die	_	_	ART	_	_	_	_	_	PP	die	_	PP-ADV	_	DDA	_	MAINDECL	_	_	VF	35,04	_	_
+3	Steürſtuben	_	_	NN	_	_	_	_	_	PP	Steürſtuben	_	PP-ADV	_	NA	_	MAINDECL	_	_	VF	35,04	_	_
+4	wiſſen	_	_	VVFIN	_	_	_	_	_	VP	wiſſen	_	VFIN	_	VVFIN	LI	MAINDECL	LK	_	LK	35,04	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	PPER	_	MAINDECL	_	_	MF	35,04	_	_
+6	zu	_	_	APPR	_	_	_	_	_	PP	zu	_	PP-ADV	_	APPR	_	MAINDECL	_	_	MF	35,04	_	_
+7	diſem	_	_	PDAT	_	_	_	_	_	PP	diſem	_	PP-ADV	_	DD	_	MAINDECL	_	_	MF	35,04	_	_
+8	mal	_	_	NN	_	_	_	_	_	PP	mal	_	PP-ADV	_	NA	_	MAINDECL	_	_	MF	35,04	_	_
+9	nichts	_	_	PIS	_	_	_	_	_	_	nichts	_	_	_	PINEG	_	MAINDECL	_	_	MF	35,04	_	_
+10	beſſers	_	_	ADJA	_	_	_	_	_	NP	beſſers	_	DO	_	ADJS	_	MAINDECL	_	_	MF	35,05	_	_
+11	zu	_	_	PTKZU	_	_	_	_	_	VP	zu	_	INF	_	PTKZU	_	MAINDECL	RK	_	RK	35,05	_	_
+12	|uerehren	_	_	VVINF	_	_	_	_	_	VP	uerehren	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	35,05	_	_
+13	als	_	_	KOKOM	_	_	_	_	_	_	als	_	VGL	_	KOKOM	_	MAINDECL	_	_	NF	35,05	UNLINK	_
+14	die	_	_	ART	_	_	_	_	_	NP	die	NF	VGL	NEW	DDA	_	MAINDECL	_	_	NF	35,05	UNLINK	KOREF1
+15	Zinßmüntz	_	_	NN	_	_	_	_	_	NP	Zinßmüntz	NF	VGL	NEW	NA	_	MAINDECL	_	_	NF	35,05	UNLINK	KOREF1
+16	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	_	35,05	_	_
+
+# sent_id = 8
+# text = aber daß Volck iſt mehr einer Obrigkeit benoͤttiget / als die Obrigkeit eines Volcks.
+1	aber	_	_	KON	_	_	_	_	_	_	aber	_	_	_	KON	_	MAINDECL	_	_	KOORD	39,03; -nes	_	_
+2	daß	_	_	ART	_	_	_	_	_	NP	daß	_	SUBJ	_	DDA	_	MAINDECL	_	_	VF	39,03; -nes	_	_
+3	Volck	_	_	NN	_	_	_	_	_	NP	Volck	NF	SUBJ	_	NA	_	MAINDECL	_	_	VF	39,03; -nes	_	_
+4	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	NF	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	39,03; -nes	_	_
+5	mehr	_	_	ADJD	_	_	_	_	_	ADVP	mehr	NF	ADVB	_	ADJD	_	MAINDECL	_	_	MF	39,03; -nes	_	_
+6	einer	_	_	ART	_	_	_	_	_	NP	einer	NF	IO-GEN	_	DIA	_	MAINDECL	_	_	MF	39,03; -nes	_	_
+7	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	NF	IO-GEN	_	NA	_	MAINDECL	_	_	MF	39,03; -nes	_	_
+8	benoͤttiget	_	_	VVPP	_	_	_	_	_	VP	benoͤttiget	NF	INF	_	VVPP	RE	MAINDECL	RK	_	RK	39,03; -nes	_	_
+9	/	_	_	$,	_	_	_	_	_	_	/	NF	_	_	$_	_	MAINDECL	_	_	_	39,03; -nes	_	_
+10	als	_	_	KOKOM	_	_	_	_	_	_	als	NF	VGL	_	KOKOM	_	MAINDECL	_	_	NF	39,03; -nes	LINK_ASSYM	_
+11	die	_	_	ART	_	_	_	_	_	NP	die	NF	SUBJ	_	DDA	_	MAINDECL	_	_	NF	39,04	LINK_ASSYM	_
+12	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	NF	SUBJ	GIV-ACTIVE	NA	_	MAINDECL	_	_	NF	39,04	LINK_ASSYM	KOREF1
+13	eines	_	_	ART	_	_	_	_	_	NP	eines	NF	IO-GEN	_	DIA	_	MAINDECL	_	_	NF	39,04	LINK_ASSYM	_
+14	Volcks	_	_	NN	_	_	_	_	_	NP	Volcks	NF	IO-GEN	GIV-ACTIVE	NA	_	MAINDECL	_	_	NF	39,04	LINK_ASSYM	KOREF1
+15	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	_	39,04	_	_
+
+# sent_id = 9
+# text = I. Soll diſes Aug ſehen in Templum Domini,
+1	I	_	_	CARD	_	_	_	_	_	ADVP	I	_	ADVB	_	ADJOD	_	MAINDECL	_	_	FRAG	39,16	_	_
+2	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	FRAG	39,16	_	_
+3	Soll	_	_	VMFIN	_	_	_	_	_	VP	Soll	_	VFIN	_	VMFIN	LI	MAINDECL	LK	_	LK	39,16	_	_
+4	diſes	_	_	ART	_	_	_	_	_	NP	diſes	_	SUBJ	_	DDA	_	MAINDECL	_	_	MF	39,16	_	_
+5	Aug	_	_	NN	_	_	_	_	_	NP	Aug	_	SUBJ	_	NA	_	MAINDECL	_	_	MF	39,16	_	_
+6	ſehen	_	_	VVINF	_	_	_	_	_	VP	ſehen	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	39,16	_	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-SIT	_	APPR	_	MAINDECL	_	Latein	NF	39,16	UNLINK	_
+8	Templum	_	_	NN	_	_	_	_	_	PP	Templum	NF	PP-SIT	NEW	NA	_	MAINDECL	_	Latein	NF	39,16	UNLINK	_
+9	Domini	_	_	NN	_	_	_	_	_	PP	Domini	NF	ATTR	NEW	NA	_	MAINDECL	_	Latein	NF	39,16	UNLINK	_
+10	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	39,16	_	_
+
+# sent_id = 10
+# text = II. Sollen der Obrigkeit / mit aller Reuerentz vnd Ehrerbietung zu gehoͤr ſtehen / in allen Gebotten vnd Verbotten /
+1	II	_	_	CARD	_	_	_	_	_	ADVP	II	_	ADVB	_	ADJOD	_	MAINDECL-ELLI	_	_	FRAG	39,37	_	_
+2	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	FRAG	39,37	_	_
+3	Sollen	_	_	VMFIN	_	_	_	_	_	VP	Sollen	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	_	LK	39,37	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	_	IO-DAT	_	DDA	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+5	Obrigkeit	_	_	NN	_	_	_	_	_	NP	Obrigkeit	_	IO-DAT	_	NA	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit	_	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+8	aller	_	_	ADJA	_	_	_	_	_	PP	aller	_	PP-ADV	_	ADJ	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+9	Reuerentz	_	_	NN	_	_	_	_	_	PP	Reuerentz	_	PP-ADV	_	NA	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+10	vnd	_	_	KON	_	_	_	_	_	PP	vnd	_	PP-ADV	_	KON	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+11	Ehrerbietung	_	_	NN	_	_	_	_	_	PP	Ehrerbietung	_	PP-ADV	_	NA	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+12	zu	_	_	APPR	_	_	_	_	_	PP	zu	_	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	_	MF	39,37	_	_
+13	gehoͤr	_	_	NN	_	_	_	_	_	PP	gehoͤr	_	PP-OBJ	_	NA	_	MAINDECL-ELLI	_	_	MF	40,01	_	_
+14	ſtehen	_	_	VVINF	_	_	_	_	_	VP	ſtehen	_	VFIN	_	VVINF	RE	MAINDECL-ELLI	RK	_	RK	40,01	_	_
+15	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	_	40,01	_	_
+16	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	_	NF	40,01	UNLINK	_
+17	allen	_	_	ADJA	_	_	_	_	_	PP	allen	NF	PP-ADV	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL-ELLI	_	_	NF	40,01	UNLINK	KOREF1-REL
+18	Gebotten	_	_	NN	_	_	_	_	_	PP	Gebotten	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	_	NF	40,01	UNLINK	KOREF1-REL
+19	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PP-ADV	ACC-ABSTR-UNUSED	KON	_	MAINDECL-ELLI	_	_	NF	40,01	UNLINK	KOREF1-REL
+20	Verbotten	_	_	NN	_	_	_	_	_	PP	Verbotten	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	_	NF	40,01	UNLINK	KOREF1-REL
+21	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	_	40,01	_	_

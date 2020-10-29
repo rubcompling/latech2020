@@ -1,0 +1,31 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ſo wirt er geſetzet ī ruͦwe eins goͤtlíchen fríden aller vſſerlich' vͤbunge
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo 	300,23, fri-	_	ADVB	_	ADV	_	MAINDECL	_	VF	79vb,01	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt 	300,23, fri-	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	79vb,01	_	_
+3	er	_	_	PPER	_	_	_	_	_	NA	er 	300,23, fri-	_	SUBJ	_	PPER	_	MAINDECL	_	MF	79vb,01	_	_
+4	geſetzet	_	_	VVPP	_	_	_	_	_	VP	geſetzet 	300,23, fri-	_	INF	_	VVPP	RE	MAINDECL	RK	RK	79vb,01	_	_
+5	ī	_	_	APPR	_	_	_	_	_	PP	ī 	300,23, fri-	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	79vb,01	UNLINK	_
+6	ruͦwe	_	_	NN	_	_	_	_	_	PP	ruͦwe	300,23, fri-	NF	PP-ADV	ACC-ABSTR-USED-X_	NA	_	MAINDECL	_	NF	79vb,01	UNLINK	_
+7	eins	_	_	ART	_	_	_	_	_	PP	eins 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	DIA	_	MAINDECL	_	NF	79vb,02	UNLINK	_
+8	goͤtlíchen	_	_	ADJA	_	_	_	_	_	PP	goͤtlíchen 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	ADJ	_	MAINDECL	_	NF	79vb,02	UNLINK	_
+9	fríden	_	_	NN	_	_	_	_	_	PP	fríden 	300,23, fri-	NF	ATTR	_ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	79vb,02	UNLINK	_
+10	aller	_	_	PIAT	_	_	_	_	_	PP	aller	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	DI	_	MAINDECL	_	NF	79vb,02	UNLINK	_
+11	vſſerlich'	_	_	ADJA	_	_	_	_	_	PP	vſſerlich' 	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	79vb,03	UNLINK	_
+12	vͤbunge	_	_	NN	_	_	_	_	_	PP	vͤbunge 	300,24	NF	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	79vb,03	UNLINK	_
+
+# sent_id = 2
+# text = Es moht wol ī des engels v'ſtentníſſe geoffenbaret w'den ín ſehs tagē geíſtlí(=)ch
+1	Es	_	_	PPER	_	_	_	_	_	NP	Es 	300,31, geoffen-	_	SUBJ	_	PPER	_	MAINDECL	_	VF	79vb,19	_	_
+2	moht	_	_	VMFIN	_	_	_	_	_	VP	moht 	300,31, geoffen-	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	79vb,19	_	_
+3	wol	_	_	ADJA	_	_	_	_	_	ADVP	wol 	300,31, geoffen-	_	ADVB	_	ADJ	_	MAINDECL	_	MF	79vb,19	_	_
+4	ī	_	_	APPR	_	_	_	_	_	PP	ī 	300,31, geoffen-	_	PP-ADV	_	APPR	_	MAINDECL	_	MF	79vb,19	_	_
+5	des	_	_	ART	_	_	_	_	_	PP	des 	300,31, geoffen-	_	PP-ADV	_	DDA	_	MAINDECL	_	MF	79vb,19	_	_
+6	engels	_	_	NN	_	_	_	_	_	PP	engels	300,31, geoffen-	_	PP-ADV	_	NA	_	MAINDECL	_	MF	79vb,19	_	_
+7	v'ſtentníſſe	_	_	NN	_	_	_	_	_	PP	v'ſtentníſſe 	300,31, geoffen-	_	PP-ADV	_	NA	_	MAINDECL	_	MF	79vb,20	_	_
+8	geoffenbaret	_	_	VVPP	_	_	_	_	_	VP	geoffenbaret	300,31, geoffen-	_	INF	_	VVPP	_	MAINDECL	RK	RK	79vb,20	_	_
+9	w'den	_	_	VVINF	_	_	_	_	_	VP	w'den 	300,32; verknünftek-	_	INF	_	VVINF	RE	MAINDECL	RK	RK	79vb,21; geí$tlí-	_	_
+10	ín	_	_	APPR	_	_	_	_	_	PP	ín 	300,32; verknünftek-	BGR_	PP-ADV	NA	APPR	_	MAINDECL	_	NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+11	ſehs	_	_	CARD	_	_	_	_	_	PP	ſehs 	300,32; verknünftek-	BGR_	PP-ADV	NA	CARD	_	MAINDECL	_	NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+12	tagē	_	_	NN	_	_	_	_	_	PP	tagē 	300,32; verknünftek-	BGR_	PP-ADV	NA	NA	_	MAINDECL	_	NF	79vb,21; geí$tlí-	UNLINK	KOREF1
+13	geíſtlí(=)ch	_	_	ADV	_	_	_	_	_	ADVP	geíſtlích 	300,32; verknünftek-	BGR_	ADVB	_	ADV	_	MAINDECL	_	NF	79vb,21; geí$tlí-	UNLINK	KOREF1

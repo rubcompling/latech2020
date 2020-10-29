@@ -1,0 +1,613 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 1
+# text = Achtzig erlaͤuterte Grund-Fragen / in welchen Die Lehre der Evangeliſch-Lutheri-<lb/>ſchen Kirche von dem Mittler-Ampt JEſu Chriſti und deſſen Einfluß zu einem heili-<lb/>gen Leben wider ihre Feinde uͤberhaupt , inſonderheit aber wider den beruffenen Johann Conrad Dippel , der ſich zum Beweiß ſeiner wunderlichen Gemuͤhts- Neigung bishero Chriſtianum Democritum genannt / ſolchergeſtalt befeſtiget / daß die dahin gehoͤrige Warheiten nach Vernunft und Schrift ausein-<lb/>ander hergeleitet / folglich in einer nohtwendi-<lb/>gen Verbindung und unuͤberwindlichen Gewißheit dargeſtellet werden / Denen / die mit dergleichen ſchaͤdlichen Lehren zum Argen verſuchet worden / zur Warnung ; ſchwachen Seelen zur Befeſtigung und neu-angehenden Predi-<lb/>gern / um denen heutigen Zweiffelmachern deſto gruͤndlicher begegnen zu koͤnnen / zu mehrerm Nachſinnen mitgetheilet von PETRO HANSSEN , Hochfuͤrſtl. Schleßwig-Holſteiniſchen Conſiſtorial- Raht / Superintendenten und Hof-Predigern .
+1	Achtzig	achtzig	_	CARD	_	_	_	_	_	_	MF
+2	erlaͤuterte	erläutern	_	ADJA	_	_	_	_	_	_	MF
+3	Grund-Fragen	Grund-Frage	_	NN	_	_	_	_	_	_	MF
+4	/	/	_	$(	_	_	_	_	_	_	MF
+5	in	in	_	APPR	_	_	_	_	_	LK	MF-LK
+6	welchen	welchen	_	PRELS	_	_	_	_	_	LK	MF-LK
+7	Die	d	_	ART	_	_	_	_	_	_	MF-MF
+8	Lehre	Lehre	_	NN	_	_	_	_	_	_	MF-MF
+9	der	d	_	ART	_	_	_	_	_	_	MF-MF
+10	Evangeliſch-Lutheri-<lb/>ſchen	evangelisch-lutherisch	_	ADJA	_	_	_	_	_	_	MF-MF
+11	Kirche	Kirche	_	NN	_	_	_	_	_	_	MF-MF
+12	von	von	_	APPR	_	_	_	_	_	_	MF-MF
+13	dem	d	_	ART	_	_	_	_	_	_	MF-MF
+14	Mittler-Ampt	Mittler-Ampt	_	NN	_	_	_	_	_	_	MF-MF
+15	JEſu	Jesu	_	NE	_	_	_	_	_	_	MF-MF
+16	Chriſti	Christi	_	NE	_	_	_	_	_	_	MF-MF
+17	und	und	_	KON	_	_	_	_	_	_	MF-MF
+18	deſſen	die	_	PRELAT	_	_	_	_	_	_	MF-MF
+19	Einfluß	Einfluß	_	NN	_	_	_	_	_	_	MF-MF
+20	zu	zu	_	APPR	_	_	_	_	_	_	MF-MF
+21	einem	eine	_	ART	_	_	_	_	_	_	MF-MF
+22	heili-<lb/>gen	heilig	_	ADJA	_	_	_	_	_	_	MF-MF
+23	Leben	Leben	_	NN	_	_	_	_	_	_	MF-MF
+24	wider	wider	_	APPR	_	_	_	_	_	_	MF-MF
+25	ihre	ihr	_	PPOSAT	_	_	_	_	_	_	MF-MF
+26	Feinde	Feind	_	NN	_	_	_	_	_	_	MF-MF
+27	uͤberhaupt	überhaupt	_	ADV	_	_	_	_	_	_	MF-MF
+28	,	,	_	$,	_	_	_	_	_	_	MF-MF
+29	inſonderheit	insonderheit	_	ADV	_	_	_	_	_	_	MF-MF
+30	aber	aber	_	ADV	_	_	_	_	_	_	MF-MF
+31	wider	wider	_	APPR	_	_	_	_	_	_	MF-MF
+32	den	d	_	ART	_	_	_	_	_	_	MF-MF
+33	beruffenen	berufen	_	ADJA	_	_	_	_	_	_	MF-MF
+34	Johann	Johann	_	NE	_	_	_	_	_	_	MF-MF
+35	Conrad	Conrad	_	NE	_	_	_	_	_	_	MF-MF
+36	Dippel	Dippel	_	NE	_	_	_	_	_	_	MF-MF
+37	,	,	_	$,	_	_	_	_	_	_	MF-MF
+38	der	die	_	PRELS	_	_	_	_	_	LK	MF-MF-LK
+39	ſich	sich	_	PRF	_	_	_	_	_	_	MF-MF-MF
+40	zum	zum	_	APPRART	_	_	_	_	_	_	MF-MF-MF
+41	Beweiß	Beweis	_	NN	_	_	_	_	_	_	MF-MF-MF
+42	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	MF-MF-MF
+43	wunderlichen	wunderlich	_	ADJA	_	_	_	_	_	_	MF-MF-MF
+44	Gemuͤhts-	gemühts-	_	NN	_	_	_	_	_	_	MF-MF-MF
+45	Neigung	Neigung	_	NN	_	_	_	_	_	_	MF-MF-MF
+46	bishero	bisher	_	ADV	_	_	_	_	_	_	MF-MF-MF
+47	Chriſtianum	Christianum	_	NE	_	_	_	_	_	_	MF-MF-MF
+48	Democritum	Democritum	_	NE	_	_	_	_	_	_	MF-MF-MF
+49	genannt	nennen	_	VVPP	_	_	_	_	_	RK	MF-MF-RK
+50	/	/	_	$(	_	_	_	_	_	_	MF-MF
+51	ſolchergeſtalt	solchergestalt	_	ADV	_	_	_	_	_	_	MF-MF
+52	befeſtiget	befestigen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+53	/	/	_	$(	_	_	_	_	_	_	MF
+54	daß	daß	_	KOUS	_	_	_	_	_	LK	MF-NF-LK
+55	die	d	_	ART	_	_	_	_	_	_	MF-NF-MF
+56	dahin	dahin	_	PAV	_	_	_	_	_	_	MF-NF-MF
+57	gehoͤrige	gehörig	_	ADJA	_	_	_	_	_	_	MF-NF-MF
+58	Warheiten	Wahrheit	_	NN	_	_	_	_	_	_	MF-NF-MF
+59	nach	nach	_	APPR	_	_	_	_	_	_	MF-NF-MF
+60	Vernunft	Vernunft	_	NN	_	_	_	_	_	_	MF-NF-MF
+61	und	und	_	KON	_	_	_	_	_	_	MF-NF-MF
+62	Schrift	Schrift	_	NN	_	_	_	_	_	_	MF-NF-MF
+63	ausein-<lb/>ander	auseinander	_	ADV	_	_	_	_	_	_	MF-NF-MF
+64	hergeleitet	herleiten	_	VVPP	_	_	_	_	_	RK	MF-NF-RK
+65	/	/	_	$(	_	_	_	_	_	_	MF-NF
+66	folglich	folglich	_	ADV	_	_	_	_	_	_	MF-NF-MF
+67	in	in	_	APPR	_	_	_	_	_	_	MF-NF-MF
+68	einer	eine	_	ART	_	_	_	_	_	_	MF-NF-MF
+69	nohtwendi-<lb/>gen	notwendig	_	ADJA	_	_	_	_	_	_	MF-NF-MF
+70	Verbindung	Verbindung	_	NN	_	_	_	_	_	_	MF-NF-MF
+71	und	und	_	KON	_	_	_	_	_	_	MF-NF-MF
+72	unuͤberwindlichen	unüberwindlich	_	ADJA	_	_	_	_	_	_	MF-NF-MF
+73	Gewißheit	Gewißheit	_	NN	_	_	_	_	_	_	MF-NF-MF
+74	dargeſtellet	darstellen	_	VVPP	_	_	_	_	_	RK	MF-NF-RK
+75	werden	werden	_	VAINF	_	_	_	_	_	RK	MF-NF-RK
+76	/	/	_	$(	_	_	_	_	_	_	MF-NF
+77	Denen	die	_	PDS	_	_	_	_	_	_	MF-NF-NF
+78	/	/	_	$(	_	_	_	_	_	_	MF-NF-NF
+79	die	d	_	PRELS	_	_	_	_	_	LK	MF-NF-NF-LK
+80	mit	mit	_	APPR	_	_	_	_	_	_	MF-NF-NF-MF
+81	dergleichen	dergleichen	_	PIS	_	_	_	_	_	_	MF-NF-NF-MF
+82	ſchaͤdlichen	schädlich	_	ADJA	_	_	_	_	_	_	MF-NF-NF-MF
+83	Lehren	Lehre	_	NN	_	_	_	_	_	_	MF-NF-NF-MF
+84	zum	zum	_	APPRART	_	_	_	_	_	_	MF-NF-NF-MF
+85	Argen	Arge	_	NN	_	_	_	_	_	_	MF-NF-NF-MF
+86	verſuchet	versuchen	_	VVPP	_	_	_	_	_	RK	MF-NF-NF-RK
+87	worden	werden	_	VAPP	_	_	_	_	_	RK	MF-NF-NF-RK
+88	/	/	_	$(	_	_	_	_	_	_	MF-NF-NF
+89	zur	zur	_	APPRART	_	_	_	_	_	_	MF-NF-NF
+90	Warnung	Warnung	_	NN	_	_	_	_	_	_	MF-NF-NF
+91	;	\;	_	$.	_	_	_	_	_	_	MF-NF-NF
+92	ſchwachen	schwach	_	ADJA	_	_	_	_	_	_	MF-NF-NF
+93	Seelen	Seele	_	NN	_	_	_	_	_	_	MF-NF-NF
+94	zur	zur	_	APPRART	_	_	_	_	_	_	MF-NF-NF
+95	Befeſtigung	Befestigung	_	NN	_	_	_	_	_	_	MF-NF-NF
+96	und	und	_	KON	_	_	_	_	_	_	MF-NF-NF
+97	neu-angehenden	neu-angehend	_	ADJA	_	_	_	_	_	_	MF-NF-NF
+98	Predi-<lb/>gern	Prediger	_	NN	_	_	_	_	_	_	MF-NF-NF
+99	/	/	_	$(	_	_	_	_	_	_	MF-NF-NF
+100	um	um	_	KOUI	_	_	_	_	_	LK	MF-NF-NF-LK
+101	denen	die	_	PRELS	_	_	_	_	_	_	MF-NF-NF-MF
+102	heutigen	heutig	_	ADJA	_	_	_	_	_	_	MF-NF-NF-MF
+103	Zweiffelmachern	Zweifelmacher	_	NN	_	_	_	_	_	_	MF-NF-NF-MF
+104	deſto	desto	_	ADV	_	_	_	_	_	_	MF-NF-NF-MF
+105	gruͤndlicher	gründlich	_	ADJD	_	_	_	_	_	_	MF-NF-NF-MF
+106	begegnen	begegnen	_	VVINF	_	_	_	_	_	RK	MF-NF-NF-RK
+107	zu	zu	_	PTKZU	_	_	_	_	_	RK	MF-NF-NF-RK
+108	koͤnnen	können	_	VMINF	_	_	_	_	_	RK	MF-NF-NF-RK
+109	/	/	_	$(	_	_	_	_	_	_	MF
+110	zu	zu	_	APPR	_	_	_	_	_	_	MF
+111	mehrerm	mehrere	_	PIAT	_	_	_	_	_	_	MF
+112	Nachſinnen	Nachsinnen	_	NN	_	_	_	_	_	_	MF
+113	mitgetheilet	mitteilen	_	VVPP	_	_	_	_	_	RK	RK
+114	von	von	_	APPR	_	_	_	_	_	_	NF
+115	PETRO	Petro	_	NE	_	_	_	_	_	_	NF
+116	HANSSEN	Hansen	_	NE	_	_	_	_	_	_	NF
+117	,	,	_	$,	_	_	_	_	_	_	NF
+118	Hochfuͤrſtl.	Hochfürstl.	_	ADJA	_	_	_	_	_	_	NF
+119	Schleßwig-Holſteiniſchen	schleswig-holsteinisch	_	ADJA	_	_	_	_	_	_	NF
+120	Conſiſtorial-	consistorial-	_	NN	_	_	_	_	_	_	NF
+121	Raht	Rat	_	NN	_	_	_	_	_	_	NF
+122	/	/	_	$(	_	_	_	_	_	_	NF
+123	Superintendenten	Superintendent	_	NN	_	_	_	_	_	_	NF
+124	und	und	_	KON	_	_	_	_	_	_	NF
+125	Hof-Predigern	Hof-Prediger	_	NN	_	_	_	_	_	_	NF
+126	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 5
+# text = EW . Excellence uͤberreiche ich nach der unter denen Gelehrten an-<lb/>genommenen Gewohnheit ge-<lb/>genwaͤrtige Schrift , als einen Beweiß meiner gegen Deroſelben tragenden Hochachtung und nie auszuloͤſchen-<lb/>den Liebe und Zuneigung .
+1	EW	EW	_	PPOSAT	_	_	_	_	_	_	VF
+2	.	.	_	$.	_	_	_	_	_	_	VF
+3	Excellence	Excellence	_	NN	_	_	_	_	_	_	VF
+4	uͤberreiche	überreichen	_	VVFIN	_	_	_	_	_	LK	LK
+5	ich	ich	_	PPER	_	_	_	_	_	_	MF
+6	nach	nach	_	APPR	_	_	_	_	_	_	MF
+7	der	d	_	ART	_	_	_	_	_	_	MF
+8	unter	unter	_	APPR	_	_	_	_	_	_	MF
+9	denen	die	_	PRELS	_	_	_	_	_	_	MF
+10	Gelehrten	Gelehrte	_	NN	_	_	_	_	_	_	MF
+11	an-<lb/>genommenen	angenehmen	_	ADJA	_	_	_	_	_	_	MF
+12	Gewohnheit	Gewohnheit	_	NN	_	_	_	_	_	_	MF
+13	ge-<lb/>genwaͤrtige	gegenwärtig	_	ADJA	_	_	_	_	_	_	MF
+14	Schrift	Schrift	_	NN	_	_	_	_	_	_	MF
+15	,	,	_	$,	_	_	_	_	_	_	MF
+16	als	als	_	KOKOM	_	_	_	_	_	_	MF
+17	einen	eine	_	ART	_	_	_	_	_	_	MF
+18	Beweiß	Beweis	_	NN	_	_	_	_	_	_	MF
+19	meiner	meine	_	PPOSAT	_	_	_	_	_	_	MF
+20	gegen	gegen	_	APPR	_	_	_	_	_	_	MF
+21	Deroſelben	dieselbe	_	PDAT	_	_	_	_	_	_	MF
+22	tragenden	tragend	_	ADJA	_	_	_	_	_	_	MF
+23	Hochachtung	Hochachtung	_	NN	_	_	_	_	_	_	MF
+24	und	und	_	KON	_	_	_	_	_	_	MF
+25	nie	nie	_	ADV	_	_	_	_	_	_	MF
+26	auszuloͤſchen-<lb/>den	auszulöschend	_	ADJA	_	_	_	_	_	_	MF
+27	Liebe	Liebe	_	NN	_	_	_	_	_	_	MF
+28	und	und	_	KON	_	_	_	_	_	_	MF
+29	Zuneigung	Zuneigung	_	NN	_	_	_	_	_	_	MF
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 7
+# text = Jch habe ſelbige verfertiget , um die wichtigſten Glaubens-Lehren unſerer Evangeli-<lb/>ſchen Kirchen gegen einem zur Genuͤ-<lb/>ge bekannten , heftigen Verfolger der-<lb/>ſelben zu verthaͤdigen und meyne alſo eine gute Sache fuͤr mir zu haben .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	VF
+2	habe	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	ſelbige	selbig	_	ADJA	_	_	_	_	_	_	MF
+4	verfertiget	verfertigen	_	VVPP	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+7	die	d	_	ART	_	_	_	_	_	_	NF-MF
+8	wichtigſten	wichtig	_	ADJA	_	_	_	_	_	_	NF-MF
+9	Glaubens-Lehren	Glaubens-Lehre	_	NN	_	_	_	_	_	_	NF-MF
+10	unſerer	unsere	_	PPOSAT	_	_	_	_	_	_	NF-MF
+11	Evangeli-<lb/>ſchen	evangelisch	_	ADJA	_	_	_	_	_	_	NF-MF
+12	Kirchen	Kirche	_	NN	_	_	_	_	_	_	NF-MF
+13	gegen	gegen	_	APPR	_	_	_	_	_	_	NF-MF
+14	einem	eine	_	ART	_	_	_	_	_	_	NF-MF
+15	zur	zur	_	APPRART	_	_	_	_	_	_	NF-MF
+16	Genuͤ-<lb/>ge	Genüge	_	NN	_	_	_	_	_	_	NF-MF
+17	bekannten	bekannt	_	ADJA	_	_	_	_	_	_	NF-MF
+18	,	,	_	$,	_	_	_	_	_	_	NF-MF
+19	heftigen	heftig	_	ADJA	_	_	_	_	_	_	NF-MF
+20	Verfolger	Verfolger	_	NN	_	_	_	_	_	_	NF-MF
+21	der-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	_	NF-MF
+22	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+23	verthaͤdigen	tätig	_	VVINF	_	_	_	_	_	RK	NF-RK
+24	und	und	_	KON	_	_	_	_	_	_	KOORD
+25	meyne	meinen	_	VVFIN	_	_	_	_	_	LK	LK
+26	alſo	also	_	ADV	_	_	_	_	_	_	MF
+27	eine	eine	_	ART	_	_	_	_	_	_	MF
+28	gute	gut	_	ADJA	_	_	_	_	_	_	MF
+29	Sache	Sache	_	NN	_	_	_	_	_	_	MF
+30	fuͤr	für	_	APPR	_	_	_	_	_	_	MF
+31	mir	ich	_	PPER	_	_	_	_	_	_	MF
+32	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+33	haben	haben	_	VAINF	_	_	_	_	_	RK	RK
+34	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 8
+# text = Es iſt angenehm in dergleichen Zwi-<lb/>ſtigkeiten alſobald einen Schieds- Mann und Richter zu kennen , und ich bin uͤberfuͤhrt , daß Ew. Excellence hiezu eine vollenkommene Faͤhigkeit beſitzen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	angenehm	angenehm	_	ADJD	_	_	_	_	_	_	MF
+4	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+5	dergleichen	dergleichen	_	PDAT	_	_	_	_	_	_	NF-MF
+6	Zwi-<lb/>ſtigkeiten	Zwistigkeit	_	NN	_	_	_	_	_	_	NF-MF
+7	alſobald	alsobald	_	ADV	_	_	_	_	_	_	NF-MF
+8	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+9	Schieds-	schieds-	_	NN	_	_	_	_	_	_	NF-MF
+10	Mann	Mann	_	NN	_	_	_	_	_	_	NF-MF
+11	und	und	_	KON	_	_	_	_	_	_	NF-MF
+12	Richter	Richter	_	NN	_	_	_	_	_	_	NF-MF
+13	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+14	kennen	kennen	_	VVINF	_	_	_	_	_	RK	NF-RK
+15	,	,	_	$,	_	_	_	_	_	_	_
+16	und	und	_	KON	_	_	_	_	_	_	KOORD
+17	ich	ich	_	PPER	_	_	_	_	_	_	VF
+18	bin	sein	_	VAFIN	_	_	_	_	_	LK	LK
+19	uͤberfuͤhrt	überführen	_	VVPP	_	_	_	_	_	RK	RK
+20	,	,	_	$,	_	_	_	_	_	_	_
+21	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+22	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	NF-MF
+23	Excellence	Excellence	_	NN	_	_	_	_	_	_	NF-MF
+24	hiezu	hierzu	_	PAV	_	_	_	_	_	_	NF-MF
+25	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+26	vollenkommene	vollkommen	_	ADJA	_	_	_	_	_	_	NF-MF
+27	Faͤhigkeit	Fähigkeit	_	NN	_	_	_	_	_	_	NF-MF
+28	beſitzen	besitzen	_	VVINF	_	_	_	_	_	RK	NF-RK
+29	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 9
+# text = Jch trete der Warheit in keine Wege zu nahe , weñ ich oͤffentlich bekenne , daß man Dero Urtheil weder partheyiſch noch ungegruͤndet wuͤrde finden .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	VF
+2	trete	treten	_	VVFIN	_	_	_	_	_	LK	LK
+3	der	d	_	ART	_	_	_	_	_	_	MF
+4	Warheit	Wahrheit	_	NN	_	_	_	_	_	_	MF
+5	in	in	_	APPR	_	_	_	_	_	_	MF
+6	keine	keine	_	PIAT	_	_	_	_	_	_	MF
+7	Wege	Weg	_	NN	_	_	_	_	_	_	MF
+8	zu	zu	_	PTKA	_	_	_	_	_	_	MF
+9	nahe	nahe	_	ADJD	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	_
+11	weñ	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+12	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+13	oͤffentlich	öffentlich	_	ADJD	_	_	_	_	_	_	NF-MF
+14	bekenne	bekennen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+15	,	,	_	$,	_	_	_	_	_	_	NF
+16	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+17	man	man	_	PIS	_	_	_	_	_	_	NF-NF-MF
+18	Dero	die	_	PDAT	_	_	_	_	_	_	NF-NF-MF
+19	Urtheil	Urteil	_	NN	_	_	_	_	_	_	NF-NF-MF
+20	weder	weder	_	KON	_	_	_	_	_	_	NF-NF-MF
+21	partheyiſch	parteiisch	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+22	noch	noch	_	KON	_	_	_	_	_	_	NF-NF-MF
+23	ungegruͤndet	ungegründet	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+24	wuͤrde	werden	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+25	finden	finden	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 10
+# text = Die-<lb/>ſe Urſache koͤnte ſchon mein Unterneh-<lb/>men , da ich dieſe geringe Arbeit Ew. Excellence zueigne , fuͤr ſich rechtfertigen .
+1	Die-<lb/>ſe	diese	_	PDAT	_	_	_	_	_	_	VF
+2	Urſache	Ursache	_	NN	_	_	_	_	_	_	VF
+3	koͤnte	können	_	VMFIN	_	_	_	_	_	LK	LK
+4	ſchon	schon	_	ADV	_	_	_	_	_	_	MF
+5	mein	mein	_	PPOSAT	_	_	_	_	_	_	MF
+6	Unterneh-<lb/>men	Unternehmen	_	NN	_	_	_	_	_	_	MF
+7	,	,	_	$,	_	_	_	_	_	_	MF
+8	da	da	_	KOUS	_	_	_	_	_	LK	MF-LK
+9	ich	ich	_	PPER	_	_	_	_	_	_	MF-MF
+10	dieſe	diese	_	PDAT	_	_	_	_	_	_	MF-MF
+11	geringe	gering	_	ADJA	_	_	_	_	_	_	MF-MF
+12	Arbeit	Arbeit	_	NN	_	_	_	_	_	_	MF-MF
+13	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	MF-MF
+14	Excellence	Excellence	_	NN	_	_	_	_	_	_	MF-MF
+15	zueigne	zueignen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+16	,	,	_	$,	_	_	_	_	_	_	MF
+17	fuͤr	für	_	APPR	_	_	_	_	_	_	MF
+18	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+19	rechtfertigen	rechtfertigen	_	VVINF	_	_	_	_	_	RK	RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 11
+# text = Sie iſt es aber nicht allein .
+1	Sie	sie	_	PPER	_	_	_	_	_	_	VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	es	es	_	PPER	_	_	_	_	_	_	MF
+4	aber	aber	_	ADV	_	_	_	_	_	_	MF
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+6	allein	allein	_	ADV	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 12
+# text = Der kraͤf-<lb/>tigſte Bewegungs-Grund nimmt ſei-<lb/>nen Urſprung aus einer zaͤrtlichen Leydenſchaft meines Gemuͤhts .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	kraͤf-<lb/>tigſte	kräftig	_	ADJA	_	_	_	_	_	_	VF
+3	Bewegungs-Grund	Bewegungs-Grund	_	NN	_	_	_	_	_	_	VF
+4	nimmt	nehmen	_	VVFIN	_	_	_	_	_	LK	LK
+5	ſei-<lb/>nen	seine	_	PPOSAT	_	_	_	_	_	_	MF
+6	Urſprung	Ursprung	_	NN	_	_	_	_	_	_	MF
+7	aus	aus	_	APPR	_	_	_	_	_	_	MF
+8	einer	eine	_	ART	_	_	_	_	_	_	MF
+9	zaͤrtlichen	zärtlich	_	ADJA	_	_	_	_	_	_	MF
+10	Leydenſchaft	Leidenschaft	_	NN	_	_	_	_	_	_	MF
+11	meines	meine	_	PPOSAT	_	_	_	_	_	_	MF
+12	Gemuͤhts	Gemüt	_	NN	_	_	_	_	_	_	MF
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 13
+# text = Die Empfindung von Ew. Excellence lieb-<lb/>reichen Zuneigung gegen meine Per-<lb/>ſon und wuͤrcklich genoſſenen Wohl-<lb/>thaten lieget mir ſo tieff im Hertzen , daß die Entlegenheit des Orts Dero Auffenthalts ſelbige ſo wenig auszu-<lb/>loͤſchen vermag ; als wenig der Ablauf der Zeiten ſolche hat hinweg nehmen koͤnnen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Empfindung	Empfindung	_	NN	_	_	_	_	_	_	VF
+3	von	von	_	APPR	_	_	_	_	_	_	VF
+4	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	VF
+5	Excellence	Excellence	_	NN	_	_	_	_	_	_	VF
+6	lieb-<lb/>reichen	liebreich	_	ADJA	_	_	_	_	_	_	VF
+7	Zuneigung	Zuneigung	_	NN	_	_	_	_	_	_	VF
+8	gegen	gegen	_	APPR	_	_	_	_	_	_	VF
+9	meine	meine	_	PPOSAT	_	_	_	_	_	_	VF
+10	Per-<lb/>ſon	Person	_	NN	_	_	_	_	_	_	VF
+11	und	und	_	KON	_	_	_	_	_	_	VF
+12	wuͤrcklich	wirklich	_	ADJD	_	_	_	_	_	_	VF
+13	genoſſenen	genießen	_	ADJA	_	_	_	_	_	_	VF
+14	Wohl-<lb/>thaten	Wohltat	_	NN	_	_	_	_	_	_	VF
+15	lieget	liegen	_	VVFIN	_	_	_	_	_	LK	LK
+16	mir	ich	_	PPER	_	_	_	_	_	_	MF
+17	ſo	so	_	ADV	_	_	_	_	_	_	MF
+18	tieff	tief	_	ADJD	_	_	_	_	_	_	MF
+19	im	im	_	APPRART	_	_	_	_	_	_	MF
+20	Hertzen	Herz	_	NN	_	_	_	_	_	_	MF
+21	,	,	_	$,	_	_	_	_	_	_	_
+22	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+23	die	d	_	ART	_	_	_	_	_	_	NF-MF
+24	Entlegenheit	Entlegenheit	_	NN	_	_	_	_	_	_	NF-MF
+25	des	d	_	ART	_	_	_	_	_	_	NF-MF
+26	Orts	Ort	_	NN	_	_	_	_	_	_	NF-MF
+27	Dero	die	_	PDS	_	_	_	_	_	_	NF-MF
+28	Auffenthalts	Aufenthalt	_	NN	_	_	_	_	_	_	NF-MF
+29	ſelbige	selbig	_	PDS	_	_	_	_	_	_	NF-MF
+30	ſo	so	_	ADV	_	_	_	_	_	_	NF-MF
+31	wenig	wenig	_	PIS	_	_	_	_	_	_	NF-MF
+32	auszu-<lb/>loͤſchen	auslöschen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+33	vermag	vermögen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+34	;	\;	_	$.	_	_	_	_	_	_	NF
+35	als	als	_	KOKOM	_	_	_	_	_	LK	NF-NF-LK
+36	wenig	wenig	_	PIS	_	_	_	_	_	_	NF-NF-LK
+37	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+38	Ablauf	Ablauf	_	NN	_	_	_	_	_	_	NF-NF-MF
+39	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+40	Zeiten	Zeit	_	NN	_	_	_	_	_	_	NF-NF-MF
+41	ſolche	solch	_	PIAT	_	_	_	_	_	_	NF-NF-MF
+42	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+43	hinweg	hinweg	_	PTKVZ	_	_	_	_	_	RK	NF-NF-RK
+44	nehmen	nehmen	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+45	koͤnnen	können	_	VMINF	_	_	_	_	_	RK	NF-NF-RK
+46	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 14
+# text = Es geben ſich jezuweilen gluͤckliche Umſtaͤnde in unſerm Leben an , welche in den gantzen Uberreſt deſ-<lb/>ſelben einen Einfluß haben : wenig-<lb/>ſtens ſich von denen uͤbrigen Bege-<lb/>gnuͤſſen mercklich unterſcheiden .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	geben	geben	_	VVFIN	_	_	_	_	_	LK	LK
+3	ſich	sich	_	PRF	_	_	_	_	_	_	MF
+4	jezuweilen	jezuweilen	_	ADV	_	_	_	_	_	_	MF
+5	gluͤckliche	glücklich	_	ADJA	_	_	_	_	_	_	MF
+6	Umſtaͤnde	Umstand	_	NN	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	unſerm	unsere	_	PPOSAT	_	_	_	_	_	_	MF
+9	Leben	Leben	_	NN	_	_	_	_	_	_	MF
+10	an	an	_	PTKVZ	_	_	_	_	_	RK	RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	welche	welche	_	PRELS	_	_	_	_	_	LK	LK
+13	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+14	den	d	_	ART	_	_	_	_	_	_	NF-MF
+15	gantzen	ganz	_	ADJA	_	_	_	_	_	_	NF-MF
+16	Uberreſt	Überrest	_	NN	_	_	_	_	_	_	NF-MF
+17	deſ-<lb/>ſelben	dieselbe	_	PDS	_	_	_	_	_	_	NF-MF
+18	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+19	Einfluß	Einfluß	_	NN	_	_	_	_	_	_	NF-MF
+20	haben	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+21	:	:	_	$.	_	_	_	_	_	_	NF
+22	wenig-<lb/>ſtens	wenigstens	_	ADV	_	_	_	_	_	_	NF-NF-MF
+23	ſich	sich	_	PRF	_	_	_	_	_	_	NF-NF-MF
+24	von	von	_	APPR	_	_	_	_	_	_	NF-NF-MF
+25	denen	die	_	PDAT	_	_	_	_	_	_	NF-NF-MF
+26	uͤbrigen	übrig	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+27	Bege-<lb/>gnuͤſſen	Begegnüssen	_	NN	_	_	_	_	_	_	NF-NF-MF
+28	mercklich	merklich	_	ADJD	_	_	_	_	_	_	NF-NF-MF
+29	unterſcheiden	unterscheiden	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 15
+# text = Mir iſt die Gelegenheit , da ich Ew. Excellence zuerſt bekannt geworden , allezeit als die Vortheilhaftſte , die ich in der Welt gehabt , vorgekommen :
+1	Mir	ich	_	PPER	_	_	_	_	_	_	VF
+2	iſt	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	die	d	_	ART	_	_	_	_	_	_	MF-MF
+4	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	_	MF-MF
+5	,	,	_	$,	_	_	_	_	_	_	MF
+6	da	da	_	KOUS	_	_	_	_	_	LK	MF-LK
+7	ich	ich	_	PPER	_	_	_	_	_	_	MF-MF
+8	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	MF-MF
+9	Excellence	Excellence	_	NN	_	_	_	_	_	_	MF-MF
+10	zuerſt	zuerst	_	ADV	_	_	_	_	_	_	MF-MF
+11	bekannt	bekannt	_	ADJD	_	_	_	_	_	_	MF-MF
+12	geworden	werden	_	VAPP	_	_	_	_	_	RK	MF-RK
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	allezeit	allezeit	_	ADV	_	_	_	_	_	_	MF
+15	als	als	_	KOKOM	_	_	_	_	_	_	MF
+16	die	d	_	ART	_	_	_	_	_	_	MF
+17	Vortheilhaftſte	vorteilhaft	_	NN	_	_	_	_	_	_	MF
+18	,	,	_	$,	_	_	_	_	_	_	MF
+19	die	die	_	PRELS	_	_	_	_	_	LK	MF-LK
+20	ich	ich	_	PPER	_	_	_	_	_	_	MF-MF
+21	in	in	_	APPR	_	_	_	_	_	_	MF-MF
+22	der	d	_	ART	_	_	_	_	_	_	MF-MF
+23	Welt	Welt	_	NN	_	_	_	_	_	_	MF-MF
+24	gehabt	haben	_	VAPP	_	_	_	_	_	RK	MF-RK
+25	,	,	_	$,	_	_	_	_	_	_	_
+26	vorgekommen	vorkommen	_	VVPP	_	_	_	_	_	RK	RK
+27	:	:	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 16
+# text = wenigſtens kan ich ruͤhmen , daß ſolche zu mei-<lb/>nen zeitlichen Wohlſeyn einen merckli-<lb/>chen Grund gelegt .
+1	wenigſtens	wenigstens	_	ADV	_	_	_	_	_	_	VF
+2	kan	können	_	VMFIN	_	_	_	_	_	LK	LK
+3	ich	ich	_	PPER	_	_	_	_	_	_	MF
+4	ruͤhmen	rühmen	_	VVINF	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	ſolche	solch	_	PIS	_	_	_	_	_	_	NF-MF
+8	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+9	mei-<lb/>nen	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+10	zeitlichen	zeitlich	_	ADJA	_	_	_	_	_	_	NF-MF
+11	Wohlſeyn	Wohlsein	_	NN	_	_	_	_	_	_	NF-MF
+12	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+13	merckli-<lb/>chen	merklich	_	ADJA	_	_	_	_	_	_	NF-MF
+14	Grund	Grund	_	NN	_	_	_	_	_	_	NF-MF
+15	gelegt	legen	_	VVPP	_	_	_	_	_	RK	NF-RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 17
+# text = Die Weißheit , ſo alle menſchliche Dinge nach heiligen Geſetzen regieret , hat es gefuͤget , daß eben zu der Zeit , da ich meine Academi-<lb/>ſchen Studia auf der wehrten Kieliſchen Univerſitaͤt , die Gott im Segen erhalte ! geendiget , und um eine Gelegenheit , wie bey meinen wenigen Mitteln der-<lb/>ſelben Wachsthum ferner moͤgte be-<lb/>fordert werden , bekuͤmmert war , Ew. Excellence unvermuhtet meiner Unterweiſung und Aufſicht anbefoh-<lb/>len wurden .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Weißheit	Weisheit	_	NN	_	_	_	_	_	_	VF
+3	,	,	_	$,	_	_	_	_	_	_	VF
+4	ſo	so	_	ADV	_	_	_	_	_	LK	VF-LK
+5	alle	alle	_	PIAT	_	_	_	_	_	_	VF-MF
+6	menſchliche	menschlich	_	ADJA	_	_	_	_	_	_	VF-MF
+7	Dinge	Ding	_	NN	_	_	_	_	_	_	VF-MF
+8	nach	nach	_	APPR	_	_	_	_	_	_	VF-MF
+9	heiligen	heilig	_	ADJA	_	_	_	_	_	_	VF-MF
+10	Geſetzen	Gesetz	_	NN	_	_	_	_	_	_	VF-MF
+11	regieret	regieren	_	VVFIN	_	_	_	_	_	RK	VF-RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+14	es	es	_	PPER	_	_	_	_	_	_	MF
+15	gefuͤget	fügen	_	VVPP	_	_	_	_	_	RK	RK
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-LK
+18	eben	eben	_	ADV	_	_	_	_	_	_	NF-MF
+19	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+20	der	d	_	ART	_	_	_	_	_	_	NF-MF
+21	Zeit	Zeit	_	NN	_	_	_	_	_	_	NF-MF
+22	,	,	_	$,	_	_	_	_	_	_	NF-MF
+23	da	da	_	PRELS	_	_	_	_	_	LK	NF-MF-LK
+24	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF-MF
+25	meine	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF-MF
+26	Academi-<lb/>ſchen	akademisch	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+27	Studia	Studia	_	NE	_	_	_	_	_	_	NF-MF-MF
+28	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF-MF
+29	der	d	_	ART	_	_	_	_	_	_	NF-MF-MF
+30	wehrten	wehren	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+31	Kieliſchen	Kielischen	_	ADJA	_	_	_	_	_	_	NF-MF-MF
+32	Univerſitaͤt	Universität	_	NN	_	_	_	_	_	_	NF-MF-MF
+33	,	,	_	$,	_	_	_	_	_	_	NF-MF-MF
+34	die	d	_	ART	_	_	_	_	_	LK	NF-MF-MF-LK
+35	Gott	Gott	_	NN	_	_	_	_	_	_	NF-MF-MF-MF
+36	im	im	_	APPRART	_	_	_	_	_	_	NF-MF-MF-MF
+37	Segen	Segen	_	NN	_	_	_	_	_	_	NF-MF-MF-MF
+38	erhalte	erhalten	_	VVFIN	_	_	_	_	_	RK	NF-MF-MF-RK
+39	!	!	_	$.	_	_	_	_	_	_	NF-MF-MF
+40	geendiget	endigen	_	VVPP	_	_	_	_	_	RK	NF-MF-RK
+41	,	,	_	$,	_	_	_	_	_	_	NF-MF
+42	und	und	_	KON	_	_	_	_	_	_	NF-MF-KOORD
+43	um	um	_	APPR	_	_	_	_	_	_	NF-MF-MF
+44	eine	eine	_	ART	_	_	_	_	_	_	NF-MF-MF
+45	Gelegenheit	Gelegenheit	_	NN	_	_	_	_	_	_	NF-MF-MF
+46	,	,	_	$,	_	_	_	_	_	_	NF-MF-MF
+47	wie	wie	_	PWAV	_	_	_	_	_	_	NF-MF-MF
+48	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF-MF
+49	meinen	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF-MF
+50	wenigen	wenige	_	PIAT	_	_	_	_	_	_	NF-MF-MF
+51	Mitteln	Mittel	_	NN	_	_	_	_	_	_	NF-MF-MF
+52	der-<lb/>ſelben	dieselbe	_	PDAT	_	_	_	_	_	_	NF-MF-MF
+53	Wachsthum	Wachstum	_	NN	_	_	_	_	_	_	NF-MF-MF
+54	ferner	ferner	_	ADV	_	_	_	_	_	_	NF-MF-MF-VF
+55	moͤgte	mögen	_	VMFIN	_	_	_	_	_	LK	NF-MF-MF-LK
+56	be-<lb/>fordert	befördern	_	VVPP	_	_	_	_	_	RK	NF-MF-MF-RK
+57	werden	werden	_	VAINF	_	_	_	_	_	RK	NF-MF-MF-RK
+58	,	,	_	$,	_	_	_	_	_	_	NF-MF
+59	bekuͤmmert	bekümmern	_	VVPP	_	_	_	_	_	RK	NF-MF-RK
+60	war	sein	_	VAFIN	_	_	_	_	_	RK	NF-MF-RK
+61	,	,	_	$,	_	_	_	_	_	_	NF-MF
+62	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	NF-MF
+63	Excellence	Excellence	_	NN	_	_	_	_	_	_	NF-MF
+64	unvermuhtet	unvermutet	_	ADJD	_	_	_	_	_	_	NF-MF
+65	meiner	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+66	Unterweiſung	Unterweisung	_	NN	_	_	_	_	_	_	NF-MF
+67	und	und	_	KON	_	_	_	_	_	_	NF-MF
+68	Aufſicht	Aufsicht	_	NN	_	_	_	_	_	_	NF-MF
+69	anbefoh-<lb/>len	anbefehlen	_	VVPP	_	_	_	_	_	RK	NF-RK
+70	wurden	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+71	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 17
+# text = Andern gereicht derglei-<lb/>chen Bedienung zur Muͤhe und Laſt .
+1	Andern	ander	_	NN	_	_	_	_	_	_	VF
+2	gereicht	gereichen	_	VVFIN	_	_	_	_	_	LK	LK
+3	derglei-<lb/>chen	dergleichen	_	PDAT	_	_	_	_	_	_	MF
+4	Bedienung	Bedienung	_	NN	_	_	_	_	_	_	MF
+5	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+6	Muͤhe	Mühe	_	NN	_	_	_	_	_	_	MF
+7	und	und	_	KON	_	_	_	_	_	_	MF
+8	Laſt	Last	_	NN	_	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 18
+# text = Sie laͤſt unterweilen weder Zeit noch Luſt uͤbrig , fuͤr ſich an dem Schatz der Wiſſenſchaften etwas zu gewiñen .
+1	Sie	sie	_	PPER	_	_	_	_	_	_	VF
+2	laͤſt	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+3	unterweilen	unterweilen	_	ADV	_	_	_	_	_	_	MF
+4	weder	weder	_	KON	_	_	_	_	_	_	MF
+5	Zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+6	noch	noch	_	ADV	_	_	_	_	_	_	MF
+7	Luſt	Lust	_	NN	_	_	_	_	_	_	MF
+8	uͤbrig	übrig	_	PTKVZ	_	_	_	_	_	RK	RK
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	fuͤr	für	_	APPR	_	_	_	_	_	_	NF-MF
+11	ſich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+12	an	an	_	APPR	_	_	_	_	_	_	NF-MF
+13	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+14	Schatz	Schatz	_	NN	_	_	_	_	_	_	NF-MF
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Wiſſenſchaften	Wissenschaft	_	NN	_	_	_	_	_	_	NF-MF
+17	etwas	etwas	_	PIS	_	_	_	_	_	_	NF-MF
+18	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+19	gewiñen	gewinnen	_	VVINF	_	_	_	_	_	RK	NF-RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 19
+# text = Jch im Gegentheilhabe aus derſelben Ver-<lb/>gnuͤgen und Vortheile geſchoͤpfft .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	VF
+2	im	im	_	APPRART	_	_	_	_	_	_	FRAG
+3	Gegentheilhabe	Gegenteilhabe	_	VAFIN	_	_	_	_	_	LK	LK
+4	aus	aus	_	APPR	_	_	_	_	_	_	MF
+5	derſelben	dieselbe	_	PDAT	_	_	_	_	_	_	MF
+6	Ver-<lb/>gnuͤgen	Vergnügen	_	NN	_	_	_	_	_	_	MF
+7	und	und	_	KON	_	_	_	_	_	_	MF
+8	Vortheile	Vorteil	_	NN	_	_	_	_	_	_	MF
+9	geſchoͤpfft	schöpfen	_	VVPP	_	_	_	_	_	RK	RK
+10	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 20
+# text = Jch bin im Zweiffel , ob Ew. Excellence mehr durch meinen Unterricht , als ich durch Dero bey denen Jahren ungewoͤhnli-<lb/>che Begierde zum Wiſſen und natuͤr-<lb/>liche Scharffſinnigkeit bin erbauet worden .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	VF
+2	bin	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	im	im	_	APPRART	_	_	_	_	_	_	MF
+4	Zweiffel	Zweifel	_	NN	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	ob	ob	_	KOUS	_	_	_	_	_	LK	NF-LK
+7	Ew.	Ew.	_	PPOSAT	_	_	_	_	_	_	NF-MF
+8	Excellence	Excellence	_	NN	_	_	_	_	_	_	NF-MF
+9	mehr	mehr	_	ADV	_	_	_	_	_	_	NF-MF
+10	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+11	meinen	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+12	Unterricht	Unterricht	_	NN	_	_	_	_	_	_	NF-MF
+13	,	,	_	$,	_	_	_	_	_	_	NF-MF
+14	als	als	_	KOKOM	_	_	_	_	_	_	NF-MF
+15	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+16	durch	durch	_	APPR	_	_	_	_	_	_	NF-MF
+17	Dero	die	_	PDS	_	_	_	_	_	_	NF-MF
+18	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF
+19	denen	die	_	PRELS	_	_	_	_	_	_	NF-MF
+20	Jahren	Jahr	_	NN	_	_	_	_	_	_	NF-MF
+21	ungewoͤhnli-<lb/>che	ungewöhnlich	_	ADJA	_	_	_	_	_	_	NF-MF
+22	Begierde	Begierde	_	NN	_	_	_	_	_	_	NF-MF
+23	zum	zum	_	APPRART	_	_	_	_	_	_	NF-MF
+24	Wiſſen	Wissen	_	NN	_	_	_	_	_	_	NF-MF
+25	und	und	_	KON	_	_	_	_	_	_	NF-MF
+26	natuͤr-<lb/>liche	natürlich	_	ADJA	_	_	_	_	_	_	NF-MF
+27	Scharffſinnigkeit	Scharfsinnigkeit	_	NN	_	_	_	_	_	_	NF-MF
+28	bin	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+29	erbauet	erbauen	_	VVPP	_	_	_	_	_	RK	NF-RK
+30	worden	werden	_	VAPP	_	_	_	_	_	RK	NF-RK
+31	.	.	_	$.	_	_	_	_	_	_	_

@@ -1,0 +1,181 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = wir ſigē híut begênde dē êrſtē ſunnētach d'. (heiligen). zuͦkuͥmft unſers h'rē.
+1	wir	_	_	PPER	_	_	_	_	_	NP	wir	155,23; -peretur | sunnen-	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	125r,02	_	_
+2	ſigē	_	_	VAFIN	_	_	_	_	_	VP	ſigē	155,23; -peretur | sunnen-	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	125r,02	_	_
+3	híut	_	_	ADV	_	_	_	_	_	ADVP	híut	155,23; -peretur | sunnen-	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	125r,03	_	_
+4	begênde	_	_	VVPP	_	_	_	_	_	VP	begênde	155,23; -peretur | sunnen-	_	GERUND	_	_	VVPS	RE	MAINDECL	RK	RK	125r,03	_	_
+5	dē	_	_	ART	_	_	_	_	_	NP	dē	155,23; -peretur | sunnen-	NF	DO	ACC-UNI-UNUSED_	_	DDA	_	MAINDECL	_	NF	125r,03	UNLINK	_
+6	êrſtē	_	_	ADJA	_	_	_	_	_	NP	êrſtē	155,23; -peretur | sunnen-	NF	DO	ACC-UNI-UNUSED_	_	ADJO	_	MAINDECL	_	NF	125r,03	UNLINK	_
+7	ſunnētach	_	_	NN	_	_	_	_	_	NP	ſunnētach	155,24; -tach	NF	DO	ACC-UNI-UNUSED_	_	NA	_	MAINDECL	_	NF	125r,03	UNLINK	_
+8	d'	_	_	ART	_	_	_	_	_	NP	d'	155,24; -tach	NF	ATTR	_	_	DDA	_	MAINDECL	_	NF	125r,03	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	NP	.	155,24; -tach	NF	ATTR	_	_	$_	_	MAINDECL	_	NF	125r,03	UNLINK	_
+10	(heiligen)	_	_	ADJA	_	_	_	_	_	NP	(heiligen)	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	ADJ	_	MAINDECL	_	NF	125r,03	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	NP	.	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	$_	_	MAINDECL	_	NF	125r,03	UNLINK	_
+12	zuͦkuͥmft	_	_	NN	_	_	_	_	_	NP	zuͦkuͥmft	155,24; -tach	NF	ATTR	_ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	125r,03	UNLINK	_
+13	unſers	_	_	PPOSAT	_	_	_	_	_	NP	unſers	155,24; -tach	NF	ATTR	_ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	125r,03	UNLINK	_
+14	h'rē	_	_	NN	_	_	_	_	_	NP	h'rē	155,24; -tach	NF	ATTR	_ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	125r,04	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	_	.	155,24; -tach	_	_	_	_	$_	_	MAINDECL	_	_	125r,04	_	_
+
+# sent_id = 2
+# text = vn̄ zvͦ d' ſon wir unſ be(rai)tē mit ain' lût' bîhte. vn̄ mit and'en guͦtē w'chē.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	155,24; -tach	_	_	_	_	KON	_	MAINDECL	_	KOORD	125r,04	_	_
+2	zvͦ	_	_	APPR	_	_	_	_	_	PP	zvͦ	155,24; -tach	_	PP-OBJ	_	_	APPR	_	MAINDECL	_	VF	125r,04	_	_
+3	d'	_	_	ART	_	_	_	_	_	PP	d'	155,24; -tach	_	PP-OBJ	_	_	DDA	_	MAINDECL	_	VF	125r,04	_	_
+4	ſon	_	_	VMFIN	_	_	_	_	_	VP	ſon	155,24; -tach	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	125r,04	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	155,24; -tach	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	125r,04	_	_
+6	unſ	_	_	PRF	_	_	_	_	_	VP	unſ	155,24; -tach	_	DO	_	_	PRF	_	MAINDECL	_	MF	125r,04	_	_
+7	be(rai)tē	_	_	VVINF	_	_	_	_	_	VP	beraitē	155,25	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	125r,04	_	_
+8	mit	_	_	APPR	_	_	_	_	_	PP	mit	155,25	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	125r,04	UNLINK	_
+9	ain'	_	_	ART	_	_	_	_	_	PP	ain'	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	DIA	_	MAINDECL	_	NF	125r,04	UNLINK	_
+10	lût'	_	_	ADJA	_	_	_	_	_	PP	lût'	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	ADJ	_	MAINDECL	_	NF	125r,04	UNLINK	_
+11	bîhte	_	_	NN	_	_	_	_	_	PP	bîhte	155,25	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	125r,04	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	155,25	_	_	_	_	$_	_	MAINDECL	_	NF	125r,04	UNLINK	_
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	155,25	_	_	_	_	KON	_	MAINDECL	_	NF	125r,05	UNLINK	_
+14	mit	_	_	APPR	_	_	_	_	_	PP	mit	155,25	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	125r,05	UNLINK	_
+15	and'en	_	_	ADV	_	_	_	_	_	PP	and'en	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	ADV	_	MAINDECL	_	NF	125r,05	UNLINK	_
+16	guͦtē	_	_	ADJA	_	_	_	_	_	PP	guͦtē	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	125r,05	UNLINK	_
+17	w'chē	_	_	NN	_	_	_	_	_	PP	w'chē	155,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	125r,05	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	155,25	_	_	_	_	$_	_	MAINDECL	_	_	125r,05	_	_
+
+# sent_id = 3
+# text = do wart d' ewige vat' vō himel ſo ſêre erzuͥrnet. hin |z menſche=lichē kuͥnne.
+1	do	_	_	ADV	_	_	_	_	_	ADVP	do	155,27	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	125r,06	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	155,27	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	125r,06	_	_
+3	d'	_	_	ART	_	_	_	_	_	NP	d'	155,27	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+4	ewige	_	_	ADJA	_	_	_	_	_	NP	ewige	155,27	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+5	vat'	_	_	NN	_	_	_	_	_	NP	vat'	155,27	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+6	vō	_	_	APPR	_	_	_	_	_	PP	vō	155,27	_	ATTR	_	_	APPR	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+7	himel	_	_	NN	_	_	_	_	_	PP	himel	155,27	_	ATTR	_	_	NA	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+8	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	155,27	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+9	ſêre	_	_	ADV	_	_	_	_	_	ADVP	ſêre	155,27	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	125r,07; -menſche-	_	_
+10	erzuͥrnet	_	_	VVPP	_	_	_	_	_	VP	erzuͥrnet	155,28	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	125r,07; -menſche-	_	_
+11	.	_	_	$.	_	_	_	_	_	_	.	155,28	_	_	_	_	$_	_	MAINDECL	_	_	125r,07; -menſche-	_	_
+12	hin	_	_	ADV	_	_	_	_	_	PP	hin	155,28	NF	PP-DIR	_	_	ADV	_	MAINDECL	_	NF	125r,07; -menſche-	UNLINK	KOREF1
+13	|z	_	_	APPR	_	_	_	_	_	PP	z	155,28	NF	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	125r,07; -menſche-	UNLINK	KOREF1
+14	menſche=lichē	_	_	ADJA	_	_	_	_	_	PP	menſchelichē	155,28	NF	PP-DIR	ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	125r,07; -menſche-	UNLINK	KOREF1
+15	kuͥnne	_	_	NN	_	_	_	_	_	PP	kuͥnne	155,28	NF	PP-DIR	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	125r,08; -liche	UNLINK	KOREF1
+16	.	_	_	$.	_	_	_	_	_	_	.	155,28	_	_	_	_	$_	_	MAINDECL	_	_	125r,08; -liche	_	_
+
+# sent_id = 4
+# text = nu haſt |u gezuͥrnet hin |z menſch(=)elichē kuͥnne vmbe ain ungehorſami mê et fiumf tûſent iâr.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	156,06	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	125v,01; menſch-	_	_
+2	haſt	_	_	VAFIN	_	_	_	_	_	VP	haſt	156,06	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	125v,01; menſch-	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	156,06	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	125v,01; menſch-	_	_
+4	gezuͥrnet	_	_	VVPP	_	_	_	_	_	VP	gezuͥrnet	156,06	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	125v,01; menſch-	_	_
+5	hin	_	_	ADV	_	_	_	_	_	PP	hin	156,07	NF_	PP-OBJ	_	_	ADV	_	MAINDECL	_	NF	125v,01; menſch-	UNLINK1	_
+6	|z	_	_	APPR	_	_	_	_	_	PP	z	156,07	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	125v,01; menſch-	UNLINK1	_
+7	menſch(=)elichē	_	_	ADJA	_	_	_	_	_	PP	menſchelichē	156,07	NF_	PP-OBJ	GIV-INACTIVE	_	ADJ	_	MAINDECL	_	NF	125v,01; menſch-	UNLINK1	_
+8	kuͥnne	_	_	NN	_	_	_	_	_	PP	kuͥnne	156,07	NF_	PP-OBJ	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK1	_
+9	vmbe	_	_	APPR	_	_	_	_	_	PP	vmbe	156,07	NF_	PP-ADV	_	aoR*	APPR	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK2	_
+10	ain	_	_	ART	_	_	_	_	_	PP	ain	156,07	NF_	PP-ADV	ACC-ABSTR-USED-X	aoR*	DIA	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK2	_
+11	ungehorſami	_	_	NN	_	_	_	_	_	PP	ungehorſami	156,07	NF_	PP-ADV	ACC-ABSTR-USED-X	aoR*	NA	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK2	_
+12	mê	_	_	KOKOM	_	_	_	_	_	ADVP	mê	156,07	NF_	ADVB	_	_	KOKOM	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK3	_
+13	et	_	_	ADV	_	_	_	_	_	ADVP	et	156,07	NF_	ADVB	_	_	AVD	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK3	_
+14	fiumf	_	_	CARD	_	_	_	_	_	ADVP	fiumf	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	CARD	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK3	_
+15	tûſent	_	_	CARD	_	_	_	_	_	ADVP	tûſent	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	CARD	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK3	_
+16	iâr	_	_	NN	_	_	_	_	_	ADVP	iâr	156,08	NF_	ADVB	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	125v,02; -eliche	UNLINK3	_
+17	.	_	_	$.	_	_	_	_	_	_	.	156,08	_	_	_	_	$_	_	MAINDECL	_	_	125v,02; -eliche	_	_
+
+# sent_id = 5
+# text = *(N*)u ſon wir m'chē vier ſache.
+1	*(N*)u	_	_	ADV	_	_	_	_	_	ADVP	Nu	156,10; mer-	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	125v,05	_	_
+2	ſon	_	_	VMFIN	_	_	_	_	_	VP	ſon	156,10; mer-	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	125v,05	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	156,10; mer-	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	125v,05	_	_
+4	m'chē	_	_	VVINF	_	_	_	_	_	VP	m'chē	156,10; mer-	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	125v,05	_	_
+5	vier	_	_	CARD	_	_	_	_	_	NP	vier	156,11; -chen	NF	DO	ACC-ABSTR-UNUSED	_	CARD	_	MAINDECL	_	NF	125v,05	UNLINK	KOREF1
+6	ſache	_	_	NN	_	_	_	_	_	NP	ſache	156,11; -chen	NF	DO	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	125v,05	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	156,11; -chen	_	_	_	_	$_	_	MAINDECL	_	_	125v,05	_	_
+
+# sent_id = 6
+# text = Zem êrſtē mâl ſo ſol er v̂z w'dē geſendet dar ūbe dc d' goͤteliche zorn w'de gehuͥllet vn̄ geſtillet
+1	Zem	_	_	APPRART	_	_	_	_	_	PP	Zem	156,12	_	VOVF	_	_	APPRART	_	MAINDECL	_	LV	125v,06	_	_
+2	êrſtē	_	_	ADJA	_	_	_	_	_	PP	êrſtē	156,12	_	VOVF	_	_	ADJO	_	MAINDECL	_	LV	125v,06	_	KOREF2
+3	mâl	_	_	NN	_	_	_	_	_	PP	mâl	156,12	_	VOVF	_	_	NA	_	MAINDECL	_	LV	125v,06	_	KOREF2
+4	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	156,12	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	125v,06	_	_
+5	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol	156,12	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	125v,06	_	_
+6	er	_	_	PPER	_	_	_	_	_	NP	er	156,12	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	125v,06	_	_
+7	v̂z	_	_	PTKVZ	_	_	_	_	_	VP	v̂z	156,12	_	VZ_PTK	_	_	PTKVZ	_	MAINDECL	RK	RK	125v,06	_	_
+8	w'dē	_	_	VAINF	_	_	_	_	_	VP	w'dē	156,12	_	INF	_	_	VAINF	_	MAINDECL	RK	RK	125v,07	_	_
+9	geſendet	_	_	VVPP	_	_	_	_	_	VP	geſendet	156,12	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	125v,07	_	_
+10	dar	_	_	ADV	_	_	_	_	_	ADVP	dar	156,12	NF	PP-ADV	NA	_	ADV	_	MAINDECL	_	NF	125v,07	UNLINK	KOREF1
+11	ūbe	_	_	APPR	_	_	_	_	_	ADVP	ūbe	156,12	NF	PP-ADV	NA	_	APPR	_	MAINDECL	_	NF	125v,07	UNLINK	KOREF1
+12	dc	_	_	KOUS	_	_	_	_	_	CP	dc	156,12	NF	ADVB	NA	_	KOUS	_	MAINDECL	LK	NF-LK	125v,07	UNLINK	KOREF2-SATZ
+13	d'	_	_	ART	_	_	_	_	_	CP	d'	156,12	NF	ADVB	NA	_	DDA	_	MAINDECL	_	NF-MF	125v,07	UNLINK	KOREF2-SATZ
+14	goͤteliche	_	_	ADJA	_	_	_	_	_	CP	goͤteliche	156,13	NF	ADVB	NA	_	ADJ	_	MAINDECL	_	NF-MF	125v,07	UNLINK	KOREF2-SATZ
+15	zorn	_	_	NN	_	_	_	_	_	CP	zorn	156,13	NF	ADVB	NA	_	NA	_	MAINDECL	_	NF-MF	125v,07	UNLINK	KOREF2-SATZ
+16	w'de	_	_	VAFIN	_	_	_	_	_	CP	w'de	156,13	NF	ADVB	NA	_	VAFIN	_	MAINDECL	RK	NF-RK	125v,07	UNLINK	KOREF2-SATZ
+17	gehuͥllet	_	_	VVPP	_	_	_	_	_	CP	gehuͥllet	156,13	NF	ADVB	NA	_	VVPP	_	MAINDECL	RK	NF-RK	125v,07	UNLINK	KOREF2-SATZ
+18	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	156,13	NF	ADVB	NA	_	KON	_	MAINDECL	RK	NF-RK	125v,07	UNLINK	KOREF2-SATZ
+19	geſtillet	_	_	VVPP	_	_	_	_	_	CP	geſtillet	156,13	NF	ADVB	NA	_	VVPP	_	MAINDECL	RK	NF-RK	125v,08	UNLINK	KOREF2-SATZ
+
+# sent_id = 7
+# text = vn̄ dc ſolt |' giezē ūbe dē altêr alle ūbe vn̄ ūbe.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	156,27	_	_	_	_	KON	_	MAINDECL	_	KOORD	125v,22	_	_
+2	dc	_	_	PDS	_	_	_	_	_	NP	dc	156,27	_	DO	_	_	DDS	_	MAINDECL	_	VF	125v,22	_	_
+3	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	156,27	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	125v,22	_	_
+4	|'	_	_	PPER	_	_	_	_	_	NP	'	156,27	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	125v,22	_	_
+5	giezē	_	_	VVINF	_	_	_	_	_	VP	giezē	156,27	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	125v,22	_	_
+6	ūbe	_	_	APPR	_	_	_	_	_	PP	ūbe	156,27	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	125v,22	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē	156,27	NF_	PP-OBJ	GIV-ACTIVE	_	DDA	_	MAINDECL	_	NF	125v,22	UNLINK	_
+8	altêr	_	_	NN	_	_	_	_	_	PP	altêr	156,28	NF_	PP-OBJ	GIV-ACTIVE	_	NA	_	MAINDECL	_	NF	125v,22	UNLINK	_
+9	alle	_	_	ADV	_	_	_	_	_	ADVP	alle	156,28	NF_	ADVB	NA	_	ADV	_	MAINDECL	_	NF	125v,23	UNLINK	_
+10	ūbe	_	_	ADV	_	_	_	_	_	ADVP	ūbe	156,28	NF_	ADVB	NA	_	ADV	_	MAINDECL	_	NF	125v,23	UNLINK	_
+11	vn̄	_	_	ADV	_	_	_	_	_	ADVP	vn̄	156,28	NF_	ADVB	NA	_	ADV	_	MAINDECL	_	NF	125v,23	UNLINK	_
+12	ūbe	_	_	ADV	_	_	_	_	_	ADVP	ūbe	156,28	NF_	ADVB	NA	_	ADV	_	MAINDECL	_	NF	125v,23	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	.	156,28	_	_	_	_	$_	_	MAINDECL	_	_	125v,23	_	_
+
+# sent_id = 8
+# text = vn̄ ſolte díu leggē v̂f holze.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	156,29	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	125v,24	_	_
+2	ſolte	_	_	VMFIN	_	_	_	_	_	VP	ſolte	156,29	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	125v,24	_	_
+3	díu	_	_	PDS	_	_	_	_	_	NP	díu	156,29	_	DO	_	_	DDS	_	MAINDECL-ELLI	_	MF	125v,24	_	_
+4	leggē	_	_	VVINF	_	_	_	_	_	VP	leggē	156,29	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	125v,24	_	_
+5	v̂f	_	_	APPR	_	_	_	_	_	PP	v̂f	156,29	NF	PP-DIR	_	_	APPR	_	MAINDECL-ELLI	_	NF	125v,24	UNLINK	_
+6	holze	_	_	NN	_	_	_	_	_	PP	holze	156,29	NF	PP-DIR	NEW	_	NA	_	MAINDECL-ELLI	_	NF	125v,24	UNLINK	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	156,29	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	125v,24	_	_
+
+# sent_id = 9
+# text = dc ſolt |u [t]aͤgelichē giezē v̂f dē altêr dinez h'zē.
+1	dc	_	_	PDS	_	_	_	_	_	NP	dc	157,03	_	DO	_	_	DDS	_	MAINDECL	_	VF	126r,11	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	157,03	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	126r,11	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	157,03	_	SUBJ	_	_	PPER	LI	MAINDECL	_	MF	126r,11	_	_
+4	[t]aͤgelichē	_	_	ADV	_	_	_	_	_	ADVP	taͤgelichē	157,03	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	126r,12	_	_
+5	giezē	_	_	VVINF	_	_	_	_	_	VP	giezē	157,04	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	126r,12	_	_
+6	v̂f	_	_	APPR	_	_	_	_	_	PP	v̂f	157,04	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	126r,12	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē	157,04	NF	PP-OBJ	GIV-INACTIVE_	_	DDA	_	MAINDECL	_	NF	126r,12	UNLINK	_
+8	altêr	_	_	NN	_	_	_	_	_	PP	altêr	157,04	NF	PP-OBJ	GIV-INACTIVE_	_	NA	_	MAINDECL	_	NF	126r,12	UNLINK	_
+9	dinez	_	_	PPOSAT	_	_	_	_	_	PP	dinez	157,04	NF	ATTR	_ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	126r,12	UNLINK	KOREF1
+10	h'zē	_	_	NN	_	_	_	_	_	PP	h'zē	157,04	NF	ATTR	_NEW	_	NA	_	MAINDECL	_	NF	126r,12	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	157,04	_	_	_	_	$_	_	MAINDECL	_	_	126r,12	_	_
+
+# sent_id = 10
+# text = allíu míníu lid' ī minē libe. díu ſint mier reht zerzogē vn̄ zerdēnet v̂z aín and'.
+1	allíu	_	_	ADJA	_	_	_	_	_	NP	allíu	157,17	_	VOVF	_	_	ADJ	_	MAINDECL	_	LV	126v,04	_	_
+2	míníu	_	_	PPOSAT	_	_	_	_	_	NP	míníu	157,17	_	VOVF	_	_	DPOS	_	MAINDECL	_	LV	126v,04	_	_
+3	lid'	_	_	NN	_	_	_	_	_	NP	lid'	157,17	_	VOVF	_	_	NA	_	MAINDECL	_	LV	126v,04	_	_
+4	ī	_	_	APPR	_	_	_	_	_	PP	ī	157,17	_	VOVF	_	_	APPR	_	MAINDECL	_	LV	126v,04	_	_
+5	minē	_	_	PPOSAT	_	_	_	_	_	PP	minē	157,17	_	VOVF	_	_	DPOS	_	MAINDECL	_	LV	126v,04	_	_
+6	libe	_	_	NN	_	_	_	_	_	PP	libe	157,17	_	VOVF	_	_	NA	_	MAINDECL	_	LV	126v,04	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	157,17	_	_	_	_	$_	_	MAINDECL	_	_	126v,04	_	_
+8	díu	_	_	PDS	_	_	_	_	_	NP	díu	157,17	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	126v,04	_	_
+9	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	157,17	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	126v,04	_	_
+10	mier	_	_	PPER	_	_	_	_	_	NP	mier	157,17	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	126v,04	_	_
+11	reht	_	_	ADJD	_	_	_	_	_	ADVP	reht	157,17	_	ADVB	_	_	ADJD	_	MAINDECL	_	MF	126v,04	_	_
+12	zerzogē	_	_	VVINF	_	_	_	_	_	VP	zerzogē	157,17	BGR	INF	_	_	VVINF	RE	MAINDECL	RK	RK	126v,05	_	_
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	157.18	BGR	_	_	_	KON	RE	MAINDECL	RK	RK	126v,05	_	_
+14	zerdēnet	_	_	VVINF	_	_	_	_	_	VP	zerdēnet	157.18	BGR	INF	_	_	VVINF	RE	MAINDECL	RK	RK	126v,05	_	_
+15	v̂z	_	_	PTKVZ	_	_	_	_	_	_	v̂z	157.18	BGR	ADVB	NA	_	PTKVZ	_	MAINDECL	RK	RK	126v,05	UNLINK	_
+16	aín	_	_	PTKVZ	_	_	_	_	_	_	aín	157.18	BGR	ADVB	NA	_	PTKVZ	_	MAINDECL	RK	RK	126v,05	UNLINK	_
+17	and'	_	_	PTKVZ	_	_	_	_	_	_	and'	157.18	BGR	ADVB	NA	_	PTKVZ	_	MAINDECL	RK	RK	126v,05	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	157.18	_	_	_	_	$_	_	MAINDECL	_	_	126v,05	_	_
+
+# sent_id = 11
+# text = vn̄ hiez in eſſen ſinez geiegedez.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	159,07	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	128r,03	_	_
+2	hiez	_	_	VVFIN	_	_	_	_	_	VP	hiez	159,08	_	VFIN	_	_	VVFIN	LI	MAINDECL-ELLI	LK	LK	128r,03	_	_
+3	in	_	_	PPER	_	_	_	_	_	NP	in	159,08	_	DO	_	_	PPER	_	MAINDECL-ELLI	_	MF	128r,03	_	_
+4	eſſen	_	_	VVINF	_	_	_	_	_	VP	eſſen	159,08	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	128r,03	_	_
+5	ſinez	_	_	PPOSAT	_	_	_	_	_	NP	ſinez	159,08	NF	IO-GEN	ACC-INF_	_	DPOS	_	MAINDECL-ELLI	_	NF	128r,03	UNLINK	_
+6	geiegedez	_	_	NN	_	_	_	_	_	NP	geiegedez	159,08	NF	IO-GEN	_NEW	_	NA	_	MAINDECL-ELLI	_	NF	128r,03	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	159,08	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	128r,03	_	_

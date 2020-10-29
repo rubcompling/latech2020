@@ -1,0 +1,54 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ſo iſt er komē ze d' helle als ain kemphe vn̄ als ain urlíuger d(ē) níemē moht uͥb'wíndē.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	160,32	_	ADVB	_	ADV	_	MAINDECL	_	VF	129r,17	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	160,32	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	129r,17	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er	160,32	_	SUBJ	_	PPER	_	MAINDECL	_	MF	129r,18	_	_
+4	komē	_	_	VVPP	_	_	_	_	_	VP	komē	160,32	_	INF	_	VVPP	RE	MAINDECL	RK	RK	129r,18	_	_
+5	ze	_	_	APPR	_	_	_	_	_	PP	ze	160,32	BGR_	PP-DIR	_	APPR	_	MAINDECL	_	NF	129r,18	UNLINK1	_
+6	d'	_	_	ART	_	_	_	_	_	PP	d'	160,32	BGR_	PP-DIR	_	DDA	_	MAINDECL	_	NF	129r,18	UNLINK1	_
+7	helle	_	_	NN	_	_	_	_	_	PP	helle	160,32	BGR_	PP-DIR	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	129r,18	UNLINK1	_
+8	als	_	_	KOKOM	_	_	_	_	_	PP	als	160,32	NF_	VGL	_	KOKOM	_	MAINDECL	_	NF	129r,18	UNLINK2	_
+9	ain	_	_	ART	_	_	_	_	_	PP	ain	160,32	NF_	VGL	_	DIA	_	MAINDECL	_	NF	129r,18	UNLINK2	_
+10	kemphe	_	_	NN	_	_	_	_	_	PP	kemphe	160,32	NF_	VGL	NEW_	NA	_	MAINDECL	_	NF	129r,18	UNLINK2	_
+11	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	160,32	_	_	_	KON	_	MAINDECL	_	NF	129r,18	UNLINK2	_
+12	als	_	_	KOKOM	_	_	_	_	_	PP	als	160,32	NF_	VGL	_	KOKOM	_	MAINDECL	_	NF	129r,18	UNLINK2	_
+13	ain	_	_	ART	_	_	_	_	_	PP	ain	160,33	NF_	VGL	_	DIA	_	MAINDECL	_	NF	129r,18	UNLINK2	KOREF1-REL
+14	urlíuger	_	_	NN	_	_	_	_	_	PP	urlíuger	160,33	NF_	VGL	_NEW	NA	_	MAINDECL	_	NF	129r,18	UNLINK2	KOREF1-REL
+15	d(ē)	_	_	PRELS	_	_	_	_	_	CP	d(ē)	160,33	_	ATTR	_	DDREL	_	MAINDECL	LK	NF-LK	129r,19	UNLINK2	KOREF2-REL
+16	níemē	_	_	PIS	_	_	_	_	_	CP	níemē	160,33	_	ATTR	_	PINEG	_	MAINDECL	_	NF-MF	129r,19	UNLINK2	KOREF2-REL
+17	moht	_	_	VMFIN	_	_	_	_	_	CP	moht	160,33	_	ATTR	_	VMFIN	_	MAINDECL	RK	NF-RK	129r,19	UNLINK2	KOREF2-REL
+18	uͥb'wíndē	_	_	VVINF	_	_	_	_	_	CP	uͥb'wíndē	160,33	_	ATTR	_	VVINF	_	MAINDECL	RK	NF-RK	129r,19	UNLINK2	KOREF2-REL
+19	.	_	_	$.	_	_	_	_	_	_	.	160,33	_	_	_	$_	_	MAINDECL	_	_	129r,19	_	_
+
+# sent_id = 2
+# text = *(a*)n d' vierdō zuͦkumft ſo wil er komē an dc iūgeſt gerihte. als ain ſtrē(=)ger rihter dē níemā wed' mit bet noch mit kain' gâbe genaigē mach.
+1	*(a*)n	_	_	APPR	_	_	_	_	_	PP	an	161,9	_	VOVF	_	APPR	_	MAINDECL	_	LV	129v,05	_	_
+2	d'	_	_	ART	_	_	_	_	_	PP	d'	161,10	_	VOVF	_	DDA	_	MAINDECL	_	LV	129v,05	_	_
+3	vierdō	_	_	ADJA	_	_	_	_	_	PP	vierdō	161,10	_	VOVF	_	ADJO	_	MAINDECL	_	LV	129v,05	_	_
+4	zuͦkumft	_	_	NN	_	_	_	_	_	PP	zuͦkumft	161,10	_	VOVF	_	NA	_	MAINDECL	_	LV	129v,06	_	_
+5	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	161,10	_	ADVB	_	ADV	_	MAINDECL	_	VF	129v,06	_	_
+6	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	161,10	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	129v,06	_	_
+7	er	_	_	PPER	_	_	_	_	_	NP	er	161,10	_	SUBJ	_	PPER	_	MAINDECL	_	MF	129v,06	_	_
+8	komē	_	_	VVINF	_	_	_	_	_	VP	komē	161,10	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	129v,06	_	_
+9	an	_	_	APPR	_	_	_	_	_	PP	an	161,10	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	129v,06	UNLINK1	_
+10	dc	_	_	ART	_	_	_	_	_	PP	dc	161,10	NF	PP-OBJ	_	DDA	_	MAINDECL	_	NF	129v,06	UNLINK1	_
+11	iūgeſt	_	_	ADJA	_	_	_	_	_	PP	iūgeſt	161,10	NF	PP-OBJ	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL	_	NF	129v,06	UNLINK1	_
+12	gerihte	_	_	NN	_	_	_	_	_	PP	gerihte	161,10	NF	PP-OBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	129v,06	UNLINK1	_
+13	.	_	_	$.	_	_	_	_	_	_	.	161,10	_	PP-OBJ	_	$_	_	MAINDECL	_	NF	129v,06	_	_
+14	als	_	_	KOKOM	_	_	_	_	_	PP	als	161,10	_	PRD	_	KOKOM	_	MAINDECL	_	NF	129v,06	UNLINK2	_
+15	ain	_	_	ART	_	_	_	_	_	PP	ain	161,11	_	PRD	NEW	DIA	_	MAINDECL	_	NF	129v,06	UNLINK2	_
+16	ſtrē(=)ger	_	_	ADJA	_	_	_	_	_	PP	ſtrēger	161,11	_	PRD	NEW	ADJ	_	MAINDECL	_	NF	129v,06	UNLINK2	_
+17	rihter	_	_	NN	_	_	_	_	_	_	rihter	161,11	_	_	NEW	NA	_	MAINDECL	_	NF	129v,07	UNLINK2	_
+18	dē	_	_	PRELS	_	_	_	_	_	CP	dē	161,11	_	ATTR	_	DDREL	_	MAINDECL	LK	NF-LK	129v,07	UNLINK2	_
+19	níemā	_	_	PIS	_	_	_	_	_	CP	níemā	161,11	_	ATTR	_	PINEG	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+20	wed'	_	_	KON	_	_	_	_	_	CP	wed'	161,11	_	ATTR	_	KON	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+21	mit	_	_	APPR	_	_	_	_	_	CP	mit	161,11	_	ATTR	_	APPR	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+22	bet	_	_	NN	_	_	_	_	_	CP	bet	161,11	_	ATTR	_	NA	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+23	noch	_	_	KON	_	_	_	_	_	CP	noch	161,11	_	ATTR	_	KON	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+24	mit	_	_	APPR	_	_	_	_	_	CP	mit	161,11	_	ATTR	_	APPR	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+25	kain'	_	_	PIAT	_	_	_	_	_	CP	kain'	161,11	_	ATTR	_	DINEG	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+26	gâbe	_	_	NN	_	_	_	_	_	CP	gâbe	161,11	_	ATTR	_	NA	_	MAINDECL	_	NF-MF	129v,07	UNLINK2	_
+27	genaigē	_	_	VVINF	_	_	_	_	_	CP	genaigē	161,12	_	ATTR	_	VVINF	_	MAINDECL	RK	NF-RK	129v,08	UNLINK2	_
+28	mach	_	_	VMFIN	_	_	_	_	_	CP	mach	161,12	_	ATTR	_	VMFIN	_	MAINDECL	RK	NF-RK	129v,08	UNLINK2	_
+29	.	_	_	$.	_	_	_	_	_	_	.	161,12	_	_	_	$_	_	MAINDECL	_	_	129v,08	_	_

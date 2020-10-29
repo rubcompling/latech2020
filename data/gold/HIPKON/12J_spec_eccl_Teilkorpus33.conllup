@@ -1,0 +1,34 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS Rekonstruktion SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Ir ſchult bittin umbe die heiligin (chriſt)inheit.
+1	Ir	_	_	PPER	_	_	_	_	_	NP	Ir	83,07; heili-	_	SUBJ	_	PPER	_	_	MAINDECL	_	VF	77v,02; hei-	_	_
+2	ſchult	_	_	VMFIN	_	_	_	_	_	VP	ſchult	83,07; heili-	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	77v,02; hei-	_	_
+3	bittin	_	_	VVINF	_	_	_	_	_	VP	bittin	83,07; heili-	_	INF	_	VVINF	_	RE	MAINDECL	RK	RK	77v,02; hei-	_	_
+4	umbe	_	_	APPR	_	_	_	_	_	PP	umbe	83,07; heili-	NF	PP-OBJ	_	APPR	_	_	MAINDECL	_	NF	77v,02; hei-	UNLINK	KOREF1
+5	die	_	_	ART	_	_	_	_	_	PP	die	83,07; heili-	NF	PP-OBJ	ACC-ABSTR-UNUSED	DDA	_	_	MAINDECL	_	NF	77v,02; hei-	UNLINK	KOREF1
+6	heiligin	_	_	ADJA	_	_	_	_	_	PP	heiligin	83,07; heili-	NF	PP-OBJ	ACC-ABSTR-UNUSED	ADJ	_	_	MAINDECL	_	NF	77v,02; hei-	UNLINK	KOREF1
+7	(chriſt)inheit	_	_	NN	_	_	_	_	_	PP	(chriſt)inheit	83,08; -gin	NF	PP-OBJ	ACC-ABSTR-UNUSED	NA	(chriſt)	_	MAINDECL	_	NF	77v,03; -ligin	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	83,08; -gin	_	_	_	$_	_	_	MAINDECL	_	_	77v,03; -ligin	_	_
+
+# sent_id = 2
+# text = Ir ſchult bitten umbe alle (chriſt)ene ſele.
+1	Ir	_	_	PPER	_	_	_	_	_	NP	Ir	83,08; -gin	_	SUBJ	_	PPER	_	_	MAINDECL	_	VF	77v,04	_	_
+2	ſchult	_	_	VMFIN	_	_	_	_	_	VP	ſchult	83,09	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	77v,04	_	_
+3	bitten	_	_	VVINF	_	_	_	_	_	VP	bitten	83,09	_	INF	_	VVINF	_	RE	MAINDECL	RK	RK	77v,04	_	_
+4	umbe	_	_	APPR	_	_	_	_	_	PP	umbe	83,09	NF	PP-OBJ	_	APPR	_	_	MAINDECL	_	NF	77v,04	UNLINK	KOREF1
+5	alle	_	_	PIAT	_	_	_	_	_	PP	alle	83,09	NF	PP-OBJ	ACC-ABSTR-USED-1	DI	_	_	MAINDECL	_	NF	77v,04	UNLINK	KOREF1
+6	(chriſt)ene	_	_	NN	_	_	_	_	_	PP	(chriſt)ene	83,09	NF	PP-OBJ	ACC-ABSTR-USED-1	NA	_	_	MAINDECL	_	NF	77v,05; unge-	UNLINK	KOREF1
+7	ſele	_	_	NN	_	_	_	_	_	PP	ſele	83,09	NF	PP-OBJ	ACC-ABSTR-USED-1	NA	_	_	MAINDECL	_	NF	77v,05; unge-	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	83,09	_	_	_	$_	_	_	MAINDECL	_	_	77v,05; unge-	_	_
+
+# sent_id = 3
+# text = Ir ſchult oͮch bitten umbe alle iwere viande.
+1	Ir	_	_	PPER	_	_	_	_	_	NP	Ir	83,10	_	SUBJ	_	PPER	_	_	MAINDECL	_	VF	77v,06; -nadin	_	_
+2	ſchult	_	_	VMFIN	_	_	_	_	_	VP	ſchult	83,10	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	77v,06; -nadin	_	_
+3	oͮch	_	_	KON	_	_	_	_	_	_	oͮch	83,10	_	_	_	KON	_	_	MAINDECL	_	MF	77v,06; -nadin	_	_
+4	bitten	_	_	VVINF	_	_	_	_	_	VP	bitten	83,10	_	INF	_	VVINF	_	RE	MAINDECL	RK	RK	77v,06; -nadin	_	_
+5	umbe	_	_	APPR	_	_	_	_	_	PP	umbe	83,10	NF	PP-OBJ	_	APPR	_	_	MAINDECL	_	NF	77v,06; -nadin	UNLINK	KOREF1
+6	alle	_	_	PIAT	_	_	_	_	_	PP	alle	83,10	NF	PP-OBJ	ACC-SIT_	DI	_	_	MAINDECL	_	NF	77v,06; -nadin	UNLINK	KOREF1
+7	iwere	_	_	PPOSAT	_	_	_	_	_	PP	iwere	83,10	NF	PP-OBJ	ACC-SIT_	DPOS	_	_	MAINDECL	_	NF	77v,07; beche-	UNLINK	KOREF1
+8	viande	_	_	NN	_	_	_	_	_	PP	viande	83,10	NF	PP-OBJ	_NEW	NA	_	_	MAINDECL	_	NF	77v,07; beche-	UNLINK	KOREF1
+9	.	_	_	$.	_	_	_	_	_	_	.	83,10	_	_	_	$_	_	_	MAINDECL	_	_	77v,07; beche-	_	_

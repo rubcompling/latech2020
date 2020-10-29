@@ -1,0 +1,413 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 7
+# text = Feindliche Verhältnisse unter Staaten , ent-<lb/>stehen durch Rechtsverletzungen , wirkliche oder drohende a ) .
+1	Feindliche	feindlich	_	ADJA	_	_	_	_	_	_	VF
+2	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	_	VF
+3	unter	unter	_	APPR	_	_	_	_	_	_	VF
+4	Staaten	Staat	_	NN	_	_	_	_	_	_	VF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	ent-<lb/>stehen	entstehen	_	VVFIN	_	_	_	_	_	LK	LK
+7	durch	durch	_	APPR	_	_	_	_	_	_	MF
+8	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	wirkliche	wirklich	_	ADJA	_	_	_	_	_	_	NF
+11	oder	oder	_	KON	_	_	_	_	_	_	NF
+12	drohende	drohend	_	ADJA	_	_	_	_	_	_	NF
+13	a	A	_	XY	_	_	_	_	_	_	FRAG
+14	)	)	_	$(	_	_	_	_	_	_	FRAG
+15	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 8
+# text = Die Rechte der Staaten werden verletzt auf dieselbe Art , wie die Rechte ein-<lb/>zelner Menschen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Rechte	Rechte	_	NN	_	_	_	_	_	_	VF
+3	der	d	_	ART	_	_	_	_	_	_	VF
+4	Staaten	Staat	_	NN	_	_	_	_	_	_	VF
+5	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+6	verletzt	verletzen	_	VVPP	_	_	_	_	_	RK	RK
+7	auf	auf	_	APPR	_	_	_	_	_	_	NF
+8	dieselbe	dieselbe	_	PDAT	_	_	_	_	_	_	NF
+9	Art	Art	_	NN	_	_	_	_	_	_	NF
+10	,	,	_	$,	_	_	_	_	_	_	NF
+11	wie	wie	_	PWAV	_	_	_	_	_	_	NF
+12	die	d	_	ART	_	_	_	_	_	_	NF
+13	Rechte	Rechte	_	NN	_	_	_	_	_	_	NF
+14	ein-<lb/>zelner	einzeln	_	ADJA	_	_	_	_	_	_	NF
+15	Menschen	Mensch	_	NN	_	_	_	_	_	_	NF
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 9
+# text = Verletzt werden sie entweder unmittelbar , oder mittelbar ; jenes , wenn die Beleidigung der Gesammtheit des Staates , die-<lb/>ses , wenn sie einzelnen Mitgliedern desselben zugefügt wird , von der Gesammtheit des andern Staates , oder von einzelnen Mitgliedern dessel-<lb/>ben , so fern hieran der gegenseitige Staat auf irgend eine Art Theil nimmt b ) .
+1	Verletzt	verletzen	_	VVPP	_	_	_	_	_	RK	VF-RK
+2	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+3	sie	sie	_	PPER	_	_	_	_	_	_	MF
+4	entweder	entweder	_	ADV	_	_	_	_	_	_	MF
+5	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	MF
+7	oder	oder	_	KON	_	_	_	_	_	_	MF
+8	mittelbar	mittelbar	_	ADJD	_	_	_	_	_	_	MF
+9	;	\;	_	$.	_	_	_	_	_	_	_
+10	jenes	jene	_	PDS	_	_	_	_	_	_	NF
+11	,	,	_	$,	_	_	_	_	_	_	NF
+12	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+13	die	d	_	ART	_	_	_	_	_	_	NF-MF
+14	Beleidigung	Beleidigung	_	NN	_	_	_	_	_	_	NF-MF
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	_	NF-MF
+17	des	d	_	ART	_	_	_	_	_	_	NF-MF
+18	Staates	Staat	_	NN	_	_	_	_	_	_	NF-MF
+19	,	,	_	$,	_	_	_	_	_	_	NF
+20	die-<lb/>ses	diese	_	PDS	_	_	_	_	_	_	NF
+21	,	,	_	$,	_	_	_	_	_	_	NF
+22	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+23	sie	sie	_	PPER	_	_	_	_	_	_	NF-MF
+24	einzelnen	einzeln	_	ADJA	_	_	_	_	_	_	NF-MF
+25	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	_	NF-MF
+26	desselben	dieselbe	_	PDS	_	_	_	_	_	_	NF-MF
+27	zugefügt	zufügen	_	VVPP	_	_	_	_	_	RK	NF-RK
+28	wird	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+29	,	,	_	$,	_	_	_	_	_	_	NF
+30	von	von	_	APPR	_	_	_	_	_	_	NF-NF
+31	der	d	_	ART	_	_	_	_	_	_	NF-NF
+32	Gesammtheit	Gesamtheit	_	NN	_	_	_	_	_	_	NF-NF
+33	des	d	_	ART	_	_	_	_	_	_	NF-NF
+34	andern	ander	_	ADJA	_	_	_	_	_	_	NF-NF
+35	Staates	Staat	_	NN	_	_	_	_	_	_	NF-NF
+36	,	,	_	$,	_	_	_	_	_	_	NF-NF
+37	oder	oder	_	KON	_	_	_	_	_	_	NF-NF
+38	von	von	_	APPR	_	_	_	_	_	_	NF-NF
+39	einzelnen	einzeln	_	ADJA	_	_	_	_	_	_	NF-NF
+40	Mitgliedern	Mitglied	_	NN	_	_	_	_	_	_	NF-NF
+41	dessel-<lb/>ben	dieselbe	_	PDS	_	_	_	_	_	_	NF-NF
+42	,	,	_	$,	_	_	_	_	_	_	NF-NF
+43	so	so	_	ADV	_	_	_	_	_	LK	NF-NF-LK
+44	fern	fern	_	ADJD	_	_	_	_	_	LK	NF-NF-LK
+45	hieran	hieran	_	PAV	_	_	_	_	_	_	NF-NF-MF
+46	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+47	gegenseitige	gegenseitig	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+48	Staat	Staat	_	NN	_	_	_	_	_	_	NF-NF-MF
+49	auf	auf	_	APPR	_	_	_	_	_	_	NF-NF-MF
+50	irgend	irgend	_	ADV	_	_	_	_	_	_	NF-NF-MF
+51	eine	eine	_	ART	_	_	_	_	_	_	NF-NF-MF
+52	Art	Art	_	NN	_	_	_	_	_	_	NF-NF-MF
+53	Theil	Teil	_	PTKVZ	_	_	_	_	_	RK	NF-NF-RK
+54	nimmt	nehmen	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+55	b	b	_	XY	_	_	_	_	_	_	FRAG
+56	)	)	_	$(	_	_	_	_	_	_	FRAG
+57	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 10
+# text = In Absicht auf feindliche Verhältnisse , ist die Aufgabe : zu be-<lb/>stimmen das Recht der Staaten , zu dem Krieg , in dem Krieg , nach dem Krieg c ) .
+1	In	in	_	APPR	_	_	_	_	_	_	VF
+2	Absicht	Absicht	_	NN	_	_	_	_	_	_	VF
+3	auf	auf	_	APPR	_	_	_	_	_	_	VF
+4	feindliche	feindlich	_	ADJA	_	_	_	_	_	_	VF
+5	Verhältnisse	Verhältnis	_	NN	_	_	_	_	_	_	VF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+8	die	d	_	ART	_	_	_	_	_	_	MF
+9	Aufgabe	Aufgabe	_	NN	_	_	_	_	_	_	MF
+10	:	:	_	$.	_	_	_	_	_	_	_
+11	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+12	be-<lb/>stimmen	bestimmen	_	VVINF	_	_	_	_	_	RK	NF-RK
+13	das	d	_	ART	_	_	_	_	_	_	NF-NF
+14	Recht	Recht	_	NN	_	_	_	_	_	_	NF-NF
+15	der	d	_	ART	_	_	_	_	_	_	NF-NF
+16	Staaten	Staat	_	NN	_	_	_	_	_	_	NF-NF
+17	,	,	_	$,	_	_	_	_	_	_	NF-NF
+18	zu	zu	_	APPR	_	_	_	_	_	_	NF-NF
+19	dem	d	_	ART	_	_	_	_	_	_	NF-NF
+20	Krieg	Krieg	_	NN	_	_	_	_	_	_	NF-NF
+21	,	,	_	$,	_	_	_	_	_	_	NF-NF
+22	in	in	_	APPR	_	_	_	_	_	_	NF-NF
+23	dem	d	_	ART	_	_	_	_	_	_	NF-NF
+24	Krieg	Krieg	_	NN	_	_	_	_	_	_	NF-NF
+25	,	,	_	$,	_	_	_	_	_	_	NF-NF
+26	nach	nach	_	APPR	_	_	_	_	_	_	NF-NF
+27	dem	d	_	ART	_	_	_	_	_	_	NF-NF
+28	Krieg	Krieg	_	NN	_	_	_	_	_	_	NF-NF
+29	c	c	_	XY	_	_	_	_	_	_	FRAG
+30	)	)	_	$(	_	_	_	_	_	_	FRAG
+31	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 11
+# text = Von Ansprüchen ( Prätensionen ) s. v. Ompteda’s Lit. II. 605. Neyron principes du droit des gens , §. 298. sqq. , und oben §. 25 , Note b .
+1	Von	von	_	APPR	_	_	_	_	_	_	VF
+2	Ansprüchen	Anspruch	_	NN	_	_	_	_	_	_	VF
+3	(	(	_	$(	_	_	_	_	_	_	VF
+4	Prätensionen	Prätention	_	NN	_	_	_	_	_	_	VF
+5	)	)	_	$(	_	_	_	_	_	_	VF
+6	s.	s.	_	VVIMP	_	_	_	_	_	LK	LK
+7	v.	v.	_	APPR	_	_	_	_	_	_	MF
+8	Ompteda’s	Ompteda	_	NE	_	_	_	_	_	_	MF
+9	Lit.	Lit.	_	NN	_	_	_	_	_	_	MF
+10	II.	Ii.	_	ADJA	_	_	_	_	_	_	MF
+11	605.	605.	_	ADJA	_	_	_	_	_	_	MF
+12	Neyron	Neyron	_	FM	_	_	_	_	_	_	MF
+13	principes	Principes	_	FM	_	_	_	_	_	_	MF
+14	du	Du	_	FM	_	_	_	_	_	_	MF
+15	droit	Droit	_	FM	_	_	_	_	_	_	MF
+16	des	d	_	FM	_	_	_	_	_	_	MF
+17	gens	Gens	_	NE	_	_	_	_	_	_	MF
+18	,	,	_	$,	_	_	_	_	_	_	MF
+19	§.	§.	_	XY	_	_	_	_	_	_	MF
+20	298.	298.	_	ADJA	_	_	_	_	_	_	MF
+21	sqq.	Sqq.	_	ADV	_	_	_	_	_	_	MF
+22	,	,	_	$,	_	_	_	_	_	_	MF
+23	und	und	_	KON	_	_	_	_	_	_	MF
+24	oben	oben	_	ADV	_	_	_	_	_	_	MF
+25	§.	§.	_	$(	_	_	_	_	_	_	MF
+26	25	25	_	CARD	_	_	_	_	_	_	MF
+27	,	,	_	$,	_	_	_	_	_	_	MF
+28	Note	Note	_	NN	_	_	_	_	_	_	MF
+29	b	b	_	XY	_	_	_	_	_	_	MF
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 12
+# text = Z. B. durch Ermächtigung oder Anreizung zu der Rechts-<lb/>verletzung , durch widerrechtliche Verzögerung oder Verwei-<lb/>gerung der geforderten Genugthuung , insbesondere wenn seine Mitglieder Räubereien getrieben , wenn seine Caper oder FreiCorps Excesse gegen ein nicht feindliches Volk be-<lb/>gangen haben , wenn sein Regent als Privatperson den an-<lb/>dern Staat beleidigt hat. Schrodt syst. juris gent. p. 49. sqq. Jo. Pet. de Ludewig diss. de juris gentium laesione . Hal. 1741 . 4. Obss. select. Halens. T. VII. obs. 6. 7.
+1	Z.	Z.	_	APPRART	_	_	_	_	_	_	FRAG
+2	B.	B.	_	NN	_	_	_	_	_	_	FRAG
+3	durch	durch	_	APPR	_	_	_	_	_	_	FRAG
+4	Ermächtigung	Ermächtigung	_	NN	_	_	_	_	_	_	FRAG
+5	oder	oder	_	KON	_	_	_	_	_	_	FRAG
+6	Anreizung	Anreizung	_	NN	_	_	_	_	_	_	FRAG
+7	zu	zu	_	APPR	_	_	_	_	_	_	FRAG
+8	der	d	_	ART	_	_	_	_	_	_	FRAG
+9	Rechts-<lb/>verletzung	Rechtsverletzung	_	NN	_	_	_	_	_	_	FRAG
+10	,	,	_	$,	_	_	_	_	_	_	FRAG
+11	durch	durch	_	APPR	_	_	_	_	_	_	FRAG
+12	widerrechtliche	widerrechtlich	_	ADJA	_	_	_	_	_	_	FRAG
+13	Verzögerung	Verzögerung	_	NN	_	_	_	_	_	_	FRAG
+14	oder	oder	_	KON	_	_	_	_	_	_	FRAG
+15	Verwei-<lb/>gerung	Verweigerung	_	NN	_	_	_	_	_	_	FRAG
+16	der	d	_	ART	_	_	_	_	_	_	FRAG
+17	geforderten	gefordert	_	ADJA	_	_	_	_	_	_	FRAG
+18	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	_	FRAG
+19	,	,	_	$,	_	_	_	_	_	_	FRAG
+20	insbesondere	insbesondere	_	ADV	_	_	_	_	_	_	FRAG
+21	wenn	wenn	_	KOUS	_	_	_	_	_	LK	LK
+22	seine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+23	Mitglieder	Mitglied	_	NN	_	_	_	_	_	_	MF
+24	Räubereien	Räuberei	_	NN	_	_	_	_	_	_	MF
+25	getrieben	treiben	_	VVPP	_	_	_	_	_	RK	RK
+26	,	,	_	$,	_	_	_	_	_	_	FRAG
+27	wenn	wenn	_	KOUS	_	_	_	_	_	LK	LK
+28	seine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+29	Caper	Kaper	_	NN	_	_	_	_	_	_	MF
+30	oder	oder	_	KON	_	_	_	_	_	_	MF
+31	FreiCorps	Freikorps	_	NN	_	_	_	_	_	_	MF
+32	Excesse	Exzeß	_	NN	_	_	_	_	_	_	MF
+33	gegen	gegen	_	APPR	_	_	_	_	_	_	MF
+34	ein	eine	_	ART	_	_	_	_	_	_	MF
+35	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+36	feindliches	feindlich	_	ADJA	_	_	_	_	_	_	MF
+37	Volk	Volk	_	NN	_	_	_	_	_	_	MF
+38	be-<lb/>gangen	begehen	_	VVPP	_	_	_	_	_	RK	RK
+39	haben	haben	_	VAINF	_	_	_	_	_	RK	RK
+40	,	,	_	$,	_	_	_	_	_	_	FRAG
+41	wenn	wenn	_	KOUS	_	_	_	_	_	LK	LK
+42	sein	sein	_	PPOSAT	_	_	_	_	_	_	MF
+43	Regent	Regent	_	NN	_	_	_	_	_	_	MF
+44	als	als	_	KOKOM	_	_	_	_	_	_	MF
+45	Privatperson	Privatperson	_	NN	_	_	_	_	_	_	MF
+46	den	d	_	ART	_	_	_	_	_	_	MF
+47	an-<lb/>dern	ander	_	ADJA	_	_	_	_	_	_	MF
+48	Staat	Staat	_	NN	_	_	_	_	_	_	MF
+49	beleidigt	beleidigt	_	ADJD	_	_	_	_	_	RK	RK
+50	hat.	hat.	_	VAFIN	_	_	_	_	_	RK	RK
+51	Schrodt	Schrot	_	NN	_	_	_	_	_	_	FRAG
+52	syst.	Syst.	_	FM	_	_	_	_	_	_	FRAG
+53	juris	Juris	_	FM	_	_	_	_	_	_	FRAG
+54	gent.	Gent.	_	FM	_	_	_	_	_	_	FRAG
+55	p.	P.	_	FM	_	_	_	_	_	_	FRAG
+56	49.	49.	_	ADJA	_	_	_	_	_	_	FRAG
+57	sqq.	Sqq.	_	ADV	_	_	_	_	_	_	FRAG
+58	Jo.	Jo.	_	NE	_	_	_	_	_	_	FRAG
+59	Pet.	Pet.	_	NE	_	_	_	_	_	_	FRAG
+60	de	De	_	NE	_	_	_	_	_	_	FRAG
+61	Ludewig	Ludewig	_	NE	_	_	_	_	_	_	FRAG
+62	diss.	Diss.	_	FM	_	_	_	_	_	_	FRAG
+63	de	de	_	FM	_	_	_	_	_	_	FRAG
+64	juris	juris	_	FM	_	_	_	_	_	_	FRAG
+65	gentium	gentium	_	FM	_	_	_	_	_	_	FRAG
+66	laesione	laesione	_	FM	_	_	_	_	_	_	FRAG
+67	.	.	_	$.	_	_	_	_	_	_	FRAG
+68	Hal.	Hal.	_	NN	_	_	_	_	_	_	FRAG
+69	1741	1741	_	CARD	_	_	_	_	_	_	FRAG
+70	.	.	_	$.	_	_	_	_	_	_	FRAG
+71	4.	4.	_	ADJA	_	_	_	_	_	_	FRAG
+72	Obss.	Obss.	_	FM	_	_	_	_	_	_	FRAG
+73	select.	Select.	_	FM	_	_	_	_	_	_	FRAG
+74	Halens.	Halens.	_	FM	_	_	_	_	_	_	FRAG
+75	T.	T.	_	CARD	_	_	_	_	_	_	FRAG
+76	VII.	Vii.	_	CARD	_	_	_	_	_	_	FRAG
+77	obs.	Obs.	_	FM	_	_	_	_	_	_	FRAG
+78	6.	6.	_	CARD	_	_	_	_	_	_	FRAG
+79	7.	7.	_	CARD	_	_	_	_	_	_	FRAG
+
+# sent_id = 7
+# sent_id(TSV) = 15
+# text = Wie jeder einzelne Mensch in dem Natur-<lb/>stand , so ist auch jeder Staat im Nothfall be-<lb/>fugt zu verhältniſsmäsiger Gewaltthätigkeit , ge-<lb/>gen drohende oder wirkliche Rechtsverletzungen , nicht nur zu Erhaltung und Vertheidigung sei-<lb/>ner Rechte , sondern auch zu Genugthuung we-<lb/>gen widerrechtlich erlittenen Schadens ( §. 43 ) .
+1	Wie	wie	_	PWAV	_	_	_	_	_	_	LV
+2	jeder	jede	_	PIAT	_	_	_	_	_	_	LV
+3	einzelne	einzeln	_	ADJA	_	_	_	_	_	_	LV
+4	Mensch	Mensch	_	NN	_	_	_	_	_	_	LV
+5	in	in	_	APPR	_	_	_	_	_	_	LV
+6	dem	d	_	ART	_	_	_	_	_	_	LV
+7	Natur-<lb/>stand	Naturstand	_	NN	_	_	_	_	_	_	LV
+8	,	,	_	$,	_	_	_	_	_	_	_
+9	so	so	_	ADV	_	_	_	_	_	_	VF
+10	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+11	auch	auch	_	ADV	_	_	_	_	_	_	MF
+12	jeder	jede	_	PIAT	_	_	_	_	_	_	MF
+13	Staat	Staat	_	NN	_	_	_	_	_	_	MF
+14	im	im	_	APPRART	_	_	_	_	_	_	MF
+15	Nothfall	Notfall	_	NN	_	_	_	_	_	_	MF
+16	be-<lb/>fugt	befugt	_	VVPP	_	_	_	_	_	RK	RK
+17	zu	zu	_	PTKZU	_	_	_	_	_	_	NF
+18	verhältniſsmäsiger	verhältnismäßig	_	ADJA	_	_	_	_	_	_	NF
+19	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	_	NF
+20	,	,	_	$,	_	_	_	_	_	_	NF
+21	ge-<lb/>gen	gegen	_	APPR	_	_	_	_	_	_	NF
+22	drohende	drohend	_	ADJA	_	_	_	_	_	_	NF
+23	oder	oder	_	KON	_	_	_	_	_	_	NF
+24	wirkliche	wirklich	_	ADJA	_	_	_	_	_	_	NF
+25	Rechtsverletzungen	Rechtsverletzung	_	NN	_	_	_	_	_	_	NF
+26	,	,	_	$,	_	_	_	_	_	_	NF
+27	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	NF
+28	nur	nur	_	ADV	_	_	_	_	_	_	NF
+29	zu	zu	_	APPR	_	_	_	_	_	_	NF
+30	Erhaltung	Erhaltung	_	NN	_	_	_	_	_	_	NF
+31	und	und	_	KON	_	_	_	_	_	_	NF
+32	Vertheidigung	Verteidigung	_	NN	_	_	_	_	_	_	NF
+33	sei-<lb/>ner	seine	_	PPOSAT	_	_	_	_	_	_	NF
+34	Rechte	Rechte	_	NN	_	_	_	_	_	_	NF
+35	,	,	_	$,	_	_	_	_	_	_	NF
+36	sondern	sondern	_	KON	_	_	_	_	_	_	NF
+37	auch	auch	_	ADV	_	_	_	_	_	_	NF
+38	zu	zu	_	APPR	_	_	_	_	_	_	NF
+39	Genugthuung	Genugtuung	_	NN	_	_	_	_	_	_	NF
+40	we-<lb/>gen	wegen	_	APPR	_	_	_	_	_	_	NF
+41	widerrechtlich	widerrechtlich	_	ADJD	_	_	_	_	_	_	NF
+42	erlittenen	erleiden	_	ADJA	_	_	_	_	_	_	NF
+43	Schadens	Schaden	_	NN	_	_	_	_	_	_	NF
+44	(	(	_	$(	_	_	_	_	_	_	NF
+45	§.	§.	_	XY	_	_	_	_	_	_	NF
+46	43	43	_	CARD	_	_	_	_	_	_	NF
+47	)	)	_	$(	_	_	_	_	_	_	NF
+48	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 16
+# text = Die Gewaltthätigkeit findet statt , gegen die Ge-<lb/>sammtheit des beleidigenden Staates unmittelbar , aber auch wider einzelne , wenn gleich an der Rechtsverletzung persönlich unschuldige , Mit-<lb/>glieder desselben , weil sie Theile der Gesammt-<lb/>heit sind , und ihr Vermögen in dem Verhält-<lb/>niſs zu andern Staaten als Bestandtheil des Ver-<lb/>mögens ihres Staates zu betrachten ist a ) .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Gewaltthätigkeit	Gewalttätigkeit	_	NN	_	_	_	_	_	_	VF
+3	findet	finden	_	VVFIN	_	_	_	_	_	LK	LK
+4	statt	statt	_	PTKVZ	_	_	_	_	_	RK	RK
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	gegen	gegen	_	APPR	_	_	_	_	_	_	NF
+7	die	d	_	ART	_	_	_	_	_	_	NF
+8	Ge-<lb/>sammtheit	Gesamtheit	_	NN	_	_	_	_	_	_	NF
+9	des	d	_	ART	_	_	_	_	_	_	NF
+10	beleidigenden	beleidigend	_	ADJA	_	_	_	_	_	_	NF
+11	Staates	Staat	_	NN	_	_	_	_	_	_	NF
+12	unmittelbar	unmittelbar	_	ADJD	_	_	_	_	_	_	NF
+13	,	,	_	$,	_	_	_	_	_	_	NF
+14	aber	aber	_	KON	_	_	_	_	_	_	NF
+15	auch	auch	_	ADV	_	_	_	_	_	_	NF
+16	wider	wider	_	APPR	_	_	_	_	_	_	NF
+17	einzelne	einzeln	_	PIS	_	_	_	_	_	_	NF
+18	,	,	_	$,	_	_	_	_	_	_	NF
+19	wenn	wenn	_	ADV	_	_	_	_	_	_	NF
+20	gleich	gleich	_	ADV	_	_	_	_	_	_	NF
+21	an	an	_	APPR	_	_	_	_	_	_	NF
+22	der	d	_	ART	_	_	_	_	_	_	NF
+23	Rechtsverletzung	Rechtsverletzung	_	NN	_	_	_	_	_	_	NF
+24	persönlich	persönlich	_	ADJD	_	_	_	_	_	_	NF
+25	unschuldige	unschuldig	_	ADJA	_	_	_	_	_	_	NF
+26	,	,	_	$,	_	_	_	_	_	_	NF
+27	Mit-<lb/>glieder	Mitglied	_	NN	_	_	_	_	_	_	NF
+28	desselben	dieselbe	_	PDS	_	_	_	_	_	_	NF
+29	,	,	_	$,	_	_	_	_	_	_	NF
+30	weil	weil	_	KOUS	_	_	_	_	_	LK	NF-LK
+31	sie	sie	_	PPER	_	_	_	_	_	_	NF-MF
+32	Theile	Teil	_	NN	_	_	_	_	_	_	NF-MF
+33	der	d	_	ART	_	_	_	_	_	_	NF-MF
+34	Gesammt-<lb/>heit	Gesamtheit	_	NN	_	_	_	_	_	_	NF-MF
+35	sind	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+36	,	,	_	$,	_	_	_	_	_	_	NF
+37	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+38	ihr	ihr	_	PPOSAT	_	_	_	_	_	_	NF-MF
+39	Vermögen	Vermögen	_	NN	_	_	_	_	_	_	NF-MF
+40	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+41	dem	d	_	ART	_	_	_	_	_	_	NF-MF
+42	Verhält-<lb/>niſs	Verhältnis	_	NN	_	_	_	_	_	_	NF-MF
+43	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+44	andern	ander	_	ADJA	_	_	_	_	_	_	NF-MF
+45	Staaten	Staat	_	NN	_	_	_	_	_	_	NF-MF
+46	als	als	_	KOKOM	_	_	_	_	_	_	NF-MF
+47	Bestandtheil	Bestandteil	_	NN	_	_	_	_	_	_	NF-MF
+48	des	d	_	ART	_	_	_	_	_	_	NF-MF
+49	Ver-<lb/>mögens	Vermögen	_	NN	_	_	_	_	_	_	NF-MF
+50	ihres	ihr	_	PPOSAT	_	_	_	_	_	_	NF-MF
+51	Staates	Staat	_	NN	_	_	_	_	_	_	NF-MF
+52	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+53	betrachten	betrachten	_	VVINF	_	_	_	_	_	RK	NF-RK
+54	ist	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+55	a	A	_	XY	_	_	_	_	_	_	FRAG
+56	)	)	_	$(	_	_	_	_	_	_	FRAG
+57	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 17
+# text = Da über Staaten kein Richter gebietet , so ist jeder von ihnen befugt , selbst Gewalt zu gebrauchen gegen Beleidigungen , also zu Selbsthülfe b ) .
+1	Da	da	_	KOUS	_	_	_	_	_	LK	LV-LK
+2	über	über	_	APPR	_	_	_	_	_	_	LV-MF
+3	Staaten	Staat	_	NN	_	_	_	_	_	_	LV-MF
+4	kein	keine	_	PIAT	_	_	_	_	_	_	LV-MF
+5	Richter	Richter	_	NN	_	_	_	_	_	_	LV-MF
+6	gebietet	gebieten	_	VVFIN	_	_	_	_	_	RK	LV-RK
+7	,	,	_	$,	_	_	_	_	_	_	_
+8	so	so	_	ADV	_	_	_	_	_	_	VF
+9	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+10	jeder	jede	_	PIS	_	_	_	_	_	_	MF
+11	von	von	_	APPR	_	_	_	_	_	_	MF
+12	ihnen	sie	_	PPER	_	_	_	_	_	_	MF
+13	befugt	befugen	_	VVPP	_	_	_	_	_	RK	RK
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	selbst	selbst	_	ADV	_	_	_	_	_	_	NF-MF
+16	Gewalt	Gewalt	_	NN	_	_	_	_	_	_	NF-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+18	gebrauchen	gebrauchen	_	VVINF	_	_	_	_	_	RK	NF-RK
+19	gegen	gegen	_	APPR	_	_	_	_	_	_	NF-NF
+20	Beleidigungen	Beleidigung	_	NN	_	_	_	_	_	_	NF-NF
+21	,	,	_	$,	_	_	_	_	_	_	NF
+22	also	also	_	ADV	_	_	_	_	_	_	NF
+23	zu	zu	_	APPR	_	_	_	_	_	_	NF
+24	Selbsthülfe	Selbsthülfe	_	NN	_	_	_	_	_	_	NF
+25	b	b	_	XY	_	_	_	_	_	_	FRAG
+26	)	)	_	$(	_	_	_	_	_	_	FRAG
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 19
+# text = Man s. jedoch unten , §. 246 , 251 f. , u. 256.
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	s.	s.	_	VVIMP	_	_	_	_	_	LK	LK
+3	jedoch	jedoch	_	ADV	_	_	_	_	_	_	MF
+4	unten	unten	_	ADV	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	MF
+6	§.	§.	_	XY	_	_	_	_	_	_	MF
+7	246	246	_	CARD	_	_	_	_	_	_	MF
+8	,	,	_	$,	_	_	_	_	_	_	MF
+9	251	251	_	CARD	_	_	_	_	_	_	MF
+10	f.	F.	_	NN	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	MF
+12	u.	u.	_	KON	_	_	_	_	_	_	MF
+13	256.	256.	_	CARD	_	_	_	_	_	_	MF

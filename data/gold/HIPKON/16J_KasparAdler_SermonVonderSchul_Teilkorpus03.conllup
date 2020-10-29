@@ -1,0 +1,158 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = die habē die drey grad d' ſaͤligkait tieff zuͦ hertzen genommen / in ainē ledigē gaiſt vnd betruͤbtē gemuͤt über iren Adam.
+1	die	_	_	PDS	_	_	_	_	_	NP	die	_	SUBJ	_	DDS	_	MAINDECL	_	VF	17,24	_	_
+2	habē	_	_	VAFIN	_	_	_	_	_	VP	habē	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	17,24	_	_
+3	die	_	_	ART	_	_	_	_	_	NP	die	_	DO	_	DDA	_	MAINDECL	_	MF	17,24	_	_
+4	drey	_	_	ADJA	_	_	_	_	_	NP	drey	_	DO	_	ADJO	_	MAINDECL	_	MF	17,24	_	_
+5	grad	_	_	NN	_	_	_	_	_	NP	grad	_	DO	_	NA	_	MAINDECL	_	MF	17,24	_	_
+6	d'	_	_	ART	_	_	_	_	_	NP	d'	_	ATTR	_	DDA	_	MAINDECL	_	MF	17,24	_	_
+7	ſaͤligkait	_	_	NN	_	_	_	_	_	NP	ſaͤligkait	_	ATTR	_	NA	_	MAINDECL	_	MF	17,25	_	_
+8	tieff	_	_	ADJD	_	_	_	_	_	AP	tieff	_	ADVB	_	ADJD	_	MAINDECL	_	MF	17,25	_	_
+9	zuͦ	_	_	APPR	_	_	_	_	_	PP	zuͦ	_	PP-OBJ	_	APPR	_	MAINDECL	_	MF	17,25	_	_
+10	hertzen	_	_	NN	_	_	_	_	_	PP	hertzen	_	PP-OBJ	_	NA	_	MAINDECL	_	MF	17,25	_	_
+11	genommen	_	_	VVPP	_	_	_	_	_	PP	genommen	_	INF	_	VVPP	RE	MAINDECL	RK	RK	17,25	_	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	17,25	_	_
+13	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	17,25	UNLINK1	_
+14	ainē	_	_	ART	_	_	_	_	_	PP	ainē	NF	PP-ADV	_	DIA	_	MAINDECL	_	NF	17,25	UNLINK1	_
+15	ledigē	_	_	ADJA	_	_	_	_	_	PP	ledigē	NF	PP-ADV	_	ADJ	_	MAINDECL	_	NF	17,25	UNLINK1	_
+16	gaiſt	_	_	NN	_	_	_	_	_	PP	gaiſt	NF	PP-ADV	ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	17,26; $enff=	UNLINK1	_
+17	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PP-ADV	_	KON	_	MAINDECL	_	NF	17,26; $enff=	UNLINK1	_
+18	betruͤbtē	_	_	ADJA	_	_	_	_	_	PP	betruͤbtē	NF	PP-ADV	_	ADJ	_	MAINDECL	_	NF	17,26; $enff=	UNLINK1	_
+19	gemuͤt	_	_	NN	_	_	_	_	_	PP	gemuͤt	NF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	17,26; $enff=	UNLINK1	_
+20	über	_	_	APPR	_	_	_	_	_	PP	über	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	17,26; $enff=	UNLINK2	_
+21	iren	_	_	PPOSAT	_	_	_	_	_	PP	iren	NF	PP-ADV	_	DPOS	_	MAINDECL	_	NF	17,26; $enff=	UNLINK2	_
+22	Adam	_	_	NE	_	_	_	_	_	PP	Adam	NF	PP-ADV	ACC-UNI-UNUSED	NE	_	MAINDECL	_	NF	17,26; $enff=	UNLINK2	_
+23	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	17,26; $enff=	_	_
+
+# sent_id = 2
+# text = woͤllen diſen feinen ſchuͤler Chriſti abwenden / von dem guͦten leben /
+1	woͤllen	_	_	VMFIN	_	_	_	_	_	VP	woͤllen	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	18,04	_	_
+2	diſen	_	_	PDAT	_	_	_	_	_	NP	diſen	_	DO	_	DD	_	MAINDECL-ELLI	_	MF	18,04	_	_
+3	feinen	_	_	ADJA	_	_	_	_	_	NP	feinen	_	DO	_	ADJ	_	MAINDECL-ELLI	_	MF	18,04	_	_
+4	ſchuͤler	_	_	NN	_	_	_	_	_	NP	ſchuͤler	_	DO	_	NA	_	MAINDECL-ELLI	_	MF	18,05	_	_
+5	Chriſti	_	_	NE	_	_	_	_	_	NP	Chriſti	_	ADVB	_	NE	_	MAINDECL-ELLI	_	MF	18,05	_	_
+6	abwenden	_	_	VVINF	_	_	_	_	_	VP	abwenden	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	18,05	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	18,05	_	_
+8	von	_	_	APPR	_	_	_	_	_	PP	von	NF	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	NF	18,05	UNLINK	_
+9	dem	_	_	ART	_	_	_	_	_	PP	dem	NF	PP-OBJ	ACC-ABSTR-UNUSED	DDA	_	MAINDECL-ELLI	_	NF	18,05	UNLINK	_
+10	guͦten	_	_	ADJA	_	_	_	_	_	PP	guͦten	NF	PP-OBJ	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL-ELLI	_	NF	18,05	UNLINK	_
+11	leben	_	_	NN	_	_	_	_	_	PP	leben	NF	PP-OBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	NF	18,05	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	18,05	_	_
+
+# sent_id = 3
+# text = Niemandts hat gehaſſet ſein flaiſch /
+1	Niemandts	_	_	PIS	_	_	_	_	_	NP	Niemandts	NF	SUBJ	_	PINEG	_	MAINDECL	_	VF	18,09	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	NF	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,10; verleüg-	_	_
+3	gehaſſet	_	_	VVPP	_	_	_	_	_	VP	gehaſſet	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	18,10; verleüg-	_	_
+4	ſein	_	_	PPOSAT	_	_	_	_	_	NP	ſein	NF	DO	ACC-INF_	DPOS	_	MAINDECL	_	NF	18,10; verleüg-	UNLINK	_
+5	flaiſch	_	_	NN	_	_	_	_	_	NP	flaiſch	NF	DO	_NEW	NA	_	MAINDECL	_	NF	18,10; verleüg-	UNLINK	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	18,10; verleüg-	_	_
+
+# sent_id = 4
+# text = wer kan als bloß ſteen on luſt der Creaturen /
+1	wer	_	_	PWS	_	_	_	_	_	NP	wer	_	SUBJ	_	PW	_	MAININTERR	_	VF	18,11; -nen	_	_
+2	kan	_	_	VMFIN	_	_	_	_	_	VP	kan	_	VFIN	_	VMFIN	LI	MAININTERR	LK	LK	18,11; -nen	_	_
+3	als	_	_	ADV	_	_	_	_	_	ADVP	als	_	ADVB	_	ADV	_	MAININTERR	_	MF	18,11; -nen	_	_
+4	bloß	_	_	ADV	_	_	_	_	_	ADVP	bloß	_	ADVB	_	ADV	_	MAININTERR	_	MF	18,11; -nen	_	_
+5	ſteen	_	_	VVINF	_	_	_	_	_	VP	ſteen	_	INF	_	VVINF	RE	MAININTERR	RK	RK	18,11; -nen	_	_
+6	on	_	_	APPR	_	_	_	_	_	PP	on	BGR	PP-ADV	_	APPR	_	MAININTERR	_	NF	18,12	UNLINK	_
+7	luſt	_	_	NN	_	_	_	_	_	PP	luſt	BGR	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAININTERR	_	NF	18,12	UNLINK	KOREF1
+8	der	_	_	ART	_	_	_	_	_	NP	der	BGR	ATTR	_	DDA	_	MAININTERR	_	NF	18,12	UNLINK	KOREF1
+9	Creaturen	_	_	NN	_	_	_	_	_	NP	Creaturen	BGR	ATTR	ACC-ABSTR-UNUSED	NA	_	MAININTERR	_	NF	18,12	UNLINK	KOREF1
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAININTERR	_	_	18,12	_	_
+
+# sent_id = 5
+# text = O herr du haſt mich geluſtiget in deiner creatur.
+1	O	_	_	ITJ	_	_	_	_	_	NP	O	_	VOVF	_	ITJ	_	MAINDECL	_	LV	18,12	_	_
+2	herr	_	_	NN	_	_	_	_	_	NP	herr	_	VOVF	_	NA	_	MAINDECL	_	LV	18,12	_	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	CF	SUBJ	_	PPER	_	MAINDECL	_	VF	18,13	_	_
+4	haſt	_	_	VAFIN	_	_	_	_	_	VP	haſt	CF	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,13	_	_
+5	mich	_	_	PPER	_	_	_	_	_	NP	mich	CF	DO	_	PPER	_	MAINDECL	_	MF	18,13	_	_
+6	geluſtiget	_	_	VVPP	_	_	_	_	_	VP	geluſtiget	CF	INF	_	VVPP	RE	MAINDECL	RK	RK	18,13	_	KOREF2
+7	in	_	_	APPR	_	_	_	_	_	PP	in	CF	PP-ADV	_	APPR	_	MAINDECL	_	NF	18,13	UNLINK	KOREF2
+8	deiner	_	_	PPOSAT	_	_	_	_	_	PP	deiner	CF	PP-ADV	_	DPOS	_	MAINDECL	_	NF	18,13	UNLINK	KOREF2
+9	creatur	_	_	NN	_	_	_	_	_	PP	creatur	CF	PP-ADV	ACC-ABSTR-USED-1	NA	_	MAINDECL	_	NF	18,13	UNLINK	KOREF2
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	18,13	_	_
+
+# sent_id = 6
+# text = dan̄ du biſt nit gegründt auff dem rechten felſen /
+1	dan̄	_	_	KON	_	_	_	_	_	_	dan̄	_	_	_	KON	_	MAINDECL	_	KOORD	18,24; -$to$$en	_	_
+2	du	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	PPER	_	MAINDECL	_	VF	18,24; -$to$$en	_	_
+3	biſt	_	_	VAFIN	_	_	_	_	_	VP	biſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,24; -$to$$en	_	_
+4	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	PTKNEG	_	MAINDECL	_	MF	18,24; -$to$$en	_	_
+5	gegründt	_	_	VVPP	_	_	_	_	_	VP	gegründt	_	INF	_	VVPP	RE	MAINDECL	RK	RK	18,24; -$to$$en	_	_
+6	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	18,24; -$to$$en	UNLINK	_
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	NF	PP-OBJ	NEW	DDA	_	MAINDECL	_	NF	18,24; -$to$$en	UNLINK	_
+8	rechten	_	_	ADJA	_	_	_	_	_	PP	rechten	NF	PP-OBJ	NEW	ADJ	_	MAINDECL	_	NF	18,25	UNLINK	_
+9	felſen	_	_	NN	_	_	_	_	_	PP	felſen	NF	PP-OBJ	NEW	NA	_	MAINDECL	_	NF	18,25	UNLINK	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	18,25	_	_
+
+# sent_id = 7
+# text = ſo wirdſt du behuͤt in der anfechtung /
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	19,09; -tiget	_	_
+2	wirdſt	_	_	VAFIN	_	_	_	_	_	VP	wirdſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	19,09; -tiget	_	_
+3	du	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	PPER	_	MAINDECL	_	MF	19,10	_	_
+4	behuͤt	_	_	VVPP	_	_	_	_	_	VP	behuͤt	_	INF	_	VVPP	RE	MAINDECL	RK	RK	19,10	_	_
+5	in	_	_	APPR	_	_	_	_	_	PP	in	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	19,10	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	PP	der	BGR	PP-ADV	ACC-ABSTR-USED-X	DDA	_	MAINDECL	_	NF	19,10	UNLINK	_
+7	anfechtung	_	_	NN	_	_	_	_	_	PP	anfechtung	BGR	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	19,10	UNLINK	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	19,10	_	_
+
+# sent_id = 8
+# text = Alſo iſt es beſchloſſen durch Chriſtum vn̄ Paulum.
+1	Alſo	_	_	ADV	_	_	_	_	_	ADVP	Alſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	27,09; -aechtung 	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	27,09; -aechtung 	_	_
+3	es	_	_	PPER	_	_	_	_	_	NP	es	_	SUBJ	_	PPER	_	MAINDECL	_	MF	27,09; -aechtung 	_	_
+4	beſchloſſen	_	_	VVPP	_	_	_	_	_	VP	beſchloſſen	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	27,09; -aechtung 	_	_
+5	durch	_	_	APPR	_	_	_	_	_	PP	durch	NF	PP-AGENS	_	APPR	_	MAINDECL	_	NF	27,09; -aechtung 	UNLINK	_
+6	Chriſtum	_	_	NE	_	_	_	_	_	PP	Chriſtum	NF	PP-AGENS	ACC-UNI-USED-X	NE	_	MAINDECL	_	NF	27,09; -aechtung 	UNLINK	KOREF1
+7	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	NF	PP-AGENS	_	KON	_	MAINDECL	_	NF	27,09; -aechtung 	UNLINK	_
+8	Paulum	_	_	NE	_	_	_	_	_	PP	Paulum	NF	PP-AGENS	ACC-UNI-USED-X	NE	_	MAINDECL	_	NF	27,10	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	27,10	_	_
+
+# sent_id = 9
+# text = ſonſt werdenn wir außgeſtoſſen vonn dem Vaͤt-terlichen erb / geleich wie die frembden vnnd baſt-hart /
+1	ſonſt	_	_	ADV	_	_	_	_	_	ADVP	ſonſt	_	ADVB	_	ADV	_	MAINDECL	_	VF	27,14; Vaet-	_	_
+2	werdenn	_	_	VAFIN	_	_	_	_	_	VP	werdenn	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	27,14; Vaet-	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	PPER	_	MAINDECL	_	MF	27,14; Vaet-	_	_
+4	außgeſtoſſen	_	_	VVPP	_	_	_	_	_	VP	außgeſtoſſen	_	INF	_	VVPP	RE	MAINDECL	RK	RK	27,14; Vaet-	_	_
+5	vonn	_	_	APPR	_	_	_	_	_	PP	vonn	CF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	27,14; Vaet-	UNLINK1	_
+6	dem	_	_	ART	_	_	_	_	_	PP	dem	CF	PP-OBJ	_	DDA	_	MAINDECL	_	NF	27,14; Vaet-	UNLINK1	_
+7	Vaͤt-terlichen	_	_	ADJA	_	_	_	_	_	PP	Vaͤtterlichen	CF	PP-OBJ	_	ADJ	_	MAINDECL	_	NF	27,14; Vaet-	UNLINK1	_
+8	erb	_	_	NN	_	_	_	_	_	PP	erb	CF	PP-OBJ	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK1	_
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	_	_
+10	geleich	_	_	ADJD	_	_	_	_	_	ADVP	geleich	_	VGL	_	ADJD	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+11	wie	_	_	KOKOM	_	_	_	_	_	ADVP	wie	_	VGL	_	KOKOM	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+12	die	_	_	ART	_	_	_	_	_	ADVP	die	_	VGL	_	DDA	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+13	frembden	_	_	NN	_	_	_	_	_	ADVP	frembden	_	VGL	NEW_	NA	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+14	vnnd	_	_	KON	_	_	_	_	_	ADVP	vnnd	_	VGL	_	KON	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+15	baſt-hart	_	_	NN	_	_	_	_	_	ADVP	baſthart	_	VGL	_NEW	NA	_	MAINDECL	_	NF	27,15; -terlichen ba$t-	UNLINK2	_
+16	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	27,16; -hart Dar-	_	_
+
+# sent_id = 10
+# text = Dar-umb haben ſich alle junger Chriſti beruͤmbt / in der anfechtung
+1	Dar-umb	_	_	ADV	_	_	_	_	_	ADVP	Darumb	_	ADVB	_	ADV	_	MAINDECL	_	VF	27,16; -hart Dar-	_	_
+2	haben	_	_	VAFIN	_	_	_	_	_	VP	haben	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	27,17; -umb	_	_
+3	ſich	_	_	PRF	_	_	_	_	_	NP	ſich	_	VZ_RFL	_	PRF	_	MAINDECL	_	MF	27,17; -umb	_	_
+4	alle	_	_	ADJA	_	_	_	_	_	NP	alle	_	SUBJ	_	ADJ	_	MAINDECL	_	MF	27,17; -umb	_	_
+5	junger	_	_	NN	_	_	_	_	_	NP	junger	_	SUBJ	_	NA	_	MAINDECL	_	MF	27,17; -umb	_	_
+6	Chriſti	_	_	NE	_	_	_	_	_	NP	Chriſti	_	ATTR	_	NE	_	MAINDECL	_	MF	27,17; -umb	_	_
+7	beruͤmbt	_	_	VVPP	_	_	_	_	_	VP	beruͤmbt	_	INF	_	VVPP	RE	MAINDECL	RK	RK	27,17; -umb	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	27,17; -umb	_	_
+9	in	_	_	APPR	_	_	_	_	_	PP	in	BGR	PP-OBJ	_	APPR	_	MAINDECL	_	NF	27,17; -umb	UNLINK	_
+10	der	_	_	ART	_	_	_	_	_	PP	der	BGR	PP-OBJ	_	DDA	_	MAINDECL	_	NF	27,17; -umb	UNLINK	_
+11	anfechtung	_	_	NN	_	_	_	_	_	PP	anfechtung	BGR	PP-OBJ	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	27,18	UNLINK	_
+
+# sent_id = 11
+# text = Jch wil mich am aller liebſten ruͤmen meiner ſchwachhait /
+1	Jch	_	_	PPER	_	_	_	_	_	NP	Jch	NF	SUBJ	_	PPER	_	MAINDECL	_	VF	28,04	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	NF	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	28,04	_	_
+3	mich	_	_	PRF	_	_	_	_	_	NP	mich	NF	VZ_RFL	_	PRF	_	MAINDECL	_	MF	28,04	_	_
+4	am	_	_	APPR	_	_	_	_	_	PP	am	NF	PP-ADV	_	APPR	_	MAINDECL	_	MF	28,05	_	_
+5	aller	_	_	ADV	_	_	_	_	_	PP	allerliebſten	NF	PP-ADV	_	ADV	_	MAINDECL	_	MF	28,05	_	_
+6	liebſten	_	_	ADV	_	_	_	_	_	PP	allerliebſten	NF	PP-ADV	_	ADV	_	MAINDECL	_	MF	28,05	_	_
+7	ruͤmen	_	_	VVINF	_	_	_	_	_	VP	ruͤmen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	28,05	_	_
+8	meiner	_	_	PPOSAT	_	_	_	_	_	NP	meiner	NF	IO-GEN	ACC-SIT_	DPOS	_	MAINDECL	_	NF	28,05	UNLINK	_
+9	ſchwachhait	_	_	NN	_	_	_	_	_	NP	ſchwachhait	NF	IO-GEN	_ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	28,05	UNLINK	KOREF1
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	28,05	_	_

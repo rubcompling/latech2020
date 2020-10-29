@@ -1,0 +1,325 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Nu iſt unſer h're hiut erſtandē êrlichē vn̄ lobelichē.
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu	II,138,28	_	ADVB	_	_auR*; sechszeilige lateinische Anmerkung in anderer Schriftart	ADV	_	MAINDECL	_	VF	238r,03	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	II,138,28	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	238r,03	_	_
+3	unſer	_	_	PPOSAT	_	_	_	_	_	NP	unſer	II,138,28	_	SUBJ	_	_	DPOS	_	MAINDECL	_	MF	238r,03	_	_
+4	h're	_	_	NN	_	_	_	_	_	NP	h're	II,138,28	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	238r,03	_	_
+5	hiut	_	_	ADV	_	_	_	_	_	ADVP	hiut	II,138,28	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	238r,03	_	_
+6	erſtandē	_	_	VVPP	_	_	_	_	_	VP	erſtandē	II,138,28	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	238r,03	_	_
+7	êrlichē	_	_	ADJD	_	_	_	_	_	ADVP	êrlichē	II,138,28	NF_	ADVB	NA	_	ADJD	_	MAINDECL	_	NF	238r,03	UNLINK	_
+8	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,138,28	_	ADVB	_	_	KON	_	MAINDECL	_	NF	238r,03	UNLINK	_
+9	lobelichē	_	_	ADJD	_	_	_	_	_	ADVP	lobelichē	II,138,28	NF_	ADVB	NA	_	ADJD	_	MAINDECL	_	NF	238r,03	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	II,138,28	_	_	_	_	$_	_	MAINDECL	_	_	238r,03	_	_
+
+# sent_id = 2
+# text = vn̄ wolte im die fuͤze habē beruͤret nâch ier gewonhait.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,139,38	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	238v,23	_	_
+2	wolte	_	_	VMFIN	_	_	_	_	_	VP	wolte	II,139,38	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	238v,23	_	_
+3	im	_	_	PPER	_	_	_	_	_	NP	im	II,139,38	_	IO-DAT	_	_	PPER	_	MAINDECL-ELLI	_	MF	238v,23	_	_
+4	die	_	_	ART	_	_	_	_	_	NP	die	II,139,38	_	DO	_	_	DDA	_	MAINDECL-ELLI	_	MF	238v,23	_	_
+5	fuͤze	_	_	NN	_	_	_	_	_	NP	fuͤze	II,140,01	_	DO	_	_	NA	_	MAINDECL-ELLI	_	MF	238v,23	_	_
+6	habē	_	_	VAINF	_	_	_	_	_	VP	habē	II,140,01	_	INF	_	_	VAINF	_	MAINDECL-ELLI	RK	RK	238v,23	_	_
+7	beruͤret	_	_	VVPP	_	_	_	_	_	VP	beruͤret	II,140,01	_	INF	_	_	VVPP	RE	MAINDECL-ELLI	RK	RK	238v,23	_	_
+8	nâch	_	_	APPR	_	_	_	_	_	PP	nâch	II,140,01	BGR	PP-ADV	_	_	APPR	_	MAINDECL-ELLI	_	NF	238v,23	UNLINK	_
+9	ier	_	_	PPOSAT	_	_	_	_	_	PP	ier	II,140,01	BGR	PP-ADV	ACC-ABSTR-UNUSED	_	DPOS	_	MAINDECL-ELLI	_	NF	238v,23	UNLINK	_
+10	gewonhait	_	_	NN	_	_	_	_	_	PP	gewonhait	II,140,01	BGR	PP-ADV	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL-ELLI	_	NF	238v,24; a-	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	II,140,01	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	238v,24; a-	_	_
+
+# sent_id = 3
+# text = ich woͤlle uarē ze minē uat' vn̄ och ze ier vat'.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	II,140,16	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	239r,11	_	_
+2	woͤlle	_	_	VMFIN	_	_	_	_	_	VP	woͤlle	II,140,16	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	239r,11	_	_
+3	uarē	_	_	VVINF	_	_	_	_	_	VP	uarē	II,140,16	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	239r,11	_	_
+4	ze	_	_	APPR	_	_	_	_	_	PP	ze	II,140,16	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	239r,11	UNLINK	_
+5	minē	_	_	PPOSAT	_	_	_	_	_	PP	minē	II,140,16	NF_	PP-DIR	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	239r,11	UNLINK	_
+6	uat'	_	_	NN	_	_	_	_	_	PP	uat'	II,140,16	NF_	PP-DIR	_GIV-INACTIVE_	_	NA	_	MAINDECL	_	NF	239r,11	UNLINK	KOREF1
+7	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,140,16	_	_	_	_	KON	_	MAINDECL	_	NF	239r,11	UNLINK	_
+8	och	_	_	KON	_	_	_	_	_	_	och	II,140,17	NF_	_	_	_	KON	_	MAINDECL	_	NF	239r,11	UNLINK	_
+9	ze	_	_	APPR	_	_	_	_	_	PP	ze	II,140,17	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	239r,11	UNLINK	_
+10	ier	_	_	PPOSAT	_	_	_	_	_	PP	ier	II,140,17	NF_	PP-DIR	_ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	239r,11	UNLINK	_
+11	vat'	_	_	NN	_	_	_	_	_	PP	vat'	II,140,17	NF_	PP-DIR	_GIV-ACTIVE	_	NA	_	MAINDECL	_	NF	239r,11	UNLINK	KOREF2
+12	.	_	_	$.	_	_	_	_	_	_	.	II,140,17	_	_	_	_	$_	_	MAINDECL	_	_	239r,11	_	_
+
+# sent_id = 4
+# text = vn̄ ich woͤlle varē ze minē got. vn̄ och ze ier got.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,140,17	_	_	_	_	KON	_	MAINDECL	_	KOORD	239r,12	_	_
+2	ich	_	_	PPER	_	_	_	_	_	NP	ich	II,140,17	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	239r,12	_	_
+3	woͤlle	_	_	VMFIN	_	_	_	_	_	VP	woͤlle	II,140,17	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	239r,12	_	_
+4	varē	_	_	VVINF	_	_	_	_	_	VP	varē	II,140,17	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	239r,12	_	_
+5	ze	_	_	APPR	_	_	_	_	_	PP	ze	II,140,17	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	239r,12	UNLINK	_
+6	minē	_	_	PPOSAT	_	_	_	_	_	PP	minē	II,140,17	NF_	PP-DIR	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	239r,12	UNLINK	_
+7	got	_	_	NN	_	_	_	_	_	PP	got	II,140,17	NF_	PP-DIR	_ACC-UNI-USED-X_	_	NA	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	II,140,17	_	_	_	_	$_	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+9	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,140,17	_	_	_	_	KON	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+10	och	_	_	KON	_	_	_	_	_	_	och	II,140,17	NF_	_	_	_	KON	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+11	ze	_	_	APPR	_	_	_	_	_	PP	ze	II,140,17	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+12	ier	_	_	PPOSAT	_	_	_	_	_	PP	ier	II,140,17	NF_	PP-DIR	_ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+13	got	_	_	NN	_	_	_	_	_	PP	got	II,140,18	NF_	PP-DIR	_ACC-UNI-USED-1	_	NA	_	MAINDECL	_	NF	239r,12	UNLINK	KOREF1
+14	.	_	_	$.	_	_	_	_	_	_	.	II,140,18	_	_	_	_	$_	_	MAINDECL	_	_	239r,12	_	_
+
+# sent_id = 5
+# text = got d' were erſtādē vō dē tode warer got. vn̄ warer menſch.
+1	got	_	_	NN	_	_	_	_	_	NP	got	II,140,21	_	VOVF	_	_	NA	_	MAINDECL	_	LV	239r,15	_	_
+2	d'	_	_	PDS	_	_	_	_	_	NP	d'	II,140,21	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	239r,15	_	_
+3	were	_	_	VAFIN	_	_	_	_	_	VP	were	II,140,21	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	239r,15	_	_
+4	erſtādē	_	_	VVPP	_	_	_	_	_	VP	erſtādē	II,140,21	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	239r,15	_	_
+5	vō	_	_	APPR	_	_	_	_	_	PP	vō	II,140,21	BGR_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	239r,16	UNLINK	KOREF1
+6	dē	_	_	ART	_	_	_	_	_	PP	dē	II,140,21	BGR_	PP-OBJ	ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	239r,16	UNLINK	KOREF1
+7	tode	_	_	NN	_	_	_	_	_	PP	tode	II,140,21	BGR_	PP-OBJ	ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	239r,16	UNLINK	KOREF1
+8	warer	_	_	ADJA	_	_	_	_	_	NP	warer	II,140,21	NF_	PRD	_ACC-UNI-USED-1_	_	ADJ	_	MAINDECL	_	NF	239r,16	UNLINK	KOREF1
+9	got	_	_	NN	_	_	_	_	_	NP	got	II,140,21	NF_	PRD	_ACC-UNI-USED-1_	_	NA	_	MAINDECL	_	NF	239r,16	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	II,140,21	_	_	_	_	$_	_	MAINDECL	_	NF	239r,16	UNLINK	_
+11	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,140,21	_	_	_	_	KON	_	MAINDECL	_	NF	239r,16	UNLINK	_
+12	warer	_	_	ADJA	_	_	_	_	_	NP	warer	II,140,21	NF_	PRD	_ACC-GEN-UNUSED	_	ADJ	_	MAINDECL	_	NF	239r,16	UNLINK	_
+13	menſch	_	_	NN	_	_	_	_	_	NP	menſch	II,140,22	NF_	PRD	_ACC-GEN-UNUSED	_	NA	_	MAINDECL	_	NF	239r,16	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	II,140,22	_	_	_	_	$_	_	MAINDECL	_	_	239r,16	_	_
+
+# sent_id = 6
+# text = ſo ſint uns bezaichēt alle die gehorſam ſint ierē maiſt'n.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	II,141,07	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	239v,11	_	_
+2	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,141,08	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	239v,11	_	_
+3	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,141,08	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	239v,11	_	_
+4	bezaichēt	_	_	VVPP	_	_	_	_	_	VP	bezaichēt	II,141,08	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	239v,11	_	_
+5	alle	_	_	PIS	_	_	_	_	_	NP	alle	II,141,08	NF	SUBJ	NA	_	DIS	_	MAINDECL	_	NF	239v,11	UNLINK	KOREF1-REL
+6	die	_	_	PRELS	_	_	_	_	_	CP	die	II,141,08	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	239v,11	UNLINK	KOREF2-REL
+7	gehorſam	_	_	ADJD	_	_	_	_	_	CP	gehorſam	II,141,08	NF	ATTR	_	_	ADJD	_	MAINDECL	_	NF-MF	239v,11	UNLINK	_
+8	ſint	_	_	VAFIN	_	_	_	_	_	CP	ſint	II,141,08	NF	ATTR	_	_	VAFIN	_	MAINDECL	RK	NF-RK	239v,11	UNLINK	_
+9	ierē	_	_	PPOSAT	_	_	_	_	_	CP	ierē	II,141,08	NF	ATTR	_	_	DPOS	_	MAINDECL	_	NF-NF	239v,11	UNLINK	_
+10	maiſt'n	_	_	NN	_	_	_	_	_	CP	maiſt'n	II,141,08	NF	ATTR	_	_	NA	_	MAINDECL	_	NF-NF	239v,12	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	II,141,08	_	_	_	_	$_	_	MAINDECL	_	_	239v,12	_	_
+
+# sent_id = 7
+# text = vn̄ da bi ſint uns betuͥtet. die armē. die dez râtez uolgēt
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,141,15	_	_	_	_	KON	_	MAINDECL	_	KOORD	239v,19	_	_
+2	da	_	_	ADV	_	_	_	_	_	ADVP	da	II,141,15	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	239v,19	_	_
+3	bi	_	_	APPR	_	_	_	_	_	ADVP	bi	II,141,15	_	ADVB	_	_	APPR	_	MAINDECL	_	VF	239v,19	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,141,15	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	239v,19	_	_
+5	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,141,16	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	239v,19	_	_
+6	betuͥtet	_	_	VVPP	_	_	_	_	_	VP	betuͥtet	II,141,16	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	239v,19	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	II,141,16	_	_	_	_	$_	_	MAINDECL	_	_	239v,19	_	_
+8	die	_	_	ART	_	_	_	_	_	NP	die	II,141,16	NF	SUBJ	NEW	_	DDA	_	MAINDECL	_	NF	239v,20	UNLINK	KOREF1-REL
+9	armē	_	_	ADJA	_	_	_	_	_	NP	armē	II,141,16	NF	SUBJ	NEW	_	ADJS	_	MAINDECL	_	NF	239v,20	UNLINK	KOREF1-REL
+10	.	_	_	$.	_	_	_	_	_	_	.	II,141,16	NF	SUBJ	_	_	$_	_	MAINDECL	_	NF	239v,20	UNLINK	_
+11	die	_	_	PRELS	_	_	_	_	_	CP	die	II,141,16	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	239v,20	UNLINK	KOREF2-REL
+12	dez	_	_	ART	_	_	_	_	_	CP	dez	II,141,16	NF	ATTR	_	_	DDA	_	MAINDECL	_	NF-MF	239v,20	UNLINK	_
+13	râtez	_	_	NN	_	_	_	_	_	CP	râtez	II,141,16	NF	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	239v,20	UNLINK	_
+14	uolgēt	_	_	VAFIN	_	_	_	_	_	CP	uolgēt	II,141,16	NF	ATTR	_	_	VAFIN	_	MAINDECL	RK	NF-RK	239v,20	UNLINK	_
+
+# sent_id = 8
+# text = wā ſo wil er dir reht och erſchinē v̂z dem ī dizē ellēde.
+1	wā	_	_	KON	_	_	_	_	_	_	wā	II,141,21	_	_	_	_	KON	_	MAINDECL	_	KOORD	239v,25	_	_
+2	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	II,141,21	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	239v,25	_	_
+3	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	II,141,21	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	239v,25	_	_
+4	er	_	_	PPER	_	_	_	_	_	NP	er	II,141,21	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	239v,25	_	_
+5	dir	_	_	PPER	_	_	_	_	_	NP	dir	II,141,21	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	239v,25	_	_
+6	reht	_	_	ADJD	_	_	_	_	_	ADVP	reht	II,141,21	_	ADVB	_	_	ADJD	_	MAINDECL	_	MF	239v,25	_	_
+7	och	_	_	KON	_	_	_	_	_	_	och	II,141,21	_	_	_	_	KON	_	MAINDECL	_	MF	239v,25	_	_
+8	erſchinē	_	_	VVINF	_	_	_	_	_	VP	erſchinē	II,141,21	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	239v,25	_	_
+9	v̂z	_	_	APPR	_	_	_	_	_	PP	v̂z	II,141,21	BGR	PP-SIT	_	_	APPR	_	MAINDECL	_	NF	239v,25	UNLINK	_
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	II,141,21	BGR	PP-SIT	_	_	DDA	_	MAINDECL	_	NF	239v,25	UNLINK	_
+11	ī	_	_	APPR	_	_	_	_	_	PP	ī	II,141,21	BGR	PP-SIT	_	_	APPR	_	MAINDECL	_	NF	239v,26	UNLINK	_
+12	dizē	_	_	PDAT	_	_	_	_	_	PP	dizē	II,141,21	BGR	PP-SIT	ACC-ABSTR-UNUSED	_	DD	_	MAINDECL	_	NF	239v,26	UNLINK	_
+13	ellēde	_	_	NN	_	_	_	_	_	PP	ellēde	II,141,22	BGR	PP-SIT	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	239v,26	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	II,141,22	_	_	_	_	$_	_	MAINDECL	_	_	239v,26	_	_
+
+# sent_id = 9
+# text = vn̄ da bi ſint uns betuͥtet alle gaiſteliche luͥte.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,141,23	_	_	_	_	KON	_	MAINDECL	_	KOORD	239v,28	_	_
+2	da	_	_	ADV	_	_	_	_	_	ADVP	da	II,141,23	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	239v,28	_	_
+3	bi	_	_	APPR	_	_	_	_	_	ADVP	bi	II,141,24	_	ADVB	_	_	APPR	_	MAINDECL	_	VF	239v,28	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,141,24	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	239v,28	_	_
+5	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,141,24	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	239v,28	_	_
+6	betuͥtet	_	_	VVPP	_	_	_	_	_	VP	betuͥtet	II,141,24	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	239v,28	_	_
+7	alle	_	_	PIAT	_	_	_	_	_	NP	alle	II,141,24	NF	SUBJ	NEW	_	DI	_	MAINDECL	_	NF	239v,28	UNLINK	KOREF1
+8	gaiſteliche	_	_	ADJA	_	_	_	_	_	NP	gaiſteliche	II,141,24	NF	SUBJ	NEW	_	ADJ	_	MAINDECL	_	NF	239v,28	UNLINK	KOREF1
+9	luͥte	_	_	NN	_	_	_	_	_	NP	luͥte	II,141,24	NF	SUBJ	NEW	_	NA	_	MAINDECL	_	NF	239v,29	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	II,141,24	_	_	_	_	$_	_	MAINDECL	_	_	239v,29	_	_
+
+# sent_id = 10
+# text = Vn̄ da bi ſint vns bezaichēt alle die an dē. (heiligen). geloͮbē zwíuelēt.
+1	Vn̄	_	_	KON	_	_	_	_	_	_	Vn̄	II,142,14	_	_	_	_	KON	_	MAINDECL	_	KOORD	240r,24	_	_
+2	da	_	_	ADV	_	_	_	_	_	ADVP	da	II,142,14	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	240r,24	_	_
+3	bi	_	_	APPR	_	_	_	_	_	ADVP	bi	II,142,14	_	ADVB	_	_	APPR	_	MAINDECL	_	VF	240r,24	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,142,14	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	240r,24	_	_
+5	vns	_	_	PPER	_	_	_	_	_	NP	vns	II,142,14	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	240r,24	_	_
+6	bezaichēt	_	_	VVPP	_	_	_	_	_	VP	bezaichēt	II,142,14	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	240r,24	_	_
+7	alle	_	_	PIAT	_	_	_	_	_	NP	alle	II,142,15	NF	SUBJ	NA	_	DI	_	MAINDECL	_	NF	240r,24	UNLINK	KOREF1-REL
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	II,142,15	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	240r,24	UNLINK	KOREF2-REL
+9	an	_	_	APPR	_	_	_	_	_	CP	an	II,142,15	NF	ATTR	_	_	APPR	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+10	dē	_	_	ART	_	_	_	_	_	CP	dē	II,142,15	NF	ATTR	_	_	DDA	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	CP	.	II,142,15	NF	ATTR	_	_	$_	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+12	(heiligen)	_	_	ADJA	_	_	_	_	_	CP	(heiligen)	II,142,15	NF	ATTR	_	_	ADJ	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	CP	.	II,142,15	NF	ATTR	_	_	$_	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+14	geloͮbē	_	_	NN	_	_	_	_	_	CP	geloͮbē	II,142,15	NF	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	240r,25	UNLINK	_
+15	zwíuelēt	_	_	VVFIN	_	_	_	_	_	CP	zwíuelēt	II,142,15	NF	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	240r,25	UNLINK	_
+16	.	_	_	$.	_	_	_	_	_	_	.	II,142,15	_	_	_	_	$_	_	MAINDECL	_	_	240r,25	_	_
+
+# sent_id = 11
+# text = vn̄ bi dē uíſch'en da bi ſint uns betuͥtet die. (heiligen). lerer
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,142,23; -dert	_	_	_	_	KON	_	MAINDECL	_	KOORD	240v,06	_	_
+2	bi	_	_	APPR	_	_	_	_	_	PP	bi	II,142,23; -dert	_	VOVF	_	aoR*	APPR	_	MAINDECL	_	VF	240v,06	_	_
+3	dē	_	_	ART	_	_	_	_	_	PP	dē	II,142,23; -dert	_	VOVF	_	aoR*	DDA	_	MAINDECL	_	VF	240v,06	_	_
+4	uíſch'en	_	_	NN	_	_	_	_	_	PP	uíſch'en	II,142,23; -dert	_	VOVF	_	aoR*	NA	_	MAINDECL	_	VF	240v,06	_	_
+5	da	_	_	ADV	_	_	_	_	_	ADVP	da	II,142,23; -dert	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	240v,06	_	_
+6	bi	_	_	APPR	_	_	_	_	_	ADVP	bi	II,142,24	_	ADVB	_	_	APPR	_	MAINDECL	_	VF	240v,06	_	_
+7	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,142,24	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	240v,06	_	_
+8	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,142,24	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	240v,06	_	_
+9	betuͥtet	_	_	VVPP	_	_	_	_	_	VP	betuͥtet	II,142,24	_	INF	_	steht eigentlich an dritter Stelle in der Zeile und wird durch ein entsprechendes Verweiszeichen an den Zeilenanfang gerückt	VVPP	RE	MAINDECL	RK	RK	240r,07	_	_
+10	die	_	_	ART	_	_	_	_	_	NP	die	II,142,24	NF	SUBJ	_	_	DDA	_	MAINDECL	_	NF	240r,07	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	NP	.	II,142,24	NF	SUBJ	_	_	$_	_	MAINDECL	_	NF	240r,07	UNLINK	KOREF1
+12	(heiligen)	_	_	ADJA	_	_	_	_	_	NP	(heiligen)	II,142,24	NF	SUBJ	NEW	_	ADJ	_	MAINDECL	_	NF	240r,07	UNLINK	KOREF1
+13	.	_	_	$.	_	_	_	_	_	NP	.	II,142,24	NF	SUBJ	NEW	_	$_	_	MAINDECL	_	NF	240r,07	UNLINK	KOREF1
+14	lerer	_	_	NN	_	_	_	_	_	NP	lerer	II,142,24	NF	SUBJ	NEW	_	NA	_	MAINDECL	_	NF	240r,07	UNLINK	KOREF1
+
+# sent_id = 12
+# text = Vn̄ da bi ſint vns betuͥtet alle die v̂f ainē hôhē lebende an tugendē ſint.
+1	Vn̄	_	_	KON	_	_	_	_	_	_	Vn̄	II,142,30	_	_	_	_	KON	_	MAINDECL	_	KOORD	240v,14	_	_
+2	da	_	_	PAV	_	_	_	_	_	ADVP	da	II,142,31;tugen-	_	ADVB	_	_	PAV	_	MAINDECL	_	VF	240v,14	_	_
+3	bi	_	_	PAV	_	_	_	_	_	ADVP	bi	II,142,31;tugen-	_	ADVB	_	_	PAV	_	MAINDECL	_	VF	240v,14	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,142,31;tugen-	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	240v,14	_	_
+5	vns	_	_	PPER	_	_	_	_	_	NP	vns	II,142,31;tugen-	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	240v,14	_	_
+6	betuͥtet	_	_	VVPP	_	_	_	_	_	VP	betuͥtet	II,142,31;tugen-	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	240v,14	_	_
+7	alle	_	_	PIS	_	_	_	_	_	NP	alle	II,142,31;tugen-	_	SUBJ	NA	_	DIS	_	MAINDECL	_	NF	240v,14	UNLINK	KOREF1-REL
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	II,142,31;tugen-	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	240v,14	UNLINK	KOREF2-REL
+9	v̂f	_	_	APPR	_	_	_	_	_	CP	v̂f	II,142,31;tugen-	_	ATTR	_	_	APPR	_	MAINDECL	_	NF-MF	240v,14	UNLINK	_
+10	ainē	_	_	ART	_	_	_	_	_	CP	ainē	II,142,31;tugen-	_	ATTR	_	_	DIA	_	MAINDECL	_	NF-MF	240v,15	UNLINK	_
+11	hôhē	_	_	ADJA	_	_	_	_	_	CP	hôhē	II,142,31;tugen-	_	ATTR	_	_	ADJ	_	MAINDECL	_	NF-MF	240v,15	UNLINK	_
+12	lebende	_	_	NN	_	_	_	_	_	CP	lebende	II,142,31;tugen-	_	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	240v,15	UNLINK	_
+13	an	_	_	APPR	_	_	_	_	_	CP	an	II,142,31;tugen-	_	ATTR	_	_	APPR	_	MAINDECL	_	NF-MF	240v,15	UNLINK	_
+14	tugendē	_	_	NN	_	_	_	_	_	CP	tugendē	II,142,31;tugen-	_	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	240v,15	UNLINK	_
+15	ſint	_	_	VVFIN	_	_	_	_	_	CP	ſint	II,142,32;-de	_	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	240v,15	UNLINK	_
+16	.	_	_	$.	_	_	_	_	_	_	.	II,142,32;-de	_	_	_	_	$_	_	MAINDECL	_	_	240v,15	_	_
+
+# sent_id = 13
+# text = vn̄ da bi ſint uns bezaichēt alle die unge(=)horſam ſint dē zehē gebotē.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,142,38	_	_	_	_	KON	_	MAINDECL	_	KOORD	240v,23; -ton | unge-	_	_
+2	da	_	_	PAV	_	_	_	_	_	ADVP	da	II,142,38	_	ADVB	_	_	PAV	_	MAINDECL	_	VF	240v,23; -ton | unge-	_	_
+3	bi	_	_	PAV	_	_	_	_	_	ADVP	bi	II,142,38	_	ADVB	_	_	PAV	_	MAINDECL	_	VF	240v,23; -ton | unge-	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,142,38	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	240v,23; -ton | unge-	_	_
+5	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,142,38	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	240v,23; -ton | unge-	_	_
+6	bezaichēt	_	_	VVPP	_	_	_	_	_	VP	bezaichēt	II,143,01	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	240v,23; -ton | unge-	_	_
+7	alle	_	_	PIS	_	_	_	_	_	NP	alle	II,143,01	_	SUBJ	NA	_	DIS	_	MAINDECL	_	NF	240v,23; -ton | unge-	UNLINK	KOREF1-REL
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	II,143,01	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	240v,23; -ton | unge-	UNLINK	KOREF2-REL
+9	unge(=)horſam	_	_	ADJD	_	_	_	_	_	CP	ungehorſam	II,143,01	_	ATTR	_	_	ADJD	_	MAINDECL	_	NF-MF	240v,23; -ton | unge-	UNLINK	_
+10	ſint	_	_	VVFIN	_	_	_	_	_	CP	ſint	II,143,01	_	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	240v,24; -horſam	UNLINK	_
+11	dē	_	_	ART	_	_	_	_	_	CP	dē	II,143,01	_	ATTR	_	_	DDA	_	MAINDECL	_	NF-NF	240v,24; -horſam	UNLINK	_
+12	zehē	_	_	CARD	_	_	_	_	_	CP	zehē	II,143,01	_	ATTR	_	_	CARD	_	MAINDECL	_	NF-NF	240v,24; -horſam	UNLINK	_
+13	gebotē	_	_	NN	_	_	_	_	_	CP	gebotē	II,143,01	_	ATTR	_	_	NA	_	MAINDECL	_	NF-NF	240v,24; -horſam	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	II,143,01	_	_	_	_	$_	_	MAINDECL	_	_	240v,24; -horſam	_	_
+
+# sent_id = 14
+# text = da bi ſint vns betuͥtet alle die erb'mh'zich ſint.
+1	da	_	_	ADV	_	_	_	_	_	ADVP	da	II,143,06	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	241r,02	_	_
+2	bi	_	_	APPR	_	_	_	_	_	ADVP	bi	II,143,06	_	ADVB	_	_	APPR	_	MAINDECL	_	VF	241r,02	_	_
+3	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	II,143,06	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	241r,02	_	_
+4	vns	_	_	PPER	_	_	_	_	_	NP	vns	II,143,06	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	241r,02	_	_
+5	betuͥtet	_	_	VVPP	_	_	_	_	_	VP	betuͥtet	II,143,06	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	241r,02	_	_
+6	alle	_	_	PIS	_	_	_	_	_	NP	alle	II,143,06	NF	SUBJ	NA	_	DIS	_	MAINDECL	_	NF	241r,02	UNLINK	KOREF1-REL
+7	die	_	_	PRELS	_	_	_	_	_	CP	die	II,143,06	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	241r,02	UNLINK	KOREF2-REL
+8	erb'mh'zich	_	_	ADJD	_	_	_	_	_	CP	erb'mh'zich	II,143,06	NF	ATTR	_	_	ADJD	_	MAINDECL	_	NF-MF	241r,02	UNLINK	_
+9	ſint	_	_	VAFIN	_	_	_	_	_	CP	ſint	II,143,06	NF	ATTR	_	_	VAFIN	_	MAINDECL	RK	NF-RK	241r,02	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	II,143,06	NF	ATTR	_	_	$_	_	MAINDECL	_	_	241r,02	_	_
+
+# sent_id = 15
+# text = ez wurdē och níe geuangē luͥte alſo vrô. als ſi ſint.
+1	ez	_	_	PPER	_	_	_	_	_	NP	ez	II,144,31	_	EXPL	_	_	PPER	_	MAINDECL	_	VF	242r,13	_	_
+2	wurdē	_	_	VAFIN	_	_	_	_	_	VP	wurdē	II,144,31	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	242r,13	_	_
+3	och	_	_	KON	_	_	_	_	_	_	och	II,144,31	_	_	_	_	KON	_	MAINDECL	_	MF	242r,13	_	_
+4	níe	_	_	ADV	_	_	_	_	_	ADVP	níe	II,144,31	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	242r,13	_	_
+5	geuangē	_	_	VVPP	_	_	_	_	_	VP	geuangē	II,144,31	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	242r,14	_	_
+6	luͥte	_	_	NN	_	_	_	_	_	NP	luͥte	II,144,31	_	SUBJ	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	242r,14	UNLINK1	KOREF1
+7	alſo	_	_	ADV	_	_	_	_	_	AP	alſo	II,144,31	NF	ATTR	_	_	ADV	_	MAINDECL	_	NF	242r,14	UNLINK2	_
+8	vrô	_	_	ADJD	_	_	_	_	_	AP	vrô	II,144,31	NF	ATTR	_	_	ADJD	_	MAINDECL	_	NF	242r,14	UNLINK2	_
+9	.	_	_	$.	_	_	_	_	_	_	.	II,144,31	NF	_	_	_	$_	_	MAINDECL	_	NF	242r,14	UNLINK2	_
+10	als	_	_	KOUS	_	_	_	_	_	CP	als	II,144,32	NF	VGL	_	_	KOUS	_	MAINDECL	LK	NF-LK	242r,14	UNLINK2	KOREF2-SATZ
+11	ſi	_	_	PPER	_	_	_	_	_	CP	ſi	II,144,32	NF	VGL	_	_	PPER	_	MAINDECL	_	NF-MF	242r,14	UNLINK2	KOREF2-SATZ
+12	ſint	_	_	VAFIN	_	_	_	_	_	CP	ſint	II,144,32	NF	VGL	_	_	VAFIN	_	MAINDECL	RK	NF-RK	242r,14	UNLINK2	KOREF2-SATZ
+13	.	_	_	$.	_	_	_	_	_	_	.	II,144,32	_	_	_	_	$_	_	MAINDECL	_	_	242r,14	_	_
+
+# sent_id = 16
+# text = er woͤlte uns ſendē ſin ewigez lieht.
+1	er	_	_	PPER	_	_	_	_	_	NP	er	II,145,34	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	243r,03	_	_
+2	woͤlte	_	_	VMFIN	_	_	_	_	_	VP	woͤlte	II,145,34	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	243r,03	_	_
+3	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,145,34	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	243r,03	_	_
+4	ſendē	_	_	VVINF	_	_	_	_	_	VP	ſendē	II,145,34	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	243r,03	_	_
+5	ſin	_	_	PPOSAT	_	_	_	_	_	NP	ſin	II,145,35	NF	DO	ACC-INF_	_	DPOS	_	MAINDECL	_	NF	243r,03	UNLINK	KOREF1
+6	ewigez	_	_	ADJA	_	_	_	_	_	NP	ewigez	II,145,35	NF	DO	_ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	243r,04	UNLINK	KOREF1
+7	lieht	_	_	NN	_	_	_	_	_	NP	lieht	II,145,35	NF	DO	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	243r,04	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	II,145,35	_	_	_	_	$_	_	MAINDECL	_	_	243r,04	_	_
+
+# sent_id = 17
+# text = dc hât geſehē aī. grôz lieht.
+1	dc	_	_	PDS	_	_	_	_	_	NP	dc	II,146,04	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	243r,11	_	_
+2	hât	_	_	VAFIN	_	_	_	_	_	VP	hât	II,146,04	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	243r,11	_	_
+3	geſehē	_	_	VVPP	_	_	_	_	_	VP	geſehē	II,146,04	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	243r,11	_	_
+4	aī	_	_	ART	_	_	_	_	_	NP	aī	II,146,04	NF	DO	_	_	DIA	_	MAINDECL	_	NF	243r,11	UNLINK	_
+5	.	_	_	$.	_	_	_	_	_	NP	.	II,146,04	NF	DO	_	_	$_	_	MAINDECL	_	NF	243r,11	UNLINK	_
+6	grôz	_	_	ADJA	_	_	_	_	_	NP	grôz	II,146,04	NF	DO	ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	243r,11	UNLINK	KOREF1
+7	lieht	_	_	NN	_	_	_	_	_	NP	lieht	II,146,04	NF	DO	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	243r,11	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	II,146,04	_	_	_	_	$_	_	MAINDECL	_	_	243r,11	_	_
+
+# sent_id = 18
+# text = wā diz lieht wil uns loͤſen vz dirre vínſtrī.
+1	wā	_	_	KON	_	_	_	_	_	_	wā	II,146,05	_	_	_	_	KON	_	MAINDECL	_	KOORD	243r,12	_	_
+2	diz	_	_	PDAT	_	_	_	_	_	NP	diz	II,146,05	_	SUBJ	_	_	DD	_	MAINDECL	_	VF	243r,12	_	KOREF2
+3	lieht	_	_	NN	_	_	_	_	_	NP	lieht	II,146,05	_	SUBJ	_	_	NA	_	MAINDECL	_	VF	243r,12	_	KOREF2
+4	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	II,146,05	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	243r,12	_	_
+5	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,146,05	_	DO	_	_	PPER	_	MAINDECL	_	MF	243r,12	_	_
+6	loͤſen	_	_	VVINF	_	_	_	_	_	VP	loͤſen	II,146,05	BGR	INF	_	_	VVINF	RE	MAINDECL	RK	RK	243r,12	_	_
+7	vz	_	_	APPR	_	_	_	_	_	PP	vz	II,146,05	BGR	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	243r,12	UNLINK	_
+8	dirre	_	_	PDAT	_	_	_	_	_	PP	dirre	II,146,05	BGR	PP-DIR	_	_	DD	_	MAINDECL	_	NF	243r,12	UNLINK	_
+9	vínſtrī	_	_	NN	_	_	_	_	_	PP	vínſtrī	II,146,05	BGR	PP-DIR	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	243r,13	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	II,146,05	_	_	_	_	$_	_	MAINDECL	_	_	243r,13	_	_
+
+# sent_id = 19
+# text = vn̄ wil uns mit ím fuͤrē ī dc ewige lieht.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,146,06	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	243r,13	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	II,146,06	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	243r,13	_	_
+3	uns	_	_	PPER	_	_	_	_	_	NP	uns	II,146,06	_	DO	_	_	PPER	_	MAINDECL-ELLI	_	MF	243r,13	_	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	II,146,06	NF	PP-ADV	_	_	APPR	_	MAINDECL-ELLI	_	MF	243r,13	_	_
+5	ím	_	_	PPER	_	_	_	_	_	PP	ím	II,146,06	NF	PP-ADV	_	_	PPER	_	MAINDECL-ELLI	_	MF	243r,13	_	_
+6	fuͤrē	_	_	VVINF	_	_	_	_	_	VP	fuͤrē	II,146,06	NF	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	243r,13	_	_
+7	ī	_	_	APPR	_	_	_	_	_	PP	ī	II,146,06	NF	PP-ADV	_	_	APPR	_	MAINDECL-ELLI	_	NF	243r,13	UNLINK	_
+8	dc	_	_	ART	_	_	_	_	_	PP	dc	II,146,06	NF	PP-ADV	ACC-ABSTR-USED-X	_	DDA	_	MAINDECL-ELLI	_	NF	243r,13	UNLINK	_
+9	ewige	_	_	ADJA	_	_	_	_	_	PP	ewige	II,146,06	NF	PP-ADV	ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL-ELLI	_	NF	243r,13	UNLINK	_
+10	lieht	_	_	NN	_	_	_	_	_	PP	lieht	II,146,06	NF	PP-ADV	ACC-ABSTR-USED-X	_	NA	_	MAINDECL-ELLI	_	NF	243r,13	UNLINK	KOREF2
+11	.	_	_	$.	_	_	_	_	_	_	.	II,146,06	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	243r,13	_	_
+
+# sent_id = 20
+# text = vn̄ han in d' welte. gezaiget mit minē uíng'.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,146,31; -raítet	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	243v,09	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	VP	han	II,146,31; -raítet	_	VFIN	_	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	243v,09	_	_
+3	in	_	_	APPR	_	_	_	_	_	PP	in	II,146,31; -raítet	_	PP-SIT	_	_	APPR	_	MAINDECL-ELLI	_	MF	243v,09	_	_
+4	d'	_	_	ART	_	_	_	_	_	PP	d'	II,146,31; -raítet	_	PP-SIT	_	_	DDA	_	MAINDECL-ELLI	_	MF	243v,09	_	_
+5	welte	_	_	NN	_	_	_	_	_	PP	welte	II,146,31; -raítet	_	PP-SIT	_	_	NA	_	MAINDECL-ELLI	_	MF	243v,09	_	_
+6	.	_	_	$.	_	_	_	_	_	_	.	II,146,31; -raítet	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	243v,09	_	_
+7	gezaiget	_	_	VVPP	_	_	_	_	_	VP	gezaiget	II,146,31; -raítet	BGR	INF	_	_	VVPP	RE	MAINDECL-ELLI	RK	RK	243v,10	_	_
+8	mit	_	_	APPR	_	_	_	_	_	PP	mit	II,146,31; -raítet	BGR	PP-ADV	_	_	APPR	_	MAINDECL-ELLI	_	NF	243v,10	UNLINK	_
+9	minē	_	_	PPOSAT	_	_	_	_	_	PP	minē	II,146,31; -raítet	BGR	PP-ADV	ACC-SIT_	_	DPOS	_	MAINDECL-ELLI	_	NF	243v,10	UNLINK	_
+10	uíng'	_	_	NN	_	_	_	_	_	PP	uíng'	II,146,31; -raítet	BGR	PP-ADV	_NEW	_	NA	_	MAINDECL-ELLI	_	NF	243v,10	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	II,146,31; -raítet	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	243v,10	_	_
+
+# sent_id = 21
+# text = vn̄ h(at) ſi machot gênde.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,147,19	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	244r,09	_	_
+2	h(at)	_	_	VAFIN	_	_	_	_	_	VP	hat	II,147,19	_	VFIN	_	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	244r,09	_	_
+3	ſi	_	_	PPER	_	_	_	_	_	NP	ſi	II,147,19	_	DO	_	_	PPER	_	MAINDECL-ELLI	_	MF	244r,09	_	_
+4	machot	_	_	VVPP	_	_	_	_	_	VP	machot	II,147,19	NF	INF	_	_	VVPP	RE	MAINDECL-ELLI	RK	RK	244r,09	_	_
+5	gênde	_	_	ADJD	_	_	_	_	_	NP	gênde	II,147,20	NF	GERUND	NEW	_	VVPSD	_	MAINDECL-ELLI	_	NF	244r,09	UNLINK	_
+6	.	_	_	$.	_	_	_	_	_	_	.	II,147,20	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	244r,09	_	_
+
+# sent_id = 22
+# text = Ich han die gallō vn̄ dē eſſich gemiſchit vnd' aín and'.
+1	Ich	_	_	PPER	_	_	_	_	_	NP	Ich	II,147,35	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	244r,25	_	_
+2	han	_	_	VAFIN	_	_	_	_	_	VP	han	II,147,35	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	244r,25	_	_
+3	die	_	_	ART	_	_	_	_	_	NP	die	II,147,35	_	DO	_	_	DDA	_	MAINDECL	_	MF	244r,25	_	_
+4	gallō	_	_	NN	_	_	_	_	_	NP	gallō	II,147,36	_	DO	_	_	NA	_	MAINDECL	_	MF	245v,01	_	_
+5	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	II,147,36	_	DO	_	_	KON	_	MAINDECL	_	MF	245v,01	_	_
+6	dē	_	_	ART	_	_	_	_	_	NP	dē	II,147,36	_	DO	_	_	DDA	_	MAINDECL	_	MF	245v,01	_	_
+7	eſſich	_	_	NN	_	_	_	_	_	NP	eſſich	II,147,36	_	DO	_	_	NA	_	MAINDECL	_	MF	245v,01	_	_
+8	gemiſchit	_	_	VVPP	_	_	_	_	_	VP	gemiſchit	II,147,36	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	245v,01	_	_
+9	vnd'	_	_	APPR	_	_	_	_	_	ADVP	vnd'	II,147,36	BGR	ADVB	NA	_	APPR	_	MAINDECL	_	NF	245v,01	UNLINK	_
+10	aín	_	_	ART	_	_	_	_	_	ADVP	aín	II,147,36	BGR	ADVB	NA	_	DIA	_	MAINDECL	_	NF	245v,01	UNLINK	_
+11	and'	_	_	NN	_	_	_	_	_	ADVP	and'	II,147,36	BGR	ADVB	NA	_	NA	_	MAINDECL	_	NF	245v,01	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	II,147,36	_	_	_	_	$_	_	MAINDECL	_	_	245v,01	_	_

@@ -1,0 +1,408 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 3
+# text = DJeser orthen wirbt man noch starck /
+1	DJeser	diese	_	PDAT	_	_	_	_	_	_	VF
+2	orthen	Ort	_	NN	_	_	_	_	_	_	VF
+3	wirbt	werben	_	VVFIN	_	_	_	_	_	LK	LK
+4	man	man	_	PIS	_	_	_	_	_	_	MF
+5	noch	noch	_	ADV	_	_	_	_	_	_	MF
+6	starck	stark	_	ADJD	_	_	_	_	_	_	MF
+7	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 3
+# text = der Hertzog von Hollstein hat seinen Musterplatz zu Schmalkalden /
+1	der	d	_	ART	_	_	_	_	_	_	VF
+2	Hertzog	Herzog	_	NN	_	_	_	_	_	_	VF
+3	von	von	_	APPR	_	_	_	_	_	_	VF
+4	Hollstein	Hollstein	_	NE	_	_	_	_	_	_	VF
+5	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+6	seinen	seine	_	PPOSAT	_	_	_	_	_	_	MF
+7	Musterplatz	Musterplatz	_	NN	_	_	_	_	_	_	MF
+8	zu	zu	_	APPR	_	_	_	_	_	_	MF
+9	Schmalkalden	Schmalkalden	_	NE	_	_	_	_	_	_	MF
+10	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 3
+# text = Hertzog Frantz Allbrecht von Sassen / so biß dato sich mit 2500 . Mann in Hessen befunden / ist im anzuge / sich dieser orthen einzuquartiren .
+1	Hertzog	Herzog	_	NE	_	_	_	_	_	_	VF
+2	Frantz	Frantz	_	NE	_	_	_	_	_	_	VF
+3	Allbrecht	Albrecht	_	NE	_	_	_	_	_	_	VF
+4	von	von	_	APPR	_	_	_	_	_	_	VF
+5	Sassen	Sassen	_	NE	_	_	_	_	_	_	VF
+6	/	/	_	$(	_	_	_	_	_	_	VF
+7	so	so	_	ADV	_	_	_	_	_	LK	VF-LK
+8	biß	bis	_	APPR	_	_	_	_	_	_	VF-MF
+9	dato	dato	_	ADV	_	_	_	_	_	_	VF-MF
+10	sich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+11	mit	mit	_	APPR	_	_	_	_	_	_	VF-MF
+12	2500	2500	_	CARD	_	_	_	_	_	_	VF-MF
+13	.	.	_	$.	_	_	_	_	_	_	VF-MF
+14	Mann	Mann	_	NN	_	_	_	_	_	_	VF-MF
+15	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+16	Hessen	Hessen	_	NE	_	_	_	_	_	_	VF-MF
+17	befunden	befinden	_	VVPP	_	_	_	_	_	RK	VF-RK
+18	/	/	_	$(	_	_	_	_	_	_	VF
+19	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+20	im	im	_	APPRART	_	_	_	_	_	_	MF
+21	anzuge	Anzug	_	NN	_	_	_	_	_	_	MF
+22	/	/	_	$(	_	_	_	_	_	_	MF
+23	sich	sich	_	PRF	_	_	_	_	_	_	MF-NF
+24	dieser	diese	_	PDAT	_	_	_	_	_	_	MF-NF
+25	orthen	Ort	_	NN	_	_	_	_	_	_	MF-NF
+26	einzuquartiren	einquartieren	_	VVIZU	_	_	_	_	_	RK	NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 5
+# text = Es continuirt , das theils Dänisch Volck Oßnabrück erö-<lb/>bert / vnd 7. Geistliche Prælaten gefangen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	LK	LK
+3	,	,	_	$,	_	_	_	_	_	_	_
+4	das	die	_	KOUS	_	_	_	_	_	LK	NF-LK
+5	theils	teils	_	ADV	_	_	_	_	_	_	NF-MF
+6	Dänisch	Dänisch	_	ADJA	_	_	_	_	_	_	NF-MF
+7	Volck	Volk	_	NN	_	_	_	_	_	_	NF-MF
+8	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	_	NF-MF
+9	erö-<lb/>bert	erobern	_	VVPP	_	_	_	_	_	RK	NF-RK
+10	/	/	_	$(	_	_	_	_	_	_	NF
+11	vnd	und	_	KON	_	_	_	_	_	_	NF-KOORD
+12	7.	7.	_	CARD	_	_	_	_	_	_	NF-MF
+13	Geistliche	Geistliche	_	ADJA	_	_	_	_	_	_	NF-MF
+14	Prælaten	Prälat	_	NN	_	_	_	_	_	_	NF-MF
+15	gefangen	gefangen	_	VVPP	_	_	_	_	_	RK	NF-RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 6
+# text = So continuirt auch / das 14. Regiment Frantzosen bey Metz vnd dero orthen nach der Pfaltz passiren werden .
+1	So	so	_	ADV	_	_	_	_	_	_	VF
+2	continuirt	kontinuieren	_	VVFIN	_	_	_	_	_	LK	LK
+3	auch	auch	_	ADV	_	_	_	_	_	_	MF
+4	/	/	_	$(	_	_	_	_	_	_	_
+5	das	d	_	KOUS	_	_	_	_	_	LK	NF-LK
+6	14.	14.	_	ADJA	_	_	_	_	_	_	NF-MF
+7	Regiment	Regiment	_	NN	_	_	_	_	_	_	NF-MF
+8	Frantzosen	Franzose	_	NN	_	_	_	_	_	_	NF-MF
+9	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF
+10	Metz	Metz	_	NE	_	_	_	_	_	_	NF-MF
+11	vnd	und	_	KON	_	_	_	_	_	_	NF-MF
+12	dero	die	_	PDAT	_	_	_	_	_	_	NF-MF
+13	orthen	Ort	_	NN	_	_	_	_	_	_	NF-MF
+14	nach	nach	_	APPR	_	_	_	_	_	_	NF-MF
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Pfaltz	Pfalz	_	NE	_	_	_	_	_	_	NF-MF
+17	passiren	passieren	_	VVINF	_	_	_	_	_	RK	NF-RK
+18	werden	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 8
+# text = Man hat Aviso , das die Roscheller die Friedens Puncten vn-<lb/>terschrieben / vnd sol der Hertzog von Angelosme vom König in Franckreich befehl bekommen / mit dem Volck / so im Stifft Metz ligt / vnd etlichen Regimenten Schweitzern / ehist nach der Pfaltz zu-<lb/>rücken .
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+3	Aviso	Aviso	_	NN	_	_	_	_	_	_	MF
+4	,	,	_	$,	_	_	_	_	_	_	_
+5	das	die	_	KOUS	_	_	_	_	_	LK	NF-LK
+6	die	d	_	ART	_	_	_	_	_	_	NF-MF
+7	Roscheller	Roscheller	_	NN	_	_	_	_	_	_	NF-MF
+8	die	d	_	ART	_	_	_	_	_	_	NF-MF
+9	Friedens	Frieden	_	NN	_	_	_	_	_	_	NF-MF
+10	Puncten	Punkt	_	NN	_	_	_	_	_	_	NF-MF
+11	vn-<lb/>terschrieben	unterschreiben	_	VVPP	_	_	_	_	_	RK	NF-RK
+12	/	/	_	$(	_	_	_	_	_	_	NF
+13	vnd	und	_	KON	_	_	_	_	_	_	NF-KOORD
+14	sol	sollen	_	VMFIN	_	_	_	_	_	LK	NF-LK
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Hertzog	Herzog	_	NN	_	_	_	_	_	_	NF-MF
+17	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+18	Angelosme	Angelosme	_	NE	_	_	_	_	_	_	NF-MF
+19	vom	vom	_	APPRART	_	_	_	_	_	_	NF-MF
+20	König	König	_	NN	_	_	_	_	_	_	NF-MF
+21	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+22	Franckreich	Frankreich	_	NE	_	_	_	_	_	_	NF-MF
+23	befehl	Befehl	_	NN	_	_	_	_	_	_	NF-MF
+24	bekommen	bekommen	_	VVINF	_	_	_	_	_	RK	NF-RK
+25	/	/	_	$(	_	_	_	_	_	_	NF
+26	mit	mit	_	APPR	_	_	_	_	_	_	NF-NF-MF
+27	dem	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+28	Volck	Volk	_	NN	_	_	_	_	_	_	NF-NF-MF
+29	/	/	_	$(	_	_	_	_	_	_	NF-NF-MF
+30	so	so	_	ADV	_	_	_	_	_	LK	NF-NF-MF-LK
+31	im	im	_	APPRART	_	_	_	_	_	_	NF-NF-MF-MF
+32	Stifft	Stift	_	NN	_	_	_	_	_	_	NF-NF-MF-MF
+33	Metz	Metz	_	NE	_	_	_	_	_	_	NF-NF-MF-MF
+34	ligt	liegen	_	VVFIN	_	_	_	_	_	RK	NF-NF-MF-RK
+35	/	/	_	$(	_	_	_	_	_	_	NF-NF-MF
+36	vnd	und	_	KON	_	_	_	_	_	_	NF-NF-MF
+37	etlichen	etlich	_	ADJA	_	_	_	_	_	_	NF-NF-MF
+38	Regimenten	Regiment	_	NN	_	_	_	_	_	_	NF-NF-MF
+39	Schweitzern	Schweizer	_	NN	_	_	_	_	_	_	NF-NF-MF
+40	/	/	_	$(	_	_	_	_	_	_	NF-NF-MF
+41	ehist	ehest	_	ADV	_	_	_	_	_	_	NF-NF-MF
+42	nach	nach	_	APPR	_	_	_	_	_	_	NF-NF-MF
+43	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+44	Pfaltz	Pfalz	_	NE	_	_	_	_	_	_	NF-NF-MF
+45	zu-<lb/>rücken	zurücken	_	VVINF	_	_	_	_	_	RK	NF-NF-RK
+46	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 9
+# text = Es ist viel Geldt in diesen Landen auß Spania angelanget / noch 50. Schiff zu zurüsten / vnd die See Armada zuverstercken .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	viel	viel	_	PIAT	_	_	_	_	_	_	MF
+4	Geldt	Geld	_	NN	_	_	_	_	_	_	MF
+5	in	in	_	APPR	_	_	_	_	_	_	MF
+6	diesen	diese	_	PDAT	_	_	_	_	_	_	MF
+7	Landen	Land	_	NN	_	_	_	_	_	_	MF
+8	auß	aus	_	APPR	_	_	_	_	_	_	MF
+9	Spania	Spanien	_	NE	_	_	_	_	_	_	MF
+10	angelanget	angelangen	_	VVFIN	_	_	_	_	_	RK	RK
+11	/	/	_	$(	_	_	_	_	_	_	_
+12	noch	noch	_	ADV	_	_	_	_	_	_	NF-MF
+13	50.	50.	_	CARD	_	_	_	_	_	_	NF-MF
+14	Schiff	Schiff	_	NN	_	_	_	_	_	_	NF-MF
+15	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+16	zurüsten	zurüsten	_	VVINF	_	_	_	_	_	RK	NF-RK
+17	/	/	_	$(	_	_	_	_	_	_	NF
+18	vnd	und	_	KON	_	_	_	_	_	_	NF-KOORD
+19	die	d	_	ART	_	_	_	_	_	_	NF-MF
+20	See	See	_	NN	_	_	_	_	_	_	NF-MF
+21	Armada	Armada	_	NE	_	_	_	_	_	_	NF-MF
+22	zuverstercken	zuverstecken	_	VVINF	_	_	_	_	_	RK	NF-RK
+23	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 11
+# text = Obwol allhie für Chur Mäyntz schon gantz einfuriert / so be-<lb/>sorgt man doch es möchte solcher Tag nicht fort gehen .
+1	Obwol	obwohl	_	KOUS	_	_	_	_	_	LK	LV-LK
+2	allhie	allhier	_	ADV	_	_	_	_	_	_	LV-MF
+3	für	für	_	APPR	_	_	_	_	_	_	LV-MF
+4	Chur	Kür	_	NN	_	_	_	_	_	_	LV-MF
+5	Mäyntz	Mainz	_	NE	_	_	_	_	_	_	LV-MF
+6	schon	schon	_	ADV	_	_	_	_	_	_	LV-MF
+7	gantz	ganz	_	ADV	_	_	_	_	_	_	LV-MF
+8	einfuriert	Einfuriert	_	NE	_	_	_	_	_	RK	LV-RK
+9	/	/	_	$(	_	_	_	_	_	_	_
+10	so	so	_	ADV	_	_	_	_	_	_	VF
+11	be-<lb/>sorgt	besorgt	_	VVFIN	_	_	_	_	_	LK	LK
+12	man	man	_	PIS	_	_	_	_	_	_	MF
+13	doch	doch	_	KON	_	_	_	_	_	_	KOORD
+14	es	es	_	PPER	_	_	_	_	_	_	VF
+15	möchte	mögen	_	VMFIN	_	_	_	_	_	LK	LK
+16	solcher	solch	_	PIAT	_	_	_	_	_	_	MF
+17	Tag	Tag	_	NN	_	_	_	_	_	_	MF
+18	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+19	fort	fort	_	PTKVZ	_	_	_	_	_	RK	RK
+20	gehen	gehen	_	VVINF	_	_	_	_	_	RK	RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 12
+# text = Die Bi-<lb/>schöffe lassen starck werben / es hat ein seltzam ansehen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Bi-<lb/>schöffe	Bischöffe	_	NN	_	_	_	_	_	_	VF
+3	lassen	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+4	starck	stark	_	ADJD	_	_	_	_	_	_	MF
+5	werben	werben	_	VVINF	_	_	_	_	_	RK	RK
+6	/	/	_	$(	_	_	_	_	_	_	_
+7	es	es	_	PPER	_	_	_	_	_	_	VF
+8	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+9	ein	eine	_	ART	_	_	_	_	_	_	MF
+10	seltzam	seltsam	_	ADJA	_	_	_	_	_	_	MF
+11	ansehen	ansehen	_	NN	_	_	_	_	_	_	MF
+12	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 14
+# text = Der König in Dennemarck lest allhier grosse Kriegsbereit-<lb/>schafften von Geschütz vnd andern in eyl verfertigen / seind auch diese Tage 6000 . Mann auß Holland ankommen / sol jtzo 36. tausent zu Fuß / vnnd 6. tausent Pferd ohne die Manßfeldische Armada starck sein / vnd erwartet noch 20. tausent Mann .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	König	König	_	NN	_	_	_	_	_	_	VF
+3	in	in	_	APPR	_	_	_	_	_	_	VF
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	_	VF
+5	lest	lesen	_	VVFIN	_	_	_	_	_	LK	LK
+6	allhier	allhier	_	ADV	_	_	_	_	_	_	MF
+7	grosse	groß	_	ADJA	_	_	_	_	_	_	MF
+8	Kriegsbereit-<lb/>schafften	Kriegsbereitschaft	_	NN	_	_	_	_	_	_	MF
+9	von	von	_	APPR	_	_	_	_	_	_	MF
+10	Geschütz	Geschütz	_	NN	_	_	_	_	_	_	MF
+11	vnd	und	_	KON	_	_	_	_	_	_	MF
+12	andern	andere	_	PIS	_	_	_	_	_	_	MF
+13	in	in	_	APPR	_	_	_	_	_	_	MF
+14	eyl	Eile	_	NN	_	_	_	_	_	_	MF
+15	verfertigen	verfertigen	_	VVINF	_	_	_	_	_	RK	RK
+16	/	/	_	$(	_	_	_	_	_	_	_
+17	seind	sein	_	VAFIN	_	_	_	_	_	LK	NF-LK
+18	auch	auch	_	ADV	_	_	_	_	_	_	NF-MF
+19	diese	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+20	Tage	Tag	_	NN	_	_	_	_	_	_	NF-MF
+21	6000	6000	_	CARD	_	_	_	_	_	_	NF-MF
+22	.	.	_	$.	_	_	_	_	_	_	NF-MF
+23	Mann	Mann	_	NN	_	_	_	_	_	_	NF-MF
+24	auß	aus	_	APPR	_	_	_	_	_	_	NF-MF
+25	Holland	Holland	_	NE	_	_	_	_	_	_	NF-MF
+26	ankommen	ankommen	_	VVINF	_	_	_	_	_	RK	NF-RK
+27	/	/	_	$(	_	_	_	_	_	_	NF
+28	sol	sollen	_	VMFIN	_	_	_	_	_	LK	NF-LK
+29	jtzo	jetzt	_	ADV	_	_	_	_	_	_	NF-MF
+30	36.	36.	_	CARD	_	_	_	_	_	_	NF-MF
+31	tausent	tausend	_	CARD	_	_	_	_	_	_	NF-MF
+32	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+33	Fuß	Fuß	_	NN	_	_	_	_	_	_	NF-MF
+34	/	/	_	$(	_	_	_	_	_	_	NF-MF
+35	vnnd	und	_	KON	_	_	_	_	_	_	NF-MF
+36	6.	6.	_	CARD	_	_	_	_	_	_	NF-MF
+37	tausent	tausend	_	CARD	_	_	_	_	_	_	NF-MF
+38	Pferd	Pferd	_	NN	_	_	_	_	_	_	NF-MF
+39	ohne	ohne	_	APPR	_	_	_	_	_	_	NF-MF
+40	die	d	_	ART	_	_	_	_	_	_	NF-MF
+41	Manßfeldische	manßfeldische	_	ADJA	_	_	_	_	_	_	NF-MF
+42	Armada	Armada	_	NE	_	_	_	_	_	_	NF-MF
+43	starck	stark	_	ADJD	_	_	_	_	_	_	NF-MF
+44	sein	sein	_	VAINF	_	_	_	_	_	RK	NF-RK
+45	/	/	_	$(	_	_	_	_	_	_	_
+46	vnd	und	_	KON	_	_	_	_	_	_	KOORD
+47	erwartet	erwarten	_	VVFIN	_	_	_	_	_	LK	LK
+48	noch	noch	_	ADV	_	_	_	_	_	_	MF
+49	20.	20.	_	CARD	_	_	_	_	_	_	MF
+50	tausent	tausend	_	CARD	_	_	_	_	_	_	MF
+51	Mann	Mann	_	NN	_	_	_	_	_	_	MF
+52	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 16
+# text = Der Tilly hat Sankt Andreasbergk sambt andern örtern in Grubenhager lande abbren-<lb/>nen lassen / vnd werden so wol die Lüneburgischen als Braunschwei-<lb/>gische Lande in die Asche gelegt .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Tilly	Tilly	_	NE	_	_	_	_	_	_	VF
+3	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+4	Sankt	sinken	_	NE	_	_	_	_	_	_	MF
+5	Andreasbergk	Andreasbergk	_	NE	_	_	_	_	_	_	MF
+6	sambt	samt	_	APPR	_	_	_	_	_	_	MF
+7	andern	andere	_	PIS	_	_	_	_	_	_	MF
+8	örtern	örtern	_	NN	_	_	_	_	_	_	MF
+9	in	in	_	APPR	_	_	_	_	_	_	MF
+10	Grubenhager	grubenhager	_	ADJA	_	_	_	_	_	_	MF
+11	lande	Land	_	NN	_	_	_	_	_	_	MF
+12	abbren-<lb/>nen	abbrennen	_	VVINF	_	_	_	_	_	RK	RK
+13	lassen	lassen	_	VVINF	_	_	_	_	_	RK	RK
+14	/	/	_	$(	_	_	_	_	_	_	_
+15	vnd	und	_	KON	_	_	_	_	_	_	KOORD
+16	werden	werden	_	VAFIN	_	_	_	_	_	LK	LK
+17	so	so	_	ADV	_	_	_	_	_	_	MF
+18	wol	wohl	_	ADV	_	_	_	_	_	_	MF
+19	die	d	_	ART	_	_	_	_	_	_	MF
+20	Lüneburgischen	Lüneburgischen	_	ADJA	_	_	_	_	_	_	MF
+21	als	als	_	KOKOM	_	_	_	_	_	_	MF
+22	Braunschwei-<lb/>gische	braunschweigisch	_	ADJA	_	_	_	_	_	_	MF
+23	Lande	Land	_	NN	_	_	_	_	_	_	MF
+24	in	in	_	APPR	_	_	_	_	_	_	MF
+25	die	d	_	ART	_	_	_	_	_	_	MF
+26	Asche	Asche	_	NN	_	_	_	_	_	_	MF
+27	gelegt	legen	_	VVPP	_	_	_	_	_	RK	RK
+28	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 18
+# text = Der König in Dennemarck hat durch seinen Feld Marschalck Hertzogen von Weymar / sich deß Stiffts Oßnabrück bemächtiget / Vnd ist dessen Eltester Printz zum Coadjutorn selbiges Stiffts er-<lb/>nennet / doch dofern selbiger Bischoff Herr Graf von Wartenberg / sich nicht zu rechter zeit einstellen wird / sol er gar zum Bischoff vnd Administrator installiret werden .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	König	König	_	NN	_	_	_	_	_	_	VF
+3	in	in	_	APPR	_	_	_	_	_	_	VF
+4	Dennemarck	Dänemark	_	NE	_	_	_	_	_	_	VF
+5	hat	haben	_	VAFIN	_	_	_	_	_	LK	LK
+6	durch	durch	_	APPR	_	_	_	_	_	_	MF
+7	seinen	seine	_	PPOSAT	_	_	_	_	_	_	MF
+8	Feld	Feld	_	NN	_	_	_	_	_	_	MF
+9	Marschalck	Marschall	_	NN	_	_	_	_	_	_	MF
+10	Hertzogen	Herzog	_	NN	_	_	_	_	_	_	MF
+11	von	von	_	APPR	_	_	_	_	_	_	MF
+12	Weymar	Weimar	_	NE	_	_	_	_	_	_	MF
+13	/	/	_	$(	_	_	_	_	_	_	MF
+14	sich	sich	_	PRF	_	_	_	_	_	_	MF
+15	deß	d	_	ART	_	_	_	_	_	_	MF
+16	Stiffts	Stift	_	NN	_	_	_	_	_	_	MF
+17	Oßnabrück	Osnabrück	_	NE	_	_	_	_	_	_	MF
+18	bemächtiget	bemächtigen	_	VVFIN	_	_	_	_	_	RK	RK
+19	/	/	_	$(	_	_	_	_	_	_	_
+20	Vnd	und	_	KON	_	_	_	_	_	_	KOORD
+21	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+22	dessen	die	_	PDS	_	_	_	_	_	_	MF
+23	Eltester	alt	_	ADJA	_	_	_	_	_	_	MF
+24	Printz	Prinz	_	NN	_	_	_	_	_	_	MF
+25	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+26	Coadjutorn	Koadjutor	_	NN	_	_	_	_	_	_	MF
+27	selbiges	selbig	_	ADJA	_	_	_	_	_	_	MF
+28	Stiffts	Stift	_	NN	_	_	_	_	_	_	MF
+29	er-<lb/>nennet	ernennen	_	VVFIN	_	_	_	_	_	RK	RK
+30	/	/	_	$(	_	_	_	_	_	_	_
+31	doch	doch	_	KON	_	_	_	_	_	_	KOORD
+32	dofern	Dofern	_	ADV	_	_	_	_	_	LK	VF-LK
+33	selbiger	selbig	_	ADJA	_	_	_	_	_	_	VF-MF
+34	Bischoff	Bischof	_	NN	_	_	_	_	_	_	VF-MF
+35	Herr	Herr	_	NE	_	_	_	_	_	_	VF-MF
+36	Graf	Graf	_	NE	_	_	_	_	_	_	VF-MF
+37	von	von	_	APPR	_	_	_	_	_	_	VF-MF
+38	Wartenberg	Wartenberg	_	NE	_	_	_	_	_	_	VF-MF
+39	/	/	_	$(	_	_	_	_	_	_	VF-MF
+40	sich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+41	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	VF-MF
+42	zu	zu	_	APPR	_	_	_	_	_	_	VF-MF
+43	rechter	recht	_	ADJA	_	_	_	_	_	_	VF-MF
+44	zeit	Zeit	_	NN	_	_	_	_	_	_	VF-MF
+45	einstellen	einstellen	_	VVINF	_	_	_	_	_	RK	VF-RK
+46	wird	werden	_	VAFIN	_	_	_	_	_	RK	VF-RK
+47	/	/	_	$(	_	_	_	_	_	_	_
+48	sol	sollen	_	VMFIN	_	_	_	_	_	LK	LK
+49	er	er	_	PPER	_	_	_	_	_	_	MF
+50	gar	gar	_	ADV	_	_	_	_	_	_	MF
+51	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+52	Bischoff	Bischof	_	NN	_	_	_	_	_	_	MF
+53	vnd	und	_	KON	_	_	_	_	_	_	MF
+54	Administrator	Administrator	_	NN	_	_	_	_	_	_	MF
+55	installiret	installieren	_	VVPP	_	_	_	_	_	RK	RK
+56	werden	werden	_	VAINF	_	_	_	_	_	RK	RK
+57	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 19
+# text = Die Stadt Wiedenburg ist den 16. diß früe / vom Hertzog von Weymar vberrascht / darüber die Nonnen Klöster der Geist-<lb/>lichen / vnd etliche Bürgershäuser geplündert .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Stadt	Stadt	_	NN	_	_	_	_	_	_	VF
+3	Wiedenburg	Wiedenburg	_	NE	_	_	_	_	_	_	VF
+4	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	den	d	_	ART	_	_	_	_	_	_	MF
+6	16.	16.	_	ADJA	_	_	_	_	_	_	MF
+7	diß	diese	_	PDAT	_	_	_	_	_	_	MF
+8	früe	früh	_	NN	_	_	_	_	_	_	MF
+9	/	/	_	$(	_	_	_	_	_	_	MF
+10	vom	vom	_	APPRART	_	_	_	_	_	_	MF
+11	Hertzog	Herzog	_	NN	_	_	_	_	_	_	MF
+12	von	von	_	APPR	_	_	_	_	_	_	MF
+13	Weymar	Weimar	_	NE	_	_	_	_	_	_	MF
+14	vberrascht	überraschen	_	VVPP	_	_	_	_	_	RK	RK
+15	/	/	_	$(	_	_	_	_	_	_	_
+16	darüber	darüber	_	PAV	_	_	_	_	_	LK	NF-LK
+17	die	d	_	ART	_	_	_	_	_	_	NF-MF
+18	Nonnen	Nonnen	_	NN	_	_	_	_	_	_	NF-MF
+19	Klöster	Kloster	_	NN	_	_	_	_	_	_	NF-MF
+20	der	d	_	ART	_	_	_	_	_	_	NF-MF
+21	Geist-<lb/>lichen	Geistliche	_	NN	_	_	_	_	_	_	NF-MF
+22	/	/	_	$(	_	_	_	_	_	_	NF-MF
+23	vnd	und	_	KON	_	_	_	_	_	_	NF-MF
+24	etliche	etliche	_	PIAT	_	_	_	_	_	_	NF-MF
+25	Bürgershäuser	Bürgershaus	_	NN	_	_	_	_	_	_	NF-MF
+26	geplündert	plündern	_	VVPP	_	_	_	_	_	RK	NF-RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 20
+# text = Die Staaden wen-<lb/>den sich nachter Lipstadt .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Staaden	Staat	_	NN	_	_	_	_	_	_	VF
+3	wen-<lb/>den	wenden	_	VVFIN	_	_	_	_	_	LK	LK
+4	sich	sich	_	PRF	_	_	_	_	_	_	MF
+5	nachter	Nager	_	APPR	_	_	_	_	_	_	MF
+6	Lipstadt	Lipstadt	_	NE	_	_	_	_	_	_	MF
+7	.	.	_	$.	_	_	_	_	_	_	_

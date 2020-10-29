@@ -1,0 +1,209 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = der wird der Kleineſte heiſſen im Himmelreich /
+1	der	_	_	PDS	_	_	_	_	_	NP	der	_	SUBJ	_	DDS	_	MAINDECL	_	VF	18,34	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,34	_	_
+3	der	_	_	ART	_	_	_	_	_	NP	der	_	PRD	_	DDA	_	MAINDECL	_	MF	18,34	_	_
+4	Kleineſte	_	_	ADJA	_	_	_	_	_	NP	Kleineſte	_	PRD	_	ADJS	_	MAINDECL	_	MF	18,35	_	_
+5	heiſſen	_	_	VVINF	_	_	_	_	_	VP	heiſſen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	18,35	_	_
+6	im	_	_	APPRART	_	_	_	_	_	PP	im	BGR	PP-ADV	_	APPRART	_	MAINDECL	_	NF	18,35	UNLINK	_
+7	Himmelreich	_	_	NN	_	_	_	_	_	PP	Himmelreich	BGR	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	18,35	UNLINK	KOREF1
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	18,35	_	_
+
+# sent_id = 2
+# text = der wird groß heiſſen im Himmelreich.
+1	der	_	_	PDS	_	_	_	_	_	NP	der	_	SUBJ	_	DDS	_	MAINDECL	_	VF	18,36	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	18,37	_	_
+3	groß	_	_	ADJD	_	_	_	_	_	AP	groß	_	ADVB	_	ADJD	_	MAINDECL	_	MF	18,37	_	_
+4	heiſſen	_	_	VVINF	_	_	_	_	_	VP	heiſſen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	18,37	_	_
+5	im	_	_	APPRART	_	_	_	_	_	PP	im	BGR	PP-ADV	_	APPRART	_	MAINDECL	_	NF	18,37	UNLINK	_
+6	Himmelreich	_	_	NN	_	_	_	_	_	PP	Himmelreich	BGR	PP-ADV	ACC-ABSTR-USED-1	NA	_	MAINDECL	_	NF	18,37	UNLINK	KOREF2
+7	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	18,37	_	_
+
+# sent_id = 3
+# text = so wird GOTT zuſetzen auf ihn „ die Plagen
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	ADV	_	MAINDECL	_	VF	19,4	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	19,4	_	_
+3	GOTT	_	_	NE	_	_	_	_	_	NP	GOTT	_	SUBJ	_	NE	_	MAINDECL	_	MF	19,4	_	_
+4	zuſetzen	_	_	VVINF	_	_	_	_	_	VP	zuſetzen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	19,4	_	_
+5	auf	_	_	APPR	_	_	_	_	_	PP	auf	BGR_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	19,4	UNLINK	_
+6	ihn	_	_	PPER	_	_	_	_	_	PP	ihn	BGR_	PP-OBJ	GIV-ACTIVE_	PPER	_	MAINDECL	_	NF	19,4	UNLINK	_
+7	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL	_	NF	19,4	UNLINK	_
+8	die	_	_	PDS	_	_	_	_	_	NP	die	NF_	DO	_	DDS	_	MAINDECL	_	NF	19,5	UNLINK	_
+9	Plagen	_	_	NN	_	_	_	_	_	NP	Plagen	NF_	DO	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	19,5	UNLINK	_
+
+# sent_id = 4
+# text = ſo wird GOTT abthun ſein Theil „ vom Buche des Lebens / und von der heiligen Stadt; „ und von dem das in dieſem Buche geſchrieben ſtehet.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	19,7	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	19,7	_	_
+3	GOTT	_	_	NE	_	_	_	_	_	NP	GOTT	_	SUBJ	_	NE	_	MAINDECL	_	MF	19,7	_	_
+4	abthun	_	_	VVINF	_	_	_	_	_	VP	abthun	_	INF	_	VVINF	RE	MAINDECL	RK	RK	19,7	_	_
+5	ſein	_	_	PPOSAT	_	_	_	_	_	NP	ſein	NF_	DO	ACC-INF_	DPOS	_	MAINDECL	_	NF	19,7	UNLINK1	_
+6	Theil	_	_	NN	_	_	_	_	_	NP	Theil	NF_	DO	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	19,7	UNLINK1	_
+7	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL	_	NF	19,8	_	_
+8	vom	_	_	APPRART	_	_	_	_	_	PP	vom	NF_	PP-ADV	_	APPRART	_	MAINDECL	_	NF	19,8	UNLINK2	_
+9	Buche	_	_	NN	_	_	_	_	_	PP	Buche	NF_	PP-ADV	GIV-ACTIVE_	NA	_	MAINDECL	_	NF	19,8	UNLINK2	KOREF1
+10	des	_	_	ART	_	_	_	_	_	PP	des	NF_	ATTR	_ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	NF	19,8	UNLINK2	_
+11	Lebens	_	_	NN	_	_	_	_	_	PP	Lebens	NF_	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	19,8	UNLINK2	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL	_	NF	19,8	UNLINK2	_
+13	und	_	_	KON	_	_	_	_	_	_	und	NF_	_	_	KON	_	MAINDECL	_	NF	19,8	UNLINK3	_
+14	von	_	_	APPR	_	_	_	_	_	PP	von	NF_	PP-ADV	_	APPR	_	MAINDECL	_	NF	19,8	UNLINK3	_
+15	der	_	_	ART	_	_	_	_	_	PP	der	NF_	PP-ADV	_	DDA	_	MAINDECL	_	NF	19,8	UNLINK3	_
+16	heiligen	_	_	ADJA	_	_	_	_	_	PP	heiligen	NF_	PP-ADV	_	ADJ	_	MAINDECL	_	NF	19,8	UNLINK3	_
+17	Stadt	_	_	NN	_	_	_	_	_	PP	Stadt	NF_	PP-ADV	_NEW	NA	_	MAINDECL	_	NF	19,8	UNLINK3	_
+18	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	_	_	MAINDECL	_	NF	19,8	_	_
+19	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL	_	NF	19,9	_	_
+20	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL	_	NF	19,9	UNLINK4	_
+21	von	_	_	APPR	_	_	_	_	_	PP	von	NF_	PP-ADV	NA	APPR	_	MAINDECL	_	NF	19,9	UNLINK4	_
+22	dem	_	_	ART	_	_	_	_	_	PP	dem	NF_	PP-ADV	NA	DDA	_	MAINDECL	_	NF	19,9	UNLINK4	_
+23	das	_	_	ART	_	_	_	_	_	CP	das	NF_	ATTR	_	DDA	_	MAINDECL	LK	NF-LK	19,9	UNLINK4	_
+24	in	_	_	APPR	_	_	_	_	_	CP	in	NF_	ATTR	_	APPR	_	MAINDECL	_	NF-MF	19,9	UNLINK4	_
+25	dieſem	_	_	PDS	_	_	_	_	_	CP	dieſem	NF_	ATTR	_	DDS	_	MAINDECL	_	NF-MF	19,9	UNLINK4	_
+26	Buche	_	_	NN	_	_	_	_	_	CP	Buche	NF_	ATTR	GIV-ACTIVE	NA	_	MAINDECL	_	NF-MF	19,9	UNLINK4	KOREF2
+27	geſchrieben	_	_	VVPP	_	_	_	_	_	CP	geſchrieben	NF_	ATTR	_	VVPP	_	MAINDECL	RK	NF-RK	19,9	UNLINK4	_
+28	ſtehet	_	_	VVFIN	_	_	_	_	_	CP	ſtehet	NF_	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	19,9	UNLINK4	_
+29	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	19,9	_	_
+
+# sent_id = 5
+# text = das wird euch richten am Juͤngsten Tag.
+1	das	_	_	PDS	_	_	_	_	_	NP	das	_	SUBJ	_	DDS	_	MAINDECL	_	VF	19,34	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	19,34	_	_
+3	euch	_	_	PPER	_	_	_	_	_	NP	euch	_	DO	_	PPER	_	MAINDECL	_	MF	19,34	_	_
+4	richten	_	_	VVINF	_	_	_	_	_	VP	richten	_	INF	_	VVINF	RE	MAINDECL	RK	RK	19,34	_	_
+5	am	_	_	APPRART	_	_	_	_	_	PP	am	BGR	PP-ADV	_	APPRART	_	MAINDECL	_	NF	19,34	UNLINK	_
+6	Juͤngsten	_	_	ADJA	_	_	_	_	_	PP	Juͤngsten	BGR	PP-ADV	ACC-UNI-UNUSED	ADJ	_	MAINDECL	_	NF	19,34	UNLINK	_
+7	Tag	_	_	NN	_	_	_	_	_	PP	Tag	BGR	PP-ADV	ACC-UNI-UNUSED	NA	_	MAINDECL	_	NF	19,34	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	19,34	_	_
+
+# sent_id = 6
+# text = ſo waͤre ich vergangen in meinem Elende.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	21,01	_	_
+2	waͤre	_	_	VAFIN	_	_	_	_	_	VP	waͤre	_	VAFIN	_	VAFIN	LI	MAINDECL	LK	LK	21,01	_	_
+3	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	PPER	_	MAINDECL	_	MF	21,01	_	_
+4	vergangen	_	_	VVPP	_	_	_	_	_	VP	vergangen	_	INF	_	VVPP	RE	MAINDECL	RK	RK	21,01	_	_
+5	in	_	_	APPR	_	_	_	_	_	PP	in	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	21,01	UNLINK	_
+6	meinem	_	_	PPOSAT	_	_	_	_	_	PP	meinem	BGR	PP-ADV	_	DPOS	_	MAINDECL	_	NF	21,02	UNLINK	_
+7	Elende	_	_	NN	_	_	_	_	_	PP	Elende	BGR	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	21,02	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	21,02	_	_
+
+# sent_id = 7
+# text = und ſchwehre Kriege „ gehabt mit den Koͤnigen umher.
+1	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	21,35	_	_
+2	ſchwehre	_	_	ADJA	_	_	_	_	_	AP	ſchwehre	_	DO	_	ADJ	_	MAINDECL-ELLI	_	MF	21,35	_	_
+3	Kriege	_	_	NN	_	_	_	_	_	AP	Kriege	_	DO	_	NA	_	MAINDECL-ELLI	_	MF	21,35	_	_
+4	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL-ELLI	_	_	21,36	_	_
+5	gehabt	_	_	VAPP	_	_	_	_	_	VP	gehabt	_	INF	_	VAPP	RE	MAINDECL-ELLI	RK	RK	21,36	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	BGR	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	NF	21,36	UNLINK	_
+7	den	_	_	ART	_	_	_	_	_	PP	den	BGR	PP-OBJ	_	DDA	_	MAINDECL-ELLI	_	NF	21,36	UNLINK	_
+8	Koͤnigen	_	_	NN	_	_	_	_	_	PP	Koͤnigen	BGR	PP-OBJ	NEW	NA	_	MAINDECL-ELLI	_	NF	21,36	UNLINK	_
+9	umher	_	_	ADV	_	_	_	_	_	ADVP	umher	BGR	ATTR	_	ADV	_	MAINDECL-ELLI	_	NF	21,36	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	ſ	_	MAINDECL-ELLI	_	_	21,36	_	_
+
+# sent_id = 8
+# text = Wir haben aber euch „ und andere unſere Freunde und Bunds=Genoſſen nicht „ bemuͤhen wollen in dieſen unſern Kriegen.
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	_	SUBJ	_	PPER	_	MAINDECL	_	VF	21,36	_	_
+2	haben	_	_	VAFIN	_	_	_	_	_	VP	haben	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	21,36	_	_
+3	aber	_	_	KON	_	_	_	_	_	_	aber	_	_	_	KON	_	MAINDECL	_	MF	21,36	_	_
+4	euch	_	_	PPER	_	_	_	_	_	NP	euch	_	DO	_	PPER	_	MAINDECL	_	MF	21,36	_	_
+5	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL	_	MF	21,37	_	_
+6	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL	_	MF	21,37	_	_
+7	andere	_	_	ADJA	_	_	_	_	_	AP	andere	_	DO	_	ADJ	_	MAINDECL	_	MF	21,37	_	_
+8	unſere	_	_	PPOSAT	_	_	_	_	_	AP	unſere	_	DO	_	DPOS	_	MAINDECL	_	MF	21,37	_	_
+9	Freunde	_	_	NN	_	_	_	_	_	AP	Freunde	_	DO	_	NA	_	MAINDECL	_	MF	21,37	_	_
+10	und	_	_	KON	_	_	_	_	_	_	und	_	DO	_	KON	_	MAINDECL	_	MF	21,37	_	_
+11	Bunds=Genoſſen	_	_	NN	_	_	_	_	_	NP	BundsGenoſſen	_	DO	_	NA	_	MAINDECL	_	MF	21,37	_	_
+12	nicht	_	_	PIS	_	_	_	_	_	_	nicht	_	_	_	PINEG	_	MAINDECL	_	MF	21,37	_	_
+13	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	_	_	MAINDECL	_	_	21,38	_	_
+14	bemuͤhen	_	_	VVINF	_	_	_	_	_	VP	bemuͤhen	_	INF	_	VVINF	_	MAINDECL	RK	RK	21,38	_	_
+15	wollen	_	_	VVINF	_	_	_	_	_	VP	wollen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	21,38	_	_
+16	in	_	_	APPR	_	_	_	_	_	PP	in	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	21,38	UNLINK	_
+17	dieſen	_	_	PDS	_	_	_	_	_	PP	dieſen	BGR	PP-ADV	_	DDS	_	MAINDECL	_	NF	21,38	UNLINK	_
+18	unſern	_	_	PPOSAT	_	_	_	_	_	PP	unſern	BGR	PP-ADV	ACC-SIT_	DPOS	_	MAINDECL	_	NF	21,38	UNLINK	_
+19	Kriegen	_	_	NN	_	_	_	_	_	PP	Kriegen	BGR	PP-ADV	_GIV-ACTIVE	NA	_	MAINDECL	_	NF	21,38	UNLINK	_
+20	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	ſ	_	MAINDECL	_	_	21,38	_	_
+
+# sent_id = 9
+# text = hat uns geſchuͤtzet wider unſere Feinde /
+1	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	22,03 Fein=	_	_
+2	uns	_	_	PPER	_	_	_	_	_	NP	uns	_	DO	_	PPER	_	MAINDECL-ELLI	_	MF	22,03 Fein=	_	_
+3	geſchuͤtzet	_	_	VVPP	_	_	_	_	_	VP	geſchuͤtzet	_	INF	_	VVPP	RE	MAINDECL-ELLI	RK	RK	22,03 Fein=	_	_
+4	wider	_	_	APPR	_	_	_	_	_	PP	wider	BGR	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	NF	22,03 Fein=	UNLINK	_
+5	unſere	_	_	PPOSAT	_	_	_	_	_	PP	unſere	BGR	PP-OBJ	_	DPOS	_	MAINDECL-ELLI	_	NF	22,03 Fein=	UNLINK	_
+6	Feinde	_	_	NN	_	_	_	_	_	PP	Feinde	BGR	PP-OBJ	NEW	NA	_	MAINDECL-ELLI	_	NF	22,03 Fein=	UNLINK	KOREF1
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	ſ	_	MAINDECL-ELLI	_	_	22,03 Fein=	_	_
+
+# sent_id = 10
+# text = Wer wolte und ſolte Dich nicht da=uͤber loben, Du Maͤchtiger in unſerm Aug=ſpurgiſchen Iſrael!
+1	Wer	_	_	PWS	_	_	_	_	_	NP	Wer	_	SUBJ	_	PW	_	MAININTERR	_	VF	24,04; da-	_	_
+2	wolte	_	_	VMFIN	_	_	_	_	_	VP	wolte	_	VFIN	_	VMFIN	LI	MAININTERR	LK	LK	24,04; da-	_	_
+3	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAININTERR	LK	LK	24,04; da-	_	_
+4	ſolte	_	_	VMFIN	_	_	_	_	_	VP	ſolte	_	VFIN	_	VMFIN	_	MAININTERR	LK	LK	24,04; da-	_	_
+5	Dich	_	_	PPER	_	_	_	_	_	NP	Dich	_	DO	_	PPER	_	MAININTERR	_	MF	24,04; da-	_	_
+6	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAININTERR	_	MF	24,04; da-	_	_
+7	da=uͤber	_	_	KON	_	_	_	_	_	ADVP	da=uͤber	_	ADVB	_	KON	_	MAININTERR	_	MF	24,04; da-	_	_
+8	loben	_	_	VVINF	_	_	_	_	_	NP	loben	_	INF	_	VVINF	RE	MAININTERR	RK	RK	24,05; -uͤber Aug-	_	_
+9	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAININTERR	_	_	24,05; -uͤber Aug-	_	_
+10	Du	_	_	PPER	_	_	_	_	_	NP	Du	_	APPOS	_	PPER	_	MAININTERR	_	NF	24,05; -uͤber Aug-	LINK_APPOS	KOREF1
+11	Maͤchtiger	_	_	NN	_	_	_	_	_	NP	Maͤchtiger	_	APPOS	ACC-UNI-USED-X_	NA	_	MAININTERR	_	NF	24,05; -uͤber Aug-	LINK_APPOS	_
+12	in	_	_	APPR	_	_	_	_	_	PP	in	_	PP-SIT	_	APPR	_	MAININTERR	_	NF	24,05; -uͤber Aug-	UNLINK	_
+13	unſerm	_	_	PPOSAT	_	_	_	_	_	PP	unſerm	_	PP-SIT	_ACC-SIT_	DPOS	_	MAININTERR	_	NF	24,05; -uͤber Aug-	UNLINK	_
+14	Aug=ſpurgiſchen	_	_	NE	_	_	_	_	_	PP	Aug=ſpurgiſchen	_	PP-SIT	_ACC-UNI-USED-X_	NE	_	MAININTERR	_	NF	24,05; -uͤber Aug-	UNLINK	_
+15	Iſrael	_	_	NE	_	_	_	_	_	PP	Iſrael	_	PP-SIT	_ACC-UNI-UNUSED	NE	_	MAININTERR	_	NF	24,06; -ſpurgiſchen	UNLINK	_
+16	!	_	_	$.	_	_	_	_	_	_	!	_	_	_	$_	_	MAININTERR	_	_	24,06; -ſpurgiſchen	_	_
+
+# sent_id = 11
+# text = ſo laß Dir doch jetzo auch noch weiter gefallen das willige Opfer unſers Mun=des, *** das wir Dir fuͤr unſer geſammtes und von Dir nach Deiner Ordnung und Willen ge=ſetztes Evangelisches Lehr= und Predigt=Amt bringen.
+1	ſo	_	_	KON	_	_	_	_	_	_	ſo	_	_	_	KON	_	MAINIMPER	_	VF	29,29	_	_
+2	laß	_	_	VMFIN	_	_	_	_	_	VP	laß	_	VFIN	_	VMFIN	LI	MAINIMPER	LK	LK	29,29	_	_
+3	Dir	_	_	PPER	_	_	_	_	_	NP	Dir	_	IO-DAT	_	PPER	_	MAINIMPER	_	MF	29,29	_	_
+4	doch	_	_	ADV	_	_	_	_	_	ADVP	doch	_	ADVB	_	ADV	_	MAINIMPER	_	MF	29,29	_	_
+5	jetzo	_	_	ADV	_	_	_	_	_	ADVP	jetzo	_	ADVB	_	ADV	_	MAINIMPER	_	MF	29,29	_	_
+6	auch	_	_	KON	_	_	_	_	_	_	auch	_	_	_	KON	_	MAINIMPER	_	MF	29,29	_	_
+7	noch	_	_	ADV	_	_	_	_	_	ADVP	noch	_	ADVB	_	ADV	_	MAINIMPER	_	MF	29,29	_	_
+8	weiter	_	_	ADJD	_	_	_	_	_	ADVP	weiter	_	ADVB	_	ADJD	_	MAINIMPER	_	MF	29,30; Mun-	_	_
+9	gefallen	_	_	VVINF	_	_	_	_	_	VP	gefallen	_	INF	_	VVINF	RE	MAINIMPER	RK	RK	29,30; Mun-	_	_
+10	das	_	_	ART	_	_	_	_	_	NP	das	_	DO	_	DDA	_	MAINIMPER	_	NF	29,30; Mun-	UNLINK	_
+11	willige	_	_	ADJA	_	_	_	_	_	NP	willige	_	DO	_	ADJ	_	MAINIMPER	_	NF	29,30; Mun-	UNLINK	_
+12	Opfer	_	_	NN	_	_	_	_	_	NP	Opfer	_	DO	GIV-INACTIVE	NA	_	MAINIMPER	_	NF	29,30; Mun-	UNLINK	KOREF1-REL
+13	unſers	_	_	PPOSAT	_	_	_	_	_	NP	unſers	_	ATTR	ACC-SIT	DPOS	_	MAINIMPER	_	NF	29,30; Mun-	UNLINK	_
+14	Mun=des	_	_	NN	_	_	_	_	_	NP	Mun=des	_	ATTR	ACC-INF	NA	_	MAINIMPER	_	NF	29,30; Mun-	UNLINK	_
+15	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINIMPER	_	NF	29,31; -des	_	_
+16	***	_	_	XY	_	_	_	_	_	_	***	_	_	_	_	_	MAINIMPER	_	NF	29,31; -des	_	_
+17	das	_	_	PRELS	_	_	_	_	_	CP	das	_	ATTR	_	DDREL	_	MAINIMPER	LK	NF-LK	29,31; -des	_	KOREF2-REL
+18	wir	_	_	PPER	_	_	_	_	_	CP	wir	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+19	Dir	_	_	PPER	_	_	_	_	_	CP	Dir	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+20	fuͤr	_	_	APPR	_	_	_	_	_	CP	fuͤr	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+21	unſer	_	_	PPOSAT	_	_	_	_	_	CP	unſer	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+22	geſammtes	_	_	ADJA	_	_	_	_	_	CP	geſammtes	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+23	und	_	_	KON	_	_	_	_	_	CP	und	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,31; -des	_	_
+24	von	_	_	APPR	_	_	_	_	_	CP	von	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+25	Dir	_	_	PPER	_	_	_	_	_	CP	Dir	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+26	nach	_	_	APPR	_	_	_	_	_	CP	nach	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+27	Deiner	_	_	PPOSAT	_	_	_	_	_	CP	Deiner	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+28	Ordnung	_	_	NN	_	_	_	_	_	CP	Ordnung	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+29	und	_	_	KON	_	_	_	_	_	CP	und	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+30	Willen	_	_	NN	_	_	_	_	_	CP	Willen	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+31	ge=ſetztes	_	_	ADJA	_	_	_	_	_	CP	ge=ſetztes	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,32; ge-	_	_
+32	Evangelisches	_	_	ADJA	_	_	_	_	_	CP	Evangelisches	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,33; -ſetztes	_	_
+33	Lehr=	_	_	TRUNC	_	_	_	_	_	CP	Lehr=	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,33; -ſetztes	_	_
+34	und	_	_	KON	_	_	_	_	_	CP	und	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,33; -ſetztes	_	_
+35	Predigt=Amt	_	_	NN	_	_	_	_	_	CP	Predigt=Amt	_	ATTR	_	_	_	MAINIMPER	_	NF-MF	29,33; -ſetztes	_	_
+36	bringen	_	_	VVFIN	_	_	_	_	_	CP	bringen	_	ATTR	_	_	_	MAINIMPER	RK	NF-RK	29,34; Freu-	_	_
+37	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	MAINIMPER	_	_	29,34; Freu-	_	_
+
+# sent_id = 12
+# text = Laß uns im Himmel haben Theil, mit den Heiligen im ewigen Heil.
+1	Laß	_	_	VVFIN	_	_	_	_	_	VP	Laß	_	VFIN	_	VVFIN	LI	MAINIMPER	LK	LK	34,15	_	_
+2	uns	_	_	PRF	_	_	_	_	_	VP	uns	_	VZ_RFL	_	PRF	_	MAINIMPER	_	MF	34,15	_	_
+3	im	_	_	APPRART	_	_	_	_	_	PP	im	_	PP-SIT	_	APPRART	_	MAINIMPER	_	MF	34,15	_	_
+4	Himmel	_	_	NN	_	_	_	_	_	PP	Himmel	_	PP-SIT	_	NA	_	MAINIMPER	_	MF	34,15	_	_
+5	haben	_	_	VAINF	_	_	_	_	_	VP	haben	_	INF	_	VAINF	RE	MAINIMPER	RK	RK	34,15	_	_
+6	Theil	_	_	NN	_	_	_	_	_	NP	Theil	NF_	DO	ACC-ABSTR-USED-X	NA	_	MAINIMPER	_	NF	34,15	UNLINK1	_
+7	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	_	_	MAINIMPER	_	NF	34,15	_	_
+8	mit	_	_	APPR	_	_	_	_	_	PP	mit	NF_	PP-ADV	_	APPR	_	MAINIMPER	_	NF	34,15	UNLINK2	_
+9	den	_	_	ART	_	_	_	_	_	PP	den	NF_	PP-ADV	_	DDA	_	MAINIMPER	_	NF	34,16 Dei=	UNLINK2	_
+10	Heiligen	_	_	NN	_	_	_	_	_	PP	Heiligen	NF_	PP-ADV	ACC-UNI-UNUSED	NA	_	MAINIMPER	_	NF	34,16 Dei=	UNLINK2	_
+11	im	_	_	APPRART	_	_	_	_	_	PP	im	NF_	PP-SIT	_	APPRART	_	MAINIMPER	_	NF	34,16 Dei=	UNLINK3	_
+12	ewigen	_	_	ADJA	_	_	_	_	_	PP	ewigen	NF_	PP-SIT	_	ADJ	_	MAINIMPER	_	NF	34,16 Dei=	UNLINK3	_
+13	Heil	_	_	NN	_	_	_	_	_	PP	Heil	NF_	PP-SIT	ACC-ABSTR-USED-X	NA	_	MAINIMPER	_	NF	34,16 Dei=	UNLINK3	_
+14	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	ſ	_	MAINIMPER	_	_	34,16 Dei=	_	_

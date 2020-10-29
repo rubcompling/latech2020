@@ -1,0 +1,255 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = jr gemuͤt iſt zeuill erſoffen in luſt vn̄ ſorḡ diſes erbermklichen lebēs /
+1	jr	_	_	PPOSAT	_	_	_	_	_	NP	jr	_	SUBJ	_	_	DPOS	_	MAINDECL	_	VF	04,18	_	_
+2	gemuͤt	_	_	NN	_	_	_	_	_	NP	gemuͤt	_	SUBJ	_	_	NA	_	MAINDECL	_	VF	04,18	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	04,18	_	_
+4	zeuill	_	_	ADV	_	_	_	_	_	ADVP	zeuill	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	04,18	_	_
+5	erſoffen	_	_	VVPP	_	_	_	_	_	VP	erſoffen	NF_	INF	_	Multipler Fokus	VVPP	RE	MAINDECL	RK	RK	04,18	_	_
+6	in	_	_	APPR	_	_	_	_	_	PP	in	NF_	PP-ADV	_	Multipler Fokus	APPR	_	MAINDECL	_	NF	04,19	UNLINK	_
+7	luſt	_	_	NN	_	_	_	_	_	PP	luſt	NF_	PP-ADV	ACC-ABSTR-UNUSED_	Multipler Fokus	NA	_	MAINDECL	_	NF	04,19	UNLINK	_
+8	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	_	PP-ADV	_	Multipler Fokus	KON	_	MAINDECL	_	NF	04,19	UNLINK	_
+9	ſorḡ	_	_	NN	_	_	_	_	_	PP	ſorḡ	NF_	PP-ADV	_ACC-ABSTR-UNUSED_	Multipler Fokus	NA	_	MAINDECL	_	NF	04,19	UNLINK	_
+10	diſes	_	_	PDAT	_	_	_	_	_	NP	diſes	NF_	ATTR	_ACC-ABSTR-UNUSED	Multipler Fokus	DD	_	MAINDECL	_	NF	04,19	UNLINK	_
+11	erbermklichen	_	_	ADJA	_	_	_	_	_	NP	erbermklichen	NF_	ATTR	_ACC-ABSTR-UNUSED	Multipler Fokus	ADJ	_	MAINDECL	_	NF	04,19	UNLINK	_
+12	lebēs	_	_	NN	_	_	_	_	_	NP	lebēs	NF_	ATTR	_ACC-ABSTR-UNUSED	Multipler Fokus	NA	_	MAINDECL	_	NF	04,19	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	04,19	_	_
+
+# sent_id = 2
+# text = darūb mieſſen ſol=lich euangeliſch prediger ketzer geſcholtē werdn̄ / vn̄ auf=ruͤriſch buͤben /
+1	darūb	_	_	ADV	_	_	_	_	_	ADVP	darūb	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	05,13; ſol=	_	_
+2	mieſſen	_	_	VMFIN	_	_	_	_	_	VP	mieſſen	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	05,13; ſol=	_	_
+3	ſol=lich	_	_	ADJA	_	_	_	_	_	NP	ſollich	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	05,13; ſol=	_	_
+4	euangeliſch	_	_	ADJA	_	_	_	_	_	NP	euangeliſch	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	05,14; =lich | auf=	_	_
+5	prediger	_	_	NN	_	_	_	_	_	NP	prediger	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	05,14; =lich | auf=	_	_
+6	ketzer	_	_	NN	_	_	_	_	_	NP	ketzer	_	PRD	_	_	NA	_	MAINDECL	_	MF	05,14; =lich | auf=	_	_
+7	geſcholtē	_	_	VVPP	_	_	_	_	_	VP	geſcholtē	_	INF	_	_	VVPP	_	MAINDECL	RK	RK	05,14; =lich | auf=	_	_
+8	werdn̄	_	_	VAINF	_	_	_	_	_	VP	werdn̄	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	05,14; =lich | auf=	_	_
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,14; =lich | auf=	_	_
+10	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	_	_	_	_	KON	_	MAINDECL	_	NF	05,14; =lich | auf=	_	_
+11	auf=ruͤriſch	_	_	ADJA	_	_	_	_	_	NP	aufruͤriſch	NF	PRD	NEW	_	ADJ	_	MAINDECL	_	NF	05,14; =lich | auf=	LINK_SYM	_
+12	buͤben	_	_	NN	_	_	_	_	_	NP	buͤben	NF	PRD	NEW	_	NA	_	MAINDECL	_	NF	05,15; =ruͤriſch | ſch=	LINK_SYM	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,15; =ruͤriſch | ſch=	_	_
+
+# sent_id = 3
+# text = ich hab nit betruͤbt Jſrahel /
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	05,21; ge=	_	_
+2	hab	_	_	VAFIN	_	_	_	_	_	VP	hab	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	05,21; ge=	_	_
+3	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	_	PTKNEG	_	MAINDECL	_	MF	05,21; ge=	_	_
+4	betruͤbt	_	_	VVPP	_	_	_	_	_	VP	betruͤbt	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	05,21; ge=	_	_
+5	Jſrahel	_	_	NE	_	_	_	_	_	NP	Jſrahel	BGR	DO	ACC-UNI-USED-1	_	NE	_	MAINDECL	_	NF	05,21; ge=	UNLINK	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,21; ge=	_	_
+
+# sent_id = 4
+# text = da ward er vō den oͤberiſtn̄ verklagt vor dem künig Se=dechia ſprechēde /
+1	da	_	_	ADV	_	_	_	_	_	ADVP	da	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	05,26; Se-	_	_
+2	ward	_	_	VAFIN	_	_	_	_	_	VP	ward	_	VFIN	_	_	VAFIN	_	MAINDECL	LK	LK	05,26; Se-	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	_	PPER	LI	MAINDECL	_	MF	05,26; Se-	_	_
+4	vō	_	_	APPR	_	_	_	_	_	PP	vō	_	PP-AGENS	_	_	APPR	_	MAINDECL	_	MF	05,26; Se-	_	_
+5	den	_	_	ART	_	_	_	_	_	PP	den	_	PP-AGENS	_	_	DDA	_	MAINDECL	_	MF	05,26; Se-	_	_
+6	oͤberiſtn̄	_	_	NN	_	_	_	_	_	PP	oͤberiſtn̄	_	PP-AGENS	_	_	NA	_	MAINDECL	_	MF	05,26; Se-	_	_
+7	verklagt	_	_	VVINF	_	_	_	_	_	VP	verklagt	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	05,26; Se-	_	_
+8	vor	_	_	APPR	_	_	_	_	_	PP	vor	BGR	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	05,26; Se-	UNLINK	_
+9	dem	_	_	ART	_	_	_	_	_	PP	dem	BGR	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	05,26; Se-	UNLINK	_
+10	künig	_	_	NN	_	_	_	_	_	PP	künig	BGR	PP-ADV	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	05,26; Se-	UNLINK	KOREF1
+11	Se=dechia	_	_	NE	_	_	_	_	_	PP	Sedechia	BGR	APPOS	ACC-UNI-UNUSED	_	NE	_	MAINDECL	_	NF	05,26; Se-	UNLINK	_
+12	ſprechēde	_	_	ADJD	_	_	_	_	_	VP	ſprechēde	BGR	GERUND	_	_	VVPSD	_	MAINDECL	_	NF	05,27; -dechia	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,27; -dechia	_	_
+
+# sent_id = 5
+# text = jr ſolt nit fliehn̄ in Egipto /
+1	jr	_	_	PPER	_	_	_	_	_	NP	jr	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	05,31	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	05,31	_	_
+3	nit	_	_	PTKNEG	_	_	_	_	_	_	nit	_	_	_	_	PTKNEG	_	MAINDECL	_	MF	05,31	_	_
+4	fliehn̄	_	_	VVINF	_	_	_	_	_	VP	fliehn̄	NF	INF	_	_	VVINF	RE	MAINDECL	RK	RK	05,31	_	_
+5	in	_	_	APPR	_	_	_	_	_	PP	in	NF	PP-DIR	ACC-UNI-UNUSED	_	APPR	_	MAINDECL	_	NF	05,31	UNLINK	_
+6	Egipto	_	_	NE	_	_	_	_	_	PP	Egipto	NF	PP-DIR	ACC-UNI-UNUSED	_	NE	_	MAINDECL	_	NF	05,32	UNLINK	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,32	_	_
+
+# sent_id = 6
+# text = Jr werdt ſonſt ſterbn̄ des ſchwerts / teüren vn̄ peſtilentz /
+1	Jr	_	_	PPER	_	_	_	_	_	NP	Jr	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	05,32	_	_
+2	werdt	_	_	VAFIN	_	_	_	_	_	VP	werdt	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	05,32	_	_
+3	ſonſt	_	_	ADV	_	_	_	_	_	ADVP	ſonſt	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	05,32	_	_
+4	ſterbn̄	_	_	VVINF	_	_	_	_	_	VP	ſterbn̄	NF	INF	_	_	VVINF	RE	MAINDECL	RK	RK	05,32	_	_
+5	des	_	_	ART	_	_	_	_	_	NP	des	NF	IO-GEN	NEW	_	DDA	_	MAINDECL	_	NF	05,32	UNLINK	_
+6	ſchwerts	_	_	NN	_	_	_	_	_	NP	ſchwerts	NF	IO-GEN	NEW	_	NA	_	MAINDECL	_	NF	05,32	UNLINK	_
+7	/	_	_	$,	_	_	_	_	_	NP	/	NF	IO-GEN	NEW	_	$_	_	MAINDECL	_	NF	05,32	UNLINK	_
+8	teüren	_	_	NN	_	_	_	_	_	NP	teüren	NF	IO-GEN	NEW	_	NA	_	MAINDECL	_	NF	05,32	UNLINK	_
+9	vn̄	_	_	KON	_	_	_	_	_	NP	vn̄	NF	IO-GEN	NEW	_	KON	_	MAINDECL	_	NF	05,32	UNLINK	_
+10	peſtilentz	_	_	NN	_	_	_	_	_	NP	peſtilentz	NF	IO-GEN	NEW	_	NA	_	MAINDECL	_	NF	05,33	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	05,33	_	_
+
+# sent_id = 7
+# text = Amos hat wid' dich gebellet jm mit=ten dem volck Jſrahel /
+1	Amos	_	_	NE	_	_	_	_	_	NP	Amos	_	SUBJ	_	_	NE	_	MAINDECL	_	VF	06,16; mit=	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	06,16; mit=	_	_
+3	wid'	_	_	APPR	_	_	_	_	_	PP	wid'	_	PP-ADV	_	_	APPR	_	MAINDECL	_	MF	06,16; mit=	_	_
+4	dich	_	_	PPER	_	_	_	_	_	PP	dich	_	PP-ADV	_	_	PPER	_	MAINDECL	_	MF	06,16; mit=	_	_
+5	gebellet	_	_	VVPP	_	_	_	_	_	NP	gebellet	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	06,16; mit=	_	_
+6	jm	_	_	APPR	_	_	_	_	_	PP	jm	NF	PP-SIT	_	_	APPR	_	MAINDECL	_	NF	06,16; mit=	UNLINK	_
+7	mit=ten	_	_	APPR	_	_	_	_	_	PP	mitten	NF	PP-SIT	ACC-UNI-USED-X	_	APPR	_	MAINDECL	_	NF	06,16; mit=	UNLINK	_
+8	dem	_	_	ART	_	_	_	_	_	PP	dem	NF	PP-SIT	ACC-UNI-USED-X	_	DDA	_	MAINDECL	_	NF	06,17; =ten	UNLINK	_
+9	volck	_	_	NN	_	_	_	_	_	PP	volck	NF	PP-SIT	ACC-UNI-USED-X	_	NA	_	MAINDECL	_	NF	06,17; =ten	UNLINK	_
+10	Jſrahel	_	_	NE	_	_	_	_	_	PP	Jſrahel	NF	PP-SIT	ACC-UNI-USED-X	_	NE	_	MAINDECL	_	NF	06,17; =ten	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	06,17; =ten	_	_
+
+# sent_id = 8
+# text = Wir haben diſen man gfundē ſchoͤdlich /
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	06,32; -ent	_	_
+2	haben	_	_	VAFIN	_	_	_	_	_	VP	haben	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	06,32; -ent	_	_
+3	diſen	_	_	PDAT	_	_	_	_	_	NP	diſen	_	DO	_	_	DD	_	MAINDECL	_	MF	06,32; -ent	_	_
+4	man	_	_	NN	_	_	_	_	_	NP	man	_	DO	_	_	NA	_	MAINDECL	_	MF	06,33	_	_
+5	gfundē	_	_	VVPP	_	_	_	_	_	VP	gfundē	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	06,33	_	_
+6	ſchoͤdlich	_	_	ADJD	_	_	_	_	_	AP	ſchoͤdlich	NF	PRD	NA	_	ADJD	_	MAINDECL	_	NF	06,33	UNLINK	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	06,33	_	_
+
+# sent_id = 9
+# text = jr werdt verhaßt vō allē vm̄ meines namē willē
+1	jr	_	_	PPER	_	_	_	_	_	NP	jr	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	07,09; -mecht	_	_
+2	werdt	_	_	VAFIN	_	_	_	_	_	VP	werdt	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	07,09; -mecht	_	_
+3	verhaßt	_	_	VVPP	_	_	_	_	_	VP	verhaßt	NF	INF	_	_	VVPP	RE	MAINDECL	RK	RK	07,09; -mecht	_	_
+4	vō	_	_	APPR	_	_	_	_	_	PP	vō	NF	PP-ADV	NEW	_	APPR	_	MAINDECL	_	NF	07,09; -mecht	UNLINK1	_
+5	allē	_	_	PIS	_	_	_	_	_	PP	allē	NF	PP-ADV	NEW	_	DIS	_	MAINDECL	_	NF	07,09; -mecht	UNLINK1	_
+6	vm̄	_	_	APPR	_	_	_	_	_	PP	vm̄	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	07,09; -mecht	UNLINK2	_
+7	meines	_	_	PPOSAT	_	_	_	_	_	PP	meines	NF	PP-ADV	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	07,10	UNLINK2	_
+8	namē	_	_	NN	_	_	_	_	_	PP	namē	NF	PP-ADV	_ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	07,10	UNLINK2	_
+9	willē	_	_	APZR	_	_	_	_	_	PP	willē	NF	PP-ADV	_	_	APZR	_	MAINDECL	_	NF	07,10	UNLINK2	_
+
+# sent_id = 10
+# text = Dz wort des herrn̄ iſt mir wordē zuͦ ainer ſchmach vn̄ verſpotūg /
+1	Dz	_	_	ART	_	_	_	_	_	NP	Dz	_	SUBJ	_	_	DDA	_	MAINDECL	_	VF	08,28	_	_
+2	wort	_	_	NN	_	_	_	_	_	NP	wort	_	SUBJ	_	_	NA	_	MAINDECL	_	VF	08,28	_	_
+3	des	_	_	ART	_	_	_	_	_	NP	des	_	ATTR	_	_	DDA	_	MAINDECL	_	VF	08,28	_	_
+4	herrn̄	_	_	NN	_	_	_	_	_	NP	herrn̄	_	ATTR	_	_	NA	_	MAINDECL	_	VF	08,28	_	_
+5	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	08,28	_	_
+6	mir	_	_	PRF	_	_	_	_	_	NP	mir	_	VZ_RFL	_	_	PRF	_	MAINDECL	_	MF	08,28	_	_
+7	wordē	_	_	VAFIN	_	_	_	_	_	VP	wordē	_	INF	_	_	VAFIN	RE	MAINDECL	RK	RK	08,28	_	_
+8	zuͦ	_	_	APPR	_	_	_	_	_	PP	zuͦ	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	08,28	UNLINK	_
+9	ainer	_	_	ART	_	_	_	_	_	PP	ainer	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	DIA	_	MAINDECL	_	NF	08,29	UNLINK	_
+10	ſchmach	_	_	NN	_	_	_	_	_	PP	ſchmach	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	08,29	UNLINK	KOREF1
+11	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	KON	_	MAINDECL	_	NF	08,29	UNLINK	_
+12	verſpotūg	_	_	NN	_	_	_	_	_	PP	verſpotūg	NF	PP-OBJ	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	08,29	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	08,29	_	_
+
+# sent_id = 11
+# text = Alſo muͦſt |u gleich zuͦ ainē ſchauſpiegel werdn̄ / vor aller welt /
+1	Alſo	_	_	ADV	_	_	_	_	_	ADVP	Alſo	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	08,29	_	_
+2	muͦſt	_	_	VMFIN	_	_	_	_	_	VP	muͦſt	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	08,29	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	08,29	_	_
+4	gleich	_	_	ADV	_	_	_	_	_	ADVP	gleich	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	08,29	_	_
+5	zuͦ	_	_	APPR	_	_	_	_	_	PP	zuͦ	_	PP-OBJ	_	_	APPR	_	MAINDECL	_	MF	08,29	_	_
+6	ainē	_	_	ART	_	_	_	_	_	PP	ainē	_	PP-OBJ	_	_	DIA	_	MAINDECL	_	MF	08,29	_	_
+7	ſchauſpiegel	_	_	NN	_	_	_	_	_	PP	ſchauſpiegel	_	PP-OBJ	_	_	NA	_	MAINDECL	_	MF	08,30	_	_
+8	werdn̄	_	_	VAINF	_	_	_	_	_	VP	werdn̄	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	08,30	_	_
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	08,30	_	_
+10	vor	_	_	APPR	_	_	_	_	_	PP	vor	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	08,30	UNLINK	_
+11	aller	_	_	PIAT	_	_	_	_	_	PP	aller	NF_	PP-ADV	ACC-UNI-USED-X	_	DI	_	MAINDECL	_	NF	08,30	UNLINK	_
+12	welt	_	_	NN	_	_	_	_	_	PP	welt	NF_	PP-ADV	ACC-UNI-USED-X	_	NA	_	MAINDECL	_	NF	08,30	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	08,30	_	_
+
+# sent_id = 12
+# text = ich bin erfült mit d' ſtercke des gaiſts des herrē / mit gericht vn̄ krafft
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	10,02	_	_
+2	bin	_	_	VAFIN	_	_	_	_	_	VP	bin	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	10,03	_	_
+3	erfült	_	_	VVPP	_	_	_	_	_	VP	erfült	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	10,03	_	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	10,03	UNLINK1	_
+5	d'	_	_	ART	_	_	_	_	_	PP	d'	NF_	PP-OBJ	ACC-ABSTR-UNUSED_	_	DDA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+6	ſtercke	_	_	NN	_	_	_	_	_	PP	ſtercke	NF_	PP-OBJ	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+7	des	_	_	ART	_	_	_	_	_	PP	des	NF_	ATTR	_ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+8	gaiſts	_	_	NN	_	_	_	_	_	PP	gaiſts	NF_	ATTR	_ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+9	des	_	_	ART	_	_	_	_	_	PP	des	NF_	ATTR	_ACC-UNI-USED-X	_	DDA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+10	herrē	_	_	NN	_	_	_	_	_	PP	herrē	NF_	ATTR	_ACC-UNI-USED-X	_	NA	_	MAINDECL	_	NF	10,03	UNLINK1	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	10,03	_	_
+12	mit	_	_	APPR	_	_	_	_	_	PP	mit	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	10,03	UNLINK2	_
+13	gericht	_	_	NN	_	_	_	_	_	PP	gericht	NF_	PP-OBJ	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	10,03	UNLINK2	_
+14	vn̄	_	_	KON	_	_	_	_	_	PP	vn̄	NF_	PP-OBJ	_	_	KON	_	MAINDECL	_	NF	10,04	UNLINK2	_
+15	krafft	_	_	NN	_	_	_	_	_	PP	krafft	NF_	PP-OBJ	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	10,04	UNLINK2	_
+
+# sent_id = 13
+# text = ich hab dich heüt gebē in ein verwarte ſtat / in ain eyſine ſaul / in ein eryne maur über alles land / den künigen Juda jren fürſtē vn̄ prieſtern vn̄ allem volck des erdtrichs /
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	11,02	_	_
+2	hab	_	_	VAFIN	_	_	_	_	_	VP	hab	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	11,02	_	_
+3	dich	_	_	PPER	_	_	_	_	_	NP	dich	_	DO	_	_	PPER	_	MAINDECL	_	MF	11,03	_	_
+4	heüt	_	_	ADV	_	_	_	_	_	ADVP	heüt	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	11,03	_	_
+5	gebē	_	_	VVPP	_	_	_	_	_	VP	gebē	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	11,03	_	_
+6	in	_	_	APPR	_	_	_	_	_	PP	in	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	11,03	UNLINK1	_
+7	ein	_	_	ART	_	_	_	_	_	PP	ein	NF_	PP-DIR	NEW_	_	DIA	_	MAINDECL	_	NF	11,03	UNLINK1	_
+8	verwarte	_	_	ADJA	_	_	_	_	_	PP	verwarte	NF_	PP-DIR	NEW_	_	ADJ	_	MAINDECL	_	NF	11,03	UNLINK1	_
+9	ſtat	_	_	NN	_	_	_	_	_	PP	ſtat	NF_	PP-DIR	NEW_	_	NA	_	MAINDECL	_	NF	11,03	UNLINK1	_
+10	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	11,03	UNLINK1	_
+11	in	_	_	APPR	_	_	_	_	_	PP	in	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	11,03	UNLINK1	_
+12	ain	_	_	ART	_	_	_	_	_	PP	ain	NF_	PP-DIR	_NEW_	_	DIA	_	MAINDECL	_	NF	11,03	UNLINK1	_
+13	eyſine	_	_	ADJA	_	_	_	_	_	PP	eyſine	NF_	PP-DIR	_NEW_	_	ADJ	_	MAINDECL	_	NF	11,03	UNLINK1	_
+14	ſaul	_	_	NN	_	_	_	_	_	PP	ſaul	NF_	PP-DIR	_NEW_	_	NA	_	MAINDECL	_	NF	11,03	UNLINK1	_
+15	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	11,03	UNLINK1	_
+16	in	_	_	APPR	_	_	_	_	_	PP	in	NF_	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	11,04	UNLINK1	_
+17	ein	_	_	ART	_	_	_	_	_	PP	ein	NF_	PP-DIR	_NEW_	_	DIA	_	MAINDECL	_	NF	11,04	UNLINK1	_
+18	eryne	_	_	ADJA	_	_	_	_	_	PP	eryne	NF_	PP-DIR	_NEW_	_	ADJ	_	MAINDECL	_	NF	11,04	UNLINK1	_
+19	maur	_	_	NN	_	_	_	_	_	PP	maur	NF_	PP-DIR	_NEW_	_	NA	_	MAINDECL	_	NF	11,04	UNLINK1	_
+20	über	_	_	APPR	_	_	_	_	_	PP	über	NF_	ATTR	ACC-ABSTR-USED-X	_	APPR	_	MAINDECL	_	NF	11,04	UNLINK1	_
+21	alles	_	_	PIAT	_	_	_	_	_	PP	alles	NF_	ATTR	ACC-ABSTR-USED-X	_	DI	_	MAINDECL	_	NF	11,04	UNLINK1	_
+22	land	_	_	NN	_	_	_	_	_	PP	land	NF_	ATTR	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	11,04	UNLINK1	_
+23	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	NF	11,04	_	_
+24	den	_	_	ART	_	_	_	_	_	NP	den	NF_	IO-DAT	NEW_	_	DDA	_	MAINDECL	_	NF	11,04	UNLINK2	_
+25	künigen	_	_	NN	_	_	_	_	_	NP	künigen	NF_	IO-DAT	NEW_	_	NA	_	MAINDECL	_	NF	11,04	UNLINK2	_
+26	Juda	_	_	NE	_	_	_	_	_	NP	Juda	NF_	IO-DAT	NEW_	_	NE	_	MAINDECL	_	NF	11,04	UNLINK2	_
+27	jren	_	_	PPOSAT	_	_	_	_	_	NP	jren	NF_	IO-DAT	_NEW_	_	DPOS	_	MAINDECL	_	NF	11,05	UNLINK2	_
+28	fürſtē	_	_	NN	_	_	_	_	_	NP	fürſtē	NF_	IO-DAT	_NEW_	_	NA	_	MAINDECL	_	NF	11,05	UNLINK2	_
+29	vn̄	_	_	KON	_	_	_	_	_	NP	vn̄	NF_	IO-DAT	_NEW_	_	KON	_	MAINDECL	_	NF	11,05	UNLINK2	_
+30	prieſtern	_	_	NN	_	_	_	_	_	NP	prieſtern	NF_	IO-DAT	_NEW_	_	NA	_	MAINDECL	_	NF	11,05	UNLINK2	_
+31	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	_	_	_	_	KON	_	MAINDECL	_	NF	11,05	UNLINK2	_
+32	allem	_	_	PIAT	_	_	_	_	_	NP	allem	NF_	IO-DAT	_NEW	_	DI	_	MAINDECL	_	NF	11,05	UNLINK2	_
+33	volck	_	_	NN	_	_	_	_	_	NP	volck	NF_	IO-DAT	_NEW	_	NA	_	MAINDECL	_	NF	11,05	UNLINK2	_
+34	des	_	_	ART	_	_	_	_	_	NP	des	NF_	ATTR	_NEW	_	DDA	_	MAINDECL	_	NF	11,05	UNLINK2	_
+35	erdtrichs	_	_	NN	_	_	_	_	_	NP	erdtrichs	NF_	ATTR	_NEW	_	NA	_	MAINDECL	_	NF	11,05	UNLINK2	_
+36	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	11,05	_	_
+
+# sent_id = 14
+# text = ich hab aber dein angeſicht geben mechtiger dan̄ jre angeſichtt /
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	12,01	_	_
+2	hab	_	_	VAFIN	_	_	_	_	_	VP	hab	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	12,01	_	_
+3	aber	_	_	ADV	_	_	_	_	_	ADVP	aber	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	12,01	_	_
+4	dein	_	_	PPOSAT	_	_	_	_	_	NP	dein	_	DO	_	_	DPOS	_	MAINDECL	_	MF	12,02	_	_
+5	angeſicht	_	_	NN	_	_	_	_	_	NP	angeſicht	_	DO	_	_	NA	_	MAINDECL	_	MF	12,02	_	_
+6	geben	_	_	VVPP	_	_	_	_	_	VP	geben	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	12,02	_	_
+7	mechtiger	_	_	ADJD	_	_	_	_	_	AP	mechtiger	NF_	PRD	_	_	ADJD	_	MAINDECL	_	NF	12,02	LINK_SYM	_
+8	dan̄	_	_	KOKOM	_	_	_	_	_	_	dan̄	CF_	VGL	_	_	KOKOM	_	MAINDECL	_	NF	12,02	LINK_SYM	_
+9	jre	_	_	PPOSAT	_	_	_	_	_	NP	jre	CF_	VGL	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	12,02	LINK_SYM	_
+10	angeſichtt	_	_	NN	_	_	_	_	_	NP	angeſichtt	CF_	VGL	_GIV-ACTIVE	_	NA	_	MAINDECL	_	NF	12,02	LINK_SYM	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	12,02	_	_
+
+# sent_id = 15
+# text = ich hab dir geben dein angeſicht wie ain Adamant vn̄ kißling /
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	12,03	_	_
+2	hab	_	_	VAFIN	_	_	_	_	_	VP	hab	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	12,03	_	_
+3	dir	_	_	PPER	_	_	_	_	_	NP	dir	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	12,03	_	_
+4	geben	_	_	VVPP	_	_	_	_	_	VP	geben	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	12,03	_	_
+5	dein	_	_	PPOSAT	_	_	_	_	_	NP	dein	BGR_	DO	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	12,03	UNLINK1	_
+6	angeſicht	_	_	NN	_	_	_	_	_	NP	angeſicht	BGR_	DO	_GIV-ACTIVE	_	NA	_	MAINDECL	_	NF	12,04	UNLINK1	_
+7	wie	_	_	KOKOM	_	_	_	_	_	_	wie	NF_	VGL	_	_	KOKOM	_	MAINDECL	_	NF	12,04	UNLINK2	_
+8	ain	_	_	ART	_	_	_	_	_	NP	ain	NF_	VGL	_	_	DIA	_	MAINDECL	_	NF	12,04	UNLINK2	_
+9	Adamant	_	_	NN	_	_	_	_	_	NP	Adamant	NF_	VGL	NEW_	_	NA	_	MAINDECL	_	NF	12,04	UNLINK2	_
+10	vn̄	_	_	KON	_	_	_	_	_	NP	vn̄	NF_	VGL	_	_	KON	_	MAINDECL	_	NF	12,04	UNLINK2	_
+11	kißling	_	_	NN	_	_	_	_	_	NP	kißling	NF_	VGL	_NEW	_	NA	_	MAINDECL	_	NF	12,04	UNLINK2	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	12,04	_	_
+
+# sent_id = 16
+# text = Geſchent ſolln̄ ſy werden alle die die mich verfolgen
+1	Geſchent	_	_	VVPP	_	_	_	_	_	VP	Geſchent	_	INF	_	_	VVPP	_	MAINDECL	RK	VF-RK	13,02	_	_
+2	ſolln̄	_	_	VMFIN	_	_	_	_	_	VP	ſolln̄	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	13,02	_	_
+3	ſy	_	_	PPER	_	_	_	_	_	NP	ſy	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	13,02	_	_
+4	werden	_	_	VAINF	_	_	_	_	_	VP	werden	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	13,02	_	_
+5	alle	_	_	PIS	_	_	_	_	_	NP	alle	NF	SUBJ	GIV-ACTIVE	_	DIS	_	MAINDECL	_	NF	13,02	LINK_ASSYM	KOREF1-REL
+6	die	_	_	PDS	_	_	_	_	_	NP	die	NF	SUBJ	GIV-ACTIVE	_	DDS	_	MAINDECL	_	NF	13,02	LINK_ASSYM	KOREF1-REL
+7	die	_	_	PRELS	_	_	_	_	_	CP	die	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	13,03; ver=	LINK_ASSYM	KOREF2-REL
+8	mich	_	_	PPER	_	_	_	_	_	CP	mich	NF	ATTR	_	_	PPER	_	MAINDECL	_	NF-MF	13,03; ver=	LINK_ASSYM	_
+9	verfolgen	_	_	VVFIN	_	_	_	_	_	CP	verfolgen	NF	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	13,03; ver=	LINK_ASSYM	_
+
+# sent_id = 17
+# text = Verbāt iſt dz gebet /
+1	Verbāt	_	_	VVPP	_	_	_	_	_	VP	Verbāt	NF	INF	_	_	VVPP	LI	MAINDECL	RK	VF-RK	13,27	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	NF	VFIN	_	_	VAFIN	RE	MAINDECL	LK	LK	13,27	_	_
+3	dz	_	_	ART	_	_	_	_	_	NP	dz	NF	SUBJ	_	_	DDA	_	MAINDECL	_	MF	13,28	UNLINK	_
+4	gebet	_	_	NN	_	_	_	_	_	NP	gebet	NF	SUBJ	NEW	_	NA	_	MAINDECL	_	MF	13,28	UNLINK	KOREF1-REL
+5	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	$_	_	MAINDECL	_	_	13,28	_	_

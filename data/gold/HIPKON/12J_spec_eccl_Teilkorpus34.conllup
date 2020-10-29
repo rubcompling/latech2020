@@ -1,0 +1,45 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION Ergaenzung FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Die ſelbi herrn ſint geheizzin an den buͦchin zwei lieht der (chriſt)inheit.
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	83,17	_	_	SUBJ	_	DDA	_	MAINDECL	_	VF	77v,15; -digotin	_	_
+2	ſelbi	_	_	ADJA	_	_	_	_	_	NP	ſelbi	83,17	_	_	SUBJ	_	ADJ	_	MAINDECL	_	VF	77v,15; -digotin	_	_
+3	herrn	_	_	NN	_	_	_	_	_	NP	herrn	83,18	_	_	SUBJ	_	NA	_	MAINDECL	_	VF	77v,15; -digotin	_	_
+4	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	83,18	_	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	77v,16	_	_
+5	geheizzin	_	_	VVPP	_	_	_	_	_	VP	geheizzin	83,18	_	_	INF	_	VVPP	RE	MAINDECL	RK	RK	77v,16	_	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	83,18	_	BGR_	PP-ADV	ACC-UNI-UNUSED	APPR	_	MAINDECL	_	NF	77v,16	UNLINK1	_
+7	den	_	_	ART	_	_	_	_	_	PP	den	83,18	_	BGR_	PP-ADV	ACC-UNI-UNUSED	DDA	_	MAINDECL	_	NF	77v,16	UNLINK1	_
+8	buͦchin	_	_	NN	_	_	_	_	_	PP	buͦchin	83,18	_	BGR_	PP-ADV	ACC-UNI-UNUSED	NA	_	MAINDECL	_	NF	77v,16	UNLINK1	_
+9	zwei	_	_	ADJA	_	_	_	_	_	NP	zwei	83,18	_	NF_	PRD	NEW_	ADJO	_	MAINDECL	_	NF	77v,16	UNLINK2	KOREF1
+10	lieht	_	_	NN	_	_	_	_	_	NP	lieht	83,18	_	NF_	PRD	NEW_	NA	_	MAINDECL	_	NF	77v,16	UNLINK2	KOREF1
+11	der	_	_	ART	_	_	_	_	_	NP	der	83,18	_	NF_	ATTR	_GIV-ACTIVE	DDA	_	MAINDECL	_	NF	77v,16	UNLINK2	KOREF1
+12	(chriſt)inheit	_	_	NN	_	_	_	_	_	NP	(chriſt)inheit	83,18	_	NF_	ATTR	_GIV-ACTIVE	NA	_	MAINDECL	_	NF	77v,17; er-	UNLINK2	KOREF1
+13	.	_	_	$.	_	_	_	_	_	_	.	83,18	_	_	_	_	$_	_	MAINDECL	_	_	77v,17; er-	_	_
+
+# sent_id = 2
+# text = Die ſelbin gotiſ trute die ŵrdin einiſ tageſ gemartẏrot ze rôme.
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	84,13	_	_	VOVF	_	DDA	_	MAINDECL	_	LV	78v,05	_	_
+2	ſelbin	_	_	ADJA	_	_	_	_	_	NP	ſelbin	84,13	_	_	VOVF	_	ADJ	_	MAINDECL	_	LV	78v,05	_	_
+3	gotiſ	_	_	NN	_	_	_	_	_	NP	gotiſ	84,13	_	_	VOVF	_	NA	_	MAINDECL	_	LV	78v,05	_	_
+4	trute	_	_	NN	_	_	_	_	_	NP	trute	84,13	_	_	VOVF	_	NA	_	MAINDECL	_	LV	75v,06; rô-	_	_
+5	die	_	_	PDS	_	_	_	_	_	NP	die	84,13	_	_	SUBJ	_	DDS	_	MAINDECL	_	VF	75v,06; rô-	_	_
+6	ŵrdin	_	_	VAFIN	_	_	_	_	_	VP	ŵrdin	84,14; gecru-	ŵrdin: folgt Lücke 	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	75v,06; rô-	_	_
+7	einiſ	_	_	ART	_	_	_	_	_	NP	einiſ	84,14; gecru-	_	_	ADVB	_	DIA	_	MAINDECL	_	MF	75v,06; rô-	_	_
+8	tageſ	_	_	NN	_	_	_	_	_	NP	tageſ	84,14; gecru-	_	_	ADVB	_	NA	_	MAINDECL	_	MF	75v,06; rô-	_	_
+9	gemartẏrot	_	_	VVPP	_	_	_	_	_	VP	gemartẏrot	84,14; gecru-	_	_	INF	_	VVPP	RE	MAINDECL	RK	RK	75v,06; rô-	_	_
+10	ze	_	_	APPR	_	_	_	_	_	PP	ze	84,14; gecru-	_	BGR	PP-SIT	ACC-UNI-USED-X	APPR	_	MAINDECL	_	NF	75v,06; rô-	UNLINK	_
+11	rôme	_	_	NE	_	_	_	_	_	PP	rôme	84,14; gecru-	_	BGR	PP-SIT	ACC-UNI-USED-X	NE	_	MAINDECL	_	NF	75v,06; rô-	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	84,14; gecru-	_	_	_	_	$_	_	MAINDECL	_	_	75v,07; -me	_	_
+
+# sent_id = 3
+# text = Deme ſit ir hivte beu%olhen mit libe un̄ mit ſele.
+1	Deme	_	_	PDS	_	_	_	_	_	NP	Deme	84,24	_	_	IO-DAT	_	DDS	_	MAINDECL	_	VF	78v,21; -tin	_	_
+2	ſit	_	_	VAFIN	_	_	_	_	_	VP	ſit	84,24	_	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	78v,21; -tin	_	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	84,24	_	_	SUBJ	_	PPER	_	MAINDECL	_	MF	78v,21; -tin	_	_
+4	hivte	_	_	ADV	_	_	_	_	_	ADVP	hivte	84,24	_	_	ADVB	_	ADV	_	MAINDECL	_	MF	78v,21; -tin	_	_
+5	beu%olhen	_	_	VVPP	_	_	_	_	_	VP	beu%olhen	84,24	_	_	INF	_	VVPP	RE	MAINDECL	RK	RK	78v,21; -tin	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	84,24	_	NF_	PP-ADV	ACC-ABSTR-USED-X_	APPR	_	MAINDECL	_	NF	78v,21; -tin	UNLINK	_
+7	libe	_	_	NN	_	_	_	_	_	PP	libe	84,24	_	NF_	PP-ADV	ACC-ABSTR-USED-X_	NA	_	MAINDECL	_	NF	78v,21; -tin	UNLINK	_
+8	un̄	_	_	KON	_	_	_	_	_	PP	un̄	84,25	_	_	_	_	KON	_	MAINDECL	_	NF	78v,21; -tin	UNLINK	_
+9	mit	_	_	APPR	_	_	_	_	_	PP	mit	84,25	_	NF_	PP-ADV	_ACC-GEN-UNUSED	APPR	_	MAINDECL	_	NF	78v,21; -tin	UNLINK	_
+10	ſele	_	_	NN	_	_	_	_	_	PP	ſele	84,25	_	NF_	PP-ADV	_ACC-GEN-UNUSED	NA	_	MAINDECL	_	NF	78v,22	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_		.	84,25	_	_	_	_	$_	_	MAINDECL	_	_	78v,22	_	_

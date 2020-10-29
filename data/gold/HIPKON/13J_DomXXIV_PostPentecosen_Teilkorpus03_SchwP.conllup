@@ -1,0 +1,65 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = ez iſt ain grôz zaichē erſchinē an dē himel.
+1	ez	_	_	PPER	_	_	_	_	_	NP	ez	153,34	_	EXPL	_	_	PPER	_	MAINDECL	_	VF	123v,05	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	153,34	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	123v,05	_	_
+3	ain	_	_	ART	_	_	_	_	_	NP	ain	153,34	_	SUBJ	_	_	DIA	_	MAINDECL	_	MF	123v,05	_	_
+4	grôz	_	_	ADJA	_	_	_	_	_	NP	grôz	153,34	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	123v,05	_	_
+5	zaichē	_	_	NN	_	_	_	_	_	NP	zaichē	153,34	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	123v,05	_	_
+6	erſchinē	_	_	VVPP	_	_	_	_	_	VP	erſchinē	153,34	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	123v,06	_	_
+7	an	_	_	APPR	_	_	_	_	_	PP	an	153,34	BGR	PP-SIT	_	_	APPR	_	MAINDECL	_	NF	123v,06	UNLINK	_
+8	dē	_	_	ART	_	_	_	_	_	PP	dē	153,34	BGR	PP-SIT	ACC-UNI-UNUSED	_	DDA	_	MAINDECL	_	NF	123v,06	UNLINK	_
+9	himel	_	_	NN	_	_	_	_	_	PP	himel	153,34	BGR	PP-SIT	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	123v,06	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	153,34	_	_	_	_	$_	_	MAINDECL	_	_	123v,06	_	_
+
+# sent_id = 2
+# text = ſo wil d' zarte got vol himel ain krône ſin d' êre. aller ſiner friunde
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	154,16	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	124r,01	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	154,16	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	124r,01	_	_
+3	d'	_	_	ART	_	_	_	_	_	NP	d'	154,16	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	124r,01	_	_
+4	zarte	_	_	ADJA	_	_	_	_	_	NP	zarte	154,16	_	SUBJ	_	_	ADJ	_	MAINDECL	_	MF	124r,01	_	_
+5	got	_	_	NN	_	_	_	_	_	NP	got	154,16	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	124r,01	_	_
+6	vol	_	_	APPR	_	_	_	_	_	PP	vol	154,16	_	ATTR	_	Grieshaber liest 'von'	APPR	_	MAINDECL	_	MF	124r,02	_	_
+7	himel	_	_	NN	_	_	_	_	_	PP	himel	154,16	_	ATTR	_	_	NA	_	MAINDECL	_	MF	124r,02	_	_
+8	ain	_	_	ART	_	_	_	_	_	NP	ain	154,16	_	PRD	_	_	DIA	_	MAINDECL	_	MF	124r,02	_	_
+9	krône	_	_	NN	_	_	_	_	_	NP	krône	154,16	_	PRD	_	_	NA	_	MAINDECL	_	MF	124r,02	_	_
+10	ſin	_	_	VAINF	_	_	_	_	_	VP	ſin	154,16	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	124r,02	_	_
+11	d'	_	_	ART	_	_	_	_	_	NP	d'	154,16	NF	ATTR	ACC-ABSTR-UNUSED_	_	DDA	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+12	êre	_	_	NN	_	_	_	_	_	NP	êre	154,17	NF	ATTR	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+13	.	_	_	$.	_	_	_	_	_	_	.	154,17	NF	_	_	_	$_	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+14	aller	_	_	ADJA	_	_	_	_	_	NP	aller	154,17	NF	ATTR	_	_	ADJ	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+15	ſiner	_	_	PPOSAT	_	_	_	_	_	NP	ſiner	154,17	NF	ATTR	_ACC-INF_	_	DPOS	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+16	friunde	_	_	NN	_	_	_	_	_	NP	friunde	154,17	NF	ATTR	_NEW  	_	NA	_	MAINDECL	_	NF	124r,02	LINK_ASSYM	_
+
+# sent_id = 3
+# text = vn̄ wil och aín kraͤnzeli ſin d' froͤwde ſinez volkez.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	154,17	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	124r,02	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	154,17	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	124r,02	_	_
+3	och	_	_	KON	_	_	_	_	_	_	och	154,17	_	_	_	_	KON	_	MAINDECL-ELLI	_	MF	124r,02	_	_
+4	aín	_	_	ART	_	_	_	_	_	NP	aín	154,17	_	PRD	_	_	DIA	_	MAINDECL-ELLI	_	MF	124r,02	_	_
+5	kraͤnzeli	_	_	NN	_	_	_	_	_	NP	kraͤnzeli	154,17	_	PRD	_	_	NA	_	MAINDECL-ELLI	_	MF	124r,02	_	_
+6	ſin	_	_	VAINF	_	_	_	_	_	VP	ſin	154,17	_	INF	_	_	VAINF	RE	MAINDECL-ELLI	RK	RK	124r,02	_	_
+7	d'	_	_	ART	_	_	_	_	_	NP	d'	154,17	NF	ATTR	ACC-ABSTR-UNUSED_	_	DDA	_	MAINDECL-ELLI	_	NF	124r,03	LINK_ASSYM	_
+8	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	154,17	NF	ATTR	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL-ELLI	_	NF	124r,03	LINK_ASSYM	KOREF1
+9	ſinez	_	_	PPOSAT	_	_	_	_	_	NP	ſinez	154,18	NF	ATTR	_ACC-INF_	_	DPOS	_	MAINDECL-ELLI	_	NF	124r,03	LINK_ASSYM	_
+10	volkez	_	_	NN	_	_	_	_	_	NP	volkez	154,18	NF	ATTR	_NEW  	_	NA	_	MAINDECL-ELLI	_	NF	124r,03	LINK_ASSYM	_
+11	.	_	_	$.	_	_	_	_	_	_	.	154,18	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	124r,03	_	_
+
+# sent_id = 4
+# text = vn̄ da vō ſo wirt iegelich d' zwelue loͤne iegelich' reht ſchînēde als aī ſt'ne.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	154,23	_	_	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	KON	_	MAINDECL	_	KOORD	124r,10	_	_
+2	da	_	_	ADV	_	_	_	_	_	ADVP	da	154,23	_	VOVF	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	ADV	_	MAINDECL	_	VF	124r,10	_	_
+3	vō	_	_	APPO	_	_	_	_	_	ADVP	vō	154,23	_	VOVF	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	APPO	_	MAINDECL	_	VF	124r,10	_	_
+4	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	154,24	_	ADVB	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	ADV	_	MAINDECL	_	VF	124r,10	_	_
+5	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	154,24	_	VFIN	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	VAFIN	LI	MAINDECL	LK	LK	124r,10	_	_
+6	iegelich	_	_	PIAT	_	_	_	_	_	NP	iegelich	154,24	_	ATTR	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	DI	_	MAINDECL	_	MF	124r,10	_	_
+7	d'	_	_	ART	_	_	_	_	_	NP	d'	154,24	_	ATTR	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	DDA	_	MAINDECL	_	MF	124r,10	_	_
+8	zwelue	_	_	ADJA	_	_	_	_	_	NP	zwelue	154,24	_	ATTR	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	ADJ	_	MAINDECL	_	MF	124r,10	_	_
+9	loͤne	_	_	NN	_	_	_	_	_	NP	loͤne	154,24	_	ATTR	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	NA	_	MAINDECL	_	MF	124r,10	_	_
+10	iegelich'	_	_	PIAT	_	_	_	_	_	NP	iegelich'	154,24	_	SUBJ	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	DI	_	MAINDECL	_	MF	124r,11	_	_
+11	reht	_	_	ADV	_	_	_	_	_	ADVP	reht	154,24	_	ADVB	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	ADV	_	MAINDECL	_	MF	124r,11	_	_
+12	ſchînēde	_	_	VVPP	_	_	_	_	_	VP	ſchînēde	154,24	_	GERUND	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	VVPS	RE	MAINDECL	RK	RK	124r,11	_	_
+13	als	_	_	KON	_	_	_	_	_	_	als	154,24	NF	VGL	_	Verschreibung: siehe Edition, ieglich in der Edition getilgt	KON	_	MAINDECL	_	NF	124r,11	UNLINK	_
+14	aī	_	_	ART	_	_	_	_	_	NP	aī	154,24	NF	VGL	GIV-INACTIVE	Verschreibung: siehe Edition, ieglich in der Edition getilgt	DIA	_	MAINDECL	_	NF	124r,11	UNLINK	_
+15	ſt'ne	_	_	NN	_	_	_	_	_	NP	ſt'ne	154,24	NF	VGL	GIV-INACTIVE	Verschreibung: siehe Edition, ieglich in der Edition getilgt	NA	_	MAINDECL	_	NF	124r,11	UNLINK	KOREF1
+16	.	_	_	$.	_	_	_	_	_	_	.	154,24	_	_	_	_	$_	_	MAINDECL	_	_	124r,11	_	_

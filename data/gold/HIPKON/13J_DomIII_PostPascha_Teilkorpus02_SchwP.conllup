@@ -1,0 +1,304 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = díu habē wir hiut geleſen an dē. (heiligen) (Evangelium) in d'. (heiligen) meſſe.
+1	díu	_	_	PDS	_	_	_	_	_	NP	díu	012,23	_	DO	_	_	DDS	_	MAINDECL	_	VF	009r,24	_	_
+2	habē	_	_	VAFIN	_	_	_	_	_	VP	habē	012,23	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	009r,24	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	012,23	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	009r,24	_	_
+4	hiut	_	_	ADV	_	_	_	_	_	ADVP	hiut	012,23	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	009r,24	_	_
+5	geleſen	_	_	VVPP	_	_	_	_	_	VP	geleſen	012,23	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	009r,24	_	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an	012,23	BGR_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	009r,24	UNLINK1	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē	012,23	BGR_	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	009r,24	UNLINK1	_
+8	.	_	_	$.	_	_	_	_	_	PP	.	012,23	BGR_	PP-ADV	_	_	$_	_	MAINDECL	_	NF	009r,24	UNLINK1	_
+9	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen)	012,23	BGR_	PP-ADV	ACC-UNI-UNUSED	_	ADJ	_	MAINDECL	_	NF	009r,24	UNLINK1	_
+10	(Evangelium)	_	_	NN	_	_	_	_	_	PP	(Evangelium)	012,23	BGR_	PP-ADV	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	009r,24	UNLINK1	_
+11	in	_	_	APPR	_	_	_	_	_	PP	in	012,23	BGR_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	009r,25	UNLINK2	_
+12	d'	_	_	ART	_	_	_	_	_	PP	d'	012,24	BGR_	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	009r,25	UNLINK2	_
+13	.	_	_	$.	_	_	_	_	_	PP	.	012,24	BGR_	PP-ADV	_	_	$_	_	MAINDECL	_	NF	009r,25	UNLINK2	_
+14	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen)	012,24	BGR_	PP-ADV	ACC-SIT	_	ADJ	_	MAINDECL	_	NF	009r,25	UNLINK2	_
+15	meſſe	_	_	NN	_	_	_	_	_	PP	meſſe	012,24	BGR_	PP-ADV	ACC-SIT	_	NA	_	MAINDECL	_	NF	009r,25	UNLINK2	_
+16	.	_	_	$.	_	_	_	_	_	_	.	012,24	_	_	_	_	$_	_	MAINDECL	_	_	009r,25	_	_
+
+# sent_id = 2
+# text = Iuw' trurechait díu wirt fer=cheret in aín grôze froͤwde.
+1	Iuw'	_	_	PPER	_	_	_	_	_	NP	Iuw'	012,25	_	VOVF	_	_	PPER	_	MAINDECL	_	LV	009v,01	_	_
+2	trurechait	_	_	NN	_	_	_	_	_	NP	trurechait	012,25	_	VOVF	_	_	NA	_	MAINDECL	_	LV	009v,01	_	_
+3	díu	_	_	PDS	_	_	_	_	_	NP	díu	012,25	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	009v,01	_	_
+4	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	012,25	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	009v,01	_	_
+5	fer=cheret	_	_	VVPP	_	_	_	_	_	VP	fercheret	012,25	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	009v,01	_	_
+6	in	_	_	APPR	_	_	_	_	_	NP	in	012,26	BGR	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	009v,02	UNLINK	_
+7	aín	_	_	ART	_	_	_	_	_	NP	aín	012,26	BGR	PP-OBJ	_	_	DIA	_	MAINDECL	_	NF	009v,02	UNLINK	_
+8	grôze	_	_	ADJA	_	_	_	_	_	NP	grôze	012,26	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL	_	NF	009v,02	UNLINK	_
+9	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	012,26	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	009v,02	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	012,26	_	_	_	_	$_	_	MAINDECL	_	_	009v,02	_	_
+
+# sent_id = 3
+# text = ab' íuw' laít vn̄ (iuw') tru(re)(=)chait díu wirt ferch'et in ain grôze froͤwde.
+1	ab'	_	_	KON	_	_	_	_	_	_	ab'	013,34	_	_	_	_	KON	_	MAINDECL	_	KOORD	010r,19; -gende | tru(re)-	_	_
+2	íuw'	_	_	PPOSAT	_	_	_	_	_	NP	íuw'	013,34	_	VOVF	_	_	DPOS	_	MAINDECL	_	LV	010r,19; -gende | tru(re)-	_	_
+3	laít	_	_	NN	_	_	_	_	_	NP	laít	013,34	_	VOVF	_	_	NA	_	MAINDECL	_	LV	010r,19; -gende | tru(re)-	_	_
+4	vn̄	_	_	KON	_	_	_	_	_	NP	vn̄	013,34	_	VOVF	_	_	KON	_	MAINDECL	_	LV	010r,19; -gende | tru(re)-	_	_
+5	(iuw')	_	_	PPOSAT	_	_	_	_	_	NP	iuw'	013,34	_	VOVF	_	_	DPOS	_	MAINDECL	_	LV	010r,19; -gende | tru(re)-	_	_
+6	tru(re)(=)chait	_	_	NN	_	_	_	_	_	NP	trurechait	013,34	_	VOVF	_	_	NA	_	MAINDECL	_	LV	010r,20; -chait	_	_
+7	díu	_	_	PDS	_	_	_	_	_	NP	díu	013,34	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	010r,20; -chait	_	_
+8	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	013,35	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	010r,20; -chait	_	_
+9	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	013,35	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	010r,20; -chait	_	_
+10	in	_	_	APPR	_	_	_	_	_	NP	in	013,35	BGR	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	010r,20; -chait	UNLINK	_
+11	ain	_	_	ART	_	_	_	_	_	NP	ain	013,35	BGR	PP-OBJ	_	_	DIA	_	MAINDECL	_	NF	010r,20; -chait	UNLINK	_
+12	grôze	_	_	ADJA	_	_	_	_	_	NP	grôze	013,35	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL	_	NF	010r,20; -chait	UNLINK	_
+13	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	013,35	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	010r,20; -chait	UNLINK	KOREF1
+14	.	_	_	$.	_	_	_	_	_	_	.	013,35	_	_	_	_	$_	_	MAINDECL	_	_	010r,20; -chait	_	_
+
+# sent_id = 4
+# text = Iuw' trurechait diu w[irt] ferch'et ze ain' grôz froͤwde.
+1	Iuw'	_	_	PPOSAT	_	_	_	_	_	NP	Iuw'	014,21	_	VOVF	_	_	DPOS	_	MAINDECL	_	LV	010v,17	_	_
+2	trurechait	_	_	NN	_	_	_	_	_	NP	trurechait	014,21	_	VOVF	_	_	NA	_	MAINDECL	_	LV	010v,17	_	_
+3	diu	_	_	PDS	_	_	_	_	_	NP	diu	014,21	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	010v,17	_	_
+4	w[irt]	_	_	VAFIN	_	_	_	_	_	VP	wirt	014,21	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	010v,17	_	_
+5	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	014,21	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	010v,18	_	_
+6	ze	_	_	APPR	_	_	_	_	_	PP	ze	014,21	BGR	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	010v,18	UNLINK	_
+7	ain'	_	_	ART	_	_	_	_	_	PP	ain'	014,21	BGR	PP-OBJ	_	_	DIA	_	MAINDECL	_	NF	010v,18	UNLINK	_
+8	grôz	_	_	ADJA	_	_	_	_	_	PP	grôz	014,22; fer-	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL	_	NF	010v,18	UNLINK	KOREF1
+9	froͤwde	_	_	NN	_	_	_	_	_	PP	froͤwde	014,22; fer-	BGR	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	010v,18	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	014,22; fer-	_	_	_	_	$_	_	MAINDECL	_	_	010v,18	_	_
+
+# sent_id = 5
+# text = die ſolt |u ſuͤze machē och mit dē holze.
+1	die	_	_	PDS	_	_	_	_	_	NP	die	015,09	_	DO	_	_	DDS	_	MAINDECL	_	VF	011r,17	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	015,09	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011r,17	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	015,09	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	011r,17	_	_
+4	ſuͤze	_	_	ADJD	_	_	_	_	_	AP	ſuͤze	015,09	_	PRD	_	_	ADJD	_	MAINDECL	_	MF	011r,17	_	_
+5	machē	_	_	VVINF	_	_	_	_	_	VP	machē	015,09	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	011r,17	_	_
+6	och	_	_	KON	_	_	_	_	_	_	och	015,10	NF	_	_	üdZ	KON	_	MAINDECL	_	NF	011r,17	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit	015,10	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	011r,17	UNLINK	_
+8	dē	_	_	ART	_	_	_	_	_	PP	dē	015,10	NF	PP-ADV	GIV-INACTIVE	_	DDA	_	MAINDECL	_	NF	011r,18	UNLINK	_
+9	holze	_	_	NN	_	_	_	_	_	PP	holze	015,10	NF	PP-ADV	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	011r,18	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	015,10	_	_	_	_	$_	_	MAINDECL	_	_	011r,18	_	_
+
+# sent_id = 6
+# text = da ſolt |u gedenchē an die mart' vn̄ die arbaít die got durch dinē willē hat gelitē an dē holze dez. (heiligen) cͬvces.
+1	da	_	_	ADV	_	_	_	_	_	ADVP	da	015,11	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	011r,18	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	015,11	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011r,18	_	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	015,11	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	011r,18	_	_
+4	gedenchē	_	_	VVPP	_	_	_	_	_	VP	gedenchē	015,11	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	011r,19	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	015,11	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	011r,19	UNLINK	_
+6	die	_	_	ART	_	_	_	_	_	PP	die	015,11	NF_	PP-OBJ	ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	011r,19	UNLINK	KOREF1-REL
+7	mart'	_	_	NN	_	_	_	_	_	PP	mart'	015,11	NF_	PP-OBJ	ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	011r,19	UNLINK	KOREF1-REL
+8	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	015,11	_	PP-OBJ	_	_	KON	_	MAINDECL	_	NF	011r,19	UNLINK	KOREF1-REL
+9	die	_	_	ART	_	_	_	_	_	NP	die	015,11	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	DDA	_	MAINDECL	_	NF	011r,19	UNLINK	KOREF1-REL
+10	arbaít	_	_	NN	_	_	_	_	_	NP	arbaít	015,11	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	011r,19	UNLINK	KOREF1-REL
+11	die	_	_	PRELS	_	_	_	_	_	CP	die	015,11	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	NF-LK	011r,19	UNLINK	KOREF2-REL
+12	got	_	_	NN	_	_	_	_	_	CP	got	015,11	_	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	011r,19	UNLINK	_
+13	durch	_	_	APPR	_	_	_	_	_	CP	durch	015,12	_	ATTR	_	_	APPR	_	MAINDECL	_	NF-MF	011r,19	UNLINK	_
+14	dinē	_	_	PPOSAT	_	_	_	_	_	CP	dinē	015,12	_	ATTR	_	_	DPOS	_	MAINDECL	_	NF-MF	011r,19	UNLINK	_
+15	willē	_	_	NN	_	_	_	_	_	CP	willē	015,12	_	ATTR	_	_	NA	_	MAINDECL	_	NF-MF	_	UNLINK	_
+16	hat	_	_	VAFIN	_	_	_	_	_	CP	hat	015,12	_	ATTR	_	_	VAFIN	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+17	gelitē	_	_	VVPP	_	_	_	_	_	CP	gelitē	015,12	_	ATTR	_	_	VVPP	_	MAINDECL	RK	NF-RK	_	UNLINK	_
+18	an	_	_	APPR	_	_	_	_	_	CP	an	015,12	_	ATTR	_	_	APPR	_	MAINDECL	_	NF-NF	_	UNLINK	_
+19	dē	_	_	ART	_	_	_	_	_	CP	dē	015,12	_	ATTR	_	_	DDA	_	MAINDECL	_	NF-NF	_	UNLINK	_
+20	holze	_	_	NN	_	_	_	_	_	CP	holze	015,12	_	ATTR	_	_	NA	_	MAINDECL	_	NF-NF	_	UNLINK	_
+21	dez	_	_	ART	_	_	_	_	_	CP	dez	015,12	_	ATTR	_	_	DDA	_	MAINDECL	_	NF-NF	_	UNLINK	_
+22	.	_	_	$.	_	_	_	_	_	CP	.	015,12	_	ATTR	_	_	$_	_	MAINDECL	_	NF-NF	_	UNLINK	_
+23	(heiligen)	_	_	ADJA	_	_	_	_	_	CP	(heiligen)	015,12	_	ATTR	_	_	ADJ	_	MAINDECL	_	NF-NF	_	UNLINK	_
+24	cͬvces	_	_	NN	_	_	_	_	_	CP	cͬvces	015,12	_	ATTR	_	_	NA	_	MAINDECL	_	NF-NF	_	UNLINK	_
+25	.	_	_	$.	_	_	_	_	_	_	.	015,12	_	_	_	_	$_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 7
+# text = als wil er dur och alle die bitt'chait die du in dirre welte haſt. durch ſinē willē. in ien' welte ferch'en in ain ſuͤzechait vn̄ in ain grôze froͤwd[e]
+1	als	_	_	ADV	_	_	_	_	_	ADVP	als	015,18	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	011v,02	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	015,18	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011v,02	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er	015,18	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	011v,02	_	_
+4	dur	_	_	PPER	_	_	_	_	_	NP	dur	015,18	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	011v,02	_	_
+5	och	_	_	KON	_	_	_	_	_	_	och	015,18	_	_	_	_	KON	_	MAINDECL	_	MF	011v,02	_	_
+6	alle	_	_	PIAT	_	_	_	_	_	NP	alle	015,18	_	DO	_	_	DI	_	MAINDECL	_	MF	011v,02	_	_
+7	die	_	_	ART	_	_	_	_	_	NP	die	015,18	_	DO	_	_	DDA	_	MAINDECL	_	MF	011v,03	_	_
+8	bitt'chait	_	_	NN	_	_	_	_	_	NP	bitt'chait	015,19	_	DO	_	_	NA	_	MAINDECL	_	MF	011v,03	_	_
+9	die	_	_	PRELS	_	_	_	_	_	CP	die	015,19	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	MF-LK	011v,03	_	_
+10	du	_	_	PPER	_	_	_	_	_	CP	du	015,19	_	ATTR	_	_	PPER	_	MAINDECL	_	MF-MF	011v,03	_	_
+11	in	_	_	APPR	_	_	_	_	_	CP	in	015,19	_	ATTR	_	_	APPR	_	MAINDECL	_	MF-MF	011v,03	_	_
+12	dirre	_	_	PDAT	_	_	_	_	_	CP	dirre	015,19	_	ATTR	_	_	DD	_	MAINDECL	_	MF-MF	011v,03	_	_
+13	welte	_	_	NN	_	_	_	_	_	CP	welte	015,19	_	ATTR	_	_	NA	_	MAINDECL	_	MF-MF	011v,03	_	_
+14	haſt	_	_	VAFIN	_	_	_	_	_	CP	haſt	015,19	_	ATTR	_	_	VAFIN	_	MAINDECL	RK	MF-RK	011v,03	_	_
+15	.	_	_	$.	_	_	_	_	_	_	.	015,19	_	_	_	_	$_	_	MAINDECL	_	MF	011v,03	_	_
+16	durch	_	_	APPR	_	_	_	_	_	PP	durch	015,19	_	PP-ADV	_	_	APPR	_	MAINDECL	_	MF	011v,03	_	_
+17	ſinē	_	_	PPOSAT	_	_	_	_	_	PP	ſinē	015,19	_	PP-ADV	_	_	DPOS	_	MAINDECL	_	MF	011v,03	_	_
+18	willē	_	_	NN	_	_	_	_	_	PP	willē	015,19	_	PP-ADV	_	_	NA	_	MAINDECL	_	MF	011v,03	_	_
+19	.	_	_	$.	_	_	_	_	_	_	.	015,19	_	_	_	_	$_	_	MAINDECL	_	MF	011v,03	_	_
+20	in	_	_	APPR	_	_	_	_	_	PP	in	015,19	_	PP-SIT	_	_	APPR	_	MAINDECL	_	MF	011v,04	_	_
+21	ien'	_	_	PDAT	_	_	_	_	_	PP	ien'	015,19	_	PP-SIT	_	_	DD	_	MAINDECL	_	MF	011v,04	_	_
+22	welte	_	_	NN	_	_	_	_	_	PP	welte	015,20	_	PP-SIT	_	_	NA	_	MAINDECL	_	MF	011v,04	_	_
+23	ferch'en	_	_	VVINF	_	_	_	_	_	VP	ferch'en	015,20	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	011v,04	_	_
+24	in	_	_	APPR	_	_	_	_	_	PP	in	015,20	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	011v,04	UNLINK	_
+25	ain	_	_	ART	_	_	_	_	_	PP	ain	015,20	NF_	PP-OBJ	ACC-ABSTR-USED-1_	_	DIA	_	MAINDECL	_	NF	011v,04	UNLINK	_
+26	ſuͤzechait	_	_	NN	_	_	_	_	_	PP	ſuͤzechait	015,20	NF_	PP-OBJ	ACC-ABSTR-USED-1_	_	NA	_	MAINDECL	_	NF	011v,04	UNLINK	KOREF1
+27	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	015,20	_	_	_	_	KON	_	MAINDECL	_	NF	011v,04	UNLINK	_
+28	in	_	_	APPR	_	_	_	_	_	PP	in	015,20	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	011v,04	UNLINK	_
+29	ain	_	_	ART	_	_	_	_	_	PP	ain	015,20	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	DIA	_	MAINDECL	_	NF	011v,04	UNLINK	_
+30	grôze	_	_	ADJA	_	_	_	_	_	PP	grôze	015,20	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL	_	NF	011v,04	UNLINK	_
+31	froͤwd[e]	_	_	NN	_	_	_	_	_	PP	froͤwde	015,20	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	011v,04	UNLINK	_
+
+# sent_id = 8
+# text = Er wil och niht allaíne die bitt'chait die du lideſt mit dē w'chē dir ferch'en in ain ſuͤzechait
+1	Er	_	_	PPER	_	_	_	_	_	NP	Er	015,20	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	011v,05	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	015,20	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011v,05	_	_
+3	och	_	_	ADV	_	_	_	_	_	ADVP	och	015,21	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	011v,05	_	_
+4	niht	_	_	PTKNEG	_	_	_	_	_	_	niht	015,21	_	_	_	_	PTKNEG	_	MAINDECL	_	MF	011v,05	_	_
+5	allaíne	_	_	ADV	_	_	_	_	_	NP	allaíne	015,21	_	DO	_	_	ADV	_	MAINDECL	_	MF	011v,05	_	_
+6	die	_	_	ART	_	_	_	_	_	NP	die	015,21	_	DO	_	_	DDA	_	MAINDECL	_	MF	011v,05	_	_
+7	bitt'chait	_	_	NN	_	_	_	_	_	NP	bitt'chait	015,21	_	DO	_	_	NA	_	MAINDECL	_	MF	011v,05	_	_
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	015,21	_	ATTR	_	_	DDSREL	_	MAINDECL	LK	MF-LK	011v,05	_	_
+9	du	_	_	PPER	_	_	_	_	_	CP	du	015,21	_	ATTR	_	_	PPER	_	MAINDECL	_	MF-MF	011v,05	_	_
+10	lideſt	_	_	VVFIN	_	_	_	_	_	CP	lideſt	015,21	_	ATTR	_	_	VVFIN	_	MAINDECL	RK	MF-RK	011v,05	_	_
+11	mit	_	_	APPR	_	_	_	_	_	CP	mit	015,21	_	ATTR	_	_	APPR	_	MAINDECL	_	MF	011v,05	_	_
+12	dē	_	_	ART	_	_	_	_	_	CP	dē	015,21	_	ATTR	_	_	DDA	_	MAINDECL	_	MF	011v,05	_	_
+13	w'chē	_	_	NN	_	_	_	_	_	CP	w'chē	015,21	_	ATTR	_	_	NA	_	MAINDECL	_	MF	011v,06	_	_
+14	dir	_	_	PPER	_	_	_	_	_	NP	dir	015,21	_	IO-DAT	_	üdZ	PPER	_	MAINDECL	_	MF	011v,06	_	_
+15	ferch'en	_	_	VVFIN	_	_	_	_	_	VP	ferch'en	015,22	_	INF	_	_	VVFIN	RE	MAINDECL	RK	RK	011v,06	_	_
+16	in	_	_	APPR	_	_	_	_	_	PP	in	015,22	BGR	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	011v,06	UNLINK	_
+17	ain	_	_	ART	_	_	_	_	_	PP	ain	015,22	BGR	PP-OBJ	ACC-ABSTR-USED-1	_	DIA	_	MAINDECL	_	NF	011v,06	UNLINK	_
+18	ſuͤzechait	_	_	NN	_	_	_	_	_	PP	ſuͤzechait	015,22	BGR	PP-OBJ	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	011v,06	UNLINK	KOREF2/1
+
+# sent_id = 9
+# text = díu wil er dir allíu ferch'en in ien' welte in ain ſuͤzechait.
+1	díu	_	_	PDS	_	_	_	_	_	NP	díu	015,24; -truͤbet	_	DO	_	_	DDS	_	MAINDECL	_	VF	011v,08	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	015,24; -truͤbet	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011v,08	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er	015,24; -truͤbet	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	011v,08	_	_
+4	dir	_	_	PPER	_	_	_	_	_	NP	dir	015,24; -truͤbet	_	IO-DAT	_	_	PPER	_	MAINDECL	_	MF	011v,08	_	_
+5	allíu	_	_	PIS	_	_	_	_	_	NP	allíu	015,24; -truͤbet	_	ADVB	_	_	DIS	_	MAINDECL	_	MF	011v,08	_	_
+6	ferch'en	_	_	VVINF	_	_	_	_	_	VP	ferch'en	015,24; -truͤbet	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	011v,08	_	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	015,24; -truͤbet	BGR_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	011v,09	UNLINK1	_
+8	ien'	_	_	PDAT	_	_	_	_	_	PP	ien'	015,24; -truͤbet	BGR_	PP-ADV	ACC-UNI-USED-X	_	DD	_	MAINDECL	_	NF	011v,09	UNLINK1	_
+9	welte	_	_	NN	_	_	_	_	_	PP	welte	015,25; ur-	BGR_	PP-ADV	ACC-UNI-USED-X	_	NA	_	MAINDECL	_	NF	011v,09	UNLINK1	_
+10	in	_	_	APPR	_	_	_	_	_	PP	in	015,25; ur-	BGR_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	011v,09	UNLINK2	_
+11	ain	_	_	ART	_	_	_	_	_	PP	ain	015,25; ur-	BGR_	PP-OBJ	ACC-ABSTR-USED-1	_	DIA	_	MAINDECL	_	NF	011v,09	UNLINK2	_
+12	ſuͤzechait	_	_	NN	_	_	_	_	_	PP	ſuͤzechait	015,25; ur-	BGR_	PP-OBJ	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	011v,09	UNLINK2	KOREF2
+13	.	_	_	$.	_	_	_	_	_	_	.	015,25; ur-	_	_	_	_	$_	_	MAINDECL	_	_	011v,09	_	_
+
+# sent_id = 10
+# text = d' wolt aines tages gan ze ain' ſtat íu hiez Tampnata.
+1	d'	_	_	PDAT	_	_	_	_	_	NP	d'	015,28	_	SUBJ	_	_	DD	_	MAINDECL	_	VF	011v,12	_	_
+2	wolt	_	_	VMFIN	_	_	_	_	_	VP	wolt	015,28	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	011v,12	_	_
+3	aines	_	_	ART	_	_	_	_	_	NP	aines	015,28	_	ADVB	_	_	DIA	_	MAINDECL	_	MF	011v,12	_	_
+4	tages	_	_	NN	_	_	_	_	_	NP	tages	015,28	_	ADVB	_	_	NA	_	MAINDECL	_	MF	011v,12	_	_
+5	gan	_	_	VVINF	_	_	_	_	_	VP	gan	015,28	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	011v,13	_	_
+6	ze	_	_	APPR	_	_	_	_	_	PP	ze	015,28	NF	PP-DIR	_	_	APPR	_	MAINDECL	_	NF	011v,13	UNLINK	_
+7	ain'	_	_	ART	_	_	_	_	_	PP	ain'	015,28	NF	PP-DIR	NEW	_	DIA	_	MAINDECL	_	NF	011v,13	UNLINK	_
+8	ſtat	_	_	NN	_	_	_	_	_	PP	ſtat	015,29	NF	PP-DIR	NEW	_	NA	_	MAINDECL	_	NF	011v,13	UNLINK	KOREF1-REL
+9	íu	_	_	PRELS	_	_	_	_	_	CP	íu	015,29	NF	ATTR	_	Grieshaber ergänzt zu 'diu'	DDSREL	_	MAINDECL	LK	NF-LK	011v,13	UNLINK	KOREF2-REL
+10	hiez	_	_	VVFIN	_	_	_	_	_	CP	hiez	015,29	NF	ATTR	_	_	VVFIN	_	MAINDECL	RK	NF-RK	011v,13	UNLINK	_
+11	Tampnata	_	_	NE	_	_	_	_	_	CP	Tampnata	015,29	NF	ATTR	_	_	NE	_	MAINDECL	_	NF-NF	011v,13	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	015,29	_	_	_	_	$_	_	MAINDECL	_	_	011v,13	_	_
+
+# sent_id = 11
+# text = vn̄ wolte ſehē dez tôtē lewē âs.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	015,35	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	011v,19; -zit	_	_
+2	wolte	_	_	VMFIN	_	_	_	_	_	VP	wolte	015,35	_	VFIN	_	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	011v,19; -zit	_	_
+3	ſehē	_	_	VVINF	_	_	_	_	_	VP	ſehē	015,35	_	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	011v,19; -zit	_	_
+4	dez	_	_	ART	_	_	_	_	_	NP	dez	015,35	BGR	ATTR	_	_	DDA	_	MAINDECL-ELLI	_	NF	011v,19; -zit	UNLINK	_
+5	tôtē	_	_	ADJA	_	_	_	_	_	NP	tôtē	015,35	BGR	ATTR	GIV-INACTIVE_	_	ADJ	_	MAINDECL-ELLI	_	NF	011v,19; -zit	UNLINK	KOREF1
+6	lewē	_	_	NN	_	_	_	_	_	NP	lewē	015,35	BGR	ATTR	GIV-INACTIVE_	_	NA	_	MAINDECL-ELLI	_	NF	011v,19; -zit	UNLINK	KOREF1
+7	âs	_	_	NN	_	_	_	_	_	NP	âs	015,35	BGR	DO	_ACC-INF	_	NA	_	MAINDECL-ELLI	_	NF	011v,20	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	015,35	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	011v,20	_	_
+
+# sent_id = 12
+# text = vn̄ alſo wirt díu bitt'chait ferch'et ín aín ſuͤz(e)(=)chait
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	016,13; -chait	_	_	_	_	KON	_	MAINDECL	_	KOORD	012r,10; ſuͤz(e)-	_	_
+2	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	016,13; -chait	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012r,10; ſuͤz(e)-	_	_
+3	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	016,13; -chait	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012r,10; ſuͤz(e)-	_	_
+4	díu	_	_	ART	_	_	_	_	_	NP	díu	016,13; -chait	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	012r,10; ſuͤz(e)-	_	_
+5	bitt'chait	_	_	NN	_	_	_	_	_	NP	bitt'chait	016,13; -chait	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012r,10; ſuͤz(e)-	_	_
+6	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	016,13; -chait	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012r,10; ſuͤz(e)-	_	_
+7	ín	_	_	APPR	_	_	_	_	_	PP	ín	016,14	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012r,10; ſuͤz(e)-	UNLINK	_
+8	aín	_	_	ART	_	_	_	_	_	PP	aín	016,14	NF	PP-OBJ	ACC-ABSTR-USED-1	_	DIA	_	MAINDECL	_	NF	012r,10; ſuͤz(e)-	UNLINK	_
+9	ſuͤz(e)(=)chait	_	_	NN	_	_	_	_	_	PP	ſuͤzechait	016,14	NF	PP-OBJ	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	012r,10; ſuͤz(e)-	UNLINK	KOREF1
+
+# sent_id = 13
+# text = ſo wirt diu froͤwde etwēne fer[cheret] in ain bitt'chait.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	016,14	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012r,11; -chait	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	016,14	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012r,11; -chait	_	_
+3	diu	_	_	ART	_	_	_	_	_	NP	diu	016,14	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	012r,11; -chait	_	_
+4	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	016,14	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012r,11; -chait	_	_
+5	etwēne	_	_	ADV	_	_	_	_	_	ADVP	etwēne	016,14	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	012r,11; -chait	_	_
+6	fer[cheret]	_	_	VVPP	_	_	_	_	_	VP	fercheret	016,15	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012r,11; -chait	_	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	016,15	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012r,12; ſuͤze-	UNLINK	KOREF1
+8	ain	_	_	ART	_	_	_	_	_	PP	ain	016,15	NF	PP-OBJ	ACC-ABSTR-USED-1	_	DIA	_	MAINDECL	_	NF	012r,12; ſuͤze-	UNLINK	KOREF1
+9	bitt'chait	_	_	NN	_	_	_	_	_	PP	bitt'chait	016,15	NF	PP-OBJ	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	012r,12; ſuͤze-	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	016,15	_	_	_	_	$_	_	MAINDECL	_	_	012r,12; ſuͤze-	_	_
+
+# sent_id = 14
+# text = ſo wir ir fro=wde ferch'et in ain bitt'chait.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	016,17	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012r,14; fro-	_	_
+2	wir	_	_	VAFIN	_	_	_	_	_	VP	wir	016,17	_	VFIN	_	Grieshaber ergänzt t: wir(t)	VAFIN	LI	MAINDECL	LK	LK	012r,14; fro-	_	_
+3	ir	_	_	PPOSAT	_	_	_	_	_	NP	ir	016,18; ur-	_	SUBJ	_	_	DPOS	_	MAINDECL	_	MF	012r,14; fro-	_	_
+4	fro=wde	_	_	NN	_	_	_	_	_	NP	frowde	016,18; ur-	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012r,14; fro-	_	_
+5	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	016,18; ur-	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012r,15; -wde	_	_
+6	in	_	_	APPR	_	_	_	_	_	PP	in	016,18; ur-	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012r,15; -wde	UNLINK	_
+7	ain	_	_	ART	_	_	_	_	_	PP	ain	016,18; ur-	NF	PP-OBJ	ACC-ABSTR-USED-X	_	DIA	_	MAINDECL	_	NF	012r,15; -wde	UNLINK	_
+8	bitt'chait	_	_	NN	_	_	_	_	_	PP	bitt'chait	016,18; ur-	NF	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	012r,15; -wde	UNLINK	KOREF2
+9	.	_	_	$.	_	_	_	_	_	_	.	016,18; ur-	_	_	_	_	$_	_	MAINDECL	_	_	012r,15; -wde	_	_
+
+# sent_id = 15
+# text = alſo machet ſich h're Dauid v̂f. mit ſinē hêre
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	016,27	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012v,01	_	_
+2	machet	_	_	VAFIN	_	_	_	_	_	VP	machet	016,27	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012v,01	_	_
+3	ſich	_	_	PRF	_	_	_	_	_	VP	ſich	016,27	_	VZ_RFL	_	_	PRF	_	MAINDECL	_	MF	012v,01	_	_
+4	h're	_	_	NN	_	_	_	_	_	NP	h're	016,27	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012v,01	_	_
+5	Dauid	_	_	NE	_	_	_	_	_	NP	Dauid	016,27	_	SUBJ	_	_	NE	_	MAINDECL	_	MF	012v,01	_	_
+6	v̂f	_	_	PTKVZ	_	_	_	_	_	VP	v̂f	016,27	_	VZ_PTK	_	_	PTKVZ	RE	MAINDECL	RK	RK	012v,02	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	016,27	_	_	_	_	$_	_	MAINDECL	_	_	012v,02	_	_
+8	mit	_	_	APPR	_	_	_	_	_	PP	mit	016,27	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	012v,02	UNLINK	_
+9	ſinē	_	_	PPOSAT	_	_	_	_	_	PP	ſinē	016,27	NF	PP-ADV	ACC-INF_	_	DPOS	_	MAINDECL	_	NF	012v,02	UNLINK	_
+10	hêre	_	_	NN	_	_	_	_	_	PP	hêre	016,27	NF	PP-ADV	_NEW	_	NA	_	MAINDECL	_	NF	012v,02	UNLINK	_
+
+# sent_id = 16
+# text = vn̄ alſo wart ier froͤwde ferch'et ín aín grôze bitt'cait
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	016,33; -nomen | bitter-	_	_	_	_	KON	_	MAINDECL	_	KOORD	012v,08	_	_
+2	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	016,33; -nomen | bitter-	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012v,08	_	_
+3	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	016,33; -nomen | bitter-	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012v,08	_	_
+4	ier	_	_	PPOSAT	_	_	_	_	_	NP	ier	016,33; -nomen | bitter-	_	SUBJ	_	_	DPOS	_	MAINDECL	_	MF	012v,08	_	_
+5	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	016,33; -nomen | bitter-	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012v,08	_	_
+6	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	016,33; -nomen | bitter-	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012v,08	_	_
+7	ín	_	_	APPR	_	_	_	_	_	PP	ín	016,33; -nomen | bitter-	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012v,08	UNLINK	_
+8	aín	_	_	ART	_	_	_	_	_	PP	aín	016,33; -nomen | bitter-	NF	PP-OBJ	ACC-ABSTR-USED-X	_	DIA	_	MAINDECL	_	NF	012v,08	UNLINK	_
+9	grôze	_	_	ADJA	_	_	_	_	_	PP	grôze	016,33; -nomen | bitter-	NF	PP-OBJ	ACC-ABSTR-USED-X	_	ADJ	_	MAINDECL	_	NF	012v,08	UNLINK	_
+10	bitt'cait	_	_	NN	_	_	_	_	_	PP	bitt'cait	016,33; -nomen | bitter-	NF	PP-OBJ	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	012v,08	UNLINK	_
+
+# sent_id = 17
+# text = vn̄ alſo wirt ir froͤwde ferch'et ín aín trurechait vn̄ ín aín bitt'chait
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	017,04	_	_	_	_	KON	_	MAINDECL	_	KOORD	012v,17	_	_
+2	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	017,04	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012v,17	_	_
+3	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	017,04	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012v,17	_	_
+4	ir	_	_	PPOSAT	_	_	_	_	_	NP	ir	017,04	_	SUBJ	_	üdZ	DPOS	_	MAINDECL	_	MF	012v,17	_	_
+5	froͤwde	_	_	NN	_	_	_	_	_	NP	froͤwde	017,04	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012v,17	_	_
+6	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	017,04	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012v,17	_	_
+7	ín	_	_	APPR	_	_	_	_	_	PP	ín	017,04	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012v,18	UNLINK	_
+8	aín	_	_	ART	_	_	_	_	_	PP	aín	017,04	NF_	PP-OBJ	ACC-ABSTR-USED-X_	_	DIA	_	MAINDECL	_	NF	012v,18	UNLINK	_
+9	trurechait	_	_	NN	_	_	_	_	_	PP	trurechait	017,04	NF_	PP-OBJ	ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	012v,18	UNLINK	KOREF1
+10	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	017,04	_	_	_	_	KON	_	MAINDECL	_	NF	012v,18	UNLINK	_
+11	ín	_	_	APPR	_	_	_	_	_	PP	ín	017,04	NF_	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012v,18	UNLINK	_
+12	aín	_	_	ART	_	_	_	_	_	PP	aín	017,04	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	DIA	_	MAINDECL	_	NF	012v,18	UNLINK	_
+13	bitt'chait	_	_	NN	_	_	_	_	_	PP	bitt'chait	017,04	NF_	PP-OBJ	_ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	NF	012v,18	UNLINK	_
+
+# sent_id = 18
+# text = ſo wirt ettwēne aín trurechait ferch'et in ain and' tru(=)rechait.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	017,05	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	012v,19	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	017,05	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	012v,19	_	_
+3	ettwēne	_	_	ADV	_	_	_	_	_	ADVP	ettwēne	017,05	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	012v,19	_	_
+4	aín	_	_	ART	_	_	_	_	_	NP	aín	017,05	_	SUBJ	_	_	DIA	_	MAINDECL	_	MF	012v,19	_	_
+5	trurechait	_	_	NN	_	_	_	_	_	NP	trurechait	017,05	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	012v,19	_	KOREF2
+6	ferch'et	_	_	VVPP	_	_	_	_	_	VP	ferch'et	017,05	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	012v,19	_	_
+7	in	_	_	APPR	_	_	_	_	_	PP	in	017,06	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	012v,19	UNLINK	_
+8	ain	_	_	ART	_	_	_	_	_	PP	ain	017,06	NF	PP-OBJ	ACC-ABSTR-USED-1	_	DIA	_	MAINDECL	_	NF	012v,19	UNLINK	_
+9	and'	_	_	ADJA	_	_	_	_	_	PP	and'	017,06	NF	PP-OBJ	ACC-ABSTR-USED-1	_	ADJ	_	MAINDECL	_	NF	012v,19	UNLINK	_
+10	tru(=)rechait	_	_	NN	_	_	_	_	_	PP	trurechait	017,06	NF	PP-OBJ	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	012v,19	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	017,06	_	_	_	_	$_	_	MAINDECL	_	_	012v,20	_	_
+
+# sent_id = 19
+# text = vn̄ wil ſi zuͥhtegō mit grôzē ſclegē.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	017,28; züh-	_	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	013r,20	_	_
+2	wil	_	_	VAFIN	_	_	_	_	_	VP	wil	017,28; züh-	_	VFIN	_	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	013r,20	_	_
+3	ſi	_	_	PPER	_	_	_	_	_	NP	ſi	017,28; züh-	_	DO	_	_	PPER	_	MAINDECL-ELLI	_	MF	013r,20	_	_
+4	zuͥhtegō	_	_	VVINF	_	_	_	_	_	VP	zuͥhtegō	017,28; züh-	NF	INF	_	_	VVINF	RE	MAINDECL-ELLI	RK	RK	013r,20	_	_
+5	mit	_	_	APPR	_	_	_	_	_	PP	mit	017,29; -tegon	NF	PP-ADV	_	_	APPR	_	MAINDECL-ELLI	_	NF	013r,20	UNLINK	_
+6	grôzē	_	_	ADJA	_	_	_	_	_	PP	grôzē	017,29; -tegon	NF	PP-ADV	ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL-ELLI	_	NF	013r,20	UNLINK	_
+7	ſclegē	_	_	NN	_	_	_	_	_	PP	ſclegē	017,29; -tegon	NF	PP-ADV	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL-ELLI	_	NF	013r,20	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	017,29; -tegon	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	013r,20	_	_

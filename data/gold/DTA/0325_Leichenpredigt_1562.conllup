@@ -1,0 +1,379 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 2
+# text = Durch den diener des Göttlichen Worts / Melchiorem Walther / der zeit Prediger bey der Pfarkirchen zu Wells / in der Pfarkirchen zu Helmanſedt / gepredigt .
+1	Durch	durch	_	APPR	_	_	_	_	_	_	MF
+2	den	d	_	ART	_	_	_	_	_	_	MF
+3	diener	Diener	_	NN	_	_	_	_	_	_	MF
+4	des	d	_	ART	_	_	_	_	_	_	MF
+5	Göttlichen	Göttliche	_	ADJA	_	_	_	_	_	_	MF
+6	Worts	Wort	_	NN	_	_	_	_	_	_	MF
+7	/	/	_	$(	_	_	_	_	_	_	MF
+8	Melchiorem	Melchiorem	_	NE	_	_	_	_	_	_	MF
+9	Walther	Walther	_	NE	_	_	_	_	_	_	MF
+10	/	/	_	$(	_	_	_	_	_	_	MF
+11	der	d	_	ART	_	_	_	_	_	_	MF
+12	zeit	Zeit	_	NN	_	_	_	_	_	_	MF
+13	Prediger	Prediger	_	NN	_	_	_	_	_	_	MF
+14	bey	bei	_	APPR	_	_	_	_	_	_	MF
+15	der	d	_	ART	_	_	_	_	_	_	MF
+16	Pfarkirchen	Pfarrkirche	_	NN	_	_	_	_	_	_	MF
+17	zu	zu	_	APPR	_	_	_	_	_	_	MF
+18	Wells	Wells	_	NE	_	_	_	_	_	_	MF
+19	/	/	_	$(	_	_	_	_	_	_	MF
+20	in	in	_	APPR	_	_	_	_	_	_	MF
+21	der	d	_	ART	_	_	_	_	_	_	MF
+22	Pfarkirchen	Pfarrkirche	_	NN	_	_	_	_	_	_	MF
+23	zu	zu	_	APPR	_	_	_	_	_	_	MF
+24	Helmanſedt	Helmansedt	_	NE	_	_	_	_	_	_	MF
+25	/	/	_	$(	_	_	_	_	_	_	_
+26	gepredigt	predigen	_	VVPP	_	_	_	_	_	RK	RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 5
+# text = Letzlich zum Exempel allen Chriſtlichen Herrn vñ den gefreundten / So alda bey ſolcher Begrebnis gegen-<lb/>wertig erſchienen / Geſchehen den zehenden tag des Monats Septembris des 1560 . jars .
+1	Letzlich	letztlich	_	ADV	_	_	_	_	_	_	MF
+2	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+3	Exempel	Exempel	_	NN	_	_	_	_	_	_	MF
+4	allen	alle	_	PIAT	_	_	_	_	_	_	MF
+5	Chriſtlichen	christlich	_	ADJA	_	_	_	_	_	_	MF
+6	Herrn	Herr	_	NN	_	_	_	_	_	_	MF
+7	vñ	und	_	KON	_	_	_	_	_	_	MF
+8	den	d	_	ART	_	_	_	_	_	_	MF
+9	gefreundten	gefreundet	_	NN	_	_	_	_	_	_	MF
+10	/	/	_	$(	_	_	_	_	_	_	MF
+11	So	so	_	ADV	_	_	_	_	_	LK	MF-LK
+12	alda	allda	_	ADV	_	_	_	_	_	_	MF-MF
+13	bey	bei	_	APPR	_	_	_	_	_	_	MF-MF
+14	ſolcher	solch	_	PIAT	_	_	_	_	_	_	MF-MF
+15	Begrebnis	Begräbnis	_	NN	_	_	_	_	_	_	MF-MF
+16	gegen-<lb/>wertig	gegenwärtig	_	ADJD	_	_	_	_	_	_	MF-MF
+17	erſchienen	erscheinen	_	VVPP	_	_	_	_	_	RK	MF-RK
+18	/	/	_	$(	_	_	_	_	_	_	_
+19	Geſchehen	Geschehen	_	VVPP	_	_	_	_	_	RK	RK
+20	den	d	_	ART	_	_	_	_	_	_	NF
+21	zehenden	zehnt	_	ADJA	_	_	_	_	_	_	NF
+22	tag	Tag	_	NN	_	_	_	_	_	_	NF
+23	des	d	_	ART	_	_	_	_	_	_	NF
+24	Monats	Monat	_	NN	_	_	_	_	_	_	NF
+25	Septembris	Septembris	_	NN	_	_	_	_	_	_	NF
+26	des	d	_	ART	_	_	_	_	_	_	NF
+27	1560	1560	_	CARD	_	_	_	_	_	_	NF
+28	.	.	_	$.	_	_	_	_	_	_	NF
+29	jars	Jahr	_	NN	_	_	_	_	_	_	NF
+30	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 6
+# text = Gedruckt zu Wittemberg durch Hans Krafft . 1562 .
+1	Gedruckt	drucken	_	VVPP	_	_	_	_	_	RK	RK
+2	zu	zu	_	APPR	_	_	_	_	_	_	NF
+3	Wittemberg	Wittemberg	_	NE	_	_	_	_	_	_	NF
+4	durch	durch	_	APPR	_	_	_	_	_	_	NF
+5	Hans	Hans	_	NE	_	_	_	_	_	_	NF
+6	Krafft	Kraft	_	NE	_	_	_	_	_	_	NF
+7	.	.	_	$.	_	_	_	_	_	_	_
+8	1562	1562	_	CARD	_	_	_	_	_	_	FRAG
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 14
+# text = DJeweil wir in dieſer Pfarrkirchen bey ein ander verſamlet / aus dem befelch vnſers getrewen Herrn vñ Seligmachers Jheſu Chriſti / das heilig Götlich Wort zu hören vnd zu lernen / Wil ich ſölch mein leer vnd Predigt / auff das aller kürtzeſt / der Materien nach in drey teil ſtellen .
+1	DJeweil	dieweil	_	KOUS	_	_	_	_	_	LK	VF-LK
+2	wir	wir	_	PPER	_	_	_	_	_	_	VF-MF
+3	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+4	dieſer	diese	_	PDAT	_	_	_	_	_	_	VF-MF
+5	Pfarrkirchen	Pfarrkirche	_	NN	_	_	_	_	_	_	VF-MF
+6	bey	bei	_	APPR	_	_	_	_	_	_	VF-MF
+7	ein	eine	_	ART	_	_	_	_	_	_	VF-MF
+8	ander	ander	_	PIS	_	_	_	_	_	_	VF-MF
+9	verſamlet	versammeln	_	VVPP	_	_	_	_	_	RK	VF-RK
+10	/	/	_	$(	_	_	_	_	_	_	VF
+11	aus	aus	_	APPR	_	_	_	_	_	_	VF-NF-MF
+12	dem	d	_	ART	_	_	_	_	_	_	VF-NF-MF
+13	befelch	Befehl	_	NN	_	_	_	_	_	_	VF-NF-MF
+14	vnſers	unsere	_	PPOSAT	_	_	_	_	_	_	VF-NF-MF
+15	getrewen	getreu	_	ADJA	_	_	_	_	_	_	VF-NF-MF
+16	Herrn	Herr	_	NN	_	_	_	_	_	_	VF-NF-MF
+17	vñ	und	_	KON	_	_	_	_	_	_	VF-NF-MF
+18	Seligmachers	Seligmacher	_	NN	_	_	_	_	_	_	VF-NF-MF
+19	Jheſu	Jesus	_	NE	_	_	_	_	_	_	VF-NF-MF
+20	Chriſti	Christi	_	NE	_	_	_	_	_	_	VF-NF-MF
+21	/	/	_	$(	_	_	_	_	_	_	VF-NF-MF
+22	das	die	_	ART	_	_	_	_	_	_	VF-NF-MF
+23	heilig	heilig	_	ADJD	_	_	_	_	_	_	VF-NF-MF
+24	Götlich	göttlich	_	ADJD	_	_	_	_	_	_	VF-NF-MF
+25	Wort	Wort	_	NN	_	_	_	_	_	_	VF-NF-MF
+26	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-NF-RK
+27	hören	hören	_	VVINF	_	_	_	_	_	RK	VF-NF-RK
+28	vnd	und	_	KON	_	_	_	_	_	RK	VF-NF-RK
+29	zu	zu	_	PTKZU	_	_	_	_	_	RK	VF-NF-RK
+30	lernen	lernen	_	VVINF	_	_	_	_	_	RK	VF-NF-RK
+31	/	/	_	$(	_	_	_	_	_	_	_
+32	Wil	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+33	ich	ich	_	PPER	_	_	_	_	_	_	MF
+34	ſölch	solch	_	PIAT	_	_	_	_	_	_	MF
+35	mein	mein	_	PPOSAT	_	_	_	_	_	_	MF
+36	leer	leer	_	NN	_	_	_	_	_	_	MF
+37	vnd	und	_	KON	_	_	_	_	_	_	MF
+38	Predigt	Predigt	_	NN	_	_	_	_	_	_	MF
+39	/	/	_	$(	_	_	_	_	_	_	MF
+40	auff	auf	_	APPR	_	_	_	_	_	_	MF
+41	das	d	_	ART	_	_	_	_	_	_	MF
+42	aller	alle	_	PIAT	_	_	_	_	_	_	MF
+43	kürtzeſt	kurz	_	ADJD	_	_	_	_	_	_	MF
+44	/	/	_	$(	_	_	_	_	_	_	MF
+45	der	d	_	ART	_	_	_	_	_	_	MF
+46	Materien	Materie	_	NN	_	_	_	_	_	_	MF
+47	nach	nach	_	APPR	_	_	_	_	_	_	MF
+48	in	in	_	APPR	_	_	_	_	_	_	MF
+49	drey	drei	_	CARD	_	_	_	_	_	_	MF
+50	teil	Teil	_	NN	_	_	_	_	_	_	MF
+51	ſtellen	stellen	_	VVINF	_	_	_	_	_	RK	RK
+52	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 15
+# text = Erſtlich / wil ich euch den kleglichen Text / ſo beſchrieben iſt / Jeremiae am 20. capitel ſeiner Prophe-<lb/>tiſchen Schrifften / von wort zu wort verleſen .
+1	Erſtlich	erstlich	_	ADV	_	_	_	_	_	_	VF
+2	/	/	_	$(	_	_	_	_	_	_	_
+3	wil	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	MF
+5	euch	euch	_	PPER	_	_	_	_	_	_	MF
+6	den	d	_	ART	_	_	_	_	_	_	MF
+7	kleglichen	kläglich	_	ADJA	_	_	_	_	_	_	MF
+8	Text	Text	_	NN	_	_	_	_	_	_	MF
+9	/	/	_	$(	_	_	_	_	_	_	MF
+10	ſo	so	_	ADV	_	_	_	_	_	LK	MF-LK
+11	beſchrieben	beschreiben	_	VVPP	_	_	_	_	_	RK	MF-RK
+12	iſt	sein	_	VAFIN	_	_	_	_	_	RK	MF-RK
+13	/	/	_	$(	_	_	_	_	_	_	MF
+14	Jeremiae	Jeremiae	_	NE	_	_	_	_	_	_	MF
+15	am	am	_	APPRART	_	_	_	_	_	_	MF
+16	20.	20.	_	ADJA	_	_	_	_	_	_	MF
+17	capitel	Kapiteln	_	NN	_	_	_	_	_	_	MF
+18	ſeiner	seine	_	PPOSAT	_	_	_	_	_	_	MF
+19	Prophe-<lb/>tiſchen	prophetisch	_	ADJA	_	_	_	_	_	_	MF
+20	Schrifften	Schrift	_	NN	_	_	_	_	_	_	MF
+21	/	/	_	$(	_	_	_	_	_	_	MF
+22	von	von	_	APPR	_	_	_	_	_	_	MF
+23	wort	Wort	_	NN	_	_	_	_	_	_	MF
+24	zu	zu	_	APPR	_	_	_	_	_	_	MF
+25	wort	Wort	_	NN	_	_	_	_	_	_	MF
+26	verleſen	verlesen	_	VVPP	_	_	_	_	_	RK	RK
+27	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 16
+# text = Zum andern / zu einem eingang der Pre-<lb/>dig / wil ich einen kurtzen vnterricht thun / von dem elen-<lb/>den Jamerlichen vnd erbermlichen leben des Menſchen .
+1	Zum	zum	_	APPRART	_	_	_	_	_	_	LV
+2	andern	ander	_	PIS	_	_	_	_	_	_	LV
+3	/	/	_	$(	_	_	_	_	_	_	_
+4	zu	zu	_	APPR	_	_	_	_	_	_	VF
+5	einem	eine	_	ART	_	_	_	_	_	_	VF
+6	eingang	Eingang	_	NN	_	_	_	_	_	_	VF
+7	der	d	_	ART	_	_	_	_	_	_	VF
+8	Pre-<lb/>dig	Predigen	_	NN	_	_	_	_	_	_	VF
+9	/	/	_	$(	_	_	_	_	_	_	_
+10	wil	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+11	ich	ich	_	PPER	_	_	_	_	_	_	MF
+12	einen	eine	_	ART	_	_	_	_	_	_	MF
+13	kurtzen	kurz	_	ADJA	_	_	_	_	_	_	MF
+14	vnterricht	Unterricht	_	NN	_	_	_	_	_	_	MF
+15	thun	tun	_	VVINF	_	_	_	_	_	RK	RK
+16	/	/	_	$(	_	_	_	_	_	_	_
+17	von	von	_	APPR	_	_	_	_	_	_	NF
+18	dem	d	_	ART	_	_	_	_	_	_	NF
+19	elen-<lb/>den	elend	_	ADJA	_	_	_	_	_	_	NF
+20	Jamerlichen	Jammerlichen	_	ADJA	_	_	_	_	_	_	NF
+21	vnd	und	_	KON	_	_	_	_	_	_	NF
+22	erbermlichen	erbärmlich	_	ADJA	_	_	_	_	_	_	NF
+23	leben	leben	_	NN	_	_	_	_	_	_	NF
+24	des	d	_	ART	_	_	_	_	_	_	NF
+25	Menſchen	Mensch	_	NN	_	_	_	_	_	_	NF
+26	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 17
+# text = Zum dritten / Wil ich euch das lob dieſes Chriſtlichen / in Gott ſanfft entſchlaffenen Herren / wie billich / vnd er wol wirdig / anzeigen /
+1	Zum	zum	_	APPRART	_	_	_	_	_	_	VF
+2	dritten	dritt	_	NN	_	_	_	_	_	_	VF
+3	/	/	_	$(	_	_	_	_	_	_	_
+4	Wil	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+5	ich	ich	_	PPER	_	_	_	_	_	_	MF
+6	euch	euch	_	PPER	_	_	_	_	_	_	MF
+7	das	d	_	ART	_	_	_	_	_	_	MF
+8	lob	Lob	_	NN	_	_	_	_	_	_	MF
+9	dieſes	diese	_	PDAT	_	_	_	_	_	_	MF
+10	Chriſtlichen	christlich	_	ADJA	_	_	_	_	_	_	MF
+11	/	/	_	$(	_	_	_	_	_	_	MF
+12	in	in	_	APPR	_	_	_	_	_	_	MF
+13	Gott	Gott	_	NN	_	_	_	_	_	_	MF
+14	ſanfft	sanft	_	ADJD	_	_	_	_	_	_	MF
+15	entſchlaffenen	entschlafen	_	ADJA	_	_	_	_	_	_	MF
+16	Herren	Herr	_	NN	_	_	_	_	_	_	MF
+17	/	/	_	$(	_	_	_	_	_	_	MF
+18	wie	wie	_	KOKOM	_	_	_	_	_	_	MF
+19	billich	billig	_	ADJD	_	_	_	_	_	_	MF
+20	/	/	_	$(	_	_	_	_	_	_	MF
+21	vnd	und	_	KON	_	_	_	_	_	_	MF
+22	er	er	_	PPER	_	_	_	_	_	_	MF
+23	wol	wohl	_	ADV	_	_	_	_	_	_	MF
+24	wirdig	würdig	_	ADJD	_	_	_	_	_	_	MF
+25	/	/	_	$(	_	_	_	_	_	_	_
+26	anzeigen	anzeigen	_	VVINF	_	_	_	_	_	RK	RK
+27	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 17
+# text = Darnach ſo wil ich euch Gott dem Herren befehlen .
+1	Darnach	danach	_	PAV	_	_	_	_	_	_	LV
+2	ſo	so	_	ADV	_	_	_	_	_	_	VF
+3	wil	wollen	_	VMFIN	_	_	_	_	_	LK	LK
+4	ich	ich	_	PPER	_	_	_	_	_	_	MF
+5	euch	euch	_	PPER	_	_	_	_	_	_	MF
+6	Gott	Gott	_	NN	_	_	_	_	_	_	MF
+7	dem	d	_	ART	_	_	_	_	_	_	MF
+8	Herren	Herr	_	NN	_	_	_	_	_	_	MF
+9	befehlen	befehlen	_	VVINF	_	_	_	_	_	RK	RK
+10	.	.	_	$.	_	_	_	_	_	RK	RK
+
+# sent_id = 9
+# sent_id(TSV) = 18
+# text = Nun ſtehet auff von ewrem ſündtlichen le-<lb/>ben / thut Buſſe vnd beſſert daſſelbige / vnd höret an mit rechter andacht / den Kleglichen Text des heiligen Pro-<lb/>pheten Jeremiae am 20. Capitel .
+1	Nun	nun	_	ADV	_	_	_	_	_	_	VF
+2	ſtehet	stehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	auff	auf	_	PTKVZ	_	_	_	_	_	_	MF
+4	von	von	_	APPR	_	_	_	_	_	_	MF
+5	ewrem	euer	_	PPOSAT	_	_	_	_	_	_	MF
+6	ſündtlichen	sündlich	_	ADJA	_	_	_	_	_	_	MF
+7	le-<lb/>ben	leben	_	NN	_	_	_	_	_	_	MF
+8	/	/	_	$(	_	_	_	_	_	_	_
+9	thut	tun	_	VVFIN	_	_	_	_	_	LK	LK
+10	Buſſe	Buße	_	NN	_	_	_	_	_	_	MF
+11	vnd	und	_	KON	_	_	_	_	_	_	KOORD
+12	beſſert	bessern	_	VVFIN	_	_	_	_	_	LK	LK
+13	daſſelbige	dasselbe	_	PDAT	_	_	_	_	_	_	MF
+14	/	/	_	$(	_	_	_	_	_	_	_
+15	vnd	und	_	KON	_	_	_	_	_	_	KOORD
+16	höret	hören	_	VVFIN	_	_	_	_	_	LK	LK
+17	an	an	_	PTKVZ	_	_	_	_	_	RK	RK
+18	mit	mit	_	APPR	_	_	_	_	_	_	NF
+19	rechter	recht	_	ADJA	_	_	_	_	_	_	NF
+20	andacht	Andacht	_	NN	_	_	_	_	_	_	NF
+21	/	/	_	$(	_	_	_	_	_	_	NF
+22	den	d	_	ART	_	_	_	_	_	_	NF
+23	Kleglichen	kläglich	_	ADJA	_	_	_	_	_	_	NF
+24	Text	Text	_	NN	_	_	_	_	_	_	NF
+25	des	d	_	ART	_	_	_	_	_	_	NF
+26	heiligen	heilig	_	ADJA	_	_	_	_	_	_	NF
+27	Pro-<lb/>pheten	Prophet	_	NN	_	_	_	_	_	_	NF
+28	Jeremiae	Jeremiae	_	NE	_	_	_	_	_	_	NF
+29	am	am	_	APPRART	_	_	_	_	_	_	NF
+30	20.	20.	_	ADJA	_	_	_	_	_	_	NF
+31	Capitel	Kapitel	_	NN	_	_	_	_	_	_	NF
+32	.	.	_	$.	_	_	_	_	_	_	NF
+
+# sent_id = 10
+# sent_id(TSV) = 20
+# text = VErflucht ſey der tag an dem ich geborn bin /
+1	VErflucht	verfluchen	_	VVPP	_	_	_	_	_	RK	VF-RK
+2	ſey	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	der	d	_	ART	_	_	_	_	_	_	MF
+4	tag	Tag	_	NN	_	_	_	_	_	_	MF
+5	an	an	_	APPR	_	_	_	_	_	LK	NF-LK
+6	dem	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+7	ich	ich	_	PPER	_	_	_	_	_	_	NF-MF
+8	geborn	gebären	_	VVPP	_	_	_	_	_	RK	NF-RK
+9	bin	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+10	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 20
+# text = der tag an dem mich mein Mutter bracht hat / der ſey vnglückſelig /
+1	der	d	_	ART	_	_	_	_	_	_	LV
+2	tag	Tag	_	NN	_	_	_	_	_	_	LV
+3	an	an	_	APPR	_	_	_	_	_	LK	LV-LK
+4	dem	die	_	PRELS	_	_	_	_	_	LK	LV-LK
+5	mich	ich	_	PPER	_	_	_	_	_	_	LV-MF
+6	mein	mein	_	PPOSAT	_	_	_	_	_	_	LV-MF
+7	Mutter	Mutter	_	NN	_	_	_	_	_	_	LV-MF
+8	bracht	bringen	_	VVPP	_	_	_	_	_	RK	LV-RK
+9	hat	haben	_	VAFIN	_	_	_	_	_	RK	LV-RK
+10	/	/	_	$(	_	_	_	_	_	_	_
+11	der	d	_	PDS	_	_	_	_	_	_	VF
+12	ſey	sein	_	VAFIN	_	_	_	_	_	LK	LK
+13	vnglückſelig	unglückselig	_	ADJD	_	_	_	_	_	_	MF
+14	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 20
+# text = Ver-<lb/>flucht ſey der Menſch / der mei-<lb/>nem Vater das botenbrot bracht / jm zu einer Freud / da er ſprach / Dir iſt ein Knab worden /
+1	Ver-<lb/>flucht	verfluchen	_	VVPP	_	_	_	_	_	RK	VF-RK
+2	ſey	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	der	d	_	ART	_	_	_	_	_	_	MF
+4	Menſch	Mensch	_	NN	_	_	_	_	_	_	MF
+5	/	/	_	$(	_	_	_	_	_	_	_
+6	der	d	_	PRELS	_	_	_	_	_	LK	NF-LK
+7	mei-<lb/>nem	meine	_	PPOSAT	_	_	_	_	_	_	NF-MF
+8	Vater	Vater	_	NN	_	_	_	_	_	_	NF-MF
+9	das	d	_	ART	_	_	_	_	_	_	NF-MF
+10	botenbrot	Botenbrot	_	NN	_	_	_	_	_	_	NF-MF
+11	bracht	bringen	_	VVPP	_	_	_	_	_	RK	NF-RK
+12	/	/	_	$(	_	_	_	_	_	_	NF
+13	jm	er	_	PPER	_	_	_	_	_	_	NF-NF
+14	zu	zu	_	APPR	_	_	_	_	_	_	NF-NF
+15	einer	eine	_	ART	_	_	_	_	_	_	NF-NF
+16	Freud	Freude	_	NN	_	_	_	_	_	_	NF-NF
+17	/	/	_	$(	_	_	_	_	_	_	NF-NF
+18	da	da	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+19	er	er	_	PPER	_	_	_	_	_	_	NF-NF-MF
+20	ſprach	sprechen	_	VVFIN	_	_	_	_	_	RK	NF-NF-RK
+21	/	/	_	$(	_	_	_	_	_	_	NF-NF
+22	Dir	du	_	PPER	_	_	_	_	_	_	NF-NF-NF-VF
+23	iſt	sein	_	VAFIN	_	_	_	_	_	LK	NF-NF-NF-LK
+24	ein	eine	_	ART	_	_	_	_	_	_	NF-NF-NF-MF
+25	Knab	Knabe	_	NN	_	_	_	_	_	_	NF-NF-NF-MF
+26	worden	werden	_	VAPP	_	_	_	_	_	RK	NF-NF-NF-RK
+27	/	/	_	$(	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 20
+# text = Es gehe dem ſelben menſchen / wie es den Ste-<lb/>ten ergangen iſt / die der HERR one barm-<lb/>hertzigkeit vmbgekert hat .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	gehe	gehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	dem	d	_	ART	_	_	_	_	_	_	MF
+4	ſelben	selb	_	ADJA	_	_	_	_	_	_	MF
+5	menſchen	Mensch	_	NN	_	_	_	_	_	_	MF
+6	/	/	_	$(	_	_	_	_	_	_	_
+7	wie	wie	_	PWAV	_	_	_	_	_	LK	NF-LK
+8	es	es	_	PPER	_	_	_	_	_	_	NF-MF
+9	den	d	_	ART	_	_	_	_	_	_	NF-MF
+10	Ste-<lb/>ten	Stete	_	NN	_	_	_	_	_	_	NF-MF
+11	ergangen	ergehen	_	VVPP	_	_	_	_	_	RK	NF-RK
+12	iſt	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+13	/	/	_	$(	_	_	_	_	_	_	NF
+14	die	d	_	PRELS	_	_	_	_	_	LK	NF-NF-LK
+15	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+16	HERR	Herr	_	NN	_	_	_	_	_	_	NF-NF-MF
+17	one	ohne	_	APPR	_	_	_	_	_	_	NF-NF-MF
+18	barm-<lb/>hertzigkeit	Barmherzigkeit	_	NN	_	_	_	_	_	_	NF-NF-MF
+19	vmbgekert	umgekehrt	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+20	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 22
+# text = Warumb bin ich aus Mutter leib auff dieſe erden komen ?
+1	Warumb	warum	_	PWAV	_	_	_	_	_	_	VF
+2	bin	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	ich	ich	_	PPER	_	_	_	_	_	_	MF
+4	aus	aus	_	APPR	_	_	_	_	_	_	MF
+5	Mutter	Mutter	_	NN	_	_	_	_	_	_	MF
+6	leib	Leib	_	NN	_	_	_	_	_	_	MF
+7	auff	auf	_	APPR	_	_	_	_	_	_	MF
+8	dieſe	diese	_	PDAT	_	_	_	_	_	_	MF
+9	erden	Erde	_	NN	_	_	_	_	_	_	MF
+10	komen	kommen	_	VVINF	_	_	_	_	_	RK	RK
+11	?	?	_	$.	_	_	_	_	_	_	_

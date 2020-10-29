@@ -1,0 +1,82 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = *{I*}ch hab eín woͤrt(=)lín fuͤr geleit vs dem Ewā=gelío
+1	*{I*}ch	_	_	PPER	_	_	_	_	_	NP	{I}ch 	302,1	_	SUBJ	_	PPER	_	MAINDECL	_	VF	81ra,06, woert(=)-	_	_
+2	hab	_	_	VAFIN	_	_	_	_	_	VP	hab 	302,1	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	81ra,06, woert(=)-	_	_
+3	eín	_	_	ART	_	_	_	_	_	NP	eín 	302,1	NF	DO	_	DIA	_	MAINDECL	_	MF	81ra,06, woert(=)-	_	_
+4	woͤrt(=)lín	_	_	NN	_	_	_	_	_	NP	woͤrtlín 	302,1	NF	DO	_	NA	_	MAINDECL	_	MF	81ra,06, woert(=)-	_	_
+5	fuͤr	_	_	APPR	_	_	_	_	_	VP	fuͤr 	302,1	NF	INF	_	APPR	_	MAINDECL	_	MF	81ra,07, Ewa-= - 	_	_
+6	geleit	_	_	VVPP	_	_	_	_	_	VP	geleit 	302,1	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	81ra,07, Ewa-= - 	_	_
+7	vs	_	_	APPR	_	_	_	_	_	PP	vs 	302,1	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	81ra,07, Ewa-= - 	UNLINK	_
+8	dem	_	_	ART	_	_	_	_	_	PP	dem 	302,1	NF	PP-ADV	ACC-UNI-UNUSED	DDA	_	MAINDECL	_	NF	81ra,07, Ewa-= - 	UNLINK	_
+9	Ewā=gelío	_	_	NE	_	_	_	_	_	PP	Ewāgelío 	302,1	NF	PP-ADV	ACC-UNI-UNUSED	NE	_	MAINDECL	_	NF	81ra,07, Ewa-= - 	UNLINK	_
+
+# sent_id = 2
+# text = Das wil ich vͥch ſagē mit eíner glichníſſe
+1	Das	_	_	PDS	_	_	_	_	_	NP	Das 	302,11	_	DO	_	DDS	_	MAINDECL	_	VF	81rb,03	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil 	302,11	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	81rb,03	_	_
+3	ich	_	_	PPER	_	_	_	_	_	NP	ich 	302,11	_	SUBJ	_	PPER	_	MAINDECL	_	MF	81rb,03	_	_
+4	vͥch	_	_	PPER	_	_	_	_	_	NP	vͥch 	302,11	_	IO-DAT	_	PPER	_	MAINDECL	_	MF	81rb,03	_	_
+5	ſagē	_	_	VVINF	_	_	_	_	_	VP	ſagē 	302,11	_	INF	_	VVINF	RE	MAINDECL	RK	RK	81rb,03	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	302,12	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	81rb,03	UNLINK	_
+7	eíner	_	_	ART	_	_	_	_	_	PP	eíner 	302,12	NF	PP-ADV	ACC-ABSTR-UNUSED	DIA	_	MAINDECL	_	NF	81rb,04	UNLINK	_
+8	glichníſſe	_	_	NN	_	_	_	_	_	PP	glichníſſe 	302,12	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	81rb,04	UNLINK	_
+
+# sent_id = 3
+# text = Nu hatte got geſw(=)orn durch díe p̄pheten vn̄ durch díe wíſſagen
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu 	-best, 302,18	_	ADVB	_	ADV	_	MAINDECL	_	VF	81va,01 ge$w(=)-	_	_
+2	hatte	_	_	VAFIN	_	_	_	_	_	VP	hatte 	-best, 302,18	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	81va,01 ge$w(=)-	_	_
+3	got	_	_	NE	_	_	_	_	_	NP	got 	-best, 302,18	_	SUBJ	_	NE	_	MAINDECL	_	MF	81va,01 ge$w(=)-	_	_
+4	geſw(=)orn	_	_	VVPP	_	_	_	_	_	VP	geſworn 	-best, 302,18	_	INF	_	VVPP	RE	MAINDECL	RK	RK	81va,01 ge$w(=)-	_	_
+5	durch	_	_	APPR	_	_	_	_	_	PP	durch 	-best, 302,18	NF_	PP-ADV	_	APPR	_	MAINDECL	_	NF	81va,02	UNLINK	_
+6	díe	_	_	ART	_	_	_	_	_	PP	díe 	-best, 302,18	NF_	PP-ADV	NEW_	DDA	_	MAINDECL	_	NF	81va,02	UNLINK	_
+7	p̄pheten	_	_	NN	_	_	_	_	_	PP	p̄pheten	-best, 302,18	NF_	PP-ADV	NEW_	NA	_	MAINDECL	_	NF	81va,02	UNLINK	_
+8	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	302,19, mensch-	_	_	_	KON	_	MAINDECL	_	NF	81va,03	UNLINK	_
+9	durch	_	_	APPR	_	_	_	_	_	PP	durch 	302,19, mensch-	NF_	PP-ADV	_	APPR	_	MAINDECL	_	NF	81va,03	UNLINK	_
+10	díe	_	_	ART	_	_	_	_	_	PP	díe 	302,19, mensch-	NF_	PP-ADV	_NEW	DDA	_	MAINDECL	_	NF	81va,03	UNLINK	_
+11	wíſſagen	_	_	NN	_	_	_	_	_	PP	wíſſagen	302,19, mensch-	NF_	PP-ADV	_NEW	NA	_	MAINDECL	_	NF	81va,03	UNLINK	_
+
+# sent_id = 4
+# text = vn̄ wíl klein guͥlte nemē fuͥr groz ſchulde
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	302,38	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	82ra,05	_	_
+2	wíl	_	_	VMFIN	_	_	_	_	_	VP	wíl 	302,38	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	82ra,05	_	_
+3	klein	_	_	ADJA	_	_	_	_	_	AP	klein	302,39	_	DO	_	ADJ	_	MAINDECL-ELLI	_	MF	82ra,05	_	_
+4	guͥlte	_	_	NN	_	_	_	_	_	AP	guͥlte 	302,39	_	DO	_	NA	_	MAINDECL-ELLI	_	MF	82ra,06	_	_
+5	nemē	_	_	VVINF	_	_	_	_	_	VP	nemē 	302,39	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	82ra,06	_	_
+6	fuͥr	_	_	APPR	_	_	_	_	_	PP	fuͥr 	302,39	NF	PP-ADV	ACC-ABSTR-UNUSED	APPR	_	MAINDECL-ELLI	_	NF	82ra,06	UNLINK	_
+7	groz	_	_	ADJA	_	_	_	_	_	PP	groz 	302,39	NF	PP-ADV	ACC-ABSTR-UNUSED	ADJ	_	MAINDECL-ELLI	_	NF	82ra,06	UNLINK	_
+8	ſchulde	_	_	NN	_	_	_	_	_	PP	ſchulde 	302,39	NF	PP-ADV	ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	NF	82ra,06	UNLINK	_
+
+# sent_id = 5
+# text = ſo wirt d' lip gerichet vō d' ober(=)ſten kraft d' ſele
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo 	305,2	_	ADVB	_	ADV	_	MAINDECL	_	VF	84rb,04	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	305,2	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	84rb,04	_	_
+3	d'	_	_	ART	_	_	_	_	_	NP	d' 	305,2	_	SUBJ	_	DDA	_	MAINDECL	_	MF	84rb,05; ober-	_	_
+4	lip	_	_	NN	_	_	_	_	_	NP	lip 	305,2	_	SUBJ	_	NA	_	MAINDECL	_	MF	84rb,05; ober-	_	_
+5	gerichet	_	_	VVPP	_	_	_	_	_	VP	gerichet 	305,2	_	INF	_	VVPP	RE	MAINDECL	RK	RK	84rb,05; ober-	_	_
+6	vō	_	_	APPR	_	_	_	_	_	PP	vō 	305,2	NF	PP-AGENS	_	APPR	_	MAINDECL	_	NF	84rb,05; ober-	UNLINK	_
+7	d'	_	_	ART	_	_	_	_	_	PP	d' 	305,2	NF	PP-AGENS	ACC-ABSTR-UNUSED_	DDA	_	MAINDECL	_	NF	84rb,05; ober-	UNLINK	_
+8	ober(=)ſten	_	_	ADJA	_	_	_	_	_	PP	oberſten 	305,2	NF	PP-AGENS	ACC-ABSTR-UNUSED_	ADJ	_	MAINDECL	_	NF	84rb,05; ober-	UNLINK	_
+9	kraft	_	_	NN	_	_	_	_	_	PP	kraft 	305,2	NF	PP-AGENS	ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	84rb,06; -$ten	UNLINK	_
+10	d'	_	_	ART	_	_	_	_	_	PP	d' 	305,2	NF	ATTR	_ACC-ABSTR-USED-1	DDA	_	MAINDECL	_	NF	84rb,06; -$ten	UNLINK	_
+11	ſele	_	_	NN	_	_	_	_	_	PP	ſele 	305,3	NF	ATTR	_ACC-ABSTR-USED-1	NA	_	MAINDECL	_	NF	84rb,06; -$ten	UNLINK	_
+
+# sent_id = 6
+# text = ſo wirt er ver#einet mít d' ſele mít ſolich' wunne vnd klarheít d' nie nuͥt ge(=)lích wart
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo 	305,7	_	ADVB	_	ADV	_	MAINDECL	_	VF	84rb,18	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt	305,7	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	84rb,18	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er 	305,7	_	SUBJ	_	PPER	_	MAINDECL	_	MF	84rb,19	_	_
+4	ver#einet	_	_	VVPP	_	_	_	_	_	VP	vereinet 	305,7	_	INF	_	VVPP	RE	MAINDECL	RK	RK	84rb,19	_	_
+5	mít	_	_	APPR	_	_	_	_	_	PP	mít 	305,7	_	PP-ADV	_	APPR	_	MAINDECL	_	NF	84rb,19	UNLINK	_
+6	d'	_	_	ART	_	_	_	_	_	PP	d' 	305,7	_	PP-ADV	ACC-ABSTR-USED-X	DDA	_	MAINDECL	_	NF	84rb,19	UNLINK	KOREF1
+7	ſele	_	_	NN	_	_	_	_	_	PP	ſele	305,7	_	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	84rb,19	UNLINK	KOREF1
+8	mít	_	_	APPR	_	_	_	_	_	PP	mít 	305,7	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	84rb,20	UNLINK	_
+9	ſolich'	_	_	PDS	_	_	_	_	_	PP	ſolich' 	305,7	NF	PP-ADV	_	DDS	_	MAINDECL	_	NF	84rb,20	UNLINK	_
+10	wunne	_	_	NN	_	_	_	_	_	PP	wunne 	305,8	NF	PP-ADV	ACC-ABSTR-UNUSED_	NA	_	MAINDECL	_	NF	84rb,20	UNLINK	_
+11	vnd	_	_	KON	_	_	_	_	_	PP	vnd	305,8	NF	PP-ADV	_	KON	_	MAINDECL	_	NF	84rb,20	UNLINK	_
+12	klarheít	_	_	NN	_	_	_	_	_	PP	klarheít 	305,8	NF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	84rb,21	UNLINK	KOREF1-REL
+13	d'	_	_	PRELS	_	_	_	_	_	CP	d' 	305,8	NF	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	84rb,21	_	KOREF2-REL
+14	nie	_	_	PIS	_	_	_	_	_	CP	nie 	305,8	NF	ATTR	_	PINEG	_	MAINDECL	_	NF-MF	84rb,21	_	_
+15	nuͥt	_	_	NN	_	_	_	_	_	CP	nuͥt 	305,8	NF	ATTR	_	NA	_	MAINDECL	_	NF-MF	84rb,21	_	_
+16	ge(=)lích	_	_	ADJD	_	_	_	_	_	CP	gelích 	305,8	NF	ATTR	_	ADJD	_	MAINDECL	_	NF-MF	84rb,21	_	_
+17	wart	_	_	VAFIN	_	_	_	_	_	CP	wart 	305,8	NF	ATTR	_	VAFIN	_	MAINDECL	RK	NF-RK	84rb,22	_	_

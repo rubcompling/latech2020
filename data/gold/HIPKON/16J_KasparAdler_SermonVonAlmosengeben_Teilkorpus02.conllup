@@ -1,0 +1,186 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = wir sollen abstehen von vn=ser meinung /
+1	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	PPER	_	MAINDECL	_	VF	34,16 vn-	_	_
+2	sollen	_	_	VMFIN	_	_	_	_	_	VP	sollen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	34,16 vn-	_	_
+3	abstehen	_	_	VVINF	_	_	_	_	_	VP	abstehen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	34,16 vn-	_	_
+4	von	_	_	APPR	_	_	_	_	_	PP	von	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	34,16 vn-	UNLINK	_
+5	vn=ser	_	_	PPOSAT	_	_	_	_	_	PP	vnser	NF	PP-OBJ	ACC-INF_	DPOS	_	MAINDECL	_	NF	34,16 vn-	UNLINK	_
+6	meinung	_	_	NN	_	_	_	_	_	PP	meinung	NF	PP-OBJ	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	34,17-ser	UNLINK	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	34,17-ser	_	_
+
+# sent_id = 2
+# text = Darumb konnen vnd muͤgen wir sie nicht hoͤren nach jrer bitte /
+1	Darumb	_	_	PWAV	_	_	_	_	_	ADVP	Darumb	_	ADVB	_	PWAV	_	MAINDECL	_	VF	35,06	_	_
+2	konnen	_	_	VMFIN	_	_	_	_	_	VP	konnen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	35,06	_	_
+3	vnd	_	_	KON	_	_	_	_	_	VP	vnd	_	_	_	KON	LI	MAINDECL	LK	LK	35,06	_	_
+4	muͤgen	_	_	VMFIN	_	_	_	_	_	VP	muͤgen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	35,06	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir	_	SUBJ	_	PPER	_	MAINDECL	_	MF	35,07	_	_
+6	sie	_	_	PPER	_	_	_	_	_	NP	sie	_	DO	_	PPER	_	MAINDECL	_	MF	35,07	_	_
+7	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINDECL	_	MF	35,07	_	_
+8	hoͤren	_	_	VVINF	_	_	_	_	_	VP	hoͤren	BGR	INF	_	VVINF	RE	MAINDECL	RK	RK	35,07	_	_
+9	nach	_	_	APPR	_	_	_	_	_	PP	nach	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	35,07	UNLINK	_
+10	jrer	_	_	PPER	_	_	_	_	_	PP	jrer	BGR	PP-ADV	ACC-INF_	PPER	_	MAINDECL	_	NF	35,07	UNLINK	_
+11	bitte	_	_	NN	_	_	_	_	_	PP	bitte	BGR	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	35,07	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	35,07	_	_
+
+# sent_id = 3
+# text = last vns guts thun an je=derman / allermeist aber an des glaubens genossen /
+1	last	_	_	VVIMP	_	_	_	_	_	VP	last	_	VFIN	_	VVIMP	LI	MAINDECL-ELLI	LK	LK	35,19; je-	_	_
+2	vns	_	_	PPER	_	_	_	_	_	VP	vns	_	VZ_RFL	_	PPER	_	MAINDECL-ELLI	_	MF	35,19; je-	_	_
+3	guts	_	_	NN	_	_	_	_	_	NA	guts	NF_	DO	_	NA	_	MAINDECL-ELLI	_	MF	35,19; je-	_	_
+4	thun	_	_	VVINF	_	_	_	_	_	VP	thun	NF_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	35,19; je-	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	NF_	PP-OBJ	_	APPR	_	MAINDECL-ELLI	_	NF	35,19; je-	UNLINK1	_
+6	je=derman	_	_	PIAT	_	_	_	_	_	PP	jederman	NF_	PP-OBJ	NA	DI	_	MAINDECL-ELLI	_	NF	35,19; je-	UNLINK1	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL-ELLI	_	NF	35,20; -derman	_	_
+8	allermeist	_	_	ADV	_	_	_	_	_	ADVP	allermeist	_	APPOS	_	ADV	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+9	aber	_	_	KON	_	_	_	_	_	_	aber	_	APPOS	_	KON	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+10	an	_	_	APPR	_	_	_	_	_	PP	an	NF_	APPOS	_	APPR	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+11	des	_	_	ART	_	_	_	_	_	PP	des	NF_	APPOS	_	DDA	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+12	glaubens	_	_	NN	_	_	_	_	_	PP	glaubens	NF_	APPOS	NEW	NA	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+13	genossen	_	_	NN	_	_	_	_	_	PP	genossen	NF_	APPOS	NEW	NA	_	MAINDECL-ELLI	_	NF	35,20; -derman	UNLINK2	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL-ELLI	_	_	35,20; -derman	_	_
+
+# sent_id = 4
+# text = so will dich der HErr dein Gott sege=nen jnn allen wercken deiner hende
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	ADV	_	MAINDECL	_	VF	37,14 sege-	_	_
+2	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	37,14 sege-	_	_
+3	dich	_	_	PPER	_	_	_	_	_	NP	dich	_	DO	_	PPER	_	MAINDECL	_	MF	37,14 sege-	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	_	SUBJ	_	DDA	_	MAINDECL	_	MF	37,14 sege-	_	_
+5	HErr	_	_	NN	_	_	_	_	_	NP	HErr	_	SUBJ	_	NA	_	MAINDECL	_	MF	37,14 sege-	_	_
+6	dein	_	_	PPOSAT	_	_	_	_	_	NP	dein	_	APPOS	_	DPOS	_	MAINDECL	_	MF	37,14 sege-	_	_
+7	Gott	_	_	NN	_	_	_	_	_	NP	Gott	_	APPOS	_	NA	_	MAINDECL	_	MF	37,14 sege-	_	_
+8	sege=nen	_	_	VVINF	_	_	_	_	_	VP	segenen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	37,14 sege-	_	_
+9	jnn	_	_	APPR	_	_	_	_	_	PP	jnn	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	37,15-nen	UNLINK	_
+10	allen	_	_	ADJA	_	_	_	_	_	PP	allen	NF	PP-ADV	NEW_	ADJ	_	MAINDECL	_	NF	37,15-nen	UNLINK	_
+11	wercken	_	_	NN	_	_	_	_	_	PP	wercken	NF	PP-ADV	NEW_	NA	_	MAINDECL	_	NF	37,15-nen	UNLINK	_
+12	deiner	_	_	PPOSAT	_	_	_	_	_	PP	deiner	NF	ATTR	_ACC-INF_	DPOS	_	MAINDECL	_	NF	37,15-nen	UNLINK	_
+13	hende	_	_	NN	_	_	_	_	_	PP	hende	NF	ATTR	_NEW	NA	_	MAINDECL	_	NF	37,15-nen	UNLINK	_
+
+# sent_id = 5
+# text = Aber also magest |u aus lei=hen / gelt / korn odder ander gut /
+1	Aber	_	_	KON	_	_	_	_	_	_	Aber	_	_	_	KON	_	MAINDECL	_	KOORD	37,31; -dern lei-	_	_
+2	also	_	_	ADV	_	_	_	_	_	ADVP	also	_	ADVB	_	ADV	_	MAINDECL	_	VF	37,31; -dern lei-	_	_
+3	magest	_	_	VMFIN	_	_	_	_	_	VP	magest	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	37,31; -dern lei-	_	_
+4	|u	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	PPER	_	MAINDECL	_	MF	37,31; -dern lei-	_	_
+5	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	_	VZ_PTK	_	PTKVZ	_	MAINDECL	RK	RK	37,31; -dern lei-	_	_
+6	lei=hen	_	_	VVINF	_	_	_	_	_	VP	leihen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	37,31; -dern lei-	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	38,01; -hen	_	_
+8	gelt	_	_	NN	_	_	_	_	_	NP	gelt	NF	DO	NEW_	NA	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+9	/	_	_	$,	_	_	_	_	_	NP	/	NF	DO	_	$_	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+10	korn	_	_	NN	_	_	_	_	_	NP	korn	NF	DO	_GIV-INACTIVE_	NA	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+11	odder	_	_	KON	_	_	_	_	_	NP	odder	NF	DO	_	KON	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+12	ander	_	_	ADJA	_	_	_	_	_	NP	ander	NF	DO	_	ADJ	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+13	gut	_	_	NN	_	_	_	_	_	NP	gut	NF	DO	_ACC-AGGR	NA	_	MAINDECL	_	NF	38,01; -hen	UNLINK	_
+14	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	38,01; -hen	_	_
+
+# sent_id = 6
+# text = Dar=umb wilt |u aus geben / aus leihen auff Borck
+1	Dar=umb	_	_	PWAV	_	_	_	_	_	ADVP	Darumb	_	ADVB	_	PWAV	_	MAINDECL	_	VF	38,09; Da-	_	_
+2	wilt	_	_	VMFIN	_	_	_	_	_	VP	wilt	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	38,10; -umb	_	_
+3	|u	_	_	PPER	_	_	_	_	_	VP	du	_	VFIN	_	PPER	LI	MAINDECL	_	MF	38,10; -umb	_	_
+4	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	_	VZ_PTK	_	PTKVZ	_	MAINDECL	RK	RK	38,10; -umb	_	_
+5	geben	_	_	VVINF	_	_	_	_	_	VP	geben	_	INF	_	VVINF	_	MAINDECL	RK	RK	38,10; -umb	_	_
+6	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL	RK	RK	38,10; -umb	_	_
+7	aus	_	_	PTKVZ	_	_	_	_	_	VP	aus	NF	VZ_PTK	_	PTKVZ	_	MAINDECL	RK	RK	38,10; -umb	_	_
+8	leihen	_	_	VVINF	_	_	_	_	_	VP	leihen	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	38,10; -umb	_	_
+9	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	38,10; -umb	UNLINK	_
+10	Borck	_	_	NN	_	_	_	_	_	PP	Borck	NF	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	38,10; -umb	UNLINK	_
+
+# sent_id = 7
+# text = Sie sollen gastfrey sein / mild vnd troͤstlich den armen /
+1	Sie	_	_	PPER	_	_	_	_	_	NP	Sie	_	SUBJ	_	PPER	_	MAINDECL	_	VF	39,06	_	_
+2	sollen	_	_	VMFIN	_	_	_	_	_	VP	sollen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	39,07	_	_
+3	gastfrey	_	_	ADJD	_	_	_	_	_	AP	gastfrey	NF_	PRD	_	ADJD	_	MAINDECL	_	MF	39,07	_	_
+4	sein	_	_	VVINF	_	_	_	_	_	VP	sein	NF_	INF	_	VVINF	RE	MAINDECL	RK	RK	39,07	_	_
+5	/	_	_	$,	_	_	_	_	_	_	/	NF_	_	_	_	_	MAINDECL	_	_	39,07	_	_
+6	mild	_	_	ADJD	_	_	_	_	_	AP	mild	NF_	PRD	NA	ADJD	_	MAINDECL	_	NF	39,07	LINK_SYM	_
+7	vnd	_	_	KON	_	_	_	_	_	_	vnd	NF_	_	NA	KON	_	MAINDECL	_	NF	39,07	LINK_SYM	_
+8	troͤstlich	_	_	ADJD	_	_	_	_	_	AP	troͤstlich	NF_	PRD	NA	ADJD	_	MAINDECL	_	NF	39,07	LINK_SYM	_
+9	den	_	_	ART	_	_	_	_	_	NP	den	NF_	IO-DAT	_	DDA	_	MAINDECL	_	NF	39,07	UNLINK	_
+10	armen	_	_	NN	_	_	_	_	_	NP	armen	NF_	IO-DAT	NEW	NA	_	MAINDECL	_	NF	39,07	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	39,07	_	_
+
+# sent_id = 8
+# text = so muͤssen sie auch zimlich versor=get sein / mit gelt vnd gut /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	ADV	_	MAINDECL	_	VF	39,15 versor-	_	_
+2	muͤssen	_	_	VMFIN	_	_	_	_	_	VP	muͤssen	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	39,15 versor-	_	_
+3	sie	_	_	PPER	_	_	_	_	_	NP	sie	_	SUBJ	_	PPER	_	MAINDECL	_	MF	39,15 versor-	_	_
+4	auch	_	_	ADV	_	_	_	_	_	ADVP	auch	_	ADVB	_	ADV	_	MAINDECL	_	MF	39,15 versor-	_	_
+5	zimlich	_	_	ADV	_	_	_	_	_	ADVP	zimlich	_	ADVB	_	ADV	_	MAINDECL	_	MF	39,15 versor-	_	_
+6	versor=get	_	_	VVPP	_	_	_	_	_	VP	versorget	_	INF	_	VVPP	_	MAINDECL	RK	RK	39,15 versor-	_	_
+7	sein	_	_	VVINF	_	_	_	_	_	VP	sein	_	INF	_	VVINF	RE	MAINDECL	RK	RK	39,16-get	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	39,16-get	_	_
+9	mit	_	_	APPR	_	_	_	_	_	PP	mit	BGR	PP-OBJ	_	APPR	_	MAINDECL	_	NF	39,16-get	UNLINK	_
+10	gelt	_	_	NN	_	_	_	_	_	PP	gelt	BGR	PP-OBJ	GIV-ACTIVE	NA	_	MAINDECL	_	NF	39,16-get	UNLINK	KOREF1
+11	vnd	_	_	KON	_	_	_	_	_	PP	vnd	BGR	PP-OBJ	_	KON	_	MAINDECL	_	NF	39,16-get	UNLINK	KOREF1
+12	gut	_	_	NN	_	_	_	_	_	PP	gut	BGR	PP-OBJ	ACC-AGGR	NA	_	MAINDECL	_	NF	39,16-get	UNLINK	KOREF1
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	39,16-get	_	_
+
+# sent_id = 9
+# text = vnd hat nicht geho=ffet auff sein gelt.
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	40,24; geho-	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	40,24; geho-	_	_
+3	nicht	_	_	PTKNEG	_	_	_	_	_	_	nicht	_	_	_	PTKNEG	_	MAINDECL-ELLI	_	MF	40,24; geho-	_	_
+4	geho=ffet	_	_	VVPP	_	_	_	_	_	VP	gehoffet	_	INF	_	VVPP	RE	MAINDECL-ELLI	RK	RK	40,24; geho-	_	_
+5	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	40,25; -ffet	UNLINK	_
+6	sein	_	_	PPOSAT	_	_	_	_	_	PP	sein	NF	PP-ADV	ACC-INF_	DPOS	_	MAINDECL-ELLI	_	NF	40,25; -ffet	UNLINK	_
+7	gelt	_	_	NN	_	_	_	_	_	PP	gelt	NF	PP-ADV	_GIV-INACTIVE	NA	_	MAINDECL-ELLI	_	NF	40,25; -ffet	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	40,25; -ffet	_	_
+
+# sent_id = 10
+# text = so mus man |s auch haben / vnd also jnn halten fur vnser eigen gut /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	ADV	_	MAINDECL	_	VF	41,14	_	_
+2	mus	_	_	VMFIN	_	_	_	_	_	VP	mus	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	41,14	_	_
+3	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	PI	_	MAINDECL	_	MF	41,14	_	_
+4	|s	_	_	PPER	_	_	_	_	_	NP	es	_	DO	_	PPER	_	MAINDECL	_	MF	41,14	_	_
+5	auch	_	_	KON	_	_	_	_	_	_	auch	_	_	_	KON	_	MAINDECL	_	MF	41,14	_	_
+6	haben	_	_	VVINF	_	_	_	_	_	VP	haben	_	INF	_	VVINF	_	MAINDECL	RK	RK	41,14	_	_
+7	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	41,14	_	_
+8	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL	_	KOORD	41,14	_	_
+9	also	_	_	ADV	_	_	_	_	_	ADVP	also	_	ADVB	_	ADV	_	MAINDECL	_	MF	41,14	_	_
+10	jnn	_	_	PTKVZ	_	_	_	_	_	VP	jnn	_	VZ_PTK	_	PTKVZ	_	MAINDECL	RK	RK	41,14	_	_
+11	halten	_	_	VVINF	_	_	_	_	_	VP	halten	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	41,14	_	_
+12	fur	_	_	APPR	_	_	_	_	_	PP	fur	NF	PP-OBJ	_	APPR	_	MAINDECL	_	NF	41,15	UNLINK	_
+13	vnser	_	_	PPOSAT	_	_	_	_	_	PP	vnser	NF	PP-OBJ	ACC-INF_	DPOS	_	MAINDECL	_	NF	41,15	UNLINK	_
+14	eigen	_	_	ADJA	_	_	_	_	_	PP	eigen	NF	PP-OBJ	_GIV-INACTIVE	ADJ	_	MAINDECL	_	NF	41,15	UNLINK	_
+15	gut	_	_	NN	_	_	_	_	_	PP	gut	NF	PP-OBJ	_GIV-INACTIVE	NA	_	MAINDECL	_	NF	41,15	UNLINK	_
+16	/	_	_	$,	_	_	_	_	_	PP	/	_	_	_	$_	_	MAINDECL	_	_	41,15	_	_
+
+# sent_id = 11
+# text = Da wird aber auffgeloͤset die antwort oben jnn der dritte frage /
+1	Da	_	_	ADV	_	_	_	_	_	ADVP	Da	_	ADVB	_	ADV	_	MAINDECL	_	VF	41,26	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	41,26	_	_
+3	aber	_	_	ADV	_	_	_	_	_	ADVP	aber	_	ADVB	_	ADV	_	MAINDECL	_	MF	41,26	_	_
+4	auffgeloͤset	_	_	VVPP	_	_	_	_	_	VP	auffgeloͤset	_	INF	_	VVPP	RE	MAINDECL	RK	RK	41,26	_	_
+5	die	_	_	ART	_	_	_	_	_	NP	die	BGR	DO	_	DDA	_	MAINDECL	_	NF	41,26	UNLINK	_
+6	antwort	_	_	NN	_	_	_	_	_	NP	antwort	BGR	DO	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	41,26	UNLINK	_
+7	oben	_	_	ADV	_	_	_	_	_	ADVP	oben	BGR	ATTR	_	ADV	_	MAINDECL	_	NF	41,26	UNLINK	_
+8	jnn	_	_	APPR	_	_	_	_	_	PP	jnn	BGR	ATTR	_	APPR	_	MAINDECL	_	NF	41,26	UNLINK	_
+9	der	_	_	ART	_	_	_	_	_	PP	der	BGR	ATTR	_	DDA	_	MAINDECL	_	NF	41,26	UNLINK	_
+10	dritte	_	_	ADJA	_	_	_	_	_	PP	dritte	BGR	ATTR	ACC-ABSTR-USED-X	ADJO	_	MAINDECL	_	NF	41,26	UNLINK	_
+11	frage	_	_	NN	_	_	_	_	_	PP	frage	BGR	ATTR	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	41,26	UNLINK	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	41,26	_	_
+
+# sent_id = 12
+# text = man sol anhalten solche vnoͤr=denliche leute
+1	man	_	_	PIS	_	_	_	_	_	NP	man	_	SUBJ	_	PI	_	MAINDECL	_	VF	41,30; vnoͤr-	_	_
+2	sol	_	_	VMFIN	_	_	_	_	_	VP	sol	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	41,30; vnoͤr-	_	_
+3	anhalten	_	_	VVINF	_	_	_	_	_	VP	anhalten	_	INF	_	VVINF	RE	MAINDECL	RK	RK	41,30; vnoͤr-	_	_
+4	solche	_	_	PDAT	_	_	_	_	_	NP	solche	BGR	DO	ACC-AGGR	DD	_	MAINDECL	_	NF	41,30; vnoͤr-	UNLINK	_
+5	vnoͤr=denliche	_	_	ADJA	_	_	_	_	_	NP	vnoͤrdenliche	BGR	DO	ACC-AGGR	ADJ	_	MAINDECL	_	NF	41,30; vnoͤr-	UNLINK	_
+6	leute	_	_	NN	_	_	_	_	_	NP	leute	BGR	DO	ACC-AGGR	NA	_	MAINDECL	_	NF	41,31; -denliche	UNLINK	KOREF1
+
+# sent_id = 13
+# text = vnd jn nichts zu essen geben on dienst vnd arbeit /
+1	vnd	_	_	KON	_	_	_	_	_	_	vnd	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	41,31; -denliche	_	_
+2	jn	_	_	PPER	_	_	_	_	_	NP	jn	_	IO-DAT	_	PPER	_	MAINDECL-ELLI	_	MF	41,31; -denliche	_	KOREF2
+3	nichts	_	_	PIS	_	_	_	_	_	_	nichts	_	DO	_	PINEG	_	MAINDECL-ELLI	_	MF	41,31; -denliche	_	_
+4	zu	_	_	PTKZU	_	_	_	_	_	VP	zu	_	ATTR	_	PTKZU	_	MAINDECL-ELLI	RK	RK	41,31; -denliche	_	_
+5	essen	_	_	VVINF	_	_	_	_	_	VP	essen	_	ATTR	_	VVINF	_	MAINDECL-ELLI	RK	RK	41,31; -denliche	_	_
+6	geben	_	_	VVFIN	_	_	_	_	_	VP	geben	_	INF	_	VVFIN	RE	MAINDECL-ELLI	RK	RK	42,01	_	_
+7	on	_	_	APPR	_	_	_	_	_	PP	on	NF	PRD	NA	APPR	_	MAINDECL-ELLI	_	NF	42,01	UNLINK	_
+8	dienst	_	_	NN	_	_	_	_	_	PP	dienst	NF	PRD	NA	NA	_	MAINDECL-ELLI	_	NF	42,01	UNLINK	_
+9	vnd	_	_	KON	_	_	_	_	_	PP	vnd	NF	PRD	NA	KON	_	MAINDECL-ELLI	_	NF	42,01	UNLINK	_
+10	arbeit	_	_	NN	_	_	_	_	_	PP	arbeit	NF	PRD	NA	NA	_	MAINDECL-ELLI	_	NF	42,01	UNLINK	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	42,01	_	_

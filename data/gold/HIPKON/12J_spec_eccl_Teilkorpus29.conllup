@@ -1,0 +1,280 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION Ergaenzung FOKUS GF IS Kommentar POS Rekonstruktion SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = do giengin ſi ûz baltlichin
+1	do	_	_	ADV	_	_	_	_	_	ADVP	do	71,26	_	_	ADVB	_	_	ADV	_	_	MAINDECL	_	_	VF	66r,21; -inin | 	_	_
+2	giengin	_	_	VVFIN	_	_	_	_	_	VP	giengin	72,1	_	_	VFIN	_	_	VVFIN	_	LI	MAINDECL	LK	_	LK	66r,21; -inin | 	_	_
+3	ſi	_	_	PPER	_	_	_	_	_	NP	ſi	72,1	_	_	SUBJ	_	_	PPER	_	_	MAINDECL	_	_	MF	66r,21; -inin | 	_	_
+4	ûz	_	_	PTKVZ	_	_	_	_	_	VP	ûz	72,1	_	_	VZ_PTK	_	_	PTKVZ	_	RE	MAINDECL	RK	_	RK	66r,21; -inin | 	_	_
+5	baltlichin	_	_	ADV	_	_	_	_	_	ADVP	baltlichin	72,1	_	BGR	ADVB	NA	_	ADV	_	_	MAINDECL	_	_	NF	66r,22	UNLINK	_
+
+# sent_id = 2
+# text = in den ziten warn zeſamine chomin allir ſlahte livte. die untir deme himele ſint. zvͦ den hern hoczitin der heiligin ostirn in (Jerusalem).
+1	in	_	_	APPR	_	_	_	_	_	PP	in	72,2	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	VF	66v,01; ſlah-	_	_
+2	den	_	_	ART	_	_	_	_	_	PP	den	72,2	_	_	PP-ADV	_	_	DDA	_	_	MAINDECL	_	_	VF	66v,01; ſlah-	_	_
+3	ziten	_	_	NN	_	_	_	_	_	PP	ziten	72,2	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	66v,01; ſlah-	_	_
+4	warn	_	_	VAFIN	_	_	_	_	_	VP	warn	72,2	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	66v,01; ſlah-	_	_
+5	zeſamine	_	_	ADV	_	_	_	_	_	ADVP	zeſamine	72,2	_	_	ADVB	_	_	ADV	_	_	MAINDECL	RK	_	RK	66v,01; ſlah-	_	_
+6	chomin	_	_	VVINF	_	_	_	_	_	VP	chomin	72,2	_	_	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	66v,01; ſlah-	_	_
+7	allir	_	_	PIAT	_	_	_	_	_	NP	allir	72,2	_	NF_	SUBJ	NEW	_	DI	_	_	MAINDECL	_	_	NF	66v,01; ſlah-	UNLINK1	KOREF1-REL
+8	ſlahte	_	_	ADJA	_	_	_	_	_	NP	ſlahte	72,2	_	NF_	SUBJ	NEW	_	ADJ	_	_	MAINDECL	_	_	NF	66v,01; ſlah-	UNLINK1	KOREF1-REL
+9	livte	_	_	NN	_	_	_	_	_	NP	livte	72,2	_	NF_	SUBJ	NEW	_	NA	_	_	MAINDECL	_	_	NF	66v,02; -te	UNLINK1	KOREF1-REL
+10	.	_	_	$.	_	_	_	_	_	_	.	72,2	_	NF_	_	_	_	$_	_	_	MAINDECL	_	_	NF	66v,02; -te	UNLINK1	_
+11	die	_	_	PRELS	_	_	_	_	_	CP	die	72,2	_	NF_	ATTR	_	_	DDSREL	_	_	MAINDECL	LK	_	NF-LK	66v,02; -te	UNLINK1	KOREF2-REL
+12	untir	_	_	APPR	_	_	_	_	_	CP	untir	72,2	_	NF_	ATTR	_	_	APPR	_	_	MAINDECL	_	_	NF-MF	66v,02; -te	UNLINK1	_
+13	deme	_	_	ART	_	_	_	_	_	CP	deme	72,2	_	NF_	ATTR	_	_	DDA	_	_	MAINDECL	_	_	NF-MF	66v,02; -te	UNLINK1	_
+14	himele	_	_	NN	_	_	_	_	_	CP	himele	72,3	_	NF_	ATTR	_	_	NA	_	_	MAINDECL	_	_	NF-MF	66v,02; -te	UNLINK1	_
+15	ſint	_	_	VAFIN	_	_	_	_	_	CP	ſint	72,3	_	NF_	ATTR	_	_	VAFIN	_	_	MAINDECL	RK	_	NF-RK	66v,02; -te	UNLINK1	_
+16	.	_	_	$.	_	_	_	_	_	_	.	72,3	_	_	_	_	_	$_	_	_	MAINDECL	_	_	NF	66v,02; -te	_	_
+17	zvͦ	_	_	APPR	_	_	_	_	_	PP	zvͦ	72,3	_	NF_	PP-DIR	_	_	APPR	_	_	MAINDECL	_	_	NF	66v,02; -te	UNLINK2	_
+18	den	_	_	ART	_	_	_	_	_	PP	den	72,3	_	NF_	PP-DIR	ACC-UNI-USED-X	_	DDA	_	_	MAINDECL	_	_	NF	66v,02; -te	UNLINK2	_
+19	hern	_	_	NN	_	_	_	_	_	PP	hern	72,3	_	NF_	PP-DIR	ACC-UNI-USED-X	_	NA	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+20	hoczitin	_	_	NN	_	_	_	_	_	PP	hoczitin	72,3	_	NF_	PP-DIR	_ACC-ABSTR-UNUSED_	_	NA	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+21	der	_	_	ART	_	_	_	_	_	NP	der	72,3	_	NF_	ATTR	_ACC-UNI-UNUSED_	_	DDA	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+22	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	72,3	_	NF_	ATTR	_ACC-UNI-UNUSED_	_	ADJ	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+23	ostirn	_	_	NN	_	_	_	_	_	NP	ostirn	72,3	_	NF_	ATTR	_ACC-UNI-UNUSED_	_	NA	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+24	in	_	_	APPR	_	_	_	_	_	PP	in	72,3	_	NF_	PP-SIT	_ACC-UNI-UNUSED	_	APPR	_	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+25	(Jerusalem)	_	_	NE	_	_	_	_	_	PP	(Jerusalem)	72,3	_	NF_	PP-SIT	_ACC-UNI-UNUSED	_	NE	(Jerusalem)	_	MAINDECL	_	_	NF	66v,03	UNLINK2	_
+26	.	_	_	$.	_	_	_	_	_	_	.	72,3	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	66v,03	_	_
+
+# sent_id = 3
+# text = durch dirre hoczit liebi. wart ze gehugde geſetzit div vil ſchoniv gew%onheit.
+1	durch	_	_	APPR	_	_	_	_	_	PP	durch	72,13	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	VF	66v,16	_	_
+2	dirre	_	_	PDAT	_	_	_	_	_	PP	dirre	72,13	_	_	PP-ADV	_	_	DD	_	_	MAINDECL	_	_	VF	66v,16	_	_
+3	hoczit	_	_	NN	_	_	_	_	_	PP	hoczit	72,13	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	66v,16	_	_
+4	liebi	_	_	NN	_	_	_	_	_	PP	liebi	72,13	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	66v,16	_	_
+5	.	_	_	$.	_	_	_	_	_	_	.	72,13	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	66v,16	_	_
+6	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	72,13	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	66v,17; gew%on-	_	_
+7	ze	_	_	APPR	_	_	_	_	_	PP	ze	72,13	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	MF	66v,17; gew%on-	_	_
+8	gehugde	_	_	NN	_	_	_	_	_	PP	gehugde	72,13	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	MF	66v,17; gew%on-	_	_
+9	geſetzit	_	_	VVPP	_	_	_	_	_	VP	geſetzit	72,13	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	_	RK	66v,17; gew%on-	_	_
+10	div	_	_	ART	_	_	_	_	_	NP	div	72,13	_	NF	SUBJ	ACC-ABSTR-UNUSED	_	DDA	_	_	MAINDECL	_	_	NF	66v,17; gew%on-	UNLINK	_
+11	vil	_	_	PIAT	_	_	_	_	_	NP	vil	72,13	_	NF	SUBJ	ACC-ABSTR-UNUSED	_	DI	_	_	MAINDECL	_	_	NF	66v,17; gew%on-	UNLINK	_
+12	ſchoniv	_	_	ADJA	_	_	_	_	_	NP	ſchoniv	72,14; chriſten-	_	NF	SUBJ	ACC-ABSTR-UNUSED	_	ADJ	_	_	MAINDECL	_	_	NF	66v,17; gew%on-	UNLINK	_
+13	gew%onheit	_	_	NN	_	_	_	_	_	NP	gew%onheit	72,14; chriſten-	_	NF	SUBJ	ACC-ABSTR-UNUSED	_	NA	_	_	MAINDECL	_	_	NF	66v,17; gew%on-	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	.	72,14; chriſten-	_	NF	_	_	_	$_	_	_	MAINDECL	_	_	_	66v,18; -heit | chri-	_	_
+
+# sent_id = 4
+# text = Diſiv hoczit wart bezeichinit in der altin é.
+1	Diſiv	_	_	PDAT	_	_	_	_	_	NP	Diſiv	72,16	_	_	SUBJ	_	_	DD	_	_	MAINDECL	_	_	VF	66v,21; hoc-	_	_
+2	hoczit	_	_	NN	_	_	_	_	_	NP	hoczit	72,16	_	_	SUBJ	_	_	NA	_	_	MAINDECL	_	_	VF	66v,21; hoc-	_	_
+3	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	72,17	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	66v,22; -zit	_	_
+4	bezeichinit	_	_	VVPP	_	_	_	_	_	VP	bezeichinit	72,17	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	_	RK	66v,22; -zit	_	_
+5	in	_	_	APPR	_	_	_	_	_	PP	in	72,17	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	NF	66v,22; -zit	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	PP	der	72,17	_	NF	PP-ADV	ACC-UNI-UNUSED	_	DDA	_	_	MAINDECL	_	_	NF	66v,22; -zit	UNLINK	KOREF1
+7	altin	_	_	ADJA	_	_	_	_	_	PP	altin	72,17	_	NF	PP-ADV	ACC-UNI-UNUSED	_	ADJ	_	_	MAINDECL	_	_	NF	66v,22; -zit	UNLINK	KOREF1
+8	é	_	_	NN	_	_	_	_	_	PP	é	72,17	_	NF	PP-ADV	ACC-UNI-UNUSED	_	NA	_	_	MAINDECL	_	_	NF	66v,22; -zit	UNLINK	KOREF1
+9	.	_	_	$.	_	_	_	_	_	_	.	72,17	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	66v,22; -zit	_	_
+
+# sent_id = 5
+# text = hat unſ erzeigit den gedingin der hern urſtende.
+1	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	72,30	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL-ELLI	LK	_	LK	67r,18	_	_
+2	unſ	_	_	PPER	_	_	_	_	_	NP	unſ	72,30	_	_	IO-DAT	_	_	PPER	_	_	MAINDECL-ELLI	_	_	MF	67r,18	_	_
+3	erzeigit	_	_	VVPP	_	_	_	_	_	VP	erzeigit	72,30	_	_	INF	_	_	VVPP	_	RE	MAINDECL-ELLI	RK	_	RK	67r,18	_	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	72,30	_	NF	DO	ACC-ABSTR-UNUSED_	_	DDA	_	_	MAINDECL-ELLI	_	_	NF	67r,19	UNLINK	_
+5	gedingin	_	_	NN	_	_	_	_	_	NP	gedingin	72,30	_	NF	DO	ACC-ABSTR-UNUSED_	_	NA	_	_	MAINDECL-ELLI	_	_	NF	67r,19	UNLINK	_
+6	der	_	_	ART	_	_	_	_	_	NP	der	73,1	_	NF	ATTR	_ACC-UNI-USED-1_	_	DDA	_	_	MAINDECL-ELLI	_	_	NF	67r,19	UNLINK	KOREF1
+7	hern	_	_	NN	_	_	_	_	_	NP	hern	73,1	_	NF	ATTR	_ACC-UNI-USED-1_	_	NA	_	_	MAINDECL-ELLI	_	_	NF	67r,19	UNLINK	KOREF1
+8	urſtende	_	_	NN	_	_	_	_	_	NP	urſtende	73,1	_	NF	ATTR	_ACC-ABSTR-UNUSED	_	NA	_	_	MAINDECL-ELLI	_	_	NF	67r,19	UNLINK	KOREF1
+9	.	_	_	$.	_	_	_	_	_	_	.	73,1	_	_	_	_	_	$_	_	_	MAINDECL-ELLI	_	_	_	67r,19	_	_
+
+# sent_id = 6
+# text = alſo glich an dem vinfzehiſtime tage nach der urſtende unſirſ herrn (Jes)v (Christ)i. alſo hivte iſt wart gebin diu gnade deſ heiligin geiſtiſ. den heiligin botin. ûf einime hohim ſale.
+1	alſo	_	_	PWAV	_	_	_	_	_	ADVP	alſo	73,3	_	_	ADVB	_	alſo: folgt Luecke 	PWAVREL	_	_	MAINDECL	_	_	LV	67v,01	_	_
+2	glich	_	_	ADV	_	_	_	_	_	ADVP	glich	73,3	_	_	ADVB	_	_	ADV	_	_	MAINDECL	_	_	LV	67v,01	_	_
+3	an	_	_	APPR	_	_	_	_	_	PP	an	73,4	_	_	ADVB	_	_	APPR	_	_	MAINDECL	_	_	LV	67v,01	_	_
+4	dem	_	_	ART	_	_	_	_	_	PP	dem	73,4	_	_	ADVB	_	_	DDA	_	_	MAINDECL	_	_	LV	67v,01	_	_
+5	vinfzehiſtime	_	_	CARD	_	_	_	_	_	PP	vinfzehiſtime	73,4	_	_	ADVB	_	_	CARD	_	_	MAINDECL	_	_	LV	67v,01	_	_
+6	tage	_	_	NN	_	_	_	_	_	PP	tage	73,4	_	_	ADVB	_	_	NA	_	_	MAINDECL	_	_	LV	67v,02	_	_
+7	nach	_	_	APPR	_	_	_	_	_	PP	nach	73,4	_	_	ADVB	_	nach: folgt Luecke 	APPR	_	_	MAINDECL	_	_	LV	67v,02	_	_
+8	der	_	_	ART	_	_	_	_	_	PP	der	73,4	_	_	ADVB	_	_	DDA	_	_	MAINDECL	_	_	LV	67v,02	_	KOREF2
+9	urſtende	_	_	NN	_	_	_	_	_	PP	urſtende	73,4	_	_	ADVB	_	_	NA	_	_	MAINDECL	_	_	LV	67v,02	_	KOREF2
+10	unſirſ	_	_	PPOSAT	_	_	_	_	_	NP	unſirſ	73,4	_	_	ADVB	_	_	DPOS	_	_	MAINDECL	_	_	LV	67v,02	_	KOREF2
+11	herrn	_	_	NN	_	_	_	_	_	NP	herrn	73,4	_	_	ADVB	_	_	NA	_	_	MAINDECL	_	_	LV	67v,02	_	KOREF2
+12	(Jes)v	_	_	NE	_	_	_	_	_	NP	(Jes)v	73,4	_	_	ADVB	_	_	NE	(jes)	_	MAINDECL	_	_	LV	67v,02	_	KOREF2
+13	(Christ)i	_	_	NE	_	_	_	_	_	NP	(Christ)i	73,5	_	_	ADVB	_	_	NE	(Christ)	_	MAINDECL	_	_	LV	67v,03; heili-	_	KOREF2
+14	.	_	_	$.	_	_	_	_	_	_	.	73,5	_	_	ADVB	_	_	$_	_	_	MAINDECL	_	_	_	67v,03; heili-	_	_
+15	alſo	_	_	PWAV	_	_	_	_	_	CP	alſo	73,5	_	_	VGL	_	_	PWAVREL	_	_	MAINDECL	_	_	VF	67v,03; heili-	_	_
+16	hivte	_	_	ADV	_	_	_	_	_	CP	hivte	73,5	_	_	VGL	_	_	ADV	_	_	MAINDECL	_	_	VF	67v,03; heili-	_	_
+17	iſt	_	_	VAFIN	_	_	_	_	_	CP	iſt	73,5	_	_	VGL	_	_	VAFIN	_	_	MAINDECL	LK	_	LK	67v,03; heili-	_	_
+18	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	73,5	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	67v,03; heili-	_	_
+19	gebin	_	_	VVINF	_	_	_	_	_	VP	gebin	73,5	_	_	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	67v,03; heili-	_	_
+20	diu	_	_	ART	_	_	_	_	_	NP	diu	73,5	_	NF_	SUBJ	ACC-ABSTR-USED-X_	_	DDA	_	_	MAINDECL	_	_	NF	67v,03; heili-	UNLINK1	_
+21	gnade	_	_	NN	_	_	_	_	_	NP	gnade	73,5	_	NF_	SUBJ	ACC-ABSTR-USED-X_	_	NA	_	_	MAINDECL	_	_	NF	67v,03; heili-	UNLINK1	_
+22	deſ	_	_	ART	_	_	_	_	_	NP	deſ	73,5	_	NF_	ATTR	_ACC-UNI-USED-X	_	DDA	_	_	MAINDECL	_	_	NF	67v,03; heili-	UNLINK1	KOREF1
+23	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	73,5	_	NF_	ATTR	_ACC-UNI-USED-X	_	ADJ	_	_	MAINDECL	_	_	NF	67v,03; heili-	UNLINK1	KOREF1
+24	geiſtiſ	_	_	NN	_	_	_	_	_	NP	geiſtiſ	73,5	_	NF_	ATTR	_ACC-UNI-USED-X	_	NA	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK1	KOREF1
+25	.	_	_	$.	_	_	_	_	_	_	.	73,5	_	_	_	_	_	$_	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	_	_
+26	den	_	_	ART	_	_	_	_	_	NP	den	73,5	_	NF_	IO-DAT	GIV-INACTIVE	_	DDA	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK2	KOREF1
+27	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	73,6; er- 	_	NF_	IO-DAT	GIV-INACTIVE	_	ADJ	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK2	KOREF1
+28	botin	_	_	NN	_	_	_	_	_	NP	botin	73,6; er- 	_	NF_	IO-DAT	GIV-INACTIVE	_	NA	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK2	KOREF1
+29	.	_	_	$.	_	_	_	_	_	_	.	73,6; er- 	_	_	_	_	_	$_	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	_	_
+30	ûf	_	_	APPR	_	_	_	_	_	PP	ûf	73,6; er- 	_	NF_	PP-SIT	_	_	APPR	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK3	_
+31	einime	_	_	ART	_	_	_	_	_	PP	einime	73,6; er- 	_	NF_	PP-SIT	NEW	_	DIA	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK3	_
+32	hohim	_	_	ADJA	_	_	_	_	_	PP	hohim	73,6; er- 	_	NF_	PP-SIT	NEW	_	ADJ	_	_	MAINDECL	_	_	NF	67v,04; -gin | ho-	UNLINK3	KOREF1
+33	ſale	_	_	NN	_	_	_	_	_	PP	ſale	73,6; er- 	_	NF_	PP-SIT	NEW	_	NA	_	_	MAINDECL	_	_	NF	67v,05; -him	UNLINK3	_
+34	.	_	_	$.	_	_	_	_	_	_	.	73,6; er- 	_	NF_	_	_	_	$_	_	_	MAINDECL	_	_	_	67v,05; -him	_	_
+
+# sent_id = 7
+# text = uon div ſchulin behaltin ſiniu gebot.
+1	uon	_	_	APPR	_	_	_	_	_	PP	uon	73,15	_	_	ADVB	_	_	APPR	_	_	MAINDECL	_	_	VF	67v,18	_	_
+2	div	_	_	PDS	_	_	_	_	_	PP	div	73,15	_	_	ADVB	_	_	DDS	_	_	MAINDECL	_	_	VF	67v,18	_	_
+3	ſchulin	_	_	VMFIN	_	_	_	_	_	VP	ſchulin	73,16	ſchulin: erg. wir M. 	_	VFIN	_	Topic Drop	VMFIN	_	LI	MAINDECL	LK	_	LK	67v,18	_	_
+4	behaltin	_	_	VVINF	_	_	_	_	_	VP	behaltin	73,16	_	NF	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	67v,18	_	_
+5	ſiniu	_	_	PPOSAT	_	_	_	_	_	NP	ſiniu	73,16	_	NF	DO	ACC-INF_	_	DPOS	_	_	MAINDECL	_	_	NF	67v,19	UNLINK	_
+6	gebot	_	_	NN	_	_	_	_	_	NP	gebot	73,16	_	NF	DO	_ACC-ABSTR-USED-X	_	NA	_	_	MAINDECL	_	_	NF	67v,19	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	73,16	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	67v,19	_	_
+
+# sent_id = 8
+# text = an den hern botin. die got dîemvͦtlichin v%orhtin. wrdin alle zvngin geinmvͦtit ze einir zvngin.
+1	an	_	_	APPR	_	_	_	_	_	PP	an	74,21; die-	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	VF	69r,01; -in	_	_
+2	den	_	_	ART	_	_	_	_	_	PP	den	74,21; die-	_	_	PP-ADV	_	_	DDA	_	_	MAINDECL	_	_	VF	69r,01; -in	_	_
+3	hern	_	_	NN	_	_	_	_	_	PP	hern	74,21; die-	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	69r,01; -in	_	_
+4	botin	_	_	NN	_	_	_	_	_	PP	botin	74,21; die-	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	69r,01; -in	_	_
+5	.	_	_	$.	_	_	_	_	_	_	.	74,21; die-	_	_	_	_	_	$_	_	_	MAINDECL	_	_	VF	69r,01; -in	_	_
+6	die	_	_	PRELS	_	_	_	_	_	CP	die	74,21; die-	_	_	ATTR	_	_	DDSREL	_	_	MAINDECL	LK	_	VF-LK	69r,01; -in	_	_
+7	got	_	_	NN	_	_	_	_	_	CP	got	74,21; die-	_	_	ATTR	_	_	NA	_	_	MAINDECL	_	_	VF-MF	69r,01; -in	_	_
+8	dîemvͦtlichin	_	_	ADV	_	_	_	_	_	CP	dîemvͦtlichin	74,21; die-	_	_	ATTR	_	_	ADV	_	_	MAINDECL	_	_	VF-MF	69r,01; -in	_	_
+9	v%orhtin	_	_	VVFIN	_	_	_	_	_	CP	v%orhtin	74,22; -mvͦtlichin	_	_	ATTR	_	_	VVFIN	_	_	MAINDECL	RK	_	VF-RK	69r,02	_	_
+10	.	_	_	$.	_	_	_	_	_	_	.	74,22; -mvͦtlichin	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	69r,02	_	_
+11	wrdin	_	_	VAFIN	_	_	_	_	_	VP	wrdin	74,22; -mvͦtlichin	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	69r,02	_	_
+12	alle	_	_	PIAT	_	_	_	_	_	NP	alle	74,22; -mvͦtlichin	_	_	SUBJ	_	_	DI	_	_	MAINDECL	_	_	MF	69r,02	_	_
+13	zvngin	_	_	NN	_	_	_	_	_	NP	zvngin	74,22; -mvͦtlichin	_	_	SUBJ	_	_	NA	_	_	MAINDECL	_	_	MF	69r,02	_	_
+14	geinmvͦtit	_	_	VVPP	_	_	_	_	_	VP	geinmvͦtit	74,22; -mvͦtlichin	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	_	RK	69r,02	_	_
+15	ze	_	_	APPR	_	_	_	_	_	PP	ze	74,22; -mvͦtlichin	_	NF	PP-OBJ	ACC-INF	_	APPR	_	_	MAINDECL	_	_	NF	69r,02	UNLINK	_
+16	einir	_	_	ART	_	_	_	_	_	PP	einir	74,22; -mvͦtlichin	_	NF	PP-OBJ	ACC-INF	_	DIA	_	_	MAINDECL	_	_	NF	69r,02	UNLINK	_
+17	zvngin	_	_	NN	_	_	_	_	_	PP	zvngin	74,22; -mvͦtlichin	_	NF	PP-OBJ	ACC-INF	_	NA	_	_	MAINDECL	_	_	NF	69r,03	UNLINK	_
+18	.	_	_	$.	_	_	_	_	_	_	.	74,22; -mvͦtlichin	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	69r,03	_	_
+
+# sent_id = 9
+# text = der geiſt deſ heiligin criſtis. hat gezieret ſine himele.
+1	der	_	_	ART	_	_	_	_	_	NP	der	74,25	_	_	SUBJ	_	_	DDA	_	_	MAINDECL	_	Übersetzung	VF	69r,07; -chet	_	_
+2	geiſt	_	_	NN	_	_	_	_	_	NP	geiſt	74,26	_	_	SUBJ	_	_	NA	_	_	MAINDECL	_	Übersetzung	VF	69r,07; -chet	_	_
+3	deſ	_	_	ART	_	_	_	_	_	NP	deſ	74,26	_	_	ATTR	_	_	DDA	_	_	MAINDECL	_	Übersetzung	VF	69r,07; -chet	_	_
+4	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	74,26	_	_	ATTR	_	_	ADJ	_	_	MAINDECL	_	Übersetzung	VF	69r,07; -chet	_	_
+5	criſtis	_	_	NN	_	_	_	_	_	NP	criſtis	74,26	_	_	ATTR	_	_	NA	_	_	MAINDECL	_	Übersetzung	VF	69r,08	_	_
+6	.	_	_	$.	_	_	_	_	_	_	.	74,26	_	_	_	_	_	$_	_	_	MAINDECL	_	Übersetzung	_	69r,08	_	_
+7	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	74,26	_	NF	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	Übersetzung	LK	69r,08	_	KOREF1
+8	gezieret	_	_	VVPP	_	_	_	_	_	VP	gezieret	74,26	_	NF	INF	_	_	VVPP	_	RE	MAINDECL	RK	Übersetzung	RK	69r,08	_	KOREF1
+9	ſine	_	_	PPOSAT	_	_	_	_	_	NP	ſine	74,26	_	NF	DO	ACC-INF_	_	DPOS	_	_	MAINDECL	_	Übersetzung	NF	69r,08	UNLINK	KOREF1
+10	himele	_	_	NN	_	_	_	_	_	NP	himele	74,26	_	NF	DO	_ACC-UNI-USED-X	_	NA	_	_	MAINDECL	_	Übersetzung	NF	69r,08	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	74,26	_	_	_	_	_	$_	_	_	MAINDECL	_	Übersetzung	_	69r,08	_	_
+
+# sent_id = 10
+# text = Svmilichin iſt gebin wiſtuͦm.
+1	Svmilichin	_	_	PIS	_	_	_	_	_	NP	Svmilichin	74,28	_	_	IO-DAT	_	_	PI	_	_	MAINDECL	_	Übersetzung	VF	69r,11; -mo	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	74,28	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	Übersetzung	LK	69r,11; -mo	_	_
+3	gebin	_	_	VVINF	_	_	_	_	_	VP	gebin	74,28	_	_	INF	_	_	VVINF	_	RE	MAINDECL	RK	Übersetzung	RK	69r,11; -mo	_	_
+4	wiſtuͦm	_	_	NN	_	_	_	_	_	NP	wiſtuͦm	74,28	_	NF	SUBJ	ACC-ABSTR-UNUSED	_	NA	_	_	MAINDECL	_	Übersetzung	NF	69r,11; -mo	UNLINK	_
+5	.	_	_	$.	_	_	_	_	_	_	.	74,28	_	_	_	_	_	$_	_	_	MAINDECL	_	Übersetzung	_	_	_	_
+
+# sent_id = 11
+# text = Die himele ſint ge ueſtinit uon dem gotiſ w%orte.
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	75,2	_	_	SUBJ	_	_	DDA	_	_	MAINDECL	_	Übersetzung	VF	69r,19	_	_
+2	himele	_	_	NN	_	_	_	_	_	NP	himele	75,2	_	_	SUBJ	_	_	NA	_	_	MAINDECL	_	Übersetzung	VF	69r,19	_	_
+3	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	75,2	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	Übersetzung	LK	69r,19	_	_
+4	ge	_	_	VVPP	_	_	_	_	_	VP	geueſtinit	75,2	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	Übersetzung	RK	69r,19	_	_
+5	ueſtinit	_	_	VVPP	_	_	_	_	_	VP	geueſtinit	75,2	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	Übersetzung	RK	69r,20; tu-	_	_
+6	uon	_	_	APPR	_	_	_	_	_	PP	uon	75,2	_	NF	PP-AGENS	_	_	APPR	_	_	MAINDECL	_	Übersetzung	NF	69r,20; tu-	UNLINK	_
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	75,2	_	NF	PP-AGENS	ACC-UNI-USED-X_	_	DDA	_	_	MAINDECL	_	Übersetzung	NF	69r,20; tu-	UNLINK	KOREF1
+8	gotiſ	_	_	NN	_	_	_	_	_	PP	gotiſ	75,2	_	NF	PP-AGENS	ACC-UNI-USED-X_	_	NA	_	_	MAINDECL	_	Übersetzung	NF	69r,20; tu-	UNLINK	KOREF1
+9	w%orte	_	_	NN	_	_	_	_	_	PP	w%orte	75,2	_	NF	PP-AGENS	_ACC-ABSTR-UNUSED	_	NA	_	_	MAINDECL	_	Übersetzung	NF	69r,20; tu-	UNLINK	KOREF1
+10	.	_	_	$.	_	_	_	_	_	_	.	75,2	_	_	_	_	_	$_	_	_	MAINDECL	_	Übersetzung	_	69r,20; tu-	_	_
+
+# sent_id = 12
+# text = Wir muͦzzin got mere gehorſam̄ den iv livtin.
+1	Wir	_	_	PPER	_	_	_	_	_	NP	Wir	75,23; gehor- 	_	_	SUBJ	_	_	PPER	_	_	MAINDECL	_	Übersetzung	VF	70r,05	_	_
+2	muͦzzin	_	_	VMFIN	_	_	_	_	_	VP	muͦzzin	75,23; gehor- 	_	_	VFIN	_	_	VMFIN	_	LI	MAINDECL	LK	Übersetzung	LK	70r,05	_	_
+3	got	_	_	NN	_	_	_	_	_	NP	got	75,23; gehor- 	_	_	IO-DAT	_	_	NA	_	_	MAINDECL	_	Übersetzung	MF	70r,05	_	_
+4	mere	_	_	ADJD	_	_	_	_	_	AP	mere	75,23; gehor- 	_	NF	ADVB	_	_	ADJD	_	_	MAINDECL	_	Übersetzung	MF	70r,05	_	_
+5	gehorſam̄	_	_	VVINF	_	_	_	_	_	VP	gehorſam̄ 	75,23; gehor- 	_	NF	INF	_	_	VVINF	_	RE	MAINDECL	RK	Übersetzung	RK	70r,05	_	_
+6	den	_	_	ADV	_	_	_	_	_	ADVP	den	75,24; -sam̄ 	_	NF	VGL	_	_	ADV	_	_	MAINDECL	_	Übersetzung	NF	70r,06, 	LINK_ASSYM	_
+7	iv	_	_	PPER	_	_	_	_	_	ADVP	iv	75,24; -sam̄ 	_	NF	VGL	ACC-SIT	_	PPER	_	_	MAINDECL	_	Übersetzung	NF	70r,06, 	LINK_ASSYM	_
+8	livtin	_	_	NN	_	_	_	_	_	ADVP	livtin	75,24; -sam̄ 	_	NF	VGL	ACC-SIT	_	NA	_	_	MAINDECL	_	Übersetzung	NF	70r,06, 	LINK_ASSYM	_
+9	.	_	_	$.	_	_	_	_	_	_	.	75,24; -sam̄ 	_	_	_	_	_	$_	_	_	MAINDECL	_	Übersetzung	_	70r,06, 	_	_
+
+# sent_id = 13
+# text = ze alreſte wart er in uf der erde gegeben uon gote.
+1	ze	_	_	APPR	_	_	_	_	_	PP	ze	76,22	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	VF	71r,04; ge- 	_	_
+2	alreſte	_	_	ADV	_	_	_	_	_	PP	alreſte	76,22	_	_	PP-ADV	_	_	ADV	_	_	MAINDECL	_	_	VF	71r,04; ge- 	_	_
+3	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	76,22	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	71r,04; ge- 	_	_
+4	er	_	_	PPER	_	_	_	_	_	NP	er	76,22	_	_	SUBJ	_	_	PPER	_	_	MAINDECL	_	_	MF	71r,04; ge- 	_	_
+5	in	_	_	PPER	_	_	_	_	_	NP	in	76,22	_	_	IO-DAT	_	_	PPER	_	_	MAINDECL	_	_	MF	71r,04; ge- 	_	_
+6	uf	_	_	APPR	_	_	_	_	_	PP	uf	76,22	_	_	PP-SIT	_	_	APPR	_	_	MAINDECL	_	_	MF	71r,04; ge- 	_	_
+7	der	_	_	ART	_	_	_	_	_	PP	der	76,22	_	_	PP-SIT	_	_	DDA	_	_	MAINDECL	_	_	MF	71r,04; ge- 	_	_
+8	erde	_	_	NN	_	_	_	_	_	PP	erde	76,22	_	_	PP-SIT	_	_	NA	_	_	MAINDECL	_	_	MF	71r,04; ge- 	_	_
+9	gegeben	_	_	VVPP	_	_	_	_	_	VP	gegeben	76,22	_	_	INF	_	_	VVPP	_	RE	MAINDECL	RK	_	RK	71r,04; ge- 	_	_
+10	uon	_	_	APPR	_	_	_	_	_	PP	uon	76,22	_	_	PP-AGENS	_	_	APPR	_	_	MAINDECL	_	_	NF	71r,05; -geben 	UNLINK	_
+11	gote	_	_	NN	_	_	_	_	_	PP	gote	76,22	_	BGR	PP-AGENS	ACC-UNI-USED-X	_	NA	_	_	MAINDECL	_	_	NF	71r,05; -geben 	UNLINK	KOREF1
+12	.	_	_	$.	_	_	_	_	_	_	.	76,22	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71r,05; -geben 	_	_
+
+# sent_id = 14
+# text = ze dem anderme male. warde er in uon himele nach unſereſ herrin úfferte an deme zehintin tage geſant. in daz húſ da ſi ſamit warin.
+1	ze	_	_	APPR	_	_	_	_	_	PP	ze	76, 26; -dint	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	VF	71r,10	_	_
+2	dem	_	_	ART	_	_	_	_	_	PP	dem	76, 26; -dint	_	_	PP-ADV	_	_	DDA	_	_	MAINDECL	_	_	VF	71r,10	_	_
+3	anderme	_	_	PIAT	_	_	_	_	_	PP	anderme	76, 26; -dint	_	_	PP-ADV	_	_	DI	_	_	MAINDECL	_	_	VF	71r,10	_	_
+4	male	_	_	NN	_	_	_	_	_	PP	male	76, 26; -dint	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	VF	71r,10	_	_
+5	.	_	_	$.	_	_	_	_	_	_	.	76, 26; -dint	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71r,10	_	_
+6	warde	_	_	VAFIN	_	_	_	_	_	VP	warde	76, 26; -dint	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	71r,10	_	_
+7	er	_	_	PPER	_	_	_	_	_	NP	er	76, 26; -dint	_	_	SUBJ	_	_	PPER	_	_	MAINDECL	_	_	MF	71r,10	_	_
+8	in	_	_	PPER	_	_	_	_	_	NP	in	76,27	_	_	IO-DAT	_	_	PPER	_	_	MAINDECL	_	_	MF	71r,11	_	_
+9	uon	_	_	APPR	_	_	_	_	_	PP	uon	76,27	_	_	PP-DIR	_	_	APPR	_	_	MAINDECL	_	_	MF	71r,11	_	_
+10	himele	_	_	NN	_	_	_	_	_	PP	himele	76,27	_	_	PP-DIR	_	_	NA	_	_	MAINDECL	_	_	MF	71r,11	_	_
+11	nach	_	_	APPR	_	_	_	_	_	PP	nach	76,27	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	MF	71r,11	_	_
+12	unſereſ	_	_	PPOSAT	_	_	_	_	_	PP	unſereſ	76,27	_	_	PP-ADV	_	_	DPOS	_	_	MAINDECL	_	_	MF	71r,11	_	_
+13	herrin	_	_	NN	_	_	_	_	_	PP	herrin	76,27	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	MF	71r,11	_	_
+14	úfferte	_	_	NN	_	_	_	_	_	PP	úfferte	76,27	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	MF	71r,11	_	_
+15	an	_	_	APPR	_	_	_	_	_	PP	an	76,27	_	_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	MF	71r,11	_	_
+16	deme	_	_	ART	_	_	_	_	_	PP	deme	76,27	_	_	PP-ADV	_	_	DDA	_	_	MAINDECL	_	_	MF	71r,12; ſa-  	_	_
+17	zehintin	_	_	CARD	_	_	_	_	_	PP	zehintin	76,27	_	_	PP-ADV	_	_	CARD	_	_	MAINDECL	_	_	MF	71r,12; ſa-  	_	_
+18	tage	_	_	NN	_	_	_	_	_	PP	tage	76,27	_	_	PP-ADV	_	_	NA	_	_	MAINDECL	_	_	MF	71r,12; ſa-  	_	_
+19	geſant	_	_	VVINF	_	_	_	_	_	VP	geſant	76,28	_	_	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	71r,12; ſa-  	_	_
+20	.	_	_	$.	_	_	_	_	_	_	.	76,28	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71r,12; ſa-  	_	_
+21	in	_	_	APPR	_	_	_	_	_	PP	in	76,28	_	NF	PP-OBJ	_	_	APPR	_	_	MAINDECL	_	_	NF	71r,12; ſa-  	UNLINK	_
+22	daz	_	_	ART	_	_	_	_	_	PP	daz	76,28	_	NF	PP-OBJ	NEW	_	DDA	_	_	MAINDECL	_	_	NF	71r,12; ſa-  	UNLINK	KOREF1-REL
+23	húſ	_	_	NN	_	_	_	_	_	PP	húſ	76,28	_	NF	PP-OBJ	NEW	_	NA	_	_	MAINDECL	_	_	NF	71r,12; ſa-  	UNLINK	KOREF1-REL
+24	da	_	_	ADV	_	_	_	_	_	CP	da	76,28	_	NF	ATTR	_	_	ADVREL	_	_	MAINDECL	LK	_	NF-LK	71r,12; ſa-  	UNLINK	KOREF2-REL
+25	ſi	_	_	PPER	_	_	_	_	_	CP	ſi	76,28	_	NF	ATTR	_	_	PPER	_	_	MAINDECL	_	_	NF-MF	71r,12; ſa-  	UNLINK	_
+26	ſamit	_	_	ADJA	_	_	_	_	_	CP	ſamit	76,28	_	NF	ATTR	_	_	ADJ	_	_	MAINDECL	_	_	NF-MF	71r,12; ſa-  	UNLINK	_
+27	warin	_	_	VAFIN	_	_	_	_	_	CP	warin	76,28	_	NF	ATTR	_	_	VAFIN	_	_	MAINDECL	RK	_	NF-RK	71r,13; -mit | hei-	UNLINK	_
+28	.	_	_	$.	_	_	_	_	_	_	.	76,28	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71r,13; -mit | hei-	_	_
+
+# sent_id = 15
+# text = An der erde wart gegebin der heilige geiſt dar umbe. daz wir unſirn nahiſtin uf der erde minnitin.
+1	An	_	_	APPR	_	_	_	_	_	PP	An	76,28	_	_	PP-OBJ	_	_	APPR	_	_	MAINDECL	_	_	VF	71r,13; -mit | hei-	_	_
+2	der	_	_	ART	_	_	_	_	_	PP	der	76,28	_	_	PP-OBJ	_	_	DDA	_	_	MAINDECL	_	_	VF	71r,13; -mit | hei-	_	_
+3	erde	_	_	NN	_	_	_	_	_	PP	erde	76,28	_	_	PP-OBJ	_	_	NA	_	_	MAINDECL	_	_	VF	71r,13; -mit | hei-	_	_
+4	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	76,28	_	_	VFIN	_	_	VAFIN	_	LI	MAINDECL	LK	_	LK	71r,13; -mit | hei-	_	_
+5	gegebin	_	_	VVINF	_	_	_	_	_	VP	gegebin	76,28	_	_	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	71r,13; -mit | hei-	_	_
+6	der	_	_	ART	_	_	_	_	_	NP	der	76,28	_	BGR_	SUBJ	ACC-UNI-USED-1_	_	DDA	_	_	MAINDECL	_	_	NF	71r,13; -mit | hei-	UNLINK1	KOREF1
+7	heilige	_	_	ADJA	_	_	_	_	_	NP	heilige	76,28	_	BGR_	SUBJ	ACC-UNI-USED-1_	_	ADJ	_	_	MAINDECL	_	_	NF	71r,13; -mit | hei-	UNLINK1	KOREF1
+8	geiſt	_	_	NN	_	_	_	_	_	NP	geiſt	76,29	_	BGR_	SUBJ	ACC-UNI-USED-1_	_	NA	_	_	MAINDECL	_	_	NF	71r,14; -lige	UNLINK1	KOREF1
+9	dar	_	_	PAV	_	_	_	_	_	ADVP	dar	76,29	_	NF_	ADVB	_NA	_	PAV	_	_	MAINDECL	_	_	NF	71r,14; -lige	UNLINK2	KOREF1
+10	umbe	_	_	PAV	_	_	_	_	_	ADVP	umbe	76,29	_	NF_	ADVB	_NA	_	PAV	_	_	MAINDECL	_	_	NF	71r,14; -lige	UNLINK2	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	76,29	_	NF_	ADVB	_	_	$_	_	_	MAINDECL	_	_	NF	71r,14; -lige	_	_
+12	daz	_	_	KOUS	_	_	_	_	_	CP	daz	76,29	_	NF_	ADVB	_	_	KOUS	_	_	MAINDECL	LK	_	NF-LK	71r,14; -lige	_	KOREF2-SATZ
+13	wir	_	_	PPER	_	_	_	_	_	CP	wir	76,29	_	NF_	ADVB	_	_	PPER	_	_	MAINDECL	_	_	NF-MF	71r,14; -lige	_	KOREF2-SATZ
+14	unſirn	_	_	PPOSAT	_	_	_	_	_	CP	unſirn	76,29	_	NF_	ADVB	_	_	DPOS	_	_	MAINDECL	_	_	NF-MF	71r,14; -lige	_	KOREF2-SATZ
+15	nahiſtin	_	_	NN	_	_	_	_	_	CP	nahiſtin	76,29	_	NF_	ADVB	_	_	NA	_	_	MAINDECL	_	_	NF-MF	71r,14; -lige	_	KOREF2-SATZ
+16	uf	_	_	APPR	_	_	_	_	_	CP	uf	76,29	_	NF_	ADVB	_	_	APPR	_	_	MAINDECL	_	_	NF-MF	71r,1;an- 	_	KOREF2-SATZ
+17	der	_	_	ART	_	_	_	_	_	CP	der	76,29	_	NF_	ADVB	_	_	DDA	_	_	MAINDECL	_	_	NF-MF	71r,1;an- 	_	KOREF2-SATZ
+18	erde	_	_	NN	_	_	_	_	_	CP	erde	76,29	_	NF_	ADVB	_	_	NA	_	_	MAINDECL	_	_	NF-MF	71r,1;an- 	_	KOREF2-SATZ
+19	minnitin	_	_	VVINF	_	_	_	_	_	CP	minnitin	76,29	_	NF_	ADVB	_	_	VVINF	_	_	MAINDECL	RK	_	NF-RK	71r,1;an- 	_	KOREF2-SATZ
+20	.	_	_	$.	_	_	_	_	_	_	.	76,29	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71r,1;an- 	_	KOREF2-SATZ
+
+# sent_id = 16
+# text = ſchulin wir ilin mit allir ſlahte girde. mit warn minnin tageſ un̄ nahtiſ.
+1	ſchulin	_	_	VMFIN	_	_	_	_	_	VP	ſchulin	77,14	_	_	VFIN	_	_	VMFIN	_	LI	MAINDECL	LK	_	LK	71v,16; ſchu- 	_	_
+2	wir	_	_	PPER	_	_	_	_	_	NP	wir	77,14	_	_	SUBJ	_	_	PPER	_	_	MAINDECL	_	_	MF	71v,17; -lin	_	_
+3	ilin	_	_	VVINF	_	_	_	_	_	VP	ilin	77,14	_	NF_	INF	_	_	VVINF	_	RE	MAINDECL	RK	_	RK	71v,17; -lin	_	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	77,14	_	NF_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+5	allir	_	_	PIAT	_	_	_	_	_	PP	allir	77,14	_	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	DI	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+6	ſlahte	_	_	ADJA	_	_	_	_	_	PP	ſlahte	77,14	_	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	ADJ	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+7	girde	_	_	NN	_	_	_	_	_	PP	girde	77,14	_	NF_	PP-ADV	ACC-ABSTR-UNUSED_	_	NA	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+8	.	_	_	$.	_	_	_	_	_	_	.	77,14	_	_	_	_	_	$_	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+9	mit	_	_	APPR	_	_	_	_	_	PP	mit	77,15	_	NF_	PP-ADV	_	_	APPR	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+10	warn	_	_	ADJA	_	_	_	_	_	PP	warn	77,15	_	NF_	PP-ADV	_ACC-ABSTR-USED-X	_	ADJ	_	_	MAINDECL	_	_	NF	71v,17; -lin	UNLINK1	_
+11	minnin	_	_	NN	_	_	_	_	_	PP	minnin	77,15	_	NF_	PP-ADV	_ACC-ABSTR-USED-X	_	NA	_	_	MAINDECL	_	_	NF	71v,18; -un	UNLINK1	_
+12	tageſ	_	_	NN	_	_	_	_	_	NP	tageſ	77,15	_	NF_	ADVB	ACC-UNI-UNUSED	_	NA	_	_	MAINDECL	_	_	NF	71v,18; -un	UNLINK2	_
+13	un̄	_	_	KON	_	_	_	_	_	_	un̄	77,15	_	NF_	ADVB	ACC-UNI-UNUSED	_	KON	_	_	MAINDECL	_	_	NF	71v,18; -un	UNLINK2	_
+14	nahtiſ	_	_	NN	_	_	_	_	_	NP	nahtiſ	77,15	_	NF_	ADVB	ACC-UNI-UNUSED	_	NA	_	_	MAINDECL	_	_	NF	71v,18; -un	UNLINK2	_
+15	.	_	_	$.	_	_	_	_	_	_	.	77,15	_	_	_	_	_	$_	_	_	MAINDECL	_	_	_	71v,18; -un	_	_

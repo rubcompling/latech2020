@@ -1,0 +1,444 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 9
+# text = Die Leser mögen diese erste Probe des experi-<lb/>mentellen Fleisses eines jungen Chemikers mit Nachsicht aufnehmen .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Leser	Leser	_	NN	_	_	_	_	_	_	VF
+3	mögen	mögen	_	VMFIN	_	_	_	_	_	LK	LK
+4	diese	diese	_	PDAT	_	_	_	_	_	_	MF
+5	erste	erst	_	ADJA	_	_	_	_	_	_	MF
+6	Probe	Probe	_	NN	_	_	_	_	_	_	MF
+7	des	d	_	ART	_	_	_	_	_	_	MF
+8	experi-<lb/>mentellen	experimentell	_	ADJA	_	_	_	_	_	_	MF
+9	Fleisses	Fleiß	_	NN	_	_	_	_	_	_	MF
+10	eines	eine	_	ART	_	_	_	_	_	_	MF
+11	jungen	jung	_	ADJA	_	_	_	_	_	_	MF
+12	Chemikers	Chemiker	_	NN	_	_	_	_	_	_	MF
+13	mit	mit	_	APPR	_	_	_	_	_	_	MF
+14	Nachsicht	Nachsicht	_	NN	_	_	_	_	_	_	MF
+15	aufnehmen	aufnehmen	_	VVINF	_	_	_	_	_	RK	RK
+16	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 10
+# text = Der Hr. Verf. widmete sich der Chemie bereits in Bonnmit achtungs-<lb/>werthem Eifer und setzte hier seine Studien in gleichem Geiste fort . Kastner
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Hr.	Hr.	_	NN	_	_	_	_	_	_	VF
+3	Verf.	Verf.	_	NN	_	_	_	_	_	_	VF
+4	widmete	widmen	_	VVFIN	_	_	_	_	_	LK	LK
+5	sich	sich	_	PRF	_	_	_	_	_	_	MF
+6	der	d	_	ART	_	_	_	_	_	_	MF
+7	Chemie	Chemie	_	NN	_	_	_	_	_	_	MF
+8	bereits	bereits	_	ADV	_	_	_	_	_	_	MF
+9	in	in	_	APPR	_	_	_	_	_	_	MF
+10	Bonnmit	Bonnmit	_	NE	_	_	_	_	_	_	MF
+11	achtungs-<lb/>werthem	achtungswert	_	ADJA	_	_	_	_	_	_	MF
+12	Eifer	Eifer	_	NN	_	_	_	_	_	_	MF
+13	und	und	_	KON	_	_	_	_	_	_	KOORD
+14	setzte	setzen	_	VVFIN	_	_	_	_	_	LK	LK
+15	hier	hier	_	ADV	_	_	_	_	_	_	MF
+16	seine	seine	_	PPOSAT	_	_	_	_	_	_	MF
+17	Studien	Studie	_	NN	_	_	_	_	_	_	MF
+18	in	in	_	APPR	_	_	_	_	_	_	MF
+19	gleichem	gleich	_	ADJA	_	_	_	_	_	_	MF
+20	Geiste	Geist	_	NN	_	_	_	_	_	_	MF
+21	fort	fort	_	PTKVZ	_	_	_	_	_	RK	RK
+22	.	.	_	$.	_	_	_	_	_	_	_
+23	Kastner	Kastner	_	NE	_	_	_	_	_	_	FRAG
+
+# sent_id = 3
+# sent_id(TSV) = 11
+# text = Es scheint vielleicht überflüssig , zu den vielen Vorschriften und Bereitungsarten die-<lb/>ses merkwürdigen Salzes noch eine neue hin-<lb/>zuzufügen ; allein die älteren Angaben sind mehr oder weniger unbestimmt und unsicher , so , dass wenn man darnach arbeitet , ohne be-<lb/>sondere Uebung das Präparat meistentheils misslingt .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	scheint	scheinen	_	VVFIN	_	_	_	_	_	LK	LK
+3	vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	MF
+4	überflüssig	überflüssig	_	ADJD	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	_
+6	zu	zu	_	APPR	_	_	_	_	_	_	NF-MF
+7	den	d	_	ART	_	_	_	_	_	_	NF-MF
+8	vielen	viel	_	PIAT	_	_	_	_	_	_	NF-MF
+9	Vorschriften	Vorschrift	_	NN	_	_	_	_	_	_	NF-MF
+10	und	und	_	KON	_	_	_	_	_	_	NF-MF
+11	Bereitungsarten	Bereitungsart	_	NN	_	_	_	_	_	_	NF-MF
+12	die-<lb/>ses	diese	_	PDAT	_	_	_	_	_	_	NF-MF
+13	merkwürdigen	merkwürdig	_	ADJA	_	_	_	_	_	_	NF-MF
+14	Salzes	Salz	_	NN	_	_	_	_	_	_	NF-MF
+15	noch	noch	_	ADV	_	_	_	_	_	_	NF-MF
+16	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+17	neue	neu	_	ADJA	_	_	_	_	_	_	NF-MF
+18	hin-<lb/>zuzufügen	hinzufügen	_	VVIZU	_	_	_	_	_	RK	NF-RK
+19	;	\;	_	$.	_	_	_	_	_	_	_
+20	allein	allein	_	ADV	_	_	_	_	_	_	LV
+21	die	d	_	ART	_	_	_	_	_	_	VF
+22	älteren	alt	_	ADJA	_	_	_	_	_	_	VF
+23	Angaben	Angabe	_	NN	_	_	_	_	_	_	VF
+24	sind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+25	mehr	mehr	_	ADV	_	_	_	_	_	_	MF
+26	oder	oder	_	KON	_	_	_	_	_	_	MF
+27	weniger	wenige	_	ADV	_	_	_	_	_	_	MF
+28	unbestimmt	unbestimmt	_	ADJD	_	_	_	_	_	_	MF
+29	und	und	_	KON	_	_	_	_	_	_	MF
+30	unsicher	unsicher	_	ADJD	_	_	_	_	_	_	MF
+31	,	,	_	$,	_	_	_	_	_	_	_
+32	so	so	_	ADV	_	_	_	_	_	_	NF
+33	,	,	_	$,	_	_	_	_	_	_	NF
+34	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+35	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-MF-LK
+36	man	man	_	PIS	_	_	_	_	_	_	NF-MF-MF
+37	darnach	danach	_	PAV	_	_	_	_	_	_	NF-MF-MF
+38	arbeitet	arbeiten	_	VVFIN	_	_	_	_	_	RK	NF-MF-RK
+39	,	,	_	$,	_	_	_	_	_	_	NF-MF
+40	ohne	ohne	_	APPR	_	_	_	_	_	_	NF-MF
+41	be-<lb/>sondere	besondere	_	ADJA	_	_	_	_	_	_	NF-MF
+42	Uebung	Übung	_	NN	_	_	_	_	_	_	NF-MF
+43	das	d	_	ART	_	_	_	_	_	_	NF-MF
+44	Präparat	Präparat	_	NN	_	_	_	_	_	_	NF-MF
+45	meistentheils	meistenteils	_	ADV	_	_	_	_	_	_	NF-MF
+46	misslingt	misslingen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+47	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 12
+# text = Schon seit 2 Jahren verfertige ich nach der unten gegebenen Vorschrift eine grosse Menge Knallsilbers , ohne dass es mir einmal missrathen wäre .
+1	Schon	schon	_	ADV	_	_	_	_	_	_	VF
+2	seit	seit	_	APPR	_	_	_	_	_	_	VF
+3	2	2	_	CARD	_	_	_	_	_	_	VF
+4	Jahren	Jahr	_	NN	_	_	_	_	_	_	VF
+5	verfertige	verfertigen	_	VVFIN	_	_	_	_	_	LK	LK
+6	ich	ich	_	PPER	_	_	_	_	_	_	MF
+7	nach	nach	_	APPR	_	_	_	_	_	_	MF
+8	der	d	_	ART	_	_	_	_	_	_	MF
+9	unten	unten	_	ADV	_	_	_	_	_	_	MF
+10	gegebenen	gegeben	_	ADJA	_	_	_	_	_	_	MF
+11	Vorschrift	Vorschrift	_	NN	_	_	_	_	_	_	MF
+12	eine	eine	_	ART	_	_	_	_	_	_	MF
+13	grosse	groß	_	ADJA	_	_	_	_	_	_	MF
+14	Menge	Menge	_	NN	_	_	_	_	_	_	MF
+15	Knallsilbers	Knallsilber	_	NN	_	_	_	_	_	_	MF
+16	,	,	_	$,	_	_	_	_	_	_	_
+17	ohne	ohne	_	KOUS	_	_	_	_	_	LK	NF-LK
+18	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+19	es	es	_	PPER	_	_	_	_	_	_	NF-MF
+20	mir	ich	_	PPER	_	_	_	_	_	_	NF-MF
+21	einmal	einmal	_	ADV	_	_	_	_	_	_	NF-MF
+22	missrathen	missraten	_	VVPP	_	_	_	_	_	RK	NF-RK
+23	wäre	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+24	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 13
+# text = Descotils löste Silber in Salpetersäure auf und goss , während die Auflösung vor sich gieng , Alkohol hinzu .
+1	Descotils	Descotils	_	NE	_	_	_	_	_	_	VF
+2	löste	lösen	_	VVFIN	_	_	_	_	_	LK	LK
+3	Silber	Silber	_	NN	_	_	_	_	_	_	MF
+4	in	in	_	APPR	_	_	_	_	_	_	MF
+5	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	MF
+6	auf	auf	_	PTKVZ	_	_	_	_	_	RK	RK
+7	und	und	_	KON	_	_	_	_	_	_	KOORD
+8	goss	gießen	_	VVFIN	_	_	_	_	_	LK	LK
+9	,	,	_	$,	_	_	_	_	_	_	_
+10	während	während	_	KOUS	_	_	_	_	_	LK	MF-LK
+11	die	d	_	ART	_	_	_	_	_	_	MF-MF
+12	Auflösung	Auflösung	_	NN	_	_	_	_	_	_	MF-MF
+13	vor	vor	_	APPR	_	_	_	_	_	_	MF-MF
+14	sich	sich	_	PRF	_	_	_	_	_	_	MF-MF
+15	gieng	gehen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+16	,	,	_	$,	_	_	_	_	_	_	MF
+17	Alkohol	Alkohol	_	NN	_	_	_	_	_	_	MF
+18	hinzu	hinzu	_	PTKVZ	_	_	_	_	_	RK	RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 14
+# text = Die Auflösung des Silbers in der Säure wird hiebei ausseror-<lb/>dentlich verlangsamt , und giesst man zuviel Alkohol hinzu , ganz verhindert ; die Menge des hiernach zu erhaltenden Knallsilbers ist sehr gering , und da weder die Menge noch die Concentration der Säure und des Alko-<lb/>hols bestimmt wird , so ist die Bereitung sehr unsicher .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Auflösung	Auflösung	_	NN	_	_	_	_	_	_	VF
+3	des	d	_	ART	_	_	_	_	_	_	VF
+4	Silbers	Silber	_	NN	_	_	_	_	_	_	VF
+5	in	in	_	APPR	_	_	_	_	_	_	VF
+6	der	d	_	ART	_	_	_	_	_	_	VF
+7	Säure	Säure	_	NN	_	_	_	_	_	_	VF
+8	wird	werden	_	VAFIN	_	_	_	_	_	LK	LK
+9	hiebei	hierbei	_	ADV	_	_	_	_	_	_	MF
+10	ausseror-<lb/>dentlich	außerordentlich	_	ADJD	_	_	_	_	_	_	MF
+11	verlangsamt	verlangsamen	_	VVPP	_	_	_	_	_	RK	RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	und	und	_	KON	_	_	_	_	_	_	KOORD
+14	giesst	gießen	_	VVFIN	_	_	_	_	_	LK	MF-LK
+15	man	man	_	PIS	_	_	_	_	_	_	MF-MF
+16	zuviel	zuviel	_	PIAT	_	_	_	_	_	_	MF-MF
+17	Alkohol	Alkohol	_	NN	_	_	_	_	_	_	MF-MF
+18	hinzu	hinzu	_	PTKVZ	_	_	_	_	_	RK	MF-RK
+19	,	,	_	$,	_	_	_	_	_	_	MF
+20	ganz	ganz	_	ADV	_	_	_	_	_	_	MF
+21	verhindert	verhindern	_	VVPP	_	_	_	_	_	RK	RK
+22	;	\;	_	$.	_	_	_	_	_	_	_
+23	die	d	_	ART	_	_	_	_	_	_	VF
+24	Menge	Menge	_	NN	_	_	_	_	_	_	VF
+25	des	d	_	ART	_	_	_	_	_	_	VF
+26	hiernach	hiernach	_	ADV	_	_	_	_	_	_	VF
+27	zu	zu	_	APPR	_	_	_	_	_	_	VF
+28	erhaltenden	erhaltend	_	ADJA	_	_	_	_	_	_	VF
+29	Knallsilbers	Knallsilber	_	NN	_	_	_	_	_	_	VF
+30	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+31	sehr	sehr	_	ADV	_	_	_	_	_	_	MF
+32	gering	gering	_	ADJD	_	_	_	_	_	_	MF
+33	,	,	_	$,	_	_	_	_	_	_	_
+34	und	und	_	KON	_	_	_	_	_	_	KOORD
+35	da	da	_	KOUS	_	_	_	_	_	LK	LV-LK
+36	weder	weder	_	KON	_	_	_	_	_	_	LV-MF
+37	die	d	_	ART	_	_	_	_	_	_	LV-MF
+38	Menge	Menge	_	NN	_	_	_	_	_	_	LV-MF
+39	noch	noch	_	KON	_	_	_	_	_	_	LV-MF
+40	die	d	_	ART	_	_	_	_	_	_	LV-MF
+41	Concentration	Konzentration	_	NN	_	_	_	_	_	_	LV-MF
+42	der	d	_	ART	_	_	_	_	_	_	LV-MF
+43	Säure	Säure	_	NN	_	_	_	_	_	_	LV-MF
+44	und	und	_	KON	_	_	_	_	_	_	LV-MF
+45	des	d	_	ART	_	_	_	_	_	_	LV-MF
+46	Alko-<lb/>hols	Alkohol	_	NN	_	_	_	_	_	_	LV-MF
+47	bestimmt	bestimmen	_	VVPP	_	_	_	_	_	RK	LV-RK
+48	wird	werden	_	VAFIN	_	_	_	_	_	RK	LV-RK
+49	,	,	_	$,	_	_	_	_	_	_	_
+50	so	so	_	ADV	_	_	_	_	_	_	VF
+51	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+52	die	d	_	ART	_	_	_	_	_	_	MF
+53	Bereitung	Bereitung	_	NN	_	_	_	_	_	_	MF
+54	sehr	sehr	_	ADV	_	_	_	_	_	_	MF
+55	unsicher	unsicher	_	ADJD	_	_	_	_	_	_	MF
+56	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 15
+# text = Nach Wagenmann wird zu einer Auflö-<lb/>sung von einer Drachme Silbers in einer Unze Salpetersäure von 1,180 Eigengew . gegossen und dann zu der Mischung eine halbe Unze rauchende Salpetersäure von 1,480 ge-<lb/>tröpfelt .
+1	Nach	nach	_	APPR	_	_	_	_	_	_	VF
+2	Wagenmann	Wagenmann	_	NE	_	_	_	_	_	_	VF
+3	wird	werden	_	VAFIN	_	_	_	_	_	LK	LK
+4	zu	zu	_	APPR	_	_	_	_	_	_	MF
+5	einer	eine	_	ART	_	_	_	_	_	_	MF
+6	Auflö-<lb/>sung	Auflösung	_	NN	_	_	_	_	_	_	MF
+7	von	von	_	APPR	_	_	_	_	_	_	MF
+8	einer	eine	_	ART	_	_	_	_	_	_	MF
+9	Drachme	Drachme	_	NN	_	_	_	_	_	_	MF
+10	Silbers	Silber	_	NN	_	_	_	_	_	_	MF
+11	in	in	_	APPR	_	_	_	_	_	_	MF
+12	einer	eine	_	ART	_	_	_	_	_	_	MF
+13	Unze	Unze	_	NN	_	_	_	_	_	_	MF
+14	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	MF
+15	von	von	_	APPR	_	_	_	_	_	_	MF
+16	1,180	1,180	_	CARD	_	_	_	_	_	_	MF
+17	Eigengew	Eigengew	_	NN	_	_	_	_	_	_	MF
+18	.	.	_	$.	_	_	_	_	_	_	MF
+19	gegossen	gießen	_	VVPP	_	_	_	_	_	RK	RK
+20	und	und	_	KON	_	_	_	_	_	_	KOORD
+21	dann	dann	_	ADV	_	_	_	_	_	_	MF
+22	zu	zu	_	APPR	_	_	_	_	_	_	MF
+23	der	d	_	ART	_	_	_	_	_	_	MF
+24	Mischung	Mischung	_	NN	_	_	_	_	_	_	MF
+25	eine	eine	_	ART	_	_	_	_	_	_	MF
+26	halbe	halb	_	ADJA	_	_	_	_	_	_	MF
+27	Unze	Unze	_	NN	_	_	_	_	_	_	MF
+28	rauchende	rauchend	_	ADJA	_	_	_	_	_	_	MF
+29	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	MF
+30	von	von	_	APPR	_	_	_	_	_	_	MF
+31	1,480	1,480	_	CARD	_	_	_	_	_	_	MF
+32	ge-<lb/>tröpfelt	tröpfeln	_	VVPP	_	_	_	_	_	RK	RK
+33	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 16
+# text = Die Erhitzung ist so stark , dass die Bil-<lb/>dung des Salzes meistentheils verhindert , und wenn schon etwas sich erzeugt hat , die-<lb/>ses zum Theil wieder zersetzt wird , auch ist die Menge des Alkohols im Verhältnis zur Säure zu gering .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Erhitzung	Erhitzung	_	NN	_	_	_	_	_	_	VF
+3	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+4	so	so	_	ADV	_	_	_	_	_	_	MF
+5	stark	stark	_	ADJD	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	dass	dass	_	KOUS	_	_	_	_	_	LK	NF-LK
+8	die	d	_	ART	_	_	_	_	_	_	NF-MF
+9	Bil-<lb/>dung	Bildung	_	NN	_	_	_	_	_	_	NF-MF
+10	des	d	_	ART	_	_	_	_	_	_	NF-MF
+11	Salzes	Salz	_	NN	_	_	_	_	_	_	NF-MF
+12	meistentheils	meistenteils	_	ADV	_	_	_	_	_	_	NF-MF
+13	verhindert	verhindern	_	VVPP	_	_	_	_	_	RK	NF-RK
+14	,	,	_	$,	_	_	_	_	_	_	NF
+15	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+16	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-MF-LK
+17	schon	schon	_	ADV	_	_	_	_	_	_	NF-MF-MF
+18	etwas	etwas	_	PIS	_	_	_	_	_	_	NF-MF-MF
+19	sich	sich	_	PRF	_	_	_	_	_	_	NF-MF-MF
+20	erzeugt	erzeugen	_	VVPP	_	_	_	_	_	RK	NF-MF-RK
+21	hat	haben	_	VAFIN	_	_	_	_	_	RK	NF-MF-RK
+22	,	,	_	$,	_	_	_	_	_	_	NF-MF
+23	die-<lb/>ses	diese	_	PDS	_	_	_	_	_	_	NF-MF
+24	zum	zum	_	APPRART	_	_	_	_	_	_	NF-MF
+25	Theil	Teil	_	NN	_	_	_	_	_	_	NF-MF
+26	wieder	wieder	_	ADV	_	_	_	_	_	_	NF-MF
+27	zersetzt	zersetzen	_	VVPP	_	_	_	_	_	RK	NF-RK
+28	wird	werden	_	VAFIN	_	_	_	_	_	RK	NF-RK
+29	,	,	_	$,	_	_	_	_	_	_	_
+30	auch	auch	_	ADV	_	_	_	_	_	_	VF
+31	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+32	die	d	_	ART	_	_	_	_	_	_	MF
+33	Menge	Menge	_	NN	_	_	_	_	_	_	MF
+34	des	d	_	ART	_	_	_	_	_	_	MF
+35	Alkohols	Alkohol	_	NN	_	_	_	_	_	_	MF
+36	im	im	_	APPRART	_	_	_	_	_	_	MF
+37	Verhältnis	Verhältnis	_	NN	_	_	_	_	_	_	MF
+38	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+39	Säure	Säure	_	NN	_	_	_	_	_	_	MF
+40	zu	zu	_	PTKA	_	_	_	_	_	_	MF
+41	gering	gering	_	ADJD	_	_	_	_	_	_	MF
+42	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 17
+# text = Cruikshankwandte 40 Theile Silber , 60 Th. Salpetersäure , mit gleichviel Wasser verdünnt , und 60 Th. Alkohol an .
+1	Cruikshankwandte	cruikshankwandte	_	VVFIN	_	_	_	_	_	LK	LK
+2	40	40	_	CARD	_	_	_	_	_	_	MF
+3	Theile	Teil	_	NN	_	_	_	_	_	_	MF
+4	Silber	Silber	_	NN	_	_	_	_	_	_	MF
+5	,	,	_	$,	_	_	_	_	_	_	MF
+6	60	60	_	CARD	_	_	_	_	_	_	MF
+7	Th.	Th.	_	NN	_	_	_	_	_	_	MF
+8	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	MF
+9	,	,	_	$,	_	_	_	_	_	_	MF
+10	mit	mit	_	APPR	_	_	_	_	_	_	MF
+11	gleichviel	gleichviel	_	ADV	_	_	_	_	_	_	MF
+12	Wasser	Wasser	_	NN	_	_	_	_	_	_	MF
+13	verdünnt	verdünnen	_	VVPP	_	_	_	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	MF
+15	und	und	_	KON	_	_	_	_	_	_	MF
+16	60	60	_	CARD	_	_	_	_	_	_	MF
+17	Th.	Th.	_	NN	_	_	_	_	_	_	MF
+18	Alkohol	Alkohol	_	NN	_	_	_	_	_	_	MF
+19	an	an	_	PTKVZ	_	_	_	_	_	RK	RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 18
+# text = Die Menge der Salpetersäure , so wie die Menge des Alkohols ist im Verhältnis zum Silber zu gering , um eine einigermassen ent-<lb/>sprechende Menge Knallsilber zu erhalten .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Menge	Menge	_	NN	_	_	_	_	_	_	VF
+3	der	d	_	ART	_	_	_	_	_	_	VF
+4	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	VF
+5	,	,	_	$,	_	_	_	_	_	_	VF
+6	so	so	_	ADV	_	_	_	_	_	_	VF
+7	wie	wie	_	KOKOM	_	_	_	_	_	_	VF
+8	die	d	_	ART	_	_	_	_	_	_	VF
+9	Menge	Menge	_	NN	_	_	_	_	_	_	VF
+10	des	d	_	ART	_	_	_	_	_	_	VF
+11	Alkohols	Alkohol	_	NN	_	_	_	_	_	_	VF
+12	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+13	im	im	_	APPRART	_	_	_	_	_	_	MF
+14	Verhältnis	Verhältnis	_	NN	_	_	_	_	_	_	MF
+15	zum	zum	_	APPRART	_	_	_	_	_	_	MF
+16	Silber	Silber	_	NN	_	_	_	_	_	_	MF
+17	zu	zu	_	PTKA	_	_	_	_	_	_	MF
+18	gering	gering	_	ADJD	_	_	_	_	_	_	MF
+19	,	,	_	$,	_	_	_	_	_	_	_
+20	um	um	_	KOUI	_	_	_	_	_	LK	NF-LK
+21	eine	eine	_	ART	_	_	_	_	_	_	NF-MF
+22	einigermassen	einigermaßen	_	ADV	_	_	_	_	_	_	NF-MF
+23	ent-<lb/>sprechende	entsprechend	_	ADJA	_	_	_	_	_	_	NF-MF
+24	Menge	Menge	_	NN	_	_	_	_	_	_	NF-MF
+25	Knallsilber	Knallsilber	_	NN	_	_	_	_	_	_	NF-MF
+26	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+27	erhalten	erhalten	_	VVINF	_	_	_	_	_	RK	NF-RK
+28	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 19
+# text = Mehrere dergleichen unvollständige An-<lb/>gaben fanden sich in den meisten Lehr- und Wörterbüchern der Chemie ; auch ist bei ei-<lb/>nigen Vorschriften der Zusatz von Terpentin-<lb/>öl zu dem Weingeiste , so wie auch die An-<lb/>wendung des geschmolzenen salpetersauren Silbers mit rauchender Salpetersäure und Al-<lb/>kohol , wie es mir scheint , nichts weniger als zweckmässig .
+1	Mehrere	mehrere	_	PIAT	_	_	_	_	_	_	VF
+2	dergleichen	dergleichen	_	PIAT	_	_	_	_	_	_	VF
+3	unvollständige	unvollständig	_	ADJA	_	_	_	_	_	_	VF
+4	An-<lb/>gaben	Angabe	_	NN	_	_	_	_	_	_	VF
+5	fanden	finden	_	VVFIN	_	_	_	_	_	LK	LK
+6	sich	sich	_	PRF	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	den	d	_	ART	_	_	_	_	_	_	MF
+9	meisten	meiste	_	PIAT	_	_	_	_	_	_	MF
+10	Lehr-	lehr-	_	TRUNC	_	_	_	_	_	_	MF
+11	und	und	_	KON	_	_	_	_	_	_	MF
+12	Wörterbüchern	Wörterbuch	_	NN	_	_	_	_	_	_	MF
+13	der	d	_	ART	_	_	_	_	_	_	MF
+14	Chemie	Chemie	_	NN	_	_	_	_	_	_	MF
+15	;	\;	_	$.	_	_	_	_	_	_	_
+16	auch	auch	_	ADV	_	_	_	_	_	_	VF
+17	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+18	bei	bei	_	APPR	_	_	_	_	_	_	MF
+19	ei-<lb/>nigen	einige	_	PIAT	_	_	_	_	_	_	MF
+20	Vorschriften	Vorschrift	_	NN	_	_	_	_	_	_	MF
+21	der	d	_	ART	_	_	_	_	_	_	MF
+22	Zusatz	Zusatz	_	NN	_	_	_	_	_	_	MF
+23	von	von	_	APPR	_	_	_	_	_	_	MF
+24	Terpentin-<lb/>öl	Terpentinöl	_	NN	_	_	_	_	_	_	MF
+25	zu	zu	_	APPR	_	_	_	_	_	_	MF
+26	dem	d	_	ART	_	_	_	_	_	_	MF
+27	Weingeiste	Weingeist	_	NN	_	_	_	_	_	_	MF
+28	,	,	_	$,	_	_	_	_	_	_	MF
+29	so	so	_	ADV	_	_	_	_	_	_	MF
+30	wie	wie	_	KOKOM	_	_	_	_	_	_	MF
+31	auch	auch	_	ADV	_	_	_	_	_	_	MF
+32	die	d	_	ART	_	_	_	_	_	_	MF
+33	An-<lb/>wendung	Anwendung	_	NN	_	_	_	_	_	_	MF
+34	des	d	_	ART	_	_	_	_	_	_	MF
+35	geschmolzenen	geschmelzen	_	ADJA	_	_	_	_	_	_	MF
+36	salpetersauren	salpetersauer	_	ADJA	_	_	_	_	_	_	MF
+37	Silbers	Silber	_	NN	_	_	_	_	_	_	MF
+38	mit	mit	_	APPR	_	_	_	_	_	_	MF
+39	rauchender	rauchend	_	ADJA	_	_	_	_	_	_	MF
+40	Salpetersäure	Salpetersäure	_	NN	_	_	_	_	_	_	MF
+41	und	und	_	KON	_	_	_	_	_	_	MF
+42	Al-<lb/>kohol	Alkohol	_	NN	_	_	_	_	_	_	MF
+43	,	,	_	$,	_	_	_	_	_	_	MF
+44	wie	wie	_	PWAV	_	_	_	_	_	LK	MF-LK
+45	es	es	_	PPER	_	_	_	_	_	_	MF-MF
+46	mir	ich	_	PPER	_	_	_	_	_	_	MF-MF
+47	scheint	scheinen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+48	,	,	_	$,	_	_	_	_	_	_	MF
+49	nichts	nichts	_	PIS	_	_	_	_	_	_	MF
+50	weniger	wenige	_	PIS	_	_	_	_	_	_	MF
+51	als	als	_	KOKOM	_	_	_	_	_	_	MF
+52	zweckmässig	zweckmässig	_	ADJD	_	_	_	_	_	_	MF
+53	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 20
+# text = Ich kehre nun zur Bereitung dieses Salzes zurück und werde alle Umstände berücksich-<lb/>tigen , bei welchen das Gelingen des Präpa-<lb/>rates möglich ist , und mir ein paar Bemer-<lb/>kungen über die Natur desselben hinzuzufü-<lb/>gen erlauben .
+1	Ich	ich	_	PPER	_	_	_	_	_	_	VF
+2	kehre	kehren	_	VVFIN	_	_	_	_	_	LK	LK
+3	nun	nun	_	ADV	_	_	_	_	_	_	MF
+4	zur	zur	_	APPRART	_	_	_	_	_	_	MF
+5	Bereitung	Bereitung	_	NN	_	_	_	_	_	_	MF
+6	dieses	diese	_	PDAT	_	_	_	_	_	_	MF
+7	Salzes	Salz	_	NN	_	_	_	_	_	_	MF
+8	zurück	zurück	_	PTKVZ	_	_	_	_	_	RK	RK
+9	und	und	_	KON	_	_	_	_	_	_	KOORD
+10	werde	werden	_	VAFIN	_	_	_	_	_	LK	LK
+11	alle	alle	_	PIAT	_	_	_	_	_	_	MF
+12	Umstände	Umstand	_	NN	_	_	_	_	_	_	MF
+13	berücksich-<lb/>tigen	berücksichtigen	_	VVINF	_	_	_	_	_	RK	RK
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	bei	bei	_	APPR	_	_	_	_	_	LK	NF-LK
+16	welchen	welchen	_	PRELS	_	_	_	_	_	LK	NF-LK
+17	das	d	_	ART	_	_	_	_	_	_	NF-MF
+18	Gelingen	Gelingen	_	NN	_	_	_	_	_	_	NF-MF
+19	des	d	_	ART	_	_	_	_	_	_	NF-MF
+20	Präpa-<lb/>rates	Präparat	_	NN	_	_	_	_	_	_	NF-MF
+21	möglich	möglich	_	ADJD	_	_	_	_	_	_	NF-MF
+22	ist	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+23	,	,	_	$,	_	_	_	_	_	_	_
+24	und	und	_	KON	_	_	_	_	_	_	KOORD
+25	mir	ich	_	PPER	_	_	_	_	_	_	MF
+26	ein	eine	_	ART	_	_	_	_	_	_	MF
+27	paar	paar	_	PIAT	_	_	_	_	_	_	MF
+28	Bemer-<lb/>kungen	Bemerkung	_	NN	_	_	_	_	_	_	MF
+29	über	über	_	APPR	_	_	_	_	_	_	MF
+30	die	d	_	ART	_	_	_	_	_	_	MF
+31	Natur	Natur	_	NN	_	_	_	_	_	_	MF
+32	desselben	dieselbe	_	PDS	_	_	_	_	_	_	MF
+33	hinzuzufü-<lb/>gen	hinzufügen	_	VVIZU	_	_	_	_	_	RK	RK
+34	erlauben	erlauben	_	VVINF	_	_	_	_	_	RK	RK
+35	.	.	_	$.	_	_	_	_	_	_	_

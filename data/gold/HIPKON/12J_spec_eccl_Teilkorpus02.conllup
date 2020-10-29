@@ -1,0 +1,200 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Nu iſt er#ſchinnin div gnade vn̄ div menniſcheit. unſerſ heilantiſ.
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu	11,19	_	ADVB	_	_	ADV	_	MAINDECL	_	Zitat	VF	08v,10	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	11,20	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	Zitat	LK	08v,10	_	_
+3	er#ſchinnin	_	_	VVPP	_	_	_	_	_	VP	erſchinnin	11,20	_	INF	_	_	VVPP	RE	MAINDECL	RK	Zitat	RK	08v,10	_	_
+4	div	_	_	ART	_	_	_	_	_	NP	div	11,20	NF	SUBJ	ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+5	gnade	_	_	NN	_	_	_	_	_	NP	gnade	11,20	NF	SUBJ	ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+6	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	11,20	NF	SUBJ	_	_	KON	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+7	div	_	_	ART	_	_	_	_	_	NP	div	11,20	NF	SUBJ	_ACC-GEN_	_	DDA	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+8	menniſcheit	_	_	NN	_	_	_	_	_	NP	menniſcheit	11,20	NF	SUBJ	_ACC-GEN_	_	NA	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	11,20	NF	_	_	_	$_	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	_
+10	unſerſ	_	_	PPOSAT	_	_	_	_	_	NP	unſerſ	11,20	NF	ATTR	_ACC-SIT_	_	DPOS	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	KOREF1
+11	heilantiſ	_	_	NN	_	_	_	_	_	NP	heilantiſ	11,20	NF	ATTR	_ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	Zitat	NF	08v,11	UNLINK	KOREF1
+12	.	_	_	$.	_	_	_	_	_	_	.	11,20	_	_	_	_	$_	_	MAINDECL	_	Zitat	_	08v,11	_	_
+
+# sent_id = 2
+# text = Div geburt unſerſ herren wart eroffenit uil manichwiſ.
+1	Div	_	_	ART	_	_	_	_	_	NP	Div	11,22	_	SUBJ	_	_	DDA	_	MAINDECL	_	_	VF	08v,14	_	_
+2	geburt	_	_	NN	_	_	_	_	_	NP	geburt	11,22	_	SUBJ	_	_	NA	_	MAINDECL	_	_	VF	08v,14	_	_
+3	unſerſ	_	_	PPOSAT	_	_	_	_	_	NP	unſerſ	11,23	_	ATTR	_	_	DPOS	_	MAINDECL	_	_	VF	08v,14	_	_
+4	herren	_	_	NN	_	_	_	_	_	NP	herren	11,23	_	ATTR	_	_	NA	_	MAINDECL	_	_	VF	08v,14	_	_
+5	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	11,23	NF	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	08v,15; -ren	_	_
+6	eroffenit	_	_	VVPP	_	_	_	_	_	VP	eroffenit	11,23	NF	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	08v,15; -ren	_	_
+7	uil	_	_	ADV	_	_	_	_	_	ADVP	uil	11,23	NF	ADVB	NA	_	ADV	_	MAINDECL	_	_	NF	08v,15; -ren	UNLINK	_
+8	manichwiſ	_	_	ADV	_	_	_	_	_	ADVP	manichwiſ	11,23	NF	ADVB	NA	in Edition: manich wis	ADV	_	MAINDECL	_	_	NF	08v,15; -ren	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	11,23	_	_	_	_	$_	_	MAINDECL	_	_	_	08v,15; -ren	_	_
+
+# sent_id = 3
+# text = ſi wart eroffent uon den heiligen engeln. hirtin die ir ſchafe huͦtin.
+1	ſi	_	_	PPER	_	_	_	_	_	NP	ſi	11,23	_	SUBJ	_	_	PPER	_	MAINDECL	_	_	VF	08v,15; -ren	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	11,23	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	08v,15; -ren	_	_
+3	eroffent	_	_	VVPP	_	_	_	_	_	VP	eroffent	11,23	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	08v,15; -ren	_	_
+4	uon	_	_	APPR	_	_	_	_	_	PP	uon	11,23	_	PP-AGENS	_	_	APPR	_	MAINDECL	_	_	NF	08v,16	UNLINK1	_
+5	den	_	_	ART	_	_	_	_	_	PP	den	11,24	NF_	PP-AGENS	ACC-UNI-UNUSED	_	DDA	_	MAINDECL	_	_	NF	08v,16	UNLINK1	KOREF1
+6	heiligen	_	_	ADJA	_	_	_	_	_	PP	heiligen	11,24	NF_	PP-AGENS	ACC-UNI-UNUSED	_	ADJ	_	MAINDECL	_	_	NF	08v,16	UNLINK1	KOREF1
+7	engeln	_	_	NN	_	_	_	_	_	PP	engeln	11,24	NF_	PP-AGENS	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	_	NF	08v,16	UNLINK1	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	11,24	_	_	_	_	$_	_	MAINDECL	_	_	NF	08v,16	_	_
+9	hirtin	_	_	NN	_	_	_	_	_	NP	hirtin	11,24	NF_	IO-DAT	NEW	_	NA	_	MAINDECL	_	_	NF-VF	08v,16	UNLINK2	KOREF1-REL
+10	die	_	_	PRELS	_	_	_	_	_	CP	die	11,24	NF_	ATTR	_	_	DDSREL	_	MAINDECL	LK	_	NF-LK	08v,16	UNLINK2	KOREF2-REL
+11	ir	_	_	PPOSAT	_	_	_	_	_	CP	ir	11,24	NF_	ATTR	_	_	DPOS	_	MAINDECL	_	_	NF-MF	08v,16	UNLINK2	_
+12	ſchafe	_	_	NN	_	_	_	_	_	CP	ſchafe	11,24	NF_	ATTR	_	_	NA	_	MAINDECL	_	_	NF-MF	08v,16	UNLINK2	_
+13	huͦtin	_	_	VVFIN	_	_	_	_	_	CP	huͦtin	11,24	NF_	ATTR	_	_	VVFIN	_	MAINDECL	RK	_	NF-RK	08v,16	UNLINK2	_
+14	.	_	_	$.	_	_	_	_	_	_	.	11,24	_	_	_	_	$_	_	MAINDECL	_	_	_	08v,17; -tin	_	_
+
+# sent_id = 4
+# text = Si wart oͮch eroffent v%on einim ſtêrne. drîen kvnigin.
+1	Si	_	_	PPER	_	_	_	_	_	NP	Si	11,24	_	SUBJ	_	_	PPER	_	MAINDECL	_	_	VF	08v,17; -tin	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	11,24	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	08v,17; -tin	_	_
+3	oͮch	_	_	ADV	_	_	_	_	_	ADVP	oͮch	11,24	_	ADVB	_	_	ADV	_	MAINDECL	_	_	MF	08v,17; -tin	_	_
+4	eroffent	_	_	VVPP	_	_	_	_	_	VP	eroffent	11,24	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	08v,17; -tin	_	_
+5	v%on	_	_	APPR	_	_	_	_	_	PP	v%on	11,25	NF	PP-AGENS	_	_	APPR	_	MAINDECL	_	_	NF	08v,17; -tin	UNLINK1	_
+6	einim	_	_	ART	_	_	_	_	_	PP	einim	11,25	NF	PP-AGENS	NEW	_	DIA	_	MAINDECL	_	_	NF	08v,17; -tin	UNLINK1	_
+7	ſtêrne	_	_	NN	_	_	_	_	_	PP	ſtêrne	11,25	NF	PP-AGENS	NEW	_	NA	_	MAINDECL	_	_	NF	08v,17; -tin	UNLINK1	_
+8	.	_	_	$.	_	_	_	_	_	_	.	11,25	NF	_	_	_	$_	_	MAINDECL	_	_	NF	08v,17; -tin	_	_
+9	drîen	_	_	CARD	_	_	_	_	_	NP	drîen	11,25	NF	IO-DAT	NEW	_	CARD	_	MAINDECL	_	_	NF	08v,17; -tin	UNLINK2	_
+10	kvnigin	_	_	NN	_	_	_	_	_	NP	kvnigin	11,25	NF	IO-DAT	NEW	_	NA	_	MAINDECL	_	_	NF	08v,18	UNLINK2	_
+11	.	_	_	$.	_	_	_	_	_	_	.	11,25	_	_	_	_	$_	_	MAINDECL	_	_	_	08v,18	_	_
+
+# sent_id = 5
+# text = Man hat gelêrn. an dem heiligem êwangelio.
+1	Man	_	_	PIS	_	_	_	_	_	NP	Man	11,25	_	SUBJ	_	_	PI	_	MAINDECL	_	_	VF	08v,18	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	11,25	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	08v,18	_	_
+3	gelêrn	_	_	VVPP	_	_	_	_	_	VP	gelêrn	11,25	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	08v,18	_	_
+4	.	_	_	$.	_	_	_	_	_	_	.	11,25	_	_	_	_	$_	_	MAINDECL	_	_	_	08v,18	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	11,25	_	PP-ADV	_	_	APPR	_	MAINDECL	_	_	NF	08v,18	UNLINK	_
+6	dem	_	_	ART	_	_	_	_	_	PP	dem	11,25	BGR	PP-ADV	ACC-UNI-UNUSED	_	DDA	_	MAINDECL	_	_	NF	08v,18	UNLINK	_
+7	heiligem	_	_	ADJA	_	_	_	_	_	PP	heiligem	11,25	BGR	PP-ADV	ACC-UNI-UNUSED	_	ADJ	_	MAINDECL	_	_	NF	08v,18	UNLINK	_
+8	êwangelio	_	_	NN	_	_	_	_	_	PP	êwangelio	11,26	BGR	PP-ADV	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	_	NF	08v,18	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	11,26	_	_	_	_	$_	_	MAINDECL	_	_	_	08v,19; -gelio	_	_
+
+# sent_id = 6
+# text = iſt geleit in eine grippe.
+1	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	12,07	_	VFIN	_	_	VAFIN	LI	MAINDECL-ELLI	LK	Zitat	LK	09r,06; -gel	_	_
+2	geleit	_	_	VVPP	_	_	_	_	_	VP	geleit	12,07	NF	INF	_	_	VVPP	RE	MAINDECL-ELLI	RK	Zitat	RK	09r,07	_	_
+3	in	_	_	APPR	_	_	_	_	_	PP	in	12,07	NF	PP-SIT	_	_	APPR	_	MAINDECL-ELLI	_	Zitat	NF	09r,07	UNLINK	_
+4	eine	_	_	ART	_	_	_	_	_	PP	eine	12,07	NF	PP-SIT	NEW	_	DIA	_	MAINDECL-ELLI	_	Zitat	NF	09r,07	UNLINK	_
+5	grippe	_	_	NN	_	_	_	_	_	PP	grippe	12,07	NF	PP-SIT	NEW	_	NA	_	MAINDECL-ELLI	_	Zitat	NF	09r,07	UNLINK	_
+6	.	_	_	$.	_	_	_	_	_	_	.	12,07	_	_	_	_	$_	_	MAINDECL-ELLI	_	Zitat	_	09r,07	_	_
+
+# sent_id = 7
+# text = V%on einim ſtêrne wart er ir#offent drien kunigen.
+1	V%on	_	_	APPR	_	_	_	_	_	PP	V%on	12,20	_	PP-AGENS	_	_	APPR	_	MAINDECL	_	_	VF	09v,01	_	_
+2	einim	_	_	ART	_	_	_	_	_	PP	einim	12,20	_	PP-AGENS	_	_	DIA	_	MAINDECL	_	_	VF	09v,01	_	_
+3	ſtêrne	_	_	NN	_	_	_	_	_	PP	ſtêrne	12,20	_	PP-AGENS	_	_	NA	_	MAINDECL	_	_	VF	09v,01	_	_
+4	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	12,20	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	09v,01	_	_
+5	er	_	_	PPER	_	_	_	_	_	NP	er	12,20	_	SUBJ	_	_	PPER	_	MAINDECL	_	_	MF	09v,01	_	_
+6	ir#offent	_	_	VVPP	_	_	_	_	_	VP	iroffent	12,20	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	09v,02	_	_
+7	drien	_	_	CARD	_	_	_	_	_	NP	drien	12,20	NF	IO-DAT	GIV-INACTIVE	_	CARD	_	MAINDECL	_	_	NF	09v,02	UNLINK	KOREF1
+8	kunigen	_	_	NN	_	_	_	_	_	NP	kunigen	12,20	NF	IO-DAT	GIV-INACTIVE	_	NA	_	MAINDECL	_	_	NF	09v,02	UNLINK	KOREF1
+9	.	_	_	$.	_	_	_	_	_	_	.	12,20	_	_	_	_	$_	_	MAINDECL	_	_	_	09v,02	_	_
+
+# sent_id = 8
+# text = geborn iſt der heilant dirre werlt
+1	geborn	_	_	VVPP	_	_	_	_	_	VP	geborn	12,31	NF	INF	_	_	VVPP	LI	MAINDECL	RK	Übersetzung	VF-RK	09v,16	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	13,01; -born	NF	VFIN	_	_	VAFIN	RE	MAINDECL	LK	Übersetzung	LK	09v,16	_	_
+3	der	_	_	ART	_	_	_	_	_	NP	der	13,01; -born	NF	SUBJ	ACC-UNI-USED-X_	_	DDA	_	MAINDECL	_	Übersetzung	MF	09v,16	UNLINK	KOREF1
+4	heilant	_	_	NN	_	_	_	_	_	NP	heilant	13,01; -born	NF	SUBJ	ACC-UNI-USED-X_	_	NA	_	MAINDECL	_	Übersetzung	MF	09v,16	UNLINK	KOREF1
+5	dirre	_	_	PDAT	_	_	_	_	_	NP	dirre	13,01; -born	NF	ATTR	_ACC-UNI-USED-X	_	DD	_	MAINDECL	_	Übersetzung	MF	09v,16	UNLINK	KOREF1
+6	werlt	_	_	NN	_	_	_	_	_	NP	werlt	13,01; -born	NF	ATTR	_ACC-UNI-USED-X	_	NA	_	MAINDECL	_	Übersetzung	MF	09v,16	UNLINK	KOREF1
+
+# sent_id = 9
+# text = nu iſt geborn der heilant dirre werlt.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	13,02	NF	ADVB	_	evtl nur enger Fokus im NF	ADV	_	MAINDECL	_	_	VF	09v,19	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	13,02	NF	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	09v,19	_	_
+3	geborn	_	_	VVPP	_	_	_	_	_	VP	geborn	13,02	NF	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	09v,19	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	13,03	NF	SUBJ	ACC-UNI-USED-X_	_	DDA	_	MAINDECL	_	_	NF	09v,19	UNLINK	KOREF2
+5	heilant	_	_	NN	_	_	_	_	_	NP	heilant	13,03	NF	SUBJ	ACC-UNI-USED-X_	_	NA	_	MAINDECL	_	_	NF	09v,19	UNLINK	KOREF2
+6	dirre	_	_	PDAT	_	_	_	_	_	NP	dirre	13,03	NF	ATTR	_ACC-UNI-USED-X	_	DD	_	MAINDECL	_	_	NF	09v,19	UNLINK	KOREF2
+7	werlt	_	_	NN	_	_	_	_	_	NP	werlt	13,03	NF	ATTR	_ACC-UNI-USED-X	_	NA	_	MAINDECL	_	_	NF	09v,19	UNLINK	KOREF2
+8	.	_	_	$.	_	_	_	_	_	_	.	13,03	_	_	_	_	$_	_	MAINDECL	_	_	_	09v,19	_	_
+
+# sent_id = 10
+# text = nu iſt geborn der arzat aller ſêle.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	13,03	NF	ADVB	_	evtl. nur enger Fokus im NF	ADV	_	MAINDECL	_	_	VF	09v,19	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	13,03	NF	VFIN	_	evtl. nur enger Fokus im NF	VAFIN	LI	MAINDECL	LK	_	LK	09v,19	_	_
+3	geborn	_	_	VVPP	_	_	_	_	_	VP	geborn	13,03	NF	INF	_	evtl. nur enger Fokus im NF	VVPP	RE	MAINDECL	RK	_	RK	09v,20	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	13,03	NF	SUBJ	NEW_	evtl. nur enger Fokus im NF	DDA	_	MAINDECL	_	_	NF	09v,20	UNLINK	KOREF1
+5	arzat	_	_	NN	_	_	_	_	_	NP	arzat	13,03	NF	SUBJ	NEW_	evtl. nur enger Fokus im NF	NA	_	MAINDECL	_	_	NF	09v,20	UNLINK	KOREF1
+6	aller	_	_	PIAT	_	_	_	_	_	NP	aller	13,03	NF	ATTR	_ACC-ABSTR-UNUSED	evtl. nur enger Fokus im NF	DI	_	MAINDECL	_	_	NF	09v,20	UNLINK	KOREF1
+7	ſêle	_	_	NN	_	_	_	_	_	NP	ſêle	13,03	NF	ATTR	_ACC-ABSTR-UNUSED	evtl. nur enger Fokus im NF	NA	_	MAINDECL	_	_	NF	09v,20	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	13,03	_	_	_	_	$_	_	MAINDECL	_	_	_	09v,20	_	_
+
+# sent_id = 11
+# text = Vride wart gechundit den menniſchin die guͦtiſ willin warn.
+1	Vride	_	_	NN	_	_	_	_	_	NP	Vride	13,09; -niſchin	_	SUBJ	_	_	NA	_	MAINDECL	_	_	VF	10r,04	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	13,09; -niſchin	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	10r,04	_	_
+3	gechundit	_	_	VVPP	_	_	_	_	_	VP	gechundit	13,09; -niſchin	NF	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	10r,05	_	_
+4	den	_	_	ART	_	_	_	_	_	NP	den	13,09; -niſchin	NF	IO-DAT	GIV-ACTIVE	_	DDA	_	MAINDECL	_	_	NF	10r,05	UNLINK	KOREF1-REL
+5	menniſchin	_	_	NN	_	_	_	_	_	NP	menniſchin	13,09; -niſchin	NF	IO-DAT	GIV-ACTIVE	_	NA	_	MAINDECL	_	_	NF	10r,05	UNLINK	KOREF1-REL
+6	die	_	_	PRELS	_	_	_	_	_	CP	die	13,09; -niſchin	NF	ATTR	_	_	DDSREL	_	MAINDECL	LK	_	NF-LK	10r,05	UNLINK	KOREF2-REL
+7	guͦtiſ	_	_	ADJA	_	_	_	_	_	CP	guͦtiſ	13,10	NF	ATTR	_	_	ADJ	_	MAINDECL	_	_	NF-MF	10r,05	UNLINK	_
+8	willin	_	_	NN	_	_	_	_	_	CP	willin	13,10	NF	ATTR	_	_	NA	_	MAINDECL	_	_	NF-MF	10r,05	UNLINK	_
+9	warn	_	_	VAFIN	_	_	_	_	_	CP	warn	13,10	NF	ATTR	_	_	VAFIN	_	MAINDECL	RK	_	NF-RK	10r,06	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	13,10	_	_	_	_	$_	_	MAINDECL	_	_	_	10r,06	_	_
+
+# sent_id = 12
+# text = nu ſchuln wir ivch niht virſwîgen. die antreit ſiner geburti.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	13,15; -niſcheit	_	ADVB	_	_	ADV	_	MAINDECL	_	_	VF	10r,14; -lantis	_	_
+2	ſchuln	_	_	VMFIN	_	_	_	_	_	VP	ſchuln	13,15; -niſcheit	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	_	LK	10r,14; -lantis	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir	13,15; -niſcheit	_	SUBJ	_	_	PPER	_	MAINDECL	_	_	MF	10r,14; -lantis	_	_
+4	ivch	_	_	PPER	_	_	_	_	_	NP	ivch	13,15; -niſcheit	_	IO-DAT	_	_	PPER	_	MAINDECL	_	_	MF	10r,14; -lantis	_	_
+5	niht	_	_	PTKNEG	_	_	_	_	_	_	niht	13,15; -niſcheit	_	_	_	_	PTKNEG	_	MAINDECL	_	_	MF	10r,14; -lantis	_	_
+6	virſwîgen	_	_	VVINF	_	_	_	_	_	VP	virſwîgen	13,15; -niſcheit	_	INF	_	_	VVINF	RE	MAINDECL	RK	_	RK	10r,14; -lantis	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	13,15; -niſcheit	_	_	_	_	$_	_	MAINDECL	_	_	_	10r,14; -lantis	_	_
+8	die	_	_	ART	_	_	_	_	_	NP	die	13,15; -niſcheit	NF	DO	ACC-ABSTR-UNUSED_	_	DDA	_	MAINDECL	_	_	NF	10r,15	UNLINK	_
+9	antreit	_	_	NN	_	_	_	_	_	NP	antreit	13,15; -niſcheit	NF	DO	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	_	NF	10r,15	UNLINK	_
+10	ſiner	_	_	PPOSAT	_	_	_	_	_	NP	ſiner	13,16	NF	ATTR	_ACC-INF_	_	DPOS	_	MAINDECL	_	_	NF	10r,15	UNLINK	_
+11	geburti	_	_	NN	_	_	_	_	_	NP	geburti	13,16	NF	ATTR	ACC-ABSTR-USED-X	_	NA	_	MAINDECL	_	_	NF	10r,15	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	13,16	_	_	_	_	$_	_	MAINDECL	_	_	_	10r,15	_	_
+
+# sent_id = 13
+# text = daz ſelbe zeichin wart er#offint. wîlen. do die iuden uzzer egẏpto vuͦrin.
+1	daz	_	_	ART	_	_	_	_	_	NP	daz	13,19	_	SUBJ	_	_	DDA	_	MAINDECL	_	_	VF	10r,19	_	_
+2	ſelbe	_	_	ADJA	_	_	_	_	_	NP	ſelbe	13,19	_	SUBJ	_	_	ADJ	_	MAINDECL	_	_	VF	10r,19	_	_
+3	zeichin	_	_	NN	_	_	_	_	_	NP	zeichin	13,19	_	SUBJ	_	_	NA	_	MAINDECL	_	_	VF	10r,20	_	_
+4	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	13,19	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	10r,20	_	_
+5	er#offint	_	_	VVPP	_	_	_	_	_	VP	eroffint	13,19	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	10r,20	_	_
+6	.	_	_	$.	_	_	_	_	_	_	.	13,19	_	_	_	_	$_	_	MAINDECL	_	_	_	10r,20	_	_
+7	wîlen	_	_	ADV	_	_	_	_	_	ADVP	wîlen	13,19	NF	ADVB	NA	_	ADV	_	MAINDECL	_	_	NF	10r,20	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	13,19	NF	_	_	_	$_	_	MAINDECL	_	_	NF	10r,20	UNLINK	_
+9	do	_	_	KOUS	_	_	_	_	_	CP	do	13,19	NF	ADVB	NEW	_	KOUS	_	MAINDECL	LK	_	NF-LK	10r,20	UNLINK	KOREF2-SATZ
+10	die	_	_	ART	_	_	_	_	_	CP	die	13,19	NF	ADVB	NEW	_	DDA	_	MAINDECL	_	_	NF-MF	10r,20	UNLINK	KOREF2-SATZ
+11	iuden	_	_	NN	_	_	_	_	_	CP	iuden	13,20	NF	ADVB	NEW	_	NA	_	MAINDECL	_	_	NF-MF	10r,20	UNLINK	KOREF2-SATZ
+12	uzzer	_	_	APPR	_	_	_	_	_	CP	uzzer	13,20	NF	ADVB	NEW	_	APPR	_	MAINDECL	_	_	NF-MF	10r,21	UNLINK	KOREF2-SATZ
+13	egẏpto	_	_	NE	_	_	_	_	_	CP	egẏpto	13,20	NF	ADVB	NEW	_	NE	_	MAINDECL	_	_	NF-MF	10r,21	UNLINK	KOREF2-SATZ
+14	vuͦrin	_	_	VVFIN	_	_	_	_	_	CP	vuͦrin	13,20	NF	ADVB	NEW	_	VVFIN	_	MAINDECL	RK	_	NF-RK	10r,21	UNLINK	KOREF2-SATZ
+15	.	_	_	$.	_	_	_	_	_	_	.	13,20	_	_	_	_	$_	_	MAINDECL	_	_	_	10r,21	_	_
+
+# sent_id = 14
+# text = nu ſint ervullit beidiv div alte bezeichnunge. unde diu heilige *fpͬphetia.
+1	nu	_	_	ADV	_	_	_	_	_	ADVP	nu	13,23	_	ADVB	_	_	ADV	_	MAINDECL	_	_	VF	10v,03	_	_
+2	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	13,23	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	10v,03	_	_
+3	ervullit	_	_	VVPP	_	_	_	_	_	VP	ervullit	13,24	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	10v,03	_	_
+4	beidiv	_	_	ADJA	_	_	_	_	_	AP	beidiv	13,24	_	ADVB	_	_	ADJ	_	MAINDECL	_	_	NF	10v,03	_	_
+5	div	_	_	ART	_	_	_	_	_	NP	div	13,24	NF_	SUBJ	ACC-ABSTR-UNUSED_	_	DDA	_	MAINDECL	_	_	NF	10v,03	UNLINK	_
+6	alte	_	_	ADJA	_	_	_	_	_	NP	alte	13,24	NF_	SUBJ	ACC-ABSTR-UNUSED_	_	ADJ	_	MAINDECL	_	_	NF	10v,03	UNLINK	_
+7	bezeichnunge	_	_	NN	_	_	_	_	_	NP	bezeichnunge	13,24	NF_	SUBJ	ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	_	NF	10v,03	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	_	.	13,24	_	SUBJ	_	_	$_	_	MAINDECL	_	_	NF	10v,04; -zeichnunge	UNLINK	_
+9	unde	_	_	KON	_	_	_	_	_	_	unde	13,24	_	SUBJ	_	_	KON	_	MAINDECL	_	_	NF	10v,04; -zeichnunge	UNLINK	_
+10	diu	_	_	ART	_	_	_	_	_	NP	diu	13,24	NF_	SUBJ	_ACC-ABSTR-UNUSED	_	DDA	_	MAINDECL	_	_	NF	10v,04; -zeichnunge	UNLINK	_
+11	heilige	_	_	ADJA	_	_	_	_	_	NP	heilige	13,24	NF_	SUBJ	_ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	_	NF	10v,04; -zeichnunge	UNLINK	_
+12	*fpͬphetia	_	_	NN	_	_	_	_	_	NP	*fpͬphetia	13,24	NF_	SUBJ	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	_	NF	10v,04; -zeichnunge	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	.	13,24	_	_	_	_	$_	_	MAINDECL	_	_	_	10v,04; -zeichnunge	_	_
+
+# sent_id = 15
+# text = Hivte (hat) (div) (ſîeche) (werelt) (von) ir ſuntin enphangin daz ewige hêil.
+1	Hivte	_	_	ADV	_	_	_	_	_	ADVP	Hivte	14,20	_	ADVB	_	_	ADV	_	MAINDECL	_	_	VF	11r,19	_	_
+2	(hat)	_	_	VAFIN	_	_	_	_	_	VP	hat	14,20	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	11r,19	_	_
+3	(div)	_	_	ART	_	_	_	_	_	NP	div	14,20	_	SUBJ	_	_	DDA	_	MAINDECL	_	_	MF	11r,19	_	_
+4	(ſîeche)	_	_	ADJA	_	_	_	_	_	NP	ſîeche	14,20	_	SUBJ	_	_	ADJ	_	MAINDECL	_	_	MF	11r,19	_	_
+5	(werelt)	_	_	NN	_	_	_	_	_	NP	werelt	14,20	_	SUBJ	_	_	NA	_	MAINDECL	_	_	MF	11r,19	_	_
+6	(von)	_	_	APPR	_	_	_	_	_	PP	von	14,20	_	ADVB	_	_	APPR	_	MAINDECL	_	_	MF	11r,19	_	_
+7	ir	_	_	PRF	_	_	_	_	_	PP	ir	14,20	_	ADVB	_	_	PRF	_	MAINDECL	_	_	MF	11r,19	_	_
+8	ſuntin	_	_	NN	_	_	_	_	_	PP	ſuntin	14,20	_	ADVB	_	_	NA	_	MAINDECL	_	_	MF	11r,19	_	_
+9	enphangin	_	_	VVPP	_	_	_	_	_	VP	enphangin	14,20	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	11r,20; -tin	_	_
+10	daz	_	_	ART	_	_	_	_	_	NP	daz	14,20	NF	DO	ACC-ABSTR-UNUSED	_	DDA	_	MAINDECL	_	_	NF	11r,20; -tin	UNLINK	_
+11	ewige	_	_	ADJA	_	_	_	_	_	NP	ewige	14,20	NF	DO	ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	_	NF	11r,20; -tin	UNLINK	_
+12	hêil	_	_	NN	_	_	_	_	_	NP	hêil	14,21	NF	DO	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	_	NF	11r,20; -tin	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	.	14,21	_	_	_	_	$_	_	MAINDECL	_	_	_	11r,20; -tin	_	_

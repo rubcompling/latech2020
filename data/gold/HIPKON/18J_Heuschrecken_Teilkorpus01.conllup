@@ -1,0 +1,105 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = Nach diſen Brauch Propoſitio Werden denen Kirch=Tag=Gaͤſten Heuſchrecken aufgeſetzt zu heylſamen Schroͤcken;
+1	Nach	_	_	APPR	_	_	_	_	_	PP	Nach	_	PP-SIT	_	APPR	_	MAINDECL	_	_	VF	02,05	_	_
+2	diſen	_	_	PDS	_	_	_	_	_	PP	diſen	_	PP-SIT	_	DDS	_	MAINDECL	_	_	VF	02,05	_	_
+3	Brauch	_	_	NN	_	_	_	_	_	PP	Brauch	_	PP-SIT	_	NA	_	MAINDECL	_	_	VF	02,05	_	_
+4	Propoſitio	_	_	FM	_	_	_	_	_	PP	Propoſitio	_	PP-SIT	_	FM	_	MAINDECL	_	Latein	VF	02,06	_	_
+5	Werden	_	_	VAFIN	_	_	_	_	_	VP	Werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	02,07	_	_
+6	denen	_	_	PDS	_	_	_	_	_	NP	denen	_	IO-DAT	_	DDS	_	MAINDECL	_	_	MF	02,07	_	_
+7	Kirch=Tag=Gaͤſten	_	_	NN	_	_	_	_	_	NP	Kirch=Tag=Gaͤſten	_	IO-DAT	_	NA	_	MAINDECL	_	_	MF	02,07	_	_
+8	Heuſchrecken	_	_	NN	_	_	_	_	_	NP	Heuſchrecken	_	DO	_	NA	_	MAINDECL	_	_	MF	02,07	_	_
+9	aufgeſetzt	_	_	VVPP	_	_	_	_	_	VP	aufgeſetzt	_	INF	_	VVPP	RE	MAINDECL	RK	_	RK	02,07	_	_
+10	zu	_	_	APPR	_	_	_	_	_		zu	_	PP-ADV	_	APPR	_	MAINDECL	_	_	NF	02,08	UNLINK	_
+11	heylſamen	_	_	ADJA	_	_	_	_	_		heylſamen	_	PP-ADV	_	ADJ	_	MAINDECL	_	_	NF	02,08	UNLINK	_
+12	Schroͤcken	_	_	NN	_	_	_	_	_		Schroͤcken	_	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	_	NF	02,08	UNLINK	_
+13	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	_	_	02,08	_	_
+
+# sent_id = 2
+# text = Ich wuͤrd euch aufſetzen ſolch Thier,
+1	Ich	_	_	PPER	_	_	_	_	_	NP	Ich	_	SUBJ	_	PPER	_	MAINDECL	_	_	VF	04,11	_	_
+2	wuͤrd	_	_	VAFIN	_	_	_	_	_	VP	wuͤrd	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	04,11	_	_
+3	euch	_	_	PPER	_	_	_	_	_	NP	euch	_	IO-DAT	_	PPER	_	MAINDECL	_	_	MF	04,11	_	_
+4	aufſetzen	_	_	VVINF	_	_	_	_	_	VP	aufſetzen	_	INF	_	VVINF	RE	MAINDECL	RK	_	RK	04,11	_	_
+5	ſolch	_	_	PDS	_	_	_	_	_	NP	ſolch	NF	DO	_	DDS	_	MAINDECL	_	_	NF	04,11	UNLINK	_
+6	Thier	_	_	NN	_	_	_	_	_	NP	Thier	NF	DO	NEW	NA	_	MAINDECL	_	_	NF	04,11	UNLINK	KOREF1
+7	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	04,11	_	_
+
+# sent_id = 3
+# text = die Predigen bey diſer Zeit werden nur gehalten fuͤr gemeine Leuth.
+1	die	_	_	ART	_	_	_	_	_	NP	die	_	SUBJ	_	DDA	_	MAINDECL	_	_	VF	06,24	_	_
+2	Predigen	_	_	NN	_	_	_	_	_	NP	Predigen	_	SUBJ	_	NA	_	MAINDECL	_	_	VF	06,24	_	_
+3	bey	_	_	APPR	_	_	_	_	_	PP	bey	_	APPOS	_	APPR	_	MAINDECL	_	_	VF	06,24	_	_
+4	diſer	_	_	PDS	_	_	_	_	_	PP	diſer	_	APPOS	_	DDS	_	MAINDECL	_	_	VF	06,24	_	_
+5	Zeit	_	_	NN	_	_	_	_	_	PP	Zeit	_	APPOS	_	NA	_	MAINDECL	_	_	VF	06,24	_	_
+6	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	06,24	_	_
+7	nur	_	_	ADV	_	_	_	_	_	ADVP	nur	_	ADVB	_	ADV	_	MAINDECL	_	_	MF	06,24	_	_
+8	gehalten	_	_	VVPP	_	_	_	_	_	VP	gehalten	_	INF	_	VVPP	RE	MAINDECL	RK	_	RK	06,24	_	_
+9	fuͤr	_	_	APPR	_	_	_	_	_	PP	fuͤr	NF	PP-OBJ	_	APPR	_	MAINDECL	_	_	NF	06,24	UNLINK	_
+10	gemeine	_	_	ADJA	_	_	_	_	_	PP	gemeine	NF	PP-OBJ	GIV-ACTIVE	ADJ	_	MAINDECL	_	_	NF	06,24	UNLINK	_
+11	Leuth	_	_	NN	_	_	_	_	_	PP	Leuth	NF	PP-OBJ	GIV-ACTIVE	NA	_	MAINDECL	_	_	NF	06,24	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	_	06,24	_	_
+
+# sent_id = 4
+# text = Durch diſe Heuſchrecken werden gar wohl verſtanden die Schmeichler, deren Reden alle auf quaſi gegruͤndet seyn,
+1	Durch	_	_	APPR	_	_	_	_	_	PP	Durch	_	PP-ADV	_	APPR	_	MAINDECL	_	_	VF	08,32	_	_
+2	diſe	_	_	PDS	_	_	_	_	_	PP	diſe	_	PP-ADV	_	DDS	_	MAINDECL	_	_	VF	08,33	_	_
+3	Heuſchrecken	_	_	NN	_	_	_	_	_	PP	Heuſchrecken	_	PP-ADV	_	NA	_	MAINDECL	_	_	VF	08,33	_	_
+4	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	08,33	_	_
+5	gar	_	_	PTKA	_	_	_	_	_	_	gar	_	_	_	PTKA	_	MAINDECL	_	_	MF	08,33	_	_
+6	wohl	_	_	ADV	_	_	_	_	_	ADVP	wohl	_	ADVB	_	ADV	_	MAINDECL	_	_	MF	08,33	_	_
+7	verſtanden	_	_	VVPP	_	_	_	_	_	VP	verſtanden	_	INF	_	VVPP	RE	MAINDECL	RK	_	RK	08,33	_	_
+8	die	_	_	ART	_	_	_	_	_	NP	die	_	SUBJ	_	DDA	_	MAINDECL	_	_	NF	08,33	UNLINK	_
+9	Schmeichler	_	_	NN	_	_	_	_	_	NP	Schmeichler	_	SUBJ	NEW	NA	_	MAINDECL	_	_	NF	08,33	UNLINK	KOREF1
+10	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	NF	08,33	_	_
+11	deren	_	_	PRELS	_	_	_	_	_	CP	deren	_	ATTR	_	DDREL	_	MAINDECL	LK	_	NF-LK	08,33	_	KOREF2
+12	Reden	_	_	NN	_	_	_	_	_	CP	Reden	_	ATTR	_	NA	_	MAINDECL	LK	_	NF-LK	08,34	_	_
+13	alle	_	_	PIS	_	_	_	_	_	CP	alle	_	ATTR	_	DIS	_	MAINDECL	_	_	NF-MF	08,34	_	_
+14	auf	_	_	APPR	_	_	_	_	_	CP	auf	_	ATTR	_	APPR	_	MAINDECL	_	_	NF-MF	08,34	_	_
+15	quaſi	_	_	FM	_	_	_	_	_	CP	quaſi	_	ATTR	_	FM	_	MAINDECL	_	Latein	NF-MF	08,34	_	_
+16	gegruͤndet	_	_	VVPP	_	_	_	_	_	CP	gegruͤndet	_	ATTR	_	VVPP	_	MAINDECL	RK	_	NF-RK	08,34	_	_
+17	seyn	_	_	VAFIN	_	_	_	_	_	CP	seyn	_	ATTR	_	VAFIN	_	MAINDECL	RK	_	NF-RK	08,34	_	_
+18	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	08,34	_	_
+
+# sent_id = 5
+# text = aber endlich wird er beiſ=ſen wie ein Schlang.
+1	aber	_	_	KON	_	_	_	_	_	_	aber	_	_	_	KON	_	MAINDECL	_	_	KOORD	10,01beiſ=	_	_
+2	endlich	_	_	ADV	_	_	_	_	_	ADVP	endlich	_	ADVB	_	ADV	_	MAINDECL	_	_	VF	10,01beiſ=	_	_
+3	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	10,01beiſ=	_	_
+4	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	PPER	_	MAINDECL	_	_	MF	10,01beiſ=	_	_
+5	beiſ=ſen	_	_	VVINF	_	_	_	_	_	VP	beiſſen	NF	INF	_	VVINF	RE	MAINDECL	RK	_	RK	10,01beiſ=	_	_
+6	wie	_	_	KON	_	_	_	_	_	_	wie	NF	VGL	_	KON	_	MAINDECL	_	_	NF	10,02=ſen	UNLINK	_
+7	ein	_	_	ART	_	_	_	_	_	NP	ein	NF	VGL	_	DIA	_	MAINDECL	_	_	NF	10,02=ſen	UNLINK	_
+8	Schlang	_	_	NN	_	_	_	_	_	NP	Schlang	NF	VGL	NEW	NA	_	MAINDECL	_	_	NF	10,02=ſen	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	_	10,02=ſen	_	_
+
+# sent_id = 6
+# text = Die Wittwen und Waiſen, die ihr jetzund untertruͤcket, werden einſtens appellieren zu einen hoͤcheren Richter,
+1	Die	_	_	ART	_	_	_	_	_	NP	Die	_	SUBJ	_	DDA	_	MAINDECL	_	_	VF	10,04	_	_
+2	Wittwen	_	_	NN	_	_	_	_	_	NP	Wittwen	_	SUBJ	_	NA	_	MAINDECL	_	_	VF	10,04	_	_
+3	und	_	_	KON	_	_	_	_	_	NP	und	_	SUBJ	_	KON	_	MAINDECL	_	_	VF	10,04	_	_
+4	Waiſen	_	_	NN	_	_	_	_	_	NP	Waiſen	_	SUBJ	_	NA	_	MAINDECL	_	_	VF	10,05	_	_
+5	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	VF	10,05	_	_
+6	die	_	_	PRELS	_	_	_	_	_	CP	die	_	ATTR	_	DDSREL	_	MAINDECL	LK	_	VF-LK	10,05	_	_
+7	ihr	_	_	PPER	_	_	_	_	_	CP	ihr	_	ATTR	_	PPER	_	MAINDECL	_	_	VF-MF	10,05	_	_
+8	jetzund	_	_	ADV	_	_	_	_	_	CP	jetzund	_	ATTR	_	ADV	_	MAINDECL	_	_	VF-MF	10,05	_	_
+9	untertruͤcket	_	_	VVFIN	_	_	_	_	_	CP	untertruͤcket	_	ATTR	_	VVFIN	_	MAINDECL	RK	_	VF-RK	10,05	_	_
+10	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	10,05	_	_
+11	werden	_	_	VAFIN	_	_	_	_	_	VP	werden	_	VFIN	_	VAFIN	LI	MAINDECL	LK	_	LK	10,05	_	_
+12	einſtens	_	_	ADV	_	_	_	_	_	ADVP	einſtens	_	ADVB	_	ADV	_	MAINDECL	_	_	MF	10,05	_	_
+13	appellieren	_	_	VVINF	_	_	_	_	_	VP	appellieren	NF	INF	_	VVINF	RE	MAINDECL	RK	_	RK	10,05	_	_
+14	zu	_	_	APPR	_	_	_	_	_	PP	zu	NF	PP-OBJ	_	APPR	_	MAINDECL	_	_	NF	10,05	UNLINK	_
+15	einen	_	_	ART	_	_	_	_	_	PP	einen	NF	PP-OBJ	_	DIA	_	MAINDECL	_	_	NF	10,06	UNLINK	_
+16	hoͤcheren	_	_	ADJA	_	_	_	_	_	PP	hoͤcheren	NF	PP-OBJ	GIV-INACTIVE	ADJ	_	MAINDECL	_	_	NF	10,06	UNLINK	_
+17	Richter	_	_	NN	_	_	_	_	_	PP	Richter	NF	PP-OBJ	GIV-INACTIVE	NA	_	MAINDECL	_	_	NF	10,06	UNLINK	KOREF1
+18	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	10,06	_	_
+
+# sent_id = 7
+# text = und diſer wird ſprechen male judicatum,
+1	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL	_	_	KOORD	10,06	_	_
+2	diſer	_	_	PDS	_	_	_	_	_	NP	diſer	_	SUBJ	_	DDS	_	MAINDECL	_	_	VF	10,06	_	KOREF2
+3	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	RE	MAINDECL	LK	_	LK	10,06	_	_
+4	ſprechen	_	_	VVINF	_	_	_	_	_	VP	ſprechen	_	INF	_	VVINF	LI	MAINDECL	RK	_	RK	10,06	_	_
+5	male	_	_	FM	_	_	_	_	_	NP	male	NF	DO	NA	FM	_	MAINDECL	_	Latein	NF	10,06	UNLINK	_
+6	judicatum	_	_	FM	_	_	_	_	_	NP	judicatum	NF	DO	NA	FM	_	MAINDECL	_	Latein	NF	10,06	UNLINK	_
+7	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	_	10,06	_	_

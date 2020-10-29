@@ -1,0 +1,13 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS Rekonstruktion SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = *{N*}v ſchvlt ir hivte lazzin gniezzin die heiligin chriſtenheit.
+1	*{N*}v	_	_	ADV	_	_	_	_	_	ADVP	*{N*}v	06,06	_	ADVB	_	ADV	_	_	MAINDECL	_	VF	03v,26	_
+2	ſchvlt	_	_	VMFIN	_	_	_	_	_	VP	ſchvlt	06,06	_	VFIN	_	VMFIN	_	LI	MAINDECL	LK	LK	03v,26	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	06,06	_	SUBJ	_	PPER	_	_	MAINDECL	_	MF	03v,26	_
+4	hivte	_	_	ADV	_	_	_	_	_	ADVP	hivte	06,06	_	ADVB	_	ADV	_	_	MAINDECL	_	MF	03v,26	_
+5	lazzin	_	_	VVINF	_	_	_	_	_	VP	lazzin	06,06	_	INF	_	VVINF	_	_	MAINDECL	RK	RK	03v,26	_
+6	gniezzin	_	_	VVINF	_	_	_	_	_	VP	gniezzin	06,06	_	INF	_	VVINF	chriſtenheit	RE	MAINDECL	RK	RK	03v,26	_
+7	die	_	_	ART	_	_	_	_	_	NP	die	06,06	NF	DO	NEW	DDA	_	_	MAINDECL	_	NF	03v,26	UNLINK
+8	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	06,06	NF	DO	NEW	ADJ	_	_	MAINDECL	_	NF	03v,26	UNLINK
+9	chriſtenheit	_	_	NN	_	_	_	_	_	NP	chriſtenheit	06,06	NF	DO	NEW	NA	_	_	MAINDECL	_	NF	03v,26	UNLINK
+10	.	_	_	$.	_	_	_	_	_	_	.	06,07	_	_	_	$_	_	_	MAINDECL	_	_	03v,27; -ſtenheit	_

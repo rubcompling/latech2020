@@ -1,0 +1,66 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION Ergaenzung FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = iedoch wart ir iewedirz gechundit uon dem heiligim engil gabrele.
+1	iedoch	_	_	ADV	_	_	_	_	_	ADVP	iedoch	80,12	_	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	74v,12	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	80,12	_	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	74v,12	_	_
+3	ir	_	_	PPER	_	_	_	_	_	NP	ir	80,13	_	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	74v,13; en- 	_	_
+4	iewedirz	_	_	PIS	_	_	_	_	_	_	iewedirz	80,13	_	_	SUBJ	_	_	PI	_	MAINDECL	_	MF	74v,13; en- 	_	_
+5	gechundit	_	_	VVPP	_	_	_	_	_	VP	gechundit	80,13	_	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	74v,13; en- 	_	_
+6	uon	_	_	APPR	_	_	_	_	_	PP	uon	80,13	_	NF	PP-AGENS	_	_	APPR	_	MAINDECL	_	NF	74v,13; en- 	UNLINK	_
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	80,13	_	NF	PP-AGENS	_	_	DDA	_	MAINDECL	_	NF	74v,13; en- 	UNLINK	_
+8	heiligim	_	_	ADJA	_	_	_	_	_	PP	heiligim	80,13	_	NF	PP-AGENS	ACC-UNI-UNUSED	_	ADJ	_	MAINDECL	_	NF	74v,13; en- 	UNLINK	_
+9	engil	_	_	NN	_	_	_	_	_	PP	engil	80,13	_	NF	PP-AGENS	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	74v,13; en- 	UNLINK	_
+10	gabrele	_	_	NE	_	_	_	_	_	PP	gabrele	80,13	gabrele.: l. Gabriele M. 	NF	PP-AGENS	ACC-UNI-UNUSED	_	NE	_	MAINDECL	_	NF	74v,14; -gil	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	.	80,13	_	_	_	_	_	$_	_	MAINDECL	_	_	74v,14; -gil	_	_
+
+# sent_id = 2
+# text = Hivte wart geborn der kint. allir manni ſûne dir hêrîſte. ebin glich den engilin. ain ſcherige deſ heiligin criſtiſ. ein vronir bote deſ gotiſ ſuniſ. ein vanre deſ obriſten kunigeſ. der altin ê. un̄ der nivwin ê. ein wariv ſwegile.
+1	Hivte	_	_	ADV	_	_	_	_	_	ADVP	Hivte	81,16	_	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	75v,15;  -min	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	81,16	_	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	75v,15;  -min	_	_
+3	geborn	_	_	VVPP	_	_	_	_	_	VP	geborn	81,16	_	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	75v,15;  -min	_	_
+4	der	_	_	ART	_	_	_	_	_	NP	der	81,16	_	NF_	SUBJ	GIV-ACTIVE_	_	DDA	_	MAINDECL	_	NF	75v,16	UNLINK1	KOREF1
+5	kint	_	_	NN	_	_	_	_	_	NP	kint	81,16	_	NF_	SUBJ	GIV-ACTIVE_	_	NA	_	MAINDECL	_	NF	75v,16	UNLINK1	KOREF1
+6	.	_	_	$.	_	_	_	_	_	_	.	81,16	_	NF_	_	_	_	$_	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+7	allir	_	_	PIAT	_	_	_	_	_	NP	allir	81,16	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	_	DI	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+8	manni	_	_	NN	_	_	_	_	_	NP	manni	81,16	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+9	ſûne	_	_	NN	_	_	_	_	_	NP	ſûne	81,17	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+10	dir	_	_	ART	_	_	_	_	_	NP	dir	81,17	_	NF_	ATTR	_	_	DDA	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+11	hêrîſte	_	_	ADJA	_	_	_	_	_	NP	hêrîſte	81,17	_	NF_	ATTR	_	_	ADJS	_	MAINDECL	_	NF	75v,16	UNLINK1	_
+12	.	_	_	$.	_	_	_	_	_	_	.	81,17	_	_	_	_	_	$_	_	MAINDECL	_	NF	75v,16	_	_
+13	ebin	_	_	ADV	_	_	_	_	_	ADVP	ebin	81,17	_	NF_	ADVB	NA	in EDITION zusammengeschrieben	ADV	_	MAINDECL	_	NF	75v,16	UNLINK2	_
+14	glich	_	_	ADJA	_	_	_	_	_	AP	glich	81,17	_	NF_	ADVB	_	in EDITION zusammengeschrieben	ADJ	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK2	_
+15	den	_	_	ART	_	_	_	_	_	NP	den	81,17	_	NF_	ADVB	_ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK2	_
+16	engilin	_	_	NN	_	_	_	_	_	NP	engilin	81,17	_	NF_	ADVB	_ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK2	_
+17	.	_	_	$.	_	_	_	_	_	_	.	81,17	_	_	_	_	_	$_	_	MAINDECL	_	NF	75v,17; chri- 	_	_
+18	ain	_	_	ART	_	_	_	_	_	NP	ain	81,17	_	NF_	APPOS	_ACC-ABSTR-UNUSED_	_	DIA	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK3	_
+19	ſcherige	_	_	NN	_	_	_	_	_	NP	ſcherige	81,17	_	NF_	APPOS	_ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK3	_
+20	deſ	_	_	ART	_	_	_	_	_	NP	deſ	81,17	_	NF_	ATTR	_ACC-UNI-USED-1_	_	DDA	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK3	_
+21	heiligin	_	_	ADJA	_	_	_	_	_	NP	heiligin	81,17	_	NF_	ATTR	_ACC-UNI-USED-1_	_	ADJ	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK3	KOREF2
+22	criſtiſ	_	_	NE	_	_	_	_	_	NP	criſtiſ	_	_	NF_	ATTR	_ACC-UNI-USED-1_	_	NE	_	MAINDECL	_	NF	75v,17; chri- 	UNLINK3	KOREF2
+23	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	_	$_	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+24	ein	_	_	ART	_	_	_	_	_	NP	ein	_	_	NF_	APPOS	_GIV-INACTIVE_	_	DIA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+25	vronir	_	_	ADJA	_	_	_	_	_	NP	vronir	_	_	NF_	APPOS	_GIV-INACTIVE_	_	ADJ	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+26	bote	_	_	NN	_	_	_	_	_	NP	bote	_	_	NF_	APPOS	_GIV-INACTIVE_	_	NA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+27	deſ	_	_	ART	_	_	_	_	_	NP	deſ	_	_	NF_	ATTR	_ACC-UNI-USED-1_	_	DDA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+28	gotiſ	_	_	NE	_	_	_	_	_	NP	gotiſ	_	_	NF_	ATTR	_ACC-UNI-USED-1_	_	NE	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	KOREF2
+29	ſuniſ	_	_	NN	_	_	_	_	_	NP	ſuniſ	_	_	NF_	ATTR	_ACC-UNI-USED-1_	_	NA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	KOREF2
+30	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	_	$_	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+31	ein	_	_	ART	_	_	_	_	_	NP	ein	_	_	NF_	APPOS	_ACC-ABSTR-UNUSED_	_	DIA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+32	vanre	_	_	NN	_	_	_	_	_	NP	vanre	_	_	NF_	APPOS	_ACC-ABSTR-UNUSED_	Bannerträger	NA	_	MAINDECL	_	NF	75v,18; -ſtiſ	UNLINK3	_
+33	deſ	_	_	ART	_	_	_	_	_	NP	deſ	_	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	Bannerträger	DDA	_	MAINDECL	_	NF	_	UNLINK3	_
+34	obriſten	_	_	ADJA	_	_	_	_	_	NP	obriſten	_	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	Bannerträger	ADJ	_	MAINDECL	_	NF	_	UNLINK3	_
+35	kunigeſ	_	_	NN	_	_	_	_	_	NP	kunigeſ	_	_	NF_	ATTR	_ACC-ABSTR-UNUSED_	_	NA	_	MAINDECL	_	NF	_	UNLINK3	_
+36	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	_	$_	_	MAINDECL	_	NF	_	UNLINK3	_
+37	der	_	_	ART	_	_	_	_	_	NP	der	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	_	UNLINK3	_
+38	altin	_	_	ADJA	_	_	_	_	_	NP	altin	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	ADJ	_	MAINDECL	_	NF	_	UNLINK3	_
+39	ê	_	_	NN	_	_	_	_	_	NP	ê	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	_	UNLINK3	_
+40	.	_	_	$.	_	_	_	_	_	NP	.	_	_	_	ATTR	_ACC-ABSTR-USED-X_	_	$_	_	MAINDECL	_	NF	_	UNLINK3	_
+41	un̄	_	_	KON	_	_	_	_	_	NP	un̄	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	KON	_	MAINDECL	_	NF	_	UNLINK3	_
+42	der	_	_	ART	_	_	_	_	_	NP	der	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	DDA	_	MAINDECL	_	NF	_	UNLINK3	_
+43	nivwin	_	_	ADJA	_	_	_	_	_	NP	nivwin	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	ADJ	_	MAINDECL	_	NF	_	UNLINK3	_
+44	ê	_	_	NN	_	_	_	_	_	NP	ê	_	_	NF_	ATTR	_ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	_	UNLINK3	_
+45	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	_	$_	_	MAINDECL	_	NF	_	UNLINK3	_
+46	ein	_	_	ART	_	_	_	_	_	NP	ein	_	_	NF_	APPOS	_NEW	_	DIA	_	MAINDECL	_	NF	_	UNLINK3	_
+47	wariv	_	_	ADJA	_	_	_	_	_	NP	wariv	_	_	NF_	APPOS	_NEW	_	ADJ	_	MAINDECL	_	NF	_	UNLINK3	_
+48	ſwegile	_	_	NN	_	_	_	_	_	NP	ſwegile	_	_	NF_	APPOS	_NEW	_	NA	_	MAINDECL	_	NF	_	UNLINK3	_
+49	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	_	_	$_	_	MAINDECL	_	_	_	_	_

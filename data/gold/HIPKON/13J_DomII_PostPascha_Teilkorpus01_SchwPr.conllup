@@ -1,0 +1,225 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = díu habē wir híut geleſen an dē. (heiligen) (Evangelium)
+1	díu	_	_	PDS	_	_	_	_	_	NP	díu 	006,27	_	DO	_	_	DDS	_	MAINDECL	_	VF	005r,01	_	_
+2	habē	_	_	VAFIN	_	_	_	_	_	VP	habē 	006,28	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	005r,01	_	_
+3	wir	_	_	PPER	_	_	_	_	_	NP	wir 	006,28	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	005r,01	_	_
+4	híut	_	_	ADV	_	_	_	_	_	ADVP	híut 	006,28	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	005r,01	_	_
+5	geleſen	_	_	VVPP	_	_	_	_	_	NP	geleſen 	006,28	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	005r,01	_	_
+6	an	_	_	APPR	_	_	_	_	_	PP	an 	006,28	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	005r,01	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē 	006,28	NF	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	005r,01	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	PP	. 	006,28	NF	PP-ADV	_	_	$_	_	MAINDECL	_	NF	005r,01	UNLINK	_
+9	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen) 	006,28	NF	PP-ADV	ACC-UNI-UNUSED	_	ADJ	_	MAINDECL	_	NF	005r,01	UNLINK	_
+10	(Evangelium)	_	_	NN	_	_	_	_	_	PP	(Evangelium)	006,28	NF	PP-ADV	ACC-UNI-UNUSED	_	NA	_	MAINDECL	_	NF	005r,01	UNLINK	_
+
+# sent_id = 2
+# text = Nu wirt ze dē êrſtē díu guͤti dez hirtē gelobet an dē fuͦrede.
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu 	007,18	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	005v,02	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt 	007,18	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	005v,02	_	_
+3	ze	_	_	APPR	_	_	_	_	_	PP	ze 	007,18	_	PP-ADV	_	_	APPR	_	MAINDECL	_	MF	005v,02	_	_
+4	dē	_	_	ART	_	_	_	_	_	PP	dē 	007,19	_	PP-ADV	_	_	DDA	_	MAINDECL	_	MF	005v,02	_	_
+5	êrſtē	_	_	NN	_	_	_	_	_	PP	êrſtē 	007,19	_	PP-ADV	_	_	ADJOS	_	MAINDECL	_	MF	005v,02	_	_
+6	díu	_	_	ART	_	_	_	_	_	NP	díu 	007,19	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	005v,02	_	_
+7	guͤti	_	_	NN	_	_	_	_	_	NP	guͤti 	007,19	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	005v,02	_	_
+8	dez	_	_	ART	_	_	_	_	_	NP	dez 	007,19	_	ATTR	_	_	DDA	_	MAINDECL	_	MF	005v,02	_	_
+9	hirtē	_	_	NN	_	_	_	_	_	NP	hirtē 	007,19	_	ATTR	_	_	NA	_	MAINDECL	_	MF	005v,03	_	_
+10	gelobet	_	_	VVPP	_	_	_	_	_	VP	gelobet 	007,19	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	005v,03	_	_
+11	an	_	_	APPR	_	_	_	_	_	PP	an 	007,19	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	005v,03	UNLINK	_
+12	dē	_	_	ART	_	_	_	_	_	PP	dē 	007,19	NF	PP-ADV	ACC-ABSTR-USED-1	_	DDA	_	MAINDECL	_	NF	005v,03	UNLINK	_
+13	fuͦrede	_	_	NN	_	_	_	_	_	PP	fuͦrede 	007,19	NF	PP-ADV	ACC-ABSTR-USED-1	_	NA	_	MAINDECL	_	NF	005v,03	UNLINK	KOREF1
+14	.	_	_	$.	_	_	_	_	_	_	. 	007,19	_	_	_	_	$_	_	MAINDECL	_	_	005v,03	_	_
+
+# sent_id = 3
+# text = ich wil míníu ſchâf fuͦrō mit ain' vaizt' waide v̂f dē hôhē b'gē.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich 	007,24	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	005v,07	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil 	007,24	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	005v,07	_	_
+3	míníu	_	_	PPOSAT	_	_	_	_	_	NP	míníu 	007,24	_	DO	_	_	DPOS	_	MAINDECL	_	MF	005v,08	_	_
+4	ſchâf	_	_	NN	_	_	_	_	_	NP	ſchâf 	007,24	_	DO	_	_	NA	_	MAINDECL	_	MF	005v,08	_	_
+5	fuͦrō	_	_	VVINF	_	_	_	_	_	VP	fuͦrō 	007,24	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	005v,08	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit 	007,24	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	005v,08	UNLINK	_
+7	ain'	_	_	ART	_	_	_	_	_	PP	ain' 	007,24	NF	PP-ADV	NEW_	_	DIA	_	MAINDECL	_	NF	005v,08	UNLINK	_
+8	vaizt'	_	_	ADJA	_	_	_	_	_	PP	vaizt' 	007,24	NF	PP-ADV	NEW_	_	ADJ	_	MAINDECL	_	NF	005v,08	UNLINK	KOREF1
+9	waide	_	_	NN	_	_	_	_	_	PP	waide 	007,24	NF	PP-ADV	NEW_	_	NA	_	MAINDECL	_	NF	005v,08	UNLINK	KOREF1
+10	v̂f	_	_	APPR	_	_	_	_	_	PP	v̂f 	007,24	NF	ATTR	_	_	APPR	_	MAINDECL	_	NF	005v,08	UNLINK	_
+11	dē	_	_	ART	_	_	_	_	_	PP	dē 	007,24	NF	ATTR	_NEW	_	DDA	_	MAINDECL	_	NF	005v,08	UNLINK	_
+12	hôhē	_	_	ADJA	_	_	_	_	_	PP	hôhē 	007,24	NF	ATTR	_NEW	_	ADJ	_	MAINDECL	_	NF	005v,08	UNLINK	_
+13	b'gē	_	_	NN	_	_	_	_	_	PP	b'gē 	007,25	NF	ATTR	_NEW	_	NA	_	MAINDECL	_	NF	005v,08	UNLINK	_
+14	.	_	_	$.	_	_	_	_	_	_	. 	007,25	_	_	_	_	$_	_	MAINDECL	_	_	005v,08	_	_
+
+# sent_id = 4
+# text = ich wil íu hirtē gebē nach alles mines h'zē willē.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich 	007,29	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	005v,14	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil 	007,29	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	005v,14	_	_
+3	íu	_	_	PPER	_	_	_	_	_	NP	íu 	007,29	_	DO	_	_	PPER	_	MAINDECL	_	MF	005v,14	_	_
+4	hirtē	_	_	NN	_	_	_	_	_	NP	hirtē 	007,30	_	DO	_	_	NA	_	MAINDECL	_	MF	005v,14	_	_
+5	gebē	_	_	VVINF	_	_	_	_	_	VP	gebē 	007,30	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	005v,14	_	_
+6	nach	_	_	APPR	_	_	_	_	_	PP	nach 	007,30	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	005v,14	UNLINK	_
+7	alles	_	_	PIAT	_	_	_	_	_	PP	alles 	007,30	NF	PP-ADV	_	_	DI	_	MAINDECL	_	NF	005v,14	UNLINK	_
+8	mines	_	_	PPOSAT	_	_	_	_	_	PP	mines 	007,30	NF	PP-ADV	ACC-SIT_	_	DPOS	_	MAINDECL	_	NF	005v,14	UNLINK	_
+9	h'zē	_	_	NN	_	_	_	_	_	PP	h'zē 	007,30	NF	PP-ADV	_NEW_	_	NA	_	MAINDECL	_	NF	005v,14	UNLINK	_
+10	willē	_	_	NN	_	_	_	_	_	PP	willē 	007,30	NF	PP-ADV	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	005v,14	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	. 	007,30	_	_	_	_	$_	_	MAINDECL	_	_	005v,14	_	_
+
+# sent_id = 5
+# text = alſo wil er dich och ſpîſen mit ſinē. (heiligen) lichamē.
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo 	008,11	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	006r,10	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil 	008,11	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	006r,10	_	_
+3	er	_	_	PPER	_	_	_	_	_	NP	er 	008,12	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	006r,10	_	_
+4	dich	_	_	PPER	_	_	_	_	_	NP	dich 	008,12	_	DO	_	_	PPER	_	MAINDECL	_	MF	006r,10	_	_
+5	och	_	_	KON	_	_	_	_	_	_	och 	008,12	_	_	_	_	KON	_	MAINDECL	_	MF	006r,10	_	_
+6	ſpîſen	_	_	VVINF	_	_	_	_	_	VP	ſpîſen 	008,12	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	006r,11	_	_
+7	mit	_	_	APPR	_	_	_	_	_	PP	mit 	008,12	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	006r,11	UNLINK	_
+8	ſinē	_	_	PPOSAT	_	_	_	_	_	PP	ſinē 	008,12	NF	PP-OBJ	ACC-INF_	_	DPOS	_	MAINDECL	_	NF	006r,11	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	PP	. 	008,12	NF	PP-OBJ	_	_	$_	_	MAINDECL	_	NF	006r,11	UNLINK	_
+10	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen) 	008,12	NF	PP-OBJ	_NEW	_	ADJ	_	MAINDECL	_	NF	006r,11	UNLINK	_
+11	lichamē	_	_	NN	_	_	_	_	_	PP	lichamē 	008,12	NF	PP-OBJ	_NEW	_	NA	_	MAINDECL	_	NF	006r,11	UNLINK	_
+12	.	_	_	$.	_	_	_	_	_	_	. 	008,12	_	_	_	_	$_	_	MAINDECL	_	_	006r,11	_	_
+
+# sent_id = 6
+# text = alſo ſtât h're Dauid aínes tages v̂f nach mittē tage do er hat ge(=)ſclâfen.
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo 	008,16	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	006r,15	_	_
+2	ſtât	_	_	VVFIN	_	_	_	_	_	VP	ſtât 	008,16	_	VFIN	_	_	VVFIN	LI	MAINDECL	LK	LK	006r,15	_	_
+3	h're	_	_	NN	_	_	_	_	_	NP	h're 	008,16	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	006r,15	_	_
+4	Dauid	_	_	NE	_	_	_	_	_	NP	Dauid 	008,16	_	SUBJ	_	_	NE	_	MAINDECL	_	MF	006r,16	_	_
+5	aínes	_	_	ART	_	_	_	_	_	NP	aínes 	008,17	_	ADVB	_	_	DIA	_	MAINDECL	_	MF	006r,16	_	_
+6	tages	_	_	NN	_	_	_	_	_	NP	tages 	008,17	_	ADVB	_	_	NA	_	MAINDECL	_	MF	006r,16	_	_
+7	v̂f	_	_	PTKVZ	_	_	_	_	_	VP	v̂f 	008,17	_	VZ_PTK	_	_	PTKVZ	RE	MAINDECL	RK	RK	006r,16	_	_
+8	nach	_	_	APPR	_	_	_	_	_	PP	nach 	008,17	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	006r,16	UNLINK	_
+9	mittē	_	_	ADJA	_	_	_	_	_	PP	mittē 	008,17	NF	PP-ADV	NEW	_	ADJ	_	MAINDECL	_	NF	006r,16	UNLINK	KOREF1-REL
+10	tage	_	_	NN	_	_	_	_	_	PP	tage 	008,17	NF	PP-ADV	NEW	_	NA	_	MAINDECL	_	NF	006r,16	UNLINK	KOREF1-REL
+11	do	_	_	ADV	_	_	_	_	_	CP	do 	008,17	_	ADVB	NA	_	PAVREL	_	MAINDECL	LK	NF-LK	006r,16	UNLINK	KOREF2-REL
+12	er	_	_	PPER	_	_	_	_	_	CP	er 	008,17	_	ADVB	NA	_	PPER	_	MAINDECL	_	NF-MF	006r,16	UNLINK	_
+13	hat	_	_	VAFIN	_	_	_	_	_	CP	hat 	008,17	_	ADVB	NA	_	VAFIN	_	MAINDECL	RK	NF-RK	006r,16	UNLINK	_
+14	ge(=)ſclâfen	_	_	VVPP	_	_	_	_	_	CP	geſclâfen 	008,17	_	ADVB	NA	_	VVPP	_	MAINDECL	RK	NF-RK	006r,16	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	_	. 	008,17	_	_	_	_	$_	_	MAINDECL	_	_	_	_	_
+
+# sent_id = 7
+# text = kuͥnech reht' riht' du ſolt riht[ē] diz mort dc nu i(ſt) beſcehē.
+1	kuͥnech	_	_	NN	_	_	_	_	_	NP	kuͥnech 	009,02	_	VOVF	_	_	NA	_	MAINDECL	_	LV	006v,15	_	_
+2	reht'	_	_	ADJA	_	_	_	_	_	NP	reht' 	009,02	_	VOVF	_	_	ADJ	_	MAINDECL	_	LV	006v,15	_	_
+3	riht'	_	_	NN	_	_	_	_	_	NP	riht' 	009,02	_	VOVF	_	_	NA	_	MAINDECL	_	LV	006v,15	_	_
+4	du	_	_	PPER	_	_	_	_	_	NP	du 	009,02	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	006v,15	_	_
+5	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt 	009,02	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	006v,15	_	_
+6	riht[ē]	_	_	VVINF	_	_	_	_	_	VP	rihtē 	009,02	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	006v,15	_	_
+7	diz	_	_	PDAT	_	_	_	_	_	NP	diz 	009,02	NF	DO	ACC-ABSTR-UNUSED	_	DD	_	MAINDECL	_	NF	006v,16	UNLINK	_
+8	mort	_	_	NN	_	_	_	_	_	NP	mort 	009,02	NF	DO	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	006v,16	UNLINK	KOREF1-REL
+9	dc	_	_	KOUS	_	_	_	_	_	CP	dc 	009,02	NF	ATTR	_	_	KOUS	_	MAINDECL	LK	NF-LK	006v,16	UNLINK	KOREF2-REL
+10	nu	_	_	ADV	_	_	_	_	_	CP	nu 	009,03	NF	ATTR	_	_	ADV	_	MAINDECL	_	NF-MF	006v,16	UNLINK	_
+11	i(ſt)	_	_	VAFIN	_	_	_	_	_	CP	iſt 	009,03	NF	ATTR	_	_	VAFIN	_	MAINDECL	RK	NF-RK	006v,16	UNLINK	_
+12	beſcehē	_	_	VVPP	_	_	_	_	_	CP	beſcehē 	009,03	NF	ATTR	_	_	VVPP	_	MAINDECL	RK	NF-RK	006v,16	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	. 	009,03	_	_	_	_	$_	_	MAINDECL	_	_	006v,16	_	_
+
+# sent_id = 8
+# text = mit dē brôte ſon wir geſpiſet w'dē an libe vn̄ an ſele.
+1	mit	_	_	APPR	_	_	_	_	_	NP	mit 	009,27; -chende	_	PP-ADV	_	_	APPR	_	MAINDECL	_	VF	007r,16	_	_
+2	dē	_	_	ART	_	_	_	_	_	NP	dē 	009,27; -chende	_	PP-ADV	_	_	DDA	_	MAINDECL	_	VF	007r,16	_	_
+3	brôte	_	_	NN	_	_	_	_	_	NP	brôte 	009,27; -chende	_	PP-ADV	_	_	NA	_	MAINDECL	_	VF	007r,16	_	_
+4	ſon	_	_	VMFIN	_	_	_	_	_	VP	ſon 	009,27; -chende	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	007r,16	_	_
+5	wir	_	_	PPER	_	_	_	_	_	NP	wir 	009,27; -chende	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	007r,16	_	_
+6	geſpiſet	_	_	VVPP	_	_	_	_	_	VP	geſpiſet 	009,27; -chende	_	INF	_	_	VVPP	_	MAINDECL	RK	RK	007r,16	_	_
+7	w'dē	_	_	VAINF	_	_	_	_	_	VP	w'dē 	009,27; -chende	_	INF	_	_	VAINF	RE	MAINDECL	RK	RK	007r,16	_	_
+8	an	_	_	APPR	_	_	_	_	_	PP	an 	009,27; -chende	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	007r,16	UNLINK	_
+9	libe	_	_	NN	_	_	_	_	_	PP	libe 	009,27; -chende	NF_	PP-ADV	NEW_	_	NA	_	MAINDECL	_	NF	007r,16	UNLINK	_
+10	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	009,27; -chende	_	_	_	_	KON	_	MAINDECL	_	NF	007r,16	UNLINK	_
+11	an	_	_	APPR	_	_	_	_	_	PP	an 	009,27; -chende	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	007r,16	UNLINK	_
+12	ſele	_	_	NN	_	_	_	_	_	PP	ſele 	009,28	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	007r,16	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	. 	009,28	_	_	_	_	_	_	MAINDECL	_	NF	007r,16	_	_
+
+# sent_id = 9
+# text = ſo wirt díu guͤti dez hirtē gelobet an dē ſchirmēde.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo 	009,34	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	007r,23	_	_
+2	wirt	_	_	VAFIN	_	_	_	_	_	VP	wirt 	009,34	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	007r,23	_	_
+3	díu	_	_	ART	_	_	_	_	_	NP	díu 	009,35	_	DO	_	_	DDA	_	MAINDECL	_	MF	007r,23	_	_
+4	guͤti	_	_	NN	_	_	_	_	_	NP	guͤti 	009,35	_	DO	_	_	NA	_	MAINDECL	_	MF	007r,24	_	_
+5	dez	_	_	ART	_	_	_	_	_	NP	dez 	009,35	_	ATTR	_	_	DDA	_	MAINDECL	_	MF	007r,24	_	_
+6	hirtē	_	_	NN	_	_	_	_	_	NP	hirtē 	009,35	_	ATTR	_	_	NA	_	MAINDECL	_	MF	007r,24	_	_
+7	gelobet	_	_	VVPP	_	_	_	_	_	VP	gelobet 	009,35	_	INF	_	_	VVPP	RE	MAINDECL	RK	RK	007r,24	_	_
+8	an	_	_	APPR	_	_	_	_	_	PP	an 	009,35	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	007r,24	UNLINK	KOREF1
+9	dē	_	_	ART	_	_	_	_	_	PP	dē 	009,35	NF	PP-ADV	ACC-ABSTR-USED-X	_	DDA	_	MAINDECL	_	NF	007r,24	UNLINK	KOREF1
+10	ſchirmēde	_	_	ADJA	_	_	_	_	_	PP	ſchirmēde 	009,35	NF	PP-ADV	ACC-ABSTR-USED-X	_	ADJS	_	MAINDECL	_	NF	007r,24	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	. 	009,35	_	_	_	_	$_	_	MAINDECL	_	_	007r,24	_	_
+
+# sent_id = 10
+# text = dē ſont ier vaſte wid'#ſtân mít dē. (heiligen) geloͮbē.
+1	dē	_	_	PDS	_	_	_	_	_	NP	dē 	010,08; ge-	_	IO-DAT	_	_	DDS	_	MAINDECL	_	VF	007v,08	_	_
+2	ſont	_	_	VAFIN	_	_	_	_	_	VP	ſont 	010,08; ge-	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	LK	007v,08	_	_
+3	ier	_	_	PPER	_	_	_	_	_	NP	ier 	010,08; ge-	_	SUBJ	_	_	PPER	_	MAINDECL	_	MF	007v,08	_	_
+4	vaſte	_	_	ADV	_	_	_	_	_	ADVP	vaſte 	010,08; ge-	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	007v,09	_	_
+5	wid'#ſtân	_	_	VVINF	_	_	_	_	_	VP	wid'ſtân 	010,08; ge-	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	007v,09	_	_
+6	mít	_	_	APPR	_	_	_	_	_	PP	mít 	010,08; ge-	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	007v,09	UNLINK	_
+7	dē	_	_	ART	_	_	_	_	_	PP	dē 	010,08; ge-	NF	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	007v,09	UNLINK	_
+8	.	_	_	$.	_	_	_	_	_	PP	. 	010,08; ge-	NF	PP-ADV	_	_	$_	_	MAINDECL	_	NF	007v,09	UNLINK	_
+9	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen) 	010,08; ge-	NF	PP-ADV	ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	007v,09	UNLINK	_
+10	geloͮbē	_	_	NN	_	_	_	_	_	PP	geloͮbē 	010,08; ge-	NF	PP-ADV	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	007v,09	UNLINK	_
+11	.	_	_	$.	_	_	_	_	_	_	. 	010,09; -lǒben	_	_	_	_	$_	_	MAINDECL	_	_	007v,09	_	_
+
+# sent_id = 11
+# text = Der lerer d' ſol ſiníu ſchâf och rettē vor dē berē.
+1	Der	_	_	ART	_	_	_	_	_	NP	Der 	010,09; -lǒben	_	VOVF	_	left dislocation	DDA	_	MAINDECL	_	LV	007v,09	_	_
+2	lerer	_	_	NN	_	_	_	_	_	NP	lerer 	010,09; -lǒben	_	VOVF	_	left dislocation	NA	_	MAINDECL	_	LV	007v,09	_	_
+3	d'	_	_	PDS	_	_	_	_	_	NP	d' 	010,09; -lǒben	_	SUBJ	_	_	DDS	_	MAINDECL	_	VF	007v,09	_	_
+4	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol 	010,09; -lǒben	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	007v,09	_	_
+5	ſiníu	_	_	PPOSAT	_	_	_	_	_	NP	ſiníu 	010,09; -lǒben	_	DO	_	_	DPOS	_	MAINDECL	_	MF	007v,09	_	_
+6	ſchâf	_	_	NN	_	_	_	_	_	NP	ſchâf 	010,09; -lǒben	_	DO	_	_	NA	_	MAINDECL	_	MF	007v,09	_	_
+7	och	_	_	ADV	_	_	_	_	_	ADVP	och 	010,09; -lǒben	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	007v,10	_	_
+8	rettē	_	_	VVINF	_	_	_	_	_	VP	rettē 	010,09; -lǒben	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	007v,10	_	_
+9	vor	_	_	APPR	_	_	_	_	_	PP	vor 	010,09; -lǒben	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	007v,10	UNLINK	_
+10	dē	_	_	ART	_	_	_	_	_	PP	dē 	010,09; -lǒben	NF	PP-OBJ	GIV-INACTIVE	_	DDA	_	MAINDECL	_	NF	007v,10	UNLINK	KOREF1
+11	berē	_	_	NN	_	_	_	_	_	PP	berē 	010,09; -lǒben	NF	PP-OBJ	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	007v,10	UNLINK	KOREF1
+12	.	_	_	$.	_	_	_	_	_	_	. 	010,09; -lǒben	_	_	_	_	$_	_	MAINDECL	_	_	007v,10	_	_
+
+# sent_id = 12
+# text = Er ſol ſiníu ſchâf och rettē. vor dē wolfe.
+1	Er	_	_	PPER	_	_	_	_	_	NP	Er 	010,12	_	SUBJ	_	_	PPER	_	MAINDECL	_	VF	007v,12	_	_
+2	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol 	010,12	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	007v,12	_	_
+3	ſiníu	_	_	PPOSAT	_	_	_	_	_	NP	ſiníu 	010,12	_	DO	_	_	DPOS	_	MAINDECL	_	MF	007v,12	_	_
+4	ſchâf	_	_	NN	_	_	_	_	_	NP	ſchâf 	010,12	_	DO	_	_	NA	_	MAINDECL	_	MF	007v,13	_	_
+5	och	_	_	KON	_	_	_	_	_	_	och 	010,12	_	_	_	_	KON	_	MAINDECL	_	MF	007v,13	_	_
+6	rettē	_	_	VVINF	_	_	_	_	_	VP	rettē 	010,12	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	007v,13	_	_
+7	.	_	_	$.	_	_	_	_	_	_	. 	010,12	_	_	_	_	$_	_	MAINDECL	_	_	007v,13	_	_
+8	vor	_	_	APPR	_	_	_	_	_	PP	vor 	010,12	NF	PP-OBJ	_	_	APPR	_	MAINDECL	_	NF	007v,13	UNLINK	_
+9	dē	_	_	ART	_	_	_	_	_	PP	dē 	010,12	NF	PP-OBJ	GIV-INACTIVE	_	DDA	_	MAINDECL	_	NF	007v,13	UNLINK	_
+10	wolfe	_	_	NN	_	_	_	_	_	PP	wolfe 	010,12	NF	PP-OBJ	GIV-INACTIVE	_	NA	_	MAINDECL	_	NF	007v,13	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	. 	010,12	_	_	_	_	$_	_	MAINDECL	_	_	007v,13	_	_
+
+# sent_id = 13
+# text = vor dē drín vigendē ſol d' lerer ſin' ſchâfe wol huͦtē tach vn̄ naht.
+1	vor	_	_	APPR	_	_	_	_	_	PP	vor 	010,16	_	PP-OBJ	_	_	APPR	_	MAINDECL	_	VF	007v,17	_	_
+2	dē	_	_	ART	_	_	_	_	_	PP	dē 	010,16	_	PP-OBJ	_	_	DDA	_	MAINDECL	_	VF	007v,17	_	_
+3	drín	_	_	ADJA	_	_	_	_	_	PP	drín 	010,16	_	PP-OBJ	_	_	ADJO	_	MAINDECL	_	VF	007v,17	_	_
+4	vigendē	_	_	NN	_	_	_	_	_	PP	vigendē 	010,16	_	PP-OBJ	_	_	NA	_	MAINDECL	_	VF	007v,17	_	_
+5	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol 	010,17	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	007v,17	_	_
+6	d'	_	_	ART	_	_	_	_	_	NP	d' 	010,17	_	SUBJ	_	_	DDA	_	MAINDECL	_	MF	007v,17	_	_
+7	lerer	_	_	NN	_	_	_	_	_	NP	lerer 	010,17	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	007v,17	_	_
+8	ſin'	_	_	PPOSAT	_	_	_	_	_	NP	ſin' 	010,17	_	DO	_	_	DPOS	_	MAINDECL	_	MF	007v,18	_	_
+9	ſchâfe	_	_	NN	_	_	_	_	_	NP	ſchâfe 	010,17	_	DO	_	_	NA	_	MAINDECL	_	MF	007v,18	_	_
+10	wol	_	_	ADV	_	_	_	_	_	ADVP	wol 	010,17	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	007v,18	_	_
+11	huͦtē	_	_	VVINF	_	_	_	_	_	VP	huͦtē 	010,17	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	007v,18	_	_
+12	tach	_	_	NN	_	_	_	_	_	NP	tach 	010,17	NF	ADVB	NA	_	NA	_	MAINDECL	_	NF	007v,18	UNLINK	_
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	010,17	NF	ADVB	NA	_	KON	_	MAINDECL	_	NF	007v,18	UNLINK	_
+14	naht	_	_	NN	_	_	_	_	_	NP	naht 	010,17	NF	ADVB	NA	_	NA	_	MAINDECL	_	NF	007v,18	UNLINK	_
+15	.	_	_	$.	_	_	_	_	_	_	. 	010,17	_	_	_	_	$_	_	MAINDECL	_	_	007v,18	_	_
+
+# sent_id = 14
+# text = alſo wil got ſiníu ſchâf hie och ſamenō mit dē. (heiligen) geloͮbē. vn̄ mit d'. (heiligen) mīne.
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo 	011,24	_	ADVB	_	_	ADV	_	MAINDECL	_	VF	008v,13	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil 	011,24	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	LK	008v,13	_	_
+3	got	_	_	NN	_	_	_	_	_	NP	got 	011,24	_	SUBJ	_	_	NA	_	MAINDECL	_	MF	008v,13	_	_
+4	ſiníu	_	_	PPOSAT	_	_	_	_	_	NP	ſiníu 	011,24	_	DO	_	_	DPOS	_	MAINDECL	_	MF	008v,13	_	_
+5	ſchâf	_	_	NN	_	_	_	_	_	NP	ſchâf 	011,24	_	DO	_	_	NA	_	MAINDECL	_	MF	008v,13	_	_
+6	hie	_	_	ADV	_	_	_	_	_	ADVP	hie 	011,24	_	ADVB	_	_	ADV	_	MAINDECL	_	MF	008v,13	_	_
+7	och	_	_	KON	_	_	_	_	_	_	och 	011,24	_	_	_	_	KON	_	MAINDECL	_	MF	008v,13	_	_
+8	ſamenō	_	_	VVINF	_	_	_	_	_	VP	ſamenō 	011,24	_	INF	_	_	VVINF	RE	MAINDECL	RK	RK	008v,14	_	_
+9	mit	_	_	APPR	_	_	_	_	_	PP	mit 	011,25	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+10	dē	_	_	ART	_	_	_	_	_	PP	dē 	011,25	NF_	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+11	.	_	_	$.	_	_	_	_	_	PP	. 	011,25	NF_	PP-ADV	_	_	$_	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+12	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen) 	011,25	NF_	PP-ADV	ACC-ABSTR-USED-X_	_	ADJ	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+13	geloͮbē	_	_	NN	_	_	_	_	_	PP	geloͮbē 	011,25	NF_	PP-ADV	ACC-ABSTR-USED-X_	_	NA	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+14	.	_	_	$.	_	_	_	_	_	_	. 	011,25	_	_	_	_	$_	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+15	vn̄	_	_	KON	_	_	_	_	_	_	vn̄ 	011,25	_	_	_	_	KON	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+16	mit	_	_	APPR	_	_	_	_	_	PP	mit 	011,25	NF_	PP-ADV	_	_	APPR	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+17	d'	_	_	ART	_	_	_	_	_	PP	d' 	011,25	NF_	PP-ADV	_	_	DDA	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+18	.	_	_	$.	_	_	_	_	_	PP	. 	011,25	NF_	PP-ADV	_	_	$_	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+19	(heiligen)	_	_	ADJA	_	_	_	_	_	PP	(heiligen) 	011,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	ADJ	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+20	mīne	_	_	NN	_	_	_	_	_	PP	mīne 	011,25	NF_	PP-ADV	_ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	NF	008v,14	UNLINK	KOREF1
+21	.	_	_	$.	_	_	_	_	_	_	. 	011,25	_	_	_	_	$_	_	MAINDECL	_	_	008v,14	_	_

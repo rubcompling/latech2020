@@ -1,0 +1,135 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = koͤnnet ihr leſen in dem 119. Pſalm /
+1	koͤnnet	_	_	VMFIN	_	_	_	_	_	VP	koͤnnet	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	06,05	_	_
+2	ihr	_	_	PPER	_	_	_	_	_	NP	ihr	_	SUBJ	_	PPER	_	MAINDECL-ELLI	_	MF	06,05	_	_
+3	leſen	_	_	VVINF	_	_	_	_	_	VP	leſen	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	06,05	_	_
+4	in	_	_	APPR	_	_	_	_	_	PP	in	BGR	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	06,05	UNLINK	_
+5	dem	_	_	ART	_	_	_	_	_	PP	dem	BGR	PP-ADV	_	DDA	_	MAINDECL-ELLI	_	NF	06,05	UNLINK	_
+6	119	_	_	ADJA	_	_	_	_	_	PP	119	BGR	PP-ADV	ACC-UNI-USED-X	ADJO	_	MAINDECL-ELLI	_	NF	06,05	UNLINK	KOREF1
+7	.	_	_	ADJA	_	_	_	_	_	PP	.	BGR	PP-ADV	ACC-UNI-USED-X	ADJO	_	MAINDECL-ELLI	_	NF	06,05	UNLINK	KOREF1
+8	Pſalm	_	_	NN	_	_	_	_	_	PP	Pſalm	BGR	PP-ADV	ACC-UNI-USED-X	NA	_	MAINDECL-ELLI	_	NF	06,05	UNLINK	KOREF1
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL-ELLI	_	_	06,05	_	_
+
+# sent_id = 2
+# text = Sie wird ihn „ ſpeiſen mit Brod des Verſtandes,
+1	Sie	_	_	PPER	_	_	_	_	_	NP	Sie	_	SUBJ	_	PPER	_	MAINDECL	_	VF	8,15	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	8,15	_	_
+3	ihn	_	_	PPER	_	_	_	_	_	NP	ihn	_	DO	_	PPER	_	MAINDECL	_	MF	8,15	_	KOREF1
+4	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	$_	_	MAINDECL	_	_	8,16	_	_
+5	ſpeiſen	_	_	VVINF	_	_	_	_	_	VP	ſpeiſen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	8,16	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	_	PP-ADV	_	APPR	_	MAINDECL	_	NF	8,16	UNLINK	_
+7	Brod	_	_	NN	_	_	_	_	_	PP	Brod	_	PP-ADV	NEW_	NA	_	MAINDECL	_	NF	8,16	UNLINK	_
+8	des	_	_	ART	_	_	_	_	_	NP	des	_	ATTR	_ACC-ABSTR-UNUSED	DDA	_	MAINDECL	_	NF	8,16	UNLINK	_
+9	Verſtandes	_	_	NN	_	_	_	_	_	NP	Verſtandes	_	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	8,16	UNLINK	_
+10	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL	_	_	8,16	_	_
+
+# sent_id = 3
+# text = und wird ihn „ traͤncken mit Waſſer der Weisheit.
+1	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	8,16	_	_
+2	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	8,16	_	_
+3	ihn	_	_	PPER	_	_	_	_	_	NP	ihn	_	DO	_	PPER	_	MAINDECL-ELLI	_	MF	8,16	_	KOREF2
+4	„	_	_	$(	_	_	_	_	_	_	„	_	_	_	$_	_	MAINDECL-ELLI	_	_	8,17	_	_
+5	traͤncken	_	_	VVINF	_	_	_	_	_	VP	traͤncken	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	8,17	_	_
+6	mit	_	_	APPR	_	_	_	_	_	PP	mit	_	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	8,17	UNLINK	_
+7	Waſſer	_	_	NN	_	_	_	_	_	PP	Waſſer	_	PP-ADV	NEW_	NA	_	MAINDECL-ELLI	_	NF	8,17	UNLINK	_
+8	der	_	_	ART	_	_	_	_	_	NP	der	_	ATTR	_ACC-ABSTR-USED-X	DDA	_	MAINDECL-ELLI	_	NF	8,17	UNLINK	_
+9	Weisheit	_	_	NN	_	_	_	_	_	NP	Weisheit	_	ATTR	_ACC-ABSTR-USED-X	NA	_	MAINDECL-ELLI	_	NF	8,17	UNLINK	_
+10	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL-ELLI	_	_	8,17	_	_
+
+# sent_id = 4
+# text = und laſſe ſich ein jeglicher tauffen auf den Namen JEſu Chriſti / zur Vergebung der Suͤnde,
+1	und	_	_	KON	_	_	_	_	_	_	und	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	12,20	_	_
+2	laſſe	_	_	VMFIN	_	_	_	_	_	VP	laſſe	_	VFIN	_	VMFIN	LI	MAINDECL-ELLI	LK	LK	12,20	_	_
+3	ſich	_	_	PRF	_	_	_	_	_	VP	ſich	_	VZ_RFL	_	PRF	_	MAINDECL-ELLI	_	MF	12,20	_	_
+4	ein	_	_	ART	_	_	_	_	_	NP	ein	_	SUBJ	_	DIA	_	MAINDECL-ELLI	_	MF	12,21	_	_
+5	jeglicher	_	_	PIAT	_	_	_	_	_	NP	jeglicher	_	SUBJ	_	DI	_	MAINDECL-ELLI	_	MF	12,21	_	_
+6	tauffen	_	_	VVINF	_	_	_	_	_	VP	tauffen	_	INF	_	VVINF	RE	MAINDECL-ELLI	RK	RK	12,21	_	_
+7	auf	_	_	APPR	_	_	_	_	_	PP	auf	NF_	PP-ADV	_	APPR	_	MAINDECL-ELLI	_	NF	12,21	UNLINK1	_
+8	den	_	_	ART	_	_	_	_	_	PP	den	NF_	PP-ADV	_	DDA	_	MAINDECL-ELLI	_	NF	12,21	UNLINK1	_
+9	Namen	_	_	NN	_	_	_	_	_	PP	Namen	NF_	PP-ADV	ACC-UNI-USED-X	NA	_	MAINDECL-ELLI	_	NF	12,21	UNLINK1	_
+10	JEſu	_	_	NE	_	_	_	_	_	PP	JEſu	NF_	ATTR	ACC-UNI-USED-X	NE	_	MAINDECL-ELLI	_	NF	12,21	UNLINK1	_
+11	Chriſti	_	_	NE	_	_	_	_	_	PP	Chriſti	NF_	ATTR	ACC-UNI-USED-X	NE	_	MAINDECL-ELLI	_	NF	12,22	UNLINK1	_
+12	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL-ELLI	_	NF	12,22	_	_
+13	zur	_	_	APPRART	_	_	_	_	_	PP	zur	NF_	PP-ADV	_	APPRART	_	MAINDECL-ELLI	_	NF	12,22	UNLINK2	_
+14	Vergebung	_	_	NN	_	_	_	_	_	PP	Vergebung	NF_	PP-ADV	ACC-ABSTR-USED-X_	NA	_	MAINDECL-ELLI	_	NF	12,22	UNLINK2	_
+15	der	_	_	ART	_	_	_	_	_	PP	der	NF_	ATTR	_	DDA	_	MAINDECL-ELLI	_	NF	12,22	UNLINK2	_
+16	Suͤnde	_	_	NN	_	_	_	_	_	PP	Suͤnde	NF_	ATTR	_ACC-ABSTR-USED-X	NA	_	MAINDECL-ELLI	_	NF	12,22	UNLINK2	_
+17	,	_	_	$,	_	_	_	_	_	_	,	_	_	_	$_	_	MAINDECL-ELLI	_	_	12,22	_	_
+
+# sent_id = 5
+# text = ſo werdet ihr empfahen die Gabe des Heiligen Geiſtes;
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	_	ADVB	_	ADV	_	MAINDECL	_	VF	12,22	_	_
+2	werdet	_	_	VAFIN	_	_	_	_	_	VP	werdet	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	12,22	_	_
+3	ihr	_	_	PPER	_	_	_	_	_	NP	ihr	_	SUBJ	_	PPER	_	MAINDECL	_	MF	12,23	_	_
+4	empfahen	_	_	VVINF	_	_	_	_	_	VP	empfahen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	12,23	_	_
+5	die	_	_	ART	_	_	_	_	_	NP	die	NF	DO	ACC-ABSTR-USED-X	DDA	_	MAINDECL	_	NF	12,23	UNLINK	_
+6	Gabe	_	_	NN	_	_	_	_	_	NP	Gabe	NF	DO	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	12,23	UNLINK	_
+7	des	_	_	ART	_	_	_	_	_	NP	des	NF	ATTR	_	DDA	_	MAINDECL	_	NF	12,23	UNLINK	_
+8	Heiligen	_	_	ADJA	_	_	_	_	_	NP	Heiligen	NF	ATTR	ACC-ABSTR-UNSED	ADJ	_	MAINDECL	_	NF	12,23	UNLINK	_
+9	Geiſtes	_	_	NN	_	_	_	_	_	NP	Geiſtes	NF	ATTR	ACC-ABSTR-UNSED	NA	_	MAINDECL	_	NF	12,23	UNLINK	_
+10	;	_	_	$.	_	_	_	_	_	_	;	_	_	_	$_	_	MAINDECL	_	_	12,23	_	_
+
+# sent_id = 6
+# text = Es „ iſt erſchienen die heilſame Gnade GOttes allen Menſchen /
+1	Es	_	_	PPER	_	_	_	_	_	NP	Es	NF	EXPL	_	PPER	_	MAINDECL	_	VF	13,29	_	_
+2	„	_	_	$(	_	_	_	_	_	_	„	NF	_	_	$_	_	MAINDECL	_	_	13,30	_	_
+3	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	NF	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	13,30	_	_
+4	erſchienen	_	_	VVPP	_	_	_	_	_	VP	erſchienen	NF	INF	_	VVPP	RE	MAINDECL	RK	RK	13,30	_	_
+5	die	_	_	ART	_	_	_	_	_	NP	die	NF	SUBJ	_	DDA	_	MAINDECL	_	NF	13,30	UNLINK1	_
+6	heilſame	_	_	ADJA	_	_	_	_	_	NP	heilſame	NF	SUBJ	_	ADJ	_	MAINDECL	_	NF	13,30	UNLINK1	_
+7	Gnade	_	_	NN	_	_	_	_	_	NP	Gnade	NF	SUBJ	ACC-ABSTR-USED-X_	NA	_	MAINDECL	_	NF	13,30	UNLINK1	_
+8	GOttes	_	_	NE	_	_	_	_	_	NP	GOttes	NF	SUBJ	_ACC-UNI-USED-X_	NE	_	MAINDECL	_	NF	13,30	UNLINK1	_
+9	allen	_	_	PIAT	_	_	_	_	_	NP	allen	NF	IO-DAT	_ACC-GEN-USED-X	DI	_	MAINDECL	_	NF	13,30	UNLINK2	_
+10	Menſchen	_	_	NN	_	_	_	_	_	NP	Menſchen	NF	IO-DAT	_ACC-GEN-USED-X	NA	_	MAINDECL	_	NF	13,30	UNLINK2	_
+11	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	_	_	MAINDECL	_	_	13,30	_	_
+
+# sent_id = 7
+# text = dann wie ein Fallſtrick wird er kommen uͤber alle die auf Erden wohnen.
+1	dann	_	_	ADV	_	_	_	_	_	_	dann	_	_	_	ADV	_	MAINDECL	_	VF	13,41	_	_
+2	wie	_	_	KOKOM	_	_	_	_	_	ADVP	wie	_	VGL	_	KOKOM	_	MAINDECL	_	VF	13,41	_	_
+3	ein	_	_	ART	_	_	_	_	_	ADVP	ein	_	VGL	_	DIA	_	MAINDECL	_	VF	13,41	_	_
+4	Fallſtrick	_	_	NN	_	_	_	_	_	ADVP	Fallſtrick	_	VGL	_	NA	_	MAINDECL	_	VF	13,41	_	_
+5	wird	_	_	VAFIN	_	_	_	_	_	VP	wird	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	13,41	_	_
+6	er	_	_	PPER	_	_	_	_	_	NP	er	_	SUBJ	_	PPER	_	MAINDECL	_	MF	13,41	_	_
+7	kommen	_	_	VVINF	_	_	_	_	_	VP	kommen	_	INF	_	VVINF	RE	MAINDECL	RK	RK	13,41	_	_
+8	uͤber	_	_	APPR	_	_	_	_	_	PP	uͤber	BGR	PP-OBJ	_	APPR	_	MAINDECL	_	NF	13,41	UNLINK	_
+9	alle	_	_	NN	_	_	_	_	_	PP	alle	BGR	PP-OBJ	NA	NA	_	MAINDECL	_	NF	13,41	UNLINK	KOREF1-REL
+10	die	_	_	PRELS	_	_	_	_	_	CP	die	BGR	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	13,41	_	KOREF2-REL
+11	auf	_	_	APPR	_	_	_	_	_	CP	auf	BGR	ATTR	_	APPR	_	MAINDECL	_	NF-MF	13,41	_	_
+12	Erden	_	_	NN	_	_	_	_	_	CP	Erden	BGR	ATTR	_	NA	_	MAINDECL	_	NF-MF	14,01	_	_
+13	wohnen	_	_	VVFIN	_	_	_	_	_	CP	wohnen	BGR	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	14,01	_	_
+14	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	14,01	_	_
+
+# sent_id = 8
+# text = Laſſet uns ehrbarlich wandeln als am Tage:
+1	Laſſet	_	_	VMFIN	_	_	_	_	_	VP	Laſſet	_	VFIN	_	VMFIN	LI	MAINIMPER	LK	LK	14,01	_	_
+2	uns	_	_	PPER	_	_	_	_	_	NP	uns	_	DO	_	PPER	_	MAINIMPER	_	MF	14,01	_	_
+3	ehrbarlich	_	_	ADJD	_	_	_	_	_	ADVP	ehrbarlich	_	ADVB	_	ADJD	_	MAINIMPER	_	MF	14,02	_	_
+4	wandeln	_	_	VVINF	_	_	_	_	_	VP	wandeln	_	INF	_	VVINF	RE	MAINIMPER	RK	RK	14,02	_	_
+5	als	_	_	KOKOM	_	_	_	_	_	PP	als	BGR	VGL	_	KOKOM	_	MAINIMPER	_	NF	14,02	UNLINK	_
+6	am	_	_	APPRART	_	_	_	_	_	PP	am	BGR	VGL	NA	APPRART	_	MAINIMPER	_	NF	14,02	UNLINK	_
+7	Tage	_	_	NN	_	_	_	_	_	PP	Tage	BGR	VGL	NA	NA	_	MAINIMPER	_	NF	14,02	UNLINK	_
+8	:	_	_	$.	_	_	_	_	_	_	:	_	_	_	$_	_	MAINIMPER	_	_	14,02	_	_
+
+# sent_id = 9
+# text = Wer will in die Ruhe dorten eingehen / ohne den vorhergehenden Sabbath / von Suͤnden und todten Wercken.
+1	Wer	_	_	PWS	_	_	_	_	_	NP	Wer	_	SUBJ	_	PW	_	MAININTERR	_	VF	14,40	_	_
+2	will	_	_	VMFIN	_	_	_	_	_	VP	will	_	VFIN	_	VMFIN	LI	MAININTERR	LK	LK	14,40	_	_
+3	in	_	_	APPR	_	_	_	_	_	PP	in	_	PP-OBJ	_	APPR	_	MAININTERR	_	MF	14,40	_	_
+4	die	_	_	ART	_	_	_	_	_	PP	die	_	PP-OBJ	_	DDA	_	MAININTERR	_	MF	14,40	_	_
+5	Ruhe	_	_	NN	_	_	_	_	_	PP	Ruhe	_	PP-OBJ	_	NA	_	MAININTERR	_	MF	15,01	_	_
+6	dorten	_	_	ADV	_	_	_	_	_	ADVP	dorten	_	ADVB	_	ADV	_	MAININTERR	_	MF	15,01	_	_
+7	eingehen	_	_	VVINF	_	_	_	_	_	VP	eingehen	_	INF	_	VVINF	RE	MAININTERR	RK	RK	15,01	_	_
+8	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAININTERR	_	_	15,01	_	_
+9	ohne	_	_	APPR	_	_	_	_	_	PP	ohne	NF_	PP-ADV	_	APPR	_	MAININTERR	_	NF	15,01	UNLINK	_
+10	den	_	_	ART	_	_	_	_	_	PP	den	NF_	PP-ADV	_	DDA	_	MAININTERR	_	NF	15,01	UNLINK	_
+11	vorhergehenden	_	_	ADJA	_	_	_	_	_	PP	vorhergehenden	NF_	PP-ADV	_	ADJ	_	MAININTERR	_	NF	15,01	UNLINK	_
+12	Sabbath	_	_	NE	_	_	_	_	_	PP	Sabbath	NF_	PP-ADV	ACC-UNI-UNUSED	NE	_	MAININTERR	_	NF	15,01	UNLINK	_
+13	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAININTERR	_	NF	15,01	_	_
+14	von	_	_	APPR	_	_	_	_	_	PP	von	BGR_	ATTR	_	APPR	_	MAININTERR	_	NF	15,01	LINK_ASSYM	_
+15	Suͤnden	_	_	NN	_	_	_	_	_	PP	Suͤnden	BGR_	ATTR	ACC-ABSTR-USED-X_	NA	_	MAININTERR	_	NF	15,02	LINK_ASSYM	_
+16	und	_	_	KON	_	_	_	_	_	PP	und	BGR_	ATTR	_	KON	_	MAININTERR	_	NF	15,02	LINK_ASSYM	_
+17	todten	_	_	ADJA	_	_	_	_	_	PP	todten	BGR_	ATTR	_	ADJ	_	MAININTERR	_	NF	15,02	LINK_ASSYM	_
+18	Wercken	_	_	NN	_	_	_	_	_	PP	Wercken	BGR_	ATTR	_ACC-ABSTR-UNUSED	NA	_	MAININTERR	_	NF	15,02	LINK_ASSYM	_
+19	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAININTERR	_	_	15,02	_	_

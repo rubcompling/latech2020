@@ -1,0 +1,93 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS Kommentar POS SATZKLAMMER SATZSTATUS SentBrckt Sprache TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = do wart iz geheizzin ieſv̂s.
+1	do	_	_	ADV	_	_	_	_	_	ADVP	do	15,03	_	ADVB	_	_	ADV	_	MAINDECL	_	Übersetzung	VF	11v,15	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	15,03	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	Übersetzung	LK	11v,15	_	_
+3	iz	_	_	PPER	_	_	_	_	_	NP	iz	15,03	_	SUBJ	_	_	PPER	_	MAINDECL	_	Übersetzung	MF	11v,15	_	_
+4	geheizzin	_	_	VVPP	_	_	_	_	_	VP	geheizzin	15,04	_	INF	_	_	VN	RE	MAINDECL	RK	Übersetzung	RK	11v,15	_	_
+5	ieſv̂s	_	_	NE	_	_	_	_	_	NP	ieſv̂s	15,04	NF	PRD	NEW	_	NE	_	MAINDECL	_	Übersetzung	NF	11v,15	UNLINK	KOREF1
+6	.	_	_	$.	_	_	_	_	_	_	.	15,04	_	_	_	_	$_	_	MAINDECL	_	Übersetzung	_	11v,15	_	_
+
+# sent_id = 2
+# text = Alſo hiute an dem achtodim tâge. lîe er ſich beſnîden. an diſem vleiſche.
+1	Alſo	_	_	ADV	_	_	_	_	_	ADVP	Alſo	15,18	_	ADVB	_	_	ADV	_	MAINDECL	_	_	LV	12r,13	_	_
+2	hiute	_	_	ADV	_	_	_	_	_	ADVP	hiute	15,18	_	ADVB	_	_	ADV	_	MAINDECL	_	_	LV	12r,13	_	_
+3	an	_	_	APPR	_	_	_	_	_	PP	an	15,18	_	PP-ADV	_	_	APPR	_	MAINDECL	_	_	VF	12r,13	_	_
+4	dem	_	_	ART	_	_	_	_	_	PP	dem	15,18	_	PP-ADV	_	_	DDA	_	MAINDECL	_	_	VF	12r,13	_	_
+5	achtodim	_	_	ADJA	_	_	_	_	_	PP	achtodim	15,18	_	PP-ADV	_	_	ADJO	_	MAINDECL	_	_	VF	12r,13	_	_
+6	tâge	_	_	NN	_	_	_	_	_	PP	tâge	15,18	_	PP-ADV	_	_	NA	_	MAINDECL	_	_	VF	12r,13	_	_
+7	.	_	_	$.	_	_	_	_	_	_	.	15,18	_	_	_	_	$_	_	MAINDECL	_	_	_	12r,13	_	_
+8	lîe	_	_	VVFIN	_	_	_	_	_	VP	lîe	15,18	_	VFIN	_	_	VVFIN	LI	MAINDECL	LK	_	LK	12r,13	_	_
+9	er	_	_	PPER	_	_	_	_	_	NP	er	15,18	_	SUBJ	_	_	PPER	_	MAINDECL	_	_	MF	12r,14	_	_
+10	ſich	_	_	PRF	_	_	_	_	_	VP	ſich	15,18	NF	_	_	_	PRF	_	MAINDECL	_	_	MF	12r,14	_	_
+11	beſnîden	_	_	VVPP	_	_	_	_	_	VP	beſnîden	15,18	NF	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	12r,14	_	_
+12	.	_	_	$.	_	_	_	_	_	_	.	15,18	NF	_	_	_	$_	_	MAINDECL	_	_	_	12r,14	_	_
+13	an	_	_	APPR	_	_	_	_	_	PP	an	15,18	NF	PP-ADV	_	_	APPR	_	MAINDECL	_	_	NF	12r,14	UNLINK	_
+14	diſem	_	_	ART	_	_	_	_	_	PP	diſem	15,18	NF	PP-ADV	ACC-INF	_	DDA	_	MAINDECL	_	_	NF	12r,14	UNLINK	_
+15	vleiſche	_	_	NN	_	_	_	_	_	PP	vleiſche	15,19	NF	PP-ADV	ACC-INF	_	NA	_	MAINDECL	_	_	NF	12r,14	UNLINK	_
+16	.	_	_	$.	_	_	_	_	_	_	.	15,19	_	_	_	_	$_	_	MAINDECL	_	_	_	12r,14	_	_
+
+# sent_id = 3
+# text = Nu iſt beſníten hivte der heilant.
+1	Nu	_	_	ADV	_	_	_	_	_	ADVP	Nu	16,20	NF	ADVB	_	_	ADV	_	MAINDECL	_	_	VF	13r,19	_	_
+2	iſt	_	_	VAFIN	_	_	_	_	_	VP	iſt	16,20	NF	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	13r,19	_	_
+3	beſníten	_	_	VVPP	_	_	_	_	_	VP	beſníten	16,21	NF	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	13r,19	_	_
+4	hivte	_	_	ADV	_	_	_	_	_	ADVP	hivte	16,21	NF	ADVB	NA	_	ADV	_	MAINDECL	_	_	NF	13r,19	UNLINK1	_
+5	der	_	_	ART	_	_	_	_	_	NP	der	16,21	NF	SUBJ	GIV-INACTIVE	_	DDA	_	MAINDECL	_	_	NF	13r,20	UNLINK2	KOREF1
+6	heilant	_	_	NN	_	_	_	_	_	NP	heilant	16,21	NF	SUBJ	GIV-INACTIVE	_	NA	_	MAINDECL	_	_	NF	13r,20	UNLINK2	KOREF1
+7	.	_	_	$.	_	_	_	_	_	_	.	16,21	_	_	_	_	$_	_	MAINDECL	_	_	_	13r,20	_	_
+
+# sent_id = 4
+# text = unde hat enphangen einen namen.
+1	unde	_	_	KON	_	_	_	_	_	_	unde	16,21	_	_	_	_	KON	_	MAINDECL-ELLI	_	_	KOORD	13r,20	_	_
+2	hat	_	_	VAFIN	_	_	_	_	_	VP	hat	16,21	NF	VFIN	_	_	VAFIN	LI	MAINDECL-ELLI	LK	_	LK	13r,20	_	KOREF2-NULL
+3	enphangen	_	_	VVPP	_	_	_	_	_	VP	enphangen	16,21	NF	INF	_	_	VVPP	RE	MAINDECL-ELLI	RK	_	RK	13r,20	_	_
+4	einen	_	_	ART	_	_	_	_	_	NP	einen	16,21	NF	DO	GIV-INACTIVE	_	DIA	_	MAINDECL-ELLI	_	_	NF	13r,20	UNLINK	KOREF1
+5	namen	_	_	NN	_	_	_	_	_	NP	namen	16,21	NF	DO	GIV-INACTIVE	_	NA	_	MAINDECL-ELLI	_	_	NF	13r,20	UNLINK	KOREF1
+6	.	_	_	$.	_	_	_	_	_	_	.	16,21	_	_	_	_	$_	_	MAINDECL-ELLI	_	_	_	13r,21; -men	_	_
+
+# sent_id = 5
+# text = din kint MARIA ſol heizzen iesvs. heilant von div. daz er ſin lîvte ge(=)heilet hat. uon allin ir ſuntin.
+1	din	_	_	ART	_	_	_	_	_	NP	din	16,25	_	SUBJ	_	_	DDA	_	MAINDECL	_	Zitat	VF	13v,02	_	_
+2	kint	_	_	NN	_	_	_	_	_	NP	kint	16,25	_	SUBJ	_	_	NA	_	MAINDECL	_	Zitat	VF	13v,02	_	_
+3	MARIA	_	_	NE	_	_	_	_	_	NP	MARIA	16,25	_	APPOS	_	_	NE	_	MAINDECL	_	Zitat	VF	13v,02	_	_
+4	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol	16,25	_	VFIN	_	_	VMFIN	LI	MAINDECL	LK	Zitat	LK	13v,02	_	_
+5	heizzen	_	_	VVINF	_	_	_	_	_	VP	heizzen	16,25	_	INF	_	_	VVINF	RE	MAINDECL	RK	Zitat	RK	13v,02	_	_
+6	iesvs	_	_	NE	_	_	_	_	_	NP	iesvs	16,25	NF_	PRD	GIV-INACTIVE_	_	NE	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK1	_
+7	.	_	_	$.	_	_	_	_	_	_	.	16,25	_	_	_	_	$_	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK1	_
+8	heilant	_	_	NN	_	_	_	_	_	NP	heilant	16,25	NF_	APPOS	_GIV-INACTIVE_	_	NA	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK1	_
+9	von	_	_	APPR	_	_	_	_	_	ADVP	von	16,25	NF_	ADVB	_NEW	_	APPR	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK2	KOREF1
+10	div	_	_	PDS	_	_	_	_	_	ADVP	div	16,25	NF_	ADVB	_NEW	_	DDS	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK2	KOREF1
+11	.	_	_	$.	_	_	_	_	_	_	.	16,25	NF_	ADVB	_	_	$_	_	MAINDECL	_	Zitat	NF	13v,03; -zen	UNLINK2	_
+12	daz	_	_	KOUS	_	_	_	_	_	CP	daz	16,25	NF_	ADVB	_	_	KOUS	_	MAINDECL	LK	Zitat	NF-LK	13v,03; -zen	UNLINK2	KOREF2-SATZ
+13	er	_	_	PPER	_	_	_	_	_	CP	er	16,25	NF_	ADVB	_	_	PPER	_	MAINDECL	_	Zitat	NF-MF	13v,03; -zen	UNLINK2	KOREF2-SATZ
+14	ſin	_	_	PPOSAT	_	_	_	_	_	CP	ſin	16,25	NF_	ADVB	_	_	DPOS	_	MAINDECL	_	Zitat	NF-MF	13v,03; -zen	UNLINK2	KOREF2-SATZ
+15	lîvte	_	_	NN	_	_	_	_	_	CP	lîvte	16,25	NF_	ADVB	_	_	NA	_	MAINDECL	_	Zitat	NF-MF	13v,03; -zen	UNLINK2	KOREF2-SATZ
+16	ge(=)heilet	_	_	VVPP	_	_	_	_	_	CP	geheilet	16,26	NF_	ADVB	_	_	VVPP	_	MAINDECL	RK	Zitat	NF-RK	13v,04	UNLINK2	KOREF2-SATZ
+17	hat	_	_	VAFIN	_	_	_	_	_	CP	hat	16,26	NF_	ADVB	_	_	VAFIN	_	MAINDECL	RK	Zitat	NF-RK	13v,04	UNLINK2	KOREF2-SATZ
+18	.	_	_	$.	_	_	_	_	_	CP	.	16,26	NF_	ADVB	_	_	$_	_	MAINDECL	_	Zitat	NF	13v,04	UNLINK2	KOREF2-SATZ
+19	uon	_	_	APPR	_	_	_	_	_	CP	uon	16,26	NF_	ADVB	_	_	APPR	_	MAINDECL	_	Zitat	NF-NF	13v,04	UNLINK2	KOREF2-SATZ
+20	allin	_	_	PIAT	_	_	_	_	_	CP	allin	16,26	NF_	ADVB	_	_	DI	_	MAINDECL	_	Zitat	NF-NF	13v,04	UNLINK2	KOREF2-SATZ
+21	ir	_	_	PPOSAT	_	_	_	_	_	CP	ir	16,26	NF_	ADVB	_	_	DPOS	_	MAINDECL	_	Zitat	NF-NF	13v,04	UNLINK2	KOREF2-SATZ
+22	ſuntin	_	_	NN	_	_	_	_	_	CP	ſuntin	16,26	NF_	ADVB	_	_	NA	_	MAINDECL	_	Zitat	NF-NF	13v,04	UNLINK2	KOREF2-SATZ
+23	.	_	_	$.	_	_	_	_	_	_	.	16,26	_	_	_	_	$_	_	MAINDECL	_	Zitat	_	13v,04	_	_
+
+# sent_id = 6
+# text = Sechs alter ſint unſ irzeiget in diſem lêbene. in den wir durch got arbeiten ſchvlin.
+1	Sechs	_	_	CARD	_	_	_	_	_	NP	Sechs	17,02	_	SUBJ	_	Sechs: uebergeschrieben: %.VI%.	CARD	_	MAINDECL	_	_	VF	13v,13	_	_
+2	alter	_	_	NN	_	_	_	_	_	NP	alter	17,02	_	SUBJ	_	_	NA	_	MAINDECL	_	_	VF	13v,13	_	_
+3	ſint	_	_	VAFIN	_	_	_	_	_	VP	ſint	17,02	_	VFIN	_	_	VAFIN	LI	MAINDECL	LK	_	LK	13v,13	_	_
+4	unſ	_	_	PPER	_	_	_	_	_	NP	unſ	17,02	_	IO-DAT	_	_	PPER	_	MAINDECL	_	_	MF	13v,13	_	_
+5	irzeiget	_	_	VVPP	_	_	_	_	_	VP	irzeiget	17,02	_	INF	_	_	VVPP	RE	MAINDECL	RK	_	RK	13v,13	_	_
+6	in	_	_	APPR	_	_	_	_	_	PP	in	17,02	CF	PP-ADV	_	_	APPR	_	MAINDECL	_	_	NF	13v,13	UNLINK	KOREF1-REL
+7	diſem	_	_	ART	_	_	_	_	_	PP	diſem	17,02	CF	PP-ADV	ACC-ABSTR-UNUSED	_	DDA	_	MAINDECL	_	_	NF	13v,13	UNLINK	KOREF1-REL
+8	lêbene	_	_	NN	_	_	_	_	_	PP	lêbene	17,03	CF	PP-ADV	ACC-ABSTR-UNUSED	_	NA	_	MAINDECL	_	_	NF	13v,14; -sem	UNLINK	KOREF1-REL
+9	.	_	_	$.	_	_	_	_	_	_	.	17,03	CF	_	_	_	$_	_	MAINDECL	_	_	NF	13v,14; -sem	UNLINK	_
+10	in	_	_	APPR	_	_	_	_	_	CP	in	17,03	CF	ATTR	_	_	APPR	_	MAINDECL	LK	_	NF-LK	13v,14; -sem	UNLINK	_
+11	den	_	_	ART	_	_	_	_	_	CP	den	17,03	CF	ATTR	_	_	DDA	_	MAINDECL	LK	_	NF-LK	13v,14; -sem	UNLINK	KOREF2-REL
+12	wir	_	_	PPER	_	_	_	_	_	CP	wir	17,03	CF	ATTR	_	_	PPER	_	MAINDECL	_	_	NF-MF	13v,14; -sem	UNLINK	_
+13	durch	_	_	APPR	_	_	_	_	_	CP	durch	17,03	CF	ATTR	_	_	APPR	_	MAINDECL	_	_	NF-MF	13v,14; -sem	UNLINK	_
+14	got	_	_	NN	_	_	_	_	_	CP	got	17,03	CF	ATTR	_	_	NA	_	MAINDECL	_	_	NF-MF	13v,14; -sem	UNLINK	_
+15	arbeiten	_	_	VVINF	_	_	_	_	_	CP	arbeiten	17,03	CF	ATTR	_	_	VVINF	_	MAINDECL	RK	_	NF-RK	13v,14; -sem	UNLINK	_
+16	ſchvlin	_	_	VMFIN	_	_	_	_	_	CP	ſchvlin	17,03	CF	ATTR	_	_	VMFIN	_	MAINDECL	RK	_	NF-RK	13v,14; -sem	UNLINK	_
+17	.	_	_	$.	_	_	_	_	_	_	.	17,03	_	_	_	_	$_	_	MAINDECL	_	_	_	13v,15; -lin	_	_

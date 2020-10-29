@@ -1,0 +1,151 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN EDITION FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG WIEDERAUFNAHME
+# sent_id = 1
+# text = *{I*}ch habe ein woͤrtlin genomen vs dem Ewāgelio vō dem richen man vn̄ vō Laza=ro.
+1	*{I*}ch	_	_	PPER	_	_	_	_	_	NP	Ich	264,12	_	SUBJ	_	PPER	_	MAINDECL	_	VF	40rb,14	_	_
+2	habe	_	_	VAFIN	_	_	_	_	_	VP	habe	264,12	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	40rb,14	_	_
+3	ein	_	_	ART	_	_	_	_	_	NP	ein	264,12	_	DO	_	DIA	_	MAINDECL	_	MF	40rb,14	_	_
+4	woͤrtlin	_	_	NN	_	_	_	_	_	NP	woͤrtlin	264,12	_	DO	_	NA	_	MAINDECL	_	MF	40rb,15	_	_
+5	genomen	_	_	VVPP	_	_	_	_	_	VP	genomen	264,12	_	INF	_	VVPP	RE	MAINDECL	RK	RK	40rb,15	_	_
+6	vs	_	_	APPR	_	_	_	_	_	PP	vs	264,12	BGR_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	40rb,15	UNLINK1	_
+7	dem	_	_	ART	_	_	_	_	_	PP	dem	264,12	BGR_	PP-OBJ	ACC-UNI-UNUSED_	DDA	_	MAINDECL	_	NF	40rb,16	UNLINK1	_
+8	Ewāgelio	_	_	NE	_	_	_	_	_	PP	Ewāgelio	264,12	BGR_	PP-OBJ	ACC-UNI-UNUSED_	NE	_	MAINDECL	_	NF	40rb,16	UNLINK1	_
+9	vō	_	_	APPR	_	_	_	_	_	PP	vō	264,12	NF_	ATTR	_	APPR	_	MAINDECL	_	NF	40rb,16	UNLINK2	_
+10	dem	_	_	ART	_	_	_	_	_	PP	dem	264,12	NF_	ATTR	_NEW_	DDA	_	MAINDECL	_	NF	40rb,16	UNLINK2	KOREF1
+11	richen	_	_	ADJA	_	_	_	_	_	PP	richen	264,13	NF_	ATTR	_NEW_	ADJ	_	MAINDECL	_	NF	40rb,17; Laza-	UNLINK2	KOREF1
+12	man	_	_	NN	_	_	_	_	_	PP	man	264,13	NF_	ATTR	_NEW_	NA	_	MAINDECL	_	NF	40rb,17; Laza-	UNLINK2	KOREF1
+13	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	264,13	NF_	_	_	KON	_	MAINDECL	_	NF	40rb,17; Laza-	UNLINK2	_
+14	vō	_	_	APPR	_	_	_	_	_	PP	vō	264,13	NF_	ATTR	_	APPR	_	MAINDECL	_	NF	40rb,17; Laza-	UNLINK2	_
+15	Laza=ro	_	_	NE	_	_	_	_	_	PP	Lazaro	264,13	NF_	ATTR	_ACC-UNI-UNUSED	NE	_	MAINDECL	_	NF	40rb,17; Laza-	UNLINK2	KOREF1
+16	.	_	_	$.	_	_	_	_	_	_	.	264,13	_	_	_	$_	_	MAINDECL	_	_	40rb,18; -ro	_	_
+
+# sent_id = 2
+# text = vn̄ wart begraben ín d' helle.
+1	vn̄	_	_	KON	_	_	_	_	_	_	vn̄	264,14	_	_	_	KON	_	MAINDECL-ELLI	_	KOORD	40rb,21	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	264,14	_	VFIN	_	VAFIN	LI	MAINDECL-ELLI	LK	LK	40rb,21	_	_
+3	begraben	_	_	VVPP	_	_	_	_	_	VP	begraben	264,14	_	INF	_	VVPP	RE	MAINDECL-ELLI	RK	RK	40rb,21	_	_
+4	ín	_	_	APPR	_	_	_	_	_	PP	ín	264,14	NF	PP-SIT	_	APPR	_	MAINDECL-ELLI	_	NF	40rb,22	UNLINK	_
+5	d'	_	_	ART	_	_	_	_	_	PP	d'	264,15	NF	PP-SIT	ACC-ABSTR-UNUSED	DDA	_	MAINDECL-ELLI	_	NF	40rb,22	UNLINK	_
+6	helle	_	_	NN	_	_	_	_	_	PP	helle	264,15	NF	PP-SIT	ACC-ABSTR-UNUSED	NA	_	MAINDECL-ELLI	_	NF	40rb,22	UNLINK	_
+7	.	_	_	$.	_	_	_	_	_	_	.	264,15	_	_	_	$_	_	MAINDECL-ELLI	_	_	40rb,22	_	_
+
+# sent_id = 3
+# text = d' wart nuwā gepíníget vmb ſíne vͥberfluͥſſikeít die er nam an ſpiſe vn̄ an kleid'n vn̄ an worten.
+1	d'	_	_	PDS	_	_	_	_	_	NP	d'	264,35	_	SUBJ	_	DDS	_	MAINDECL	_	VF	41ra,07	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	264,35	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	41ra,08	_	_
+3	nuwā	_	_	ADV	_	_	_	_	_	ADVP	nuwā	264,35	_	ADVB	_	ADV	_	MAINDECL	_	MF	41ra,08	_	_
+4	gepíníget	_	_	VVPP	_	_	_	_	_	VP	gepíníget	264,35	CF	INF	_	VVPP	RE	MAINDECL	RK	RK	41ra,08	_	_
+5	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	264,35	CF	PP-ADV	_	APPR	_	MAINDECL	_	NF	41ra,09	UNLINK	_
+6	ſíne	_	_	PPOSAT	_	_	_	_	_	PP	ſíne	264,35	CF	PP-ADV	ACC-INF_	DPOS	_	MAINDECL	_	NF	41ra,09	UNLINK	_
+7	vͥberfluͥſſikeít	_	_	NN	_	_	_	_	_	PP	vͥberfluͥſſikeít	264,35	CF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	41ra,09	UNLINK	KOREF1-REL
+8	die	_	_	PRELS	_	_	_	_	_	CP	die	264,35	_	ATTR	_	DDSREL	_	MAINDECL	LK	NF-LK	41ra,10	UNLINK	KOREF2-REL
+9	er	_	_	PPER	_	_	_	_	_	CP	er	264,36	_	ATTR	_	PPER	_	MAINDECL	_	NF-MF	41ra,10	UNLINK	_
+10	nam	_	_	VVFIN	_	_	_	_	_	CP	nam	264,36	_	ATTR	_	VVFIN	_	MAINDECL	RK	NF-RK	41ra,10	UNLINK	_
+11	an	_	_	APPR	_	_	_	_	_	CP	an	264,36	_	ATTR	_	APPR	_	MAINDECL	_	NF-NF	41ra,10	UNLINK	_
+12	ſpiſe	_	_	NN	_	_	_	_	_	CP	ſpiſe	264,36	_	ATTR	_	NA	_	MAINDECL	_	NF-NF	41ra,10	UNLINK	_
+13	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	264,36	_	ATTR	_	KON	_	MAINDECL	_	NF-NF	41ra,10	UNLINK	_
+14	an	_	_	APPR	_	_	_	_	_	CP	an	264,36	_	ATTR	_	APPR	_	MAINDECL	_	NF-NF	41ra,11	UNLINK	_
+15	kleid'n	_	_	NN	_	_	_	_	_	CP	kleid'n	264,36	_	ATTR	_	NA	_	MAINDECL	_	NF-NF	41ra,11	UNLINK	_
+16	vn̄	_	_	KON	_	_	_	_	_	CP	vn̄	264,36	_	ATTR	_	KON	_	MAINDECL	_	NF-NF	41ra,11	UNLINK	_
+17	an	_	_	APPR	_	_	_	_	_	CP	an	264,36	_	ATTR	_	APPR	_	MAINDECL	_	NF-NF	41ra,11	UNLINK	_
+18	worten	_	_	NN	_	_	_	_	_	CP	worten	264,36	_	ATTR	_	NA	_	MAINDECL	_	NF-NF	41ra,11	UNLINK	_
+19	.	_	_	$.	_	_	_	_	_	_	.	264,36	_	_	_	$_	_	MAINDECL	_	_	41ra,11	_	_
+
+# sent_id = 4
+# text = Er wart oͮch gepi(=)níget vmb ſine vnerba(=)rmh'zi(=)keit
+1	Er	_	_	PPER	_	_	_	_	_	NP	Er	264,37	_	SUBJ	_	PPER	_	MAINDECL	_	VF	41ra,13; gepi-	_	_
+2	wart	_	_	VAFIN	_	_	_	_	_	VP	wart	264,37	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	41ra,13; gepi-	_	_
+3	oͮch	_	_	KON	_	_	_	_	_	_	oͮch	264,37	_	_	_	KON	_	MAINDECL	_	MF	41ra,13; gepi-	_	_
+4	gepi(=)níget	_	_	VVPP	_	_	_	_	_	VP	gepiníget	264,37	CF	INF	_	VVPP	RE	MAINDECL	RK	RK	41ra,13; gepi-	_	_
+5	vmb	_	_	APPR	_	_	_	_	_	PP	vmb	264,37	CF	PP-ADV	_	APPR	_	MAINDECL	_	NF	41ra,14; -níget | vnerba-	UNLINK	_
+6	ſine	_	_	PPOSAT	_	_	_	_	_	PP	ſine	264,37	CF	PP-ADV	ACC-INF_	DPOS	_	MAINDECL	_	NF	41ra,14; -níget | vnerba-	UNLINK	_
+7	vnerba(=)rmh'zi(=)keit	_	_	NN	_	_	_	_	_	PP	vnerbarmh'zikeit	264,37	CF	PP-ADV	_ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	41ra,14; -níget | vnerba-	UNLINK	KOREF1
+
+# sent_id = 5
+# text = Nv wil ich vͥch ſagē ein rede.
+1	Nv	_	_	ADV	_	_	_	_	_	ADVP	Nv	265,24	_	ADVB	_	ADV	_	MAINDECL	_	VF	42vb,06	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	265,24	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	42vb,06	_	_
+3	ich	_	_	PPER	_	_	_	_	_	NP	ich	265,24	_	SUBJ	_	PPER	_	MAINDECL	_	MF	42vb,06	_	_
+4	vͥch	_	_	PPER	_	_	_	_	_	NP	vͥch	265,24	_	IO-DAT	_	PPER	_	MAINDECL	_	MF	42vb,06	_	_
+5	ſagē	_	_	VVINF	_	_	_	_	_	VP	ſagē	265,24	_	INF	_	VVINF	RE	MAINDECL	RK	RK	42vb,06	_	_
+6	ein	_	_	ART	_	_	_	_	_	NP	ein	265,24	NF	DO	ACC-ABSTR-UNUSED	DIA	_	MAINDECL	_	NF	42vb,07; ge-	UNLINK	KOREF1
+7	rede	_	_	NN	_	_	_	_	_	NP	rede	265,24	NF	DO	ACC-ABSTR-UNUSED	NA	_	MAINDECL	_	NF	42vb,07; ge-	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	265,24	_	_	_	$_	_	MAINDECL	_	_	42vb,07; ge-	_	_
+
+# sent_id = 6
+# text = du ſolt vͥb' drizig tage komen ín díe ſtat d' ewigē vroͤden.
+1	du	_	_	PPER	_	_	_	_	_	NP	du	266,31	_	SUBJ	_	PPER	_	MAINDECL	_	VF	44ra,06	_	_
+2	ſolt	_	_	VMFIN	_	_	_	_	_	VP	ſolt	266,31	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	44ra,06	_	_
+3	vͥb'	_	_	APPR	_	_	_	_	_	PP	vͥb'	266,31	_	PP-ADV	_	APPR	_	MAINDECL	_	MF	44ra,07	_	_
+4	drizig	_	_	CARD	_	_	_	_	_	PP	drizig	266,31	_	PP-ADV	_	CARD	_	MAINDECL	_	MF	44ra,07	_	_
+5	tage	_	_	NN	_	_	_	_	_	PP	tage	266,31	_	PP-ADV	_	NA	_	MAINDECL	_	MF	44ra,07	_	_
+6	komen	_	_	VVINF	_	_	_	_	_	VP	komen	266,31	_	INF	_	VVINF	RE	MAINDECL	RK	RK	44ra,07	_	_
+7	ín	_	_	APPR	_	_	_	_	_	PP	ín	266,31	BGR	PP-DIR	_	APPR	_	MAINDECL	_	NF	44ra,07	UNLINK	_
+8	díe	_	_	ART	_	_	_	_	_	PP	díe	266,31	BGR	PP-DIR	_	DDA	_	MAINDECL	_	NF	44ra,08	UNLINK	_
+9	ſtat	_	_	NN	_	_	_	_	_	PP	ſtat	266,31	BGR	PP-DIR	GIV-INACTIVE_	NA	_	MAINDECL	_	NF	44ra,08	UNLINK	_
+10	d'	_	_	ART	_	_	_	_	_	NP	d'	266,31	BGR	ATTR	_	DDA	_	MAINDECL	_	NF	44ra,08	UNLINK	_
+11	ewigē	_	_	ADJA	_	_	_	_	_	NP	ewigē	266,31	BGR	ATTR	_ACC-INF	ADJ	_	MAINDECL	_	NF	44ra,08	UNLINK	_
+12	vroͤden	_	_	NN	_	_	_	_	_	NP	vroͤden	266,32	BGR	ATTR	_ACC-INF	NA	_	MAINDECL	_	NF	44ra,08	UNLINK	_
+13	.	_	_	$.	_	_	_	_	_	_	.	266,32	_	_	_	$_	_	MAINDECL	_	_	44ra,08	_	_
+
+# sent_id = 7
+# text = *(N*)u wil ich ſa(=)gen vō den engeln.
+1	*(N*)u	_	_	ADV	_	_	_	_	_	ADVP	(N)u	268,10	_	ADVB	_	ADV	_	MAINDECL	_	VF	45va,13	_	_
+2	wil	_	_	VMFIN	_	_	_	_	_	VP	wil	268,10	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	45va,13	_	_
+3	ich	_	_	PPER	_	_	_	_	_	NP	ich	268,10	_	SUBJ	_	PPER	_	MAINDECL	_	MF	45va,13	_	_
+4	ſa(=)gen	_	_	VVINF	_	_	_	_	_	VP	ſagen	268,10	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	45va,13	_	_
+5	vō	_	_	APPR	_	_	_	_	_	PP	vō	268,10	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	45va,14	UNLINK	_
+6	den	_	_	ART	_	_	_	_	_	PP	den	268,10	NF	PP-ADV	_	DDA	_	MAINDECL	_	NF	45va,14	UNLINK	_
+7	engeln	_	_	NN	_	_	_	_	_	PP	engeln	268,10	NF	PP-ADV	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	45va,14	UNLINK	KOREF1
+8	.	_	_	$.	_	_	_	_	_	_	.	268,10	_	_	_	$_	_	MAINDECL	_	_	45va,14	_	_
+
+# sent_id = 8
+# text = alſo ſol d' and' ker me wachſen an mī́ne vnd an ernſte dēn d' erſte.
+1	alſo	_	_	ADV	_	_	_	_	_	ADVP	alſo	268,37	_	ADVB	_	ADV	_	MAINDECL	_	VF	46rb,16	_	_
+2	ſol	_	_	VMFIN	_	_	_	_	_	VP	ſol	268,37	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	46rb,16	_	_
+3	d'	_	_	ART	_	_	_	_	_	NP	d'	268,37	_	SUBJ	_	DDA	_	MAINDECL	_	MF	46rb,16	_	_
+4	and'	_	_	ADJA	_	_	_	_	_	NP	and'	268,37	_	SUBJ	_	ADJO	_	MAINDECL	_	MF	46rb,16	_	_
+5	ker	_	_	NN	_	_	_	_	_	NP	ker	268,37	_	SUBJ	_	NA	_	MAINDECL	_	MF	46rb,16	_	_
+6	me	_	_	ADV	_	_	_	_	_	ADVP	me	268,37	_	ADVB	_	ADV	_	MAINDECL	_	MF	46rb,16	_	_
+7	wachſen	_	_	VVINF	_	_	_	_	_	VP	wachſen	268,37	_	INF	_	VVINF	RE	MAINDECL	RK	RK	46rb,17	_	_
+8	an	_	_	APPR	_	_	_	_	_	PP	an	268,37	_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	46rb,17	UNLINK	_
+9	mī́ne	_	_	NN	_	_	_	_	_	PP	mī́ne	268,37	_	PP-OBJ	ACC-ABSTR-USED-1_	NA	_	MAINDECL	_	NF	46rb,17	UNLINK	_
+10	vnd	_	_	KON	_	_	_	_	_	_	vnd	268,37	_	_	_	KON	_	MAINDECL	_	NF	46rb,18	UNLINK	_
+11	an	_	_	APPR	_	_	_	_	_	PP	an	268,38	_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	46rb,18	UNLINK	_
+12	ernſte	_	_	NN	_	_	_	_	_	PP	ernſte	268,38	_	PP-OBJ	_ACC-ABSTR-USED-1	NA	_	MAINDECL	_	NF	46rb,18	UNLINK	_
+13	dēn	_	_	KOKOM	_	_	_	_	_	PP	dēn	268,38	CF	VGL	_	KOKOM	_	MAINDECL	_	NF	46rb,18	LINK_ASSYM	_
+14	d'	_	_	ART	_	_	_	_	_	PP	d'	268,38	CF	VGL	GIV-INACTIVE	DDA	_	MAINDECL	_	NF	46rb,18	LINK_ASSYM	_
+15	erſte	_	_	NN	_	_	_	_	_	PP	erſte	268,38	CF	VGL	GIV-INACTIVE	ADJOS	_	MAINDECL	_	NF	46rb,18	LINK_ASSYM	_
+16	.	_	_	$.	_	_	_	_	_	_	.	268,38	_	_	_	$_	_	MAINDECL	_	_	46rb,18	_	_
+
+# sent_id = 9
+# text = Dero mugē vͥns tuſent wer=den eíns tages
+1	Dero	_	_	PAV	_	_	_	_	_	ADVP	Dero	268,38	_	ADVB	_	PAV	_	MAINDECL	_	VF	46rb,19	_	_
+2	mugē	_	_	VMFIN	_	_	_	_	_	VP	mugē	268,38	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	46rb,20	_	_
+3	vͥns	_	_	PPER	_	_	_	_	_	NP	vͥns	268,38	_	IO-DAT	_	PPER	_	MAINDECL	_	MF	46rb,20	_	_
+4	tuſent	_	_	CARD	_	_	_	_	_	NP	tuſent	268,39	_	PRD	_	CARDD	_	MAINDECL	_	MF	46rb,20	_	_
+5	wer=den	_	_	VVINF	_	_	_	_	_	VP	werden	268,39	_	INF	_	VVINF	RE	MAINDECL	RK	RK	46rb,20	_	_
+6	eíns	_	_	ART	_	_	_	_	_	NP	eíns	268,39	BGR	IO-GEN	NA	DIA	_	MAINDECL	_	NF	46rb,21	UNLINK	_
+7	tages	_	_	NN	_	_	_	_	_	NP	tages	268,39	BGR	IO-GEN	NA	NA	_	MAINDECL	_	NF	46rb,21	UNLINK	_
+
+# sent_id = 10
+# text = ſo mugē wír zuͦne(=)men an zuͦuallendē weſlichē lone. ein' drízig iar. d' ander víerzig od' ſechzíg íar.
+1	ſo	_	_	ADV	_	_	_	_	_	ADVP	ſo	268,39	_	ADVB	_	ADV	_	MAINDECL	_	VF	46rb,23	_	_
+2	mugē	_	_	VMFIN	_	_	_	_	_	VP	mugē	268,39	_	VFIN	_	VMFIN	LI	MAINDECL	LK	LK	46rb,23	_	_
+3	wír	_	_	PPER	_	_	_	_	_	NP	wír	268,40	_	SUBJ	_	PPER	_	MAINDECL	_	MF	46rb,23	_	_
+4	zuͦne(=)men	_	_	VVINF	_	_	_	_	_	VP	zuͦnemen	268,40	_	INF	_	VVINF	RE	MAINDECL	RK	RK	46rb,23	_	_
+5	an	_	_	APPR	_	_	_	_	_	PP	an	268,40	_	PP-OBJ	_	APPR	_	MAINDECL	_	NF	46va,01	UNLINK	_
+6	zuͦuallendē	_	_	ADJA	_	_	_	_	_	PP	zuͦuallendē	268,40	BGR	PP-OBJ	ACC-ABSTR-USED-X	ADJ	_	MAINDECL	_	NF	46va,01	UNLINK	_
+7	weſlichē	_	_	ADJA	_	_	_	_	_	PP	weſlichē	268,40	BGR	PP-OBJ	ACC-ABSTR-USED-X	ADJ	_	MAINDECL	_	NF	46va,01	UNLINK	_
+8	lone	_	_	NN	_	_	_	_	_	PP	lone	268,40	BGR	PP-OBJ	ACC-ABSTR-USED-X	NA	_	MAINDECL	_	NF	46va,01	UNLINK	_
+9	.	_	_	$.	_	_	_	_	_	_	.	268,40	_	_	_	$_	_	MAINDECL	_	NF	46va,01	_	_
+10	ein'	_	_	NN	_	_	_	_	_	NP	ein'	268,40	CF	APPOS	_	ADJOS	_	MAINDECL	_	NF	46va,02	LINK_APPOS	_
+11	drízig	_	_	ADJA	_	_	_	_	_	NP	drízig	268,40	CF	APPOS	_	ADJO	_	MAINDECL	_	NF	46va,02	LINK_APPOS	_
+12	iar	_	_	NN	_	_	_	_	_	NP	iar	268,40	CF	APPOS	_	NA	_	MAINDECL	_	NF	46va,02	LINK_APPOS	_
+13	.	_	_	$.	_	_	_	_	_	_	.	268,40	_	_	_	$_	_	MAINDECL	_	NF	46va,02	_	_
+14	d'	_	_	ART	_	_	_	_	_	NP	d'	268,40	CF	APPOS	_	DDA	_	MAINDECL	_	NF	46va,02	LINK_APPOS	_
+15	ander	_	_	NN	_	_	_	_	_	NP	ander	268,40	CF	APPOS	_	ADJOS	_	MAINDECL	_	NF	46va,02	LINK_APPOS	_
+16	víerzig	_	_	ADJA	_	_	_	_	_	NP	víerzig	_	CF	APPOS	_	ADJO	_	MAINDECL	_	NF	46va,03	LINK_APPOS	_
+17	od'	_	_	KON	_	_	_	_	_	NP	od'	_	CF	APPOS	_	KON	_	MAINDECL	_	NF	46va,03	LINK_APPOS	_
+18	ſechzíg	_	_	ADJA	_	_	_	_	_	NP	ſechzíg	_	CF	APPOS	_	ADJO	_	MAINDECL	_	NF	46va,03	LINK_APPOS	_
+19	íar	_	_	NN	_	_	_	_	_	NP	íar	_	CF	APPOS	_	NA	_	MAINDECL	_	NF	46va,03	LINK_APPOS	_
+20	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	_	$_	_	MAINDECL	_	_	46va,03	_	_

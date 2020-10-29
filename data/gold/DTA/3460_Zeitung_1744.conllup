@@ -1,0 +1,534 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC SentBrckt TopF
+# sent_id = 1
+# sent_id(TSV) = 4
+# text = ES ist bishero sehr vieles von der Unpäßlichkeit des Kö-<lb/>nigs von Franckreich , und der Bestürtzung , in welche die Unterthanen darüber gerathen , geschrieben worden ; sie ist fast unglaublich groß gewesen .
+1	ES	es	_	PPER	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	bishero	bisher	_	ADV	_	_	_	_	_	_	MF
+4	sehr	sehr	_	ADV	_	_	_	_	_	_	MF
+5	vieles	vieles	_	PIS	_	_	_	_	_	_	MF
+6	von	von	_	APPR	_	_	_	_	_	_	MF
+7	der	d	_	ART	_	_	_	_	_	_	MF
+8	Unpäßlichkeit	Unpäßlichkeit	_	NN	_	_	_	_	_	_	MF
+9	des	d	_	ART	_	_	_	_	_	_	MF
+10	Kö-<lb/>nigs	König	_	NN	_	_	_	_	_	_	MF
+11	von	von	_	APPR	_	_	_	_	_	_	MF
+12	Franckreich	Frankreich	_	NE	_	_	_	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	und	und	_	KON	_	_	_	_	_	_	MF
+15	der	d	_	ART	_	_	_	_	_	_	MF
+16	Bestürtzung	Bestürzung	_	NN	_	_	_	_	_	_	MF
+17	,	,	_	$,	_	_	_	_	_	_	MF
+18	in	in	_	APPR	_	_	_	_	_	LK	MF-LK
+19	welche	welche	_	PRELS	_	_	_	_	_	LK	MF-LK
+20	die	d	_	ART	_	_	_	_	_	_	MF-MF
+21	Unterthanen	Untertan	_	NN	_	_	_	_	_	_	MF-MF
+22	darüber	darüber	_	PAV	_	_	_	_	_	_	MF-MF
+23	gerathen	geraten	_	VVPP	_	_	_	_	_	RK	MF-RK
+24	,	,	_	$,	_	_	_	_	_	_	_
+25	geschrieben	schreiben	_	VVPP	_	_	_	_	_	RK	RK
+26	worden	werden	_	VAPP	_	_	_	_	_	RK	RK
+27	;	\;	_	$.	_	_	_	_	_	_	_
+28	sie	sie	_	PPER	_	_	_	_	_	_	VF
+29	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+30	fast	fast	_	ADV	_	_	_	_	_	_	MF
+31	unglaublich	unglaublich	_	ADJD	_	_	_	_	_	_	MF
+32	groß	groß	_	ADJD	_	_	_	_	_	_	MF
+33	gewesen	sein	_	VAPP	_	_	_	_	_	RK	RK
+34	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 2
+# sent_id(TSV) = 5
+# text = Was würde man aber nicht noch von ihren Bezeigen vernommen haben , wenn das Ableben des Königs würcklich erfolget wäre ? von dem was sich schon ersten Falls in Paris zugetragen , giebet uns wohl folgender Extract eines Schreibens einer Dame aus Paris vom 18. August die mehreste Nachricht :
+1	Was	was	_	PWS	_	_	_	_	_	_	VF
+2	würde	werden	_	VAFIN	_	_	_	_	_	LK	LK
+3	man	man	_	PIS	_	_	_	_	_	_	MF
+4	aber	aber	_	ADV	_	_	_	_	_	_	MF
+5	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+6	noch	noch	_	ADV	_	_	_	_	_	_	MF
+7	von	von	_	APPR	_	_	_	_	_	_	MF
+8	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	MF
+9	Bezeigen	Bezeigen	_	NN	_	_	_	_	_	_	MF
+10	vernommen	vernehmen	_	VVPP	_	_	_	_	_	RK	RK
+11	haben	haben	_	VAINF	_	_	_	_	_	RK	RK
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	wenn	wenn	_	KOUS	_	_	_	_	_	LK	NF-LK
+14	das	d	_	ART	_	_	_	_	_	_	NF-MF
+15	Ableben	Ableben	_	NN	_	_	_	_	_	_	NF-MF
+16	des	d	_	ART	_	_	_	_	_	_	NF-MF
+17	Königs	König	_	NN	_	_	_	_	_	_	NF-MF
+18	würcklich	wirklich	_	ADJD	_	_	_	_	_	_	NF-MF
+19	erfolget	erfolgen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+20	wäre	sein	_	VAFIN	_	_	_	_	_	RK	NF-RK
+21	?	?	_	$.	_	_	_	_	_	_	_
+22	von	von	_	APPR	_	_	_	_	_	_	VF
+23	dem	d	_	PDS	_	_	_	_	_	_	VF
+24	was	was	_	PRELS	_	_	_	_	_	LK	VF-LK
+25	sich	sich	_	PRF	_	_	_	_	_	_	VF-MF
+26	schon	schon	_	ADV	_	_	_	_	_	_	VF-MF
+27	ersten	erst	_	ADJA	_	_	_	_	_	_	VF-MF
+28	Falls	Fall	_	NN	_	_	_	_	_	_	VF-MF
+29	in	in	_	APPR	_	_	_	_	_	_	VF-MF
+30	Paris	Paris	_	NE	_	_	_	_	_	_	VF-MF
+31	zugetragen	zutragen	_	VVPP	_	_	_	_	_	RK	VF-RK
+32	,	,	_	$,	_	_	_	_	_	_	_
+33	giebet	geben	_	VVFIN	_	_	_	_	_	LK	LK
+34	uns	wir	_	PPER	_	_	_	_	_	_	MF
+35	wohl	wohl	_	ADV	_	_	_	_	_	_	MF
+36	folgender	folgend	_	ADJA	_	_	_	_	_	_	MF
+37	Extract	Extrakt	_	NN	_	_	_	_	_	_	MF
+38	eines	eine	_	ART	_	_	_	_	_	_	MF
+39	Schreibens	Schreiben	_	NN	_	_	_	_	_	_	MF
+40	einer	eine	_	ART	_	_	_	_	_	_	MF
+41	Dame	Dame	_	NN	_	_	_	_	_	_	MF
+42	aus	aus	_	APPR	_	_	_	_	_	_	MF
+43	Paris	Paris	_	NE	_	_	_	_	_	_	MF
+44	vom	vom	_	APPRART	_	_	_	_	_	_	MF
+45	18.	18.	_	ADJA	_	_	_	_	_	_	MF
+46	August	August	_	NN	_	_	_	_	_	_	MF
+47	die	d	_	ART	_	_	_	_	_	_	MF
+48	mehreste	meiste	_	ADJA	_	_	_	_	_	_	MF
+49	Nachricht	Nachricht	_	NN	_	_	_	_	_	_	MF
+50	:	:	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 3
+# sent_id(TSV) = 6
+# text = Es ist jetzt nicht mehr die Frage : Was man neues vom Kriege habe , wolte GOtt ! ich hätte davon ihnen niemahls etwas zu berichten gehabt :
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	jetzt	jetzt	_	ADV	_	_	_	_	_	_	MF
+4	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+5	mehr	mehr	_	ADV	_	_	_	_	_	_	MF
+6	die	d	_	ART	_	_	_	_	_	_	MF
+7	Frage	Frage	_	NN	_	_	_	_	_	_	MF
+8	:	:	_	$.	_	_	_	_	_	_	_
+9	Was	was	_	PWS	_	_	_	_	_	LK	NF-LK
+10	man	man	_	PIS	_	_	_	_	_	_	NF-MF
+11	neues	neu	_	NN	_	_	_	_	_	_	NF-MF
+12	vom	vom	_	APPRART	_	_	_	_	_	_	NF-MF
+13	Kriege	Krieg	_	NN	_	_	_	_	_	_	NF-MF
+14	habe	haben	_	VAFIN	_	_	_	_	_	RK	NF-RK
+15	,	,	_	$,	_	_	_	_	_	_	_
+16	wolte	wollen	_	VMFIN	_	_	_	_	_	LK	LV-LK
+17	GOtt	Gott	_	NN	_	_	_	_	_	_	LV-MF
+18	!	!	_	$.	_	_	_	_	_	_	_
+19	ich	ich	_	PPER	_	_	_	_	_	_	VF
+20	hätte	haben	_	VAFIN	_	_	_	_	_	LK	LK
+21	davon	davon	_	PAV	_	_	_	_	_	_	MF
+22	ihnen	sie	_	PPER	_	_	_	_	_	_	MF
+23	niemahls	niemals	_	ADV	_	_	_	_	_	_	MF
+24	etwas	etwas	_	PIS	_	_	_	_	_	_	MF
+25	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+26	berichten	berichten	_	VVINF	_	_	_	_	_	RK	RK
+27	gehabt	haben	_	VAPP	_	_	_	_	_	RK	RK
+28	:	:	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 4
+# sent_id(TSV) = 8
+# text = Vielleicht fänden wir uns je-<lb/>tzund nicht in solcher Conſternation und Schrecken , worein uns die Maladie des Königs gesetzet .
+1	Vielleicht	vielleicht	_	ADV	_	_	_	_	_	_	VF
+2	fänden	finden	_	VVFIN	_	_	_	_	_	LK	LK
+3	wir	wir	_	PPER	_	_	_	_	_	_	MF
+4	uns	uns	_	PRF	_	_	_	_	_	_	MF
+5	je-<lb/>tzund	jetzund	_	ADV	_	_	_	_	_	_	MF
+6	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	solcher	solch	_	PIAT	_	_	_	_	_	_	MF
+9	Conſternation	Consternation	_	NN	_	_	_	_	_	_	MF
+10	und	und	_	KON	_	_	_	_	_	_	MF
+11	Schrecken	Schrecken	_	NN	_	_	_	_	_	_	MF
+12	,	,	_	$,	_	_	_	_	_	_	_
+13	worein	worein	_	PWAV	_	_	_	_	_	LK	NF-LK
+14	uns	wir	_	PPER	_	_	_	_	_	_	NF-MF
+15	die	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Maladie	Maladie	_	NN	_	_	_	_	_	_	NF-MF
+17	des	d	_	ART	_	_	_	_	_	_	NF-MF
+18	Königs	König	_	NN	_	_	_	_	_	_	NF-MF
+19	gesetzet	setzen	_	VVPP	_	_	_	_	_	RK	NF-RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 5
+# sent_id(TSV) = 9
+# text = Es ist ein hitziges Fieber ; und wir haben es nicht eher , als den 15. recht erfahren .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+3	ein	eine	_	ART	_	_	_	_	_	_	MF
+4	hitziges	hitzig	_	ADJA	_	_	_	_	_	_	MF
+5	Fieber	Fieber	_	NN	_	_	_	_	_	_	MF
+6	;	\;	_	$.	_	_	_	_	_	_	_
+7	und	und	_	KON	_	_	_	_	_	_	KOORD
+8	wir	wir	_	PPER	_	_	_	_	_	_	VF
+9	haben	haben	_	VAFIN	_	_	_	_	_	LK	LK
+10	es	es	_	PPER	_	_	_	_	_	_	MF
+11	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+12	eher	eher	_	ADV	_	_	_	_	_	_	MF
+13	,	,	_	$,	_	_	_	_	_	_	MF
+14	als	als	_	KOKOM	_	_	_	_	_	_	MF
+15	den	d	_	ART	_	_	_	_	_	_	MF
+16	15.	15.	_	NN	_	_	_	_	_	_	MF
+17	recht	Recht	_	ADJD	_	_	_	_	_	_	MF
+18	erfahren	erfahren	_	VVINF	_	_	_	_	_	RK	RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 6
+# sent_id(TSV) = 10
+# text = Jn derselben Nacht sind auf 7. Courier einer nach den andern angelanget .
+1	Jn	in	_	APPR	_	_	_	_	_	_	VF
+2	derselben	dieselbe	_	PDAT	_	_	_	_	_	_	VF
+3	Nacht	Nacht	_	NN	_	_	_	_	_	_	VF
+4	sind	sein	_	VAFIN	_	_	_	_	_	LK	LK
+5	auf	auf	_	APPR	_	_	_	_	_	_	MF
+6	7.	7.	_	ADJA	_	_	_	_	_	_	MF
+7	Courier	Kurier	_	NN	_	_	_	_	_	_	MF
+8	einer	eine	_	PIS	_	_	_	_	_	_	MF
+9	nach	nach	_	APPR	_	_	_	_	_	_	MF
+10	den	d	_	ART	_	_	_	_	_	_	MF
+11	andern	ander	_	NN	_	_	_	_	_	_	MF
+12	angelanget	angelangen	_	VVPP	_	_	_	_	_	RK	RK
+13	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 7
+# sent_id(TSV) = 11
+# text = Auf die mit dem letzten , welcher um 4. Uhr des Morgens auf den Schlos-<lb/>se abgestiegen , eingelauffene Depechen ist die Königin 2. Stunden darnach in 3. mit 8. Pferden bespannten Carossen , und einer eben nicht sonderlich grossen Suite nach Metz aufgebrochen .
+1	Auf	auf	_	APPR	_	_	_	_	_	_	VF
+2	die	d	_	PDS	_	_	_	_	_	_	VF
+3	mit	mit	_	APPR	_	_	_	_	_	_	VF
+4	dem	d	_	ART	_	_	_	_	_	_	VF
+5	letzten	letzte	_	ADJA	_	_	_	_	_	_	VF
+6	,	,	_	$,	_	_	_	_	_	_	VF
+7	welcher	welche	_	PRELS	_	_	_	_	_	LK	VF-LK
+8	um	um	_	APPR	_	_	_	_	_	_	VF-MF
+9	4.	4.	_	CARD	_	_	_	_	_	_	VF-MF
+10	Uhr	Uhr	_	NN	_	_	_	_	_	_	VF-MF
+11	des	d	_	ART	_	_	_	_	_	_	VF-MF
+12	Morgens	morgens	_	NN	_	_	_	_	_	_	VF-MF
+13	auf	auf	_	APPR	_	_	_	_	_	_	VF-MF
+14	den	d	_	ART	_	_	_	_	_	_	VF-MF
+15	Schlos-<lb/>se	Schloße	_	NN	_	_	_	_	_	_	VF-MF
+16	abgestiegen	absteigen	_	VVPP	_	_	_	_	_	RK	VF-RK
+17	,	,	_	$,	_	_	_	_	_	_	VF
+18	eingelauffene	eingelaufen	_	ADJA	_	_	_	_	_	_	VF
+19	Depechen	Depesche	_	NN	_	_	_	_	_	_	VF
+20	ist	sein	_	VAFIN	_	_	_	_	_	LK	LK
+21	die	d	_	ART	_	_	_	_	_	_	MF
+22	Königin	Königin	_	NN	_	_	_	_	_	_	MF
+23	2.	2.	_	CARD	_	_	_	_	_	_	MF
+24	Stunden	Stunde	_	NN	_	_	_	_	_	_	MF
+25	darnach	danach	_	PAV	_	_	_	_	_	_	MF
+26	in	in	_	APPR	_	_	_	_	_	_	MF
+27	3.	3.	_	CARD	_	_	_	_	_	_	MF
+28	mit	mit	_	APPR	_	_	_	_	_	_	MF
+29	8.	8.	_	CARD	_	_	_	_	_	_	MF
+30	Pferden	Pferd	_	NN	_	_	_	_	_	_	MF
+31	bespannten	bespannt	_	ADJA	_	_	_	_	_	_	MF
+32	Carossen	Karosse	_	NN	_	_	_	_	_	_	MF
+33	,	,	_	$,	_	_	_	_	_	_	MF
+34	und	und	_	KON	_	_	_	_	_	_	MF
+35	einer	eine	_	ART	_	_	_	_	_	_	MF
+36	eben	eben	_	ADV	_	_	_	_	_	_	MF
+37	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+38	sonderlich	sonderlich	_	ADJD	_	_	_	_	_	_	MF
+39	grossen	groß	_	ADJA	_	_	_	_	_	_	MF
+40	Suite	Suite	_	NN	_	_	_	_	_	_	MF
+41	nach	nach	_	APPR	_	_	_	_	_	_	MF
+42	Metz	Metz	_	NE	_	_	_	_	_	_	MF
+43	aufgebrochen	aufbrechen	_	VVPP	_	_	_	_	_	RK	RK
+44	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 8
+# sent_id(TSV) = 12
+# text = Der Dau-<lb/>phin folgte um 1. Uhr eben desselbigen Tages , und die Printzeßinnen um 5. Uhr nach .
+1	Der	d	_	ART	_	_	_	_	_	_	VF
+2	Dau-<lb/>phin	Dauphin	_	NN	_	_	_	_	_	_	VF
+3	folgte	folgen	_	VVFIN	_	_	_	_	_	LK	LK
+4	um	um	_	APPR	_	_	_	_	_	_	MF
+5	1.	1.	_	CARD	_	_	_	_	_	_	MF
+6	Uhr	Uhr	_	NN	_	_	_	_	_	_	MF
+7	eben	eben	_	ADV	_	_	_	_	_	_	MF
+8	desselbigen	dieselbige	_	PDAT	_	_	_	_	_	_	MF
+9	Tages	Tag	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	MF
+11	und	und	_	KON	_	_	_	_	_	_	MF
+12	die	d	_	ART	_	_	_	_	_	_	MF
+13	Printzeßinnen	Prinzessin	_	NN	_	_	_	_	_	_	MF
+14	um	um	_	APPR	_	_	_	_	_	_	MF
+15	5.	5.	_	CARD	_	_	_	_	_	_	MF
+16	Uhr	Uhr	_	NN	_	_	_	_	_	_	MF
+17	nach	nach	_	PTKVZ	_	_	_	_	_	RK	RK
+18	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 9
+# sent_id(TSV) = 13
+# text = Es geschahe dieses alles auf des Königs Beruf und Verlangen , welcher gerne die Königin und Königliche Familie sehen wollen .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	geschahe	geschehen	_	VVFIN	_	_	_	_	_	LK	LK
+3	dieses	diese	_	PDAT	_	_	_	_	_	_	MF
+4	alles	alle	_	PIS	_	_	_	_	_	_	MF
+5	auf	auf	_	APPR	_	_	_	_	_	_	MF
+6	des	d	_	ART	_	_	_	_	_	_	MF
+7	Königs	König	_	NN	_	_	_	_	_	_	MF
+8	Beruf	Beruf	_	NN	_	_	_	_	_	_	MF
+9	und	und	_	KON	_	_	_	_	_	_	MF
+10	Verlangen	Verlangen	_	NN	_	_	_	_	_	_	MF
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	welcher	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+13	gerne	gerne	_	ADV	_	_	_	_	_	_	NF-MF
+14	die	d	_	ART	_	_	_	_	_	_	NF-MF
+15	Königin	Königin	_	NN	_	_	_	_	_	_	NF-MF
+16	und	und	_	KON	_	_	_	_	_	_	NF-MF
+17	Königliche	königlich	_	ADJA	_	_	_	_	_	_	NF-MF
+18	Familie	Familie	_	NN	_	_	_	_	_	_	NF-MF
+19	sehen	sehen	_	VVINF	_	_	_	_	_	RK	NF-RK
+20	wollen	wollen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+21	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 10
+# sent_id(TSV) = 13
+# text = Se. Majest. hatten schon die Sacramenta der heili-<lb/>gen Kirche begehret , welche Jhnen auch der Bischof von Soissons gereichet .
+1	Se.	Se.	_	NN	_	_	_	_	_	_	VF
+2	Majest.	Majest.	_	NN	_	_	_	_	_	_	VF
+3	hatten	haben	_	VAFIN	_	_	_	_	_	LK	LK
+4	schon	schon	_	ADV	_	_	_	_	_	_	MF
+5	die	d	_	ART	_	_	_	_	_	_	MF
+6	Sacramenta	Sacramenta	_	NN	_	_	_	_	_	_	MF
+7	der	d	_	ART	_	_	_	_	_	_	MF
+8	heili-<lb/>gen	heilig	_	ADJA	_	_	_	_	_	_	MF
+9	Kirche	Kirche	_	NN	_	_	_	_	_	_	MF
+10	begehret	begehren	_	VVFIN	_	_	_	_	_	RK	RK
+11	,	,	_	$,	_	_	_	_	_	_	_
+12	welche	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+13	Jhnen	sie	_	PPER	_	_	_	_	_	_	NF-MF
+14	auch	auch	_	ADV	_	_	_	_	_	_	NF-MF
+15	der	d	_	ART	_	_	_	_	_	_	NF-MF
+16	Bischof	Bischof	_	NN	_	_	_	_	_	_	NF-MF
+17	von	von	_	APPR	_	_	_	_	_	_	NF-MF
+18	Soissons	Soissons	_	NE	_	_	_	_	_	_	NF-MF
+19	gereichet	gereichen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+20	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 11
+# sent_id(TSV) = 14
+# text = Jch weiß ihnen die gantz ausserordentliche Betrübtniß und das niedergeschlagene Wesen , welches man durch gantz Paris jedermann recht deutlich an der Stirn lesen können , nicht genungsam zu beschreiben .
+1	Jch	ich	_	PPER	_	_	_	_	_	_	VF
+2	weiß	wissen	_	VVFIN	_	_	_	_	_	LK	LK
+3	ihnen	sie	_	PPER	_	_	_	_	_	_	MF
+4	die	d	_	ART	_	_	_	_	_	_	MF
+5	gantz	ganz	_	ADV	_	_	_	_	_	_	MF
+6	ausserordentliche	außerordentlich	_	ADJA	_	_	_	_	_	_	MF
+7	Betrübtniß	Betrübtniß	_	NN	_	_	_	_	_	_	MF
+8	und	und	_	KON	_	_	_	_	_	_	MF
+9	das	d	_	ART	_	_	_	_	_	_	MF
+10	niedergeschlagene	niedergeschlagen	_	ADJA	_	_	_	_	_	_	MF
+11	Wesen	Wesen	_	NN	_	_	_	_	_	_	MF
+12	,	,	_	$,	_	_	_	_	_	_	MF
+13	welches	welche	_	PRELS	_	_	_	_	_	LK	MF-LK
+14	man	man	_	PIS	_	_	_	_	_	_	MF-MF
+15	durch	durch	_	APPR	_	_	_	_	_	_	MF-MF
+16	gantz	ganz	_	ADV	_	_	_	_	_	_	MF-MF
+17	Paris	Paris	_	NE	_	_	_	_	_	_	MF-MF
+18	jedermann	jedermann	_	PIS	_	_	_	_	_	_	MF-MF
+19	recht	recht	_	ADV	_	_	_	_	_	_	MF-MF
+20	deutlich	deutlich	_	ADJD	_	_	_	_	_	_	MF-MF
+21	an	an	_	APPR	_	_	_	_	_	_	MF-MF
+22	der	d	_	ART	_	_	_	_	_	_	MF-MF
+23	Stirn	Stirn	_	NN	_	_	_	_	_	_	MF-MF
+24	lesen	lesen	_	VVINF	_	_	_	_	_	RK	MF-RK
+25	können	können	_	VMFIN	_	_	_	_	_	RK	MF-RK
+26	,	,	_	$,	_	_	_	_	_	_	MF
+27	nicht	nicht	_	PTKNEG	_	_	_	_	_	_	MF
+28	genungsam	genugsam	_	ADJD	_	_	_	_	_	_	MF
+29	zu	zu	_	PTKZU	_	_	_	_	_	RK	RK
+30	beschreiben	beschreiben	_	VVINF	_	_	_	_	_	RK	RK
+31	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 12
+# sent_id(TSV) = 15
+# text = Die Liebe der Unterthanen gegen ihren König über-<lb/>steiget alles was man sich davon nur einbilden mag , man erblickte und hörte überall , wo man nur hinsahe , nichts als Seuffzer , Thränen , Weinen und Wehklagen in allen Departements des Staats .
+1	Die	d	_	ART	_	_	_	_	_	_	VF
+2	Liebe	Liebe	_	NN	_	_	_	_	_	_	VF
+3	der	d	_	ART	_	_	_	_	_	_	VF
+4	Unterthanen	Untertan	_	NN	_	_	_	_	_	_	VF
+5	gegen	gegen	_	APPR	_	_	_	_	_	_	VF
+6	ihren	ihr	_	PPOSAT	_	_	_	_	_	_	VF
+7	König	König	_	NN	_	_	_	_	_	_	VF
+8	über-<lb/>steiget	übersteigen	_	VVFIN	_	_	_	_	_	LK	LK
+9	alles	alle	_	PIS	_	_	_	_	_	_	MF
+10	was	was	_	PRELS	_	_	_	_	_	LK	NF-LK
+11	man	man	_	PIS	_	_	_	_	_	_	NF-MF
+12	sich	sich	_	PRF	_	_	_	_	_	_	NF-MF
+13	davon	davon	_	PAV	_	_	_	_	_	_	NF-MF
+14	nur	nur	_	ADV	_	_	_	_	_	_	NF-MF
+15	einbilden	einbilden	_	VVINF	_	_	_	_	_	RK	NF-RK
+16	mag	mögen	_	VMFIN	_	_	_	_	_	RK	NF-RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	man	man	_	PIS	_	_	_	_	_	_	VF
+19	erblickte	erblicken	_	VVFIN	_	_	_	_	_	LK	LK
+20	und	und	_	KON	_	_	_	_	_	LK	LK
+21	hörte	hören	_	VVFIN	_	_	_	_	_	LK	LK
+22	überall	überall	_	ADV	_	_	_	_	_	_	MF
+23	,	,	_	$,	_	_	_	_	_	_	MF
+24	wo	wo	_	PWAV	_	_	_	_	_	LK	MF-LK
+25	man	man	_	PIS	_	_	_	_	_	_	MF-MF
+26	nur	nur	_	ADV	_	_	_	_	_	_	MF-MF
+27	hinsahe	hinsehen	_	VVFIN	_	_	_	_	_	RK	MF-RK
+28	,	,	_	$,	_	_	_	_	_	_	MF
+29	nichts	nichts	_	PIS	_	_	_	_	_	_	MF
+30	als	als	_	KOKOM	_	_	_	_	_	_	MF
+31	Seuffzer	Seufzer	_	NN	_	_	_	_	_	_	MF
+32	,	,	_	$,	_	_	_	_	_	_	MF
+33	Thränen	Träne	_	NN	_	_	_	_	_	_	MF
+34	,	,	_	$,	_	_	_	_	_	_	MF
+35	Weinen	Wein	_	NN	_	_	_	_	_	_	MF
+36	und	und	_	KON	_	_	_	_	_	_	MF
+37	Wehklagen	Wehklagen	_	NN	_	_	_	_	_	_	MF
+38	in	in	_	APPR	_	_	_	_	_	_	MF
+39	allen	alle	_	PIAT	_	_	_	_	_	_	MF
+40	Departements	Departement	_	NN	_	_	_	_	_	_	MF
+41	des	d	_	ART	_	_	_	_	_	_	MF
+42	Staats	Staat	_	NN	_	_	_	_	_	_	MF
+43	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 13
+# sent_id(TSV) = 16
+# text = Man ließ auf denen Cantzeln und in denen Clöstern , Stifftungen ec. für den König bitten :
+1	Man	man	_	PIS	_	_	_	_	_	_	VF
+2	ließ	lassen	_	VVFIN	_	_	_	_	_	LK	LK
+3	auf	auf	_	APPR	_	_	_	_	_	_	MF
+4	denen	die	_	PDAT	_	_	_	_	_	_	MF
+5	Cantzeln	Kanzel	_	NN	_	_	_	_	_	_	MF
+6	und	und	_	KON	_	_	_	_	_	_	MF
+7	in	in	_	APPR	_	_	_	_	_	_	MF
+8	denen	die	_	PDAT	_	_	_	_	_	_	MF
+9	Clöstern	Kloster	_	NN	_	_	_	_	_	_	MF
+10	,	,	_	$,	_	_	_	_	_	_	MF
+11	Stifftungen	Stiftung	_	NN	_	_	_	_	_	_	MF
+12	ec.	Ec.	_	NN	_	_	_	_	_	_	MF
+13	für	für	_	APPR	_	_	_	_	_	_	MF
+14	den	d	_	ART	_	_	_	_	_	_	MF
+15	König	König	_	NN	_	_	_	_	_	_	MF
+16	bitten	bitten	_	VVINF	_	_	_	_	_	RK	RK
+17	:	:	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 14
+# sent_id(TSV) = 17
+# text = man eröffnete das 40stündige Gebeth , und das Par-<lb/>lament befahl sogar den Sarg der heiligen Genevieve zu eröffnen .
+1	man	man	_	PIS	_	_	_	_	_	_	VF
+2	eröffnete	eröffnen	_	VVFIN	_	_	_	_	_	LK	LK
+3	das	d	_	ART	_	_	_	_	_	_	MF
+4	40stündige	40stündige	_	ADJA	_	_	_	_	_	_	MF
+5	Gebeth	Gebet	_	NN	_	_	_	_	_	_	MF
+6	,	,	_	$,	_	_	_	_	_	_	_
+7	und	und	_	KON	_	_	_	_	_	_	KOORD
+8	das	d	_	ART	_	_	_	_	_	_	VF
+9	Par-<lb/>lament	Parlament	_	NN	_	_	_	_	_	_	VF
+10	befahl	befehlen	_	VVFIN	_	_	_	_	_	LK	LK
+11	sogar	sogar	_	ADV	_	_	_	_	_	_	MF
+12	den	d	_	ART	_	_	_	_	_	_	NF-MF
+13	Sarg	Sarg	_	NN	_	_	_	_	_	_	NF-MF
+14	der	d	_	ART	_	_	_	_	_	_	NF-MF
+15	heiligen	heilig	_	ADJA	_	_	_	_	_	_	NF-MF
+16	Genevieve	Genevieve	_	NE	_	_	_	_	_	_	NF-MF
+17	zu	zu	_	PTKZU	_	_	_	_	_	RK	NF-RK
+18	eröffnen	eröffnen	_	VVINF	_	_	_	_	_	RK	NF-RK
+19	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 15
+# sent_id(TSV) = 18
+# text = Den 16. ein viertel nach 8. Uhr gegen Abend traf ein abermahliger Courier von Metz ein , welcher einen Brief mitbrachte , daß der Zu-<lb/>stand Se. Maj. sich ziemlich verschlimmert , nebst allen den Umstän-<lb/>den , die gestern bereits gemeldet worden .
+1	Den	d	_	ART	_	_	_	_	_	_	VF
+2	16.	16.	_	ADJA	_	_	_	_	_	_	VF
+3	ein	eine	_	ART	_	_	_	_	_	_	VF
+4	viertel	viertel	_	NN	_	_	_	_	_	_	VF
+5	nach	nach	_	APPR	_	_	_	_	_	_	VF
+6	8.	8.	_	CARD	_	_	_	_	_	_	VF
+7	Uhr	Uhr	_	NN	_	_	_	_	_	_	VF
+8	gegen	gegen	_	APPR	_	_	_	_	_	_	VF
+9	Abend	Abend	_	NN	_	_	_	_	_	_	VF
+10	traf	treffen	_	VVFIN	_	_	_	_	_	LK	LK
+11	ein	eine	_	ART	_	_	_	_	_	_	MF
+12	abermahliger	abermalig	_	ADJA	_	_	_	_	_	_	MF
+13	Courier	Kurier	_	NN	_	_	_	_	_	_	MF
+14	von	von	_	APPR	_	_	_	_	_	_	MF
+15	Metz	Metz	_	NE	_	_	_	_	_	_	MF
+16	ein	ein	_	PTKVZ	_	_	_	_	_	RK	RK
+17	,	,	_	$,	_	_	_	_	_	_	_
+18	welcher	welche	_	PRELS	_	_	_	_	_	LK	NF-LK
+19	einen	eine	_	ART	_	_	_	_	_	_	NF-MF
+20	Brief	Brief	_	NN	_	_	_	_	_	_	NF-MF
+21	mitbrachte	mitbringen	_	VVFIN	_	_	_	_	_	RK	NF-RK
+22	,	,	_	$,	_	_	_	_	_	_	NF
+23	daß	daß	_	KOUS	_	_	_	_	_	LK	NF-NF-LK
+24	der	d	_	ART	_	_	_	_	_	_	NF-NF-MF
+25	Zu-<lb/>stand	Zustand	_	NN	_	_	_	_	_	_	NF-NF-MF
+26	Se.	Se.	_	NN	_	_	_	_	_	_	NF-NF-MF
+27	Maj.	Maj.	_	NN	_	_	_	_	_	_	NF-NF-MF
+28	sich	sich	_	PRF	_	_	_	_	_	_	NF-NF-MF
+29	ziemlich	ziemlich	_	ADV	_	_	_	_	_	_	NF-NF-MF
+30	verschlimmert	verschlimmern	_	VVPP	_	_	_	_	_	RK	NF-NF-RK
+31	,	,	_	$,	_	_	_	_	_	_	NF-NF
+32	nebst	nebst	_	APPR	_	_	_	_	_	_	NF-NF-NF
+33	allen	alle	_	PIS	_	_	_	_	_	_	NF-NF-NF
+34	den	d	_	ART	_	_	_	_	_	_	NF-NF-NF
+35	Umstän-<lb/>den	Umstand	_	NN	_	_	_	_	_	_	NF-NF-NF
+36	,	,	_	$,	_	_	_	_	_	_	NF-NF-NF
+37	die	die	_	PRELS	_	_	_	_	_	LK	NF-NF-NF-LK
+38	gestern	gestern	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+39	bereits	bereits	_	ADV	_	_	_	_	_	_	NF-NF-NF-MF
+40	gemeldet	melden	_	VVPP	_	_	_	_	_	RK	NF-NF-NF-RK
+41	worden	werden	_	VAPP	_	_	_	_	_	RK	NF-NF-NF-RK
+42	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 16
+# sent_id(TSV) = 19
+# text = Diese Zeitung verursach-<lb/>te vollends eine allgemeine unbeschreibliche Bestürtzung .
+1	Diese	diese	_	PDAT	_	_	_	_	_	_	VF
+2	Zeitung	Zeitung	_	NN	_	_	_	_	_	_	VF
+3	verursach-<lb/>te	verursachen	_	VVFIN	_	_	_	_	_	LK	LK
+4	vollends	vollends	_	ADV	_	_	_	_	_	_	MF
+5	eine	eine	_	ART	_	_	_	_	_	_	MF
+6	allgemeine	allgemein	_	ADJA	_	_	_	_	_	_	MF
+7	unbeschreibliche	unbeschreiblich	_	ADJA	_	_	_	_	_	_	MF
+8	Bestürtzung	Bestürzung	_	NN	_	_	_	_	_	_	MF
+9	.	.	_	$.	_	_	_	_	_	_	_
+
+# sent_id = 17
+# sent_id(TSV) = 20
+# text = Es be-<lb/>fanden sich auf 8. bis 9000 . Menschen damals an der Post , die mit gröster Ungedult und Unruhe auf die Ankunfft eines Couriers war-<lb/>teten , und denen bey ihrer Retour die Thränen in Augen stunden .
+1	Es	es	_	PPER	_	_	_	_	_	_	VF
+2	be-<lb/>fanden	befinden	_	VVFIN	_	_	_	_	_	LK	LK
+3	sich	sich	_	PRF	_	_	_	_	_	_	MF
+4	auf	auf	_	APPR	_	_	_	_	_	_	MF
+5	8.	8.	_	CARD	_	_	_	_	_	_	MF
+6	bis	bis	_	APPR	_	_	_	_	_	_	MF
+7	9000	9000	_	CARD	_	_	_	_	_	_	MF
+8	.	.	_	$.	_	_	_	_	_	_	MF
+9	Menschen	Mensch	_	NN	_	_	_	_	_	_	MF
+10	damals	damals	_	ADV	_	_	_	_	_	_	MF
+11	an	an	_	APPR	_	_	_	_	_	_	MF
+12	der	d	_	ART	_	_	_	_	_	_	MF
+13	Post	Post	_	NN	_	_	_	_	_	_	MF
+14	,	,	_	$,	_	_	_	_	_	_	_
+15	die	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+16	mit	mit	_	APPR	_	_	_	_	_	_	NF-MF
+17	gröster	groß	_	ADJA	_	_	_	_	_	_	NF-MF
+18	Ungedult	Ungeduld	_	NN	_	_	_	_	_	_	NF-MF
+19	und	und	_	KON	_	_	_	_	_	_	NF-MF
+20	Unruhe	Unruhe	_	NN	_	_	_	_	_	_	NF-MF
+21	auf	auf	_	APPR	_	_	_	_	_	_	NF-MF
+22	die	d	_	ART	_	_	_	_	_	_	NF-MF
+23	Ankunfft	Ankunft	_	NN	_	_	_	_	_	_	NF-MF
+24	eines	eine	_	ART	_	_	_	_	_	_	NF-MF
+25	Couriers	Kurier	_	NN	_	_	_	_	_	_	NF-MF
+26	war-<lb/>teten	warten	_	VVFIN	_	_	_	_	_	RK	NF-RK
+27	,	,	_	$,	_	_	_	_	_	_	NF
+28	und	und	_	KON	_	_	_	_	_	_	NF-KOORD
+29	denen	die	_	PRELS	_	_	_	_	_	LK	NF-LK
+30	bey	bei	_	APPR	_	_	_	_	_	_	NF-MF
+31	ihrer	ihr	_	PPOSAT	_	_	_	_	_	_	NF-MF
+32	Retour	retour	_	ADV	_	_	_	_	_	_	NF-MF
+33	die	d	_	ART	_	_	_	_	_	_	NF-MF
+34	Thränen	Träne	_	NN	_	_	_	_	_	_	NF-MF
+35	in	in	_	APPR	_	_	_	_	_	_	NF-MF
+36	Augen	Auge	_	NN	_	_	_	_	_	_	NF-MF
+37	stunden	Stunde	_	VVFIN	_	_	_	_	_	RK	NF-RK
+38	.	.	_	$.	_	_	_	_	_	_	_

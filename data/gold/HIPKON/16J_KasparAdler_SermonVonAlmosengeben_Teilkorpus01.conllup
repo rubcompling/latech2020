@@ -1,0 +1,23 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC CAT CLEAN FOKUS GF IS POS SATZKLAMMER SATZSTATUS SentBrckt TopF UEBERLIEFERUNGSTRAEGER VERLINKUNG
+# sent_id = 1
+# text = ich bin verdor=ben mit dem selbigen gut.
+1	ich	_	_	PPER	_	_	_	_	_	NP	ich	_	SUBJ	_	PPER	_	MAINDECL	_	VF	26,06 ,verdor-	_
+2	bin	_	_	VAFIN	_	_	_	_	_	VP	bin	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	26,06 ,verdor-	_
+3	verdor=ben	_	_	VVPP	_	_	_	_	_	VP	verdorben	_	INF	_	VVPP	RE	MAINDECL	RK	RK	26,06 ,verdor-	_
+4	mit	_	_	APPR	_	_	_	_	_	PP	mit	BGR	PP-ADV	_	APPR	_	MAINDECL	_	NF	26,07-ben	UNLINK
+5	dem	_	_	ART	_	_	_	_	_	PP	dem	BGR	PP-ADV	_	DDA	_	MAINDECL	_	NF	26,07-ben	UNLINK
+6	selbigen	_	_	ADJA	_	_	_	_	_	PP	selbigen	BGR	PP-ADV	GIV-ACTIVE	ADJ	_	MAINDECL	_	NF	26,07-ben	UNLINK
+7	gut	_	_	NN	_	_	_	_	_	PP	gut	BGR	PP-ADV	GIV-ACTIVE	NA	_	MAINDECL	_	NF	26,07-ben	UNLINK
+8	.	_	_	$.	_	_	_	_	_	_	.	_	_	_	$_	_	MAINDECL	_	_	26,07-ben	_
+
+# sent_id = 2
+# text = so wirst |u es fin=den auff lange zeit /
+1	so	_	_	ADV	_	_	_	_	_	ADVP	so	_	ADVB	_	ADV	_	MAINDECL	_	VF	30,07, fin-	_
+2	wirst	_	_	VAFIN	_	_	_	_	_	VP	wirst	_	VFIN	_	VAFIN	LI	MAINDECL	LK	LK	30,07, fin-	_
+3	|u	_	_	PPER	_	_	_	_	_	NP	du	_	SUBJ	_	PPER	LI	MAINDECL	_	MF	30,07, fin-	_
+4	es	_	_	PPER	_	_	_	_	_	NP	es	_	DO	_	PPER	_	MAINDECL	_	MF	30,07, fin-	_
+5	fin=den	_	_	VVINF	_	_	_	_	_	VP	finden	NF	INF	_	VVINF	RE	MAINDECL	RK	RK	30,07, fin-	_
+6	auff	_	_	APPR	_	_	_	_	_	PP	auff	NF	PP-ADV	_	APPR	_	MAINDECL	_	NF	30,08, -den	UNLINK
+7	lange	_	_	ADJA	_	_	_	_	_	PP	lange	NF	PP-ADV	NA	ADJ	_	MAINDECL	_	NF	30,08, -den	UNLINK
+8	zeit	_	_	NN	_	_	_	_	_	PP	zeit	NF	PP-ADV	NA	NA	_	MAINDECL	_	NF	30,08, -den	UNLINK
+9	/	_	_	$,	_	_	_	_	_	_	/	_	_	_	$_	_	MAINDECL	_	_	30,08, -den	_
