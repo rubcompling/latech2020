@@ -14,6 +14,10 @@ The manually annotated data sets can be found in the `/data/gold/` folder. Inclu
 
 The data is available in [CoNLL-U Plus](https://universaldependencies.org/ext-format.html) format. The topological field annotations are located in the `TopF` column.
 
+## Parser model
+
+The trained grammar for the [Berkeley parser](https://github.com/slavpetrov/berkeleyparser) (v.1.7; Petrov et al., 2006) is included in the `models` folder.
+
 ## Additional material
 
 ### HIPKON POS to STTS mapping
