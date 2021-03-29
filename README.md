@@ -2,7 +2,7 @@
 
 This repository contains the manually annotated data sets and additional material for the paper:
 
-Katrin Ortmann (to appear). Automatic Topological Field Identification in (Historical) German Texts.
+Katrin Ortmann (2020). Automatic Topological Field Identification in (Historical) German Texts. In: Proceedings of the The 4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL), Barcelona, Spain (online), pp. 10-18. [PDF](https://www.aclweb.org/anthology/2020.latechclfl-1.2.pdf)
 
 ## Gold data
 
